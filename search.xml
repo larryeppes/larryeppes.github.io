@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Latex编辑展示页面</title>
+    <url>/2021/02/02/Latex%E7%BC%96%E8%BE%91%E5%B1%95%E7%A4%BA%E9%A1%B5%E9%9D%A2/</url>
+    <content><![CDATA[<h1 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h1><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Latex Code</th>
+<th style="text-align:center">Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">\alpha</td>
+<td style="text-align:center">$\alpha$</td>
+<td>\theta</td>
+<td>$\theta$</td>
+<td>\omicron</td>
+<td>$\omicron$</td>
+<td>\upsilon</td>
+<td>$\upsilon$</td>
+</tr>
+<tr>
+<td style="text-align:center">\beta</td>
+<td style="text-align:center">$\beta$</td>
+<td>\vartheta</td>
+<td>$\vartheta$</td>
+<td>\pi</td>
+<td>$\pi$</td>
+<td>\phi</td>
+<td>$\phi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\gamma</td>
+<td style="text-align:center">$\gamma$</td>
+<td>\iota</td>
+<td>$\iota$</td>
+<td>\varpi</td>
+<td>$\varpi$</td>
+<td>\varphi</td>
+<td>$\varphi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\delta</td>
+<td style="text-align:center">$\delta$</td>
+<td>\kappa</td>
+<td>$\kappa$</td>
+<td>\rho</td>
+<td>$\rho$</td>
+<td>\chi</td>
+<td>$\chi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varepsilon</td>
+<td style="text-align:center">$\varepsilon$</td>
+<td>\lambda</td>
+<td>$\lambda$</td>
+<td>\varrho</td>
+<td>$\varrho$</td>
+<td>\psi</td>
+<td>$\psi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\epsilon</td>
+<td style="text-align:center">$\epsilon$</td>
+<td>\mu</td>
+<td>$\mu$</td>
+<td>\sigma</td>
+<td>$\sigma$</td>
+<td>\omega</td>
+<td>$\omega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\zeta</td>
+<td style="text-align:center">$\zeta$</td>
+<td>\nu</td>
+<td>$\nu$</td>
+<td>\varsigma</td>
+<td>$\varsigma$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\eta</td>
+<td style="text-align:center">$\eta$</td>
+<td>\xi</td>
+<td>$\xi$</td>
+<td>\tau</td>
+<td>$\tau$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\Gamma</td>
+<td style="text-align:center">$\Gamma$</td>
+<td>\Lambda</td>
+<td>$\Lambda$</td>
+<td>\Sigma</td>
+<td>$\Sigma$</td>
+<td>\Psi</td>
+<td>$\Psi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\Delta</td>
+<td style="text-align:center">$\Delta$</td>
+<td>\Xi</td>
+<td>$\Xi$</td>
+<td>\Upsilon</td>
+<td>$\Upsilon$</td>
+<td>\Omega</td>
+<td>$\Omega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\Theta</td>
+<td style="text-align:center">$\Theta$</td>
+<td>\Pi</td>
+<td>$\Pi$</td>
+<td>\Phi</td>
+<td>$\Phi$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\varGamma</td>
+<td style="text-align:center">$\varGamma$</td>
+<td>\varLambda</td>
+<td>$\varLambda$</td>
+<td>\varSigma</td>
+<td>$\varSigma$</td>
+<td>\varPsi</td>
+<td>$\varPsi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varDelta</td>
+<td style="text-align:center">$\varDelta$</td>
+<td>\varXi</td>
+<td>$\varXi$</td>
+<td>\varUpsilon</td>
+<td>$\varUpsilon$</td>
+<td>\varOmega</td>
+<td>$\varOmega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varTheta</td>
+<td style="text-align:center">$\varTheta$</td>
+<td>\varPi</td>
+<td>$\varPi$</td>
+<td>\varPhi</td>
+<td>$\varPhi$</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+]]></content>
+      <categories>
+        <category>latex</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>latex</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2020年10月13日浏览器tab清理</title>
+    <url>/2021/02/01/2020%E5%B9%B410%E6%9C%8813%E6%97%A5%E6%B5%8F%E8%A7%88%E5%99%A8tab%E6%B8%85%E7%90%86/</url>
+    <content><![CDATA[<h1 id="Tabs"><a href="#Tabs" class="headerlink" title="Tabs"></a>Tabs</h1><ul>
+<li><p>[x] <a href="https://demo.jerryc.me/">Butterfly hexo 模板说明</a> </p>
+</li>
+<li><p>[ ] <a href="https://jstaf.github.io/2018/02/22/flstudio-on-linux.html">installing FL Studio on Linux</a> </p>
+</li>
+<li>[ ] <a href="https://github.com/jerryc127/hexo-theme-butterfly">hexo-theme-butterfly on github</a> </li>
+<li>[ ] <a href="https://www.cnblogs.com/pipci/p/10936665.html">Gnome Shell 扩展</a> </li>
+<li>[ ] <a href="https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet">gnome-shell-system-monitor-applet on git</a> </li>
+<li>[ ] <a href="https://github.com/mlutfy/hidetopbar">hidetopbar on git</a> </li>
+<li>[ ] <a href="https://www.jb51.net/LINUXjishu/43356.html">linux 下 tar.gz, tar, bz2, zip 的解压缩, 压缩命令小结</a> </li>
+<li>[ ] fedora alt tab merge window: 用`alt+`` 解决</li>
+<li>[ ] <a href="https://fedoramagazine.org/alt-tab-gnome-shell-extension/">Alternate Tab GNOME shell extension</a> on fedora magazine</li>
+<li>[ ] <a href="https://github.com/shadowsocks/ChinaDNS">ChinaDNS</a> on github</li>
+<li>[ ] search <code>easyocr</code> on github</li>
+<li>[ ] <a href="http://vim-latex.sourceforge.net/documentation/latex-suite.html#Tex_HotKeyMappings">edit latex in vim</a> </li>
+<li>[ ] <a href="https://devcenter.heroku.com/">Heroku Dev Center</a> </li>
+<li>[ ] <a href="https://github.com/Shirui816/vimrc">vimrc on github</a> </li>
+<li>[ ] <a href="https://mirrors.tuna.tsinghua.edu.cn/lyx/stable/2.3.x/">清华大学开源软件镜像源</a> </li>
+<li>[ ] manjaro 官网</li>
+<li>[ ] lyx 官网</li>
+<li>[ ] <a href="http://cncc.bingj.com/cache.aspx?q=fedora+dnf+repository+快&amp;d=4653399538798209&amp;mkt=zh-CN&amp;setlang=zh-CN&amp;w=gi2RecgdMh9EH0L3qjX60_VIaKe1bZAc">fedora dnf repository 快</a> Talk is cheap, Show me the code</li>
+<li>[ ] <a href="https://www.semanticscholar.org/paper/Generalized-Morrey-spaces-Sawano/218737e7152c5089832d4ff56c5c952be302e195?p2df">Generalized Morrey spaces</a> on semantic scholar</li>
+<li>[ ] <a href="https://file.librehat.com/">shadowsocks</a> </li>
+<li>[ ] <a href="https://copr.fedorainfracloud.org/">fedora copr</a> </li>
+<li>[ ] <a href="https://copr-be.cloud.fedoraproject.org/">copr too</a> </li>
+<li>[ ] <a href="https://blog.csdn.net/yaoyutian/article/details/90741077">Debian cinnamon 搜狗输入法</a> on CSDN</li>
+<li>[ ] hexo 官网</li>
+<li>[ ] <a href="https://fcitx-im.org/wiki/Fcitx/zh-hans">Fcitx 输入法</a> </li>
+<li>[ ] <a href="https://www.npmjs.com/search?q=baidu">npm 库</a> </li>
+<li>[ ] bing 搜索镜像站</li>
+<li>[ ] <a href="https://zhuanlan.zhihu.com/p/113554606">国内开源镜像站总览</a> </li>
+<li>[ ] <a href="https://fcitx-im.org/wiki/Install_and_Configure/zh-hans">fcitx 安装和配置</a> 来自官网的说明</li>
+<li>[ ] <a href="https://mirrors.tuna.tsinghua.edu.cn/">清华大学开源软件镜像站</a> </li>
+<li>[ ] <a href="http://mirrors.ustc.edu.cn/">关于反向代理列表</a> </li>
+<li>[ ] <a href="https://developer.aliyun.com/group/mirror?spm=a2c6h.13651102.0.0.3e221b11Rcfk1J#/?_k=v68hmc">阿里云镜像站</a> </li>
+<li>[ ] <a href="https://mirrors.huaweicloud.com/">华为开源镜像站</a> </li>
+<li>[ ] github 镜像站 bing 搜索</li>
+<li>[ ] <a href="https://developer.aliyun.com/mirror/kubernetes?spm=a2c6h.13651102.0.0.51441b11JA3tn4">阿里云 Kubernetes 镜像</a> </li>
+<li>[ ] <a href="https://www.yyhy.me/202.html">烟雨寒云 blog</a> </li>
+<li>[ ] gitlab </li>
+</ul>
+]]></content>
+      <categories>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>tmp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在hexo的自定义配置</title>
+    <url>/2021/02/01/%E5%9C%A8hexo%E7%9A%84mathjax%E4%B8%AD%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AELaTeX%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h1 id="自定义配置mathjax"><a href="#自定义配置mathjax" class="headerlink" title="自定义配置mathjax"></a>自定义配置mathjax</h1><p>首先根据baidu出来的信息, 找到<a href="https://www.jianshu.com/p/7ab21c7f0674">简书</a>上的教程, 然后在参考<a href="http://docs.mathjax.org/en/latest/input/tex/extensions/configmacros.html#tex-configmacros">MathJax官方教程</a>在本地找到文件<code>[blog path]/themes/butterfly/layout/includes/third-party/math/mathjax.pug</code>进行修改, 为了防止链接实效, 将简要步骤叙述如下:</p>
+<h2 id="step-1"><a href="#step-1" class="headerlink" title="step 1"></a>step 1</h2><p>更换Hexo的markdown渲染引擎, <code>hexo-renderer-kramed引擎</code>是在默认的<code>渲染引擎hexo-renderer-marked</code>的基础上修改了一些bug, 两者比较接近, 也比较轻量级.</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-renderer-marked --save</span><br><span class="line">npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure>
+<p>执行上面的命令即可, 先卸载原来的渲染引擎, 再安装新的. 更换引擎后行间公式可以正确渲染了, 但是这样还没有完全解决问题, 行内公式的渲染还是有问题, 因为<code>hexo-renderer-kramed引擎</code>也有语义冲突的问题. 接下来到博客根目录下, 找到<code>node_modules\kramed\lib\rules\inline.js</code>, 把第11行的escape变量的值做相应的修改：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">// escape: /^\\([\\`*&#123;&#125;\[\]()#$+\-.!_&gt;])/,</span><br><span class="line">escape: /^\\([`*\[\]()#$+\-.!_&gt;])/,</span><br></pre></td></tr></table></figure>
+<p>这一步是在原基础上取消了对\,{,}的转义(escape).<br>同时把第20行的<code>em</code>变量也要做相应的修改.</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">// em: /^\b_((?:__|[\s\S])+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br><span class="line">em: /^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br></pre></td></tr></table></figure>
+<p>重新启动hexo(先clean再generate), 问题完美解决. </p>
+<h2 id="step-2"><a href="#step-2" class="headerlink" title="step 2"></a>step 2</h2><p>参考<a href="http://docs.mathjax.org/en/latest/input/tex/extensions/configmacros.html#tex-configmacros">MathJax官方教程</a>, 在本地找到文件<code>[blog path]/themes/butterfly/layout/includes/third-party/math/mathjax.pug</code>进行添加以下行:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">...</span><br><span class="line">window.MathJax = &#123;</span><br><span class="line">	loader: &#123;</span><br><span class="line">		source: &#123; ... &#125;,</span><br><span class="line">		load: [&#x27;[tex]/configmacros&#x27;]</span><br><span class="line">	&#125;,</span><br><span class="line">	tex: &#123;</span><br><span class="line">		packages: &#123;&#x27;[+]&#x27;: [&#x27;configmacros&#x27;]&#125;,</span><br><span class="line">		inlineMath: ...,</span><br><span class="line">		tags: ...,</span><br><span class="line">		macros: &#123;</span><br><span class="line">			RR: &#x27;\\mathbb&#123;R&#125;&#x27;,</span><br><span class="line">			ud: &#x27;\\mathrm&#123;d&#125;&#x27;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<p>如此便可以在hexo编写数学公式时使用自定义宏<code>\ud</code>和<code>\RR</code>来分别表示正体积分微元符号<code>d</code>和花写实数集<code>R</code>.</p>
+<h1 id="自定义配置搜索"><a href="#自定义配置搜索" class="headerlink" title="自定义配置搜索"></a>自定义配置搜索</h1><p>在blog根目录执行以下代码:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+<p>在<code>_config.yml</code>文件中新增以下代码段</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure>
+<p>在hexo博客所选择的主题, 比如<code>_config.yml</code>, 中增加以下配置即可</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> Local search</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> Dependencies: https://github.com/flashlab/hexo-generator-search</span></span><br><span class="line">local_search:</span><br><span class="line">  enable: true</span><br><span class="line"><span class="meta">  #</span><span class="bash"> <span class="keyword">if</span> auto, trigger search by changing input</span></span><br><span class="line"><span class="meta">  #</span><span class="bash"> <span class="keyword">if</span> manual, trigger search by pressing enter key or search button</span></span><br><span class="line">  trigger: auto</span><br><span class="line"><span class="meta">  #</span><span class="bash"> show top n results per article, show all results by setting to -1</span></span><br><span class="line">  top_n_per_article: 1</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>mathjax</category>
+      </categories>
+      <tags>
+        <tag>latex</tag>
+        <tag>hexo</tag>
+        <tag>blog</tag>
+        <tag>mathjax</tag>
+        <tag>search</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第一个hexo日志</title>
+    <url>/2021/02/01/%E7%AC%AC%E4%B8%80%E4%B8%AAhexo%E6%97%A5%E5%BF%97/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ cd blog</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+<p>新建一个文件, 然后发布到github上去</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo new &quot;第一个hexo日志&quot;</span><br><span class="line">INFO  Created: ~&#x2F;blog&#x2F;source&#x2F;_posts&#x2F;第一个hexo日志.md</span><br><span class="line">$ vim ~&#x2F;blog&#x2F;source&#x2F;_posts&#x2F;第一个hexo日志.md</span><br><span class="line">$ npm install hexo-deployer-git --save</span><br><span class="line">$ vim _config.yml</span><br><span class="line">$ cat _config.yml</span><br><span class="line">...</span><br><span class="line">title: Larry_Eppes&#39;s Trivia Collection Site</span><br><span class="line">keywords: MATH, COMPUTER</span><br><span class="line">author: Larry Eppes</span><br><span class="line">language: en</span><br><span class="line">timezone: &#39;Asia&#x2F;Shanghai&#39;</span><br><span class="line">...</span><br><span class="line">url: http:&#x2F;&#x2F;larryeppes.github.io</span><br><span class="line">...</span><br><span class="line">deploy:</span><br><span class="line">  type: &#39;git&#39;</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;larryeppes&#x2F;larryeppes.github.io</span><br><span class="line"></span><br><span class="line">$ hexo server</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http:&#x2F;&#x2F;localhost:4000&#x2F;. Press Ctrl+C to stop.</span><br><span class="line"></span><br><span class="line">$ hexo deploy --generate</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>微分概念中的反例</title>
+    <url>/2021/10/24/%E5%BE%AE%E5%88%86%E6%A6%82%E5%BF%B5%E4%B8%AD%E7%9A%84%E5%8F%8D%E4%BE%8B/</url>
+    <content><![CDATA[<h2 id="反例-不能是某个函数导数的函数"><a href="#反例-不能是某个函数导数的函数" class="headerlink" title="反例: 不能是某个函数导数的函数."></a>反例: 不能是某个函数导数的函数.</h2><p>由达布介值定理, 这样的函数不能有第一类间断点, 所以符号函数即为反例.</p>
+<h2 id="反例-仅在一点可导的函数"><a href="#反例-仅在一点可导的函数" class="headerlink" title="反例: 仅在一点可导的函数."></a>反例: 仅在一点可导的函数.</h2><p>\[<br>f(x)=\begin{cases}<br>x^{2}, &amp; x\in\QQ\\<br>0, &amp; x\not\in\QQ<br>\end{cases}<br>\]<br>只在$x=0$处可导.</p>
+<h2 id="反例-f-x-在点-x-0-可导-不一定有-f-x-在-x-0-点的领域内的每个点处可导"><a href="#反例-f-x-在点-x-0-可导-不一定有-f-x-在-x-0-点的领域内的每个点处可导" class="headerlink" title="反例: $f(x)$在点$x_{0}$可导, 不一定有$f(x)$在$x_{0}$点的领域内的每个点处可导."></a>反例: $f(x)$在点$x_{0}$可导, 不一定有$f(x)$在$x_{0}$点的领域内的每个点处可导.</h2><p>同上</p>
+<h2 id="反例-在任何点的导数都不存在的函数"><a href="#反例-在任何点的导数都不存在的函数" class="headerlink" title="反例: 在任何点的导数都不存在的函数."></a>反例: 在任何点的导数都不存在的函数.</h2><p>\[<br>f(x)=\begin{cases}<br>x, &amp; x\in\QQ\\<br>0, &amp; x\not\in\QQ<br>\end{cases}<br>\]</p>
+<p>另外还有处处连续处处不可导的Weierstrass函数.</p>
+<h2 id="反例-f-x-在一点可导必然在该点连续-反之不真"><a href="#反例-f-x-在一点可导必然在该点连续-反之不真" class="headerlink" title="反例: $f(x)$在一点可导必然在该点连续, 反之不真."></a>反例: $f(x)$在一点可导必然在该点连续, 反之不真.</h2><p>同上, 或者$f(x)=|x|$处处连续, 但在$x=0$处不可导, 又比如<br>\[<br>f(x)=\begin{cases}<br>x, &amp; x\le0,\\<br>x\sin\frac{\pi}{x}, &amp; x&gt;0,<br>\end{cases}<br>\]<br>在$x=0$处连续, 但在$x=0$处不可导.</p>
+<h2 id="反例-在-n-个点-n-in-NN-处不可导的连续函数"><a href="#反例-在-n-个点-n-in-NN-处不可导的连续函数" class="headerlink" title="反例: 在$n$个点($n\in\NN$)处不可导的连续函数."></a>反例: 在$n$个点($n\in\NN$)处不可导的连续函数.</h2><p>$f(x)=\left(|x-a_{1}|+|x-a_{2}|+\cdots+|x-a_{n}|\right).$ </p>
+<h2 id="反例-处处连续处处不可导函数"><a href="#反例-处处连续处处不可导函数" class="headerlink" title="反例: 处处连续处处不可导函数."></a>反例: 处处连续处处不可导函数.</h2><p>处处连续, 无处单调, 处处不可导函数:<br>\[<br>f(x)=\sum_{n=1}^{\infty}f_{n}(x)=\sum_{n=1}^{\infty}\frac{f_{1}(4^{n-1}x)}{4^{n-1}},\quad x\in\RR,<br>\]<br>其中<br>\[<br>f_{1}(x)=\begin{cases}<br>|x|, &amp; |x|\le\frac{1}{2}\\<br>f_{1}(x+n), &amp; \mathrm{otherwise,}<br>\end{cases}<br>\]</p>
+<h2 id="反例-函数可导-但导函数不一定连续"><a href="#反例-函数可导-但导函数不一定连续" class="headerlink" title="反例: 函数可导, 但导函数不一定连续."></a>反例: 函数可导, 但导函数不一定连续.</h2><p>构造反例需要注意达布的介值定理,<br>\[<br>f(x)=\begin{cases}<br>x^{2}\sin\frac{1}{x}, &amp; x\ne0\\<br>0, &amp; x=0,<br>\end{cases}<br>\]<br>$f(x)$是处处可导的, 但$f’(x)$在$x=0$处是第二类间断点.</p>
+<h2 id="反例-若-f-x-g-x-均在-x-0-点不可导-但-f-x-g-x-有可能在-x-0-点可导"><a href="#反例-若-f-x-g-x-均在-x-0-点不可导-但-f-x-g-x-有可能在-x-0-点可导" class="headerlink" title="反例: 若$f(x)$, $g(x)$均在$x_{0}$点不可导, 但$f(x)+g(x)$有可能在$x_{0}$点可导."></a>反例: 若$f(x)$, $g(x)$均在$x_{0}$点不可导, 但$f(x)+g(x)$有可能在$x_{0}$点可导.</h2><p>$f(x)=\frac{x+|x|}{2}$, $g(x)=\frac{x-|x|}{2}$.</p>
+<h2 id="反例-若-f-x-g-x-均在-x-0-点不可导-但-f-x-cdot-g-x-有可能在-x-0-点可导"><a href="#反例-若-f-x-g-x-均在-x-0-点不可导-但-f-x-cdot-g-x-有可能在-x-0-点可导" class="headerlink" title="反例: 若$f(x)$, $g(x)$均在$x_{0}$点不可导, 但$f(x)\cdot g(x)$有可能在$x_{0}$点可导."></a>反例: 若$f(x)$, $g(x)$均在$x_{0}$点不可导, 但$f(x)\cdot g(x)$有可能在$x_{0}$点可导.</h2><p>$f(x)=g(x)=|x|$. </p>
+<h2 id="反例-若-f-x-g-x-其中之一在-x-0-点不可导-则它们的积-f-x-cdot-g-x-的可导性不确定"><a href="#反例-若-f-x-g-x-其中之一在-x-0-点不可导-则它们的积-f-x-cdot-g-x-的可导性不确定" class="headerlink" title="反例: 若$f(x)$, $g(x)$其中之一在$x_{0}$点不可导, 则它们的积$f(x)\cdot g(x)$的可导性不确定."></a>反例: 若$f(x)$, $g(x)$其中之一在$x_{0}$点不可导, 则它们的积$f(x)\cdot g(x)$的可导性不确定.</h2><p>$f(x)=x$, $g(x)=|x|$; $f(x)=1$, $g(x)=|x|$.</p>
+<h2 id="反例-若-f-x-在点-x-g-x-0-可导-而-g-x-在-x-0-点不可导-则函数-F-x-f-left-g-x-right-在点-x-0-的可导性不确定"><a href="#反例-若-f-x-在点-x-g-x-0-可导-而-g-x-在-x-0-点不可导-则函数-F-x-f-left-g-x-right-在点-x-0-的可导性不确定" class="headerlink" title="反例: 若$f(x)$在点$x=g(x_{0})$可导, 而$g(x)$在$x_{0}$点不可导, 则函数$F(x)=f\left[g(x)\right]$在点$x_{0}$的可导性不确定."></a>反例: 若$f(x)$在点$x=g(x_{0})$可导, 而$g(x)$在$x_{0}$点不可导, 则函数$F(x)=f\left[g(x)\right]$在点$x_{0}$的可导性不确定.</h2><p>$f(x)=x^{2}$, $g(x)=|x|$; $f(x)=x$, $g(x)=|x|$.</p>
+<h2 id="反例-若-f-x-在点-x-g-x-0-不可导-而-g-x-在点-x-0-可导-则-F-x-f-left-g-x-right-在点-x-0-处的可导性不确定"><a href="#反例-若-f-x-在点-x-g-x-0-不可导-而-g-x-在点-x-0-可导-则-F-x-f-left-g-x-right-在点-x-0-处的可导性不确定" class="headerlink" title="反例: 若$f(x)$在点$x=g(x_{0})$不可导, 而$g(x)$在点$x_{0}$可导, 则$F(x)=f\left[g(x)\right]$在点$x_{0}$处的可导性不确定."></a>反例: 若$f(x)$在点$x=g(x_{0})$不可导, 而$g(x)$在点$x_{0}$可导, 则$F(x)=f\left[g(x)\right]$在点$x_{0}$处的可导性不确定.</h2><p>$f(x)=|x|$, $g(x)=x^{2}$; $f(x)=|x|$, $g(x)=x$.</p>
+<h2 id="反例-若-f-x-在点-x-g-x-0-不可导-g-x-在-x-0-处也不可导-则-F-x-f-left-g-x-right-在点-x-0-处的可导性不确定"><a href="#反例-若-f-x-在点-x-g-x-0-不可导-g-x-在-x-0-处也不可导-则-F-x-f-left-g-x-right-在点-x-0-处的可导性不确定" class="headerlink" title="反例: 若$f(x)$在点$x=g(x_{0})$不可导, $g(x)$在$x_{0}$处也不可导, 则$F(x)=f\left[g(x)\right]$在点$x_{0}$处的可导性不确定."></a>反例: 若$f(x)$在点$x=g(x_{0})$不可导, $g(x)$在$x_{0}$处也不可导, 则$F(x)=f\left[g(x)\right]$在点$x_{0}$处的可导性不确定.</h2><p>$f(x)=2x+|x|$, $g(x)=\frac{2}{3}x-\frac{1}{3}|x|$; $f(x)=g(x)=|x|$.</p>
+<p>上面第一个的例子可以通过单调函数的反函数来构造, 这样的函数是大量存在的.</p>
+<h2 id="反例-若-f-x-在有限区间-a-b-上可微-且-lim-x-to-a-f-x-infty-但不一定有-lim-x-to-a-f’-x-infty"><a href="#反例-若-f-x-在有限区间-a-b-上可微-且-lim-x-to-a-f-x-infty-但不一定有-lim-x-to-a-f’-x-infty" class="headerlink" title="反例: 若$f(x)$在有限区间$(a,b)$上可微, 且$\lim_{x\to a}f(x)=\infty$, 但不一定有$\lim_{x\to a}f’(x)=\infty$."></a>反例: 若$f(x)$在有限区间$(a,b)$上可微, 且$\lim_{x\to a}f(x)=\infty$, 但不一定有$\lim_{x\to a}f’(x)=\infty$.</h2><p>$f(x)=\frac{1}{x}+\cos\frac{1}{x}$, $x\in\left(0,\frac{\pi}{2}\right)$,<br>这时候$f’(x)=-\frac{1}{x^{2}}+\frac{1}{x^{2}}\sin\frac{1}{x}$.</p>
+<h2 id="反例-若-f-x-在有限区间-a-b-上可微-且-lim-x-to-a-f’-x-infty-但不一定有-lim-x-to-a-f-x-infty"><a href="#反例-若-f-x-在有限区间-a-b-上可微-且-lim-x-to-a-f’-x-infty-但不一定有-lim-x-to-a-f-x-infty" class="headerlink" title="反例: 若$f(x)$在有限区间$(a,b)$上可微, 且$\lim_{x\to a}f’(x)=\infty$, 但不一定有$\lim_{x\to a}f(x)=\infty$."></a>反例: 若$f(x)$在有限区间$(a,b)$上可微, 且$\lim_{x\to a}f’(x)=\infty$, 但不一定有$\lim_{x\to a}f(x)=\infty$.</h2><p>$f(x)=\sqrt[3]{x}$, $x\in(0,b)$, $b&gt;0$, 此时$f’(x)=\frac{1}{3\sqrt[3]{x^{2}}}$.</p>
+<h2 id="反例-若-f-x-在-x-0-infty-上可微-且有-lim-x-to-infty-f-x-存在-但-lim-x-to-infty-f’-x-不一定存在"><a href="#反例-若-f-x-在-x-0-infty-上可微-且有-lim-x-to-infty-f-x-存在-但-lim-x-to-infty-f’-x-不一定存在" class="headerlink" title="反例: 若$f(x)$在$(x_{0},+\infty)$上可微, 且有$\lim_{x\to+\infty}f(x)$存在, 但$\lim_{x\to+\infty}f’(x)$不一定存在."></a>反例: 若$f(x)$在$(x_{0},+\infty)$上可微, 且有$\lim_{x\to+\infty}f(x)$存在, 但$\lim_{x\to+\infty}f’(x)$不一定存在.</h2><p>$f(x)=\frac{\sin x^{2}}{x}$, $x\in\left(0,+\infty\right)$, 此时$f’(x)=2\cos x^{2}-\frac{\sin x^{2}}{x^{2}}$.</p>
+<h2 id="反例-若有界函数-f-x-在-x-0-infty-上可微-且-lim-x-to-infty-f’-x-存在-但-lim-x-to-infty-f-x-不一定存在"><a href="#反例-若有界函数-f-x-在-x-0-infty-上可微-且-lim-x-to-infty-f’-x-存在-但-lim-x-to-infty-f-x-不一定存在" class="headerlink" title="反例: 若有界函数$f(x)$在$(x_{0},+\infty)$上可微, 且$\lim_{x\to+\infty}f’(x)$存在, 但$\lim_{x\to+\infty}f(x)$不一定存在."></a>反例: 若有界函数$f(x)$在$(x_{0},+\infty)$上可微, 且$\lim_{x\to+\infty}f’(x)$存在, 但$\lim_{x\to+\infty}f(x)$不一定存在.</h2><p>$f(x)=\cos(\ln x)$, $f’(x)=-\frac{\sin\ln x}{x}$; $f(x)=\ln x$, </p>
+<h2 id="反例-定义在无限区间-I-上的函数-f-x-在-I-上无界-但-f’-x-在-I-上不一定无界"><a href="#反例-定义在无限区间-I-上的函数-f-x-在-I-上无界-但-f’-x-在-I-上不一定无界" class="headerlink" title="反例: 定义在无限区间$I$上的函数$f(x)$, 在$I$上无界, 但$f’(x)$在$I$上不一定无界."></a>反例: 定义在无限区间$I$上的函数$f(x)$, 在$I$上无界, 但$f’(x)$在$I$上不一定无界.</h2><p>$f(x)=\ln x$.</p>
+<h2 id="反例-若-f-x-gt-g-x-但不一定有-f’-x-gt-g’-x"><a href="#反例-若-f-x-gt-g-x-但不一定有-f’-x-gt-g’-x" class="headerlink" title="反例: 若$f(x)&gt;g(x)$, 但不一定有$f’(x)&gt;g’(x)$."></a>反例: 若$f(x)&gt;g(x)$, 但不一定有$f’(x)&gt;g’(x)$.</h2><p>在相差一个常数的原函数中, 反例随处可见.</p>
+<h2 id="反例-分析-若-f-x-是可微函数-且-f’-x-在-a-infty-上有界-则-f-x-在-a-infty-上一致连续-但反之不真"><a href="#反例-分析-若-f-x-是可微函数-且-f’-x-在-a-infty-上有界-则-f-x-在-a-infty-上一致连续-但反之不真" class="headerlink" title="反例: (分析) 若$f(x)$是可微函数, 且$f’(x)$在$[a,+\infty)$上有界, 则$f(x)$在$[a,+\infty)$上一致连续, 但反之不真."></a>反例: (分析) 若$f(x)$是可微函数, 且$f’(x)$在$[a,+\infty)$上有界, 则$f(x)$在$[a,+\infty)$上一致连续, 但反之不真.</h2><p>$f(x)=\sqrt{x}$, $x\in[0,+\infty)$.</p>
+<h2 id="反例-单调函数的导数未必单调"><a href="#反例-单调函数的导数未必单调" class="headerlink" title="反例: 单调函数的导数未必单调."></a>反例: 单调函数的导数未必单调.</h2><p>显然, 导数处处存在的情况下应当处处非负, 与单调性无关. $f(x)=x+\sin x$, $x\in(0,+\infty)$.</p>
+<h2 id="反例-若函数-f-x-在点-x-0-点可导-则曲线-y-f-x-在点-x-0-f-x-0-存在切线-但若-f-x-在点-x-0-不可导-曲线-y-f-x-在点-x-0-f-x-0-处也可能有切线"><a href="#反例-若函数-f-x-在点-x-0-点可导-则曲线-y-f-x-在点-x-0-f-x-0-存在切线-但若-f-x-在点-x-0-不可导-曲线-y-f-x-在点-x-0-f-x-0-处也可能有切线" class="headerlink" title="反例: 若函数$f(x)$在点$x_{0}$点可导, 则曲线$y=f(x)$在点$(x_{0},f(x_{0}))$存在切线. 但若$f(x)$在点$x_{0}$不可导, 曲线$y=f(x)$在点$(x_{0},f(x_{0}))$处也可能有切线."></a>反例: 若函数$f(x)$在点$x_{0}$点可导, 则曲线$y=f(x)$在点$(x_{0},f(x_{0}))$存在切线. 但若$f(x)$在点$x_{0}$不可导, 曲线$y=f(x)$在点$(x_{0},f(x_{0}))$处也可能有切线.</h2><p>$f(x)=\sqrt[3]{x}$.</p>
+<h2 id="反例-f-x-在点-x-0-处连续-但在-x-0-点处既无右导数又无左导数"><a href="#反例-f-x-在点-x-0-处连续-但在-x-0-点处既无右导数又无左导数" class="headerlink" title="反例: $f(x)$在点$x_{0}$处连续, 但在$x_{0}$点处既无右导数又无左导数."></a>反例: $f(x)$在点$x_{0}$处连续, 但在$x_{0}$点处既无右导数又无左导数.</h2><p>\[<br>f(x)=\begin{cases}<br>x\sin\frac{1}{x}, &amp; x\ne0\\<br>0, &amp; x=0.<br>\end{cases}<br>\]</p>
+<h2 id="反例-函数-f-x-有有限极限-lim-x-to-a-f’-x-但-f-x-没有单侧导数-f’-a-0-f’-a-0"><a href="#反例-函数-f-x-有有限极限-lim-x-to-a-f’-x-但-f-x-没有单侧导数-f’-a-0-f’-a-0" class="headerlink" title="反例: 函数$f(x)$有有限极限$\lim_{x\to a}f’(x)$, 但$f(x)$没有单侧导数$f’(a+0)$, $f’(a-0)$."></a>反例: 函数$f(x)$有有限极限$\lim_{x\to a}f’(x)$, 但$f(x)$没有单侧导数$f’(a+0)$, $f’(a-0)$.</h2><p>\[<br>f(x)=\begin{cases}<br>\arctan\frac{1+x}{1-x}, &amp; x\ne1,\\<br>0, &amp; x=1.<br>\end{cases}<br>\]</p>
+<p><img src="\pic\2021102301.png" alt="2021102301"></p>
+<p>这个函数在$f(1+0)=-\frac{\pi}{2}$, $f(1-0)=\frac{\pi}{2}$, 有跳跃间断点. $f’(x)=\frac{1}{1+x^{2}}$,<br>所以$\lim_{x\to1}f’(x)=\frac{1}{2}$, 但$f’(1+0)$和$f’(1-0)$都不存在.</p>
+<h2 id="反例-可导的逆"><a href="#反例-可导的逆" class="headerlink" title="反例: 可导的逆"></a>反例: 可导的逆</h2><p>若函数$f(x)$可导, 则</p>
+<p>\[<br>\lim_{n\to\infty}n\left[f\left(x+\frac{1}{n}\right)-f(x)\right]=f’(x),\quad n=1,2,\cdots,<br>\]<br>但反之不成立.</p>
+<p>\[<br>f(x)=\begin{cases}<br>1, &amp; x\in\QQ\\<br>0, &amp; x\not\in\QQ,<br>\end{cases}<br>\]<br>当$x$为有理数时, $x+\frac{1}{n}$是有理数, 所以上面的极限为$0$, 但$f(x)$在有理点不连续也不可导.</p>
+<h2 id="反例-函数-f-x-的导数-f’-x-有限-但-f’-x-在一个闭区间上却无界"><a href="#反例-函数-f-x-的导数-f’-x-有限-但-f’-x-在一个闭区间上却无界" class="headerlink" title="反例: 函数$f(x)$的导数$f’(x)$有限, 但$f’(x)$在一个闭区间上却无界."></a>反例: 函数$f(x)$的导数$f’(x)$有限, 但$f’(x)$在一个闭区间上却无界.</h2><p>反例的意思是$f(x)$在任何点$x$处的导数都是有限数值, 但$f’(x)$仍然无界的情况</p>
+<p>\[<br>f(x)=\begin{cases}<br>x^{2}\sin\frac{1}{x^{2}}, &amp; x\ne0,\\<br>0, &amp; x=0,<br>\end{cases}<br>\]<br><img src="\pic\2021102302.png" alt="2021102302"></p>
+<p>则<br>\[<br>f’(x)=\begin{cases}<br>2x\sin\frac{1}{x^{2}}-\frac{2}{x}\cos\frac{1}{x^{2}}, &amp; x\ne0\\<br>0, &amp; x=0<br>\end{cases}<br>\]<br><img src="\pic\2021102303.png" alt="2021102303"></p>
+<h2 id="反例-罗尔定理"><a href="#反例-罗尔定理" class="headerlink" title="反例: 罗尔定理"></a>反例: 罗尔定理</h2><p>若$f(x)$满足:</p>
+<ol>
+<li><p>在闭区间$[a,b]$上连续;</p>
+</li>
+<li><p>在开区间$(a,b)$内可导;</p>
+</li>
+<li><p>$f(a)=f(b)$;</p>
+</li>
+</ol>
+<p>则在开区间$(a,b)$内至少存在一点$\xi$, 使得<br>\[<br>f’(\xi)=0<br>\]<br>定理的条件缺一不可.</p>
+<p>不满足1的反例:<br>\[<br>f(x)=\begin{cases}<br>\frac{1}{x}, &amp; x\ne0,\\<br>1, &amp; x=0.<br>\end{cases}<br>\]<br>在$a=0$, $b=1$的情况</p>
+<p>不满足2的反例: $f(x)=|x|$, $x\in[-1,1]$.</p>
+<p>不满足3的反例: $f(x)=\ln x$, $x\in[1,2]$. </p>
+<p>定理中的零点不唯一, 大多数三角函数皆为例子.</p>
+<h2 id="反例-拉格朗日中值定理"><a href="#反例-拉格朗日中值定理" class="headerlink" title="反例: 拉格朗日中值定理"></a>反例: 拉格朗日中值定理</h2><p>若$f(x)$满足以下条件:</p>
+<ol>
+<li><p>在闭区间$[a,b]$上连续;</p>
+</li>
+<li><p>在开区间$(a,b)$可导;</p>
+</li>
+</ol>
+<p>则在开区间$(a,b)$内至少有一点$\xi$, 使得<br>\[<br>f’(\xi)=\frac{f(b)-f(a)}{b-a}.<br>\]<br>定理的条件缺一不可.</p>
+<p>不满足1的反例: $f(x)=\frac{1}{x}$, $x\in(0,1)$, 但$f$在$0$或$1$的取值使$f$不连续时.</p>
+<p>不满足2的反例: $f(x)=|x|$, $x\in[-1,2]$. 选择这样的区间是为了和罗尔定理区别开来.</p>
+<h2 id="反例-拉格朗日中值定理的逆"><a href="#反例-拉格朗日中值定理的逆" class="headerlink" title="反例: 拉格朗日中值定理的逆"></a>反例: 拉格朗日中值定理的逆</h2><p>若$f(x)$在闭区间$[a,b]$上连续, 开区间$(a,b)$内可导, 则对于$(a,b)$内的任意两点$x_{1}$, $x_{2}$都有$x_{1}$与$x_{2}$之间的$\xi$, 使得<br>\[<br>f’(\xi)=\frac{f(x_{2})-f(x_{1})}{x_{2}-x_{1}},\quad\xi\in(x_{1},x_{2}).<br>\]<br>但若$f(x)$在开区间内有连续导数$f’(x)$, 对于$(a,b)$内任意的$\xi$, 不一定有两点$x_{1}$,<br>$x_{2}$, 使得<br>\[<br>f’(\xi)=\frac{f(x_{2})-f(x_{1})}{x_{2}-x_{1}},\quad\xi\in(x_{1},x_{2}).<br>\]</p>
+<p>如: $f(x)=x^{3}$, 取$\xi=0$.</p>
+<h2 id="反例-Cauchy中值定理"><a href="#反例-Cauchy中值定理" class="headerlink" title="反例: Cauchy中值定理"></a>反例: Cauchy中值定理</h2><p>若$f(x)$, $g(x)$在$[a,b]$上连续, 在$\left(a,b\right)$内可导, $g’(x)$在$(a,b)$内每一点都不为零, 则至少存在一点$\xi\in(a,b)$, 使得:<br>\[<br>\frac{f(b)-f(a)}{g(b)-g(a)}=\frac{f’(\xi)}{g’(\xi)}.<br>\]</p>
+<ol>
+<li><p>$f,g$之一在$[a,b]$上不连续的反例:<br>\[<br>f(x)=\begin{cases}<br>x, &amp; x\ne0,\\<br>2, &amp; x=0,<br>\end{cases}\quad g(x)=x.<br>\]<br>取$a=0$, $b=1$.</p>
+</li>
+<li><p>$f,g$之一在$(a,b)$内不可导的反例: $f(x)=|x|$, $g(x)=x$, $a=-1$, $b=1$.</p>
+</li>
+<li><p>存在$x_{0}\in(a,b)$, 使$g’(x_{0})=0$的反例: $f(x)=x^{2}$, $g(x)=x^{3}$,<br>$x\in[-1,1]$.</p>
+</li>
+</ol>
+<h2 id="反例-洛必达法则失效的极限"><a href="#反例-洛必达法则失效的极限" class="headerlink" title="反例: 洛必达法则失效的极限."></a>反例: 洛必达法则失效的极限.</h2><p>\[<br>\lim_{x\to0}\frac{x^{2}\sin\frac{1}{x}}{\sin x}.<br>\]</p>
+<h2 id="反例-对于任意的-x-in-a-b-有-f’-x-gt-0-则函数-f-x-在-a-b-内严格增加-反之不成立"><a href="#反例-对于任意的-x-in-a-b-有-f’-x-gt-0-则函数-f-x-在-a-b-内严格增加-反之不成立" class="headerlink" title="反例: 对于任意的$x\in(a,b)$, 有$f’(x)&gt;0$, 则函数$f(x)$在$(a,b)$内严格增加. 反之不成立."></a>反例: 对于任意的$x\in(a,b)$, 有$f’(x)&gt;0$, 则函数$f(x)$在$(a,b)$内严格增加. 反之不成立.</h2><p>$f(x)=x^{3}$, $x\in[-1,1]$.</p>
+<h2 id="反例-导数在某点大于零的可微函数-但在该点的任何领域内都不单调"><a href="#反例-导数在某点大于零的可微函数-但在该点的任何领域内都不单调" class="headerlink" title="反例: 导数在某点大于零的可微函数, 但在该点的任何领域内都不单调."></a>反例: 导数在某点大于零的可微函数, 但在该点的任何领域内都不单调.</h2><p>\[<br>f(x)=\begin{cases}<br>x+2x^{2}\sin\frac{1}{x}, &amp; x\ne0,\\<br>0, &amp; x=0,<br>\end{cases}<br>\]</p>
+<p><img src="\pic\2021102304.png" alt="2021102304"></p>
+<p>\[<br>f’(x)=\begin{cases}<br>1+4x\sin\frac{1}{x}-2\cos\frac{1}{x}, &amp; x\ne0,\\<br>1, &amp; x=0,<br>\end{cases}<br>\]</p>
+<p><img src="\pic\2021102305.png" alt="2021102305"></p>
+<p>有$f’(0)=1&gt;0$, 但$f’(x)$在$x=0$附近符号高频变动.</p>
+<h2 id="反例-若函数-f-x-在-a-infty-内可导-且-lim-x-to-infty-f’-x-A-则-lim-x-to-infty-frac-f-x-x-A-反之不对"><a href="#反例-若函数-f-x-在-a-infty-内可导-且-lim-x-to-infty-f’-x-A-则-lim-x-to-infty-frac-f-x-x-A-反之不对" class="headerlink" title="反例: 若函数$f(x)$在$(a,+\infty)$内可导, 且$\lim_{x\to+\infty}f’(x)=A$, 则$\lim_{x\to+\infty}\frac{f(x)}{x}=A$. 反之不对."></a>反例: 若函数$f(x)$在$(a,+\infty)$内可导, 且$\lim_{x\to+\infty}f’(x)=A$, 则$\lim_{x\to+\infty}\frac{f(x)}{x}=A$. 反之不对.</h2><p>$f(x)=\sin x$, $x\in(a,+\infty)$. 大多数有界周期函数.</p>
+<h2 id="反例-函数-f-x-的极值点必是稳定点-反之不对"><a href="#反例-函数-f-x-的极值点必是稳定点-反之不对" class="headerlink" title="反例: 函数$f(x)$的极值点必是稳定点. 反之不对."></a>反例: 函数$f(x)$的极值点必是稳定点. 反之不对.</h2><p>$f(x)=x^{3}$, $x\in\RR$.</p>
+<h2 id="反例-不可导点可能是极值点"><a href="#反例-不可导点可能是极值点" class="headerlink" title="反例: 不可导点可能是极值点."></a>反例: 不可导点可能是极值点.</h2><h2 id="反例-函数-f-x-在-x-0-点有极大值-但在此点领域内-f-x-不一定在-x-0-左侧单调上升-右侧单调下降的情况"><a href="#反例-函数-f-x-在-x-0-点有极大值-但在此点领域内-f-x-不一定在-x-0-左侧单调上升-右侧单调下降的情况" class="headerlink" title="反例: 函数$f(x)$在$x_{0}$点有极大值, 但在此点领域内$f(x)$不一定在$x_{0}$左侧单调上升, 右侧单调下降的情况."></a>反例: 函数$f(x)$在$x_{0}$点有极大值, 但在此点领域内$f(x)$不一定在$x_{0}$左侧单调上升, 右侧单调下降的情况.</h2><p>\[<br>f(x)=\begin{cases}<br>2-x^{2}\left(2+\sin\frac{1}{x}\right), &amp; x\ne0\\<br>2, &amp; x=0<br>\end{cases}<br>\]</p>
+<p><img src="/pic/2021102306.png" alt="2021102306"></p>
+<h2 id="反例-拐点处不一定有-f’’-x-0-0"><a href="#反例-拐点处不一定有-f’’-x-0-0" class="headerlink" title="反例: 拐点处不一定有$f’’(x_{0})=0$."></a>反例: 拐点处不一定有$f’’(x_{0})=0$.</h2><p>拐点只是凹凸性变化的连接点, 甚至不一定有二阶导数.</p>
+<h2 id="反例-拐点处不一定有切线"><a href="#反例-拐点处不一定有切线" class="headerlink" title="反例: 拐点处不一定有切线."></a>反例: 拐点处不一定有切线.</h2><p>同上</p>
+<hr>
+<p>reference: 《数学分析中的反例》</p>
+]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>微积分</tag>
+        <tag>反例</tag>
+      </tags>
+  </entry>
+</search>

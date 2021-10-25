@@ -82,6 +82,317 @@ x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>时, 称$x$关�
       </tags>
   </entry>
   <entry>
+    <title>Hilbert空间中的定理</title>
+    <url>/2021/10/25/Hilbert%E7%A9%BA%E9%97%B4%E4%B8%AD%E7%9A%84%E5%AE%9A%E7%90%86/</url>
+    <content><![CDATA[<blockquote>
+<p>定理: 设$H$是内积空间, 则对于任何$x,y\in H$, </p>
+<script type="math/tex; mode=display">\left|\left(x,y\right)\right|^{2}\le\left(x,x\right)\left(y,y\right).</script></blockquote>
+<hr>
+<blockquote>
+<p>定理: 设$H$是内积空间, $\norm{x}=\sqrt{\left(x,x\right)}$, 则$\norm{\cdot}$是$H$上的一个范数.<br>这样的范数称为是由内积诱导出的范数.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>定理: 设$H$是内积空间, 则内积关于两个变元都是连续的, 即当$x_{n}\to x_{0}$, $y_{n}\to y_{0}$时, $\left(x_{n},y_{n}\right)\to\left(x,y\right)$.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>定理: (<strong>极化恒等式</strong>) 当$H$是实内积空间时, </p>
+<script type="math/tex; mode=display">
+\left(x,y\right)=\frac{1}{4}\left(\norm{x+y}^{2}-\norm{x-y}^{2}\right),\quad x,y\in H.</script><p>当$H$是复内积空间时, </p>
+<script type="math/tex; mode=display">
+\left(x,y\right)=\frac{1}{4}\left(\norm{x+y}^{2}-\norm{x-y}^{2}+\ui\norm{x+\ui y}^{2}-\ui\norm{x-\ui y}^{2}\right),\quad x,y\in H.</script></blockquote>
+<hr>
+<blockquote>
+<p>定理: (<strong>平行四边形公式</strong>) 设$H$是内积空间, $\norm{\cdot}$是由内积导出的范数, 则对于任何$x,y\in H$, 有</p>
+<script type="math/tex; mode=display">\norm{x+y}^{2}+\norm{x-y}^{2}=2\left(\norm{x}^{2}+\norm{y}^{2}\right).</script></blockquote>
+<hr>
+<blockquote>
+<p>命题: 设$H$是赋范线性空间, 其上的范数为$\norm{\cdot}$, 且对$H$中的任何元素$x,y$, 均有</p>
+<script type="math/tex; mode=display">
+\norm{x+y}^{2}+\norm{x-y}^{2}=2\left(\norm{x}^{2}+\norm{y}^{2}\right),</script><p>即平行四边形公式成立, 则在$H$上可以定义内积$\left(\cdot,\cdot\right)$, 使得$\norm{\cdot}$是由此内积诱导出来的.</p>
+<blockquote>
+<p>证明: 只考虑实的情况, 根据极化恒等式, 定义</p>
+<script type="math/tex; mode=display">
+\left(x,y\right)=\frac{1}{4}\left(\norm{x+y}^{2}-\norm{x-y}^{2}\right),</script><p>则$\left(y,x\right)=\left(x,y\right)$; $(x,x)\ge0$; $(x,x)=0$ iff $\norm{x}=0$, iff $x=0$. 另外</p>
+<script type="math/tex; mode=display">
+\left(x,z\right)+\left(y,z\right)=\frac{1}{4}\left(\norm{x+z}^{2}-\norm{x-z}^{2}+\norm{y+z}^{2}-\norm{y-z}^{2}\right),</script><p>由平行四边形公式</p>
+<script type="math/tex; mode=display">
+\left(x,z\right)+\left(y,z\right)=\frac{1}{2}\left(\norm{\frac{x+y}{2}+z}^{2}-\norm{\frac{x+y}{2}-z}^{2}\right)=2\left(\frac{x+y}{2},z\right),</script><p>容易知道$\left(0,z\right)=0$, 当$y=0$时, </p>
+<script type="math/tex; mode=display">
+\left(x,z\right)=2\left(\frac{x}{2},z\right)</script><p>从而</p>
+<script type="math/tex; mode=display">
+\left(x,z\right)+\left(y,z\right)=\left(x+y,z\right),</script><p>故对于给定的$x,z\in H$, 定义$f(t)=f_{x,z}(t)=\left(tx,z\right)$, $t\in\RR$,<br>满足$f(t+s)=f(t)+f(s)$, 且容易验证$f(t)$关于$t$连续, 故$f(t)=tf(1)$, 即对于任何$x,z\in H$,<br>$(tx,z)=t(x,z)$. </p>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<p>命题: 设$H$是内积空间, $H’$是它的对偶空间, $f_{y}$表示$H$上的线性泛函$f_{y}(x)=(x,y)$,<br>$x\in H$. 如果映射$T:H\to H’$, $y\mapsto f_{y}$是双射, 则$H$是Hilbert空间. </p>
+<blockquote>
+<p>思路: $T$是等距映射, 由$T$是双射, $H$和$H’$是等距同构的, 而任何赋范线性空间的对偶空间总是完备的, 所以$H$完备.</p>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<p>命题: 设$H$是Hilbert空间, $A:H\to H$为线性算子, $D(A)=H$, 且满足$(Ax,y)=(x,Ay)$, $x,y\in H$. 则$A$是$H$上的有界线性算子. </p>
+<p>思路: 证明$A$是$H$上的闭算子, 然后使用闭图像定理.</p>
+</blockquote>
+<p>一些简单的习题:</p>
+<blockquote>
+<blockquote>
+<p>问题. 设$\left\{ x_{n}\right\} $是内积空间$H$中的一列点, 且对任意的$y\in H$, 有$(x_{n},y)\to(x,y)$, $n\to\infty$. 试证明: $\lim_{n\to\infty}x_{n}=x$的充要条件是$\lim_{n\to\infty}\norm{x_{n}}=\norm{x}$.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>问题. 设$H$是实内积空间, $x,y$为$H$中的非零元, 则$\norm{x+y}=\norm{x}+\norm{y}$的充要条件是存在$\lambda&gt;0$, 使得$y=\lambda x$.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>问题. 设$H$为复内积空间, $A$是$H$上的有界线性算子, 则</p>
+<script type="math/tex; mode=display">\begin{align*}
+(Ax,y) & =\frac{1}{4}[(A(x+y),x+y)-(A(x-y),x-y)+\ui(A(x+\ui y),x+\ui y)\\
+ & \qquad-\ui(A(x-\ui y),x-\ui y)].
+\end{align*}</script></blockquote>
+<hr>
+<blockquote>
+<p>问题. 设$H$为复内积空间, $A$是$H$上的有界线性算子, 若对于任意的$x\in H$, $(Ax,x)=0$, 则$A=0$, 即$A$为零算子.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>问题. 设$H_{1},H_{2},\cdots,H_{n},\cdots$是一列内积空间. 令</p>
+<script type="math/tex; mode=display">H=\left\{ \left\{ x_{n}\right\} \mid x_{n}\in H_{n},\sum_{n=1}^{\infty}\norm{x_{n}}^{2}<\infty\right\} ,</script><p>当$\left\{ x_{n}\right\} $, $\left\{ y_{n}\right\} \in H$时, 规定$\alpha\left\{ x_{n}\right\} +\beta\left\{ y_{n}\right\} =\left\{ \alpha x_{n}+\beta y_{n}\right\} $, 其中$\alpha,\beta$是数, </p>
+<script type="math/tex; mode=display">\left(\left\{ x_{n}\right\} ,\left\{ y_{n}\right\} \right)=\sum_{n=1}^{\infty}(x_{n},y_{n}).</script><p>证明$H$是内积空间. 又当$H_{n}$都是Hilbert空间时, 证明$H$也是Hilbert空间.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>问题. 设$T,S$为定义在整个Hilbert空间$H$上的线性算子, 且对于一切$x,y\in H$, 有</p>
+<script type="math/tex; mode=display">(Tx,y)=(x,Sy).</script><p>试证明: $T$和$S$都是有界的.</p>
+<blockquote>
+<p>简证: $x_{n}\to x$, $Tx_{n}\to z$, 对于任意的$y$, $(Tx_{n},y)\to(z,y)$,<br>$(x_{n},Sy)\to(x,Sy)=(Tx,y)$, 故$(Tx-z,y)=0$恒成立, 所以$T$是闭算子, 由闭图像定理,<br>$T$是有界算子.</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<p>命题: 设$M,N$是内积空间$H$中两个非空子集, 则</p>
+<p>1). $M^{\perp}$是$H$的闭线性子空间.</p>
+<p>2). 若$M\subset N$, 则$N^{\perp}\subset M^{\perp}$.</p>
+<p>3). $M\subset M^{\perp\perp}$.</p>
+<p>4). $M\cap M^{\perp}=\emptyset$或$\left\{ 0\right\} $.</p>
+<p>5). $M^{\perp}=\left(\overline{\mathrm{spanM}}\right)^{\perp}$, 其中$\overline{\mathrm{span}M}$表示$M$的线性闭包.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>性质: 如果$x$在$M$上有投影, 则投影唯一.</p>
+<blockquote>
+<p>反证法, 设$x_{0}$和$x_{0}’$都是$x$在$M$上的投影, 则$x-x_{0}\perp M$, $x-x_{0}’\perp M$.<br>从而$x_{0}-x_{0}’\perp M$, 再利用$M$是线性子空间, $x_{0}-x_{0}’\in M\cap M^{\perp}$,<br>所以$x_{0}=x_{0}’$.</p>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<p>定理: 设$M$是内积空间$H$的线性子空间, $x\in H$, $x_{0}\in M$, 则</p>
+<script type="math/tex; mode=display">\norm{x-x_{0}}=\inf_{y\in M}\norm{x-y}</script><p>成立的充要条件是$x_{0}$为$x$在$M$上的投影.</p>
+<blockquote>
+<p>这个定理是以$x_{0}$的确存在为前提, 命题的任何一个方向都不能保证对于任何$x\in H$, $x$在$M$上一定存在投影.</p>
+<p>证明: 充分性: $x-y=(x-x_{0})+(x_{0}-y)$, $x-x_{0}\in M^{\perp}$, $x_{0}-y\in M$, 由勾股定理即得.</p>
+<p>必要性: 对任意的$z\in M$, $z\ne0$. 对任何$\lambda$, 有$x_{0}+\lambda z\in M$,<br>所以</p>
+<script type="math/tex; mode=display">\begin{align*}
+\inf_{y\in M}\norm{x-y} & \le\norm{x-x_{0}-\lambda z}^{2}\\
+ & =\norm{x-x_{0}}^{2}-2\mathrm{Re}(\overline{\lambda}(x-x_{0},z))+|\lambda|^{2}\norm{z}^{2}.
+\end{align*}</script><p>令$\lambda=\frac{(x-x_{0},z)}{\norm{z}^{2}}$, 就有</p>
+<script type="math/tex; mode=display">\inf_{y\in M}\norm{x-y}\le\norm{x-x_{0}}^{2}-\frac{|(x-x_{0},z)|^{2}}{\norm{z}^{2}}.</script><p>在利用条件, 所以对于任意的$z\in M$, $(x-x_{0},z)=0$, $x-x_{0}\perp M$.</p>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<p>定理: (<strong>变分引理</strong>) 设$H$是内积空间, $M$是$H$中的非空凸集, 且完备, 且$H$按内积导出的范数完备, 则对于任何$x\in H$, 存在唯一的$x_{0}\in M$, 使得</p>
+<script type="math/tex; mode=display">\norm{x-x_{0}}=\inf_{y\in M}\norm{x-y}.</script><blockquote>
+<p>定义: 序列$\left\{ x_{n}\right\} $如果满足</p>
+<script type="math/tex; mode=display">\lim_{n\to\infty}\norm{x-x_{n}}=\inf_{y\in M}\norm{x-y},</script><p>则称这样的$\left\{ x_{n}\right\} $是极小化序列.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p> 证明: 设$\left\{ x_{n}\right\} $是极小化序列, 则平行四边形公式得到</p>
+<script type="math/tex; mode=display">0\le\norm{x_{n}-x_{m}}^{2}\le2(\norm{x_{n}-x}^{2}+\norm{x_{m}-x}^{2})-4\norm{\frac{x_{m}+x_{n}}{2}-x}^{2},</script><p>利用$M$的凸性, $d=\inf_{y\in M}\norm{x-y}$, 知$\frac{1}{2}(x_{m}+x_{n})\in M$, 且$\norm{\frac{x_{m}+x_{n}}{2}-x}\ge d$. 所以</p>
+<script type="math/tex; mode=display">0\le\norm{x_{n}-x_{m}}^{2}\le2(\norm{x_{n}-x}^{2}+\norm{x_{m}-x}^{2})-4d^{2},</script><p>所以$\left\{ x_{n}\right\} $是$H$中的Cauchy列. 利用$M$是$H$的完备子空间, 可知存在$x_{0}\in M$, 使$x_{n}\to x_{0}$, 所以</p>
+<script type="math/tex; mode=display">\norm{x-x_{0}}=\inf_{y\in M}\norm{x-y}.</script><p>如果$M$中另有元素$y_{0}$使得$\norm{x-y_{0}}=\inf_{y\in M}\norm{x-y}$, 则点列$x_{0},y_{0},x_{0},y_{0},\cdots$作为极小序列, 由上面的证明, 是Cauchy列, 从而$x_{0}=y_{0}$. </p>
+</blockquote>
+<p>上面最后的证明中不能使用在$M$上的投影的唯一性来证? 可以, 但要注意$M$是凸集, 而不是一个线性空间, 但是, $M$的线性闭包和$M$两个集合的正交补空间是相同的, 即$\overline{\mathrm{span}M}^{\perp}=M^{\perp}$, 所以必然有$x_{0}-y_{0}\in\overline{\mathrm{span}M}\cap\overline{\mathrm{span}M}^{\perp}$, 从而只能有$x_{0}=y_{0}$.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>定理: (<strong>投影定理</strong>) 设$M$是内积空间$H$的完备线性子空间, 则对于任何$x\in H$, $x$在$M$上的投影必存在唯一. 即, 有$x_{0}\in M$, $x_{1}\perp M$, 使$x=x_{0}+x_{1}$, 且这种分解是唯一的. 特别的, 当$x\in M$时, $x_{0}=x$.</p>
+<p>因为线性子空间是凸集.</p>
+<blockquote>
+<p>证明: 因为完备的线性子空间是完备的非空凸集, 由变分引理, 存在唯一的$x_{0}\in M$, 使得</p>
+<script type="math/tex; mode=display">\norm{x-x_{0}}=\inf_{y\in M}\norm{x-y}.</script><p>即$x_{0}$是$x$在$M$上的投影. </p>
+<p>当$x\in M$时, </p>
+<script type="math/tex; mode=display">\norm{x-x_{0}}=\inf_{y\in M}\norm{x-y}=0.</script></blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<p>推论: 设$M$是内积空间$H$的完备线性子空间, 且$M\ne H$, 则$M^{\perp}$中必有非零元.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p> 推论: 设$H$是Hilbert空间, $M$是$H$的线性子空间, 则$\overline{M}=M^{\perp\perp}$,<br>$\overline{M}$为$M$的闭包. 特别地, 如果$M^{\perp}=\left\{ 0\right\} $, 则$M$在$H$中稠密.</p>
+<blockquote>
+<p>证明分$\overline{M}\subset M^{\perp\perp}$和$M^{\perp\perp}\subset\overline{M}$两种情况.</p>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<p>命题: 设$H$是Hilbert空间, $M$是$H$的线性子空间. 如果任何$x\in H$在$M$上的投影$x_{0}$都存在, 则$M$必是$H$的闭子空间.</p>
+<blockquote>
+<p>证明: 设$\left\{ x_{n}\right\} \subset M$, $\lim x_{n}=x$, 只需证$x\in M$. 用投影定理, 存在$y_{0}\in M$, $y_{1}\perp M$使$x=y_{0}+y_{1}$. $(x_{n},y_{1})=0$推出$(x,y_{1})=0$, $(y_{0},y_{1})=0$, 所以$y_{1}=0$. 这说明$x=y_{0}\in M$.</p>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<p>命题: 设$H$是Hilbert空间, $M$为$H$的闭子空间, $x\in H$. 则</p>
+<script type="math/tex; mode=display">\min\left\{ \norm{x-z}\mid z\in M\right\} =\max\left\{ |(x,y)|\mid y\in M^{\perp},\ \norm{y}=1\right\} .</script><blockquote>
+<p>证明: 使用投影定理.</p>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<p>问题: 设$H=L^{2}\left[0,1\right]$是内积空间, $E$是$[0,1]$中的Lebsgue可测子集,</p>
+<script type="math/tex; mode=display">M=\left\{ x\mid x\in H,x(t)=0,\ t\in E\right\} .</script><p>对任意的$x\in H$, $x$在$M$上的投影为</p>
+<script type="math/tex; mode=display">x_{0}(t)=x(t)(1-\chi_{E}(t)).</script></blockquote>
+<hr>
+<blockquote>
+<p>问题: 设$H$是实内积空间, 若$\norm{x+y}^{2}=\norm{x}^{2}+\norm{y}^{2}$, 则$x\perp y$当$H$是复内积空间时, 结论是否仍成立?</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>问题: 证明内积空间$H$中两个元素$x,y$垂直, iff, 对于任意$\alpha$, 有$\norm{x+\alpha y}\ge\norm{x}$.</p>
+<blockquote>
+<p>证明: 必要性是容易的. 充分性: 因为$\mathrm{span}\left\{ y\right\} $是$H$中的非空线性子空间,<br>容易知道</p>
+<script type="math/tex; mode=display">\norm{x-0}=\norm{x}\le\norm{x+\alpha y}.</script><p>两边同时取$\inf_{\alpha}$有</p>
+<script type="math/tex; mode=display">\norm{x-0}=\inf_{\alpha}\norm{x+\alpha y}=\inf_{z\in\mathrm{span}\left\{ y\right\} }\norm{x-z},</script><p>所以$x$在空间$\mathrm{span}\left\{ y\right\} $上的投影唯一且为$0$, $x=x-0\perp\mathrm{span}\left\{ y\right\} $,<br>即$x\perp y$.</p>
+<p>充分性2: 对于实内积空间, 对不等式两边平方, 使用内积展开</p>
+<script type="math/tex; mode=display">2\alpha(x,y)+\norm{y}^{2}\ge0,</script><p>若$(x,y)\ne0$, 上式左边可以看成变量为$\alpha$的直线方程, 它不可能恒非负.</p>
+<p>对于复内积空间, </p>
+<script type="math/tex; mode=display">2\mathrm{Re}\overline{\alpha}(x,y)+\norm{y}^{2}\ge0,</script><p>若$(x,y)\ne0$, 取$\alpha=-\frac{\norm{y}^{2}}{|(x,y)|^{2}}(x,y)$即可得出矛盾.</p>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<p>问题: 设$M$是内积空间$H$的非空子集. 则</p>
+<script type="math/tex; mode=display">M^{\perp}=M^{\perp\perp\perp}=\overline{M}^{\perp}.</script></blockquote>
+<hr>
+<blockquote>
+<p>问题: 设$M$是Hilbert空间$H$的非空子集, 证明: $M^{\perp\perp}$是$H$中包含$M$的最小闭子空间.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>问题: 设$M$和$N$是Hilbert空间$H$的两个正交闭子空间, 则: $M\oplus N$也是$H$的闭子空间.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>问题: 设$C[-1,1]$是实连续函数空间, 定义内积</p>
+<script type="math/tex; mode=display">(f,g)=\int_{-1}^{1}f(x)g(x)\ud x.</script><p>若记$M$为$C[-1,1]$中奇函数全体, $N$为$C[-1,1]$中偶函数全体, 证明: $C[-1,1]=M\oplus N$.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>问题: 设$H$为Hilbert空间, $M$是$H$的凸子集, $\left\{ x_{n}\right\} $是$M$中的一列点, 且</p>
+<script type="math/tex; mode=display">\lim_{n\to\infty}\norm{x_{n}}=\inf\left\{ \norm{x}\mid x\in M\right\} .</script><p>则$\left\{ x_{n}\right\} $是$H$中的收敛点列.</p>
+<blockquote>
+<p>证明参考变分引理.</p>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<p>命题: 设$e_{1},e_{2},\cdots,e_{n}$是内积空间$H$中的规范正交系, $M=\mathrm{span}\left\{ e_{1},e_{2},\cdots,e_{n}\right\} $, $x\in H$. 则</p>
+<p>1). <script type="math/tex">x_{0}=\sum_{i=1}^{n}(x,e_{i})e_{i}</script>是$x$在$M$上的投影, 且</p>
+<script type="math/tex; mode=display">\norm{x_{0}}^{2}=\sum_{i=1}^{n}\left|\left(x,e_{i}\right)\right|^{2}.</script><p>2). 对任何$\alpha_{1},\cdots,\alpha_{n}$, </p>
+<script type="math/tex; mode=display">\norm{x-\sum_{i=1}^{n}\alpha_{i}e_{i}}\ge\norm{x-\sum_{i=1}^{n}(x,e_{i})e_{i}}.</script><p>上式取等号当且仅当$\alpha_{i}=(x,e_{i})$, $i=1,2,\cdots,n$.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>定理: (<strong>Bessel不等式</strong>) 设$\mathscr{F}=\{e_{\lambda}\mid\lambda\in\Lambda\}$是内积空间$H$的规范正交系,<br>则对每个$x\in H$, $x$的Fourier系数集$\left\{ (x,e_{\lambda})\mid\lambda\in\Lambda\right\} $最多只有可列个不为零, 且</p>
+<script type="math/tex; mode=display">\sum_{\lambda\in\Lambda}\left|(x,e_{\lambda})\right|^{2}\le\norm{x}^{2}.</script></blockquote>
+<hr>
+<blockquote>
+<p>推论: 设$\left\{ e_{n}\right\} $是内积空间$H$中的规范正交系, 则对于任何$x\in H$, </p>
+<script type="math/tex; mode=display">\lim_{n\to\infty}\left(x,e_{n}\right)=0.</script></blockquote>
+<hr>
+<blockquote>
+<p>推论: (<strong>Riemann-Lebesgue引理</strong>) 对任何$f\in L^{2}[0,2\pi]$, 有</p>
+<script type="math/tex; mode=display">\lim_{n\to\infty}\int_{0}^{2\pi}f(x)\cos nx\ud x=\lim_{n\to\infty}f(x)\sin nx\ud x=0.</script></blockquote>
+<hr>
+<blockquote>
+<p>定理: 设$\mathscr{F}=\left\{ e_{\lambda}\mid\lambda\in\Lambda\right\} $是内积空间$H$中的规范正交系, $M$为$\mathscr{F}$张成的线性闭子空间, 则对于$x\in H$, 以下三个条件相互等价.</p>
+<p>1). $x\in M$.</p>
+<p>2). <script type="math/tex">\norm{x}^{2}=\sum_{\lambda\in\Lambda}\left|(x,e_{\lambda})\right|^{2}.</script></p>
+<p>3). <script type="math/tex">x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}.</script></p>
+</blockquote>
+<hr>
+<blockquote>
+<p>推论: (<strong>Steklov 定理</strong>)设$\mathscr{F}=\left\{ e_{\lambda}\mid\lambda\in\Lambda\right\} $是内积空间$H$中的规范正交系,<br>若有$H$的稠密子集$D$, 使得对$x\in D$都有Parseval等式成立, 则$\mathscr{F}$完备. </p>
+</blockquote>
+<hr>
+<blockquote>
+<p>定理: 设$\mathscr{F}=\left\{ e_{\lambda}\mid\lambda\in\Lambda\right\} $是Hilbert空间$H$的规范正交系<br>则$\mathscr{F}$完备的充要条件是$\mathscr{F}^{\perp}=\left\{ 0\right\} $.</p>
+<blockquote>
+<p>反例: 上述命题中$H$的完备性不可省去.</p>
+<p>在$L^{2}[0,2\pi]$中构造这样的$H$, 取</p>
+<script type="math/tex; mode=display">\mathscr{F}=\left\{ \frac{1}{\sqrt{\pi}}\cos t,\frac{1}{\sqrt{\pi}}\sin t,\cdots,\frac{1}{\sqrt{\pi}}\cos nt,\frac{1}{\sqrt{\pi}}\sin nt,\cdots\right\} ,</script><p>记</p>
+<script type="math/tex; mode=display">f_{0}(t)=1+\sum_{n=1}^{\infty}\frac{1}{n^{2}}\left(\frac{\cos nt}{\sqrt{\pi}}+\frac{\sin nt}{\sqrt{\pi}}\right)\in L^{2}.</script><p>令</p>
+<script type="math/tex; mode=display">H=\left\{ \alpha_{0}f_{0}+\sum_{\nu=1}^{n}\left(\alpha_{\nu}\cos\nu t+\beta_{\nu}\sin\nu t\right)\mid n>0,\alpha_{0},\alpha_{\nu},\beta_{\nu}\in\CC\right\} .</script><p>此时$f_{0}$不满足Parseval等式, $\mathscr{F}$在$H$中不完备.</p>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<p>命题: (<strong>Gram Schmidt正交化过程</strong>) 设$\left\{ x_{1},x_{2},\cdots\right\} $是内积空间$H$中有限个或可列个线性无关的向量,<br>则必有$H$中的规范正交系$\left\{ e_{1},e_{2},\cdots\right\} $, 使得对任何正整数$n$,<br>有</p>
+<script type="math/tex; mode=display">\mathrm{span}\left\{ e_{1},\cdots,e_{n}\right\} =\mathrm{span}\left\{ x_{1},\cdots,x_{n}\right\} .</script></blockquote>
+<hr>
+<blockquote>
+<p>定理: 每个非零的Hilbert空间必有完备规范正交系.</p>
+<blockquote>
+<p>证明不可分的情况: 用Zorn引理, 在$H$的所有规范正交系组成的集合中, 按照包含关系作为序关系, 则必有极大元$\mathscr{F}$. 则$\overline{\mathrm{span}\mathscr{F}}=H$, 否则, 必有规范向量$e\in H$, $e\perp\mathscr{F}$, 使$\mathscr{F}\cup\left\{ e\right\} $成为更大的$H$中的规范正交系, 矛盾.</p>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<p>命题: 设$H$为可分Hilbert空间, 则$H$中任何规范正交系至多是可列集.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>命题: 设$\left\{ e_{\lambda}\mid\lambda\in\Lambda\right\} $是Hilbert空间$H$中的规范正交系,<br>则$\left\{ e_{\lambda}\mid\lambda\in\Lambda\right\} $是完备规范正交系的充要条件是对任何$x\in H$,<br>$y\in H$, 有</p>
+<script type="math/tex; mode=display">\left(x,y\right)=\sum_{\lambda\in\Lambda}\left(x,e_{\lambda}\right)\left(e_{\lambda},y\right).</script></blockquote>
+<hr>
+<blockquote>
+<p>命题: $L^{2}[0,2\pi]$中</p>
+<script type="math/tex; mode=display">\left\{ \frac{1}{\sqrt{2}},\cos x,\sin x,\cdots,\cos nx,\sin nx,\cdots\right\}</script><p>是完备的规范正交系.</p>
+<blockquote>
+<p>证明在$L^{2}[0,2\pi]$的一个稠子集中有Parseval等式成立, 这个稠子集是三角多项式集.</p>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<p>问题: 设$\left\{ e_{1},e_{2},\cdots,e_{n},\cdots\right\} $是Hilbert空间$H$中的完备规范正交系, 又设$\left\{ f_{1},f_{2},\cdots,f_{n},\cdots\right\} $是$H$中的一个规范正交系, 且</p>
+<script type="math/tex; mode=display">\sum_{n=1}^{\infty}\norm{e_{n}-f_{n}}^{2}<1.</script><p>则$\left\{ f_{n}\right\} _{n-1}^{\infty}$也是$H$的完备规范正交系.</p>
+<blockquote>
+<p>证明用反证法. 设非零$f_{0}$, 满足$f_{0}\perp f_{n}$, $n=1,2,\cdots$. 则</p>
+<script type="math/tex; mode=display">\begin{align*}
+\norm{f_{0}}^{2} & =\sum_{i=1}^{\infty}\left|\left(f_{0},e_{i}\right)\right|^{2}\\
+ & =\sum\left|\left(f_{0},e_{i}-f_{i}\right)\right|^{2}\\
+ & \le\norm{f_{0}}^{2}\sum\norm{e_{i}-f_{i}}^{2}\\
+ & <\norm{f_{0}}^{2},
+\end{align*}</script><p> 矛盾.</p>
+</blockquote>
+</blockquote>
+]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+        <tag>泛函分析</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2020年10月13日浏览器tab清理</title>
     <url>/2021/02/01/2020%E5%B9%B410%E6%9C%8813%E6%97%A5%E6%B5%8F%E8%A7%88%E5%99%A8tab%E6%B8%85%E7%90%86/</url>
     <content><![CDATA[<h1 id="Tabs"><a href="#Tabs" class="headerlink" title="Tabs"></a>Tabs</h1><ul>
@@ -131,225 +442,6 @@ x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>时, 称$x$关�
       </categories>
       <tags>
         <tag>tmp</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hilbert空间中的定理</title>
-    <url>/2021/10/25/Hilbert%E7%A9%BA%E9%97%B4%E4%B8%AD%E7%9A%84%E5%AE%9A%E7%90%86/</url>
-    <content><![CDATA[<blockquote>
-<p>定理: 设$H$是内积空间, 则对于任何$x,y\in H$, </p>
-<script type="math/tex; mode=display">\left|\left(x,y\right)\right|^{2}\le\left(x,x\right)\left(y,y\right).</script></blockquote>
-<hr>
-<blockquote>
-<p>定理: 设$H$是内积空间, $\norm{x}=\sqrt{\left(x,x\right)}$, 则$\norm{\cdot}$是$H$上的一个范数.<br>这样的范数称为是由内积诱导出的范数.</p>
-</blockquote>
-<hr>
-<blockquote>
-<p>定理: 设$H$是内积空间, 则内积关于两个变元都是连续的, 即当$x_{n}\to x_{0}$, $y_{n}\to y_{0}$时, $\left(x_{n},y_{n}\right)\to\left(x,y\right)$.</p>
-</blockquote>
-<hr>
-<blockquote>
-<p>定理: (<strong>极化恒等式</strong>) 当$H$是实内积空间时, </p>
-<script type="math/tex; mode=display">
-\left(x,y\right)=\frac{1}{4}\left(\norm{x+y}^{2}-\norm{x-y}^{2}\right),\quad x,y\in H.</script><p>当$H$是复内积空间时, </p>
-<script type="math/tex; mode=display">
-\left(x,y\right)=\frac{1}{4}\left(\norm{x+y}^{2}-\norm{x-y}^{2}+\ui\norm{x+\ui y}^{2}-\ui\norm{x-\ui y}^{2}\right),\quad x,y\in H.</script></blockquote>
-<hr>
-<blockquote>
-<p>定理: (<strong>平行四边形公式</strong>) 设$H$是内积空间, $\norm{\cdot}$是由内积导出的范数, 则对于任何$x,y\in H$, 有</p>
-<script type="math/tex; mode=display">\norm{x+y}^{2}+\norm{x-y}^{2}=2\left(\norm{x}^{2}+\norm{y}^{2}\right).</script></blockquote>
-<hr>
-<blockquote>
-<p>命题: 设$H$是赋范线性空间, 其上的范数为$\norm{\cdot}$, 且对$H$中的任何元素$x,y$, 均有</p>
-<script type="math/tex; mode=display">
-\norm{x+y}^{2}+\norm{x-y}^{2}=2\left(\norm{x}^{2}+\norm{y}^{2}\right),</script><p>即平行四边形公式成立, 则在$H$上可以定义内积$\left(\cdot,\cdot\right)$, 使得$\norm{\cdot}$是由此内积诱导出来的.</p>
-<blockquote>
-<p>证明: 只考虑实的情况, 根据极化恒等式, 定义</p>
-<script type="math/tex; mode=display">
-\left(x,y\right)=\frac{1}{4}\left(\norm{x+y}^{2}-\norm{x-y}^{2}\right),</script><p>则$\left(y,x\right)=\left(x,y\right)$; $(x,x)\ge0$; $(x,x)=0$ iff<br>$\norm{x}=0$, iff $x=0$. 另外</p>
-<script type="math/tex; mode=display">
-\left(x,z\right)+\left(y,z\right)=\frac{1}{4}\left(\norm{x+z}^{2}-\norm{x-z}^{2}+\norm{y+z}^{2}-\norm{y-z}^{2}\right),</script><p>由平行四边形公式</p>
-<script type="math/tex; mode=display">
-\left(x,z\right)+\left(y,z\right)=\frac{1}{2}\left(\norm{\frac{x+y}{2}+z}^{2}-\norm{\frac{x+y}{2}-z}^{2}\right)=2\left(\frac{x+y}{2},z\right),</script><p>容易知道$\left(0,z\right)=0$, 当$y=0$时, </p>
-<script type="math/tex; mode=display">
-\left(x,z\right)=2\left(\frac{x}{2},z\right)</script><p>从而</p>
-<script type="math/tex; mode=display">
-\left(x,z\right)+\left(y,z\right)=\left(x+y,z\right),</script><p>故对于给定的$x,z\in H$, 定义$f(t)=f_{x,z}(t)=\left(tx,z\right)$, $t\in\RR$,<br>满足$f(t+s)=f(t)+f(s)$, 且容易验证$f(t)$关于$t$连续, 故$f(t)=tf(1)$, 即对于任何$x,z\in H$,<br>$(tx,z)=t(x,z)$. </p>
-</blockquote>
-</blockquote>
-<hr>
-<blockquote>
-<p>命题: 设$H$是内积空间, $H^{<em>}$ 是它的对偶空间, $f_{y}$表示$H$上的线性泛函$f_{y}(x)=(x,y)$,<br>$x\in H$. 如果映射$T:H\to H^{</em>}$, $y\mapsto f_{y}$是双射, 则$H$是Hilbert空间. </p>
-<blockquote>
-<p>思路: $T$是等距映射, 由$T$是双射, $H$和$H^{*}$是等距同构的, 而任何赋范线性空间的对偶空间总是完备的,<br>所以$H$完备.</p>
-</blockquote>
-</blockquote>
-<p>命题: 设$H$是Hilbert空间, $A:H\to H$为线性算子, $D(A)=H$, 且满足$(Ax,y)=(x,Ay)$,<br>$x,y\in H$. 则$A$是$H$上的有界线性算子. </p>
-<p>思路: 证明$A$是$H$上的闭算子, 然后使用闭图像定理.</p>
-<p>一些简单的习题:</p>
-<p>问题. 设$\left\{ x_{n}\right\} $是内积空间$H$中的一列点, 且对任意的$y\in H$, 有$(x_{n},y)\to(x,y)$,<br>$n\to\infty$. 试证明: $\lim_{n\to\infty}x_{n}=x$的充要条件是$\lim_{n\to\infty}\norm{x_{n}}=\norm{x}$.</p>
-<p>问题. 设$H$是实内积空间, $x,y$为$H$中的非零元, 则$\norm{x+y}=\norm{x}+\norm{y}$的充要条件是存在$\lambda&gt;0$,<br>使得$y=\lambda x$.</p>
-<p>问题. 设$H$为复内积空间, $A$是$H$上的有界线性算子, 则</p>
-<script type="math/tex; mode=display">\begin{align*}
-(Ax,y) & =\frac{1}{4}[(A(x+y),x+y)-(A(x-y),x-y)+\ui(A(x+\ui y),x+\ui y)\\
- & \qquad-\ui(A(x-\ui y),x-\ui y)].
-\end{align*}</script><p>问题. 设$H$为复内积空间, $A$是$H$上的有界线性算子, 若对于任意的$x\in H$, $(Ax,x)=0$,<br>则$A=0$, 即$A$为零算子.</p>
-<p>问题. 设$H_{1},H_{2},\cdots,H_{n},\cdots$是一列内积空间. 令</p>
-<script type="math/tex; mode=display">
-H=\left\{ \left\{ x_{n}\right\} \mid x_{n}\in H_{n},\sum_{n=1}^{\infty}\norm{x_{n}}^{2}<\infty\right\} ,</script><p>当$\left\{ x_{n}\right\} $, $\left\{ y_{n}\right\} \in H$时, 规定$\alpha\left\{ x_{n}\right\} +\beta\left\{ y_{n}\right\} =\left\{ \alpha x_{n}+\beta y_{n}\right\} $,<br>其中$\alpha,\beta$是数, </p>
-<script type="math/tex; mode=display">
-\left(\left\{ x_{n}\right\} ,\left\{ y_{n}\right\} \right)=\sum_{n=1}^{\infty}(x_{n},y_{n}).</script><p>证明$H$是内积空间. 又当$H_{n}$都是Hilbert空间时, 证明$H$也是Hilbert空间.</p>
-<p>问题. 设$T,S$为定义在整个Hilbert空间$H$上的线性算子, 且对于一切$x,y\in H$, 有</p>
-<script type="math/tex; mode=display">
-(Tx,y)=(x,Sy).</script><p>试证明: $T$和$S$都是有界的.</p>
-<p>简证: $x_{n}\to x$, $Tx_{n}\to z$, 对于任意的$y$, $(Tx_{n},y)\to(z,y)$,<br>$(x_{n},Sy)\to(x,Sy)=(Tx,y)$, 故$(Tx-z,y)=0$恒成立, 所以$T$是闭算子, 由闭图像定理,<br>$T$是有界算子.</p>
-<p>命题: 设$M,N$是内积空间$H$中两个非空子集, 则</p>
-<ol>
-<li><p>$M^{\perp}$是$H$的闭线性子空间.</p>
-</li>
-<li><p>若$M\subset N$, 则$N^{\perp}\subset M^{\perp}$.</p>
-</li>
-<li><p>$M\subset M^{\perp\perp}$.</p>
-</li>
-<li><p>$M\cap M^{\perp}=\emptyset$或$\left\{ 0\right\} $.</p>
-</li>
-<li><p>$M^{\perp}=\left(\overline{\mathrm{spanM}}\right)^{\perp}$, 其中$\overline{\mathrm{span}M}$表示$M$的线性闭包.</p>
-</li>
-</ol>
-<p>性质: 如果$x$在$M$上有投影, 则投影唯一.</p>
-<p>反证法, 设$x_{0}$和$x_{0}’$都是$x$在$M$上的投影, 则$x-x_{0}\perp M$, $x-x_{0}’\perp M$.<br>从而$x_{0}-x_{0}’\perp M$, 再利用$M$是线性子空间, $x_{0}-x_{0}’\in M\cap M^{\perp}$,<br>所以$x_{0}=x_{0}’$.</p>
-<p>定理: 设$M$是内积空间$H$的线性子空间, $x\in H$, $x_{0}\in M$, 则</p>
-<script type="math/tex; mode=display">
-\norm{x-x_{0}}=\inf_{y\in M}\norm{x-y}</script><p>成立的充要条件是$x_{0}$为$x$在$M$上的投影.</p>
-<p>这个定理是以$x_{0}$的确存在为前提, 命题的任何一个方向都不能保证对于任何$x\in H$, $x$在$M$上一定存在投影.</p>
-<p>证明: 充分性: $x-y=(x-x_{0})+(x_{0}-y)$, $x-x_{0}\in M^{\perp}$, $x_{0}-y\in M$,<br>由勾股定理即得.</p>
-<p>必要性: 对任意的$z\in M$, $z\ne0$. 对任何$\lambda$, 有$x_{0}+\lambda z\in M$,<br>所以</p>
-<script type="math/tex; mode=display">\begin{align*}
-\inf_{y\in M}\norm{x-y} & \le\norm{x-x_{0}-\lambda z}^{2}\\
- & =\norm{x-x_{0}}^{2}-2\mathrm{Re}(\overline{\lambda}(x-x_{0},z))+|\lambda|^{2}\norm{z}^{2}.
-\end{align*}</script><p>令$\lambda=\frac{(x-x_{0},z)}{\norm{z}^{2}}$, 就有</p>
-<script type="math/tex; mode=display">
-\inf_{y\in M}\norm{x-y}\le\norm{x-x_{0}}^{2}-\frac{|(x-x_{0},z)|^{2}}{\norm{z}^{2}}.</script><p>在利用条件, 所以对于任意的$z\in M$, $(x-x_{0},z)=0$, $x-x_{0}\perp M$.</p>
-<p>定理: (<strong>变分引理</strong>) 设$H$是内积空间, $M$是$H$中的非空凸集, 且完备, 且$H$按内积导出的范数完备, 则对于任何$x\in H$,<br>存在唯一的$x_{0}\in M$, 使得</p>
-<script type="math/tex; mode=display">
-\norm{x-x_{0}}=\inf_{y\in M}\norm{x-y}.</script><p>定义: 序列$\left\{ x_{n}\right\} $如果满足</p>
-<script type="math/tex; mode=display">
-\lim_{n\to\infty}\norm{x-x_{n}}=\inf_{y\in M}\norm{x-y},</script><p>则称这样的$\left\{ x_{n}\right\} $是极小化序列.</p>
-<p>证明: 设$\left\{ x_{n}\right\} $是极小化序列, 则平行四边形公式得到</p>
-<script type="math/tex; mode=display">
-0\le\norm{x_{n}-x_{m}}^{2}\le2(\norm{x_{n}-x}^{2}+\norm{x_{m}-x}^{2})-4\norm{\frac{x_{m}+x_{n}}{2}-x}^{2},</script><p>利用$M$的凸性, $d=\inf_{y\in M}\norm{x-y}$, 知$\frac{1}{2}(x_{m}+x_{n})\in M$,<br>且$\norm{\frac{x_{m}+x_{n}}{2}-x}\ge d$. 所以</p>
-<script type="math/tex; mode=display">
-0\le\norm{x_{n}-x_{m}}^{2}\le2(\norm{x_{n}-x}^{2}+\norm{x_{m}-x}^{2})-4d^{2},</script><p>所以$\left\{ x_{n}\right\} $是$H$中的Cauchy列. 利用$M$是$H$的完备子空间, 可知存在$x_{0}\in M$,<br>使$x_{n}\to x_{0}$, 所以</p>
-<script type="math/tex; mode=display">
-\norm{x-x_{0}}=\inf_{y\in M}\norm{x-y}.</script><p>如果$M$中另有元素$y_{0}$使得$\norm{x-y_{0}}=\inf_{y\in M}\norm{x-y}$, 则点列$x_{0},y_{0},x_{0},y_{0},\cdots$作为极小序列,<br>由上面的证明, 是Cauchy列, 从而$x_{0}=y_{0}$. </p>
-<p>上面最后的证明中不能使用在$M$上的投影的唯一性来证? 可以, 但要注意$M$是凸集, 而不是一个线性空间, 但是, $M$的线性闭包和$M$两个集合的正交补空间是相同的,<br>即$\overline{\mathrm{span}M}^{\perp}=M^{\perp}$, 所以必然有$x_{0}-y_{0}\in\overline{\mathrm{span}M}\cap\overline{\mathrm{span}M}^{\perp}$,<br>从而只能有$x_{0}=y_{0}$.</p>
-<p>定理: (投影定理) 设$M$是内积空间$H$的完备线性子空间, 则对于任何$x\in H$, $x$在$M$上的投影必存在唯一.<br>即, 有$x_{0}\in M$, $x_{1}\perp M$, 使$x=x_{0}+x_{1}$, 且这种分解是唯一的.<br>特别的, 当$x\in M$时, $x_{0}=x$.</p>
-<p>因为线性子空间是凸集.</p>
-<p>证明: 因为完备的线性子空间是完备的非空凸集, 由变分引理, 存在唯一的$x_{0}\in M$, 使得</p>
-<script type="math/tex; mode=display">
-\norm{x-x_{0}}=\inf_{y\in M}\norm{x-y}.</script><p>即$x_{0}$是$x$在$M$上的投影. </p>
-<p>当$x\in M$时, </p>
-<script type="math/tex; mode=display">
-\norm{x-x_{0}}=\inf_{y\in M}\norm{x-y}=0.</script><p>推论: 设$M$是内积空间$H$的完备线性子空间, 且$M\ne H$, 则$M^{\perp}$中必有非零元.</p>
-<p>推论: 设$H$是Hilbert空间, $M$是$H$的线性子空间, 则$\overline{M}=M^{\perp\perp}$,<br>$\overline{M}$为$M$的闭包. 特别地, 如果$M^{\perp}=\left\{ 0\right\} $, 则$M$在$H$中稠密.</p>
-<p>证明分$\overline{M}\subset M^{\perp\perp}$和$M^{\perp\perp}\subset\overline{M}$两种情况.</p>
-<p>命题: 设$H$是Hilbert空间, $M$是$H$的线性子空间. 如果任何$x\in H$在$M$上的投影$x_{0}$都存在,<br>则$M$必是$H$的闭子空间.</p>
-<p>证明: 设$\left\{ x_{n}\right\} \subset M$, $\lim x_{n}=x$, 只需证$x\in M$.<br>用投影定理, 存在$y_{0}\in M$, $y_{1}\perp M$使$x=y_{0}+y_{1}$. $(x_{n},y_{1})=0$推出$(x,y_{1})=0$,<br>$(y_{0},y_{1})=0$, 所以$y_{1}=0$. 这说明$x=y_{0}\in M$.</p>
-<p>命题: 设$H$是Hilbert空间, $M$为$H$的闭子空间, $x\in H$. 则</p>
-<script type="math/tex; mode=display">
-\min\left\{ \norm{x-z}\mid z\in M\right\} =\max\left\{ |(x,y)|\mid y\in M^{\perp},\ \norm{y}=1\right\} .</script><p>证明: 使用投影定理.</p>
-<p>问题: 设$H=L^{2}\left[0,1\right]$是内积空间, $E$是$[0,1]$中的Lebsgue可测子集,</p>
-<script type="math/tex; mode=display">
-M=\left\{ x\mid x\in H,x(t)=0,\ t\in E\right\} .</script><p>对任意的$x\in H$, $x$在$M$上的投影为</p>
-<script type="math/tex; mode=display">
-x_{0}(t)=x(t)(1-\chi_{E}(t)).</script><p>问题: 设$H$是实内积空间, 若$\norm{x+y}^{2}=\norm{x}^{2}+\norm{y}^{2}$, 则$x\perp y$当$H$是复内积空间时,<br>结论是否仍成立?</p>
-<p>问题: 证明内积空间$H$中两个元素$x,y$垂直, iff, 对于任意$\alpha$, 有$\norm{x+\alpha y}\ge\norm{x}$.</p>
-<p>证明: 必要性是容易的. 充分性: 因为$\mathrm{span}\left\{ y\right\} $是$H$中的非空线性子空间,<br>容易知道</p>
-<script type="math/tex; mode=display">
-\norm{x-0}=\norm{x}\le\norm{x+\alpha y}.</script><p>两边同时取$\inf_{\alpha}$有</p>
-<script type="math/tex; mode=display">
-\norm{x-0}=\inf_{\alpha}\norm{x+\alpha y}=\inf_{z\in\mathrm{span}\left\{ y\right\} }\norm{x-z},</script><p>所以$x$在空间$\mathrm{span}\left\{ y\right\} $上的投影唯一且为$0$, $x=x-0\perp\mathrm{span}\left\{ y\right\} $,<br>即$x\perp y$.</p>
-<p>充分性2: 对于实内积空间, 对不等式两边平方, 使用内积展开</p>
-<script type="math/tex; mode=display">
-2\alpha(x,y)+\norm{y}^{2}\ge0,</script><p>若$(x,y)\ne0$, 上式左边可以看成变量为$\alpha$的直线方程, 它不可能恒非负.</p>
-<p>对于复内积空间, </p>
-<script type="math/tex; mode=display">
-2\mathrm{Re}\overline{\alpha}(x,y)+\norm{y}^{2}\ge0,</script><p>若$(x,y)\ne0$, 取$\alpha=-\frac{\norm{y}^{2}}{|(x,y)|^{2}}(x,y)$即可得出矛盾.</p>
-<p>问题: 设$M$是内积空间$H$的非空子集. 则</p>
-<script type="math/tex; mode=display">
-M^{\perp}=M^{\perp\perp\perp}=\overline{M}^{\perp}.</script><p>问题: 设$M$是Hilbert空间$H$的非空子集, 证明: $M^{\perp\perp}$是$H$中包含$M$的最小闭子空间.</p>
-<p>问题: 设$M$和$N$是Hilbert空间$H$的两个正交闭子空间, 则: $M\oplus N$也是$H$的闭子空间.</p>
-<p>问题: 设$C[-1,1]$是实连续函数空间, 定义内积</p>
-<script type="math/tex; mode=display">
-(f,g)=\int_{-1}^{1}f(x)g(x)\ud x.</script><p>若记$M$为$C[-1,1]$中奇函数全体, $N$为$C[-1,1]$中偶函数全体, 证明: $C[-1,1]=M\oplus N$.</p>
-<p>问题: 设$H$为Hilbert空间, $M$是$H$的凸子集, $\left\{ x_{n}\right\} $是$M$中的一列点,<br>且</p>
-<script type="math/tex; mode=display">
-\lim_{n\to\infty}\norm{x_{n}}=\inf\left\{ \norm{x}\mid x\in M\right\} .</script><p>则$\left\{ x_{n}\right\} $是$H$中的收敛点列.</p>
-<p>证明参考变分引理.</p>
-<p>命题: 设$e_{1},e_{2},\cdots,e_{n}$是内积空间$H$中的规范正交系, $M=\mathrm{span}\left\{ e_{1},e_{2},\cdots,e_{n}\right\} $,<br>$x\in H$. 则</p>
-<ol>
-<li><script type="math/tex; mode=display">
-x_{0}=\sum_{i=1}^{n}(x,e_{i})e_{i}</script><p>是$x$在$M$上的投影, 且</p>
-<script type="math/tex; mode=display">
-\norm{x_{0}}^{2}=\sum_{i=1}^{n}\left|\left(x,e_{i}\right)\right|^{2}.</script></li>
-<li><p>对任何$\alpha_{1},\cdots,\alpha_{n}$, </p>
-<script type="math/tex; mode=display">
-\norm{x-\sum_{i=1}^{n}\alpha_{i}e_{i}}\ge\norm{x-\sum_{i=1}^{n}(x,e_{i})e_{i}}.</script><p>上式取等号当且仅当$\alpha_{i}=(x,e_{i})$, $i=1,2,\cdots,n$.</p>
-</li>
-</ol>
-<p>定理: (<strong>Bessel不等式</strong>) 设$\mathscr{F}=\{e_{\lambda}\mid\lambda\in\Lambda\}$是内积空间$H$的规范正交系,<br>则对每个$x\in H$, $x$的Fourier系数集$\left\{ (x,e_{\lambda})\mid\lambda\in\Lambda\right\} $最多只有可列个不为零,<br>且</p>
-<script type="math/tex; mode=display">
-\sum_{\lambda\in\Lambda}\left|(x,e_{\lambda})\right|^{2}\le\norm{x}^{2}.</script><p>推论: 设$\left\{ e_{n}\right\} $是内积空间$H$中的规范正交系, 则对于任何$x\in H$, </p>
-<script type="math/tex; mode=display">
-\lim_{n\to\infty}\left(x,e_{n}\right)=0.</script><p>推论: (<strong>Riemann-Lebesgue引理</strong>) 对任何$f\in L^{2}[0,2\pi]$, 有</p>
-<script type="math/tex; mode=display">
-\lim_{n\to\infty}\int_{0}^{2\pi}f(x)\cos nx\ud x=\lim_{n\to\infty}f(x)\sin nx\ud x=0.</script><p>定理: 设$\mathscr{F}=\left\{ e_{\lambda}\mid\lambda\in\Lambda\right\} $是内积空间$H$中的规范正交系,<br>$M$为$\mathscr{F}$张成的线性闭子空间, 则对于$x\in H$, 以下三个条件相互等价.</p>
-<ol>
-<li><p>$x\in M$.</p>
-</li>
-<li><script type="math/tex; mode=display">
-\norm{x}^{2}=\sum_{\lambda\in\Lambda}\left|(x,e_{\lambda})\right|^{2}.</script></li>
-</ol>
-<p>3.</p>
-<script type="math/tex; mode=display">
-x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}.</script><p>推论: (<strong>Steklov 定理</strong>)设$\mathscr{F}=\left\{ e_{\lambda}\mid\lambda\in\Lambda\right\} $是内积空间$H$中的规范正交系,<br>若有$H$的稠密子集$D$, 使得对$x\in D$都有Parseval等式成立, 则$\mathscr{F}$完备. </p>
-<p>定理: 设$\mathscr{F}=\left\{ e_{\lambda}\mid\lambda\in\Lambda\right\} $是Hilbert空间$H$的规范正交系<br>则$\mathscr{F}$完备的充要条件是$\mathscr{F}^{\perp}=\left\{ 0\right\} $.</p>
-<p>反例: 上述命题中$H$的完备性不可省去.</p>
-<p>在$L^{2}[0,2\pi]$中构造这样的$H$, 取</p>
-<script type="math/tex; mode=display">
-\mathscr{F}=\left\{ \frac{1}{\sqrt{\pi}}\cos t,\frac{1}{\sqrt{\pi}}\sin t,\cdots,\frac{1}{\sqrt{\pi}}\cos nt,\frac{1}{\sqrt{\pi}}\sin nt,\cdots\right\} ,</script><p>记</p>
-<script type="math/tex; mode=display">
-f_{0}(t)=1+\sum_{n=1}^{\infty}\frac{1}{n^{2}}\left(\frac{\cos nt}{\sqrt{\pi}}+\frac{\sin nt}{\sqrt{\pi}}\right)\in L^{2}.</script><p>令</p>
-<script type="math/tex; mode=display">
-H=\left\{ \alpha_{0}f_{0}+\sum_{\nu=1}^{n}\left(\alpha_{\nu}\cos\nu t+\beta_{\nu}\sin\nu t\right)\mid n>0,\alpha_{0},\alpha_{\nu},\beta_{\nu}\in\CC\right\} .</script><p>此时$f_{0}$不满足Parseval等式, $\mathscr{F}$在$H$中不完备.</p>
-<p>命题: (<strong>Gram Schmidt正交化过程</strong>) 设$\left\{ x_{1},x_{2},\cdots\right\} $是内积空间$H$中有限个或可列个线性无关的向量,<br>则必有$H$中的规范正交系$\left\{ e_{1},e_{2},\cdots\right\} $, 使得对任何正整数$n$,<br>有</p>
-<script type="math/tex; mode=display">
-\mathrm{span}\left\{ e_{1},\cdots,e_{n}\right\} =\mathrm{span}\left\{ x_{1},\cdots,x_{n}\right\} .</script><p>定理: 每个非零的Hilbert空间必有完备规范正交系.</p>
-<p>证明不可分的情况: 用Zorn引理, 在$H$的所有规范正交系组成的集合中, 按照包含关系作为序关系, 则必有极大元$\mathscr{F}$.<br>则$\overline{\mathrm{span}\mathscr{F}}=H$, 否则, 必有规范向量$e\in H$, $e\perp\mathscr{F}$,<br>使$\mathscr{F}\cup\left\{ e\right\} $成为更大的$H$中的规范正交系, 矛盾.</p>
-<p>命题: 设$H$为可分Hilbert空间, 则$H$中任何规范正交系至多是可列集.</p>
-<p>命题: 设$\left\{ e_{\lambda}\mid\lambda\in\Lambda\right\} $是Hilbert空间$H$中的规范正交系,<br>则$\left\{ e_{\lambda}\mid\lambda\in\Lambda\right\} $是完备规范正交系的充要条件是对任何$x\in H$,<br>$y\in H$, 有</p>
-<script type="math/tex; mode=display">
-\left(x,y\right)=\sum_{\lambda\in\Lambda}\left(x,e_{\lambda}\right)\left(e_{\lambda},y\right).</script><p>命题: $L^{2}[0,2\pi]$中</p>
-<script type="math/tex; mode=display">
-\left\{ \frac{1}{\sqrt{2}},\cos x,\sin x,\cdots,\cos nx,\sin nx,\cdots\right\}</script><p>是完备的规范正交系.</p>
-<p>证明在$L^{2}[0,2\pi]$的一个稠子集中有Parseval等式成立, 这个稠子集是三角多项式集.</p>
-<p>问题: 设$\left\{ e_{1},e_{2},\cdots,e_{n},\cdots\right\} $是Hilbert空间$H$中的完备规范正交系,<br>又设$\left\{ f_{1},f_{2},\cdots,f_{n},\cdots\right\} $是$H$中的一个规范正交系,<br>且</p>
-<script type="math/tex; mode=display">
-\sum_{n=1}^{\infty}\norm{e_{n}-f_{n}}^{2}<1.</script><p>则$\left\{ f_{n}\right\} _{n-1}^{\infty}$也是$H$的完备规范正交系.</p>
-<p>证明用反证法. 设非零$f_{0}$, 满足$f_{0}\perp f_{n}$, $n=1,2,\cdots$. 则</p>
-<script type="math/tex; mode=display">\begin{align*}
-\norm{f_{0}}^{2} & =\sum_{i=1}^{\infty}\left|\left(f_{0},e_{i}\right)\right|^{2}\\
- & =\sum\left|\left(f_{0},e_{i}-f_{i}\right)\right|^{2}\\
- & \le\norm{f_{0}}^{2}\sum\norm{e_{i}-f_{i}}^{2}\\
- & <\norm{f_{0}}^{2},
-\end{align*}</script><p> 矛盾.</p>
-]]></content>
-      <categories>
-        <category>数学</category>
-      </categories>
-      <tags>
-        <tag>数学</tag>
-        <tag>泛函分析</tag>
       </tags>
   </entry>
   <entry>

@@ -1,6 +1,175 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Latex编辑展示页面</title>
+    <url>/2021/02/02/Latex%E7%BC%96%E8%BE%91%E5%B1%95%E7%A4%BA%E9%A1%B5%E9%9D%A2/</url>
+    <content><![CDATA[<h1 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h1><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Latex Code</th>
+<th style="text-align:center">Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">\alpha</td>
+<td style="text-align:center">$\alpha$</td>
+<td>\theta</td>
+<td>$\theta$</td>
+<td>\omicron</td>
+<td>$\omicron$</td>
+<td>\upsilon</td>
+<td>$\upsilon$</td>
+</tr>
+<tr>
+<td style="text-align:center">\beta</td>
+<td style="text-align:center">$\beta$</td>
+<td>\vartheta</td>
+<td>$\vartheta$</td>
+<td>\pi</td>
+<td>$\pi$</td>
+<td>\phi</td>
+<td>$\phi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\gamma</td>
+<td style="text-align:center">$\gamma$</td>
+<td>\iota</td>
+<td>$\iota$</td>
+<td>\varpi</td>
+<td>$\varpi$</td>
+<td>\varphi</td>
+<td>$\varphi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\delta</td>
+<td style="text-align:center">$\delta$</td>
+<td>\kappa</td>
+<td>$\kappa$</td>
+<td>\rho</td>
+<td>$\rho$</td>
+<td>\chi</td>
+<td>$\chi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varepsilon</td>
+<td style="text-align:center">$\varepsilon$</td>
+<td>\lambda</td>
+<td>$\lambda$</td>
+<td>\varrho</td>
+<td>$\varrho$</td>
+<td>\psi</td>
+<td>$\psi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\epsilon</td>
+<td style="text-align:center">$\epsilon$</td>
+<td>\mu</td>
+<td>$\mu$</td>
+<td>\sigma</td>
+<td>$\sigma$</td>
+<td>\omega</td>
+<td>$\omega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\zeta</td>
+<td style="text-align:center">$\zeta$</td>
+<td>\nu</td>
+<td>$\nu$</td>
+<td>\varsigma</td>
+<td>$\varsigma$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\eta</td>
+<td style="text-align:center">$\eta$</td>
+<td>\xi</td>
+<td>$\xi$</td>
+<td>\tau</td>
+<td>$\tau$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\Gamma</td>
+<td style="text-align:center">$\Gamma$</td>
+<td>\Lambda</td>
+<td>$\Lambda$</td>
+<td>\Sigma</td>
+<td>$\Sigma$</td>
+<td>\Psi</td>
+<td>$\Psi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\Delta</td>
+<td style="text-align:center">$\Delta$</td>
+<td>\Xi</td>
+<td>$\Xi$</td>
+<td>\Upsilon</td>
+<td>$\Upsilon$</td>
+<td>\Omega</td>
+<td>$\Omega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\Theta</td>
+<td style="text-align:center">$\Theta$</td>
+<td>\Pi</td>
+<td>$\Pi$</td>
+<td>\Phi</td>
+<td>$\Phi$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\varGamma</td>
+<td style="text-align:center">$\varGamma$</td>
+<td>\varLambda</td>
+<td>$\varLambda$</td>
+<td>\varSigma</td>
+<td>$\varSigma$</td>
+<td>\varPsi</td>
+<td>$\varPsi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varDelta</td>
+<td style="text-align:center">$\varDelta$</td>
+<td>\varXi</td>
+<td>$\varXi$</td>
+<td>\varUpsilon</td>
+<td>$\varUpsilon$</td>
+<td>\varOmega</td>
+<td>$\varOmega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varTheta</td>
+<td style="text-align:center">$\varTheta$</td>
+<td>\varPi</td>
+<td>$\varPi$</td>
+<td>\varPhi</td>
+<td>$\varPhi$</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+]]></content>
+      <categories>
+        <category>latex</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>latex</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2020年10月13日浏览器tab清理</title>
     <url>/2021/02/01/2020%E5%B9%B410%E6%9C%8813%E6%97%A5%E6%B5%8F%E8%A7%88%E5%99%A8tab%E6%B8%85%E7%90%86/</url>
     <content><![CDATA[<h1 id="Tabs"><a href="#Tabs" class="headerlink" title="Tabs"></a>Tabs</h1><ul>
@@ -468,211 +637,11 @@ x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>时, 称$x$关�
         <category>mathjax</category>
       </categories>
       <tags>
+        <tag>latex</tag>
         <tag>hexo</tag>
         <tag>blog</tag>
         <tag>mathjax</tag>
-        <tag>latex</tag>
         <tag>search</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Latex编辑展示页面</title>
-    <url>/2021/02/02/Latex%E7%BC%96%E8%BE%91%E5%B1%95%E7%A4%BA%E9%A1%B5%E9%9D%A2/</url>
-    <content><![CDATA[<h1 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h1><div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Latex Code</th>
-<th style="text-align:center">Math View</th>
-<th>Latex Code</th>
-<th>Math View</th>
-<th>Latex Code</th>
-<th>Math View</th>
-<th>Latex Code</th>
-<th>Math View</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">\alpha</td>
-<td style="text-align:center">$\alpha$</td>
-<td>\theta</td>
-<td>$\theta$</td>
-<td>\omicron</td>
-<td>$\omicron$</td>
-<td>\upsilon</td>
-<td>$\upsilon$</td>
-</tr>
-<tr>
-<td style="text-align:center">\beta</td>
-<td style="text-align:center">$\beta$</td>
-<td>\vartheta</td>
-<td>$\vartheta$</td>
-<td>\pi</td>
-<td>$\pi$</td>
-<td>\phi</td>
-<td>$\phi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\gamma</td>
-<td style="text-align:center">$\gamma$</td>
-<td>\iota</td>
-<td>$\iota$</td>
-<td>\varpi</td>
-<td>$\varpi$</td>
-<td>\varphi</td>
-<td>$\varphi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\delta</td>
-<td style="text-align:center">$\delta$</td>
-<td>\kappa</td>
-<td>$\kappa$</td>
-<td>\rho</td>
-<td>$\rho$</td>
-<td>\chi</td>
-<td>$\chi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\varepsilon</td>
-<td style="text-align:center">$\varepsilon$</td>
-<td>\lambda</td>
-<td>$\lambda$</td>
-<td>\varrho</td>
-<td>$\varrho$</td>
-<td>\psi</td>
-<td>$\psi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\epsilon</td>
-<td style="text-align:center">$\epsilon$</td>
-<td>\mu</td>
-<td>$\mu$</td>
-<td>\sigma</td>
-<td>$\sigma$</td>
-<td>\omega</td>
-<td>$\omega$</td>
-</tr>
-<tr>
-<td style="text-align:center">\zeta</td>
-<td style="text-align:center">$\zeta$</td>
-<td>\nu</td>
-<td>$\nu$</td>
-<td>\varsigma</td>
-<td>$\varsigma$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:center">\eta</td>
-<td style="text-align:center">$\eta$</td>
-<td>\xi</td>
-<td>$\xi$</td>
-<td>\tau</td>
-<td>$\tau$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:center">\Gamma</td>
-<td style="text-align:center">$\Gamma$</td>
-<td>\Lambda</td>
-<td>$\Lambda$</td>
-<td>\Sigma</td>
-<td>$\Sigma$</td>
-<td>\Psi</td>
-<td>$\Psi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\Delta</td>
-<td style="text-align:center">$\Delta$</td>
-<td>\Xi</td>
-<td>$\Xi$</td>
-<td>\Upsilon</td>
-<td>$\Upsilon$</td>
-<td>\Omega</td>
-<td>$\Omega$</td>
-</tr>
-<tr>
-<td style="text-align:center">\Theta</td>
-<td style="text-align:center">$\Theta$</td>
-<td>\Pi</td>
-<td>$\Pi$</td>
-<td>\Phi</td>
-<td>$\Phi$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:center">\varGamma</td>
-<td style="text-align:center">$\varGamma$</td>
-<td>\varLambda</td>
-<td>$\varLambda$</td>
-<td>\varSigma</td>
-<td>$\varSigma$</td>
-<td>\varPsi</td>
-<td>$\varPsi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\varDelta</td>
-<td style="text-align:center">$\varDelta$</td>
-<td>\varXi</td>
-<td>$\varXi$</td>
-<td>\varUpsilon</td>
-<td>$\varUpsilon$</td>
-<td>\varOmega</td>
-<td>$\varOmega$</td>
-</tr>
-<tr>
-<td style="text-align:center">\varTheta</td>
-<td style="text-align:center">$\varTheta$</td>
-<td>\varPi</td>
-<td>$\varPi$</td>
-<td>\varPhi</td>
-<td>$\varPhi$</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</div>
-]]></content>
-      <categories>
-        <category>latex</category>
-      </categories>
-      <tags>
-        <tag>latex</tag>
-        <tag>math</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>每日一题</title>
-    <url>/2022/02/26/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/</url>
-    <content><![CDATA[<p>设 $a_{1}=1, a_{n+1}=a_{n}+\frac{1}{a_{n}},\left(n \in \mathbb{N}_{+}\right)$, 证明</p>
-<script type="math/tex; mode=display">
-\lim _{n \rightarrow \infty} \frac{a_{n}}{\sqrt{n}}=\sqrt{2}.</script><details>
-<summary>提示: </summary>
-\[
-\lim_{n\to\infty}\frac{a_{n}^{2}}{n}\xlongequal{\text{ Stolz 公式 }}\lim_{n\to\infty}\frac{a_{n+1}^{2}-a_{n}^{2}}{1}=(a_{n+1}+a_{n})\frac{1}{a_{n}}=1+\frac{a_{n+1}}{a_{n}}=2+\frac{1}{a_{n}^{2}}
-\]
-
-$a_{n}$ 单调上升, 没有有限极限.
-
-\[
-2+\frac{1}{a_{n}^{2}}\to2,\quad n\to\infty.
-\]
-</details>
-
-<blockquote><p>\[<br>\lim_{n\to\infty}\frac{a_{n}^{2}}{n}\xlongequal{\text{ Stolz 公式 }}\lim_{n\to\infty}\frac{a_{n+1}^{2}-a_{n}^{2}}{1}=(a_{n+1}+a_{n})\frac{1}{a_{n}}=1+\frac{a_{n+1}}{a_{n}}=2+\frac{1}{a_{n}^{2}}<br>\]</p>
-<p>$a_{n}$ 单调上升, 没有有限极限.</p>
-<p>\[<br>2+\frac{1}{a_{n}^{2}}\to2,\quad n\to\infty.<br>\]</p>
-</blockquote>]]></content>
-      <categories>
-        <category>高等数学</category>
-      </categories>
-      <tags>
-        <tag>极限</tag>
-        <tag>数列极限</tag>
-        <tag>高等数学</tag>
       </tags>
   </entry>
   <entry>
@@ -716,35 +685,6 @@ $a_{n}$ 单调上升, 没有有限极限.
       <tags>
         <tag>微积分</tag>
         <tag>反例</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第一个hexo日志</title>
-    <url>/2021/02/01/%E7%AC%AC%E4%B8%80%E4%B8%AAhexo%E6%97%A5%E5%BF%97/</url>
-    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ cd blog</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
-<p>新建一个文件, 然后发布到github上去</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo new &quot;第一个hexo日志&quot;</span><br><span class="line">INFO  Created: ~&#x2F;blog&#x2F;source&#x2F;_posts&#x2F;第一个hexo日志.md</span><br><span class="line">$ vim ~&#x2F;blog&#x2F;source&#x2F;_posts&#x2F;第一个hexo日志.md</span><br><span class="line">$ npm install hexo-deployer-git --save</span><br><span class="line">$ vim _config.yml</span><br><span class="line">$ cat _config.yml</span><br><span class="line">...</span><br><span class="line">title: Larry_Eppes&#39;s Trivia Collection Site</span><br><span class="line">keywords: MATH, COMPUTER</span><br><span class="line">author: Larry Eppes</span><br><span class="line">language: en</span><br><span class="line">timezone: &#39;Asia&#x2F;Shanghai&#39;</span><br><span class="line">...</span><br><span class="line">url: http:&#x2F;&#x2F;larryeppes.github.io</span><br><span class="line">...</span><br><span class="line">deploy:</span><br><span class="line">  type: &#39;git&#39;</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;larryeppes&#x2F;larryeppes.github.io</span><br><span class="line"></span><br><span class="line">$ hexo server</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http:&#x2F;&#x2F;localhost:4000&#x2F;. Press Ctrl+C to stop.</span><br><span class="line"></span><br><span class="line">$ hexo deploy --generate</span><br></pre></td></tr></table></figure>
-<div class="note simple"><p>默認 提示塊標籤</p>
-</div>
-<div class="note default simple"><p>default 提示塊標籤</p>
-</div>
-<div class="note primary simple"><p>primary 提示塊標籤</p>
-</div>
-<div class="note success simple"><p>success 提示塊標籤</p>
-</div>
-<div class="note info simple"><p>info 提示塊標籤</p>
-</div>
-<div class="note warning simple"><p>warning 提示塊標籤</p>
-</div>
-<div class="note danger simple"><p>danger 提示塊標籤</p>
-</div>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -842,6 +782,66 @@ $a_{n}$ 单调上升, 没有有限极限.
       <tags>
         <tag>微积分</tag>
         <tag>反例</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>每日一题</title>
+    <url>/2022/02/26/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/</url>
+    <content><![CDATA[<p>设 $a_{1}=1, a_{n+1}=a_{n}+\frac{1}{a_{n}},\left(n \in \mathbb{N}_{+}\right)$, 证明</p>
+<script type="math/tex; mode=display">
+\lim _{n \rightarrow \infty} \frac{a_{n}}{\sqrt{n}}=\sqrt{2}.</script><details>
+<summary>提示: </summary>
+\[
+\lim_{n\to\infty}\frac{a_{n}^{2}}{n}\xlongequal{\text{ Stolz 公式 }}\lim_{n\to\infty}\frac{a_{n+1}^{2}-a_{n}^{2}}{1}=(a_{n+1}+a_{n})\frac{1}{a_{n}}=1+\frac{a_{n+1}}{a_{n}}=2+\frac{1}{a_{n}^{2}}
+\]
+
+$a_{n}$ 单调上升, 没有有限极限.
+
+\[
+2+\frac{1}{a_{n}^{2}}\to2,\quad n\to\infty.
+\]
+</details>
+
+<blockquote><p>\[<br>\lim_{n\to\infty}\frac{a_{n}^{2}}{n}\xlongequal{\text{ Stolz 公式 }}\lim_{n\to\infty}\frac{a_{n+1}^{2}-a_{n}^{2}}{1}=(a_{n+1}+a_{n})\frac{1}{a_{n}}=1+\frac{a_{n+1}}{a_{n}}=2+\frac{1}{a_{n}^{2}}<br>\]</p>
+<p>$a_{n}$ 单调上升, 没有有限极限.</p>
+<p>\[<br>2+\frac{1}{a_{n}^{2}}\to2,\quad n\to\infty.<br>\]</p>
+</blockquote>]]></content>
+      <categories>
+        <category>高等数学</category>
+      </categories>
+      <tags>
+        <tag>极限</tag>
+        <tag>数列极限</tag>
+        <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第一个hexo日志</title>
+    <url>/2021/02/01/%E7%AC%AC%E4%B8%80%E4%B8%AAhexo%E6%97%A5%E5%BF%97/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ cd blog</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+<p>新建一个文件, 然后发布到github上去</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo new &quot;第一个hexo日志&quot;</span><br><span class="line">INFO  Created: ~&#x2F;blog&#x2F;source&#x2F;_posts&#x2F;第一个hexo日志.md</span><br><span class="line">$ vim ~&#x2F;blog&#x2F;source&#x2F;_posts&#x2F;第一个hexo日志.md</span><br><span class="line">$ npm install hexo-deployer-git --save</span><br><span class="line">$ vim _config.yml</span><br><span class="line">$ cat _config.yml</span><br><span class="line">...</span><br><span class="line">title: Larry_Eppes&#39;s Trivia Collection Site</span><br><span class="line">keywords: MATH, COMPUTER</span><br><span class="line">author: Larry Eppes</span><br><span class="line">language: en</span><br><span class="line">timezone: &#39;Asia&#x2F;Shanghai&#39;</span><br><span class="line">...</span><br><span class="line">url: http:&#x2F;&#x2F;larryeppes.github.io</span><br><span class="line">...</span><br><span class="line">deploy:</span><br><span class="line">  type: &#39;git&#39;</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;larryeppes&#x2F;larryeppes.github.io</span><br><span class="line"></span><br><span class="line">$ hexo server</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http:&#x2F;&#x2F;localhost:4000&#x2F;. Press Ctrl+C to stop.</span><br><span class="line"></span><br><span class="line">$ hexo deploy --generate</span><br></pre></td></tr></table></figure>
+<div class="note simple"><p>默認 提示塊標籤</p>
+</div>
+<div class="note default simple"><p>default 提示塊標籤</p>
+</div>
+<div class="note primary simple"><p>primary 提示塊標籤</p>
+</div>
+<div class="note success simple"><p>success 提示塊標籤</p>
+</div>
+<div class="note info simple"><p>info 提示塊標籤</p>
+</div>
+<div class="note warning simple"><p>warning 提示塊標籤</p>
+</div>
+<div class="note danger simple"><p>danger 提示塊標籤</p>
+</div>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
 </search>

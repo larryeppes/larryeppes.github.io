@@ -1,6 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2020年10月13日浏览器tab清理</title>
+    <url>/2021/02/01/2020%E5%B9%B410%E6%9C%8813%E6%97%A5%E6%B5%8F%E8%A7%88%E5%99%A8tab%E6%B8%85%E7%90%86/</url>
+    <content><![CDATA[<h1 id="Tabs"><a href="#Tabs" class="headerlink" title="Tabs"></a>Tabs</h1><ul>
+<li><p>[x] <a href="https://demo.jerryc.me/">Butterfly hexo 模板说明</a> </p>
+</li>
+<li><p>[ ] <a href="https://jstaf.github.io/2018/02/22/flstudio-on-linux.html">installing FL Studio on Linux</a> </p>
+</li>
+<li>[ ] <a href="https://github.com/jerryc127/hexo-theme-butterfly">hexo-theme-butterfly on github</a> </li>
+<li>[ ] <a href="https://www.cnblogs.com/pipci/p/10936665.html">Gnome Shell 扩展</a> </li>
+<li>[ ] <a href="https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet">gnome-shell-system-monitor-applet on git</a> </li>
+<li>[ ] <a href="https://github.com/mlutfy/hidetopbar">hidetopbar on git</a> </li>
+<li>[ ] <a href="https://www.jb51.net/LINUXjishu/43356.html">linux 下 tar.gz, tar, bz2, zip 的解压缩, 压缩命令小结</a> </li>
+<li>[ ] fedora alt tab merge window: 用`alt+`` 解决</li>
+<li>[ ] <a href="https://fedoramagazine.org/alt-tab-gnome-shell-extension/">Alternate Tab GNOME shell extension</a> on fedora magazine</li>
+<li>[ ] <a href="https://github.com/shadowsocks/ChinaDNS">ChinaDNS</a> on github</li>
+<li>[ ] search <code>easyocr</code> on github</li>
+<li>[ ] <a href="http://vim-latex.sourceforge.net/documentation/latex-suite.html#Tex_HotKeyMappings">edit latex in vim</a> </li>
+<li>[ ] <a href="https://devcenter.heroku.com/">Heroku Dev Center</a> </li>
+<li>[ ] <a href="https://github.com/Shirui816/vimrc">vimrc on github</a> </li>
+<li>[ ] <a href="https://mirrors.tuna.tsinghua.edu.cn/lyx/stable/2.3.x/">清华大学开源软件镜像源</a> </li>
+<li>[ ] manjaro 官网</li>
+<li>[ ] lyx 官网</li>
+<li>[ ] <a href="http://cncc.bingj.com/cache.aspx?q=fedora+dnf+repository+快&amp;d=4653399538798209&amp;mkt=zh-CN&amp;setlang=zh-CN&amp;w=gi2RecgdMh9EH0L3qjX60_VIaKe1bZAc">fedora dnf repository 快</a> Talk is cheap, Show me the code</li>
+<li>[ ] <a href="https://www.semanticscholar.org/paper/Generalized-Morrey-spaces-Sawano/218737e7152c5089832d4ff56c5c952be302e195?p2df">Generalized Morrey spaces</a> on semantic scholar</li>
+<li>[ ] <a href="https://file.librehat.com/">shadowsocks</a> </li>
+<li>[ ] <a href="https://copr.fedorainfracloud.org/">fedora copr</a> </li>
+<li>[ ] <a href="https://copr-be.cloud.fedoraproject.org/">copr too</a> </li>
+<li>[ ] <a href="https://blog.csdn.net/yaoyutian/article/details/90741077">Debian cinnamon 搜狗输入法</a> on CSDN</li>
+<li>[ ] hexo 官网</li>
+<li>[ ] <a href="https://fcitx-im.org/wiki/Fcitx/zh-hans">Fcitx 输入法</a> </li>
+<li>[ ] <a href="https://www.npmjs.com/search?q=baidu">npm 库</a> </li>
+<li>[ ] bing 搜索镜像站</li>
+<li>[ ] <a href="https://zhuanlan.zhihu.com/p/113554606">国内开源镜像站总览</a> </li>
+<li>[ ] <a href="https://fcitx-im.org/wiki/Install_and_Configure/zh-hans">fcitx 安装和配置</a> 来自官网的说明</li>
+<li>[ ] <a href="https://mirrors.tuna.tsinghua.edu.cn/">清华大学开源软件镜像站</a> </li>
+<li>[ ] <a href="http://mirrors.ustc.edu.cn/">关于反向代理列表</a> </li>
+<li>[ ] <a href="https://developer.aliyun.com/group/mirror?spm=a2c6h.13651102.0.0.3e221b11Rcfk1J#/?_k=v68hmc">阿里云镜像站</a> </li>
+<li>[ ] <a href="https://mirrors.huaweicloud.com/">华为开源镜像站</a> </li>
+<li>[ ] github 镜像站 bing 搜索</li>
+<li>[ ] <a href="https://developer.aliyun.com/mirror/kubernetes?spm=a2c6h.13651102.0.0.51441b11JA3tn4">阿里云 Kubernetes 镜像</a> </li>
+<li>[ ] <a href="https://www.yyhy.me/202.html">烟雨寒云 blog</a> </li>
+<li>[ ] gitlab </li>
+</ul>
+]]></content>
+      <categories>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>tmp</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hilbert空间中的定义</title>
     <url>/2021/10/25/Hilbert%E7%A9%BA%E9%97%B4%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/</url>
     <content><![CDATA[<blockquote>
@@ -82,224 +134,34 @@ x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>时, 称$x$关�
       </tags>
   </entry>
   <entry>
-    <title>2020年10月13日浏览器tab清理</title>
-    <url>/2021/02/01/2020%E5%B9%B410%E6%9C%8813%E6%97%A5%E6%B5%8F%E8%A7%88%E5%99%A8tab%E6%B8%85%E7%90%86/</url>
-    <content><![CDATA[<h1 id="Tabs"><a href="#Tabs" class="headerlink" title="Tabs"></a>Tabs</h1><ul>
-<li><p>[x] <a href="https://demo.jerryc.me/">Butterfly hexo 模板说明</a> </p>
-</li>
-<li><p>[ ] <a href="https://jstaf.github.io/2018/02/22/flstudio-on-linux.html">installing FL Studio on Linux</a> </p>
-</li>
-<li>[ ] <a href="https://github.com/jerryc127/hexo-theme-butterfly">hexo-theme-butterfly on github</a> </li>
-<li>[ ] <a href="https://www.cnblogs.com/pipci/p/10936665.html">Gnome Shell 扩展</a> </li>
-<li>[ ] <a href="https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet">gnome-shell-system-monitor-applet on git</a> </li>
-<li>[ ] <a href="https://github.com/mlutfy/hidetopbar">hidetopbar on git</a> </li>
-<li>[ ] <a href="https://www.jb51.net/LINUXjishu/43356.html">linux 下 tar.gz, tar, bz2, zip 的解压缩, 压缩命令小结</a> </li>
-<li>[ ] fedora alt tab merge window: 用`alt+`` 解决</li>
-<li>[ ] <a href="https://fedoramagazine.org/alt-tab-gnome-shell-extension/">Alternate Tab GNOME shell extension</a> on fedora magazine</li>
-<li>[ ] <a href="https://github.com/shadowsocks/ChinaDNS">ChinaDNS</a> on github</li>
-<li>[ ] search <code>easyocr</code> on github</li>
-<li>[ ] <a href="http://vim-latex.sourceforge.net/documentation/latex-suite.html#Tex_HotKeyMappings">edit latex in vim</a> </li>
-<li>[ ] <a href="https://devcenter.heroku.com/">Heroku Dev Center</a> </li>
-<li>[ ] <a href="https://github.com/Shirui816/vimrc">vimrc on github</a> </li>
-<li>[ ] <a href="https://mirrors.tuna.tsinghua.edu.cn/lyx/stable/2.3.x/">清华大学开源软件镜像源</a> </li>
-<li>[ ] manjaro 官网</li>
-<li>[ ] lyx 官网</li>
-<li>[ ] <a href="http://cncc.bingj.com/cache.aspx?q=fedora+dnf+repository+快&amp;d=4653399538798209&amp;mkt=zh-CN&amp;setlang=zh-CN&amp;w=gi2RecgdMh9EH0L3qjX60_VIaKe1bZAc">fedora dnf repository 快</a> Talk is cheap, Show me the code</li>
-<li>[ ] <a href="https://www.semanticscholar.org/paper/Generalized-Morrey-spaces-Sawano/218737e7152c5089832d4ff56c5c952be302e195?p2df">Generalized Morrey spaces</a> on semantic scholar</li>
-<li>[ ] <a href="https://file.librehat.com/">shadowsocks</a> </li>
-<li>[ ] <a href="https://copr.fedorainfracloud.org/">fedora copr</a> </li>
-<li>[ ] <a href="https://copr-be.cloud.fedoraproject.org/">copr too</a> </li>
-<li>[ ] <a href="https://blog.csdn.net/yaoyutian/article/details/90741077">Debian cinnamon 搜狗输入法</a> on CSDN</li>
-<li>[ ] hexo 官网</li>
-<li>[ ] <a href="https://fcitx-im.org/wiki/Fcitx/zh-hans">Fcitx 输入法</a> </li>
-<li>[ ] <a href="https://www.npmjs.com/search?q=baidu">npm 库</a> </li>
-<li>[ ] bing 搜索镜像站</li>
-<li>[ ] <a href="https://zhuanlan.zhihu.com/p/113554606">国内开源镜像站总览</a> </li>
-<li>[ ] <a href="https://fcitx-im.org/wiki/Install_and_Configure/zh-hans">fcitx 安装和配置</a> 来自官网的说明</li>
-<li>[ ] <a href="https://mirrors.tuna.tsinghua.edu.cn/">清华大学开源软件镜像站</a> </li>
-<li>[ ] <a href="http://mirrors.ustc.edu.cn/">关于反向代理列表</a> </li>
-<li>[ ] <a href="https://developer.aliyun.com/group/mirror?spm=a2c6h.13651102.0.0.3e221b11Rcfk1J#/?_k=v68hmc">阿里云镜像站</a> </li>
-<li>[ ] <a href="https://mirrors.huaweicloud.com/">华为开源镜像站</a> </li>
-<li>[ ] github 镜像站 bing 搜索</li>
-<li>[ ] <a href="https://developer.aliyun.com/mirror/kubernetes?spm=a2c6h.13651102.0.0.51441b11JA3tn4">阿里云 Kubernetes 镜像</a> </li>
-<li>[ ] <a href="https://www.yyhy.me/202.html">烟雨寒云 blog</a> </li>
-<li>[ ] gitlab </li>
-</ul>
-]]></content>
+    <title>在hexo的自定义配置</title>
+    <url>/2021/02/01/%E5%9C%A8hexo%E7%9A%84mathjax%E4%B8%AD%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AELaTeX%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h1 id="自定义配置mathjax"><a href="#自定义配置mathjax" class="headerlink" title="自定义配置mathjax"></a>自定义配置mathjax</h1><p>首先根据baidu出来的信息, 找到<a href="https://www.jianshu.com/p/7ab21c7f0674">简书</a>上的教程, 然后在参考<a href="http://docs.mathjax.org/en/latest/input/tex/extensions/configmacros.html#tex-configmacros">MathJax官方教程</a>在本地找到文件<code>[blog path]/themes/butterfly/layout/includes/third-party/math/mathjax.pug</code>进行修改, 为了防止链接实效, 将简要步骤叙述如下:</p>
+<h2 id="step-1"><a href="#step-1" class="headerlink" title="step 1"></a>step 1</h2><p>更换Hexo的markdown渲染引擎, <code>hexo-renderer-kramed引擎</code>是在默认的<code>渲染引擎hexo-renderer-marked</code>的基础上修改了一些bug, 两者比较接近, 也比较轻量级.</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-renderer-marked --save</span><br><span class="line">npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure>
+<p>执行上面的命令即可, 先卸载原来的渲染引擎, 再安装新的. 更换引擎后行间公式可以正确渲染了, 但是这样还没有完全解决问题, 行内公式的渲染还是有问题, 因为<code>hexo-renderer-kramed引擎</code>也有语义冲突的问题. 接下来到博客根目录下, 找到<code>node_modules\kramed\lib\rules\inline.js</code>, 把第11行的escape变量的值做相应的修改：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">// escape: /^\\([\\`*&#123;&#125;\[\]()#$+\-.!_&gt;])/,</span><br><span class="line">escape: /^\\([`*\[\]()#$+\-.!_&gt;])/,</span><br></pre></td></tr></table></figure>
+<p>这一步是在原基础上取消了对\,{,}的转义(escape).<br>同时把第20行的<code>em</code>变量也要做相应的修改.</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">// em: /^\b_((?:__|[\s\S])+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br><span class="line">em: /^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br></pre></td></tr></table></figure>
+<p>重新启动hexo(先clean再generate), 问题完美解决. </p>
+<h2 id="step-2"><a href="#step-2" class="headerlink" title="step 2"></a>step 2</h2><p>参考<a href="http://docs.mathjax.org/en/latest/input/tex/extensions/configmacros.html#tex-configmacros">MathJax官方教程</a>, 在本地找到文件<code>[blog path]/themes/butterfly/layout/includes/third-party/math/mathjax.pug</code>进行添加以下行:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">...</span><br><span class="line">window.MathJax = &#123;</span><br><span class="line">	loader: &#123;</span><br><span class="line">		source: &#123; ... &#125;,</span><br><span class="line">		load: [&#x27;[tex]/configmacros&#x27;]</span><br><span class="line">	&#125;,</span><br><span class="line">	tex: &#123;</span><br><span class="line">		packages: &#123;&#x27;[+]&#x27;: [&#x27;configmacros&#x27;]&#125;,</span><br><span class="line">		inlineMath: ...,</span><br><span class="line">		tags: ...,</span><br><span class="line">		macros: &#123;</span><br><span class="line">			RR: &#x27;\\mathbb&#123;R&#125;&#x27;,</span><br><span class="line">			ud: &#x27;\\mathrm&#123;d&#125;&#x27;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<p>如此便可以在hexo编写数学公式时使用自定义宏<code>\ud</code>和<code>\RR</code>来分别表示正体积分微元符号<code>d</code>和花写实数集<code>R</code>.</p>
+<h1 id="自定义配置搜索"><a href="#自定义配置搜索" class="headerlink" title="自定义配置搜索"></a>自定义配置搜索</h1><p>在blog根目录执行以下代码:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+<p>在<code>_config.yml</code>文件中新增以下代码段</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure>
+<p>在hexo博客所选择的主题, 比如<code>_config.yml</code>, 中增加以下配置即可</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> Local search</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> Dependencies: https://github.com/flashlab/hexo-generator-search</span></span><br><span class="line">local_search:</span><br><span class="line">  enable: true</span><br><span class="line"><span class="meta">  #</span><span class="bash"> <span class="keyword">if</span> auto, trigger search by changing input</span></span><br><span class="line"><span class="meta">  #</span><span class="bash"> <span class="keyword">if</span> manual, trigger search by pressing enter key or search button</span></span><br><span class="line">  trigger: auto</span><br><span class="line"><span class="meta">  #</span><span class="bash"> show top n results per article, show all results by setting to -1</span></span><br><span class="line">  top_n_per_article: 1</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>history</category>
+        <category>mathjax</category>
       </categories>
       <tags>
-        <tag>tmp</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Latex编辑展示页面</title>
-    <url>/2021/02/02/Latex%E7%BC%96%E8%BE%91%E5%B1%95%E7%A4%BA%E9%A1%B5%E9%9D%A2/</url>
-    <content><![CDATA[<h1 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h1><div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Latex Code</th>
-<th style="text-align:center">Math View</th>
-<th>Latex Code</th>
-<th>Math View</th>
-<th>Latex Code</th>
-<th>Math View</th>
-<th>Latex Code</th>
-<th>Math View</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">\alpha</td>
-<td style="text-align:center">$\alpha$</td>
-<td>\theta</td>
-<td>$\theta$</td>
-<td>\omicron</td>
-<td>$\omicron$</td>
-<td>\upsilon</td>
-<td>$\upsilon$</td>
-</tr>
-<tr>
-<td style="text-align:center">\beta</td>
-<td style="text-align:center">$\beta$</td>
-<td>\vartheta</td>
-<td>$\vartheta$</td>
-<td>\pi</td>
-<td>$\pi$</td>
-<td>\phi</td>
-<td>$\phi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\gamma</td>
-<td style="text-align:center">$\gamma$</td>
-<td>\iota</td>
-<td>$\iota$</td>
-<td>\varpi</td>
-<td>$\varpi$</td>
-<td>\varphi</td>
-<td>$\varphi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\delta</td>
-<td style="text-align:center">$\delta$</td>
-<td>\kappa</td>
-<td>$\kappa$</td>
-<td>\rho</td>
-<td>$\rho$</td>
-<td>\chi</td>
-<td>$\chi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\varepsilon</td>
-<td style="text-align:center">$\varepsilon$</td>
-<td>\lambda</td>
-<td>$\lambda$</td>
-<td>\varrho</td>
-<td>$\varrho$</td>
-<td>\psi</td>
-<td>$\psi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\epsilon</td>
-<td style="text-align:center">$\epsilon$</td>
-<td>\mu</td>
-<td>$\mu$</td>
-<td>\sigma</td>
-<td>$\sigma$</td>
-<td>\omega</td>
-<td>$\omega$</td>
-</tr>
-<tr>
-<td style="text-align:center">\zeta</td>
-<td style="text-align:center">$\zeta$</td>
-<td>\nu</td>
-<td>$\nu$</td>
-<td>\varsigma</td>
-<td>$\varsigma$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:center">\eta</td>
-<td style="text-align:center">$\eta$</td>
-<td>\xi</td>
-<td>$\xi$</td>
-<td>\tau</td>
-<td>$\tau$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:center">\Gamma</td>
-<td style="text-align:center">$\Gamma$</td>
-<td>\Lambda</td>
-<td>$\Lambda$</td>
-<td>\Sigma</td>
-<td>$\Sigma$</td>
-<td>\Psi</td>
-<td>$\Psi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\Delta</td>
-<td style="text-align:center">$\Delta$</td>
-<td>\Xi</td>
-<td>$\Xi$</td>
-<td>\Upsilon</td>
-<td>$\Upsilon$</td>
-<td>\Omega</td>
-<td>$\Omega$</td>
-</tr>
-<tr>
-<td style="text-align:center">\Theta</td>
-<td style="text-align:center">$\Theta$</td>
-<td>\Pi</td>
-<td>$\Pi$</td>
-<td>\Phi</td>
-<td>$\Phi$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:center">\varGamma</td>
-<td style="text-align:center">$\varGamma$</td>
-<td>\varLambda</td>
-<td>$\varLambda$</td>
-<td>\varSigma</td>
-<td>$\varSigma$</td>
-<td>\varPsi</td>
-<td>$\varPsi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\varDelta</td>
-<td style="text-align:center">$\varDelta$</td>
-<td>\varXi</td>
-<td>$\varXi$</td>
-<td>\varUpsilon</td>
-<td>$\varUpsilon$</td>
-<td>\varOmega</td>
-<td>$\varOmega$</td>
-</tr>
-<tr>
-<td style="text-align:center">\varTheta</td>
-<td style="text-align:center">$\varTheta$</td>
-<td>\varPi</td>
-<td>$\varPi$</td>
-<td>\varPhi</td>
-<td>$\varPhi$</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</div>
-]]></content>
-      <categories>
-        <category>latex</category>
-      </categories>
-      <tags>
-        <tag>math</tag>
+        <tag>hexo</tag>
+        <tag>blog</tag>
+        <tag>mathjax</tag>
         <tag>latex</tag>
+        <tag>search</tag>
       </tags>
   </entry>
   <entry>
@@ -614,37 +476,6 @@ x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>时, 称$x$关�
       </tags>
   </entry>
   <entry>
-    <title>在hexo的自定义配置</title>
-    <url>/2021/02/01/%E5%9C%A8hexo%E7%9A%84mathjax%E4%B8%AD%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AELaTeX%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h1 id="自定义配置mathjax"><a href="#自定义配置mathjax" class="headerlink" title="自定义配置mathjax"></a>自定义配置mathjax</h1><p>首先根据baidu出来的信息, 找到<a href="https://www.jianshu.com/p/7ab21c7f0674">简书</a>上的教程, 然后在参考<a href="http://docs.mathjax.org/en/latest/input/tex/extensions/configmacros.html#tex-configmacros">MathJax官方教程</a>在本地找到文件<code>[blog path]/themes/butterfly/layout/includes/third-party/math/mathjax.pug</code>进行修改, 为了防止链接实效, 将简要步骤叙述如下:</p>
-<h2 id="step-1"><a href="#step-1" class="headerlink" title="step 1"></a>step 1</h2><p>更换Hexo的markdown渲染引擎, <code>hexo-renderer-kramed引擎</code>是在默认的<code>渲染引擎hexo-renderer-marked</code>的基础上修改了一些bug, 两者比较接近, 也比较轻量级.</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-renderer-marked --save</span><br><span class="line">npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure>
-<p>执行上面的命令即可, 先卸载原来的渲染引擎, 再安装新的. 更换引擎后行间公式可以正确渲染了, 但是这样还没有完全解决问题, 行内公式的渲染还是有问题, 因为<code>hexo-renderer-kramed引擎</code>也有语义冲突的问题. 接下来到博客根目录下, 找到<code>node_modules\kramed\lib\rules\inline.js</code>, 把第11行的escape变量的值做相应的修改：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">// escape: /^\\([\\`*&#123;&#125;\[\]()#$+\-.!_&gt;])/,</span><br><span class="line">escape: /^\\([`*\[\]()#$+\-.!_&gt;])/,</span><br></pre></td></tr></table></figure>
-<p>这一步是在原基础上取消了对\,{,}的转义(escape).<br>同时把第20行的<code>em</code>变量也要做相应的修改.</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">// em: /^\b_((?:__|[\s\S])+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br><span class="line">em: /^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br></pre></td></tr></table></figure>
-<p>重新启动hexo(先clean再generate), 问题完美解决. </p>
-<h2 id="step-2"><a href="#step-2" class="headerlink" title="step 2"></a>step 2</h2><p>参考<a href="http://docs.mathjax.org/en/latest/input/tex/extensions/configmacros.html#tex-configmacros">MathJax官方教程</a>, 在本地找到文件<code>[blog path]/themes/butterfly/layout/includes/third-party/math/mathjax.pug</code>进行添加以下行:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">...</span><br><span class="line">window.MathJax = &#123;</span><br><span class="line">	loader: &#123;</span><br><span class="line">		source: &#123; ... &#125;,</span><br><span class="line">		load: [&#x27;[tex]/configmacros&#x27;]</span><br><span class="line">	&#125;,</span><br><span class="line">	tex: &#123;</span><br><span class="line">		packages: &#123;&#x27;[+]&#x27;: [&#x27;configmacros&#x27;]&#125;,</span><br><span class="line">		inlineMath: ...,</span><br><span class="line">		tags: ...,</span><br><span class="line">		macros: &#123;</span><br><span class="line">			RR: &#x27;\\mathbb&#123;R&#125;&#x27;,</span><br><span class="line">			ud: &#x27;\\mathrm&#123;d&#125;&#x27;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-<p>如此便可以在hexo编写数学公式时使用自定义宏<code>\ud</code>和<code>\RR</code>来分别表示正体积分微元符号<code>d</code>和花写实数集<code>R</code>.</p>
-<h1 id="自定义配置搜索"><a href="#自定义配置搜索" class="headerlink" title="自定义配置搜索"></a>自定义配置搜索</h1><p>在blog根目录执行以下代码:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
-<p>在<code>_config.yml</code>文件中新增以下代码段</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure>
-<p>在hexo博客所选择的主题, 比如<code>_config.yml</code>, 中增加以下配置即可</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> Local search</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> Dependencies: https://github.com/flashlab/hexo-generator-search</span></span><br><span class="line">local_search:</span><br><span class="line">  enable: true</span><br><span class="line"><span class="meta">  #</span><span class="bash"> <span class="keyword">if</span> auto, trigger search by changing input</span></span><br><span class="line"><span class="meta">  #</span><span class="bash"> <span class="keyword">if</span> manual, trigger search by pressing enter key or search button</span></span><br><span class="line">  trigger: auto</span><br><span class="line"><span class="meta">  #</span><span class="bash"> show top n results per article, show all results by setting to -1</span></span><br><span class="line">  top_n_per_article: 1</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>mathjax</category>
-      </categories>
-      <tags>
-        <tag>latex</tag>
-        <tag>hexo</tag>
-        <tag>blog</tag>
-        <tag>mathjax</tag>
-        <tag>search</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>多元微积分中的反例</title>
     <url>/2021/11/28/%E5%A4%9A%E5%85%83%E5%BE%AE%E7%A7%AF%E5%88%86%E4%B8%AD%E7%9A%84%E5%8F%8D%E4%BE%8B/</url>
     <content><![CDATA[<h2 id="关于每个变量连续的间断函数"><a href="#关于每个变量连续的间断函数" class="headerlink" title="关于每个变量连续的间断函数."></a>关于每个变量连续的间断函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
@@ -685,6 +516,175 @@ x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>时, 称$x$关�
       <tags>
         <tag>微积分</tag>
         <tag>反例</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Latex编辑展示页面</title>
+    <url>/2021/02/02/Latex%E7%BC%96%E8%BE%91%E5%B1%95%E7%A4%BA%E9%A1%B5%E9%9D%A2/</url>
+    <content><![CDATA[<h1 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h1><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Latex Code</th>
+<th style="text-align:center">Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">\alpha</td>
+<td style="text-align:center">$\alpha$</td>
+<td>\theta</td>
+<td>$\theta$</td>
+<td>\omicron</td>
+<td>$\omicron$</td>
+<td>\upsilon</td>
+<td>$\upsilon$</td>
+</tr>
+<tr>
+<td style="text-align:center">\beta</td>
+<td style="text-align:center">$\beta$</td>
+<td>\vartheta</td>
+<td>$\vartheta$</td>
+<td>\pi</td>
+<td>$\pi$</td>
+<td>\phi</td>
+<td>$\phi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\gamma</td>
+<td style="text-align:center">$\gamma$</td>
+<td>\iota</td>
+<td>$\iota$</td>
+<td>\varpi</td>
+<td>$\varpi$</td>
+<td>\varphi</td>
+<td>$\varphi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\delta</td>
+<td style="text-align:center">$\delta$</td>
+<td>\kappa</td>
+<td>$\kappa$</td>
+<td>\rho</td>
+<td>$\rho$</td>
+<td>\chi</td>
+<td>$\chi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varepsilon</td>
+<td style="text-align:center">$\varepsilon$</td>
+<td>\lambda</td>
+<td>$\lambda$</td>
+<td>\varrho</td>
+<td>$\varrho$</td>
+<td>\psi</td>
+<td>$\psi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\epsilon</td>
+<td style="text-align:center">$\epsilon$</td>
+<td>\mu</td>
+<td>$\mu$</td>
+<td>\sigma</td>
+<td>$\sigma$</td>
+<td>\omega</td>
+<td>$\omega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\zeta</td>
+<td style="text-align:center">$\zeta$</td>
+<td>\nu</td>
+<td>$\nu$</td>
+<td>\varsigma</td>
+<td>$\varsigma$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\eta</td>
+<td style="text-align:center">$\eta$</td>
+<td>\xi</td>
+<td>$\xi$</td>
+<td>\tau</td>
+<td>$\tau$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\Gamma</td>
+<td style="text-align:center">$\Gamma$</td>
+<td>\Lambda</td>
+<td>$\Lambda$</td>
+<td>\Sigma</td>
+<td>$\Sigma$</td>
+<td>\Psi</td>
+<td>$\Psi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\Delta</td>
+<td style="text-align:center">$\Delta$</td>
+<td>\Xi</td>
+<td>$\Xi$</td>
+<td>\Upsilon</td>
+<td>$\Upsilon$</td>
+<td>\Omega</td>
+<td>$\Omega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\Theta</td>
+<td style="text-align:center">$\Theta$</td>
+<td>\Pi</td>
+<td>$\Pi$</td>
+<td>\Phi</td>
+<td>$\Phi$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\varGamma</td>
+<td style="text-align:center">$\varGamma$</td>
+<td>\varLambda</td>
+<td>$\varLambda$</td>
+<td>\varSigma</td>
+<td>$\varSigma$</td>
+<td>\varPsi</td>
+<td>$\varPsi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varDelta</td>
+<td style="text-align:center">$\varDelta$</td>
+<td>\varXi</td>
+<td>$\varXi$</td>
+<td>\varUpsilon</td>
+<td>$\varUpsilon$</td>
+<td>\varOmega</td>
+<td>$\varOmega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varTheta</td>
+<td style="text-align:center">$\varTheta$</td>
+<td>\varPi</td>
+<td>$\varPi$</td>
+<td>\varPhi</td>
+<td>$\varPhi$</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+]]></content>
+      <categories>
+        <category>latex</category>
+      </categories>
+      <tags>
+        <tag>latex</tag>
+        <tag>math</tag>
       </tags>
   </entry>
   <entry>

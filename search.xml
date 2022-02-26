@@ -1,227 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Latex编辑展示页面</title>
-    <url>/2021/02/02/Latex%E7%BC%96%E8%BE%91%E5%B1%95%E7%A4%BA%E9%A1%B5%E9%9D%A2/</url>
-    <content><![CDATA[<h1 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h1><div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Latex Code</th>
-<th style="text-align:center">Math View</th>
-<th>Latex Code</th>
-<th>Math View</th>
-<th>Latex Code</th>
-<th>Math View</th>
-<th>Latex Code</th>
-<th>Math View</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">\alpha</td>
-<td style="text-align:center">$\alpha$</td>
-<td>\theta</td>
-<td>$\theta$</td>
-<td>\omicron</td>
-<td>$\omicron$</td>
-<td>\upsilon</td>
-<td>$\upsilon$</td>
-</tr>
-<tr>
-<td style="text-align:center">\beta</td>
-<td style="text-align:center">$\beta$</td>
-<td>\vartheta</td>
-<td>$\vartheta$</td>
-<td>\pi</td>
-<td>$\pi$</td>
-<td>\phi</td>
-<td>$\phi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\gamma</td>
-<td style="text-align:center">$\gamma$</td>
-<td>\iota</td>
-<td>$\iota$</td>
-<td>\varpi</td>
-<td>$\varpi$</td>
-<td>\varphi</td>
-<td>$\varphi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\delta</td>
-<td style="text-align:center">$\delta$</td>
-<td>\kappa</td>
-<td>$\kappa$</td>
-<td>\rho</td>
-<td>$\rho$</td>
-<td>\chi</td>
-<td>$\chi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\varepsilon</td>
-<td style="text-align:center">$\varepsilon$</td>
-<td>\lambda</td>
-<td>$\lambda$</td>
-<td>\varrho</td>
-<td>$\varrho$</td>
-<td>\psi</td>
-<td>$\psi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\epsilon</td>
-<td style="text-align:center">$\epsilon$</td>
-<td>\mu</td>
-<td>$\mu$</td>
-<td>\sigma</td>
-<td>$\sigma$</td>
-<td>\omega</td>
-<td>$\omega$</td>
-</tr>
-<tr>
-<td style="text-align:center">\zeta</td>
-<td style="text-align:center">$\zeta$</td>
-<td>\nu</td>
-<td>$\nu$</td>
-<td>\varsigma</td>
-<td>$\varsigma$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:center">\eta</td>
-<td style="text-align:center">$\eta$</td>
-<td>\xi</td>
-<td>$\xi$</td>
-<td>\tau</td>
-<td>$\tau$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:center">\Gamma</td>
-<td style="text-align:center">$\Gamma$</td>
-<td>\Lambda</td>
-<td>$\Lambda$</td>
-<td>\Sigma</td>
-<td>$\Sigma$</td>
-<td>\Psi</td>
-<td>$\Psi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\Delta</td>
-<td style="text-align:center">$\Delta$</td>
-<td>\Xi</td>
-<td>$\Xi$</td>
-<td>\Upsilon</td>
-<td>$\Upsilon$</td>
-<td>\Omega</td>
-<td>$\Omega$</td>
-</tr>
-<tr>
-<td style="text-align:center">\Theta</td>
-<td style="text-align:center">$\Theta$</td>
-<td>\Pi</td>
-<td>$\Pi$</td>
-<td>\Phi</td>
-<td>$\Phi$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:center">\varGamma</td>
-<td style="text-align:center">$\varGamma$</td>
-<td>\varLambda</td>
-<td>$\varLambda$</td>
-<td>\varSigma</td>
-<td>$\varSigma$</td>
-<td>\varPsi</td>
-<td>$\varPsi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\varDelta</td>
-<td style="text-align:center">$\varDelta$</td>
-<td>\varXi</td>
-<td>$\varXi$</td>
-<td>\varUpsilon</td>
-<td>$\varUpsilon$</td>
-<td>\varOmega</td>
-<td>$\varOmega$</td>
-</tr>
-<tr>
-<td style="text-align:center">\varTheta</td>
-<td style="text-align:center">$\varTheta$</td>
-<td>\varPi</td>
-<td>$\varPi$</td>
-<td>\varPhi</td>
-<td>$\varPhi$</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</div>
-]]></content>
-      <categories>
-        <category>latex</category>
-      </categories>
-      <tags>
-        <tag>math</tag>
-        <tag>latex</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2020年10月13日浏览器tab清理</title>
-    <url>/2021/02/01/2020%E5%B9%B410%E6%9C%8813%E6%97%A5%E6%B5%8F%E8%A7%88%E5%99%A8tab%E6%B8%85%E7%90%86/</url>
-    <content><![CDATA[<h1 id="Tabs"><a href="#Tabs" class="headerlink" title="Tabs"></a>Tabs</h1><ul>
-<li><p>[x] <a href="https://demo.jerryc.me/">Butterfly hexo 模板说明</a> </p>
-</li>
-<li><p>[ ] <a href="https://jstaf.github.io/2018/02/22/flstudio-on-linux.html">installing FL Studio on Linux</a> </p>
-</li>
-<li>[ ] <a href="https://github.com/jerryc127/hexo-theme-butterfly">hexo-theme-butterfly on github</a> </li>
-<li>[ ] <a href="https://www.cnblogs.com/pipci/p/10936665.html">Gnome Shell 扩展</a> </li>
-<li>[ ] <a href="https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet">gnome-shell-system-monitor-applet on git</a> </li>
-<li>[ ] <a href="https://github.com/mlutfy/hidetopbar">hidetopbar on git</a> </li>
-<li>[ ] <a href="https://www.jb51.net/LINUXjishu/43356.html">linux 下 tar.gz, tar, bz2, zip 的解压缩, 压缩命令小结</a> </li>
-<li>[ ] fedora alt tab merge window: 用`alt+`` 解决</li>
-<li>[ ] <a href="https://fedoramagazine.org/alt-tab-gnome-shell-extension/">Alternate Tab GNOME shell extension</a> on fedora magazine</li>
-<li>[ ] <a href="https://github.com/shadowsocks/ChinaDNS">ChinaDNS</a> on github</li>
-<li>[ ] search <code>easyocr</code> on github</li>
-<li>[ ] <a href="http://vim-latex.sourceforge.net/documentation/latex-suite.html#Tex_HotKeyMappings">edit latex in vim</a> </li>
-<li>[ ] <a href="https://devcenter.heroku.com/">Heroku Dev Center</a> </li>
-<li>[ ] <a href="https://github.com/Shirui816/vimrc">vimrc on github</a> </li>
-<li>[ ] <a href="https://mirrors.tuna.tsinghua.edu.cn/lyx/stable/2.3.x/">清华大学开源软件镜像源</a> </li>
-<li>[ ] manjaro 官网</li>
-<li>[ ] lyx 官网</li>
-<li>[ ] <a href="http://cncc.bingj.com/cache.aspx?q=fedora+dnf+repository+快&amp;d=4653399538798209&amp;mkt=zh-CN&amp;setlang=zh-CN&amp;w=gi2RecgdMh9EH0L3qjX60_VIaKe1bZAc">fedora dnf repository 快</a> Talk is cheap, Show me the code</li>
-<li>[ ] <a href="https://www.semanticscholar.org/paper/Generalized-Morrey-spaces-Sawano/218737e7152c5089832d4ff56c5c952be302e195?p2df">Generalized Morrey spaces</a> on semantic scholar</li>
-<li>[ ] <a href="https://file.librehat.com/">shadowsocks</a> </li>
-<li>[ ] <a href="https://copr.fedorainfracloud.org/">fedora copr</a> </li>
-<li>[ ] <a href="https://copr-be.cloud.fedoraproject.org/">copr too</a> </li>
-<li>[ ] <a href="https://blog.csdn.net/yaoyutian/article/details/90741077">Debian cinnamon 搜狗输入法</a> on CSDN</li>
-<li>[ ] hexo 官网</li>
-<li>[ ] <a href="https://fcitx-im.org/wiki/Fcitx/zh-hans">Fcitx 输入法</a> </li>
-<li>[ ] <a href="https://www.npmjs.com/search?q=baidu">npm 库</a> </li>
-<li>[ ] bing 搜索镜像站</li>
-<li>[ ] <a href="https://zhuanlan.zhihu.com/p/113554606">国内开源镜像站总览</a> </li>
-<li>[ ] <a href="https://fcitx-im.org/wiki/Install_and_Configure/zh-hans">fcitx 安装和配置</a> 来自官网的说明</li>
-<li>[ ] <a href="https://mirrors.tuna.tsinghua.edu.cn/">清华大学开源软件镜像站</a> </li>
-<li>[ ] <a href="http://mirrors.ustc.edu.cn/">关于反向代理列表</a> </li>
-<li>[ ] <a href="https://developer.aliyun.com/group/mirror?spm=a2c6h.13651102.0.0.3e221b11Rcfk1J#/?_k=v68hmc">阿里云镜像站</a> </li>
-<li>[ ] <a href="https://mirrors.huaweicloud.com/">华为开源镜像站</a> </li>
-<li>[ ] github 镜像站 bing 搜索</li>
-<li>[ ] <a href="https://developer.aliyun.com/mirror/kubernetes?spm=a2c6h.13651102.0.0.51441b11JA3tn4">阿里云 Kubernetes 镜像</a> </li>
-<li>[ ] <a href="https://www.yyhy.me/202.html">烟雨寒云 blog</a> </li>
-<li>[ ] gitlab </li>
-</ul>
-]]></content>
-      <categories>
-        <category>history</category>
-      </categories>
-      <tags>
-        <tag>tmp</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hilbert空间中的定义</title>
     <url>/2021/10/25/Hilbert%E7%A9%BA%E9%97%B4%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/</url>
     <content><![CDATA[<blockquote>
@@ -300,6 +79,58 @@ x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>时, 称$x$关�
       <tags>
         <tag>数学</tag>
         <tag>泛函分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2020年10月13日浏览器tab清理</title>
+    <url>/2021/02/01/2020%E5%B9%B410%E6%9C%8813%E6%97%A5%E6%B5%8F%E8%A7%88%E5%99%A8tab%E6%B8%85%E7%90%86/</url>
+    <content><![CDATA[<h1 id="Tabs"><a href="#Tabs" class="headerlink" title="Tabs"></a>Tabs</h1><ul>
+<li><p>[x] <a href="https://demo.jerryc.me/">Butterfly hexo 模板说明</a> </p>
+</li>
+<li><p>[ ] <a href="https://jstaf.github.io/2018/02/22/flstudio-on-linux.html">installing FL Studio on Linux</a> </p>
+</li>
+<li>[ ] <a href="https://github.com/jerryc127/hexo-theme-butterfly">hexo-theme-butterfly on github</a> </li>
+<li>[ ] <a href="https://www.cnblogs.com/pipci/p/10936665.html">Gnome Shell 扩展</a> </li>
+<li>[ ] <a href="https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet">gnome-shell-system-monitor-applet on git</a> </li>
+<li>[ ] <a href="https://github.com/mlutfy/hidetopbar">hidetopbar on git</a> </li>
+<li>[ ] <a href="https://www.jb51.net/LINUXjishu/43356.html">linux 下 tar.gz, tar, bz2, zip 的解压缩, 压缩命令小结</a> </li>
+<li>[ ] fedora alt tab merge window: 用`alt+`` 解决</li>
+<li>[ ] <a href="https://fedoramagazine.org/alt-tab-gnome-shell-extension/">Alternate Tab GNOME shell extension</a> on fedora magazine</li>
+<li>[ ] <a href="https://github.com/shadowsocks/ChinaDNS">ChinaDNS</a> on github</li>
+<li>[ ] search <code>easyocr</code> on github</li>
+<li>[ ] <a href="http://vim-latex.sourceforge.net/documentation/latex-suite.html#Tex_HotKeyMappings">edit latex in vim</a> </li>
+<li>[ ] <a href="https://devcenter.heroku.com/">Heroku Dev Center</a> </li>
+<li>[ ] <a href="https://github.com/Shirui816/vimrc">vimrc on github</a> </li>
+<li>[ ] <a href="https://mirrors.tuna.tsinghua.edu.cn/lyx/stable/2.3.x/">清华大学开源软件镜像源</a> </li>
+<li>[ ] manjaro 官网</li>
+<li>[ ] lyx 官网</li>
+<li>[ ] <a href="http://cncc.bingj.com/cache.aspx?q=fedora+dnf+repository+快&amp;d=4653399538798209&amp;mkt=zh-CN&amp;setlang=zh-CN&amp;w=gi2RecgdMh9EH0L3qjX60_VIaKe1bZAc">fedora dnf repository 快</a> Talk is cheap, Show me the code</li>
+<li>[ ] <a href="https://www.semanticscholar.org/paper/Generalized-Morrey-spaces-Sawano/218737e7152c5089832d4ff56c5c952be302e195?p2df">Generalized Morrey spaces</a> on semantic scholar</li>
+<li>[ ] <a href="https://file.librehat.com/">shadowsocks</a> </li>
+<li>[ ] <a href="https://copr.fedorainfracloud.org/">fedora copr</a> </li>
+<li>[ ] <a href="https://copr-be.cloud.fedoraproject.org/">copr too</a> </li>
+<li>[ ] <a href="https://blog.csdn.net/yaoyutian/article/details/90741077">Debian cinnamon 搜狗输入法</a> on CSDN</li>
+<li>[ ] hexo 官网</li>
+<li>[ ] <a href="https://fcitx-im.org/wiki/Fcitx/zh-hans">Fcitx 输入法</a> </li>
+<li>[ ] <a href="https://www.npmjs.com/search?q=baidu">npm 库</a> </li>
+<li>[ ] bing 搜索镜像站</li>
+<li>[ ] <a href="https://zhuanlan.zhihu.com/p/113554606">国内开源镜像站总览</a> </li>
+<li>[ ] <a href="https://fcitx-im.org/wiki/Install_and_Configure/zh-hans">fcitx 安装和配置</a> 来自官网的说明</li>
+<li>[ ] <a href="https://mirrors.tuna.tsinghua.edu.cn/">清华大学开源软件镜像站</a> </li>
+<li>[ ] <a href="http://mirrors.ustc.edu.cn/">关于反向代理列表</a> </li>
+<li>[ ] <a href="https://developer.aliyun.com/group/mirror?spm=a2c6h.13651102.0.0.3e221b11Rcfk1J#/?_k=v68hmc">阿里云镜像站</a> </li>
+<li>[ ] <a href="https://mirrors.huaweicloud.com/">华为开源镜像站</a> </li>
+<li>[ ] github 镜像站 bing 搜索</li>
+<li>[ ] <a href="https://developer.aliyun.com/mirror/kubernetes?spm=a2c6h.13651102.0.0.51441b11JA3tn4">阿里云 Kubernetes 镜像</a> </li>
+<li>[ ] <a href="https://www.yyhy.me/202.html">烟雨寒云 blog</a> </li>
+<li>[ ] gitlab </li>
+</ul>
+]]></content>
+      <categories>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>tmp</tag>
       </tags>
   </entry>
   <entry>
@@ -611,6 +442,175 @@ x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>时, 称$x$关�
       <tags>
         <tag>数学</tag>
         <tag>泛函分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Latex编辑展示页面</title>
+    <url>/2021/02/02/Latex%E7%BC%96%E8%BE%91%E5%B1%95%E7%A4%BA%E9%A1%B5%E9%9D%A2/</url>
+    <content><![CDATA[<h1 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h1><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Latex Code</th>
+<th style="text-align:center">Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">\alpha</td>
+<td style="text-align:center">$\alpha$</td>
+<td>\theta</td>
+<td>$\theta$</td>
+<td>\omicron</td>
+<td>$\omicron$</td>
+<td>\upsilon</td>
+<td>$\upsilon$</td>
+</tr>
+<tr>
+<td style="text-align:center">\beta</td>
+<td style="text-align:center">$\beta$</td>
+<td>\vartheta</td>
+<td>$\vartheta$</td>
+<td>\pi</td>
+<td>$\pi$</td>
+<td>\phi</td>
+<td>$\phi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\gamma</td>
+<td style="text-align:center">$\gamma$</td>
+<td>\iota</td>
+<td>$\iota$</td>
+<td>\varpi</td>
+<td>$\varpi$</td>
+<td>\varphi</td>
+<td>$\varphi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\delta</td>
+<td style="text-align:center">$\delta$</td>
+<td>\kappa</td>
+<td>$\kappa$</td>
+<td>\rho</td>
+<td>$\rho$</td>
+<td>\chi</td>
+<td>$\chi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varepsilon</td>
+<td style="text-align:center">$\varepsilon$</td>
+<td>\lambda</td>
+<td>$\lambda$</td>
+<td>\varrho</td>
+<td>$\varrho$</td>
+<td>\psi</td>
+<td>$\psi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\epsilon</td>
+<td style="text-align:center">$\epsilon$</td>
+<td>\mu</td>
+<td>$\mu$</td>
+<td>\sigma</td>
+<td>$\sigma$</td>
+<td>\omega</td>
+<td>$\omega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\zeta</td>
+<td style="text-align:center">$\zeta$</td>
+<td>\nu</td>
+<td>$\nu$</td>
+<td>\varsigma</td>
+<td>$\varsigma$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\eta</td>
+<td style="text-align:center">$\eta$</td>
+<td>\xi</td>
+<td>$\xi$</td>
+<td>\tau</td>
+<td>$\tau$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\Gamma</td>
+<td style="text-align:center">$\Gamma$</td>
+<td>\Lambda</td>
+<td>$\Lambda$</td>
+<td>\Sigma</td>
+<td>$\Sigma$</td>
+<td>\Psi</td>
+<td>$\Psi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\Delta</td>
+<td style="text-align:center">$\Delta$</td>
+<td>\Xi</td>
+<td>$\Xi$</td>
+<td>\Upsilon</td>
+<td>$\Upsilon$</td>
+<td>\Omega</td>
+<td>$\Omega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\Theta</td>
+<td style="text-align:center">$\Theta$</td>
+<td>\Pi</td>
+<td>$\Pi$</td>
+<td>\Phi</td>
+<td>$\Phi$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\varGamma</td>
+<td style="text-align:center">$\varGamma$</td>
+<td>\varLambda</td>
+<td>$\varLambda$</td>
+<td>\varSigma</td>
+<td>$\varSigma$</td>
+<td>\varPsi</td>
+<td>$\varPsi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varDelta</td>
+<td style="text-align:center">$\varDelta$</td>
+<td>\varXi</td>
+<td>$\varXi$</td>
+<td>\varUpsilon</td>
+<td>$\varUpsilon$</td>
+<td>\varOmega</td>
+<td>$\varOmega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varTheta</td>
+<td style="text-align:center">$\varTheta$</td>
+<td>\varPi</td>
+<td>$\varPi$</td>
+<td>\varPhi</td>
+<td>$\varPhi$</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+]]></content>
+      <categories>
+        <category>latex</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>latex</tag>
       </tags>
   </entry>
   <entry>

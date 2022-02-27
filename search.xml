@@ -1,6 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2020年10月13日浏览器tab清理</title>
+    <url>/2021/02/01/2020%E5%B9%B410%E6%9C%8813%E6%97%A5%E6%B5%8F%E8%A7%88%E5%99%A8tab%E6%B8%85%E7%90%86/</url>
+    <content><![CDATA[<h1 id="Tabs"><a href="#Tabs" class="headerlink" title="Tabs"></a>Tabs</h1><ul>
+<li><p>[x] <a href="https://demo.jerryc.me/">Butterfly hexo 模板说明</a> </p>
+</li>
+<li><p>[ ] <a href="https://jstaf.github.io/2018/02/22/flstudio-on-linux.html">installing FL Studio on Linux</a> </p>
+</li>
+<li>[ ] <a href="https://github.com/jerryc127/hexo-theme-butterfly">hexo-theme-butterfly on github</a> </li>
+<li>[ ] <a href="https://www.cnblogs.com/pipci/p/10936665.html">Gnome Shell 扩展</a> </li>
+<li>[ ] <a href="https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet">gnome-shell-system-monitor-applet on git</a> </li>
+<li>[ ] <a href="https://github.com/mlutfy/hidetopbar">hidetopbar on git</a> </li>
+<li>[ ] <a href="https://www.jb51.net/LINUXjishu/43356.html">linux 下 tar.gz, tar, bz2, zip 的解压缩, 压缩命令小结</a> </li>
+<li>[ ] fedora alt tab merge window: 用`alt+`` 解决</li>
+<li>[ ] <a href="https://fedoramagazine.org/alt-tab-gnome-shell-extension/">Alternate Tab GNOME shell extension</a> on fedora magazine</li>
+<li>[ ] <a href="https://github.com/shadowsocks/ChinaDNS">ChinaDNS</a> on github</li>
+<li>[ ] search <code>easyocr</code> on github</li>
+<li>[ ] <a href="http://vim-latex.sourceforge.net/documentation/latex-suite.html#Tex_HotKeyMappings">edit latex in vim</a> </li>
+<li>[ ] <a href="https://devcenter.heroku.com/">Heroku Dev Center</a> </li>
+<li>[ ] <a href="https://github.com/Shirui816/vimrc">vimrc on github</a> </li>
+<li>[ ] <a href="https://mirrors.tuna.tsinghua.edu.cn/lyx/stable/2.3.x/">清华大学开源软件镜像源</a> </li>
+<li>[ ] manjaro 官网</li>
+<li>[ ] lyx 官网</li>
+<li>[ ] <a href="http://cncc.bingj.com/cache.aspx?q=fedora+dnf+repository+快&amp;d=4653399538798209&amp;mkt=zh-CN&amp;setlang=zh-CN&amp;w=gi2RecgdMh9EH0L3qjX60_VIaKe1bZAc">fedora dnf repository 快</a> Talk is cheap, Show me the code</li>
+<li>[ ] <a href="https://www.semanticscholar.org/paper/Generalized-Morrey-spaces-Sawano/218737e7152c5089832d4ff56c5c952be302e195?p2df">Generalized Morrey spaces</a> on semantic scholar</li>
+<li>[ ] <a href="https://file.librehat.com/">shadowsocks</a> </li>
+<li>[ ] <a href="https://copr.fedorainfracloud.org/">fedora copr</a> </li>
+<li>[ ] <a href="https://copr-be.cloud.fedoraproject.org/">copr too</a> </li>
+<li>[ ] <a href="https://blog.csdn.net/yaoyutian/article/details/90741077">Debian cinnamon 搜狗输入法</a> on CSDN</li>
+<li>[ ] hexo 官网</li>
+<li>[ ] <a href="https://fcitx-im.org/wiki/Fcitx/zh-hans">Fcitx 输入法</a> </li>
+<li>[ ] <a href="https://www.npmjs.com/search?q=baidu">npm 库</a> </li>
+<li>[ ] bing 搜索镜像站</li>
+<li>[ ] <a href="https://zhuanlan.zhihu.com/p/113554606">国内开源镜像站总览</a> </li>
+<li>[ ] <a href="https://fcitx-im.org/wiki/Install_and_Configure/zh-hans">fcitx 安装和配置</a> 来自官网的说明</li>
+<li>[ ] <a href="https://mirrors.tuna.tsinghua.edu.cn/">清华大学开源软件镜像站</a> </li>
+<li>[ ] <a href="http://mirrors.ustc.edu.cn/">关于反向代理列表</a> </li>
+<li>[ ] <a href="https://developer.aliyun.com/group/mirror?spm=a2c6h.13651102.0.0.3e221b11Rcfk1J#/?_k=v68hmc">阿里云镜像站</a> </li>
+<li>[ ] <a href="https://mirrors.huaweicloud.com/">华为开源镜像站</a> </li>
+<li>[ ] github 镜像站 bing 搜索</li>
+<li>[ ] <a href="https://developer.aliyun.com/mirror/kubernetes?spm=a2c6h.13651102.0.0.51441b11JA3tn4">阿里云 Kubernetes 镜像</a> </li>
+<li>[ ] <a href="https://www.yyhy.me/202.html">烟雨寒云 blog</a> </li>
+<li>[ ] gitlab </li>
+</ul>
+]]></content>
+      <categories>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>tmp</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hilbert空间中的定义</title>
     <url>/2021/10/25/Hilbert%E7%A9%BA%E9%97%B4%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/</url>
     <content><![CDATA[<blockquote>
@@ -79,227 +131,6 @@ x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>时, 称$x$关�
       <tags>
         <tag>数学</tag>
         <tag>泛函分析</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2020年10月13日浏览器tab清理</title>
-    <url>/2021/02/01/2020%E5%B9%B410%E6%9C%8813%E6%97%A5%E6%B5%8F%E8%A7%88%E5%99%A8tab%E6%B8%85%E7%90%86/</url>
-    <content><![CDATA[<h1 id="Tabs"><a href="#Tabs" class="headerlink" title="Tabs"></a>Tabs</h1><ul>
-<li><p>[x] <a href="https://demo.jerryc.me/">Butterfly hexo 模板说明</a> </p>
-</li>
-<li><p>[ ] <a href="https://jstaf.github.io/2018/02/22/flstudio-on-linux.html">installing FL Studio on Linux</a> </p>
-</li>
-<li>[ ] <a href="https://github.com/jerryc127/hexo-theme-butterfly">hexo-theme-butterfly on github</a> </li>
-<li>[ ] <a href="https://www.cnblogs.com/pipci/p/10936665.html">Gnome Shell 扩展</a> </li>
-<li>[ ] <a href="https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet">gnome-shell-system-monitor-applet on git</a> </li>
-<li>[ ] <a href="https://github.com/mlutfy/hidetopbar">hidetopbar on git</a> </li>
-<li>[ ] <a href="https://www.jb51.net/LINUXjishu/43356.html">linux 下 tar.gz, tar, bz2, zip 的解压缩, 压缩命令小结</a> </li>
-<li>[ ] fedora alt tab merge window: 用`alt+`` 解决</li>
-<li>[ ] <a href="https://fedoramagazine.org/alt-tab-gnome-shell-extension/">Alternate Tab GNOME shell extension</a> on fedora magazine</li>
-<li>[ ] <a href="https://github.com/shadowsocks/ChinaDNS">ChinaDNS</a> on github</li>
-<li>[ ] search <code>easyocr</code> on github</li>
-<li>[ ] <a href="http://vim-latex.sourceforge.net/documentation/latex-suite.html#Tex_HotKeyMappings">edit latex in vim</a> </li>
-<li>[ ] <a href="https://devcenter.heroku.com/">Heroku Dev Center</a> </li>
-<li>[ ] <a href="https://github.com/Shirui816/vimrc">vimrc on github</a> </li>
-<li>[ ] <a href="https://mirrors.tuna.tsinghua.edu.cn/lyx/stable/2.3.x/">清华大学开源软件镜像源</a> </li>
-<li>[ ] manjaro 官网</li>
-<li>[ ] lyx 官网</li>
-<li>[ ] <a href="http://cncc.bingj.com/cache.aspx?q=fedora+dnf+repository+快&amp;d=4653399538798209&amp;mkt=zh-CN&amp;setlang=zh-CN&amp;w=gi2RecgdMh9EH0L3qjX60_VIaKe1bZAc">fedora dnf repository 快</a> Talk is cheap, Show me the code</li>
-<li>[ ] <a href="https://www.semanticscholar.org/paper/Generalized-Morrey-spaces-Sawano/218737e7152c5089832d4ff56c5c952be302e195?p2df">Generalized Morrey spaces</a> on semantic scholar</li>
-<li>[ ] <a href="https://file.librehat.com/">shadowsocks</a> </li>
-<li>[ ] <a href="https://copr.fedorainfracloud.org/">fedora copr</a> </li>
-<li>[ ] <a href="https://copr-be.cloud.fedoraproject.org/">copr too</a> </li>
-<li>[ ] <a href="https://blog.csdn.net/yaoyutian/article/details/90741077">Debian cinnamon 搜狗输入法</a> on CSDN</li>
-<li>[ ] hexo 官网</li>
-<li>[ ] <a href="https://fcitx-im.org/wiki/Fcitx/zh-hans">Fcitx 输入法</a> </li>
-<li>[ ] <a href="https://www.npmjs.com/search?q=baidu">npm 库</a> </li>
-<li>[ ] bing 搜索镜像站</li>
-<li>[ ] <a href="https://zhuanlan.zhihu.com/p/113554606">国内开源镜像站总览</a> </li>
-<li>[ ] <a href="https://fcitx-im.org/wiki/Install_and_Configure/zh-hans">fcitx 安装和配置</a> 来自官网的说明</li>
-<li>[ ] <a href="https://mirrors.tuna.tsinghua.edu.cn/">清华大学开源软件镜像站</a> </li>
-<li>[ ] <a href="http://mirrors.ustc.edu.cn/">关于反向代理列表</a> </li>
-<li>[ ] <a href="https://developer.aliyun.com/group/mirror?spm=a2c6h.13651102.0.0.3e221b11Rcfk1J#/?_k=v68hmc">阿里云镜像站</a> </li>
-<li>[ ] <a href="https://mirrors.huaweicloud.com/">华为开源镜像站</a> </li>
-<li>[ ] github 镜像站 bing 搜索</li>
-<li>[ ] <a href="https://developer.aliyun.com/mirror/kubernetes?spm=a2c6h.13651102.0.0.51441b11JA3tn4">阿里云 Kubernetes 镜像</a> </li>
-<li>[ ] <a href="https://www.yyhy.me/202.html">烟雨寒云 blog</a> </li>
-<li>[ ] gitlab </li>
-</ul>
-]]></content>
-      <categories>
-        <category>history</category>
-      </categories>
-      <tags>
-        <tag>tmp</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Latex编辑展示页面</title>
-    <url>/2021/02/02/Latex%E7%BC%96%E8%BE%91%E5%B1%95%E7%A4%BA%E9%A1%B5%E9%9D%A2/</url>
-    <content><![CDATA[<h1 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h1><div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Latex Code</th>
-<th style="text-align:center">Math View</th>
-<th>Latex Code</th>
-<th>Math View</th>
-<th>Latex Code</th>
-<th>Math View</th>
-<th>Latex Code</th>
-<th>Math View</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">\alpha</td>
-<td style="text-align:center">$\alpha$</td>
-<td>\theta</td>
-<td>$\theta$</td>
-<td>\omicron</td>
-<td>$\omicron$</td>
-<td>\upsilon</td>
-<td>$\upsilon$</td>
-</tr>
-<tr>
-<td style="text-align:center">\beta</td>
-<td style="text-align:center">$\beta$</td>
-<td>\vartheta</td>
-<td>$\vartheta$</td>
-<td>\pi</td>
-<td>$\pi$</td>
-<td>\phi</td>
-<td>$\phi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\gamma</td>
-<td style="text-align:center">$\gamma$</td>
-<td>\iota</td>
-<td>$\iota$</td>
-<td>\varpi</td>
-<td>$\varpi$</td>
-<td>\varphi</td>
-<td>$\varphi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\delta</td>
-<td style="text-align:center">$\delta$</td>
-<td>\kappa</td>
-<td>$\kappa$</td>
-<td>\rho</td>
-<td>$\rho$</td>
-<td>\chi</td>
-<td>$\chi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\varepsilon</td>
-<td style="text-align:center">$\varepsilon$</td>
-<td>\lambda</td>
-<td>$\lambda$</td>
-<td>\varrho</td>
-<td>$\varrho$</td>
-<td>\psi</td>
-<td>$\psi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\epsilon</td>
-<td style="text-align:center">$\epsilon$</td>
-<td>\mu</td>
-<td>$\mu$</td>
-<td>\sigma</td>
-<td>$\sigma$</td>
-<td>\omega</td>
-<td>$\omega$</td>
-</tr>
-<tr>
-<td style="text-align:center">\zeta</td>
-<td style="text-align:center">$\zeta$</td>
-<td>\nu</td>
-<td>$\nu$</td>
-<td>\varsigma</td>
-<td>$\varsigma$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:center">\eta</td>
-<td style="text-align:center">$\eta$</td>
-<td>\xi</td>
-<td>$\xi$</td>
-<td>\tau</td>
-<td>$\tau$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:center">\Gamma</td>
-<td style="text-align:center">$\Gamma$</td>
-<td>\Lambda</td>
-<td>$\Lambda$</td>
-<td>\Sigma</td>
-<td>$\Sigma$</td>
-<td>\Psi</td>
-<td>$\Psi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\Delta</td>
-<td style="text-align:center">$\Delta$</td>
-<td>\Xi</td>
-<td>$\Xi$</td>
-<td>\Upsilon</td>
-<td>$\Upsilon$</td>
-<td>\Omega</td>
-<td>$\Omega$</td>
-</tr>
-<tr>
-<td style="text-align:center">\Theta</td>
-<td style="text-align:center">$\Theta$</td>
-<td>\Pi</td>
-<td>$\Pi$</td>
-<td>\Phi</td>
-<td>$\Phi$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:center">\varGamma</td>
-<td style="text-align:center">$\varGamma$</td>
-<td>\varLambda</td>
-<td>$\varLambda$</td>
-<td>\varSigma</td>
-<td>$\varSigma$</td>
-<td>\varPsi</td>
-<td>$\varPsi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\varDelta</td>
-<td style="text-align:center">$\varDelta$</td>
-<td>\varXi</td>
-<td>$\varXi$</td>
-<td>\varUpsilon</td>
-<td>$\varUpsilon$</td>
-<td>\varOmega</td>
-<td>$\varOmega$</td>
-</tr>
-<tr>
-<td style="text-align:center">\varTheta</td>
-<td style="text-align:center">$\varTheta$</td>
-<td>\varPi</td>
-<td>$\varPi$</td>
-<td>\varPhi</td>
-<td>$\varPhi$</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</div>
-]]></content>
-      <categories>
-        <category>latex</category>
-      </categories>
-      <tags>
-        <tag>math</tag>
-        <tag>latex</tag>
       </tags>
   </entry>
   <entry>
@@ -614,6 +445,175 @@ x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>时, 称$x$关�
       </tags>
   </entry>
   <entry>
+    <title>Latex编辑展示页面</title>
+    <url>/2021/02/02/Latex%E7%BC%96%E8%BE%91%E5%B1%95%E7%A4%BA%E9%A1%B5%E9%9D%A2/</url>
+    <content><![CDATA[<h1 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h1><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Latex Code</th>
+<th style="text-align:center">Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">\alpha</td>
+<td style="text-align:center">$\alpha$</td>
+<td>\theta</td>
+<td>$\theta$</td>
+<td>\omicron</td>
+<td>$\omicron$</td>
+<td>\upsilon</td>
+<td>$\upsilon$</td>
+</tr>
+<tr>
+<td style="text-align:center">\beta</td>
+<td style="text-align:center">$\beta$</td>
+<td>\vartheta</td>
+<td>$\vartheta$</td>
+<td>\pi</td>
+<td>$\pi$</td>
+<td>\phi</td>
+<td>$\phi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\gamma</td>
+<td style="text-align:center">$\gamma$</td>
+<td>\iota</td>
+<td>$\iota$</td>
+<td>\varpi</td>
+<td>$\varpi$</td>
+<td>\varphi</td>
+<td>$\varphi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\delta</td>
+<td style="text-align:center">$\delta$</td>
+<td>\kappa</td>
+<td>$\kappa$</td>
+<td>\rho</td>
+<td>$\rho$</td>
+<td>\chi</td>
+<td>$\chi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varepsilon</td>
+<td style="text-align:center">$\varepsilon$</td>
+<td>\lambda</td>
+<td>$\lambda$</td>
+<td>\varrho</td>
+<td>$\varrho$</td>
+<td>\psi</td>
+<td>$\psi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\epsilon</td>
+<td style="text-align:center">$\epsilon$</td>
+<td>\mu</td>
+<td>$\mu$</td>
+<td>\sigma</td>
+<td>$\sigma$</td>
+<td>\omega</td>
+<td>$\omega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\zeta</td>
+<td style="text-align:center">$\zeta$</td>
+<td>\nu</td>
+<td>$\nu$</td>
+<td>\varsigma</td>
+<td>$\varsigma$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\eta</td>
+<td style="text-align:center">$\eta$</td>
+<td>\xi</td>
+<td>$\xi$</td>
+<td>\tau</td>
+<td>$\tau$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\Gamma</td>
+<td style="text-align:center">$\Gamma$</td>
+<td>\Lambda</td>
+<td>$\Lambda$</td>
+<td>\Sigma</td>
+<td>$\Sigma$</td>
+<td>\Psi</td>
+<td>$\Psi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\Delta</td>
+<td style="text-align:center">$\Delta$</td>
+<td>\Xi</td>
+<td>$\Xi$</td>
+<td>\Upsilon</td>
+<td>$\Upsilon$</td>
+<td>\Omega</td>
+<td>$\Omega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\Theta</td>
+<td style="text-align:center">$\Theta$</td>
+<td>\Pi</td>
+<td>$\Pi$</td>
+<td>\Phi</td>
+<td>$\Phi$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\varGamma</td>
+<td style="text-align:center">$\varGamma$</td>
+<td>\varLambda</td>
+<td>$\varLambda$</td>
+<td>\varSigma</td>
+<td>$\varSigma$</td>
+<td>\varPsi</td>
+<td>$\varPsi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varDelta</td>
+<td style="text-align:center">$\varDelta$</td>
+<td>\varXi</td>
+<td>$\varXi$</td>
+<td>\varUpsilon</td>
+<td>$\varUpsilon$</td>
+<td>\varOmega</td>
+<td>$\varOmega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varTheta</td>
+<td style="text-align:center">$\varTheta$</td>
+<td>\varPi</td>
+<td>$\varPi$</td>
+<td>\varPhi</td>
+<td>$\varPhi$</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+]]></content>
+      <categories>
+        <category>latex</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>latex</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>在hexo的自定义配置</title>
     <url>/2021/02/01/%E5%9C%A8hexo%E7%9A%84mathjax%E4%B8%AD%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AELaTeX%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<h1 id="自定义配置mathjax"><a href="#自定义配置mathjax" class="headerlink" title="自定义配置mathjax"></a>自定义配置mathjax</h1><p>首先根据baidu出来的信息, 找到<a href="https://www.jianshu.com/p/7ab21c7f0674">简书</a>上的教程, 然后在参考<a href="http://docs.mathjax.org/en/latest/input/tex/extensions/configmacros.html#tex-configmacros">MathJax官方教程</a>在本地找到文件<code>[blog path]/themes/butterfly/layout/includes/third-party/math/mathjax.pug</code>进行修改, 为了防止链接实效, 将简要步骤叙述如下:</p>
@@ -645,32 +645,46 @@ x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>时, 称$x$关�
       </tags>
   </entry>
   <entry>
-    <title>第一个hexo日志</title>
-    <url>/2021/02/01/%E7%AC%AC%E4%B8%80%E4%B8%AAhexo%E6%97%A5%E5%BF%97/</url>
-    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ cd blog</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
-<p>新建一个文件, 然后发布到github上去</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo new &quot;第一个hexo日志&quot;</span><br><span class="line">INFO  Created: ~&#x2F;blog&#x2F;source&#x2F;_posts&#x2F;第一个hexo日志.md</span><br><span class="line">$ vim ~&#x2F;blog&#x2F;source&#x2F;_posts&#x2F;第一个hexo日志.md</span><br><span class="line">$ npm install hexo-deployer-git --save</span><br><span class="line">$ vim _config.yml</span><br><span class="line">$ cat _config.yml</span><br><span class="line">...</span><br><span class="line">title: Larry_Eppes&#39;s Trivia Collection Site</span><br><span class="line">keywords: MATH, COMPUTER</span><br><span class="line">author: Larry Eppes</span><br><span class="line">language: en</span><br><span class="line">timezone: &#39;Asia&#x2F;Shanghai&#39;</span><br><span class="line">...</span><br><span class="line">url: http:&#x2F;&#x2F;larryeppes.github.io</span><br><span class="line">...</span><br><span class="line">deploy:</span><br><span class="line">  type: &#39;git&#39;</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;larryeppes&#x2F;larryeppes.github.io</span><br><span class="line"></span><br><span class="line">$ hexo server</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http:&#x2F;&#x2F;localhost:4000&#x2F;. Press Ctrl+C to stop.</span><br><span class="line"></span><br><span class="line">$ hexo deploy --generate</span><br></pre></td></tr></table></figure>
-<div class="note simple"><p>默認 提示塊標籤</p>
-</div>
-<div class="note default simple"><p>default 提示塊標籤</p>
-</div>
-<div class="note primary simple"><p>primary 提示塊標籤</p>
-</div>
-<div class="note success simple"><p>success 提示塊標籤</p>
-</div>
-<div class="note info simple"><p>info 提示塊標籤</p>
-</div>
-<div class="note warning simple"><p>warning 提示塊標籤</p>
-</div>
-<div class="note danger simple"><p>danger 提示塊標籤</p>
-</div>
+    <title>多元微积分中的反例</title>
+    <url>/2021/11/28/%E5%A4%9A%E5%85%83%E5%BE%AE%E7%A7%AF%E5%88%86%E4%B8%AD%E7%9A%84%E5%8F%8D%E4%BE%8B/</url>
+    <content><![CDATA[<h2 id="关于每个变量连续的间断函数"><a href="#关于每个变量连续的间断函数" class="headerlink" title="关于每个变量连续的间断函数."></a>关于每个变量连续的间断函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="一个二元函数在原点没有极限-但沿着任一直线逼近原点存在极限"><a href="#一个二元函数在原点没有极限-但沿着任一直线逼近原点存在极限" class="headerlink" title="一个二元函数在原点没有极限, 但沿着任一直线逼近原点存在极限."></a>一个二元函数在原点没有极限, 但沿着任一直线逼近原点存在极限.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}y}{x^{4}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="以下三种极限恰有两个存在且相等的函数"><a href="#以下三种极限恰有两个存在且相等的函数" class="headerlink" title="以下三种极限恰有两个存在且相等的函数"></a>以下三种极限恰有两个存在且相等的函数</h2><p>\[<br>\lim_{(x,y)\to(a,b)}f(x,y)\quad\lim_{x\to a}\lim_{y\to b}f(x,y),\quad\lim_{y\to b}\lim_{x\to a}f(x,y).<br>\]</p>
+<p>(1).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<p>(2).<br>\[<br>f(x,y)=\begin{cases}<br>y+x\sin(1/y), &amp; y\ne0,\\<br>0, &amp; y=0.<br>\end{cases}<br>\]</p>
+<p>(3).<br>\[<br>f(x,y)=\begin{cases}<br>x+y\sin(1/x), &amp; x\ne0,\\<br>0, &amp; x=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="以上三种极限恰有一个存在的函数"><a href="#以上三种极限恰有一个存在的函数" class="headerlink" title="以上三种极限恰有一个存在的函数."></a>以上三种极限恰有一个存在的函数.</h2><p>(1).<br>\[<br>f(x,y)=\begin{cases}<br>x\sin(1/y)+y\sin(1/x), &amp; xy\ne0,\\<br>0, &amp; xy=0.<br>\end{cases}<br>\]</p>
+<p>(2).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}+y\sin(1/x), &amp; x\ne0,\\<br>0, &amp; x=0.<br>\end{cases}<br>\]</p>
+<p>(3).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}+x\sin(1/y), &amp; y\ne0,\\<br>0, &amp; y=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="累次极限交换次序不相等的函数"><a href="#累次极限交换次序不相等的函数" class="headerlink" title="累次极限交换次序不相等的函数."></a>累次极限交换次序不相等的函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}-y^{2}}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<p>$f(x,y)\rightrightarrows g(x)$, $y\to 0$, $f(x,y)\rightrightarrows h(y)$, $x\to0$, 且<br>\[<br>\lim_{x\to0}g(x)=\lim_{y\to0}h(y),<br>\]<br>但<br>\[<br>\lim_{(x,y)\to(0,0)}f(x,y)<br>\]<br>仍不存在的函数.</p>
+<p>\[<br>f(x,y)=\begin{cases}<br>1, &amp; xy\ne0,\\<br>0, &amp; xy=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="可微-但不连续可微的二元函数"><a href="#可微-但不连续可微的二元函数" class="headerlink" title="可微, 但不连续可微的二元函数."></a>可微, 但不连续可微的二元函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>x^{2}\sin(1/x)+y^{2}\sin(1/y), &amp; xy\ne0,\\<br>x^{2}\sin(1/x), &amp; x\ne0,y=0,\\<br>y^{2}\sin(1/y), &amp; x=0,y\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="二阶混合偏导不相等的可微函数"><a href="#二阶混合偏导不相等的可微函数" class="headerlink" title="二阶混合偏导不相等的可微函数."></a>二阶混合偏导不相等的可微函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>xy\frac{x^{2}-y^{2}}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="f-x-y-in-C-1-在区域-R-上-partial-y-f-0-恒成立-但-f-并非与-y-无关"><a href="#f-x-y-in-C-1-在区域-R-上-partial-y-f-0-恒成立-但-f-并非与-y-无关" class="headerlink" title="$f(x,y)\in C^{1}$, 在区域$R$上$\partial_{y}f=0$恒成立, 但$f$并非与$y$无关."></a>$f(x,y)\in C^{1}$, 在区域$R$上$\partial_{y}f=0$恒成立, 但$f$并非与$y$无关.</h2><p>取$L=\RR_{\ge0}\times\left\{ 0\right\} $, $R=\RR\setminus L$, 定义<br>\[<br>f(x,y)=\begin{cases}<br>x^{3}, &amp; x&gt;0\text{ 且 }y&gt;0,\\<br>0, &amp; \text{others}.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="微分和积分交换次序"><a href="#微分和积分交换次序" class="headerlink" title="微分和积分交换次序:"></a>微分和积分交换次序:</h2><p>存在满足</p>
+<p>\[<br>\frac{\ud}{\ud x}\int_{a}^{b}f(x,y)\ud y\ne\int_{a}^{b}\left[\frac{\partial}{\partial x}f(x,y)\right]\ud y,<br>\]<br>的函数, 尽管每个积分都是常义积分.</p>
+<p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}}{y^{2}}\ue^{-x^{2}/y}, &amp; y&gt;0,\\<br>0, &amp; y=0,<br>\end{cases}<br>\]<br>分$x$是否等于零两种情况.</p>
+<hr>
+<h2 id="交换积分次序不相等的函数-即使每个积分都是常义积分"><a href="#交换积分次序不相等的函数-即使每个积分都是常义积分" class="headerlink" title="交换积分次序不相等的函数, 即使每个积分都是常义积分."></a>交换积分次序不相等的函数, 即使每个积分都是常义积分.</h2><p>在$[0,1]^{2}$中,</p>
+<p>\[<br>f(x,y)=\begin{cases}<br>y^{-2}, &amp; 0&lt;x&lt;y&lt;1,\\<br>-x^{-2}, &amp; 0&lt;y&lt;x&lt;1,\\<br>0, &amp; \text{others.}<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="二重级数-sum-m-n-a-mn-虽然按行和按列都有收敛性-但求和次序交换并不相等"><a href="#二重级数-sum-m-n-a-mn-虽然按行和按列都有收敛性-但求和次序交换并不相等" class="headerlink" title="二重级数$\sum_{m,n}a_{mn}$, 虽然按行和按列都有收敛性, 但求和次序交换并不相等."></a>二重级数$\sum_{m,n}a_{mn}$, 虽然按行和按列都有收敛性, 但求和次序交换并不相等.</h2><p>如:<br>\[<br>\begin{bmatrix}0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \frac{1}{16} &amp; \frac{1}{32} &amp; \cdots\\<br>-\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \frac{1}{16} &amp; \cdots\\<br>-\frac{1}{4} &amp; -\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \cdots\\<br>-\frac{1}{8} &amp; -\frac{1}{4} &amp; -\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \cdots\\<br>\cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots<br>\end{bmatrix}<br>\]</p>
 ]]></content>
       <categories>
-        <category>hexo</category>
+        <category>数学</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
-        <tag>blog</tag>
+        <tag>微积分</tag>
+        <tag>反例</tag>
       </tags>
   </entry>
   <entry>
@@ -771,49 +785,6 @@ x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>时, 称$x$关�
       </tags>
   </entry>
   <entry>
-    <title>多元微积分中的反例</title>
-    <url>/2021/11/28/%E5%A4%9A%E5%85%83%E5%BE%AE%E7%A7%AF%E5%88%86%E4%B8%AD%E7%9A%84%E5%8F%8D%E4%BE%8B/</url>
-    <content><![CDATA[<h2 id="关于每个变量连续的间断函数"><a href="#关于每个变量连续的间断函数" class="headerlink" title="关于每个变量连续的间断函数."></a>关于每个变量连续的间断函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="一个二元函数在原点没有极限-但沿着任一直线逼近原点存在极限"><a href="#一个二元函数在原点没有极限-但沿着任一直线逼近原点存在极限" class="headerlink" title="一个二元函数在原点没有极限, 但沿着任一直线逼近原点存在极限."></a>一个二元函数在原点没有极限, 但沿着任一直线逼近原点存在极限.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}y}{x^{4}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="以下三种极限恰有两个存在且相等的函数"><a href="#以下三种极限恰有两个存在且相等的函数" class="headerlink" title="以下三种极限恰有两个存在且相等的函数"></a>以下三种极限恰有两个存在且相等的函数</h2><p>\[<br>\lim_{(x,y)\to(a,b)}f(x,y)\quad\lim_{x\to a}\lim_{y\to b}f(x,y),\quad\lim_{y\to b}\lim_{x\to a}f(x,y).<br>\]</p>
-<p>(1).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<p>(2).<br>\[<br>f(x,y)=\begin{cases}<br>y+x\sin(1/y), &amp; y\ne0,\\<br>0, &amp; y=0.<br>\end{cases}<br>\]</p>
-<p>(3).<br>\[<br>f(x,y)=\begin{cases}<br>x+y\sin(1/x), &amp; x\ne0,\\<br>0, &amp; x=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="以上三种极限恰有一个存在的函数"><a href="#以上三种极限恰有一个存在的函数" class="headerlink" title="以上三种极限恰有一个存在的函数."></a>以上三种极限恰有一个存在的函数.</h2><p>(1).<br>\[<br>f(x,y)=\begin{cases}<br>x\sin(1/y)+y\sin(1/x), &amp; xy\ne0,\\<br>0, &amp; xy=0.<br>\end{cases}<br>\]</p>
-<p>(2).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}+y\sin(1/x), &amp; x\ne0,\\<br>0, &amp; x=0.<br>\end{cases}<br>\]</p>
-<p>(3).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}+x\sin(1/y), &amp; y\ne0,\\<br>0, &amp; y=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="累次极限交换次序不相等的函数"><a href="#累次极限交换次序不相等的函数" class="headerlink" title="累次极限交换次序不相等的函数."></a>累次极限交换次序不相等的函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}-y^{2}}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<p>$f(x,y)\rightrightarrows g(x)$, $y\to 0$, $f(x,y)\rightrightarrows h(y)$, $x\to0$, 且<br>\[<br>\lim_{x\to0}g(x)=\lim_{y\to0}h(y),<br>\]<br>但<br>\[<br>\lim_{(x,y)\to(0,0)}f(x,y)<br>\]<br>仍不存在的函数.</p>
-<p>\[<br>f(x,y)=\begin{cases}<br>1, &amp; xy\ne0,\\<br>0, &amp; xy=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="可微-但不连续可微的二元函数"><a href="#可微-但不连续可微的二元函数" class="headerlink" title="可微, 但不连续可微的二元函数."></a>可微, 但不连续可微的二元函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>x^{2}\sin(1/x)+y^{2}\sin(1/y), &amp; xy\ne0,\\<br>x^{2}\sin(1/x), &amp; x\ne0,y=0,\\<br>y^{2}\sin(1/y), &amp; x=0,y\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="二阶混合偏导不相等的可微函数"><a href="#二阶混合偏导不相等的可微函数" class="headerlink" title="二阶混合偏导不相等的可微函数."></a>二阶混合偏导不相等的可微函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>xy\frac{x^{2}-y^{2}}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="f-x-y-in-C-1-在区域-R-上-partial-y-f-0-恒成立-但-f-并非与-y-无关"><a href="#f-x-y-in-C-1-在区域-R-上-partial-y-f-0-恒成立-但-f-并非与-y-无关" class="headerlink" title="$f(x,y)\in C^{1}$, 在区域$R$上$\partial_{y}f=0$恒成立, 但$f$并非与$y$无关."></a>$f(x,y)\in C^{1}$, 在区域$R$上$\partial_{y}f=0$恒成立, 但$f$并非与$y$无关.</h2><p>取$L=\RR_{\ge0}\times\left\{ 0\right\} $, $R=\RR\setminus L$, 定义<br>\[<br>f(x,y)=\begin{cases}<br>x^{3}, &amp; x&gt;0\text{ 且 }y&gt;0,\\<br>0, &amp; \text{others}.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="微分和积分交换次序"><a href="#微分和积分交换次序" class="headerlink" title="微分和积分交换次序:"></a>微分和积分交换次序:</h2><p>存在满足</p>
-<p>\[<br>\frac{\ud}{\ud x}\int_{a}^{b}f(x,y)\ud y\ne\int_{a}^{b}\left[\frac{\partial}{\partial x}f(x,y)\right]\ud y,<br>\]<br>的函数, 尽管每个积分都是常义积分.</p>
-<p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}}{y^{2}}\ue^{-x^{2}/y}, &amp; y&gt;0,\\<br>0, &amp; y=0,<br>\end{cases}<br>\]<br>分$x$是否等于零两种情况.</p>
-<hr>
-<h2 id="交换积分次序不相等的函数-即使每个积分都是常义积分"><a href="#交换积分次序不相等的函数-即使每个积分都是常义积分" class="headerlink" title="交换积分次序不相等的函数, 即使每个积分都是常义积分."></a>交换积分次序不相等的函数, 即使每个积分都是常义积分.</h2><p>在$[0,1]^{2}$中,</p>
-<p>\[<br>f(x,y)=\begin{cases}<br>y^{-2}, &amp; 0&lt;x&lt;y&lt;1,\\<br>-x^{-2}, &amp; 0&lt;y&lt;x&lt;1,\\<br>0, &amp; \text{others.}<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="二重级数-sum-m-n-a-mn-虽然按行和按列都有收敛性-但求和次序交换并不相等"><a href="#二重级数-sum-m-n-a-mn-虽然按行和按列都有收敛性-但求和次序交换并不相等" class="headerlink" title="二重级数$\sum_{m,n}a_{mn}$, 虽然按行和按列都有收敛性, 但求和次序交换并不相等."></a>二重级数$\sum_{m,n}a_{mn}$, 虽然按行和按列都有收敛性, 但求和次序交换并不相等.</h2><p>如:<br>\[<br>\begin{bmatrix}0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \frac{1}{16} &amp; \frac{1}{32} &amp; \cdots\\<br>-\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \frac{1}{16} &amp; \cdots\\<br>-\frac{1}{4} &amp; -\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \cdots\\<br>-\frac{1}{8} &amp; -\frac{1}{4} &amp; -\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \cdots\\<br>\cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots<br>\end{bmatrix}<br>\]</p>
-]]></content>
-      <categories>
-        <category>数学</category>
-      </categories>
-      <tags>
-        <tag>微积分</tag>
-        <tag>反例</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>每日一题</title>
     <url>/2022/02/26/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/</url>
     <content><![CDATA[<p>设 $a_{1}=1, a_{n+1}=a_{n}+\frac{1}{a_{n}},\left(n \in \mathbb{N}_{+}\right)$, 证明</p>
@@ -842,6 +813,35 @@ $a_{n}$ 单调上升, 没有有限极限.
         <tag>极限</tag>
         <tag>数列极限</tag>
         <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第一个hexo日志</title>
+    <url>/2021/02/01/%E7%AC%AC%E4%B8%80%E4%B8%AAhexo%E6%97%A5%E5%BF%97/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ cd blog</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+<p>新建一个文件, 然后发布到github上去</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo new &quot;第一个hexo日志&quot;</span><br><span class="line">INFO  Created: ~&#x2F;blog&#x2F;source&#x2F;_posts&#x2F;第一个hexo日志.md</span><br><span class="line">$ vim ~&#x2F;blog&#x2F;source&#x2F;_posts&#x2F;第一个hexo日志.md</span><br><span class="line">$ npm install hexo-deployer-git --save</span><br><span class="line">$ vim _config.yml</span><br><span class="line">$ cat _config.yml</span><br><span class="line">...</span><br><span class="line">title: Larry_Eppes&#39;s Trivia Collection Site</span><br><span class="line">keywords: MATH, COMPUTER</span><br><span class="line">author: Larry Eppes</span><br><span class="line">language: en</span><br><span class="line">timezone: &#39;Asia&#x2F;Shanghai&#39;</span><br><span class="line">...</span><br><span class="line">url: http:&#x2F;&#x2F;larryeppes.github.io</span><br><span class="line">...</span><br><span class="line">deploy:</span><br><span class="line">  type: &#39;git&#39;</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;larryeppes&#x2F;larryeppes.github.io</span><br><span class="line"></span><br><span class="line">$ hexo server</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http:&#x2F;&#x2F;localhost:4000&#x2F;. Press Ctrl+C to stop.</span><br><span class="line"></span><br><span class="line">$ hexo deploy --generate</span><br></pre></td></tr></table></figure>
+<div class="note simple"><p>默認 提示塊標籤</p>
+</div>
+<div class="note default simple"><p>default 提示塊標籤</p>
+</div>
+<div class="note primary simple"><p>primary 提示塊標籤</p>
+</div>
+<div class="note success simple"><p>success 提示塊標籤</p>
+</div>
+<div class="note info simple"><p>info 提示塊標籤</p>
+</div>
+<div class="note warning simple"><p>warning 提示塊標籤</p>
+</div>
+<div class="note danger simple"><p>danger 提示塊標籤</p>
+</div>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
 </search>

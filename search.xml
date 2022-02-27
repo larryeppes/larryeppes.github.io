@@ -134,6 +134,175 @@ x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>时, 称$x$关�
       </tags>
   </entry>
   <entry>
+    <title>Latex编辑展示页面</title>
+    <url>/2021/02/02/Latex%E7%BC%96%E8%BE%91%E5%B1%95%E7%A4%BA%E9%A1%B5%E9%9D%A2/</url>
+    <content><![CDATA[<h1 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h1><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Latex Code</th>
+<th style="text-align:center">Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">\alpha</td>
+<td style="text-align:center">$\alpha$</td>
+<td>\theta</td>
+<td>$\theta$</td>
+<td>\omicron</td>
+<td>$\omicron$</td>
+<td>\upsilon</td>
+<td>$\upsilon$</td>
+</tr>
+<tr>
+<td style="text-align:center">\beta</td>
+<td style="text-align:center">$\beta$</td>
+<td>\vartheta</td>
+<td>$\vartheta$</td>
+<td>\pi</td>
+<td>$\pi$</td>
+<td>\phi</td>
+<td>$\phi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\gamma</td>
+<td style="text-align:center">$\gamma$</td>
+<td>\iota</td>
+<td>$\iota$</td>
+<td>\varpi</td>
+<td>$\varpi$</td>
+<td>\varphi</td>
+<td>$\varphi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\delta</td>
+<td style="text-align:center">$\delta$</td>
+<td>\kappa</td>
+<td>$\kappa$</td>
+<td>\rho</td>
+<td>$\rho$</td>
+<td>\chi</td>
+<td>$\chi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varepsilon</td>
+<td style="text-align:center">$\varepsilon$</td>
+<td>\lambda</td>
+<td>$\lambda$</td>
+<td>\varrho</td>
+<td>$\varrho$</td>
+<td>\psi</td>
+<td>$\psi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\epsilon</td>
+<td style="text-align:center">$\epsilon$</td>
+<td>\mu</td>
+<td>$\mu$</td>
+<td>\sigma</td>
+<td>$\sigma$</td>
+<td>\omega</td>
+<td>$\omega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\zeta</td>
+<td style="text-align:center">$\zeta$</td>
+<td>\nu</td>
+<td>$\nu$</td>
+<td>\varsigma</td>
+<td>$\varsigma$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\eta</td>
+<td style="text-align:center">$\eta$</td>
+<td>\xi</td>
+<td>$\xi$</td>
+<td>\tau</td>
+<td>$\tau$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\Gamma</td>
+<td style="text-align:center">$\Gamma$</td>
+<td>\Lambda</td>
+<td>$\Lambda$</td>
+<td>\Sigma</td>
+<td>$\Sigma$</td>
+<td>\Psi</td>
+<td>$\Psi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\Delta</td>
+<td style="text-align:center">$\Delta$</td>
+<td>\Xi</td>
+<td>$\Xi$</td>
+<td>\Upsilon</td>
+<td>$\Upsilon$</td>
+<td>\Omega</td>
+<td>$\Omega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\Theta</td>
+<td style="text-align:center">$\Theta$</td>
+<td>\Pi</td>
+<td>$\Pi$</td>
+<td>\Phi</td>
+<td>$\Phi$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\varGamma</td>
+<td style="text-align:center">$\varGamma$</td>
+<td>\varLambda</td>
+<td>$\varLambda$</td>
+<td>\varSigma</td>
+<td>$\varSigma$</td>
+<td>\varPsi</td>
+<td>$\varPsi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varDelta</td>
+<td style="text-align:center">$\varDelta$</td>
+<td>\varXi</td>
+<td>$\varXi$</td>
+<td>\varUpsilon</td>
+<td>$\varUpsilon$</td>
+<td>\varOmega</td>
+<td>$\varOmega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varTheta</td>
+<td style="text-align:center">$\varTheta$</td>
+<td>\varPi</td>
+<td>$\varPi$</td>
+<td>\varPhi</td>
+<td>$\varPhi$</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+]]></content>
+      <categories>
+        <category>latex</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>latex</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hilbert空间中的定理</title>
     <url>/2021/10/25/Hilbert%E7%A9%BA%E9%97%B4%E4%B8%AD%E7%9A%84%E5%AE%9A%E7%90%86/</url>
     <content><![CDATA[<blockquote>
@@ -445,172 +614,34 @@ x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>时, 称$x$关�
       </tags>
   </entry>
   <entry>
-    <title>Latex编辑展示页面</title>
-    <url>/2021/02/02/Latex%E7%BC%96%E8%BE%91%E5%B1%95%E7%A4%BA%E9%A1%B5%E9%9D%A2/</url>
-    <content><![CDATA[<h1 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h1><div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Latex Code</th>
-<th style="text-align:center">Math View</th>
-<th>Latex Code</th>
-<th>Math View</th>
-<th>Latex Code</th>
-<th>Math View</th>
-<th>Latex Code</th>
-<th>Math View</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">\alpha</td>
-<td style="text-align:center">$\alpha$</td>
-<td>\theta</td>
-<td>$\theta$</td>
-<td>\omicron</td>
-<td>$\omicron$</td>
-<td>\upsilon</td>
-<td>$\upsilon$</td>
-</tr>
-<tr>
-<td style="text-align:center">\beta</td>
-<td style="text-align:center">$\beta$</td>
-<td>\vartheta</td>
-<td>$\vartheta$</td>
-<td>\pi</td>
-<td>$\pi$</td>
-<td>\phi</td>
-<td>$\phi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\gamma</td>
-<td style="text-align:center">$\gamma$</td>
-<td>\iota</td>
-<td>$\iota$</td>
-<td>\varpi</td>
-<td>$\varpi$</td>
-<td>\varphi</td>
-<td>$\varphi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\delta</td>
-<td style="text-align:center">$\delta$</td>
-<td>\kappa</td>
-<td>$\kappa$</td>
-<td>\rho</td>
-<td>$\rho$</td>
-<td>\chi</td>
-<td>$\chi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\varepsilon</td>
-<td style="text-align:center">$\varepsilon$</td>
-<td>\lambda</td>
-<td>$\lambda$</td>
-<td>\varrho</td>
-<td>$\varrho$</td>
-<td>\psi</td>
-<td>$\psi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\epsilon</td>
-<td style="text-align:center">$\epsilon$</td>
-<td>\mu</td>
-<td>$\mu$</td>
-<td>\sigma</td>
-<td>$\sigma$</td>
-<td>\omega</td>
-<td>$\omega$</td>
-</tr>
-<tr>
-<td style="text-align:center">\zeta</td>
-<td style="text-align:center">$\zeta$</td>
-<td>\nu</td>
-<td>$\nu$</td>
-<td>\varsigma</td>
-<td>$\varsigma$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:center">\eta</td>
-<td style="text-align:center">$\eta$</td>
-<td>\xi</td>
-<td>$\xi$</td>
-<td>\tau</td>
-<td>$\tau$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:center">\Gamma</td>
-<td style="text-align:center">$\Gamma$</td>
-<td>\Lambda</td>
-<td>$\Lambda$</td>
-<td>\Sigma</td>
-<td>$\Sigma$</td>
-<td>\Psi</td>
-<td>$\Psi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\Delta</td>
-<td style="text-align:center">$\Delta$</td>
-<td>\Xi</td>
-<td>$\Xi$</td>
-<td>\Upsilon</td>
-<td>$\Upsilon$</td>
-<td>\Omega</td>
-<td>$\Omega$</td>
-</tr>
-<tr>
-<td style="text-align:center">\Theta</td>
-<td style="text-align:center">$\Theta$</td>
-<td>\Pi</td>
-<td>$\Pi$</td>
-<td>\Phi</td>
-<td>$\Phi$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:center">\varGamma</td>
-<td style="text-align:center">$\varGamma$</td>
-<td>\varLambda</td>
-<td>$\varLambda$</td>
-<td>\varSigma</td>
-<td>$\varSigma$</td>
-<td>\varPsi</td>
-<td>$\varPsi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\varDelta</td>
-<td style="text-align:center">$\varDelta$</td>
-<td>\varXi</td>
-<td>$\varXi$</td>
-<td>\varUpsilon</td>
-<td>$\varUpsilon$</td>
-<td>\varOmega</td>
-<td>$\varOmega$</td>
-</tr>
-<tr>
-<td style="text-align:center">\varTheta</td>
-<td style="text-align:center">$\varTheta$</td>
-<td>\varPi</td>
-<td>$\varPi$</td>
-<td>\varPhi</td>
-<td>$\varPhi$</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</div>
-]]></content>
+    <title>在hexo的自定义配置</title>
+    <url>/2021/02/01/%E5%9C%A8hexo%E7%9A%84mathjax%E4%B8%AD%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AELaTeX%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h1 id="自定义配置mathjax"><a href="#自定义配置mathjax" class="headerlink" title="自定义配置mathjax"></a>自定义配置mathjax</h1><p>首先根据baidu出来的信息, 找到<a href="https://www.jianshu.com/p/7ab21c7f0674">简书</a>上的教程, 然后在参考<a href="http://docs.mathjax.org/en/latest/input/tex/extensions/configmacros.html#tex-configmacros">MathJax官方教程</a>在本地找到文件<code>[blog path]/themes/butterfly/layout/includes/third-party/math/mathjax.pug</code>进行修改, 为了防止链接实效, 将简要步骤叙述如下:</p>
+<h2 id="step-1"><a href="#step-1" class="headerlink" title="step 1"></a>step 1</h2><p>更换Hexo的markdown渲染引擎, <code>hexo-renderer-kramed引擎</code>是在默认的<code>渲染引擎hexo-renderer-marked</code>的基础上修改了一些bug, 两者比较接近, 也比较轻量级.</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-renderer-marked --save</span><br><span class="line">npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure>
+<p>执行上面的命令即可, 先卸载原来的渲染引擎, 再安装新的. 更换引擎后行间公式可以正确渲染了, 但是这样还没有完全解决问题, 行内公式的渲染还是有问题, 因为<code>hexo-renderer-kramed引擎</code>也有语义冲突的问题. 接下来到博客根目录下, 找到<code>node_modules\kramed\lib\rules\inline.js</code>, 把第11行的escape变量的值做相应的修改：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">// escape: /^\\([\\`*&#123;&#125;\[\]()#$+\-.!_&gt;])/,</span><br><span class="line">escape: /^\\([`*\[\]()#$+\-.!_&gt;])/,</span><br></pre></td></tr></table></figure>
+<p>这一步是在原基础上取消了对\,{,}的转义(escape).<br>同时把第20行的<code>em</code>变量也要做相应的修改.</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">// em: /^\b_((?:__|[\s\S])+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br><span class="line">em: /^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br></pre></td></tr></table></figure>
+<p>重新启动hexo(先clean再generate), 问题完美解决. </p>
+<h2 id="step-2"><a href="#step-2" class="headerlink" title="step 2"></a>step 2</h2><p>参考<a href="http://docs.mathjax.org/en/latest/input/tex/extensions/configmacros.html#tex-configmacros">MathJax官方教程</a>, 在本地找到文件<code>[blog path]/themes/butterfly/layout/includes/third-party/math/mathjax.pug</code>进行添加以下行:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">...</span><br><span class="line">window.MathJax = &#123;</span><br><span class="line">	loader: &#123;</span><br><span class="line">		source: &#123; ... &#125;,</span><br><span class="line">		load: [&#x27;[tex]/configmacros&#x27;]</span><br><span class="line">	&#125;,</span><br><span class="line">	tex: &#123;</span><br><span class="line">		packages: &#123;&#x27;[+]&#x27;: [&#x27;configmacros&#x27;]&#125;,</span><br><span class="line">		inlineMath: ...,</span><br><span class="line">		tags: ...,</span><br><span class="line">		macros: &#123;</span><br><span class="line">			RR: &#x27;\\mathbb&#123;R&#125;&#x27;,</span><br><span class="line">			ud: &#x27;\\mathrm&#123;d&#125;&#x27;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<p>如此便可以在hexo编写数学公式时使用自定义宏<code>\ud</code>和<code>\RR</code>来分别表示正体积分微元符号<code>d</code>和花写实数集<code>R</code>.</p>
+<h1 id="自定义配置搜索"><a href="#自定义配置搜索" class="headerlink" title="自定义配置搜索"></a>自定义配置搜索</h1><p>在blog根目录执行以下代码:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+<p>在<code>_config.yml</code>文件中新增以下代码段</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure>
+<p>在hexo博客所选择的主题, 比如<code>_config.yml</code>, 中增加以下配置即可</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> Local search</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> Dependencies: https://github.com/flashlab/hexo-generator-search</span></span><br><span class="line">local_search:</span><br><span class="line">  enable: true</span><br><span class="line"><span class="meta">  #</span><span class="bash"> <span class="keyword">if</span> auto, trigger search by changing input</span></span><br><span class="line"><span class="meta">  #</span><span class="bash"> <span class="keyword">if</span> manual, trigger search by pressing enter key or search button</span></span><br><span class="line">  trigger: auto</span><br><span class="line"><span class="meta">  #</span><span class="bash"> show top n results per article, show all results by setting to -1</span></span><br><span class="line">  top_n_per_article: 1</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>latex</category>
+        <category>mathjax</category>
       </categories>
       <tags>
-        <tag>math</tag>
         <tag>latex</tag>
+        <tag>hexo</tag>
+        <tag>blog</tag>
+        <tag>mathjax</tag>
+        <tag>search</tag>
       </tags>
   </entry>
   <entry>
@@ -654,97 +685,6 @@ x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>时, 称$x$关�
       <tags>
         <tag>微积分</tag>
         <tag>反例</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在hexo的自定义配置</title>
-    <url>/2021/02/01/%E5%9C%A8hexo%E7%9A%84mathjax%E4%B8%AD%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AELaTeX%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h1 id="自定义配置mathjax"><a href="#自定义配置mathjax" class="headerlink" title="自定义配置mathjax"></a>自定义配置mathjax</h1><p>首先根据baidu出来的信息, 找到<a href="https://www.jianshu.com/p/7ab21c7f0674">简书</a>上的教程, 然后在参考<a href="http://docs.mathjax.org/en/latest/input/tex/extensions/configmacros.html#tex-configmacros">MathJax官方教程</a>在本地找到文件<code>[blog path]/themes/butterfly/layout/includes/third-party/math/mathjax.pug</code>进行修改, 为了防止链接实效, 将简要步骤叙述如下:</p>
-<h2 id="step-1"><a href="#step-1" class="headerlink" title="step 1"></a>step 1</h2><p>更换Hexo的markdown渲染引擎, <code>hexo-renderer-kramed引擎</code>是在默认的<code>渲染引擎hexo-renderer-marked</code>的基础上修改了一些bug, 两者比较接近, 也比较轻量级.</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-renderer-marked --save</span><br><span class="line">npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure>
-<p>执行上面的命令即可, 先卸载原来的渲染引擎, 再安装新的. 更换引擎后行间公式可以正确渲染了, 但是这样还没有完全解决问题, 行内公式的渲染还是有问题, 因为<code>hexo-renderer-kramed引擎</code>也有语义冲突的问题. 接下来到博客根目录下, 找到<code>node_modules\kramed\lib\rules\inline.js</code>, 把第11行的escape变量的值做相应的修改：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">// escape: /^\\([\\`*&#123;&#125;\[\]()#$+\-.!_&gt;])/,</span><br><span class="line">escape: /^\\([`*\[\]()#$+\-.!_&gt;])/,</span><br></pre></td></tr></table></figure>
-<p>这一步是在原基础上取消了对\,{,}的转义(escape).<br>同时把第20行的<code>em</code>变量也要做相应的修改.</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">// em: /^\b_((?:__|[\s\S])+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br><span class="line">em: /^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br></pre></td></tr></table></figure>
-<p>重新启动hexo(先clean再generate), 问题完美解决. </p>
-<h2 id="step-2"><a href="#step-2" class="headerlink" title="step 2"></a>step 2</h2><p>参考<a href="http://docs.mathjax.org/en/latest/input/tex/extensions/configmacros.html#tex-configmacros">MathJax官方教程</a>, 在本地找到文件<code>[blog path]/themes/butterfly/layout/includes/third-party/math/mathjax.pug</code>进行添加以下行:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">...</span><br><span class="line">window.MathJax = &#123;</span><br><span class="line">	loader: &#123;</span><br><span class="line">		source: &#123; ... &#125;,</span><br><span class="line">		load: [&#x27;[tex]/configmacros&#x27;]</span><br><span class="line">	&#125;,</span><br><span class="line">	tex: &#123;</span><br><span class="line">		packages: &#123;&#x27;[+]&#x27;: [&#x27;configmacros&#x27;]&#125;,</span><br><span class="line">		inlineMath: ...,</span><br><span class="line">		tags: ...,</span><br><span class="line">		macros: &#123;</span><br><span class="line">			RR: &#x27;\\mathbb&#123;R&#125;&#x27;,</span><br><span class="line">			ud: &#x27;\\mathrm&#123;d&#125;&#x27;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-<p>如此便可以在hexo编写数学公式时使用自定义宏<code>\ud</code>和<code>\RR</code>来分别表示正体积分微元符号<code>d</code>和花写实数集<code>R</code>.</p>
-<h1 id="自定义配置搜索"><a href="#自定义配置搜索" class="headerlink" title="自定义配置搜索"></a>自定义配置搜索</h1><p>在blog根目录执行以下代码:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
-<p>在<code>_config.yml</code>文件中新增以下代码段</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure>
-<p>在hexo博客所选择的主题, 比如<code>_config.yml</code>, 中增加以下配置即可</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> Local search</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> Dependencies: https://github.com/flashlab/hexo-generator-search</span></span><br><span class="line">local_search:</span><br><span class="line">  enable: true</span><br><span class="line"><span class="meta">  #</span><span class="bash"> <span class="keyword">if</span> auto, trigger search by changing input</span></span><br><span class="line"><span class="meta">  #</span><span class="bash"> <span class="keyword">if</span> manual, trigger search by pressing enter key or search button</span></span><br><span class="line">  trigger: auto</span><br><span class="line"><span class="meta">  #</span><span class="bash"> show top n results per article, show all results by setting to -1</span></span><br><span class="line">  top_n_per_article: 1</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>mathjax</category>
-      </categories>
-      <tags>
-        <tag>latex</tag>
-        <tag>hexo</tag>
-        <tag>blog</tag>
-        <tag>mathjax</tag>
-        <tag>search</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第一个hexo日志</title>
-    <url>/2021/02/01/%E7%AC%AC%E4%B8%80%E4%B8%AAhexo%E6%97%A5%E5%BF%97/</url>
-    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ cd blog</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
-<p>新建一个文件, 然后发布到github上去</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo new &quot;第一个hexo日志&quot;</span><br><span class="line">INFO  Created: ~&#x2F;blog&#x2F;source&#x2F;_posts&#x2F;第一个hexo日志.md</span><br><span class="line">$ vim ~&#x2F;blog&#x2F;source&#x2F;_posts&#x2F;第一个hexo日志.md</span><br><span class="line">$ npm install hexo-deployer-git --save</span><br><span class="line">$ vim _config.yml</span><br><span class="line">$ cat _config.yml</span><br><span class="line">...</span><br><span class="line">title: Larry_Eppes&#39;s Trivia Collection Site</span><br><span class="line">keywords: MATH, COMPUTER</span><br><span class="line">author: Larry Eppes</span><br><span class="line">language: en</span><br><span class="line">timezone: &#39;Asia&#x2F;Shanghai&#39;</span><br><span class="line">...</span><br><span class="line">url: http:&#x2F;&#x2F;larryeppes.github.io</span><br><span class="line">...</span><br><span class="line">deploy:</span><br><span class="line">  type: &#39;git&#39;</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;larryeppes&#x2F;larryeppes.github.io</span><br><span class="line"></span><br><span class="line">$ hexo server</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http:&#x2F;&#x2F;localhost:4000&#x2F;. Press Ctrl+C to stop.</span><br><span class="line"></span><br><span class="line">$ hexo deploy --generate</span><br></pre></td></tr></table></figure>
-<div class="note simple"><p>默認 提示塊標籤</p>
-</div>
-<div class="note default simple"><p>default 提示塊標籤</p>
-</div>
-<div class="note primary simple"><p>primary 提示塊標籤</p>
-</div>
-<div class="note success simple"><p>success 提示塊標籤</p>
-</div>
-<div class="note info simple"><p>info 提示塊標籤</p>
-</div>
-<div class="note warning simple"><p>warning 提示塊標籤</p>
-</div>
-<div class="note danger simple"><p>danger 提示塊標籤</p>
-</div>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>每日一题</title>
-    <url>/2022/02/26/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/</url>
-    <content><![CDATA[<p>设 $a_{1}=1, a_{n+1}=a_{n}+\frac{1}{a_{n}},\left(n \in \mathbb{N}_{+}\right)$, 证明</p>
-<script type="math/tex; mode=display">
-\lim _{n \rightarrow \infty} \frac{a_{n}}{\sqrt{n}}=\sqrt{2}.</script><details>
-<summary>提示: </summary>
-\[
-\lim_{n\to\infty}\frac{a_{n}^{2}}{n}\xlongequal{\text{ Stolz 公式 }}\lim_{n\to\infty}\frac{a_{n+1}^{2}-a_{n}^{2}}{1}=(a_{n+1}+a_{n})\frac{1}{a_{n}}=1+\frac{a_{n+1}}{a_{n}}=2+\frac{1}{a_{n}^{2}}
-\]
-
-$a_{n}$ 单调上升, 没有有限极限.
-
-\[
-2+\frac{1}{a_{n}^{2}}\to2,\quad n\to\infty.
-\]
-</details>
-
-<blockquote><p>\[<br>\lim_{n\to\infty}\frac{a_{n}^{2}}{n}\xlongequal{\text{ Stolz 公式 }}\lim_{n\to\infty}\frac{a_{n+1}^{2}-a_{n}^{2}}{1}=(a_{n+1}+a_{n})\frac{1}{a_{n}}=1+\frac{a_{n+1}}{a_{n}}=2+\frac{1}{a_{n}^{2}}<br>\]</p>
-<p>$a_{n}$ 单调上升, 没有有限极限.</p>
-<p>\[<br>2+\frac{1}{a_{n}^{2}}\to2,\quad n\to\infty.<br>\]</p>
-</blockquote>]]></content>
-      <categories>
-        <category>高等数学</category>
-      </categories>
-      <tags>
-        <tag>极限</tag>
-        <tag>数列极限</tag>
-        <tag>高等数学</tag>
       </tags>
   </entry>
   <entry>
@@ -842,6 +782,66 @@ $a_{n}$ 单调上升, 没有有限极限.
       <tags>
         <tag>微积分</tag>
         <tag>反例</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>每日一题</title>
+    <url>/2022/02/26/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/</url>
+    <content><![CDATA[<p>设 $a_{1}=1, a_{n+1}=a_{n}+\frac{1}{a_{n}},\left(n \in \mathbb{N}_{+}\right)$, 证明</p>
+<script type="math/tex; mode=display">
+\lim _{n \rightarrow \infty} \frac{a_{n}}{\sqrt{n}}=\sqrt{2}.</script><details>
+<summary>提示: </summary>
+\[
+\lim_{n\to\infty}\frac{a_{n}^{2}}{n}\xlongequal{\text{ Stolz 公式 }}\lim_{n\to\infty}\frac{a_{n+1}^{2}-a_{n}^{2}}{1}=(a_{n+1}+a_{n})\frac{1}{a_{n}}=1+\frac{a_{n+1}}{a_{n}}=2+\frac{1}{a_{n}^{2}}
+\]
+
+$a_{n}$ 单调上升, 没有有限极限.
+
+\[
+2+\frac{1}{a_{n}^{2}}\to2,\quad n\to\infty.
+\]
+</details>
+
+<blockquote><p>\[<br>\lim_{n\to\infty}\frac{a_{n}^{2}}{n}\xlongequal{\text{ Stolz 公式 }}\lim_{n\to\infty}\frac{a_{n+1}^{2}-a_{n}^{2}}{1}=(a_{n+1}+a_{n})\frac{1}{a_{n}}=1+\frac{a_{n+1}}{a_{n}}=2+\frac{1}{a_{n}^{2}}<br>\]</p>
+<p>$a_{n}$ 单调上升, 没有有限极限.</p>
+<p>\[<br>2+\frac{1}{a_{n}^{2}}\to2,\quad n\to\infty.<br>\]</p>
+</blockquote>]]></content>
+      <categories>
+        <category>高等数学</category>
+      </categories>
+      <tags>
+        <tag>极限</tag>
+        <tag>数列极限</tag>
+        <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第一个hexo日志</title>
+    <url>/2021/02/01/%E7%AC%AC%E4%B8%80%E4%B8%AAhexo%E6%97%A5%E5%BF%97/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ cd blog</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+<p>新建一个文件, 然后发布到github上去</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo new &quot;第一个hexo日志&quot;</span><br><span class="line">INFO  Created: ~&#x2F;blog&#x2F;source&#x2F;_posts&#x2F;第一个hexo日志.md</span><br><span class="line">$ vim ~&#x2F;blog&#x2F;source&#x2F;_posts&#x2F;第一个hexo日志.md</span><br><span class="line">$ npm install hexo-deployer-git --save</span><br><span class="line">$ vim _config.yml</span><br><span class="line">$ cat _config.yml</span><br><span class="line">...</span><br><span class="line">title: Larry_Eppes&#39;s Trivia Collection Site</span><br><span class="line">keywords: MATH, COMPUTER</span><br><span class="line">author: Larry Eppes</span><br><span class="line">language: en</span><br><span class="line">timezone: &#39;Asia&#x2F;Shanghai&#39;</span><br><span class="line">...</span><br><span class="line">url: http:&#x2F;&#x2F;larryeppes.github.io</span><br><span class="line">...</span><br><span class="line">deploy:</span><br><span class="line">  type: &#39;git&#39;</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;larryeppes&#x2F;larryeppes.github.io</span><br><span class="line"></span><br><span class="line">$ hexo server</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http:&#x2F;&#x2F;localhost:4000&#x2F;. Press Ctrl+C to stop.</span><br><span class="line"></span><br><span class="line">$ hexo deploy --generate</span><br></pre></td></tr></table></figure>
+<div class="note simple"><p>默認 提示塊標籤</p>
+</div>
+<div class="note default simple"><p>default 提示塊標籤</p>
+</div>
+<div class="note primary simple"><p>primary 提示塊標籤</p>
+</div>
+<div class="note success simple"><p>success 提示塊標籤</p>
+</div>
+<div class="note info simple"><p>info 提示塊標籤</p>
+</div>
+<div class="note warning simple"><p>warning 提示塊標籤</p>
+</div>
+<div class="note danger simple"><p>danger 提示塊標籤</p>
+</div>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
 </search>

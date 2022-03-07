@@ -770,7 +770,7 @@ n(1+x_{n})=n\left(1-\ue^{\frac{x_{n}}{2n+1}}\right)=n\left(1-\left(1+\frac{x_{n}
 2(x_{n}-1)=x_{n}^{n+1}-1.</script><script type="math/tex; mode=display">
 x_{n}=\sqrt[n+1]{1+2(x_{n}-1)}=1+\frac{2(x_{n}-1)}{n+1}+o\left(\frac{1}{n}\right)\to1,\quad n\to\infty.</script></div></div></div>]]></content>
       <categories>
-        <category>高等数学</category>
+        <category>数学</category>
       </categories>
       <tags>
         <tag>极限</tag>
@@ -900,7 +900,7 @@ G'(x)=2f(x)-2f(x)f'(x)\ge0.</script></div></div></div>
     <div class="hide-content"><script type="math/tex; mode=display">
 (f(x)-m)(f(x)-M)\le0\Longrightarrow\int_{0}^{1}f(x)dx+\int_{0}^{1}\frac{Mm}{f(x)}dx\le M+m\Longrightarrow4\int_{0}^{1}f(x)dx\int_{0}^{1}\frac{Mm}{f(x)}dx\le(M+m)^{2}.</script></div></div></div>]]></content>
       <categories>
-        <category>latex</category>
+        <category>数学</category>
       </categories>
       <tags>
         <tag>微积分</tag>
@@ -1045,7 +1045,7 @@ I=\int_{0}^{1}\frac{x-1}{\ln x}\ud x.</script><div class="hide-toggle" style="bo
     <div class="hide-content"><script type="math/tex; mode=display">
 I=\int_{0}^{1}\int_{0}^{1}x^{y}\ud y\ud x=\int_{0}^{1}\int_{0}^{1}x^{y}\ud x\ud y=\int_{0}^{1}\frac{1}{y+1}\ud y=\ln(1+y)\mid_{0}^{1}=\ln2.</script></div></div></div>]]></content>
       <categories>
-        <category>latex</category>
+        <category>数学</category>
       </categories>
       <tags>
         <tag>每日一题</tag>

@@ -783,15 +783,16 @@ x_{n}=\sqrt[n+1]{1+2(x_{n}-1)}=1+\frac{2(x_{n}-1)}{n+1}+o\left(\frac{1}{n}\right
     <content><![CDATA[<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $f(x)$ 在 $[a,b]$ 上具有二阶可导, 且 $f(a)=f(b)=0$, $M=\max_{x\in[a,b]}\left|f^{\prime\prime}(x)\right|$, 证明 </p>
 <script type="math/tex; mode=display">
 \left|\int_{a}^{b}f(x)dx\right|\leq\frac{(b-a)^{3}}{12}M.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
+    <div class="hide-content"><p><div class="hide-toggle" style="border: 1px solid black"><div class="hide-button toggle-title" style="background-color: black;color: white"><i class="fas fa-caret-right fa-fw"></i><span>瞎算</span></div><br>    <div class="hide-content"><script type="math/tex; mode=display">
 \begin{align*}
 f(x) & =f'(a)(x-a)+\frac{f''(\xi)}{2}(x-a)^{2}\\
  & =f'(b)(x-b)+\frac{f''(\eta)}{2}(x-b)^{2}\\
  & =\lambda f'(a)(x-a)+(1-\lambda)f'(b)(x-b)+\lambda\frac{f''(\xi)}{2}(x-a)^{2}+(1-\lambda)\frac{f''(\eta)}{2}(x-b)^{2}
-\end{align*}</script><p>取$\lambda=\frac{f’(b)}{f’(a)+f’(b)}$,</p>
-<script type="math/tex; mode=display">
+\end{align*}</script><p>取$\lambda=\frac{f’(b)}{f’(a)+f’(b)}$,</p></div></div></p>
+<p><script type="math/tex; mode=display">
 \int_{a}^{b}f(x)dx=\frac{\lambda}{2}\int_{a}^{b}f''(\xi)(x-a)^{2}dx+\frac{1-\lambda}{2}\int_{a}^{b}f''(\eta)(x-b)^{2}dx.</script><script type="math/tex; mode=display">
-\left|\int_{a}^{b}f(x)dx\right|\le\frac{\lambda}{2}M\int_{a}^{b}(x-a)^{2}dx+\frac{1-\lambda}{2}M\int_{a}^{b}(x-b)^{2}dx=\frac{M(b-a)^{3}}{6}.</script><script type="math/tex; mode=display">
+\left|\int_{a}^{b}f(x)dx\right|\le\frac{\lambda}{2}M\int_{a}^{b}(x-a)^{2}dx+\frac{1-\lambda}{2}M\int_{a}^{b}(x-b)^{2}dx=\frac{M(b-a)^{3}}{6}.</script>&lt;/div&gt;&lt;/div&gt;</p>
+<script type="math/tex; mode=display">
 \begin{align*}
 0=f(a) & =f(x)+f'(x)(a-x)+\frac{f''(\xi)}{2}(a-x)^{2}\\
  & =f(x)+f'(x)(b-x)+\frac{f''(\eta)}{2}(b-x)^{2}\\
@@ -802,21 +803,6 @@ f(x) & =f'(a)(x-a)+\frac{f''(\xi)}{2}(x-a)^{2}\\
 \left|\int_{a}^{b}f(x)dx\right| & =\left|\int_{a}^{b}\frac{f''(\xi)}{2}\lambda(a-x)^{2}+\frac{f''(\eta)}{2}(1-\lambda)(b-x)^{2}dx\right|\\
  & \le\frac{M}{2}\left|\int_{a}^{b}\lambda(a-x)^{2}+(1-\lambda)(b-x)^{2}dx\right|\\
  & \le\frac{M(b-a)^{3}}{12}.
-\end{align*}</script><script type="math/tex; mode=display">
-\begin{align*}
-f(a)+f(b) & =\frac{2x-a-b}{b-a}f(x)\mid_{a}^{b}\\
- & =\frac{2}{b-a}\int_{a}^{b}f(x)dx+\int_{a}^{b}\frac{2x-a-b}{b-a}f'(x)dx\\
- & =\frac{2}{b-a}\int_{a}^{b}f(x)dx+\int_{a}^{b}f'(x)d{\color{magenta}\frac{(x-a)(x-b)}{b-a}}\\
- & =\frac{2}{b-a}\int_{a}^{b}f(x)dx-\int_{a}^{b}\frac{(x-a)(x-b)}{b-a}f''(x)dx
-\end{align*}</script><p>上式红色部分本质上是$\int_{a}^{x}\frac{2t-a-b}{b-a}dt-\int_{a}^{b}\frac{2t-a-b}{b-a}dx$</p>
-<script type="math/tex; mode=display">
-\left|\int_{a}^{b}f(x)dx\right|\le\frac{b-a}{2}M\int_{a}^{b}\left|\frac{(x-a)(x-b)}{b-a}\right|dx=\frac{M(b-a)^{3}}{12}.</script><script type="math/tex; mode=display">
-\begin{align*}
-\left|\int_{a}^{b}f(x)dx\right| & =\left|\int_{a}^{b}f(x)d(x-a)\right|\\
- & =\left|{\color{magenta}\int_{a}^{b}(x-a)f'(x)d(x-b)}\right|\\
- & =\left|(x-a)(x-b)f'(x){\color{magenta}-\int_{a}^{b}(x-b)f'(x)d(x-a)}-\int_{a}^{b}(x-c)^{2}f''(x)dx\right|\\
- & =\frac{1}{2}\left|(x-c)^{2}f'(x)\mid_{a}^{b}-\int_{a}^{b}(x-c)^{2}f''(x)dx\right|\\
- & \le\frac{1}{2}
 \end{align*}</script></div></div></div>
 <div class="note primary no-icon flat"><p><strong>问题:</strong> 已知 $f(x)$ 在 $[0,2]$ 上一阶可导, $f(0)=f(2)=1$, $\left|f^{\prime}(x)\right|\leq1$, 证明 </p>
 <script type="math/tex; mode=display">

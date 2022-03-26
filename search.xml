@@ -53,6 +53,87 @@
       </tags>
   </entry>
   <entry>
+    <title>Hilbert空间中的定义</title>
+    <url>/2021/10/25/Hilbert%E7%A9%BA%E9%97%B4%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/</url>
+    <content><![CDATA[<blockquote>
+<p>定义: 设$F$是实数域或复数域, $H$是$F$上的线性空间, 如果对于$H$中任何两个向量$x,y$, 都有一个数$(x,y)\in F$与之对应,<br>并满足以下条件:</p>
+<blockquote>
+<p>I) 共轭对称性/Hermite性: 对任何$x,y\in H$, $(x,y)=\overline{(y,x)}$;</p>
+<p>II) 对第一变元的线性: 对任何$x,y,z\in H$及任何数$\alpha,\beta\in F$, 成立$(\alpha x+\beta y,z)=\alpha(x,z)+\beta(y,z)$;</p>
+<p>III) 正定性: 对于一切$x\in H$, $(x,x)\ge0$, 且$(x,x)=0$当且仅当$x=0$;</p>
+</blockquote>
+<p>称二元函数$(\cdot,\cdot)$是$H$中的<strong>内积</strong>. 如果$H$上定义了内积, 当$F$是实(或复)数域时, 称$H$为实(或复)<strong>内积空间</strong>.</p>
+<p>内积$(\cdot,\cdot)$关于第二变元是共轭线性的, 即对于任何$x,y,z\in H$及任何$\alpha,\beta\in F$,<br>有</p>
+<script type="math/tex; mode=display">
+(z,\alpha x+\beta y)=\overline{\alpha}(z,x)+\overline{\beta}(z,y).</script></blockquote>
+<hr>
+<blockquote>
+<p>定义: 完备的内积空间称为<strong>Hilbert空间</strong>.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>定义: 设$H$是内积空间, 其中的内积为$(\cdot,\cdot)$. </p>
+<blockquote>
+<p>若$H$中两个向量$x,y$满足$(x,y)=0$, 则称$x,y$<strong>正交</strong>, 记作$x\perp y$.</p>
+<p>设$M$是$H$的非空子集, 当$x$与$M$中所有向量正交时, 称$x$与$M$正交, 记作$x\perp M$.</p>
+<p>设$M$与$N$是$H$的两个非空子集, 若对任何$x\in M$, $y\in N$, 都有$x\perp y$, 称$M$与$N$正交, 记作$M\perp N$.</p>
+<p>设$M$是$H$的非空子集, $H$中所有与$M$正交的向量全体称为$M$的<strong>正交补</strong>, 记作$M^{\perp}$.</p>
+</blockquote>
+</blockquote>
+<hr>
+<blockquote>
+<p>定义: 设$H$是内积空间, $M_{1},M_{2}$是$H$的两个线性子空间. 若$M_{1}\perp M_{2}$,<br>则称</p>
+<script type="math/tex; mode=display">
+M=\left\{ x_{1}+x_{2}\mid x_{1}\in M_{1},x_{2}\in M_{2}\right\}</script><p>为$M_{1}$与$M_{2}$的<strong>直交和</strong>, 记为$M_{1}\oplus M_{2}$.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>定义: 设$M$是内积空间$H$的线性子空间, $x\in H$. 若有$x_{0}\in M$, $x_{1}\perp M$,<br>使得</p>
+<script type="math/tex; mode=display">
+x=x_{0}+x_{1},</script><p>则称$x_{0}$为$x$在$M$上的<strong>正交投影</strong>, 简称<strong>投影</strong>.</p>
+<p>注意: 一般来说, 对于内积空间$H$中的任意向量$x$及任意的线性子空间$M$, $x$在$M$上的投影并不一定存在.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>定义: 设$X$是线性空间, $x,y\in X$, 称集合</p>
+<script type="math/tex; mode=display">
+\left\{ \alpha x+(1-\alpha)y\mid0\le\alpha\le1\right\}</script><p>为$X$中连接$x,y$的线段, 如果$M$是$X$的子集, 连接$M$中任意两点的线段均包含于$M$, 则称$M$是$X$中的<strong>凸集</strong>.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>定义: 设$\mathscr{F}$是内积空间$H$中的一族非零向量, 如果$\mathscr{F}$中的向量两两正交, 则称$\mathscr{F}$是$H$中的一个<strong>正交系</strong>.<br>如果正交系$\mathscr{F}$中向量范数均为$1$, 则称$\mathscr{F}$是<strong>规范正交系</strong>.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>定义: 设$\mathscr{F}$是内积空间$H$中的规范正交系, $x\in H$. 称</p>
+<script type="math/tex; mode=display">
+\left\{ \left(x,e\right)\mid e\in\mathscr{F}\right\}</script><p>为向量$x$关于规范正交系$\mathscr{F}$的Fourier系数集, 称$(x,e)$为$x$关于$e$的<strong>Fourier系数</strong>.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>定义: 设$\left\{ e_{\lambda}\mid\lambda\in\Lambda\right\} $是内积空间$H$中的规范正交系,<br>若对于任何$x\in H$, 有<strong>Parseval等式</strong>:</p>
+<script type="math/tex; mode=display">
+\norm{x}^{2}=\sum_{\lambda\in\Lambda}\left|\left(x,e_{\lambda}\right)\right|^{2},</script><p>则称$\left\{ e_{\lambda}\mid\lambda\in\Lambda\right\} $是$H$中的<strong>完备规范正交系</strong>.</p>
+<p>Parseval等式又称为$x$关于$\left\{ e_{\lambda}\mid\lambda\in\Lambda\right\} $的完备性公式.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>定义: 设$\mathscr{F}=\left\{ e_{\lambda}\mid\lambda\in\Lambda\right\} $是内积空间$H$中的规范正交系,<br>对$x\in H$, 称形式级数</p>
+<script type="math/tex; mode=display">
+\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>为向量$x$关于$\mathscr{F}$的<strong>Fourier展开式</strong>, 当</p>
+<script type="math/tex; mode=display">
+x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>时, 称$x$关于$\mathscr{F}$可以展开成<strong>Fourier级数</strong>.</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+        <tag>泛函分析</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hilbert空间中的定理</title>
     <url>/2021/10/25/Hilbert%E7%A9%BA%E9%97%B4%E4%B8%AD%E7%9A%84%E5%AE%9A%E7%90%86/</url>
     <content><![CDATA[<blockquote>
@@ -364,6 +445,81 @@
       </tags>
   </entry>
   <entry>
+    <title>在hexo的自定义配置</title>
+    <url>/2021/02/01/%E5%9C%A8hexo%E7%9A%84mathjax%E4%B8%AD%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AELaTeX%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h1 id="自定义配置mathjax"><a href="#自定义配置mathjax" class="headerlink" title="自定义配置mathjax"></a>自定义配置mathjax</h1><p>首先根据baidu出来的信息, 找到<a href="https://www.jianshu.com/p/7ab21c7f0674">简书</a>上的教程, 然后在参考<a href="http://docs.mathjax.org/en/latest/input/tex/extensions/configmacros.html#tex-configmacros">MathJax官方教程</a>在本地找到文件<code>[blog path]/themes/butterfly/layout/includes/third-party/math/mathjax.pug</code>进行修改, 为了防止链接实效, 将简要步骤叙述如下:</p>
+<h2 id="step-1"><a href="#step-1" class="headerlink" title="step 1"></a>step 1</h2><p>更换Hexo的markdown渲染引擎, <code>hexo-renderer-kramed引擎</code>是在默认的<code>渲染引擎hexo-renderer-marked</code>的基础上修改了一些bug, 两者比较接近, 也比较轻量级.</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-renderer-marked --save</span><br><span class="line">npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure>
+<p>执行上面的命令即可, 先卸载原来的渲染引擎, 再安装新的. 更换引擎后行间公式可以正确渲染了, 但是这样还没有完全解决问题, 行内公式的渲染还是有问题, 因为<code>hexo-renderer-kramed引擎</code>也有语义冲突的问题. 接下来到博客根目录下, 找到<code>node_modules\kramed\lib\rules\inline.js</code>, 把第11行的escape变量的值做相应的修改：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">// escape: /^\\([\\`*&#123;&#125;\[\]()#$+\-.!_&gt;])/,</span><br><span class="line">escape: /^\\([`*\[\]()#$+\-.!_&gt;])/,</span><br></pre></td></tr></table></figure>
+<p>这一步是在原基础上取消了对\,{,}的转义(escape).<br>同时把第20行的<code>em</code>变量也要做相应的修改.</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">// em: /^\b_((?:__|[\s\S])+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br><span class="line">em: /^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br></pre></td></tr></table></figure>
+<p>重新启动hexo(先clean再generate), 问题完美解决. </p>
+<h2 id="step-2"><a href="#step-2" class="headerlink" title="step 2"></a>step 2</h2><p>参考<a href="http://docs.mathjax.org/en/latest/input/tex/extensions/configmacros.html#tex-configmacros">MathJax官方教程</a>, 在本地找到文件<code>[blog path]/themes/butterfly/layout/includes/third-party/math/mathjax.pug</code>进行添加以下行:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">...</span><br><span class="line">window.MathJax = &#123;</span><br><span class="line">	loader: &#123;</span><br><span class="line">		source: &#123; ... &#125;,</span><br><span class="line">		load: [&#x27;[tex]/configmacros&#x27;]</span><br><span class="line">	&#125;,</span><br><span class="line">	tex: &#123;</span><br><span class="line">		packages: &#123;&#x27;[+]&#x27;: [&#x27;configmacros&#x27;]&#125;,</span><br><span class="line">		inlineMath: ...,</span><br><span class="line">		tags: ...,</span><br><span class="line">		macros: &#123;</span><br><span class="line">			RR: &#x27;\\mathbb&#123;R&#125;&#x27;,</span><br><span class="line">			ud: &#x27;\\mathrm&#123;d&#125;&#x27;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<p>如此便可以在hexo编写数学公式时使用自定义宏<code>\ud</code>和<code>\RR</code>来分别表示正体积分微元符号<code>d</code>和花写实数集<code>R</code>.</p>
+<h1 id="自定义配置搜索"><a href="#自定义配置搜索" class="headerlink" title="自定义配置搜索"></a>自定义配置搜索</h1><p>在blog根目录执行以下代码:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+<p>在<code>_config.yml</code>文件中新增以下代码段</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure>
+<p>在hexo博客所选择的主题, 比如<code>_config.yml</code>, 中增加以下配置即可</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> Local search</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> Dependencies: https://github.com/flashlab/hexo-generator-search</span></span><br><span class="line">local_search:</span><br><span class="line">  enable: true</span><br><span class="line"><span class="meta">  #</span><span class="bash"> <span class="keyword">if</span> auto, trigger search by changing input</span></span><br><span class="line"><span class="meta">  #</span><span class="bash"> <span class="keyword">if</span> manual, trigger search by pressing enter key or search button</span></span><br><span class="line">  trigger: auto</span><br><span class="line"><span class="meta">  #</span><span class="bash"> show top n results per article, show all results by setting to -1</span></span><br><span class="line">  top_n_per_article: 1</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>mathjax</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>blog</tag>
+        <tag>mathjax</tag>
+        <tag>latex</tag>
+        <tag>search</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>多元微积分中的反例</title>
+    <url>/2021/11/28/%E5%A4%9A%E5%85%83%E5%BE%AE%E7%A7%AF%E5%88%86%E4%B8%AD%E7%9A%84%E5%8F%8D%E4%BE%8B/</url>
+    <content><![CDATA[<h2 id="关于每个变量连续的间断函数"><a href="#关于每个变量连续的间断函数" class="headerlink" title="关于每个变量连续的间断函数."></a>关于每个变量连续的间断函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="一个二元函数在原点没有极限-但沿着任一直线逼近原点存在极限"><a href="#一个二元函数在原点没有极限-但沿着任一直线逼近原点存在极限" class="headerlink" title="一个二元函数在原点没有极限, 但沿着任一直线逼近原点存在极限."></a>一个二元函数在原点没有极限, 但沿着任一直线逼近原点存在极限.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}y}{x^{4}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="以下三种极限恰有两个存在且相等的函数"><a href="#以下三种极限恰有两个存在且相等的函数" class="headerlink" title="以下三种极限恰有两个存在且相等的函数"></a>以下三种极限恰有两个存在且相等的函数</h2><p>\[<br>\lim_{(x,y)\to(a,b)}f(x,y)\quad\lim_{x\to a}\lim_{y\to b}f(x,y),\quad\lim_{y\to b}\lim_{x\to a}f(x,y).<br>\]</p>
+<p>(1).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<p>(2).<br>\[<br>f(x,y)=\begin{cases}<br>y+x\sin(1/y), &amp; y\ne0,\\<br>0, &amp; y=0.<br>\end{cases}<br>\]</p>
+<p>(3).<br>\[<br>f(x,y)=\begin{cases}<br>x+y\sin(1/x), &amp; x\ne0,\\<br>0, &amp; x=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="以上三种极限恰有一个存在的函数"><a href="#以上三种极限恰有一个存在的函数" class="headerlink" title="以上三种极限恰有一个存在的函数."></a>以上三种极限恰有一个存在的函数.</h2><p>(1).<br>\[<br>f(x,y)=\begin{cases}<br>x\sin(1/y)+y\sin(1/x), &amp; xy\ne0,\\<br>0, &amp; xy=0.<br>\end{cases}<br>\]</p>
+<p>(2).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}+y\sin(1/x), &amp; x\ne0,\\<br>0, &amp; x=0.<br>\end{cases}<br>\]</p>
+<p>(3).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}+x\sin(1/y), &amp; y\ne0,\\<br>0, &amp; y=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="累次极限交换次序不相等的函数"><a href="#累次极限交换次序不相等的函数" class="headerlink" title="累次极限交换次序不相等的函数."></a>累次极限交换次序不相等的函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}-y^{2}}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<p>$f(x,y)\rightrightarrows g(x)$, $y\to 0$, $f(x,y)\rightrightarrows h(y)$, $x\to0$, 且<br>\[<br>\lim_{x\to0}g(x)=\lim_{y\to0}h(y),<br>\]<br>但<br>\[<br>\lim_{(x,y)\to(0,0)}f(x,y)<br>\]<br>仍不存在的函数.</p>
+<p>\[<br>f(x,y)=\begin{cases}<br>1, &amp; xy\ne0,\\<br>0, &amp; xy=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="可微-但不连续可微的二元函数"><a href="#可微-但不连续可微的二元函数" class="headerlink" title="可微, 但不连续可微的二元函数."></a>可微, 但不连续可微的二元函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>x^{2}\sin(1/x)+y^{2}\sin(1/y), &amp; xy\ne0,\\<br>x^{2}\sin(1/x), &amp; x\ne0,y=0,\\<br>y^{2}\sin(1/y), &amp; x=0,y\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="二阶混合偏导不相等的可微函数"><a href="#二阶混合偏导不相等的可微函数" class="headerlink" title="二阶混合偏导不相等的可微函数."></a>二阶混合偏导不相等的可微函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>xy\frac{x^{2}-y^{2}}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="f-x-y-in-C-1-在区域-R-上-partial-y-f-0-恒成立-但-f-并非与-y-无关"><a href="#f-x-y-in-C-1-在区域-R-上-partial-y-f-0-恒成立-但-f-并非与-y-无关" class="headerlink" title="$f(x,y)\in C^{1}$, 在区域$R$上$\partial_{y}f=0$恒成立, 但$f$并非与$y$无关."></a>$f(x,y)\in C^{1}$, 在区域$R$上$\partial_{y}f=0$恒成立, 但$f$并非与$y$无关.</h2><p>取$L=\RR_{\ge0}\times\left\{ 0\right\} $, $R=\RR\setminus L$, 定义<br>\[<br>f(x,y)=\begin{cases}<br>x^{3}, &amp; x&gt;0\text{ 且 }y&gt;0,\\<br>0, &amp; \text{others}.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="微分和积分交换次序"><a href="#微分和积分交换次序" class="headerlink" title="微分和积分交换次序:"></a>微分和积分交换次序:</h2><p>存在满足</p>
+<p>\[<br>\frac{\ud}{\ud x}\int_{a}^{b}f(x,y)\ud y\ne\int_{a}^{b}\left[\frac{\partial}{\partial x}f(x,y)\right]\ud y,<br>\]<br>的函数, 尽管每个积分都是常义积分.</p>
+<p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}}{y^{2}}\ue^{-x^{2}/y}, &amp; y&gt;0,\\<br>0, &amp; y=0,<br>\end{cases}<br>\]<br>分$x$是否等于零两种情况.</p>
+<hr>
+<h2 id="交换积分次序不相等的函数-即使每个积分都是常义积分"><a href="#交换积分次序不相等的函数-即使每个积分都是常义积分" class="headerlink" title="交换积分次序不相等的函数, 即使每个积分都是常义积分."></a>交换积分次序不相等的函数, 即使每个积分都是常义积分.</h2><p>在$[0,1]^{2}$中,</p>
+<p>\[<br>f(x,y)=\begin{cases}<br>y^{-2}, &amp; 0&lt;x&lt;y&lt;1,\\<br>-x^{-2}, &amp; 0&lt;y&lt;x&lt;1,\\<br>0, &amp; \text{others.}<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="二重级数-sum-m-n-a-mn-虽然按行和按列都有收敛性-但求和次序交换并不相等"><a href="#二重级数-sum-m-n-a-mn-虽然按行和按列都有收敛性-但求和次序交换并不相等" class="headerlink" title="二重级数$\sum_{m,n}a_{mn}$, 虽然按行和按列都有收敛性, 但求和次序交换并不相等."></a>二重级数$\sum_{m,n}a_{mn}$, 虽然按行和按列都有收敛性, 但求和次序交换并不相等.</h2><p>如:<br>\[<br>\begin{bmatrix}0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \frac{1}{16} &amp; \frac{1}{32} &amp; \cdots\\<br>-\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \frac{1}{16} &amp; \cdots\\<br>-\frac{1}{4} &amp; -\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \cdots\\<br>-\frac{1}{8} &amp; -\frac{1}{4} &amp; -\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \cdots\\<br>\cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots<br>\end{bmatrix}<br>\]</p>
+]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>微积分</tag>
+        <tag>反例</tag>
+        <tag>多元微积分</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Latex编辑展示页面</title>
     <url>/2021/02/02/Latex%E7%BC%96%E8%BE%91%E5%B1%95%E7%A4%BA%E9%A1%B5%E9%9D%A2/</url>
     <content><![CDATA[<h1 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h1><div class="table-container">
@@ -528,415 +684,31 @@
         <category>latex</category>
       </categories>
       <tags>
-        <tag>math</tag>
         <tag>latex</tag>
+        <tag>math</tag>
       </tags>
   </entry>
   <entry>
-    <title>Hilbert空间中的定义</title>
-    <url>/2021/10/25/Hilbert%E7%A9%BA%E9%97%B4%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/</url>
-    <content><![CDATA[<blockquote>
-<p>定义: 设$F$是实数域或复数域, $H$是$F$上的线性空间, 如果对于$H$中任何两个向量$x,y$, 都有一个数$(x,y)\in F$与之对应,<br>并满足以下条件:</p>
-<blockquote>
-<p>I) 共轭对称性/Hermite性: 对任何$x,y\in H$, $(x,y)=\overline{(y,x)}$;</p>
-<p>II) 对第一变元的线性: 对任何$x,y,z\in H$及任何数$\alpha,\beta\in F$, 成立$(\alpha x+\beta y,z)=\alpha(x,z)+\beta(y,z)$;</p>
-<p>III) 正定性: 对于一切$x\in H$, $(x,x)\ge0$, 且$(x,x)=0$当且仅当$x=0$;</p>
-</blockquote>
-<p>称二元函数$(\cdot,\cdot)$是$H$中的<strong>内积</strong>. 如果$H$上定义了内积, 当$F$是实(或复)数域时, 称$H$为实(或复)<strong>内积空间</strong>.</p>
-<p>内积$(\cdot,\cdot)$关于第二变元是共轭线性的, 即对于任何$x,y,z\in H$及任何$\alpha,\beta\in F$,<br>有</p>
-<script type="math/tex; mode=display">
-(z,\alpha x+\beta y)=\overline{\alpha}(z,x)+\overline{\beta}(z,y).</script></blockquote>
-<hr>
-<blockquote>
-<p>定义: 完备的内积空间称为<strong>Hilbert空间</strong>.</p>
-</blockquote>
-<hr>
-<blockquote>
-<p>定义: 设$H$是内积空间, 其中的内积为$(\cdot,\cdot)$. </p>
-<blockquote>
-<p>若$H$中两个向量$x,y$满足$(x,y)=0$, 则称$x,y$<strong>正交</strong>, 记作$x\perp y$.</p>
-<p>设$M$是$H$的非空子集, 当$x$与$M$中所有向量正交时, 称$x$与$M$正交, 记作$x\perp M$.</p>
-<p>设$M$与$N$是$H$的两个非空子集, 若对任何$x\in M$, $y\in N$, 都有$x\perp y$, 称$M$与$N$正交, 记作$M\perp N$.</p>
-<p>设$M$是$H$的非空子集, $H$中所有与$M$正交的向量全体称为$M$的<strong>正交补</strong>, 记作$M^{\perp}$.</p>
-</blockquote>
-</blockquote>
-<hr>
-<blockquote>
-<p>定义: 设$H$是内积空间, $M_{1},M_{2}$是$H$的两个线性子空间. 若$M_{1}\perp M_{2}$,<br>则称</p>
-<script type="math/tex; mode=display">
-M=\left\{ x_{1}+x_{2}\mid x_{1}\in M_{1},x_{2}\in M_{2}\right\}</script><p>为$M_{1}$与$M_{2}$的<strong>直交和</strong>, 记为$M_{1}\oplus M_{2}$.</p>
-</blockquote>
-<hr>
-<blockquote>
-<p>定义: 设$M$是内积空间$H$的线性子空间, $x\in H$. 若有$x_{0}\in M$, $x_{1}\perp M$,<br>使得</p>
-<script type="math/tex; mode=display">
-x=x_{0}+x_{1},</script><p>则称$x_{0}$为$x$在$M$上的<strong>正交投影</strong>, 简称<strong>投影</strong>.</p>
-<p>注意: 一般来说, 对于内积空间$H$中的任意向量$x$及任意的线性子空间$M$, $x$在$M$上的投影并不一定存在.</p>
-</blockquote>
-<hr>
-<blockquote>
-<p>定义: 设$X$是线性空间, $x,y\in X$, 称集合</p>
-<script type="math/tex; mode=display">
-\left\{ \alpha x+(1-\alpha)y\mid0\le\alpha\le1\right\}</script><p>为$X$中连接$x,y$的线段, 如果$M$是$X$的子集, 连接$M$中任意两点的线段均包含于$M$, 则称$M$是$X$中的<strong>凸集</strong>.</p>
-</blockquote>
-<hr>
-<blockquote>
-<p>定义: 设$\mathscr{F}$是内积空间$H$中的一族非零向量, 如果$\mathscr{F}$中的向量两两正交, 则称$\mathscr{F}$是$H$中的一个<strong>正交系</strong>.<br>如果正交系$\mathscr{F}$中向量范数均为$1$, 则称$\mathscr{F}$是<strong>规范正交系</strong>.</p>
-</blockquote>
-<hr>
-<blockquote>
-<p>定义: 设$\mathscr{F}$是内积空间$H$中的规范正交系, $x\in H$. 称</p>
-<script type="math/tex; mode=display">
-\left\{ \left(x,e\right)\mid e\in\mathscr{F}\right\}</script><p>为向量$x$关于规范正交系$\mathscr{F}$的Fourier系数集, 称$(x,e)$为$x$关于$e$的<strong>Fourier系数</strong>.</p>
-</blockquote>
-<hr>
-<blockquote>
-<p>定义: 设$\left\{ e_{\lambda}\mid\lambda\in\Lambda\right\} $是内积空间$H$中的规范正交系,<br>若对于任何$x\in H$, 有<strong>Parseval等式</strong>:</p>
-<script type="math/tex; mode=display">
-\norm{x}^{2}=\sum_{\lambda\in\Lambda}\left|\left(x,e_{\lambda}\right)\right|^{2},</script><p>则称$\left\{ e_{\lambda}\mid\lambda\in\Lambda\right\} $是$H$中的<strong>完备规范正交系</strong>.</p>
-<p>Parseval等式又称为$x$关于$\left\{ e_{\lambda}\mid\lambda\in\Lambda\right\} $的完备性公式.</p>
-</blockquote>
-<hr>
-<blockquote>
-<p>定义: 设$\mathscr{F}=\left\{ e_{\lambda}\mid\lambda\in\Lambda\right\} $是内积空间$H$中的规范正交系,<br>对$x\in H$, 称形式级数</p>
-<script type="math/tex; mode=display">
-\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>为向量$x$关于$\mathscr{F}$的<strong>Fourier展开式</strong>, 当</p>
-<script type="math/tex; mode=display">
-x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>时, 称$x$关于$\mathscr{F}$可以展开成<strong>Fourier级数</strong>.</p>
-</blockquote>
+    <title>形如$\lim_{n\rightarrow\infty}\frac{1}{n}\sum_{k=1}^{n}f(k)$的极限的求法</title>
+    <url>/2022/03/07/%E6%9E%81%E9%99%90%E7%9A%84%E6%B1%82%E6%B3%95/</url>
+    <content><![CDATA[<p>对于如下类型的极限计算<br>\[<br>\lim_{n\rightarrow\infty}\frac{1}{n}\sum_{k=1}^{n}f(k)<br>\]<br>可采用的计算方法有: </p>
+<ol>
+<li><p>转化为定积分定义计算; </p>
+</li>
+<li><p>采用Stolz定理, 转化为计算 $\lim_{n\rightarrow\infty}f(n)$. </p>
+</li>
+</ol>
+<p>若$f(k)$能表达成$g\left(\frac{k}{n}\right)$的形式时, 可才用定积分定义计算, 即<br>\[<br>\lim_{n\to\infty}\frac{1}{n}\sum_{k=1}^{n}g\left(\frac{k}{n}\right)=\int_{0}^{1}g(x)dx.<br>\]</p>
 ]]></content>
       <categories>
         <category>数学</category>
       </categories>
       <tags>
         <tag>数学</tag>
-        <tag>泛函分析</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>多元微积分中的反例</title>
-    <url>/2021/11/28/%E5%A4%9A%E5%85%83%E5%BE%AE%E7%A7%AF%E5%88%86%E4%B8%AD%E7%9A%84%E5%8F%8D%E4%BE%8B/</url>
-    <content><![CDATA[<h2 id="关于每个变量连续的间断函数"><a href="#关于每个变量连续的间断函数" class="headerlink" title="关于每个变量连续的间断函数."></a>关于每个变量连续的间断函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="一个二元函数在原点没有极限-但沿着任一直线逼近原点存在极限"><a href="#一个二元函数在原点没有极限-但沿着任一直线逼近原点存在极限" class="headerlink" title="一个二元函数在原点没有极限, 但沿着任一直线逼近原点存在极限."></a>一个二元函数在原点没有极限, 但沿着任一直线逼近原点存在极限.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}y}{x^{4}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="以下三种极限恰有两个存在且相等的函数"><a href="#以下三种极限恰有两个存在且相等的函数" class="headerlink" title="以下三种极限恰有两个存在且相等的函数"></a>以下三种极限恰有两个存在且相等的函数</h2><p>\[<br>\lim_{(x,y)\to(a,b)}f(x,y)\quad\lim_{x\to a}\lim_{y\to b}f(x,y),\quad\lim_{y\to b}\lim_{x\to a}f(x,y).<br>\]</p>
-<p>(1).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<p>(2).<br>\[<br>f(x,y)=\begin{cases}<br>y+x\sin(1/y), &amp; y\ne0,\\<br>0, &amp; y=0.<br>\end{cases}<br>\]</p>
-<p>(3).<br>\[<br>f(x,y)=\begin{cases}<br>x+y\sin(1/x), &amp; x\ne0,\\<br>0, &amp; x=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="以上三种极限恰有一个存在的函数"><a href="#以上三种极限恰有一个存在的函数" class="headerlink" title="以上三种极限恰有一个存在的函数."></a>以上三种极限恰有一个存在的函数.</h2><p>(1).<br>\[<br>f(x,y)=\begin{cases}<br>x\sin(1/y)+y\sin(1/x), &amp; xy\ne0,\\<br>0, &amp; xy=0.<br>\end{cases}<br>\]</p>
-<p>(2).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}+y\sin(1/x), &amp; x\ne0,\\<br>0, &amp; x=0.<br>\end{cases}<br>\]</p>
-<p>(3).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}+x\sin(1/y), &amp; y\ne0,\\<br>0, &amp; y=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="累次极限交换次序不相等的函数"><a href="#累次极限交换次序不相等的函数" class="headerlink" title="累次极限交换次序不相等的函数."></a>累次极限交换次序不相等的函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}-y^{2}}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<p>$f(x,y)\rightrightarrows g(x)$, $y\to 0$, $f(x,y)\rightrightarrows h(y)$, $x\to0$, 且<br>\[<br>\lim_{x\to0}g(x)=\lim_{y\to0}h(y),<br>\]<br>但<br>\[<br>\lim_{(x,y)\to(0,0)}f(x,y)<br>\]<br>仍不存在的函数.</p>
-<p>\[<br>f(x,y)=\begin{cases}<br>1, &amp; xy\ne0,\\<br>0, &amp; xy=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="可微-但不连续可微的二元函数"><a href="#可微-但不连续可微的二元函数" class="headerlink" title="可微, 但不连续可微的二元函数."></a>可微, 但不连续可微的二元函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>x^{2}\sin(1/x)+y^{2}\sin(1/y), &amp; xy\ne0,\\<br>x^{2}\sin(1/x), &amp; x\ne0,y=0,\\<br>y^{2}\sin(1/y), &amp; x=0,y\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="二阶混合偏导不相等的可微函数"><a href="#二阶混合偏导不相等的可微函数" class="headerlink" title="二阶混合偏导不相等的可微函数."></a>二阶混合偏导不相等的可微函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>xy\frac{x^{2}-y^{2}}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="f-x-y-in-C-1-在区域-R-上-partial-y-f-0-恒成立-但-f-并非与-y-无关"><a href="#f-x-y-in-C-1-在区域-R-上-partial-y-f-0-恒成立-但-f-并非与-y-无关" class="headerlink" title="$f(x,y)\in C^{1}$, 在区域$R$上$\partial_{y}f=0$恒成立, 但$f$并非与$y$无关."></a>$f(x,y)\in C^{1}$, 在区域$R$上$\partial_{y}f=0$恒成立, 但$f$并非与$y$无关.</h2><p>取$L=\RR_{\ge0}\times\left\{ 0\right\} $, $R=\RR\setminus L$, 定义<br>\[<br>f(x,y)=\begin{cases}<br>x^{3}, &amp; x&gt;0\text{ 且 }y&gt;0,\\<br>0, &amp; \text{others}.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="微分和积分交换次序"><a href="#微分和积分交换次序" class="headerlink" title="微分和积分交换次序:"></a>微分和积分交换次序:</h2><p>存在满足</p>
-<p>\[<br>\frac{\ud}{\ud x}\int_{a}^{b}f(x,y)\ud y\ne\int_{a}^{b}\left[\frac{\partial}{\partial x}f(x,y)\right]\ud y,<br>\]<br>的函数, 尽管每个积分都是常义积分.</p>
-<p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}}{y^{2}}\ue^{-x^{2}/y}, &amp; y&gt;0,\\<br>0, &amp; y=0,<br>\end{cases}<br>\]<br>分$x$是否等于零两种情况.</p>
-<hr>
-<h2 id="交换积分次序不相等的函数-即使每个积分都是常义积分"><a href="#交换积分次序不相等的函数-即使每个积分都是常义积分" class="headerlink" title="交换积分次序不相等的函数, 即使每个积分都是常义积分."></a>交换积分次序不相等的函数, 即使每个积分都是常义积分.</h2><p>在$[0,1]^{2}$中,</p>
-<p>\[<br>f(x,y)=\begin{cases}<br>y^{-2}, &amp; 0&lt;x&lt;y&lt;1,\\<br>-x^{-2}, &amp; 0&lt;y&lt;x&lt;1,\\<br>0, &amp; \text{others.}<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="二重级数-sum-m-n-a-mn-虽然按行和按列都有收敛性-但求和次序交换并不相等"><a href="#二重级数-sum-m-n-a-mn-虽然按行和按列都有收敛性-但求和次序交换并不相等" class="headerlink" title="二重级数$\sum_{m,n}a_{mn}$, 虽然按行和按列都有收敛性, 但求和次序交换并不相等."></a>二重级数$\sum_{m,n}a_{mn}$, 虽然按行和按列都有收敛性, 但求和次序交换并不相等.</h2><p>如:<br>\[<br>\begin{bmatrix}0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \frac{1}{16} &amp; \frac{1}{32} &amp; \cdots\\<br>-\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \frac{1}{16} &amp; \cdots\\<br>-\frac{1}{4} &amp; -\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \cdots\\<br>-\frac{1}{8} &amp; -\frac{1}{4} &amp; -\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \cdots\\<br>\cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots<br>\end{bmatrix}<br>\]</p>
-]]></content>
-      <categories>
-        <category>数学</category>
-      </categories>
-      <tags>
         <tag>微积分</tag>
-        <tag>反例</tag>
-        <tag>多元微积分</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在hexo的自定义配置</title>
-    <url>/2021/02/01/%E5%9C%A8hexo%E7%9A%84mathjax%E4%B8%AD%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AELaTeX%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h1 id="自定义配置mathjax"><a href="#自定义配置mathjax" class="headerlink" title="自定义配置mathjax"></a>自定义配置mathjax</h1><p>首先根据baidu出来的信息, 找到<a href="https://www.jianshu.com/p/7ab21c7f0674">简书</a>上的教程, 然后在参考<a href="http://docs.mathjax.org/en/latest/input/tex/extensions/configmacros.html#tex-configmacros">MathJax官方教程</a>在本地找到文件<code>[blog path]/themes/butterfly/layout/includes/third-party/math/mathjax.pug</code>进行修改, 为了防止链接实效, 将简要步骤叙述如下:</p>
-<h2 id="step-1"><a href="#step-1" class="headerlink" title="step 1"></a>step 1</h2><p>更换Hexo的markdown渲染引擎, <code>hexo-renderer-kramed引擎</code>是在默认的<code>渲染引擎hexo-renderer-marked</code>的基础上修改了一些bug, 两者比较接近, 也比较轻量级.</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-renderer-marked --save</span><br><span class="line">npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure>
-<p>执行上面的命令即可, 先卸载原来的渲染引擎, 再安装新的. 更换引擎后行间公式可以正确渲染了, 但是这样还没有完全解决问题, 行内公式的渲染还是有问题, 因为<code>hexo-renderer-kramed引擎</code>也有语义冲突的问题. 接下来到博客根目录下, 找到<code>node_modules\kramed\lib\rules\inline.js</code>, 把第11行的escape变量的值做相应的修改：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">// escape: /^\\([\\`*&#123;&#125;\[\]()#$+\-.!_&gt;])/,</span><br><span class="line">escape: /^\\([`*\[\]()#$+\-.!_&gt;])/,</span><br></pre></td></tr></table></figure>
-<p>这一步是在原基础上取消了对\,{,}的转义(escape).<br>同时把第20行的<code>em</code>变量也要做相应的修改.</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">// em: /^\b_((?:__|[\s\S])+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br><span class="line">em: /^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br></pre></td></tr></table></figure>
-<p>重新启动hexo(先clean再generate), 问题完美解决. </p>
-<h2 id="step-2"><a href="#step-2" class="headerlink" title="step 2"></a>step 2</h2><p>参考<a href="http://docs.mathjax.org/en/latest/input/tex/extensions/configmacros.html#tex-configmacros">MathJax官方教程</a>, 在本地找到文件<code>[blog path]/themes/butterfly/layout/includes/third-party/math/mathjax.pug</code>进行添加以下行:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">...</span><br><span class="line">window.MathJax = &#123;</span><br><span class="line">	loader: &#123;</span><br><span class="line">		source: &#123; ... &#125;,</span><br><span class="line">		load: [&#x27;[tex]/configmacros&#x27;]</span><br><span class="line">	&#125;,</span><br><span class="line">	tex: &#123;</span><br><span class="line">		packages: &#123;&#x27;[+]&#x27;: [&#x27;configmacros&#x27;]&#125;,</span><br><span class="line">		inlineMath: ...,</span><br><span class="line">		tags: ...,</span><br><span class="line">		macros: &#123;</span><br><span class="line">			RR: &#x27;\\mathbb&#123;R&#125;&#x27;,</span><br><span class="line">			ud: &#x27;\\mathrm&#123;d&#125;&#x27;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-<p>如此便可以在hexo编写数学公式时使用自定义宏<code>\ud</code>和<code>\RR</code>来分别表示正体积分微元符号<code>d</code>和花写实数集<code>R</code>.</p>
-<h1 id="自定义配置搜索"><a href="#自定义配置搜索" class="headerlink" title="自定义配置搜索"></a>自定义配置搜索</h1><p>在blog根目录执行以下代码:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
-<p>在<code>_config.yml</code>文件中新增以下代码段</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure>
-<p>在hexo博客所选择的主题, 比如<code>_config.yml</code>, 中增加以下配置即可</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> Local search</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> Dependencies: https://github.com/flashlab/hexo-generator-search</span></span><br><span class="line">local_search:</span><br><span class="line">  enable: true</span><br><span class="line"><span class="meta">  #</span><span class="bash"> <span class="keyword">if</span> auto, trigger search by changing input</span></span><br><span class="line"><span class="meta">  #</span><span class="bash"> <span class="keyword">if</span> manual, trigger search by pressing enter key or search button</span></span><br><span class="line">  trigger: auto</span><br><span class="line"><span class="meta">  #</span><span class="bash"> show top n results per article, show all results by setting to -1</span></span><br><span class="line">  top_n_per_article: 1</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>mathjax</category>
-      </categories>
-      <tags>
-        <tag>latex</tag>
-        <tag>hexo</tag>
-        <tag>blog</tag>
-        <tag>mathjax</tag>
-        <tag>search</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>每日一题</title>
-    <url>/2022/02/26/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/</url>
-    <content><![CDATA[<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $a_{1}=1, a_{n+1}=a_{n}+\frac{1}{a_{n}},\left(n \in \mathbb{N}_{+}\right)$, 证明</p>
-<script type="math/tex; mode=display">
-\lim _{n \rightarrow \infty} \frac{a_{n}}{\sqrt{n}}=\sqrt{2}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>$a_{n}$ 单调上升, 没有有限极限.</p>
-<script type="math/tex; mode=display">
-\lim_{n\to\infty}\frac{a_{n}^{2}}{n}\xlongequal{\text{ Stolz 公式 }}\lim_{n\to\infty}\frac{a_{n+1}^{2}-a_{n}^{2}}{1}=\lim_{n\to\infty}(a_{n+1}+a_{n})\frac{1}{a_{n}}=2+\lim_{n\to\infty}\frac{1}{a_{n}^{2}}=2.</script></div></div></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 设数列 $\left\{ x_{n}\right\} $ 满足 $x_{1}=2$, $x_{n+1}=2+\frac{1}{x_{n}}$, $n\in\NN_{+}$, 证明数列 $\left\{ x_{n}\right\} $ 收敛, 并求其极限值.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示1</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-\left|x_{n+1}-x_{n}\right|=\left|\frac{1}{x_{n}}-\frac{1}{x_{n-1}}\right|=\left|\frac{x_{n}-x_{n-1}}{x_{n}x_{n-1}}\right|\le\frac{1}{4}\left|x_{n}-x_{n-1}\right|,</script><p>$x_{n}\to x$, $n\to\infty$. $x=2+\frac{1}{x}$, $x^{2}-2x-1=0$, $x_{1,2}=\frac{2\pm\sqrt{4+4}}{2}=\frac{2\pm2\sqrt{2}}{2}=1\pm\sqrt{2}$, $x=1+\sqrt{2}.$</p>
-</div></div>
-
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示2</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-x_{n+2}-x_{n}=\frac{1}{x_{n+1}}-\frac{1}{x_{n-1}}=-\frac{x_{n+1}-x_{n-1}}{x_{n+1}x_{n-1}}=\frac{x_{n}-x_{n-2}}{x_{n}x_{n-2}x_{n+1}x_{n-1}}.</script><p>$x_{2}=2\frac{1}{2}$, $x_{3}=2+\frac{2}{5}&lt;x_{2}$, 所以$\left\{ x_{2n+1}\right\} $单调上升, $x_{4}=2+\frac{5}{12}&lt;x_{2}$, $\left\{ x_{2n}\right\} $单调下降, 且$x_{2n+1}&lt;x_{2n}$.<br>即</p>
-<script type="math/tex; mode=display">
-x_{1}<\cdots<x_{2n+1}<x_{2n}<\cdots<x_{2}.</script><p>所以$\left\{ x_{2n}\right\} $与$\left\{ x_{2n+1}\right\} $均收敛.</p>
-</div></div>
-
-<div class="hide-toggle" style="border: 1px solid red"><div class="hide-button toggle-title" style="background-color: red;color: white"><i class="fas fa-caret-right fa-fw"></i><span>其实这个数列是可求通项的</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-x_{n+1}-1-\sqrt{2}=1-\sqrt{2}+\frac{1}{x_{n}}=\frac{(1-\sqrt{2})x_{n}+1}{x_{n}}=-\frac{x_{n}-1-\sqrt{2}}{(1+\sqrt{2})x_{n}}.
-\frac{x_{n+1}-1-\sqrt{2}}{x_{n}-1-\sqrt{2}}=-\frac{1}{(1+\sqrt{2})x_{n}},</script><script type="math/tex; mode=display">
-x_{n+1}-1+\sqrt{2}=1+\sqrt{2}+\frac{1}{x_{n}}=-\frac{x_{n}-1+\sqrt{2}}{(\sqrt{2}-1)x_{n}}.</script><script type="math/tex; mode=display">
-\frac{x_{n+1}-1+\sqrt{2}}{x_{n}-1+\sqrt{2}}=-\frac{1}{(\sqrt{2}-1)x_{n}}.</script><script type="math/tex; mode=display">
-\left(\frac{x_{n+1}-1-\sqrt{2}}{x_{n+1}-1+\sqrt{2}}\right)/\left(\frac{x_{n}-1-\sqrt{2}}{x_{n}-1+\sqrt{2}}\right)=\frac{1+\sqrt{2}}{\sqrt{2}-1}.</script></div></div></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 设数列 $\left\{ x_{n}\right\} $ 满足 $0&lt;x_{1}&lt;3,x_{n+1}=\sqrt{x_{n}\left(3-x_{n}\right)},n\in \NN_{+}$, 证明数列 $\left\{ x_{n}\right\} $ 极限存在并求其极限值.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>$x_{2}=\sqrt{x_{1}(3-x_{1})}$. </p>
-<script type="math/tex; mode=display">
-\sqrt{x(3-x)}\le\frac{x+3-x}{2}=\frac{3}{2}<3.</script><p>$0 &lt; x_{n}&lt;3$, $\forall n\in \mathbb{N}_{+}$. $x_{2}\le\frac{3}{2}$. $x_{2}\le x_{3}\le\frac{3}{2}$.</p>
-<script type="math/tex; mode=display">
-\sqrt{x(3-x)}\ge x\Longleftrightarrow3x-x^{2}\ge x^{2}\Longleftrightarrow x\le\frac{3}{2},\quad\forall0<x\le\frac{3}{2}.</script><p>所以$x_{n+1}&gt;x_{n}$, $\forall n\ge2$.</p>
-</div></div></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 证明数列 $\sqrt{2},\sqrt{2+\sqrt{2}},\sqrt{2+\sqrt{2+\sqrt{2}}},\cdots$极限存在, 并求其极限值. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $a_{1}&gt;0$, $\left\{ a_{n}\right\} $ 满足 $a_{n+1}=\ln\left(1+a_{n}\right),n\in N_{+}$. </p>
-<p>(1) 证明数列 $\left\{ a_{n}\right\} $ 极限存在, 并求其极限值; </p>
-<p>(2) 计算 </p>
-<script type="math/tex; mode=display">
-\lim_{n\rightarrow\infty}\frac{a_{n}a_{n+1}}{a_{n}-a_{n+1}}.</script><p>(3) 计算</p>
-<script type="math/tex; mode=display">
-\lim_{n\to\infty}na_{n}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>$a_{n}\to0$.</p>
-<script type="math/tex; mode=display">
-a_{n}-\frac{a_{n}^{2}}{2}+\frac{a_{n}^{3}}{3}\ge a_{n+1}\ge a_{n}-\frac{a_{n}^{2}}{2}.</script><script type="math/tex; mode=display">
-\frac{1}{a_{n}}\frac{1}{1-\frac{a_{n}}{2}+\frac{a_{n}^{2}}{3}}\le\frac{1}{a_{n+1}}\le\frac{1}{a_{n}}\frac{2}{2-a_{n}}.</script><script type="math/tex; mode=display">
-\frac{1}{a_{n}}\frac{\frac{a_{n}}{2}-\frac{a_{n}^{2}}{3}}{1-\frac{a_{n}}{2}+\frac{a_{n}^{2}}{3}}=\frac{\frac{1}{2}-\frac{a_{n}}{3}}{1-\frac{a_{n}}{2}+\frac{a_{n}^{2}}{3}}<\frac{1}{a_{n+1}}-\frac{1}{a_{n}}\le\frac{1}{a_{n}}\frac{a_{n}}{2-a_{n}}=\frac{1}{2-a_{n}}</script><script type="math/tex; mode=display">
-\frac{1}{2}\le\lim_{n\to\infty}\frac{1}{a_{n+1}}-\frac{1}{a_{n}}\le\frac{1}{2}.</script></div></div></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 设数列 $\left\{ x_{n}\right\} $ 满足 $x_{n+1}=\cos x_{n}$, $n\in N_{+}$, $x_{1}=\cos x$, 证明该数列极限存在且其极限值为 $\cos x-x=0$ 的根.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-\left|x_{n+1}-x_{n}\right|=\left|\cos x_{n}-\cos x_{n-1}\right|=\left|2\sin\frac{x_{n}+x_{n-1}}{2}\sin\frac{x_{n}-x_{n-1}}{2}\right|<\sin1\left|x_{n}-x_{n-1}\right|,\quad n\ge2.</script><p>聚点定理且根据方程极限点唯一.</p>
-</div></div></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> (1) 证明方程 $\tan x=x$ 在 $\left(n\pi,n\pi+\frac{\pi}{2}\right)$<br>内存在实根 $\xi_{n},n\in N_{+}$; </p>
-<p>(2) 计算极限 </p>
-<script type="math/tex; mode=display">
-\lim_{n\rightarrow\infty}\left(\xi_{n+1}-\xi_{n}\right)</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-\xi_{n}=n\pi+\arctan\xi_{n},\quad\xi_{n}\in\left(n\pi,n\pi+\frac{\pi}{2}\right).</script><script type="math/tex; mode=display">
-\left|\xi_{n+1}-\xi_{n}\right|=\left|\pi+\arctan\xi_{n+1}-\arctan\xi_{n}\right|=\pi+O\left(\int_{n\pi}^{n\pi+\frac{3\pi}{2}}\frac{1}{1+x^{2}}\ud x\right)\to\pi,\quad n\to\infty.</script></div></div></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> (1) 证明方程 $e^{x}+x^{2n+1}=0$ 在 $(-1,0)$ 有唯一实根 $x_{n}$, 且 $n\in\NN_{+}$; </p>
-<p>(2) 证明数列 $\left\{ x_{n}\right\} $ 极限存在并求其值 $a$; </p>
-<p>(3) 计算 </p>
-<script type="math/tex; mode=display">
-\lim_{n\rightarrow\infty}n\left(x_{n}-a\right)</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-\ue^{\frac{x_{n}}{2n+1}}=-x_{n}\to1,\quad n\to\infty.</script><script type="math/tex; mode=display">
-1+x_{n}=1-\ue^{\frac{x_{n}}{2n+1}},</script><script type="math/tex; mode=display">
-n(1+x_{n})=n\left(1-\ue^{\frac{x_{n}}{2n+1}}\right)=n\left(1-\left(1+\frac{x_{n}}{2n+1}+o\left(\frac{1}{n}\right)\right)\right)=-\frac{nx_{n}}{2n+1}+o(1)\to-\frac{1}{2}\cdot(-1)=\frac{1}{2},\quad n\to\infty.</script></div></div></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 设数列 $\left\{ x_{n}\right\} $ 满足 $x_{0}=a$, $x_{1}=b$, $x_{n+1}=\frac{1}{2}\left(x_{n}+x_{n-1}\right)$, $n\in\NN_{+}$, 证明数列 $\left\{ x_{n}\right\} $ 极限存在并求其极限.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> (1) 证明方程 $x^{n}+x^{n-1}+\cdots+x=1$, $(n&gt;1,n\in\ZZ)$ 在区间 $\left(\frac{1}{2},1\right)$ 内有且仅有一个实根; </p>
-<p>(2) 记 (1) 中的实根为 $x_{n}$, 证明数列 $\left\{ x_{n}\right\} $ 极限存在并求其极限.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-2(x_{n}-1)=x_{n}^{n+1}-1.</script><script type="math/tex; mode=display">
-x_{n}=\sqrt[n+1]{1+2(x_{n}-1)}=1+\frac{2(x_{n}-1)}{n+1}+o\left(\frac{1}{n}\right)\to1,\quad n\to\infty.</script></div></div></div>]]></content>
-      <categories>
-        <category>数学</category>
-      </categories>
-      <tags>
         <tag>极限</tag>
         <tag>数列极限</tag>
-        <tag>高等数学</tag>
         <tag>每日一题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>积分不等式</title>
-    <url>/2022/03/07/%E7%A7%AF%E5%88%86%E4%B8%8D%E7%AD%89%E5%BC%8F/</url>
-    <content><![CDATA[<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $f(x)$ 在 $[a,b]$ 上具有二阶可导, 且 $f(a)=f(b)=0$, $M=\max_{x\in[a,b]}\left|f^{\prime\prime}(x)\right|$, 证明 </p>
-<script type="math/tex; mode=display">
-\left|\int_{a}^{b}f(x)dx\right|\leq\frac{(b-a)^{3}}{12}M.</script><div class="hide-toggle" style="border: 1px solid black"><div class="hide-button toggle-title" style="background-color: black;color: white"><i class="fas fa-caret-right fa-fw"></i><span>瞎算</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-\begin{align*}
-f(x) & =f'(a)(x-a)+\frac{f''(\xi)}{2}(x-a)^{2}\\
- & =f'(b)(x-b)+\frac{f''(\eta)}{2}(x-b)^{2}\\
- & =\lambda f'(a)(x-a)+(1-\lambda)f'(b)(x-b)+\lambda\frac{f''(\xi)}{2}(x-a)^{2}+(1-\lambda)\frac{f''(\eta)}{2}(x-b)^{2}
-\end{align*}</script><p>取$\lambda=\frac{f’(b)}{f’(a)+f’(b)}$,</p>
-<script type="math/tex; mode=display">
-\int_{a}^{b}f(x)dx=\frac{\lambda}{2}\int_{a}^{b}f''(\xi)(x-a)^{2}dx+\frac{1-\lambda}{2}\int_{a}^{b}f''(\eta)(x-b)^{2}dx.</script><script type="math/tex; mode=display">
-\left|\int_{a}^{b}f(x)dx\right|\le\frac{\lambda}{2}M\int_{a}^{b}(x-a)^{2}dx+\frac{1-\lambda}{2}M\int_{a}^{b}(x-b)^{2}dx=\frac{M(b-a)^{3}}{6}.</script></div></div>
-
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-\begin{align*}
-0=f(a) & =f(x)+f'(x)(a-x)+\frac{f''(\xi)}{2}(a-x)^{2}\\
- & =f(x)+f'(x)(b-x)+\frac{f''(\eta)}{2}(b-x)^{2}\\
- & =f(x)+\lambda(a-x)f'(x)+(1-\lambda)(b-x)f'(x)+\frac{f''(\xi)}{2}\lambda(a-x)^{2}+\frac{f''(\eta)}{2}(1-\lambda)(b-x)^{2}
-\end{align*}</script><p>取$\lambda=\frac{b-x}{b-a}$</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-\left|\int_{a}^{b}f(x)dx\right| & =\left|\int_{a}^{b}\frac{f''(\xi)}{2}\lambda(a-x)^{2}+\frac{f''(\eta)}{2}(1-\lambda)(b-x)^{2}dx\right|\\
- & \le\frac{M}{2}\left|\int_{a}^{b}\lambda(a-x)^{2}+(1-\lambda)(b-x)^{2}dx\right|\\
- & \le\frac{M(b-a)^{3}}{12}.
-\end{align*}</script></div></div></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 已知 $f(x)$ 在 $[0,2]$ 上一阶可导, $f(0)=f(2)=1$, $\left|f^{\prime}(x)\right|\leq1$, 证明 </p>
-<script type="math/tex; mode=display">
-1\leq\int_{0}^{2}f(x)dx\leq3.</script></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 函数 $f(x)$ 在 $[0,1]$ 上二阶可导, $f(0)=f(1)=0$, $f(x)\neq0$, ($x\in(0,1)$), 证明 </p>
-<script type="math/tex; mode=display">
-\int_{0}^{1}\left|\frac{f^{\prime\prime}(x)}{f(x)}\right|dx\geq4.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>取$f(x_{0})=\max_{x\in[0,1]}f(x)$, 则</p>
-<script type="math/tex; mode=display">
-f(x_{0})=f'(\xi_{1})x_{0}=f'(\xi_{2})(x_{0}-1),</script><p>所以 </p>
-<script type="math/tex; mode=display">
-\begin{align*}
-\int_{0}^{1}\abs{\frac{f''}{f}}\ud x & \ge\frac{1}{\abs{f(x_{0})}}\ud x\\
-& \ge\frac{1}{\abs{f(x_{0})}}\abs{\int_{\xi_{1}}^{\xi_{2}}f''\ud x}\\
-& =\frac{1}{\abs{f(x_{0})}}\abs{f'(\xi_{2})-f'(\xi_{1})}\\
-& =\frac{1}{x_{0}}+\frac{1}{1-x_{0}}\ge4.
-\end{align*}</script></div></div>
-
-<div class="note primary no-icon flat"><p><strong>推广:</strong> 设 $f(x)$ 在 $[a,b]$ 上具有连续的二阶导数, 且 $f(a)=f(b)=0$, 在 $x\in(a,b)$<br>内, $f(x)\neq0$, 证明: $\int_{a}^{b}\left|\frac{f^{\prime\prime}(x)}{f(x)}\right|\mathrm{d}x\geqslant\frac{4}{b-a}$.</p>
-</div>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>$\exists x_{0}\in(0,1)$ 使得 $f\left(x_{0}\right)=\max_{0\leqslant x\leqslant1}f(x)\Rightarrow\left|f\left(x_{0}\right)\right|&gt;0$.</p>
-<script type="math/tex; mode=display">
-\int_{a}^{b}\left|\frac{f^{\prime\prime}(x)}{f(x)}\right|\mathrm{d}x\geqslant\frac{1}{f\left(x_{0}\right)}\int_{a}^{b}\left|f^{\prime\prime}(x)\right|\mathrm{d}x</script><script type="math/tex; mode=display">
-f^{\prime}\left(x_{1}\right)=\frac{f\left(x_{0}\right)-f(a)}{x_{0}-a},f^{\prime}\left(x_{2}\right)=\frac{f(b)-f\left(x_{0}\right)}{b-x_{0}}</script><script type="math/tex; mode=display">
-\begin{align*}
-\int_{a}^{b}\left|f^{\prime\prime}(x)\right|\mathrm{d}x & \geqslant\int_{x_{1}}^{x_{2}}\left|f^{\prime\prime}(x)\right|\mathrm{d}x\ge\left|f'(x_{2})-f'(x_{1})\right|\\
- & =\left|\frac{f\left(x_{0}\right)}{b-x_{0}}+\frac{f\left(x_{0}\right)}{x_{0}-a}\right|=\frac{(b-a)\left|f\left(x_{0}\right)\right|}{\left(b-x_{0}\right)\left(x_{0}-a\right)}\\
- & \geqslant\frac{4}{b-a}\left|f\left(x_{0}\right)\right|.
-\end{align*}</script></div></div></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 函数 $f(x)$ 在 $[0,1]$ 上一阶可导, $f(0)=f(1)=0$, 证明 </p>
-<script type="math/tex; mode=display">
-\int_{0}^{1}f^{2}(x)dx\leq\frac{1}{4}\int_{0}^{1}f^{\prime2}(x)dx.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-\int_{0}^{1/2}\left(\int_{0}^{x}f'(t)dt\right)^{2}dx\le\int_{0}^{1/2}\left(\int_{0}^{x}\left|f'(t)\right|dt\right)^{2}dx\le\int_{0}^{1/2}\int_{0}^{x}1dt\int_{0}^{1}\left|f'(t)\right|^{2}dtdx\le\frac{1}{8}\int_{0}^{1}\left|f'(t)\right|^{2}dt.</script><script type="math/tex; mode=display">
-\int_{1/2}^{1}\left(\int_{x}^{1}f'(t)dt\right)^{2}dx\le\int_{1/2}^{1}\int_{x}^{1}1dt\int_{x}^{1}\left|f'(t)\right|^{2}dtdx\le\frac{1}{8}\int_{0}^{1}\left|f'(t)\right|^{2}dt.</script></div></div></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 证明 </p>
-<script type="math/tex; mode=display">
-0\leq\int_{0}^{\frac{\pi}{2}}\sqrt{x}\cos xdx\leq\sqrt{\frac{\pi^{3}}{32}}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-\int_{0}^{\pi/2}\sqrt{x}\cos xdx\le\norm{\sqrt{x}}_{L^{2}}\norm{\cos x}_{L^{2}}.</script></div></div></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $f(x)$ 在 $[a,b]$ 上连续且单调增加, 证明 </p>
-<script type="math/tex; mode=display">
-\int_{a}^{b}xf(x)dx\geq\frac{a+b}{2}\int_{a}^{b}f(x)dx.</script></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $f(x)\in[0,1]$, $f(0)=0$, $0\leq f^{\prime}(x)\leq1$, 证明 </p>
-<script type="math/tex; mode=display">
-\left(\int_{0}^{1}f(x)dx\right)^{2}\geq\int_{0}^{1}f^{3}(x)dx.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-F(x)=\left(\int_{0}^{x}f(t)dt\right)^{2}-\int_{0}^{x}f^{3}(t)dt,</script><script type="math/tex; mode=display">
-F'(x)=2f(x)\int_{0}^{x}f(t)dt-f^{3}(x)=f(x)\left(2\int_{0}^{x}f(t)dt-f^{2}(x)\right)=f(x)G(x),</script><script type="math/tex; mode=display">
-G'(x)=2f(x)-2f(x)f'(x)\ge0.</script></div></div></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 证明 </p>
-<script type="math/tex; mode=display">
-2\leq\int_{-1}^{1}\sqrt{1+x^{4}}dx\leq2\sqrt{2}.</script></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 证明 </p>
-<script type="math/tex; mode=display">
-\frac{1}{2}\leq\int_{0}^{\frac{1}{2}}\frac{1}{\sqrt{1-x^{n}}}dx\leq\frac{\pi}{6},(n>2).</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-\int_{0}^{1/2}1\le\int_{0}^{\frac{1}{2}}\frac{1}{\sqrt{1-x^{n}}}dx\le\int_{0}^{1/2}\frac{1}{\sqrt{1-x^{2}}}dx.</script></div></div></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 证明 </p>
-<script type="math/tex; mode=display">
-\frac{61}{330}\leq\int_{0}^{1}x\sin x^{3}dx\leq\frac{1}{5}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-\int_{0}^{1}x\left(x^{3}-\frac{x^{9}}{3!}\right)dx\le\int_{0}^{1}x\sin x^{3}dx\le\int_{0}^{1}x^{4}dx.</script></div></div></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 已知 $f(x)$ 在 $[0,1]$ 上一阶可导, 证明 </p>
-<script type="math/tex; mode=display">
-|f(x)|\leq\int_{0}^{1}\left[|f(x)|+\left|f^{\prime}(x)\right|\right]dx.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-\left|\left|f(x)\right|-\left|\int_{0}^{1}f(x)dx\right|\right|\le\left|f(x)-\int_{0}^{1}f(t)dt\right|=\left|f(x)-f(x_{0})\right|\le\int_{0}^{1}\left|f'(x)\right|dx.</script></div></div></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 证明 </p>
-<script type="math/tex; mode=display">
-\frac{2\pi}{9}\leq\int_{\frac{1}{\sqrt{3}}}^{\sqrt{3}}x\arctan xdx\leq\frac{4\pi}{9}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-\arctan\frac{1}{\sqrt{3}}\int_{\frac{1}{\sqrt{3}}}^{\sqrt{3}}xdx\le\int_{\frac{1}{\sqrt{3}}}^{\sqrt{3}}x\arctan xdx\le\arctan\sqrt{3}\int_{\frac{1}{\sqrt{3}}}^{\sqrt{3}}xdx.</script></div></div></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $(x)$ 在闭区间 $[0,1]$ 上连续, 函数 $f(x)(f(x)&gt;0)$ 单调减少, 证明 </p>
-<script type="math/tex; mode=display">
-\frac{\int_{0}^{1}xf^{2}(x)dx}{\int_{0}^{1}xf(x)dx}\leq\frac{\int_{0}^{1}f^{2}(x)dx}{\int_{0}^{1}f(x)dx}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-\int_{0}^{1}\int_{0}^{1}xf^{2}(x)f(y)+yf^{2}(y)f(x)-f^{2}(x)yf(y)-f^{2}(y)xf(x)dxdy=\int_{0}^{1}\int_{0}^{1}f(x)f(y)(f(x)-f(y))(x-y)dxdy\le0.</script></div></div></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 已知 $f(x)$ 在闭区间 $[a,b]$ 上连续, $f(x)&gt;0$, 证明 </p>
-<script type="math/tex; mode=display">
-\int_{a}^{b}f(x)dx\cdot\int_{a}^{b}\frac{1}{f(x)}dx\geq(b-a)^{2}.</script></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $a&gt;0,b&gt;0,f(x)\geq0$ 在 $[-a,b]$ 上连续, $\int_{-a}^{b}xf(x)dx=0$, 证明 </p>
-<script type="math/tex; mode=display">
-\int_{-a}^{b}x^{2}f(x)dx\leq ab\int_{-a}^{b}f(x)dx.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-\int_{-a}^{b}(x-b)(x+a)f(x)dx\le0.</script></div></div></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 已知 $f(x)$ 在 $[0,1]$ 上连续, $0&lt;m\leq f(x)\leq M$, 证明 </p>
-<script type="math/tex; mode=display">
-\int_{0}^{1}f(x)dx\cdot\int_{0}^{1}\frac{1}{f(x)}dx\leq\frac{(M+m)^{2}}{4Mm}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-(f(x)-m)(f(x)-M)\le0\Longrightarrow\int_{0}^{1}f(x)dx+\int_{0}^{1}\frac{Mm}{f(x)}dx\le M+m\Longrightarrow4\int_{0}^{1}f(x)dx\int_{0}^{1}\frac{Mm}{f(x)}dx\le(M+m)^{2}.</script></div></div></div>]]></content>
-      <categories>
-        <category>数学</category>
-      </categories>
-      <tags>
-        <tag>微积分</tag>
-        <tag>高等数学</tag>
-        <tag>每日一题</tag>
-        <tag>积分</tag>
-        <tag>不等式</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第一个hexo日志</title>
-    <url>/2021/02/01/%E7%AC%AC%E4%B8%80%E4%B8%AAhexo%E6%97%A5%E5%BF%97/</url>
-    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ cd blog</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
-<p>新建一个文件, 然后发布到github上去</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo new &quot;第一个hexo日志&quot;</span><br><span class="line">INFO  Created: ~&#x2F;blog&#x2F;source&#x2F;_posts&#x2F;第一个hexo日志.md</span><br><span class="line">$ vim ~&#x2F;blog&#x2F;source&#x2F;_posts&#x2F;第一个hexo日志.md</span><br><span class="line">$ npm install hexo-deployer-git --save</span><br><span class="line">$ vim _config.yml</span><br><span class="line">$ cat _config.yml</span><br><span class="line">...</span><br><span class="line">title: Larry_Eppes&#39;s Trivia Collection Site</span><br><span class="line">keywords: MATH, COMPUTER</span><br><span class="line">author: Larry Eppes</span><br><span class="line">language: en</span><br><span class="line">timezone: &#39;Asia&#x2F;Shanghai&#39;</span><br><span class="line">...</span><br><span class="line">url: http:&#x2F;&#x2F;larryeppes.github.io</span><br><span class="line">...</span><br><span class="line">deploy:</span><br><span class="line">  type: &#39;git&#39;</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;larryeppes&#x2F;larryeppes.github.io</span><br><span class="line"></span><br><span class="line">$ hexo server</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http:&#x2F;&#x2F;localhost:4000&#x2F;. Press Ctrl+C to stop.</span><br><span class="line"></span><br><span class="line">$ hexo deploy --generate</span><br></pre></td></tr></table></figure>
-<div class="note simple"><p>默認 提示塊標籤</p>
-</div>
-<div class="note default simple"><p>default 提示塊標籤</p>
-</div>
-<div class="note primary simple"><p>primary 提示塊標籤</p>
-</div>
-<div class="note success simple"><p>success 提示塊標籤</p>
-</div>
-<div class="note info simple"><p>info 提示塊標籤</p>
-</div>
-<div class="note warning simple"><p>warning 提示塊標籤</p>
-</div>
-<div class="note danger simple"><p>danger 提示塊標籤</p>
-</div>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -1037,9 +809,100 @@ G'(x)=2f(x)-2f(x)f'(x)\ge0.</script></div></div></div>
       </tags>
   </entry>
   <entry>
+    <title>每日一题</title>
+    <url>/2022/02/26/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/</url>
+    <content><![CDATA[<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $a_{1}=1, a_{n+1}=a_{n}+\frac{1}{a_{n}},\left(n \in \mathbb{N}_{+}\right)$, 证明</p>
+<script type="math/tex; mode=display">
+\lim _{n \rightarrow \infty} \frac{a_{n}}{\sqrt{n}}=\sqrt{2}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>$a_{n}$ 单调上升, 没有有限极限.</p>
+<script type="math/tex; mode=display">
+\lim_{n\to\infty}\frac{a_{n}^{2}}{n}\xlongequal{\text{ Stolz 公式 }}\lim_{n\to\infty}\frac{a_{n+1}^{2}-a_{n}^{2}}{1}=\lim_{n\to\infty}(a_{n+1}+a_{n})\frac{1}{a_{n}}=2+\lim_{n\to\infty}\frac{1}{a_{n}^{2}}=2.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 设数列 $\left\{ x_{n}\right\} $ 满足 $x_{1}=2$, $x_{n+1}=2+\frac{1}{x_{n}}$, $n\in\NN_{+}$, 证明数列 $\left\{ x_{n}\right\} $ 收敛, 并求其极限值.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示1</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\left|x_{n+1}-x_{n}\right|=\left|\frac{1}{x_{n}}-\frac{1}{x_{n-1}}\right|=\left|\frac{x_{n}-x_{n-1}}{x_{n}x_{n-1}}\right|\le\frac{1}{4}\left|x_{n}-x_{n-1}\right|,</script><p>$x_{n}\to x$, $n\to\infty$. $x=2+\frac{1}{x}$, $x^{2}-2x-1=0$, $x_{1,2}=\frac{2\pm\sqrt{4+4}}{2}=\frac{2\pm2\sqrt{2}}{2}=1\pm\sqrt{2}$, $x=1+\sqrt{2}.$</p>
+</div></div>
+
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示2</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+x_{n+2}-x_{n}=\frac{1}{x_{n+1}}-\frac{1}{x_{n-1}}=-\frac{x_{n+1}-x_{n-1}}{x_{n+1}x_{n-1}}=\frac{x_{n}-x_{n-2}}{x_{n}x_{n-2}x_{n+1}x_{n-1}}.</script><p>$x_{2}=2\frac{1}{2}$, $x_{3}=2+\frac{2}{5}&lt;x_{2}$, 所以$\left\{ x_{2n+1}\right\} $单调上升, $x_{4}=2+\frac{5}{12}&lt;x_{2}$, $\left\{ x_{2n}\right\} $单调下降, 且$x_{2n+1}&lt;x_{2n}$.<br>即</p>
+<script type="math/tex; mode=display">
+x_{1}<\cdots<x_{2n+1}<x_{2n}<\cdots<x_{2}.</script><p>所以$\left\{ x_{2n}\right\} $与$\left\{ x_{2n+1}\right\} $均收敛.</p>
+</div></div>
+
+<div class="hide-toggle" style="border: 1px solid red"><div class="hide-button toggle-title" style="background-color: red;color: white"><i class="fas fa-caret-right fa-fw"></i><span>其实这个数列是可求通项的</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+x_{n+1}-1-\sqrt{2}=1-\sqrt{2}+\frac{1}{x_{n}}=\frac{(1-\sqrt{2})x_{n}+1}{x_{n}}=-\frac{x_{n}-1-\sqrt{2}}{(1+\sqrt{2})x_{n}}.
+\frac{x_{n+1}-1-\sqrt{2}}{x_{n}-1-\sqrt{2}}=-\frac{1}{(1+\sqrt{2})x_{n}},</script><script type="math/tex; mode=display">
+x_{n+1}-1+\sqrt{2}=1+\sqrt{2}+\frac{1}{x_{n}}=-\frac{x_{n}-1+\sqrt{2}}{(\sqrt{2}-1)x_{n}}.</script><script type="math/tex; mode=display">
+\frac{x_{n+1}-1+\sqrt{2}}{x_{n}-1+\sqrt{2}}=-\frac{1}{(\sqrt{2}-1)x_{n}}.</script><script type="math/tex; mode=display">
+\left(\frac{x_{n+1}-1-\sqrt{2}}{x_{n+1}-1+\sqrt{2}}\right)/\left(\frac{x_{n}-1-\sqrt{2}}{x_{n}-1+\sqrt{2}}\right)=\frac{1+\sqrt{2}}{\sqrt{2}-1}.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 设数列 $\left\{ x_{n}\right\} $ 满足 $0&lt;x_{1}&lt;3,x_{n+1}=\sqrt{x_{n}\left(3-x_{n}\right)},n\in \NN_{+}$, 证明数列 $\left\{ x_{n}\right\} $ 极限存在并求其极限值.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>$x_{2}=\sqrt{x_{1}(3-x_{1})}$. </p>
+<script type="math/tex; mode=display">
+\sqrt{x(3-x)}\le\frac{x+3-x}{2}=\frac{3}{2}<3.</script><p>$0 &lt; x_{n}&lt;3$, $\forall n\in \mathbb{N}_{+}$. $x_{2}\le\frac{3}{2}$. $x_{2}\le x_{3}\le\frac{3}{2}$.</p>
+<script type="math/tex; mode=display">
+\sqrt{x(3-x)}\ge x\Longleftrightarrow3x-x^{2}\ge x^{2}\Longleftrightarrow x\le\frac{3}{2},\quad\forall0<x\le\frac{3}{2}.</script><p>所以$x_{n+1}&gt;x_{n}$, $\forall n\ge2$.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 证明数列 $\sqrt{2},\sqrt{2+\sqrt{2}},\sqrt{2+\sqrt{2+\sqrt{2}}},\cdots$极限存在, 并求其极限值. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $a_{1}&gt;0$, $\left\{ a_{n}\right\} $ 满足 $a_{n+1}=\ln\left(1+a_{n}\right),n\in N_{+}$. </p>
+<p>(1) 证明数列 $\left\{ a_{n}\right\} $ 极限存在, 并求其极限值; </p>
+<p>(2) 计算 </p>
+<script type="math/tex; mode=display">
+\lim_{n\rightarrow\infty}\frac{a_{n}a_{n+1}}{a_{n}-a_{n+1}}.</script><p>(3) 计算</p>
+<script type="math/tex; mode=display">
+\lim_{n\to\infty}na_{n}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>$a_{n}\to0$.</p>
+<script type="math/tex; mode=display">
+a_{n}-\frac{a_{n}^{2}}{2}+\frac{a_{n}^{3}}{3}\ge a_{n+1}\ge a_{n}-\frac{a_{n}^{2}}{2}.</script><script type="math/tex; mode=display">
+\frac{1}{a_{n}}\frac{1}{1-\frac{a_{n}}{2}+\frac{a_{n}^{2}}{3}}\le\frac{1}{a_{n+1}}\le\frac{1}{a_{n}}\frac{2}{2-a_{n}}.</script><script type="math/tex; mode=display">
+\frac{1}{a_{n}}\frac{\frac{a_{n}}{2}-\frac{a_{n}^{2}}{3}}{1-\frac{a_{n}}{2}+\frac{a_{n}^{2}}{3}}=\frac{\frac{1}{2}-\frac{a_{n}}{3}}{1-\frac{a_{n}}{2}+\frac{a_{n}^{2}}{3}}<\frac{1}{a_{n+1}}-\frac{1}{a_{n}}\le\frac{1}{a_{n}}\frac{a_{n}}{2-a_{n}}=\frac{1}{2-a_{n}}</script><script type="math/tex; mode=display">
+\frac{1}{2}\le\lim_{n\to\infty}\frac{1}{a_{n+1}}-\frac{1}{a_{n}}\le\frac{1}{2}.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 设数列 $\left\{ x_{n}\right\} $ 满足 $x_{n+1}=\cos x_{n}$, $n\in N_{+}$, $x_{1}=\cos x$, 证明该数列极限存在且其极限值为 $\cos x-x=0$ 的根.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\left|x_{n+1}-x_{n}\right|=\left|\cos x_{n}-\cos x_{n-1}\right|=\left|2\sin\frac{x_{n}+x_{n-1}}{2}\sin\frac{x_{n}-x_{n-1}}{2}\right|<\sin1\left|x_{n}-x_{n-1}\right|,\quad n\ge2.</script><p>聚点定理且根据方程极限点唯一.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> (1) 证明方程 $\tan x=x$ 在 $\left(n\pi,n\pi+\frac{\pi}{2}\right)$<br>内存在实根 $\xi_{n},n\in N_{+}$; </p>
+<p>(2) 计算极限 </p>
+<script type="math/tex; mode=display">
+\lim_{n\rightarrow\infty}\left(\xi_{n+1}-\xi_{n}\right)</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\xi_{n}=n\pi+\arctan\xi_{n},\quad\xi_{n}\in\left(n\pi,n\pi+\frac{\pi}{2}\right).</script><script type="math/tex; mode=display">
+\left|\xi_{n+1}-\xi_{n}\right|=\left|\pi+\arctan\xi_{n+1}-\arctan\xi_{n}\right|=\pi+O\left(\int_{n\pi}^{n\pi+\frac{3\pi}{2}}\frac{1}{1+x^{2}}\ud x\right)\to\pi,\quad n\to\infty.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> (1) 证明方程 $e^{x}+x^{2n+1}=0$ 在 $(-1,0)$ 有唯一实根 $x_{n}$, 且 $n\in\NN_{+}$; </p>
+<p>(2) 证明数列 $\left\{ x_{n}\right\} $ 极限存在并求其值 $a$; </p>
+<p>(3) 计算 </p>
+<script type="math/tex; mode=display">
+\lim_{n\rightarrow\infty}n\left(x_{n}-a\right)</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\ue^{\frac{x_{n}}{2n+1}}=-x_{n}\to1,\quad n\to\infty.</script><script type="math/tex; mode=display">
+1+x_{n}=1-\ue^{\frac{x_{n}}{2n+1}},</script><script type="math/tex; mode=display">
+n(1+x_{n})=n\left(1-\ue^{\frac{x_{n}}{2n+1}}\right)=n\left(1-\left(1+\frac{x_{n}}{2n+1}+o\left(\frac{1}{n}\right)\right)\right)=-\frac{nx_{n}}{2n+1}+o(1)\to-\frac{1}{2}\cdot(-1)=\frac{1}{2},\quad n\to\infty.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 设数列 $\left\{ x_{n}\right\} $ 满足 $x_{0}=a$, $x_{1}=b$, $x_{n+1}=\frac{1}{2}\left(x_{n}+x_{n-1}\right)$, $n\in\NN_{+}$, 证明数列 $\left\{ x_{n}\right\} $ 极限存在并求其极限.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> (1) 证明方程 $x^{n}+x^{n-1}+\cdots+x=1$, $(n&gt;1,n\in\ZZ)$ 在区间 $\left(\frac{1}{2},1\right)$ 内有且仅有一个实根; </p>
+<p>(2) 记 (1) 中的实根为 $x_{n}$, 证明数列 $\left\{ x_{n}\right\} $ 极限存在并求其极限.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+2(x_{n}-1)=x_{n}^{n+1}-1.</script><script type="math/tex; mode=display">
+x_{n}=\sqrt[n+1]{1+2(x_{n}-1)}=1+\frac{2(x_{n}-1)}{n+1}+o\left(\frac{1}{n}\right)\to1,\quad n\to\infty.</script></div></div></div>]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>极限</tag>
+        <tag>数列极限</tag>
+        <tag>每日一题</tag>
+        <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>用重积分求解定积分</title>
     <url>/2022/03/07/%E7%94%A8%E9%87%8D%E7%A7%AF%E5%88%86%E6%B1%82%E8%A7%A3%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<div class="note primary no-icon flat"><p><strong>问题:</strong><br>求</p>
+    <content><![CDATA[<div class="note primary no-icon flat"><p><strong>问题:</strong> 求</p>
 <script type="math/tex; mode=display">
 I=\int_{0}^{1}\frac{x-1}{\ln x}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
     <div class="hide-content"><script type="math/tex; mode=display">
@@ -1052,6 +915,317 @@ I=\int_{0}^{1}\int_{0}^{1}x^{y}\ud y\ud x=\int_{0}^{1}\int_{0}^{1}x^{y}\ud x\ud 
         <tag>重积分</tag>
         <tag>定积分</tag>
         <tag>积分求法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>积分不等式</title>
+    <url>/2022/03/07/%E7%A7%AF%E5%88%86%E4%B8%8D%E7%AD%89%E5%BC%8F/</url>
+    <content><![CDATA[<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $f(x)$ 在 $[a,b]$ 上具有二阶可导, 且 $f(a)=f(b)=0$, $M=\max_{x\in[a,b]}\left|f^{\prime\prime}(x)\right|$, 证明 </p>
+<script type="math/tex; mode=display">
+\left|\int_{a}^{b}f(x)dx\right|\leq\frac{(b-a)^{3}}{12}M.</script><div class="hide-toggle" style="border: 1px solid black"><div class="hide-button toggle-title" style="background-color: black;color: white"><i class="fas fa-caret-right fa-fw"></i><span>瞎算</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\begin{align*}
+f(x) & =f'(a)(x-a)+\frac{f''(\xi)}{2}(x-a)^{2}\\
+ & =f'(b)(x-b)+\frac{f''(\eta)}{2}(x-b)^{2}\\
+ & =\lambda f'(a)(x-a)+(1-\lambda)f'(b)(x-b)+\lambda\frac{f''(\xi)}{2}(x-a)^{2}+(1-\lambda)\frac{f''(\eta)}{2}(x-b)^{2}
+\end{align*}</script><p>取$\lambda=\frac{f’(b)}{f’(a)+f’(b)}$,</p>
+<script type="math/tex; mode=display">
+\int_{a}^{b}f(x)dx=\frac{\lambda}{2}\int_{a}^{b}f''(\xi)(x-a)^{2}dx+\frac{1-\lambda}{2}\int_{a}^{b}f''(\eta)(x-b)^{2}dx.</script><script type="math/tex; mode=display">
+\left|\int_{a}^{b}f(x)dx\right|\le\frac{\lambda}{2}M\int_{a}^{b}(x-a)^{2}dx+\frac{1-\lambda}{2}M\int_{a}^{b}(x-b)^{2}dx=\frac{M(b-a)^{3}}{6}.</script></div></div>
+
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\begin{align*}
+0=f(a) & =f(x)+f'(x)(a-x)+\frac{f''(\xi)}{2}(a-x)^{2}\\
+ & =f(x)+f'(x)(b-x)+\frac{f''(\eta)}{2}(b-x)^{2}\\
+ & =f(x)+\lambda(a-x)f'(x)+(1-\lambda)(b-x)f'(x)+\frac{f''(\xi)}{2}\lambda(a-x)^{2}+\frac{f''(\eta)}{2}(1-\lambda)(b-x)^{2}
+\end{align*}</script><p>取$\lambda=\frac{b-x}{b-a}$</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\left|\int_{a}^{b}f(x)dx\right| & =\left|\int_{a}^{b}\frac{f''(\xi)}{2}\lambda(a-x)^{2}+\frac{f''(\eta)}{2}(1-\lambda)(b-x)^{2}dx\right|\\
+ & \le\frac{M}{2}\left|\int_{a}^{b}\lambda(a-x)^{2}+(1-\lambda)(b-x)^{2}dx\right|\\
+ & \le\frac{M(b-a)^{3}}{12}.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 已知 $f(x)$ 在 $[0,2]$ 上一阶可导, $f(0)=f(2)=1$, $\left|f^{\prime}(x)\right|\leq1$, 证明 </p>
+<script type="math/tex; mode=display">
+1\leq\int_{0}^{2}f(x)dx\leq3.</script></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 函数 $f(x)$ 在 $[0,1]$ 上二阶可导, $f(0)=f(1)=0$, $f(x)\neq0$, ($x\in(0,1)$), 证明 </p>
+<script type="math/tex; mode=display">
+\int_{0}^{1}\left|\frac{f^{\prime\prime}(x)}{f(x)}\right|dx\geq4.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>取$f(x_{0})=\max_{x\in[0,1]}f(x)$, 则</p>
+<script type="math/tex; mode=display">
+f(x_{0})=f'(\xi_{1})x_{0}=f'(\xi_{2})(x_{0}-1),</script><p>所以 </p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\int_{0}^{1}\abs{\frac{f''}{f}}\ud x & \ge\frac{1}{\abs{f(x_{0})}}\ud x\\
+& \ge\frac{1}{\abs{f(x_{0})}}\abs{\int_{\xi_{1}}^{\xi_{2}}f''\ud x}\\
+& =\frac{1}{\abs{f(x_{0})}}\abs{f'(\xi_{2})-f'(\xi_{1})}\\
+& =\frac{1}{x_{0}}+\frac{1}{1-x_{0}}\ge4.
+\end{align*}</script></div></div>
+
+<div class="note primary no-icon flat"><p><strong>推广:</strong> 设 $f(x)$ 在 $[a,b]$ 上具有连续的二阶导数, 且 $f(a)=f(b)=0$, 在 $x\in(a,b)$<br>内, $f(x)\neq0$, 证明: $\int_{a}^{b}\left|\frac{f^{\prime\prime}(x)}{f(x)}\right|\mathrm{d}x\geqslant\frac{4}{b-a}$.</p>
+</div>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>$\exists x_{0}\in(0,1)$ 使得 $f\left(x_{0}\right)=\max_{0\leqslant x\leqslant1}f(x)\Rightarrow\left|f\left(x_{0}\right)\right|&gt;0$.</p>
+<script type="math/tex; mode=display">
+\int_{a}^{b}\left|\frac{f^{\prime\prime}(x)}{f(x)}\right|\mathrm{d}x\geqslant\frac{1}{f\left(x_{0}\right)}\int_{a}^{b}\left|f^{\prime\prime}(x)\right|\mathrm{d}x</script><script type="math/tex; mode=display">
+f^{\prime}\left(x_{1}\right)=\frac{f\left(x_{0}\right)-f(a)}{x_{0}-a},f^{\prime}\left(x_{2}\right)=\frac{f(b)-f\left(x_{0}\right)}{b-x_{0}}</script><script type="math/tex; mode=display">
+\begin{align*}
+\int_{a}^{b}\left|f^{\prime\prime}(x)\right|\mathrm{d}x & \geqslant\int_{x_{1}}^{x_{2}}\left|f^{\prime\prime}(x)\right|\mathrm{d}x\ge\left|f'(x_{2})-f'(x_{1})\right|\\
+ & =\left|\frac{f\left(x_{0}\right)}{b-x_{0}}+\frac{f\left(x_{0}\right)}{x_{0}-a}\right|=\frac{(b-a)\left|f\left(x_{0}\right)\right|}{\left(b-x_{0}\right)\left(x_{0}-a\right)}\\
+ & \geqslant\frac{4}{b-a}\left|f\left(x_{0}\right)\right|.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 函数 $f(x)$ 在 $[0,1]$ 上一阶可导, $f(0)=f(1)=0$, 证明 </p>
+<script type="math/tex; mode=display">
+\int_{0}^{1}f^{2}(x)dx\leq\frac{1}{4}\int_{0}^{1}f^{\prime2}(x)dx.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\int_{0}^{1/2}\left(\int_{0}^{x}f'(t)dt\right)^{2}dx\le\int_{0}^{1/2}\left(\int_{0}^{x}\left|f'(t)\right|dt\right)^{2}dx\le\int_{0}^{1/2}\int_{0}^{x}1dt\int_{0}^{1}\left|f'(t)\right|^{2}dtdx\le\frac{1}{8}\int_{0}^{1}\left|f'(t)\right|^{2}dt.</script><script type="math/tex; mode=display">
+\int_{1/2}^{1}\left(\int_{x}^{1}f'(t)dt\right)^{2}dx\le\int_{1/2}^{1}\int_{x}^{1}1dt\int_{x}^{1}\left|f'(t)\right|^{2}dtdx\le\frac{1}{8}\int_{0}^{1}\left|f'(t)\right|^{2}dt.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 证明 </p>
+<script type="math/tex; mode=display">
+0\leq\int_{0}^{\frac{\pi}{2}}\sqrt{x}\cos xdx\leq\sqrt{\frac{\pi^{3}}{32}}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\int_{0}^{\pi/2}\sqrt{x}\cos xdx\le\norm{\sqrt{x}}_{L^{2}}\norm{\cos x}_{L^{2}}.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $f(x)$ 在 $[a,b]$ 上连续且单调增加, 证明 </p>
+<script type="math/tex; mode=display">
+\int_{a}^{b}xf(x)dx\geq\frac{a+b}{2}\int_{a}^{b}f(x)dx.</script></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $f(x)\in[0,1]$, $f(0)=0$, $0\leq f^{\prime}(x)\leq1$, 证明 </p>
+<script type="math/tex; mode=display">
+\left(\int_{0}^{1}f(x)dx\right)^{2}\geq\int_{0}^{1}f^{3}(x)dx.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+F(x)=\left(\int_{0}^{x}f(t)dt\right)^{2}-\int_{0}^{x}f^{3}(t)dt,</script><script type="math/tex; mode=display">
+F'(x)=2f(x)\int_{0}^{x}f(t)dt-f^{3}(x)=f(x)\left(2\int_{0}^{x}f(t)dt-f^{2}(x)\right)=f(x)G(x),</script><script type="math/tex; mode=display">
+G'(x)=2f(x)-2f(x)f'(x)\ge0.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 证明 </p>
+<script type="math/tex; mode=display">
+2\leq\int_{-1}^{1}\sqrt{1+x^{4}}dx\leq2\sqrt{2}.</script></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 证明 </p>
+<script type="math/tex; mode=display">
+\frac{1}{2}\leq\int_{0}^{\frac{1}{2}}\frac{1}{\sqrt{1-x^{n}}}dx\leq\frac{\pi}{6},(n>2).</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\int_{0}^{1/2}1dx\le\int_{0}^{\frac{1}{2}}\frac{1}{\sqrt{1-x^{n}}}dx\le\int_{0}^{1/2}\frac{1}{\sqrt{1-x^{2}}}dx.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 证明 </p>
+<script type="math/tex; mode=display">
+\frac{61}{330}\leq\int_{0}^{1}x\sin x^{3}dx\leq\frac{1}{5}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\int_{0}^{1}x\left(x^{3}-\frac{x^{9}}{3!}\right)dx\le\int_{0}^{1}x\sin x^{3}dx\le\int_{0}^{1}x^{4}dx.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 已知 $f(x)$ 在 $[0,1]$ 上一阶可导, 证明 </p>
+<script type="math/tex; mode=display">
+|f(x)|\leq\int_{0}^{1}\left[|f(x)|+\left|f^{\prime}(x)\right|\right]dx.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\left|\left|f(x)\right|-\left|\int_{0}^{1}f(x)dx\right|\right|\le\left|f(x)-\int_{0}^{1}f(t)dt\right|=\left|f(x)-f(x_{0})\right|\le\int_{0}^{1}\left|f'(x)\right|dx.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 证明 </p>
+<script type="math/tex; mode=display">
+\frac{2\pi}{9}\leq\int_{\frac{1}{\sqrt{3}}}^{\sqrt{3}}x\arctan xdx\leq\frac{4\pi}{9}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\arctan\frac{1}{\sqrt{3}}\int_{\frac{1}{\sqrt{3}}}^{\sqrt{3}}xdx\le\int_{\frac{1}{\sqrt{3}}}^{\sqrt{3}}x\arctan xdx\le\arctan\sqrt{3}\int_{\frac{1}{\sqrt{3}}}^{\sqrt{3}}xdx.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $(x)$ 在闭区间 $[0,1]$ 上连续, 函数 $f(x)(f(x)&gt;0)$ 单调减少, 证明 </p>
+<script type="math/tex; mode=display">
+\frac{\int_{0}^{1}xf^{2}(x)dx}{\int_{0}^{1}xf(x)dx}\leq\frac{\int_{0}^{1}f^{2}(x)dx}{\int_{0}^{1}f(x)dx}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\int_{0}^{1}\int_{0}^{1}xf^{2}(x)f(y)+yf^{2}(y)f(x)-f^{2}(x)yf(y)-f^{2}(y)xf(x)dxdy=\int_{0}^{1}\int_{0}^{1}f(x)f(y)(f(x)-f(y))(x-y)dxdy\le0.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 已知 $f(x)$ 在闭区间 $[a,b]$ 上连续, $f(x)&gt;0$, 证明 </p>
+<script type="math/tex; mode=display">
+\int_{a}^{b}f(x)dx\cdot\int_{a}^{b}\frac{1}{f(x)}dx\geq(b-a)^{2}.</script></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $a&gt;0,b&gt;0,f(x)\geq0$ 在 $[-a,b]$ 上连续, $\int_{-a}^{b}xf(x)dx=0$, 证明 </p>
+<script type="math/tex; mode=display">
+\int_{-a}^{b}x^{2}f(x)dx\leq ab\int_{-a}^{b}f(x)dx.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\int_{-a}^{b}(x-b)(x+a)f(x)dx\le0.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 已知 $f(x)$ 在 $[0,1]$ 上连续, $0&lt;m\leq f(x)\leq M$, 证明 </p>
+<script type="math/tex; mode=display">
+\int_{0}^{1}f(x)dx\cdot\int_{0}^{1}\frac{1}{f(x)}dx\leq\frac{(M+m)^{2}}{4Mm}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+(f(x)-m)(f(x)-M)\le0\Longrightarrow\int_{0}^{1}f(x)dx+\int_{0}^{1}\frac{Mm}{f(x)}dx\le M+m\Longrightarrow4\int_{0}^{1}f(x)dx\int_{0}^{1}\frac{Mm}{f(x)}dx\le(M+m)^{2}.</script></div></div></div>]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>微积分</tag>
+        <tag>每日一题</tag>
+        <tag>高等数学</tag>
+        <tag>积分</tag>
+        <tag>不等式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第一个hexo日志</title>
+    <url>/2021/02/01/%E7%AC%AC%E4%B8%80%E4%B8%AAhexo%E6%97%A5%E5%BF%97/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ cd blog</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+<p>新建一个文件, 然后发布到github上去</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo new &quot;第一个hexo日志&quot;</span><br><span class="line">INFO  Created: ~&#x2F;blog&#x2F;source&#x2F;_posts&#x2F;第一个hexo日志.md</span><br><span class="line">$ vim ~&#x2F;blog&#x2F;source&#x2F;_posts&#x2F;第一个hexo日志.md</span><br><span class="line">$ npm install hexo-deployer-git --save</span><br><span class="line">$ vim _config.yml</span><br><span class="line">$ cat _config.yml</span><br><span class="line">...</span><br><span class="line">title: Larry_Eppes&#39;s Trivia Collection Site</span><br><span class="line">keywords: MATH, COMPUTER</span><br><span class="line">author: Larry Eppes</span><br><span class="line">language: en</span><br><span class="line">timezone: &#39;Asia&#x2F;Shanghai&#39;</span><br><span class="line">...</span><br><span class="line">url: http:&#x2F;&#x2F;larryeppes.github.io</span><br><span class="line">...</span><br><span class="line">deploy:</span><br><span class="line">  type: &#39;git&#39;</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;larryeppes&#x2F;larryeppes.github.io</span><br><span class="line"></span><br><span class="line">$ hexo server</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http:&#x2F;&#x2F;localhost:4000&#x2F;. Press Ctrl+C to stop.</span><br><span class="line"></span><br><span class="line">$ hexo deploy --generate</span><br></pre></td></tr></table></figure>
+<div class="note simple"><p>默認 提示塊標籤</p>
+</div>
+<div class="note default simple"><p>default 提示塊標籤</p>
+</div>
+<div class="note primary simple"><p>primary 提示塊標籤</p>
+</div>
+<div class="note success simple"><p>success 提示塊標籤</p>
+</div>
+<div class="note info simple"><p>info 提示塊標籤</p>
+</div>
+<div class="note warning simple"><p>warning 提示塊標籤</p>
+</div>
+<div class="note danger simple"><p>danger 提示塊標籤</p>
+</div>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Poisson公式</title>
+    <url>/2022/03/08/Poisson%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="Poisson公式"><a href="#Poisson公式" class="headerlink" title="Poisson公式"></a>Poisson公式</h1><div class="note primary no-icon flat"><p>设$f(x)\in C(\RR)$, 其中$D$为单位圆盘, 则</p>
+<script type="math/tex; mode=display">
+\iint_{D}f(ax+by)dxdy=2\int_{-1}^{1}\sqrt{1-\xi^{2}}f(\xi\sqrt{a^{2}+b^{2}})d\xi.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>做变换</p>
+<script type="math/tex; mode=display">
+\begin{cases}
+\xi=\frac{ax+by}{\sqrt{a^{2}+b^{2}}},\\
+\eta=\frac{bx-ay}{\sqrt{a^{2}+b^{2}}}.
+\end{cases}</script><p>则</p>
+<script type="math/tex; mode=display">
+\iint_{D}f(ax+by)dxdy=\iint_{D}f(\xi\sqrt{a^{2}+b^{2}})\ud\xi\ud\eta=2\int_{-1}^{1}\sqrt{1-\xi^{2}}\cdot f(\xi\sqrt{a^{2}+b^{2}})\ud\xi.</script></div></div></div>]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+        <tag>微积分</tag>
+        <tag>重积分</tag>
+        <tag>积分</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>$\exp(-x^2)$ 是一个Schwartz函数</title>
+    <url>/2022/03/08/Schwartz%20function/</url>
+    <content><![CDATA[<p>设</p>
+<script type="math/tex; mode=display">
+\frac{\ud^{n}}{\ud x^{n}}\exp\left(-x^{2}\right)=p_{n}(x)\exp\left(-x^{2}\right),</script><p>则有$p_{0}(x)=1$, $p_{1}(x)=-2x$. 计算</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\frac{\ud^{n+1}}{\ud x^{n+1}}\exp\left(-x^{2}\right) & =\frac{\ud}{\ud x}\frac{\ud^{n}}{\ud x^{n}}\exp\left(-x^{2}\right)\\
+ & =\frac{\ud}{\ud x}\left(p_{n}(x)\exp\left(-x^{2}\right)\right)\\
+ & =p'_{n}(x)\exp\left(-x^{2}\right)-2xp_{n}(x)\exp(-x^{2})\\
+ & =\left(p_{n}'(x)-2xp_{n}(x)\right)\exp(-x^{2}).
+\end{align*}</script><p>所以我们期望有关系</p>
+<script type="math/tex; mode=display">
+p_{n+1}(x):= p'_{n}(x)-2xp_{n}(x)</script><p>成立. 容易证明对于任何$n$, $p_{n}(x)$是$x$的多项式.</p>
+<p>考虑$\exp(x^{2})$的Maclaurin级数有</p>
+<script type="math/tex; mode=display">
+\exp(x^{2})\ge\frac{\left|x\right|^{k}}{k!}\left|x\right|^{k}\Longrightarrow\left|x\right|^{-k}k!\ge\left|x\right|^{k}\exp(-x^{2}).</script><p>所以</p>
+<script type="math/tex; mode=display">
+\left|x^{k}\exp(-x^{2})\right|\le\frac{k!}{\left|x\right|^{k}}\le k!,\qquad\left|x\right|\ge1.</script><script type="math/tex; mode=display">
+\left|x^{k}\exp(-x^{2})\right|\le1,\qquad\left|x\right|\le1.</script><p>即对于任何$k\in\NN$, 有</p>
+<script type="math/tex; mode=display">
+\sup_{x}\left|x^{k}\exp(-x^{2})\right|\le k!<\infty,</script><p>即得$\exp(-x^{2})\in\mathcal{S}(\RR)$. </p>
+]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+        <tag>分布理论</tag>
+        <tag>现代分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Borel集, Suslin集, Polish空间</title>
+    <url>/2022/03/07/Suslin%E9%9B%86/</url>
+    <content><![CDATA[<h1 id="Borel集"><a href="#Borel集" class="headerlink" title="Borel集"></a>Borel集</h1><p><strong>Borel集</strong>是拓扑空间中的集合, 由开集(闭集)的可数并, 可数交和相对补运算生成. 有些书中定义Borel集由拓扑空间中的紧集来生成, 而不用开集. 这两种定义在一些空间中是等价的, 比如 Hausdorff $\sigma$紧空间, 但在一些病态空间中, 这两种定义会不同.</p>
+<p>拓扑空间$X$中的所有Borel集形成一个$\sigma$代数, 即<strong>Borel代数</strong>, 或称<strong>Borel $\sigma$代数</strong>. $X$上的Borel代数是包含$X$中所有开集(或闭集)的最小$\sigma$代数.</p>
+<p>在空间$X$中的所有开集(或者闭集)上都有定义的任何测度$\mu$, 在空间$X$上的Borel集上也都有定义. </p>
+<p>定义在Borel集上的测度称为<strong>Borel测度</strong>.</p>
+<p>Borel分层(Borel hierarchy):</p>
+<p>描述集合论(descriptive set theory):</p>
+<h1 id="Suslin集"><a href="#Suslin集" class="headerlink" title="Suslin集"></a>Suslin集</h1><p>Suslin集首先是由Mikhail Yakovlevich Suslin 在研究$\RR^{2}$中Borel集投影到$\RR$的时候给出的.</p>
+<p>Suslin集的概念应用于 位势理论, 测度论和分形的研究.</p>
+<div class="note primary no-icon flat"><p><strong>定义</strong>. 在度量空间$(X,d)$中, Suslin集有形式</p>
+<script type="math/tex; mode=display">
+F=\cup_{i_{1},i_{2},\cdots,}\cap_{k=1}^{\infty}F_{i_{1},i_{2},\cdots,i_{k}},</script><p>其中$F_{i_{1},i_{2},\cdots,i_{k}}$对于任何正整数有限序列$\left\{ i_{1},i_{2},\cdots,i_{k}\right\}$ 在$X$中闭.</p>
+</div>
+<p>Suslin集的性质</p>
+<ul>
+<li>每个Borel集是Suslin集.</li>
+<li>所有Suslin集形成的集族对可数交和可数并运算封闭.</li>
+<li>并非所有的Suslin集都是Borel集, 比如在非平凡度量空间$\RR^{n}$.</li>
+<li>若$A$是Polish空间中的一个子集, 则$A$是一个Suslin集当且仅当它是一个解析集.</li>
+<li>在Polish空间中, 任何Suslin集都是普遍可测(universally measurable)的.</li>
+</ul>
+<h1 id="Polish空间"><a href="#Polish空间" class="headerlink" title="Polish空间"></a>Polish空间</h1><p>Polish空间是一个可分的, 完备的, 可度量化的拓扑空间. 即同胚于一个有可数稠子集的完备度量空间.</p>
+<p>Polish空间的例子有: 实直线, 任何可分Banach空间, Cantor空间, Baire空间. Polish空间的闭子集, Polish空间的开子集.</p>
+<p>在某些空间中, 其上的度量虽然不能使其称为完备的度量空间, 但其仍可能是一个Polish空间, 比如开区间$(0,1)$.</p>
+<p>性质: </p>
+<ol>
+<li>(<strong>Alexandrov定理</strong>) 若$X$是Polish空间, 则$X$的任何$G_{\delta}$子集也是Polish空间.</li>
+<li>(<strong>Cantor-Bendixson定理</strong>) 若$X$是Polish空间, 则$X$的任何闭子集可以表示成一个完全子集(perfect)与一个可数子集的不交并.</li>
+<li>Polish空间$P$的子空间$Q$仍是Polish空间, 当且仅当$Q$是$P$中一列开子集的交. (<strong>Alexandrov逆定理</strong>)</li>
+<li>拓扑空间$X$是Polish空间, 当且仅当$X$同胚于立方体$I^{\NN}$的开子集列的交, 其中$I$是单位区间.</li>
+</ol>
+<p>Borel等价关系(Borel equivalence relation): </p>
+]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+        <tag>分析</tag>
+        <tag>测度论</tag>
+        <tag>拓扑空间</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记浙江省首届高等数学竞赛非数学类最后一题</title>
+    <url>/2022/03/26/%E8%AE%B0%E6%B5%99%E6%B1%9F%E7%9C%81%E9%A6%96%E5%B1%8A%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AB%9E%E8%B5%9B%E9%9D%9E%E6%95%B0%E5%AD%A6%E7%B1%BB%E6%9C%80%E5%90%8E%E4%B8%80%E9%A2%98/</url>
+    <content><![CDATA[<p>最近刷题目卡在最后一题了, 题目是这样的:</p>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $\left\{ a_{n}\right\} ,\left\{ b_{n}\right\} $ 为满足 $e^{a_{n+1}}=a_{n}+e^{b_{n}},n\geq1$ 的两个实数列, 已知 $a_{n}&gt;0(n\geq1)$, 且 $\sum_{n=1}^{\infty}a_{n}$ 收敛。证明: $\sum_{n=1}^{\infty}\frac{b_{n}}{a_{n}}$ 也收敛。</p>
+</div>
+<p>从题目中容易解出来</p>
+<script type="math/tex; mode=display">
+b_{n}=\ln\left(\ue^{a_{n+1}}-a_{n}\right),</script><p>所以要证明$\sum_{n=1}^{\infty}\frac{b_{n}}{a_{n}}$的收敛性, 最先想到的是证明级数的各项能被$a_{n}$的某固定常数倍控制, 于是</p>
+<script type="math/tex; mode=display">
+\frac{b_{n}}{a_{n}}=\frac{\ln\left(\ue^{a_{n+1}}-a_{n}\right)}{a_{n}}\le\frac{\ue^{a_{n+1}}-1-a_{n}}{a_{n}}\le\frac{a_{n+1}+o\left(a_{n+1}\right)-a_{n}}{a_{n}}.</script><p>但右边似乎没有办法被很好的控制, 因为我最后构造了一个反例, 反例大概是这样的</p>
+<script type="math/tex; mode=display">
+a_{n}=\begin{cases}
+\frac{1}{n^{2}}, & n\ne m^{2},\\
+\left(1+\frac{1}{m}\right)\frac{1}{n^{2}}, & n=m^{2}+1,
+\end{cases}</script><p>使用$\frac{1}{n^{2}}$是因为众所周知的$\zeta(2)=\frac{\pi^{2}}{6}$, 来确保级数$\sum a_{n}$的收敛性. $1+\frac{1}{m}$项是为了能让项$\frac{a_{n+1}-a_{n}}{a_{n}}$在$n=m^{2}$时得到$\frac{1}{m}$, 这可以取遍调和级数的所有项, 从而使$\frac{a_{n+1}-a_{n}}{a_{n}}$形成的部分和含有发散子列$\frac{1}{m}$. </p>
+<p>这是我怀疑上面的不等式在放大的过程中放的太过了, 所以有必要直接考虑$\frac{b_{n}}{a_{n}}$在$n$很大时的变化趋势, 根据上面的构造, 选取$n=m^{2}$是合适的. 所以可以计算</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\frac{b_{m^{2}}}{a_{m^{2}}} & =m^{4}\ln\left(\ue^{a_{m^{2}+1}}-a_{m^{2}}\right)\\
+ & =m^{4}\ln\left(\ue^{\left(1+\frac{1}{m}\right)\frac{1}{(m^{2}+1)^{2}}}-\frac{1}{m^{4}}\right)\\
+ & \sim m^{4}\left(\ue^{\left(1+\frac{1}{m}\right)\frac{1}{(m^{2}+1)^{2}}}-\frac{1}{m^{4}}-1\right)\\
+ & \sim m^{4}\left(\left(1+\frac{1}{m}\right)\frac{1}{(m^{2}+1)^{2}}-\frac{1}{m^{4}}\right)\sim\frac{1}{m}
+\end{align*}</script><p>这说明上面的不等式并没有放的过大, $\sum\frac{b_{n}}{a_{n}}$有发散的子列$\sum\frac{b_{m^{2}}}{a_{m^{2}}}$. (我在这里并没有验证$b_{n}$的正负, 事实上其后的的一项刚好是$-\frac{1}{m}$, 但这已经给出了一个构造反例的思想. 比如选择$a_{m^{2}+1}=\frac{2}{(m^{2}+1)^{2}}$并结合Cauchy收敛准则.)</p>
+<p>于是上网搜索正确的问题应当是怎么样的. 得到正确的问题表述其实是</p>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $\left\{ a_{n}\right\} ,\left\{ b_{n}\right\} $ 为满足 $e^{a_{n}}=a_{n}+e^{b_{n}},n\geq1$ 的两个实数列, 已知 $a_{n}&gt;0(n\geq1)$, 且 $\sum_{n=1}^{\infty}a_{n}$ 收敛。证明: $\sum_{n=1}^{\infty}\frac{b_{n}}{a_{n}}$ 也收敛。</p>
+</div>
+<p>现在问题就简单了, 直接考虑$\left|a_{n}\right|\ll1$时的情况, 有以下控制</p>
+<script type="math/tex; mode=display">
+\left|\frac{b_{n}}{a_{n}}\right|\le\frac{\ue^{a_{n}}-1-a_{n}}{a_{n}}\le\frac{1+a_{n}+\frac{a_{n}^{2}}{2}+o(a_{n}^{2})-1-a_{n}}{a_{n}}\le a_{n}.</script><p>然后用比较判别法即可.</p>
+<p>比较判别法是判断无穷级数收敛, 条件收敛, 绝对收敛, 区间收敛或发散的方法. 也叫作比较审敛法, 比较审敛原理.</p>
+<div class="note primary no-icon flat"><p><strong>比较判别法</strong>: 设$\sum b_{n}$是收敛的正项无穷级数, 复无穷级数$\sum a_{n}$若满足对于任意的$n$有$\left|a_{n}\right|\le cb_{n}$, 其中$c$是与$n$无关的正常数, 则</p>
+<p>(1) 若$\sum b_{n}$收敛, 则$\sum a_{n}$收敛.</p>
+<p>(2) 若$\sum\left|a_{n}\right|=+\infty$, 则$\sum b_{n}=+\infty$.</p>
+</div>]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>微积分</tag>
+        <tag>反例</tag>
+        <tag>每日一题</tag>
+        <tag>高等数学</tag>
+        <tag>分析</tag>
+        <tag>数学分析</tag>
+        <tag>高等数学竞赛</tag>
+        <tag>数项级数</tag>
       </tags>
   </entry>
 </search>

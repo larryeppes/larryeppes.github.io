@@ -53,6 +53,175 @@
       </tags>
   </entry>
   <entry>
+    <title>Latex编辑展示页面</title>
+    <url>/2021/02/02/Latex%E7%BC%96%E8%BE%91%E5%B1%95%E7%A4%BA%E9%A1%B5%E9%9D%A2/</url>
+    <content><![CDATA[<h1 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h1><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Latex Code</th>
+<th style="text-align:center">Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">\alpha</td>
+<td style="text-align:center">$\alpha$</td>
+<td>\theta</td>
+<td>$\theta$</td>
+<td>\omicron</td>
+<td>$\omicron$</td>
+<td>\upsilon</td>
+<td>$\upsilon$</td>
+</tr>
+<tr>
+<td style="text-align:center">\beta</td>
+<td style="text-align:center">$\beta$</td>
+<td>\vartheta</td>
+<td>$\vartheta$</td>
+<td>\pi</td>
+<td>$\pi$</td>
+<td>\phi</td>
+<td>$\phi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\gamma</td>
+<td style="text-align:center">$\gamma$</td>
+<td>\iota</td>
+<td>$\iota$</td>
+<td>\varpi</td>
+<td>$\varpi$</td>
+<td>\varphi</td>
+<td>$\varphi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\delta</td>
+<td style="text-align:center">$\delta$</td>
+<td>\kappa</td>
+<td>$\kappa$</td>
+<td>\rho</td>
+<td>$\rho$</td>
+<td>\chi</td>
+<td>$\chi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varepsilon</td>
+<td style="text-align:center">$\varepsilon$</td>
+<td>\lambda</td>
+<td>$\lambda$</td>
+<td>\varrho</td>
+<td>$\varrho$</td>
+<td>\psi</td>
+<td>$\psi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\epsilon</td>
+<td style="text-align:center">$\epsilon$</td>
+<td>\mu</td>
+<td>$\mu$</td>
+<td>\sigma</td>
+<td>$\sigma$</td>
+<td>\omega</td>
+<td>$\omega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\zeta</td>
+<td style="text-align:center">$\zeta$</td>
+<td>\nu</td>
+<td>$\nu$</td>
+<td>\varsigma</td>
+<td>$\varsigma$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\eta</td>
+<td style="text-align:center">$\eta$</td>
+<td>\xi</td>
+<td>$\xi$</td>
+<td>\tau</td>
+<td>$\tau$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\Gamma</td>
+<td style="text-align:center">$\Gamma$</td>
+<td>\Lambda</td>
+<td>$\Lambda$</td>
+<td>\Sigma</td>
+<td>$\Sigma$</td>
+<td>\Psi</td>
+<td>$\Psi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\Delta</td>
+<td style="text-align:center">$\Delta$</td>
+<td>\Xi</td>
+<td>$\Xi$</td>
+<td>\Upsilon</td>
+<td>$\Upsilon$</td>
+<td>\Omega</td>
+<td>$\Omega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\Theta</td>
+<td style="text-align:center">$\Theta$</td>
+<td>\Pi</td>
+<td>$\Pi$</td>
+<td>\Phi</td>
+<td>$\Phi$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\varGamma</td>
+<td style="text-align:center">$\varGamma$</td>
+<td>\varLambda</td>
+<td>$\varLambda$</td>
+<td>\varSigma</td>
+<td>$\varSigma$</td>
+<td>\varPsi</td>
+<td>$\varPsi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varDelta</td>
+<td style="text-align:center">$\varDelta$</td>
+<td>\varXi</td>
+<td>$\varXi$</td>
+<td>\varUpsilon</td>
+<td>$\varUpsilon$</td>
+<td>\varOmega</td>
+<td>$\varOmega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varTheta</td>
+<td style="text-align:center">$\varTheta$</td>
+<td>\varPi</td>
+<td>$\varPi$</td>
+<td>\varPhi</td>
+<td>$\varPhi$</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+]]></content>
+      <categories>
+        <category>latex</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>latex</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hilbert空间中的定义</title>
     <url>/2021/10/25/Hilbert%E7%A9%BA%E9%97%B4%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/</url>
     <content><![CDATA[<blockquote>
@@ -445,199 +614,6 @@ x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>时, 称$x$关�
       </tags>
   </entry>
   <entry>
-    <title>Latex编辑展示页面</title>
-    <url>/2021/02/02/Latex%E7%BC%96%E8%BE%91%E5%B1%95%E7%A4%BA%E9%A1%B5%E9%9D%A2/</url>
-    <content><![CDATA[<h1 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h1><div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Latex Code</th>
-<th style="text-align:center">Math View</th>
-<th>Latex Code</th>
-<th>Math View</th>
-<th>Latex Code</th>
-<th>Math View</th>
-<th>Latex Code</th>
-<th>Math View</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">\alpha</td>
-<td style="text-align:center">$\alpha$</td>
-<td>\theta</td>
-<td>$\theta$</td>
-<td>\omicron</td>
-<td>$\omicron$</td>
-<td>\upsilon</td>
-<td>$\upsilon$</td>
-</tr>
-<tr>
-<td style="text-align:center">\beta</td>
-<td style="text-align:center">$\beta$</td>
-<td>\vartheta</td>
-<td>$\vartheta$</td>
-<td>\pi</td>
-<td>$\pi$</td>
-<td>\phi</td>
-<td>$\phi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\gamma</td>
-<td style="text-align:center">$\gamma$</td>
-<td>\iota</td>
-<td>$\iota$</td>
-<td>\varpi</td>
-<td>$\varpi$</td>
-<td>\varphi</td>
-<td>$\varphi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\delta</td>
-<td style="text-align:center">$\delta$</td>
-<td>\kappa</td>
-<td>$\kappa$</td>
-<td>\rho</td>
-<td>$\rho$</td>
-<td>\chi</td>
-<td>$\chi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\varepsilon</td>
-<td style="text-align:center">$\varepsilon$</td>
-<td>\lambda</td>
-<td>$\lambda$</td>
-<td>\varrho</td>
-<td>$\varrho$</td>
-<td>\psi</td>
-<td>$\psi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\epsilon</td>
-<td style="text-align:center">$\epsilon$</td>
-<td>\mu</td>
-<td>$\mu$</td>
-<td>\sigma</td>
-<td>$\sigma$</td>
-<td>\omega</td>
-<td>$\omega$</td>
-</tr>
-<tr>
-<td style="text-align:center">\zeta</td>
-<td style="text-align:center">$\zeta$</td>
-<td>\nu</td>
-<td>$\nu$</td>
-<td>\varsigma</td>
-<td>$\varsigma$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:center">\eta</td>
-<td style="text-align:center">$\eta$</td>
-<td>\xi</td>
-<td>$\xi$</td>
-<td>\tau</td>
-<td>$\tau$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:center">\Gamma</td>
-<td style="text-align:center">$\Gamma$</td>
-<td>\Lambda</td>
-<td>$\Lambda$</td>
-<td>\Sigma</td>
-<td>$\Sigma$</td>
-<td>\Psi</td>
-<td>$\Psi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\Delta</td>
-<td style="text-align:center">$\Delta$</td>
-<td>\Xi</td>
-<td>$\Xi$</td>
-<td>\Upsilon</td>
-<td>$\Upsilon$</td>
-<td>\Omega</td>
-<td>$\Omega$</td>
-</tr>
-<tr>
-<td style="text-align:center">\Theta</td>
-<td style="text-align:center">$\Theta$</td>
-<td>\Pi</td>
-<td>$\Pi$</td>
-<td>\Phi</td>
-<td>$\Phi$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:center">\varGamma</td>
-<td style="text-align:center">$\varGamma$</td>
-<td>\varLambda</td>
-<td>$\varLambda$</td>
-<td>\varSigma</td>
-<td>$\varSigma$</td>
-<td>\varPsi</td>
-<td>$\varPsi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\varDelta</td>
-<td style="text-align:center">$\varDelta$</td>
-<td>\varXi</td>
-<td>$\varXi$</td>
-<td>\varUpsilon</td>
-<td>$\varUpsilon$</td>
-<td>\varOmega</td>
-<td>$\varOmega$</td>
-</tr>
-<tr>
-<td style="text-align:center">\varTheta</td>
-<td style="text-align:center">$\varTheta$</td>
-<td>\varPi</td>
-<td>$\varPi$</td>
-<td>\varPhi</td>
-<td>$\varPhi$</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</div>
-]]></content>
-      <categories>
-        <category>latex</category>
-      </categories>
-      <tags>
-        <tag>math</tag>
-        <tag>latex</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Poisson公式</title>
-    <url>/2022/03/08/Poisson%E5%85%AC%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="Poisson公式"><a href="#Poisson公式" class="headerlink" title="Poisson公式"></a>Poisson公式</h1><div class="note primary no-icon flat"><p>设$f(x)\in C(\RR)$, 其中$D$为单位圆盘, 则</p>
-<script type="math/tex; mode=display">
-\iint_{D}f(ax+by)dxdy=2\int_{-1}^{1}\sqrt{1-\xi^{2}}f(\xi\sqrt{a^{2}+b^{2}})d\xi.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>做变换</p>
-<script type="math/tex; mode=display">
-\begin{cases}
-\xi=\frac{ax+by}{\sqrt{a^{2}+b^{2}}},\\
-\eta=\frac{bx-ay}{\sqrt{a^{2}+b^{2}}}.
-\end{cases}</script><p>则</p>
-<script type="math/tex; mode=display">
-\iint_{D}f(ax+by)dxdy=\iint_{D}f(\xi\sqrt{a^{2}+b^{2}})\ud\xi\ud\eta=2\int_{-1}^{1}\sqrt{1-\xi^{2}}\cdot f(\xi\sqrt{a^{2}+b^{2}})\ud\xi.</script></div></div></div>]]></content>
-      <categories>
-        <category>数学</category>
-      </categories>
-      <tags>
-        <tag>数学</tag>
-        <tag>微积分</tag>
-        <tag>积分</tag>
-        <tag>重积分</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>MSE问题集</title>
     <url>/2022/04/26/MSE%E9%97%AE%E9%A2%98%E9%9B%86/</url>
     <content><![CDATA[<div class="note danger flat"><p>说明: 这里收集MSE中的部分问题, 问题可能有详细的解答, 也可能不会写的很详细, 但绝对会附上必要的问题来源与可能的参考文献.<br>关于页面中的文献: 部分文献是从MSE的回答或讨论中搜集到的, 部分是按照本人的理解从网络上搜集下来, 一旦我本人理解了就可能不再给出更多的文献.<br>问题末尾可能出现的TODO字样, 是因为对应的问题中存在短时间内不能理解的结论, 或者信息量过大一时整理不出来而做的个人标记, 等待以后时机成熟便于做出补充说明.</p>
@@ -747,6 +723,30 @@ X^{3}+Y^{3}=nZ^{3},</script><p>由Fermat大定理或Fermat递降原理, 上式�
       </tags>
   </entry>
   <entry>
+    <title>Poisson公式</title>
+    <url>/2022/03/08/Poisson%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="Poisson公式"><a href="#Poisson公式" class="headerlink" title="Poisson公式"></a>Poisson公式</h1><div class="note primary no-icon flat"><p>设$f(x)\in C(\RR)$, 其中$D$为单位圆盘, 则</p>
+<script type="math/tex; mode=display">
+\iint_{D}f(ax+by)dxdy=2\int_{-1}^{1}\sqrt{1-\xi^{2}}f(\xi\sqrt{a^{2}+b^{2}})d\xi.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>做变换</p>
+<script type="math/tex; mode=display">
+\begin{cases}
+\xi=\frac{ax+by}{\sqrt{a^{2}+b^{2}}},\\
+\eta=\frac{bx-ay}{\sqrt{a^{2}+b^{2}}}.
+\end{cases}</script><p>则</p>
+<script type="math/tex; mode=display">
+\iint_{D}f(ax+by)dxdy=\iint_{D}f(\xi\sqrt{a^{2}+b^{2}})\ud\xi\ud\eta=2\int_{-1}^{1}\sqrt{1-\xi^{2}}\cdot f(\xi\sqrt{a^{2}+b^{2}})\ud\xi.</script></div></div></div>]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+        <tag>微积分</tag>
+        <tag>积分</tag>
+        <tag>重积分</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>$\exp(-x^2)$ 是一个Schwartz函数</title>
     <url>/2022/03/08/Schwartz%20function/</url>
     <content><![CDATA[<p>设</p>
@@ -777,50 +777,6 @@ p_{n+1}(x):= p'_{n}(x)-2xp_{n}(x)</script><p>成立. 容易证明对于任何$n$
         <tag>数学</tag>
         <tag>分布理论</tag>
         <tag>现代分析</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>多元微积分中的反例</title>
-    <url>/2021/11/28/%E5%A4%9A%E5%85%83%E5%BE%AE%E7%A7%AF%E5%88%86%E4%B8%AD%E7%9A%84%E5%8F%8D%E4%BE%8B/</url>
-    <content><![CDATA[<h2 id="关于每个变量连续的间断函数"><a href="#关于每个变量连续的间断函数" class="headerlink" title="关于每个变量连续的间断函数."></a>关于每个变量连续的间断函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="一个二元函数在原点没有极限-但沿着任一直线逼近原点存在极限"><a href="#一个二元函数在原点没有极限-但沿着任一直线逼近原点存在极限" class="headerlink" title="一个二元函数在原点没有极限, 但沿着任一直线逼近原点存在极限."></a>一个二元函数在原点没有极限, 但沿着任一直线逼近原点存在极限.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}y}{x^{4}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="以下三种极限恰有两个存在且相等的函数"><a href="#以下三种极限恰有两个存在且相等的函数" class="headerlink" title="以下三种极限恰有两个存在且相等的函数"></a>以下三种极限恰有两个存在且相等的函数</h2><p>\[<br>\lim_{(x,y)\to(a,b)}f(x,y)\quad\lim_{x\to a}\lim_{y\to b}f(x,y),\quad\lim_{y\to b}\lim_{x\to a}f(x,y).<br>\]</p>
-<p>(1).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<p>(2).<br>\[<br>f(x,y)=\begin{cases}<br>y+x\sin(1/y), &amp; y\ne0,\\<br>0, &amp; y=0.<br>\end{cases}<br>\]</p>
-<p>(3).<br>\[<br>f(x,y)=\begin{cases}<br>x+y\sin(1/x), &amp; x\ne0,\\<br>0, &amp; x=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="以上三种极限恰有一个存在的函数"><a href="#以上三种极限恰有一个存在的函数" class="headerlink" title="以上三种极限恰有一个存在的函数."></a>以上三种极限恰有一个存在的函数.</h2><p>(1).<br>\[<br>f(x,y)=\begin{cases}<br>x\sin(1/y)+y\sin(1/x), &amp; xy\ne0,\\<br>0, &amp; xy=0.<br>\end{cases}<br>\]</p>
-<p>(2).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}+y\sin(1/x), &amp; x\ne0,\\<br>0, &amp; x=0.<br>\end{cases}<br>\]</p>
-<p>(3).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}+x\sin(1/y), &amp; y\ne0,\\<br>0, &amp; y=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="累次极限交换次序不相等的函数"><a href="#累次极限交换次序不相等的函数" class="headerlink" title="累次极限交换次序不相等的函数."></a>累次极限交换次序不相等的函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}-y^{2}}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<p>$f(x,y)\rightrightarrows g(x)$, $y\to 0$, $f(x,y)\rightrightarrows h(y)$, $x\to0$, 且<br>\[<br>\lim_{x\to0}g(x)=\lim_{y\to0}h(y),<br>\]<br>但<br>\[<br>\lim_{(x,y)\to(0,0)}f(x,y)<br>\]<br>仍不存在的函数.</p>
-<p>\[<br>f(x,y)=\begin{cases}<br>1, &amp; xy\ne0,\\<br>0, &amp; xy=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="可微-但不连续可微的二元函数"><a href="#可微-但不连续可微的二元函数" class="headerlink" title="可微, 但不连续可微的二元函数."></a>可微, 但不连续可微的二元函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>x^{2}\sin(1/x)+y^{2}\sin(1/y), &amp; xy\ne0,\\<br>x^{2}\sin(1/x), &amp; x\ne0,y=0,\\<br>y^{2}\sin(1/y), &amp; x=0,y\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="二阶混合偏导不相等的可微函数"><a href="#二阶混合偏导不相等的可微函数" class="headerlink" title="二阶混合偏导不相等的可微函数."></a>二阶混合偏导不相等的可微函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>xy\frac{x^{2}-y^{2}}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="f-x-y-in-C-1-在区域-R-上-partial-y-f-0-恒成立-但-f-并非与-y-无关"><a href="#f-x-y-in-C-1-在区域-R-上-partial-y-f-0-恒成立-但-f-并非与-y-无关" class="headerlink" title="$f(x,y)\in C^{1}$, 在区域$R$上$\partial_{y}f=0$恒成立, 但$f$并非与$y$无关."></a>$f(x,y)\in C^{1}$, 在区域$R$上$\partial_{y}f=0$恒成立, 但$f$并非与$y$无关.</h2><p>取$L=\RR_{\ge0}\times\left\{ 0\right\} $, $R=\RR\setminus L$, 定义<br>\[<br>f(x,y)=\begin{cases}<br>x^{3}, &amp; x&gt;0\text{ 且 }y&gt;0,\\<br>0, &amp; \text{others}.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="微分和积分交换次序"><a href="#微分和积分交换次序" class="headerlink" title="微分和积分交换次序:"></a>微分和积分交换次序:</h2><p>存在满足</p>
-<p>\[<br>\frac{\ud}{\ud x}\int_{a}^{b}f(x,y)\ud y\ne\int_{a}^{b}\left[\frac{\partial}{\partial x}f(x,y)\right]\ud y,<br>\]<br>的函数, 尽管每个积分都是常义积分.</p>
-<p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}}{y^{2}}\ue^{-x^{2}/y}, &amp; y&gt;0,\\<br>0, &amp; y=0,<br>\end{cases}<br>\]<br>分$x$是否等于零两种情况.</p>
-<hr>
-<h2 id="交换积分次序不相等的函数-即使每个积分都是常义积分"><a href="#交换积分次序不相等的函数-即使每个积分都是常义积分" class="headerlink" title="交换积分次序不相等的函数, 即使每个积分都是常义积分."></a>交换积分次序不相等的函数, 即使每个积分都是常义积分.</h2><p>在$[0,1]^{2}$中,</p>
-<p>\[<br>f(x,y)=\begin{cases}<br>y^{-2}, &amp; 0&lt;x&lt;y&lt;1,\\<br>-x^{-2}, &amp; 0&lt;y&lt;x&lt;1,\\<br>0, &amp; \text{others.}<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="二重级数-sum-m-n-a-mn-虽然按行和按列都有收敛性-但求和次序交换并不相等"><a href="#二重级数-sum-m-n-a-mn-虽然按行和按列都有收敛性-但求和次序交换并不相等" class="headerlink" title="二重级数$\sum_{m,n}a_{mn}$, 虽然按行和按列都有收敛性, 但求和次序交换并不相等."></a>二重级数$\sum_{m,n}a_{mn}$, 虽然按行和按列都有收敛性, 但求和次序交换并不相等.</h2><p>如:<br>\[<br>\begin{bmatrix}0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \frac{1}{16} &amp; \frac{1}{32} &amp; \cdots\\<br>-\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \frac{1}{16} &amp; \cdots\\<br>-\frac{1}{4} &amp; -\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \cdots\\<br>-\frac{1}{8} &amp; -\frac{1}{4} &amp; -\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \cdots\\<br>\cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots<br>\end{bmatrix}<br>\]</p>
-]]></content>
-      <categories>
-        <category>高等数学</category>
-      </categories>
-      <tags>
-        <tag>微积分</tag>
-        <tag>反例</tag>
-        <tag>多元微积分</tag>
       </tags>
   </entry>
   <entry>
@@ -866,6 +822,50 @@ F=\cup_{i_{1},i_{2},\cdots,}\cap_{k=1}^{\infty}F_{i_{1},i_{2},\cdots,i_{k}},</sc
         <tag>分析</tag>
         <tag>测度论</tag>
         <tag>拓扑空间</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>多元微积分中的反例</title>
+    <url>/2021/11/28/%E5%A4%9A%E5%85%83%E5%BE%AE%E7%A7%AF%E5%88%86%E4%B8%AD%E7%9A%84%E5%8F%8D%E4%BE%8B/</url>
+    <content><![CDATA[<h2 id="关于每个变量连续的间断函数"><a href="#关于每个变量连续的间断函数" class="headerlink" title="关于每个变量连续的间断函数."></a>关于每个变量连续的间断函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="一个二元函数在原点没有极限-但沿着任一直线逼近原点存在极限"><a href="#一个二元函数在原点没有极限-但沿着任一直线逼近原点存在极限" class="headerlink" title="一个二元函数在原点没有极限, 但沿着任一直线逼近原点存在极限."></a>一个二元函数在原点没有极限, 但沿着任一直线逼近原点存在极限.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}y}{x^{4}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="以下三种极限恰有两个存在且相等的函数"><a href="#以下三种极限恰有两个存在且相等的函数" class="headerlink" title="以下三种极限恰有两个存在且相等的函数"></a>以下三种极限恰有两个存在且相等的函数</h2><p>\[<br>\lim_{(x,y)\to(a,b)}f(x,y)\quad\lim_{x\to a}\lim_{y\to b}f(x,y),\quad\lim_{y\to b}\lim_{x\to a}f(x,y).<br>\]</p>
+<p>(1).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<p>(2).<br>\[<br>f(x,y)=\begin{cases}<br>y+x\sin(1/y), &amp; y\ne0,\\<br>0, &amp; y=0.<br>\end{cases}<br>\]</p>
+<p>(3).<br>\[<br>f(x,y)=\begin{cases}<br>x+y\sin(1/x), &amp; x\ne0,\\<br>0, &amp; x=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="以上三种极限恰有一个存在的函数"><a href="#以上三种极限恰有一个存在的函数" class="headerlink" title="以上三种极限恰有一个存在的函数."></a>以上三种极限恰有一个存在的函数.</h2><p>(1).<br>\[<br>f(x,y)=\begin{cases}<br>x\sin(1/y)+y\sin(1/x), &amp; xy\ne0,\\<br>0, &amp; xy=0.<br>\end{cases}<br>\]</p>
+<p>(2).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}+y\sin(1/x), &amp; x\ne0,\\<br>0, &amp; x=0.<br>\end{cases}<br>\]</p>
+<p>(3).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}+x\sin(1/y), &amp; y\ne0,\\<br>0, &amp; y=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="累次极限交换次序不相等的函数"><a href="#累次极限交换次序不相等的函数" class="headerlink" title="累次极限交换次序不相等的函数."></a>累次极限交换次序不相等的函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}-y^{2}}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<p>$f(x,y)\rightrightarrows g(x)$, $y\to 0$, $f(x,y)\rightrightarrows h(y)$, $x\to0$, 且<br>\[<br>\lim_{x\to0}g(x)=\lim_{y\to0}h(y),<br>\]<br>但<br>\[<br>\lim_{(x,y)\to(0,0)}f(x,y)<br>\]<br>仍不存在的函数.</p>
+<p>\[<br>f(x,y)=\begin{cases}<br>1, &amp; xy\ne0,\\<br>0, &amp; xy=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="可微-但不连续可微的二元函数"><a href="#可微-但不连续可微的二元函数" class="headerlink" title="可微, 但不连续可微的二元函数."></a>可微, 但不连续可微的二元函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>x^{2}\sin(1/x)+y^{2}\sin(1/y), &amp; xy\ne0,\\<br>x^{2}\sin(1/x), &amp; x\ne0,y=0,\\<br>y^{2}\sin(1/y), &amp; x=0,y\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="二阶混合偏导不相等的可微函数"><a href="#二阶混合偏导不相等的可微函数" class="headerlink" title="二阶混合偏导不相等的可微函数."></a>二阶混合偏导不相等的可微函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>xy\frac{x^{2}-y^{2}}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="f-x-y-in-C-1-在区域-R-上-partial-y-f-0-恒成立-但-f-并非与-y-无关"><a href="#f-x-y-in-C-1-在区域-R-上-partial-y-f-0-恒成立-但-f-并非与-y-无关" class="headerlink" title="$f(x,y)\in C^{1}$, 在区域$R$上$\partial_{y}f=0$恒成立, 但$f$并非与$y$无关."></a>$f(x,y)\in C^{1}$, 在区域$R$上$\partial_{y}f=0$恒成立, 但$f$并非与$y$无关.</h2><p>取$L=\RR_{\ge0}\times\left\{ 0\right\} $, $R=\RR\setminus L$, 定义<br>\[<br>f(x,y)=\begin{cases}<br>x^{3}, &amp; x&gt;0\text{ 且 }y&gt;0,\\<br>0, &amp; \text{others}.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="微分和积分交换次序"><a href="#微分和积分交换次序" class="headerlink" title="微分和积分交换次序:"></a>微分和积分交换次序:</h2><p>存在满足</p>
+<p>\[<br>\frac{\ud}{\ud x}\int_{a}^{b}f(x,y)\ud y\ne\int_{a}^{b}\left[\frac{\partial}{\partial x}f(x,y)\right]\ud y,<br>\]<br>的函数, 尽管每个积分都是常义积分.</p>
+<p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}}{y^{2}}\ue^{-x^{2}/y}, &amp; y&gt;0,\\<br>0, &amp; y=0,<br>\end{cases}<br>\]<br>分$x$是否等于零两种情况.</p>
+<hr>
+<h2 id="交换积分次序不相等的函数-即使每个积分都是常义积分"><a href="#交换积分次序不相等的函数-即使每个积分都是常义积分" class="headerlink" title="交换积分次序不相等的函数, 即使每个积分都是常义积分."></a>交换积分次序不相等的函数, 即使每个积分都是常义积分.</h2><p>在$[0,1]^{2}$中,</p>
+<p>\[<br>f(x,y)=\begin{cases}<br>y^{-2}, &amp; 0&lt;x&lt;y&lt;1,\\<br>-x^{-2}, &amp; 0&lt;y&lt;x&lt;1,\\<br>0, &amp; \text{others.}<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="二重级数-sum-m-n-a-mn-虽然按行和按列都有收敛性-但求和次序交换并不相等"><a href="#二重级数-sum-m-n-a-mn-虽然按行和按列都有收敛性-但求和次序交换并不相等" class="headerlink" title="二重级数$\sum_{m,n}a_{mn}$, 虽然按行和按列都有收敛性, 但求和次序交换并不相等."></a>二重级数$\sum_{m,n}a_{mn}$, 虽然按行和按列都有收敛性, 但求和次序交换并不相等.</h2><p>如:<br>\[<br>\begin{bmatrix}0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \frac{1}{16} &amp; \frac{1}{32} &amp; \cdots\\<br>-\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \frac{1}{16} &amp; \cdots\\<br>-\frac{1}{4} &amp; -\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \cdots\\<br>-\frac{1}{8} &amp; -\frac{1}{4} &amp; -\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \cdots\\<br>\cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots<br>\end{bmatrix}<br>\]</p>
+]]></content>
+      <categories>
+        <category>高等数学</category>
+      </categories>
+      <tags>
+        <tag>微积分</tag>
+        <tag>反例</tag>
+        <tag>多元微积分</tag>
       </tags>
   </entry>
   <entry>
@@ -997,6 +997,25 @@ F=\cup_{i_{1},i_{2},\cdots,}\cap_{k=1}^{\infty}F_{i_{1},i_{2},\cdots,i_{k}},</sc
       </tags>
   </entry>
   <entry>
+    <title>数学中的各种图形绘制</title>
+    <url>/2022/04/27/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%9B%BE%E5%BD%A2%E7%BB%98%E5%88%B6/</url>
+    <content><![CDATA[<h1 id="笛卡尔叶形线MSE4435438"><a href="#笛卡尔叶形线MSE4435438" class="headerlink" title="笛卡尔叶形线MSE4435438"></a>笛卡尔叶形线<sup><a href="#fn_MSE4435438" id="reffn_MSE4435438">MSE4435438</a></sup></h1><figure class="highlight mathematica"><table><tr><td class="code"><pre><span class="line"><span class="built_in">ContourPlot</span><span class="punctuation">[</span><span class="variable">x</span><span class="operator">^</span><span class="number">3</span> <span class="operator">+</span> <span class="variable">y</span><span class="operator">^</span><span class="number">3</span> <span class="operator">==</span> <span class="number">3</span> <span class="variable">x</span><span class="operator">*</span><span class="variable">y</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">x</span><span class="operator">,</span> <span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">y</span><span class="operator">,</span> <span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span></span><br><span class="line"> <span class="built_in">Frame</span> <span class="operator">-&gt;</span> <span class="built_in">False</span><span class="comment">(*去除边框*)</span><span class="operator">,</span></span><br><span class="line"> <span class="built_in">Axes</span> <span class="operator">-&gt;</span> <span class="built_in">True</span><span class="operator">,</span></span><br><span class="line"> <span class="built_in">Ticks</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">2</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="comment">(*仅添加横坐标的一个刻度*)</span><span class="operator">,</span></span><br><span class="line"> <span class="built_in">ContourStyle</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="built_in">Thickness</span><span class="punctuation">[</span><span class="number">0.007</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Dashed</span><span class="operator">,</span> <span class="built_in">Black</span><span class="punctuation">&#125;</span><span class="comment">(*等高线样式*)</span><span class="operator">,</span></span><br><span class="line"> <span class="built_in">Epilog</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="built_in">Red</span><span class="operator">,</span> <span class="built_in">Line</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="number">1</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">,</span> <span class="operator">-</span><span class="number">3</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="operator">-</span><span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="operator">,</span> <span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="punctuation">&#125;</span><span class="operator">,</span></span><br><span class="line">   <span class="punctuation">&#123;</span><span class="built_in">Thickness</span><span class="punctuation">[</span><span class="number">0.005</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Line</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">2</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="operator">,</span> <span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">1</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">2</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="operator">,</span> <span class="number">0</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="punctuation">&#125;</span><span class="operator">,</span></span><br><span class="line">   <span class="built_in">PointSize</span><span class="punctuation">[</span><span class="built_in">Large</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Point</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="operator">,</span> <span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="operator">,</span></span><br><span class="line">   <span class="built_in">Text</span><span class="punctuation">[</span><span class="string">&quot;(3/2,3/2)&quot;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="operator">,</span> <span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">1.4</span><span class="operator">,</span> <span class="operator">-</span><span class="number">0.5</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="punctuation">&#125;</span><span class="punctuation">]</span></span><br></pre></td></tr></table></figure>
+<p><img src="/2022/04/27/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%9B%BE%E5%BD%A2%E7%BB%98%E5%88%B6/%E6%9C%AA%E5%91%BD%E5%90%8D-1-16510420766021.jpg" alt="未命名-1-16510420766021"></p>
+<figure class="highlight mathematica"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Module</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="variable">pt1</span> <span class="operator">=</span> <span class="punctuation">&#123;</span><span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="operator">,</span> <span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="variable">pt2</span> <span class="operator">=</span> <span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">2</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="operator">,</span> <span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">1</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="variable">pt3</span> <span class="operator">=</span> <span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">2</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="operator">,</span> <span class="number">0</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line"> <span class="built_in">PolarPlot</span><span class="punctuation">[</span></span><br><span class="line">  <span class="number">3</span> <span class="built_in">Sin</span><span class="punctuation">[</span><span class="variable">t</span><span class="punctuation">]</span> <span class="built_in">Cos</span><span class="punctuation">[</span><span class="variable">t</span><span class="punctuation">]</span><span class="operator">/</span><span class="punctuation">(</span><span class="built_in">Sin</span><span class="punctuation">[</span><span class="variable">t</span><span class="punctuation">]</span><span class="operator">^</span><span class="number">3</span> <span class="operator">+</span> <span class="built_in">Cos</span><span class="punctuation">[</span><span class="variable">t</span><span class="punctuation">]</span><span class="operator">^</span><span class="number">3</span><span class="punctuation">)</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">t</span><span class="operator">,</span> <span class="operator">-</span><span class="variable">\[Pi]</span><span class="operator">/</span><span class="number">4</span><span class="operator">,</span> <span class="number">7</span> <span class="variable">\[Pi]</span><span class="operator">/</span><span class="number">4</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">PlotRange</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="number">5</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">PlotStyle</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="built_in">Thickness</span><span class="punctuation">[</span><span class="number">1</span><span class="operator">/</span><span class="number">120</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Black</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="built_in">Axes</span> <span class="operator">-&gt;</span> <span class="built_in">True</span><span class="operator">,</span> <span class="built_in">Ticks</span> <span class="operator">-&gt;</span> <span class="built_in">None</span><span class="operator">,</span></span><br><span class="line">   <span class="built_in">AxesStyle</span> <span class="operator">-&gt;</span> <span class="built_in">Directive</span><span class="punctuation">[</span><span class="built_in">Thickness</span><span class="punctuation">[</span><span class="number">1</span><span class="operator">/</span><span class="number">300</span><span class="punctuation">]</span><span class="punctuation">]</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">Epilog</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="built_in">PointSize</span><span class="punctuation">[</span><span class="number">1</span><span class="operator">/</span><span class="number">50</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Thickness</span><span class="punctuation">[</span><span class="number">1</span><span class="operator">/</span><span class="number">200</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Point</span><span class="punctuation">[</span><span class="variable">pt1</span><span class="punctuation">]</span><span class="operator">,</span> </span><br><span class="line">    <span class="built_in">Line</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="variable">pt2</span><span class="operator">,</span> <span class="variable">pt3</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">pt1</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">1</span><span class="operator">,</span> <span class="operator">-</span><span class="number">1</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">3</span><span class="operator">,</span> <span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">,</span> <span class="operator">-</span><span class="number">3</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">ImageSize</span> <span class="operator">-&gt;</span> <span class="number">512</span><span class="punctuation">]</span><span class="punctuation">]</span></span><br></pre></td></tr></table></figure>
+<p><img src="/2022/04/27/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%9B%BE%E5%BD%A2%E7%BB%98%E5%88%B6/%E6%9C%AA%E5%91%BD%E5%90%8D-1-16510482241122.png" alt="未命名-1"></p>
+<blockquote id="fn_MSE4435438">
+<sup>MSE4435438</sup>. <a href="https://math.stackexchange.com/questions/4435438">https://math.stackexchange.com/questions/4435438</a><a href="#reffn_MSE4435438" title="Jump back to footnote [MSE4435438] in the text."> &#8617;</a>
+</blockquote>
+]]></content>
+      <categories>
+        <category>math</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>mathematica</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>数学专业英语</title>
     <url>/2022/04/25/%E6%95%B0%E5%AD%A6%E4%B8%93%E4%B8%9A%E8%8B%B1%E8%AF%AD/</url>
     <content><![CDATA[<p>critical point: 临界点</p>
@@ -1030,43 +1049,6 @@ F=\cup_{i_{1},i_{2},\cdots,}\cap_{k=1}^{\infty}F_{i_{1},i_{2},\cdots,i_{k}},</sc
       </tags>
   </entry>
   <entry>
-    <title>数学中的各种图形绘制</title>
-    <url>/2022/04/27/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%9B%BE%E5%BD%A2%E7%BB%98%E5%88%B6/</url>
-    <content><![CDATA[<h1 id="笛卡尔叶形线MSE4435438"><a href="#笛卡尔叶形线MSE4435438" class="headerlink" title="笛卡尔叶形线MSE4435438"></a>笛卡尔叶形线<sup><a href="#fn_MSE4435438" id="reffn_MSE4435438">MSE4435438</a></sup></h1><figure class="highlight mathematica"><table><tr><td class="code"><pre><span class="line"><span class="built_in">ContourPlot</span><span class="punctuation">[</span><span class="variable">x</span><span class="operator">^</span><span class="number">3</span> <span class="operator">+</span> <span class="variable">y</span><span class="operator">^</span><span class="number">3</span> <span class="operator">==</span> <span class="number">3</span> <span class="variable">x</span><span class="operator">*</span><span class="variable">y</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">x</span><span class="operator">,</span> <span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">y</span><span class="operator">,</span> <span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span></span><br><span class="line"> <span class="built_in">Frame</span> <span class="operator">-&gt;</span> <span class="built_in">False</span><span class="comment">(*去除边框*)</span><span class="operator">,</span></span><br><span class="line"> <span class="built_in">Axes</span> <span class="operator">-&gt;</span> <span class="built_in">True</span><span class="operator">,</span></span><br><span class="line"> <span class="built_in">Ticks</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">2</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="comment">(*仅添加横坐标的一个刻度*)</span><span class="operator">,</span></span><br><span class="line"> <span class="built_in">ContourStyle</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="built_in">Thickness</span><span class="punctuation">[</span><span class="number">0.007</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Dashed</span><span class="operator">,</span> <span class="built_in">Black</span><span class="punctuation">&#125;</span><span class="comment">(*等高线样式*)</span><span class="operator">,</span></span><br><span class="line"> <span class="built_in">Epilog</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="built_in">Red</span><span class="operator">,</span> <span class="built_in">Line</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="number">1</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">,</span> <span class="operator">-</span><span class="number">3</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="operator">-</span><span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="operator">,</span> <span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="punctuation">&#125;</span><span class="operator">,</span></span><br><span class="line">   <span class="punctuation">&#123;</span><span class="built_in">Thickness</span><span class="punctuation">[</span><span class="number">0.005</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Line</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">2</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="operator">,</span> <span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">1</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">2</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="operator">,</span> <span class="number">0</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="punctuation">&#125;</span><span class="operator">,</span></span><br><span class="line">   <span class="built_in">PointSize</span><span class="punctuation">[</span><span class="built_in">Large</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Point</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="operator">,</span> <span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="operator">,</span></span><br><span class="line">   <span class="built_in">Text</span><span class="punctuation">[</span><span class="string">&quot;(3/2,3/2)&quot;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="operator">,</span> <span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">1.4</span><span class="operator">,</span> <span class="operator">-</span><span class="number">0.5</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="punctuation">&#125;</span><span class="punctuation">]</span></span><br></pre></td></tr></table></figure>
-<p><img src="/2022/04/27/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%9B%BE%E5%BD%A2%E7%BB%98%E5%88%B6/%E6%9C%AA%E5%91%BD%E5%90%8D-1-16510420766021.jpg" alt="未命名-1-16510420766021"></p>
-<figure class="highlight mathematica"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Module</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="variable">pt1</span> <span class="operator">=</span> <span class="punctuation">&#123;</span><span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="operator">,</span> <span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="variable">pt2</span> <span class="operator">=</span> <span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">2</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="operator">,</span> <span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">1</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="variable">pt3</span> <span class="operator">=</span> <span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">2</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="operator">,</span> <span class="number">0</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line"> <span class="built_in">PolarPlot</span><span class="punctuation">[</span></span><br><span class="line">  <span class="number">3</span> <span class="built_in">Sin</span><span class="punctuation">[</span><span class="variable">t</span><span class="punctuation">]</span> <span class="built_in">Cos</span><span class="punctuation">[</span><span class="variable">t</span><span class="punctuation">]</span><span class="operator">/</span><span class="punctuation">(</span><span class="built_in">Sin</span><span class="punctuation">[</span><span class="variable">t</span><span class="punctuation">]</span><span class="operator">^</span><span class="number">3</span> <span class="operator">+</span> <span class="built_in">Cos</span><span class="punctuation">[</span><span class="variable">t</span><span class="punctuation">]</span><span class="operator">^</span><span class="number">3</span><span class="punctuation">)</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">t</span><span class="operator">,</span> <span class="operator">-</span><span class="variable">\[Pi]</span><span class="operator">/</span><span class="number">4</span><span class="operator">,</span> <span class="number">7</span> <span class="variable">\[Pi]</span><span class="operator">/</span><span class="number">4</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">PlotRange</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="number">5</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">PlotStyle</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="built_in">Thickness</span><span class="punctuation">[</span><span class="number">1</span><span class="operator">/</span><span class="number">120</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Black</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="built_in">Axes</span> <span class="operator">-&gt;</span> <span class="built_in">True</span><span class="operator">,</span> <span class="built_in">Ticks</span> <span class="operator">-&gt;</span> <span class="built_in">None</span><span class="operator">,</span></span><br><span class="line">   <span class="built_in">AxesStyle</span> <span class="operator">-&gt;</span> <span class="built_in">Directive</span><span class="punctuation">[</span><span class="built_in">Thickness</span><span class="punctuation">[</span><span class="number">1</span><span class="operator">/</span><span class="number">300</span><span class="punctuation">]</span><span class="punctuation">]</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">Epilog</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="built_in">PointSize</span><span class="punctuation">[</span><span class="number">1</span><span class="operator">/</span><span class="number">50</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Thickness</span><span class="punctuation">[</span><span class="number">1</span><span class="operator">/</span><span class="number">200</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Point</span><span class="punctuation">[</span><span class="variable">pt1</span><span class="punctuation">]</span><span class="operator">,</span> </span><br><span class="line">    <span class="built_in">Line</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="variable">pt2</span><span class="operator">,</span> <span class="variable">pt3</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">pt1</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">1</span><span class="operator">,</span> <span class="operator">-</span><span class="number">1</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">3</span><span class="operator">,</span> <span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">,</span> <span class="operator">-</span><span class="number">3</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">ImageSize</span> <span class="operator">-&gt;</span> <span class="number">512</span><span class="punctuation">]</span><span class="punctuation">]</span></span><br></pre></td></tr></table></figure>
-<p><img src="/2022/04/27/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%9B%BE%E5%BD%A2%E7%BB%98%E5%88%B6/%E6%9C%AA%E5%91%BD%E5%90%8D-1-16510482241122.png" alt="未命名-1"></p>
-<blockquote id="fn_MSE4435438">
-<sup>MSE4435438</sup>. <a href="https://math.stackexchange.com/questions/4435438">https://math.stackexchange.com/questions/4435438</a><a href="#reffn_MSE4435438" title="Jump back to footnote [MSE4435438] in the text."> &#8617;</a>
-</blockquote>
-]]></content>
-      <categories>
-        <category>math</category>
-      </categories>
-      <tags>
-        <tag>math</tag>
-        <tag>mathematica</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>用重积分求解定积分</title>
-    <url>/2022/03/07/%E7%94%A8%E9%87%8D%E7%A7%AF%E5%88%86%E6%B1%82%E8%A7%A3%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<div class="note primary no-icon flat"><p><strong>问题:</strong> 求</p>
-<script type="math/tex; mode=display">
-I=\int_{0}^{1}\frac{x-1}{\ln x}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-I=\int_{0}^{1}\int_{0}^{1}x^{y}\ud y\ud x=\int_{0}^{1}\int_{0}^{1}x^{y}\ud x\ud y=\int_{0}^{1}\frac{1}{y+1}\ud y=\ln(1+y)\mid_{0}^{1}=\ln2.</script></div></div></div>]]></content>
-      <categories>
-        <category>数学</category>
-      </categories>
-      <tags>
-        <tag>重积分</tag>
-        <tag>定积分</tag>
-        <tag>积分求法</tag>
-        <tag>每日一题</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>形如$\lim_{n\rightarrow\infty}\frac{1}{n}\sum_{k=1}^{n}f(k)$的极限的求法</title>
     <url>/2022/03/07/%E6%9E%81%E9%99%90%E7%9A%84%E6%B1%82%E6%B3%95/</url>
     <content><![CDATA[<p>对于如下类型的极限计算<br>\[<br>\lim_{n\rightarrow\infty}\frac{1}{n}\sum_{k=1}^{n}f(k)<br>\]<br>可采用的计算方法有: </p>
@@ -1084,9 +1066,27 @@ I=\int_{0}^{1}\int_{0}^{1}x^{y}\ud y\ud x=\int_{0}^{1}\int_{0}^{1}x^{y}\ud x\ud 
       <tags>
         <tag>数学</tag>
         <tag>微积分</tag>
-        <tag>每日一题</tag>
         <tag>极限</tag>
         <tag>数列极限</tag>
+        <tag>每日一题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用重积分求解定积分</title>
+    <url>/2022/03/07/%E7%94%A8%E9%87%8D%E7%A7%AF%E5%88%86%E6%B1%82%E8%A7%A3%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
+    <content><![CDATA[<div class="note primary no-icon flat"><p><strong>问题:</strong> 求</p>
+<script type="math/tex; mode=display">
+I=\int_{0}^{1}\frac{x-1}{\ln x}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+I=\int_{0}^{1}\int_{0}^{1}x^{y}\ud y\ud x=\int_{0}^{1}\int_{0}^{1}x^{y}\ud x\ud y=\int_{0}^{1}\frac{1}{y+1}\ud y=\ln(1+y)\mid_{0}^{1}=\ln2.</script></div></div></div>]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>重积分</tag>
+        <tag>每日一题</tag>
+        <tag>定积分</tag>
+        <tag>积分求法</tag>
       </tags>
   </entry>
   <entry>
@@ -1174,9 +1174,9 @@ x_{n}=\sqrt[n+1]{1+2(x_{n}-1)}=1+\frac{2(x_{n}-1)}{n+1}+o\left(\frac{1}{n}\right
         <category>数学</category>
       </categories>
       <tags>
-        <tag>每日一题</tag>
         <tag>极限</tag>
         <tag>数列极限</tag>
+        <tag>每日一题</tag>
         <tag>高等数学</tag>
       </tags>
   </entry>
@@ -1341,6 +1341,340 @@ G'(x)=2f(x)-2f(x)f'(x)\ge0.</script></div></div></div>
       </tags>
   </entry>
   <entry>
+    <title>紧算子</title>
+    <url>/2022/05/19/%E7%B4%A7%E7%AE%97%E5%AD%90/</url>
+    <content><![CDATA[<div class="note info flat"><p>紧算子是一种特殊的线性算子.</p>
+</div>
+<blockquote>
+<p>为什么研究紧算子?<br>一个主要原因是, 紧算子可以用有限秩算子(finite rank operator)逼近, 便于对算子方程的解做数值逼近.</p>
+</blockquote>
+<div class="note primary no-icon flat"><p><strong>定理 1</strong>: 若$H$是无穷维Hilbert空间, 算子$A\in CL(H)$, 且$\norm{A}&lt;1$, 则对于任何$y\in H$,<br>存在唯一的$x\in H$满足</p>
+<script type="math/tex; mode=display">
+(I-A)x=y.</script><p>这个解$x$可以由Neumann级数</p>
+<script type="math/tex; mode=display">
+x=(I-A)^{-1}y=(I+A+A^{2}+\cdots)y</script><p>给出.</p>
+</div>
+<p>上面的解有两种缺点:</p>
+<ol>
+<li><p>计算$A^{n}$是不现实的.</p>
+</li>
+<li><p>级数收敛速度不理想.</p>
+</li>
+</ol>
+<h1 id="紧算子"><a href="#紧算子" class="headerlink" title="紧算子"></a>紧算子</h1><div class="note primary no-icon flat"><p><strong>定义</strong>: (紧算子) 设$X,Y$是赋范空间, 线性变换$T:X\to Y$称为是紧算子, 若对于任何有界序列$(x_{n})_{n\in\NN}\subseteq X$, 序列$(Tx_{n})_{n\in\NN}$有收敛子列.</p>
+</div>
+<p>记从$X$到$Y$的所有紧算子形成集合为$K(X,Y)$.</p>
+<div class="note primary no-icon flat"><p><strong>定理 2</strong>: 设$X,Y$是赋范空间, $T:X\to Y$是线性变换, 则以下命题等价:</p>
+<p>(1). $T$是紧的.</p>
+<p>(2). $\overline{T(B)}$是紧的, 其中$B$是$X$中的单位球, 即</p>
+<script type="math/tex; mode=display">
+B\coloneqq\left\{ x\in X:\norm{x}\le1\right\} .</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>(1)$\Longrightarrow$(2). 也就是证$\overline{T(B)}$中的序列$(z_{n})_{n\in\NN}$有收敛子列.</p>
+<p>(2)$\Longrightarrow$(1). 即证$X$中有界序列$(x_{n})$, 使$(Tx_{n})_{n\in\NN}$有收敛子列.</p>
+</div></div></div>
+<h1 id="紧算子集-K-X-Y"><a href="#紧算子集-K-X-Y" class="headerlink" title="紧算子集$K(X,Y)$"></a>紧算子集$K(X,Y)$</h1><div class="note primary no-icon flat"><p><strong>定理 3</strong>: $K(X,Y)\subseteq CL(X,Y)$. </p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>紧算子将$X$中的单位球映为$Y$中的紧集, 从而是$Y$中的有界集, 即这紧算子是有界算子, 线性有界算子是连续的.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>例</strong>: 不是所有连续线性变换都是紧的.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>设$X$为任一无穷维内积空间, 比如$l^{2}$. 其上的恒等算子$I\in CL(X)$不是紧算子.<br>因为$I$映$X$中正交基$(u_{n})_{n\in\NN}$的像没有收敛子列.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: 称算子$T$是有限秩算子(finite rank operator), 如果它的值域$\mathrm{ran}(T)$是有限维向量空间.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定理 4</strong>: 设$X$是赋范空间, $Y$是内积空间, 若$T\in CL(X,Y)$使$\mathrm{ran}(T)$是有限维的, 则$T$是紧算子.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>设有界序列$(x_{n})_{n\in\NN}\subseteq X$, $u_{1},\cdots,u_{m}$为$\mathrm{ran}(T)$的正交基.</p>
+<p>则$\left(\left\langle Tx_{n},u_{l}\right\rangle \right)_{n\in\NN}$对于任何$l$有界,<br>类似聚点定理的证明.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>例</strong>: $L(\CC^{n},\CC^{m})=CL(\CC^{n},\CC^{m})=K(\CC^{n},\CC^{m})$.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>若$A\in\CC^{n\times m}$, 则$T_{A}:\CC^{n}\to\CC^{m}$, $x\mapsto Ax$满足$T_{A}\in CL(\CC^{n},\CC^{m})$,<br>且因为$\mathrm{ran}T_{A}\subseteq\CC^{m}$, $T_{A}$是有限秩的. 故$T_{A}$是紧算子.</p>
+<p>特别地, 恒等算子$I:\CC^{d}\to\CC^{d}$是紧算子.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>定理 5</strong>: $K(X,Y)$是$CL(X,Y)$的子空间, 其中$X,Y$均为赋范空间.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>(1). $0$是紧算子, 因为对于任何有界序列$(x_{n})\subseteq X$, $(0x_{n})_{n\in\NN}=(0)_{n\in\NN}$是收敛的.</p>
+<p>(2). 若$T,S$均是紧算子, 设$(x_{n})_{n\in\NN}$有界, 则$(Tx_{n})_{n\in\NN}$有子列$(Tx_{n_{k}})_{k\in\NN}$收敛.</p>
+<p>$(Sx_{n_{k}})_{k\in\NN}$有子列$(Sx_{n_{k_{l}}})_{l\in\NN}$收敛.</p>
+<p>故子列$\left((T+S)x_{n_{k_{l}}}\right)_{l\in\NN}$收敛, 即说明$T+S$是紧算子.</p>
+<p>(3). 若$T$是紧算子, $\alpha\in\mathbb{K}$, $(x_{n})_{n\in\NN}\in X$为有界序列,<br>则$(Tx_{n})_{n\in\NN}$有收敛子列$(Tx_{n_{k}})_{k\in\NN}$.</p>
+<p>因此$\left((\alpha T)x_{n_{k}}\right)_{k\in\NN}=\left(\alpha(Tx_{n_{k}})\right)_{k\in\NN}$收敛,<br>故$\alpha T$是紧算子.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>定理 6</strong>: 设$X$是赋范空间, $Y$是Banach空间, $(T_{n})_{n\in\NN}\subseteq K(X,Y)$在赋范空间$CL(X,Y)$中收敛于$T\in CL(X,Y)$.<br>则$T$是紧算子, 即$T\in K(X,Y)$, $K(X,Y)$是$CL(X,Y)$的闭线性子空间.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>(1). 设$\left(x_{n}\right)_{n\in\NN}$是$X$中有界序列, 则由$(T_{n})_{n\in\NN}\subseteq K(X,Y)$,<br>知</p>
+<p>$\left(T_{1}x_{n}\right)_{n\in\NN}$有收敛子列$\left(T_{1}x_{n}^{(1)}\right)_{n\in\NN}$;</p>
+<p>$\left(T_{2}x_{n}^{(1)}\right)_{n\in\NN}$有收敛子列$\left(T_{2}x_{n}^{(2)}\right)_{n\in\NN}$;</p>
+<p>…</p>
+<p>考虑序列$x_{1}$, $x_{2}^{(1)}$, $x_{3}^{(2)}$, $\cdots$, 则</p>
+<script type="math/tex; mode=display">
+\left\{ x_{k+1}^{(k)},x_{k+2}^{(k+1)},x_{k+3}^{(k+2)},\cdots\right\} \text{是序列}\left\{ x_{k+1}^{(k)},x_{k+2}^{(k)},x_{k+3}^{(k)},\cdots\right\} \text{的子列.}</script><p>因$\left(T_{k}x_{n}^{(k)}\right)_{n\in\NN}$收敛, 从而$\left(T_{k}x_{k+n+1}^{(k+n)}\right)_{n\in\NN}$也收敛,<br>即$\left(T_{k}x_{n+1}^{(n)}\right)_{n\in\NN}$收敛.</p>
+<p>(2). 对于任意的$m,n\in\NN$, 有</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\norm{Tx_{n+1}^{(n)}-Tx_{m+1}^{(m)}} & \le\norm{Tx_{n+1}^{(n)}-T_{k}x_{n+1}^{(n)}}+\norm{T_{k}x_{n+1}^{(n)}-T_{k}x_{m+1}^{(m)}}+\norm{T_{k}x_{m+1}^{(m)}-Tx_{m+1}^{(m)}}\\
+ & \le\norm{T-T_{k}}\cdot\norm{x_{n+1}^{(n)}}+\norm{T_{k}x_{n+1}^{(n)}-T_{k}x_{m+1}^{(m)}}+\norm{T_{k}-T}\cdot\norm{x_{m+1}^{(m)}}\\
+ & \to0,\qquad m,n\to\infty.
+\end{align*}</script><p>故$\left(Tx_{n+1}^{(n)}\right)_{n\in\NN}$在$Y$中是Cauchy列, 由$Y$是Banach空间,<br>它在$Y$中收敛.</p>
+<p>由$\left(Tx_{n+1}^{(n)}\right)_{n\in\NN}$是$\left(Tx_{n}\right)_{n\in\NN}$的子列,<br>故$T$是紧算子.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>定理 7</strong>: 设$X$是赋范空间, $Y$是Hilbert空间, $\left(T_{n}\right)_{n\in\NN}\subseteq CL(X,Y)$是有限秩算子,<br>且在$CL(X,Y)$中收敛于$T$, 则$T$是紧算子.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>例</strong>: (什么时候$l^{2}$中的对角算子是紧算子)</p>
+<p>设$X,Y=l^{2}$, $\left(\lambda_{n}\right)_{n\in\NN}$在域$\mathbb{K}$中有界,<br>$\Lambda\in CL(l^{2})$定义为</p>
+<script type="math/tex; mode=display">
+\Lambda=\mathrm{diag}(\lambda_{1},\lambda_{2},\lambda_{3},\cdots).</script><p>则$\norm{\Lambda}=\sup_{n\in\NN}\left|\lambda_{n}\right|$, 下面证明$\Lambda$是紧算子当且仅当$\lim_{n\to\infty}\lambda_{n}=0$.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>$\Longleftarrow$: 取$n\in\NN$, 算子$\Lambda_{n}=\mathrm{diag}(\lambda_{1},\cdots,\lambda_{n},0,\cdots)\in CL(l^{2})$,<br>则$\Lambda_{n}$是有限秩算子, $\mathrm{ran}\Lambda_{n}\subseteq\mathrm{span}\left\{ e_{1},\cdots,e_{n}\right\} $.</p>
+<p>从而$\Lambda_{n}$是紧算子, 而</p>
+<script type="math/tex; mode=display">
+\norm{\Lambda-\Lambda_{n}}=\norm{\mathrm{diag}(0,\cdots,0,\lambda_{n+1},\lambda_{n+2},\cdots)}=\sup_{k:k>n}\left|\lambda_{k}\right|\to0,\quad n\to\infty.</script><p>即$\Lambda$是紧算子序列$\left(\Lambda_{n}\right)_{n\in\NN}$的强极限(一致极限, uniform<br>limit), 故$\Lambda$是紧算子.</p>
+<p>$\Longrightarrow$: 反证, 设$\Lambda$是紧算子, 但存在$\epsilon&gt;0$, 使对于任意的$N\in\NN$,<br>存在$n&gt;N$使得$\left|\lambda_{n}\right|\ge\epsilon$.</p>
+<p>取$N=1$, 则存在$n_{1}&gt;1$, 使得$\left|\lambda_{n_{1}}\right|\ge\epsilon$.</p>
+<p>取$N=n_{1}$, 则存在$n_{2}&gt;n_{1}$, 使得$\left|\lambda_{n_{2}}\right|\ge\epsilon$.</p>
+<p>…</p>
+<p>则有$\left(\lambda_{n}\right)_{n\in\NN}$的子列$\left(\lambda_{n_{k}}\right)_{k\in\NN}$,<br>使$\left|\lambda_{n_{k}}\right|\ge\epsilon$, 对于任何$k\in\NN$. 于是$\left(\Lambda e_{n_{k}}\right)_{k\in\NN}=\left(\lambda_{n_{k}}e_{n_{k}}\right)_{k\in\NN}$没有收敛子列.</p>
+<p>与$\Lambda$是紧算子矛盾.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>例</strong>: (Hilbert Schmidt算子是紧算子)</p>
+<p>设$H$是Hilbert空间, 有标准正交基$\left\{ u_{1},u_{2},u_{3},\cdots\right\} $. </p>
+<p>设$T\in CL(H)$是Hilbert-Schmidt算子, 即满足$\sum_{n=1}^{\infty}\norm{Tu_{n}}^{2}&lt;+\infty$.</p>
+<p>(1) 若$m\in\NN$, 则定义$T_{m}:H\to H$, $x\mapsto\sum_{n=1}^{m}\left\langle x,u_{n}\right\rangle Tu_{n}$.<br>则$T_{m}\in CL(H)$且满足</p>
+<script type="math/tex; mode=display">
+\norm{(T-T_{m})x}^{2}\le\norm{x}^{2}\sum_{n=m+1}^{\infty}\norm{Tu_{n}}^{2}.</script><p>这是因为$x=\sum_{n}\left\langle x,u_{n}\right\rangle u_{n}$, $Tx=\sum_{n}\left\langle x,u_{n}\right\rangle Tu_{n}$.</p>
+<p>(2) 证明每个Hilbert-Schmidt算子$T$是紧算子.</p>
+<p>Hint: $T$是有限秩算子序列$\left(T_{m}\right)_{m\in\NN}$的强极限.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>例</strong>: 设$H$是Hilbert空间, $x_{0},y_{0}\in H$给定, 定义$x_{0}\otimes y_{0}:H\to H$,<br>$x\mapsto\left\langle x,y_{0}\right\rangle x_{0}$.</p>
+<p>(1) 证明$x_{0}\otimes y_{0}\in CL(H)$, 且$\norm{x_{0}\otimes y_{0}}\le\norm{x_{0}}\cdot\norm{y_{0}}$.</p>
+<p>(2) $x_{0}\otimes y_{0}$是否为紧算子.</p>
+<p>(3) 设$A,B\in CL(H)$, 证明$A(x_{0}\otimes y_{0})B=(Ax_{0})\otimes(B^{*}y_{0})$.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: (代数中的理想)</p>
+<p>代数$R$中的理想$I$是$R$的一个子集, 且满足:</p>
+<p>(I1). $0\in I$.</p>
+<p>(I2). 若$a,b\in I$, 则$a+b\in I$.</p>
+<p>(I3). 若$a\in I$, $r\in R$, 则$ar\in I$且$ra\in I$.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定理 8</strong>: 设$H$是Hilbert空间, 则</p>
+<p>(1). 若$T\in K(H)$是紧算子, $S\in CL(H)$, 则$TS$是紧算子.</p>
+<p>(2). 若$T\in CL(H)$是紧算子, 则$T^{*}$是紧算子.</p>
+<p>(3). 若$T\in CL(H)$是紧算子, $S\in CL(H)$, 则$ST$是紧算子.</p>
+<p>即$K(H)$是$CL(H)$的闭理想.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>(2). 用(1)知, $TT^{*}$是紧算子, 并注意以下不等式</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+0\le\norm{T^{*}x_{m}-T^{*}x_{n}}^{2} & =\left\langle TT^{*}(x_{m}-x_{n}),(x_{m}-x_{n})\right\rangle \\
+ & \le\norm{TT^{*}(x_{m}-x_{n})}\cdot\norm{x_{m}-x_{n}}.
+\end{align*}</script><p>(3). </p>
+<script type="math/tex; mode=display">
+\left.\begin{array}{c}
+T\text{紧}\xrightarrow{(2)}T^{*}\text{紧}\\
+S\in K(H)\longrightarrow S^{*}\in CL(H)
+\end{array}\right\} \xrightarrow{(1)}T^{*}S^{*}\text{紧}\xrightarrow{(2)}(T^{*}S^{*})^{*}=S^{**}T^{**}=ST\text{紧}.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>例</strong>: (无穷维Hilbert空间中的紧算子不可逆)</p>
+<p>设$H$是无穷维Hilbert空间, $T\in K(H)$, 若$T\in CL(H)$可逆, 则$T^{-1}\in CL(H)$,<br>由定理 8知</p>
+<script type="math/tex; mode=display">
+I=TT^{-1}\in K(H).</script><p>但$I$在$H$中并不是紧算子, 矛盾.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>例</strong>: 设$T\in CL(H)$, $H$是无穷维Hilbert空间.</p>
+<p>(1). 举例$H$和$T$, 使得$T^{2}$是$H$上的紧算子, 但$T$不是紧算子.</p>
+<p>(2). 证明: 若$T$是自伴的, $T^{2}$是紧算子, 则$T$是紧算子. (Hint: 才用定理 8中(2)的证明.)</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>例</strong>: 设$H$是无穷维Hilbert空间, $S,T\in CL(H)$, 判断以下命题是否正确:</p>
+<p>(1). 若$S,T$均是紧算子, 则$S+T$是紧算子. √</p>
+<p>(2). 若$S+T$紧, 则$S$或$T$紧. ×</p>
+<p>(3). 若$S$或$T$紧, 则$ST$紧. √</p>
+<p>(4). 若$ST$紧, 则$S$紧或$T$紧. ×</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>例</strong>: 设$H$是Hilbert空间, $A\in CL(H)$, 定义$\Lambda\in CL(CL(H))$: $CL(H)\to CL(H)$,<br>$T\mapsto A^{*}T+TA$. 证明$CL(H)$的子空间$K(H)$是$\Lambda$-不变子空间, 即$\Lambda K(H)\subseteq K(H)$.</p>
+<p>Hint: 用定理 8.</p>
+</div>
+<h1 id="紧算子的逼近"><a href="#紧算子的逼近" class="headerlink" title="紧算子的逼近"></a>紧算子的逼近</h1><p>考虑方程$(I-K)x=y$, 其中$K$是Hilbert空间$H$上给定的算子, $y\in H$给定, 求$x\in H$的问题.</p>
+<p>用有限秩算子逼近, 设$K_{0}$与$K$接近, $y_{0}$与$y$很接近, 求$x_{0}$的问题$(I-K_{0})x=y_{0}$是容易的.</p>
+<p>下面估计$\norm{x-x_{0}}$的大小.<br><div class="note primary no-icon flat"><p><strong>定理 9</strong>: 设$H$是Hilbert空间, $K\in CL(H)$使$I-K$在$CL(H)$中可逆, $K_{0}\in CL(H)$满足</p>
+<script type="math/tex; mode=display">
+\epsilon\coloneqq\norm{(K-K_{0})(I-K)^{-1}}.</script><p>则对于任意的$y,y_{0}\in H$, 存在唯一的$x,x_{0}\in H$满足:</p>
+<p>(a). $(I-K)x=y$;</p>
+<p>(b). $(I-K_{0})x_{0}=y_{0}$;</p>
+<p>(c). $\norm{x-x_{0}}\le\frac{\norm{(I-K)^{-1}}}{1-\epsilon}\left(\epsilon\norm{y}+\norm{y-y_{0}}\right)$.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>由$\norm{(K-K_{0})(I-K)^{-1}}&lt;1$, Neumann级数定理给出$I+(K-K_{0})(I-K)^{-1}$可逆,<br>故</p>
+<script type="math/tex; mode=display">
+I-K_{0}=I-K+K-K_{0}=\left(I+(K-K_{0})(I-K)^{-1}\right)(I-K)</script><p>可逆, 从而</p>
+<script type="math/tex; mode=display">
+\norm{(I-K_{0})^{-1}}\le\frac{\norm{(I-K)^{-1}}}{1-\norm{(K-K_{0})(I-K)^{-1}}}=\frac{\norm{(I-K)^{-1}}}{1-\epsilon}.</script><p>由</p>
+<script type="math/tex; mode=display">
+(I-K)^{-1}-(I-K_{0})^{-1}=(I-K_{0})^{-1}(K-K_{0})(I-K)^{-1}</script><p>有</p>
+<script type="math/tex; mode=display">
+\norm{(I-K)^{-1}-(I-K_{0})^{-1}}\le\frac{\norm{(I-K)^{-1}}}{1-\epsilon}\cdot\epsilon,</script><p>故(a), (b)解得$x,x_{0}\in H$存在唯一, 且</p>
+<script type="math/tex; mode=display">
+x-x_{0}=\left((I-K)^{-1}-(I-K_{0})^{-1}\right)y+(I-K_{0})^{-1}(y-y_{0})</script><p>有</p>
+<script type="math/tex; mode=display">
+\norm{x-x_{0}}\le\frac{\epsilon\norm{(I-K)^{-1}}}{1-\epsilon}\cdot\norm{y}+\frac{\norm{(I-K)^{-1}}}{1-\epsilon}\cdot\norm{y-y_{0}}</script><p>即得.</p>
+</div></div></div></p>
+<div class="note primary no-icon flat"><p><strong>定理 10</strong>: (Galerkin逼近)</p>
+<p>设$H$是Hilbert空间, $K$是$H$上的紧算子, $\left(P_{n}\right)_{n\in\NN}$为有限秩投影算子($P_{n}^{2}=P_{n}=P_{n}^{*}\in CL(H)$),<br>且$P_{n}$强收敛于$I$, 即对于任意的$x\in H$, $\lim_{n\to\infty}P_{n}x=x$,<br>则$P_{n}KP_{n}\to K$ in $CL(H)$.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>以此证明:</p>
+<p>(1). $P_{n}K\to K$ in $CL(H)$, (投影逼近)(projection approximation)</p>
+<p>(2). $KP_{n}\to K$ in $CL(H)$, (sloan approximation)</p>
+<p>(3). $P_{n}KP_{n}\to K$ in $CL(H)$. (Galerkin逼近)</p>
+<p>(1): 注意</p>
+<script type="math/tex; mode=display">
+\norm{P_{n}x}^{2}=\left\langle P_{n}x,P_{n}x\right\rangle \le\norm{P_{n}x}\cdot\norm{x}\Longrightarrow\norm{P_{n}}\le1.</script><p>反证$P_{n}K\not\to K$ in $CL(H)$, 则$\exists\epsilon&gt;0$, s.t. $\forall N\in\NN$,<br>$\exists n&gt;N$, s.t. $\norm{P_{n}K-K}&gt;\epsilon$.</p>
+<p>从而有$\left(x_{n_{k}}\right)_{k\in\NN}$, 使$\norm{x_{n_{k}}}\le1$,<br>$\norm{\left(P_{n_{k}}K-K\right)x_{n_{k}}}&gt;\epsilon$, 由$K$紧, 取$Kx_{n_{k_{l}}}\to y$<br>in $H$. 故</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\epsilon<\norm{(P_{n_{k}}K-K)x_{n_{k_{l}}}} & =\norm{\left(P_{n_{k_{l}}}-I\right)y+\left(P_{n_{k_{l}}}-I\right)\left(Kx_{n_{k_{l}}}-y\right)}\\
+ & \le\norm{\left(P_{n_{k_{l}}}-I\right)y}+\norm{P_{n_{k_{l}}}-I}\cdot\norm{Kx_{n_{k_{l}}}-y}\to0.
+\end{align*}</script><p>矛盾.</p>
+<p>(2): 因$K$是紧算子, 故 $K^{*}$ 紧, 由(1), $P_{n}^{*}K^{*}=P_{n}K^{*}\to K^{*}$<br>in $CL(H)$. 从而</p>
+<script type="math/tex; mode=display">
+\norm{KP_{n}-K}=\norm{\left(KP_{n}-K\right)^{*}}=\norm{P_{n}K^{*}-K^{*}}\to0,\qquad n\to\infty.</script><p>(3):</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\norm{P_{n}KP_{n}-K} & =\norm{P_{n}(KP_{n}-K)+P_{n}K-K}\\
+ & \le\norm{P_{n}}\cdot\norm{KP_{n}-K}+\norm{P_{n}K-K}\to0.
+\end{align*}</script></div></div></div>
+<h1 id="紧算子的谱定理"><a href="#紧算子的谱定理" class="headerlink" title="紧算子的谱定理"></a>紧算子的谱定理</h1><div class="note primary no-icon flat"><p><strong>定理 11</strong>: (紧自伴算子的谱定理)</p>
+<p>设$H$是Hilbert空间, $T=T^{*}\in K(H)$有有限秩, 则存在正交特征向量$u_{n}$, $n\in\NN$与相应的特征向量$\lambda_{n}$,<br>$n\in\NN$, 使得$\lim_{n\to\infty}\lambda_{n}=0$, 且对于任意的$x\in H$,<br>有</p>
+<script type="math/tex; mode=display">
+Tx=\sum_{n=1}^{\infty}\lambda_{n}\left\langle x,u_{n}\right\rangle u_{n}.</script><p>先证几个引理.</p>
+<div class="note primary no-icon flat"><p><strong>引理 1</strong>: 若$T=T^{*}\in CL(H)$, 则</p>
+<script type="math/tex; mode=display">
+\norm{T}=\sup_{\norm{x}=1}\left|\left\langle Tx,x\right\rangle \right|.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>设$M\coloneqq\sup_{\norm{x}=1}\left|\left\langle Tx,x\right\rangle \right|$, 则易证$M\le\norm{T}$. 下证$\norm{T}\le M$.</p>
+<p>注意</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\left\langle T(x+y),x+y\right\rangle  & =\left\langle Tx,x\right\rangle +2\mathrm{Re}\left\langle Tx,y\right\rangle +\left\langle Ty,y\right\rangle \\
+\left\langle T(x-y),x-y\right\rangle  & =\left\langle Tx,x\right\rangle -2\mathrm{Re}\left\langle Tx,y\right\rangle +\left\langle Ty,y\right\rangle 
+\end{align*}</script><p>故</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+4\mathrm{Re}\left\langle Tx,y\right\rangle  & =\left\langle T(x+y),x+y\right\rangle -\left\langle T(x-y),x-y\right\rangle \\
+ & \le M\norm{x+y}^{2}+M\norm{x-y}^{2}\\
+ & =2M\left(\norm{x}^{2}+\norm{y}^{2}\right).
+\end{align*}</script><p>取$\theta\in\RR$, 用$\ue^{\ui\theta}y$代替$y$使</p>
+<script type="math/tex; mode=display">
+\mathrm{Re}\left\langle Tx,y\right\rangle =\left\langle Tx,y\right\rangle \le\frac{M}{2}\left(\norm{x}^{2}+\norm{y}^{2}\right).</script><p>当$Tx=0$, 或$x=0$时, $\norm{Tx}\le M\cdot\norm{x}$, 显然成立.</p>
+<p>当$Tx\ne0$, 且$x\ne0$时, 则取$y\coloneqq\frac{\norm{x}}{\norm{Tx}}Tx$,<br>有</p>
+<script type="math/tex; mode=display">
+\norm{Tx}\cdot\norm{x}\le M\cdot\norm{x}^{2}\Longrightarrow\norm{T}\le M.</script><p>特别地, 当$T$是紧算子时, 存在$x\in H$, $\norm{x}=1$使</p>
+<script type="math/tex; mode=display">
+\left|\left\langle Tx,x\right\rangle \right|=\norm{T}=\sup_{\norm{x}=1}\left\langle Tx,x\right\rangle .</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>引理 2</strong>: 若$H$是非平凡Hilbert空间, $T=T^{*}\in K(H)$. 则$\norm{T}$或$-\norm{T}$之一为$T$的特征值.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>不妨设$T\ne0$. 由于$T$是自伴的, 故$\left\langle Tx,x\right\rangle \in\RR$,<br>取$\left(x_{n}\right)_{n\in\NN}$, $\norm{x_{n}}=1$, 不妨证$\left\langle Tx_{n},x_{n}\right\rangle \to\lambda=\norm{T}$,<br>$n\to\infty$. 则</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+0 & \le\norm{Tx_{n}-\lambda x_{n}}^{2}=\norm{Tx_{n}}^{2}-2\lambda\left\langle Tx_{n},x_{n}\right\rangle +\lambda^{2}\\
+ & \le\norm{T}-2\lambda\left\langle Tx_{n},x_{n}\right\rangle +\lambda^{2}\to0,\quad n\to\infty.
+\end{align*}</script><p>故$Tx_{n}-\lambda x_{n}\to0$, 由$T$紧, $Tx_{n_{k}}\to y$, 则$x_{n_{k}}\to\frac{y}{\lambda}$,<br>再由$T$连续, </p>
+<script type="math/tex; mode=display">
+y=\lim_{k\to\infty}Tx_{n_{k}}=T\frac{y}{\lambda}=\frac{1}{\lambda}Ty.</script><p>而</p>
+<script type="math/tex; mode=display">
+\norm{y}=\lim_{k\to\infty}\norm{\lambda x_{n_{k}}}=\lambda\ne0.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>引理 3</strong>: 设$H$是Hilbert空间, $T=T^{*}\in CL(H)$, $Y$是$H$中$T$-不变闭子空间, 则</p>
+<p>(1). $Y^{\perp}$也是$T$-不变子空间;</p>
+<p>(2). $T$在Hilbert空间$Y^{\perp}$上的限制$T\mid_{Y^{\perp}}:Y^{\perp}\to Y^{\perp}$也是自伴的;</p>
+<p>(3). 若$T$是紧的, 则$T\mid_{Y^{\perp}}$也紧.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>(1). 对于任意的$z\in Y^{\perp}$, 有$Tz\in Y^{\perp}$.</p>
+<p>(2). $Y^{\perp}$是Hilbert空间中的闭子空间, 也是Hilbert空间.</p>
+<p>(1)推出$Y^{\perp}$是$T$-不变子空间, 所以$T\mid_{Y^{\perp}}$是良定的.</p>
+<p>最后由$T$自伴推出$T\mid_{Y^{\perp}}$自伴.</p>
+<p>(3). 设$\left(z_{n}\right)_{n\in\NN}\subseteq Y^{\perp}$, $\left(z_{n}\right)_{n\in\NN}$有界,<br>$\left(Tz_{n_{k}}\right)\subseteq Y^{\perp}$收敛于$z\in H$.</p>
+<p>由$Y^{\perp}$是$H$的闭子空间, 所以$z\in Y^{\perp}$.</p>
+</div></div></div>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>谱定理的证明</span></div>
+    <div class="hide-content"><p>设$H\coloneqq H$, $T_{1}\coloneqq T$.</p>
+<p>则引理 2推出存在$\lambda_{1}$, $u_{1}$, s.t. $\left|\lambda_{1}\right|=\norm{T_{1}}$,<br>$\norm{u_{1}}=1$, $T_{1}u_{1}=\lambda_{1}u_{1}$.</p>
+<p>取$H_{2}\coloneqq\left(\mathrm{span}\left\{ u_{1}\right\} \right)^{\perp}$为$H_{1}$的闭子空间,<br>是$T$-不变子空间, 让$T_{2}=T\mid_{H_{2}}$, 则$T_{2}$是紧自伴的.</p>
+<p>故存在$\lambda_{2}$, $u_{2}$, s.t. $\left|\lambda_{2}\right|=\norm{T_{2}}$,<br>$\norm{u_{2}}=1$, $T_{2}u_{2}=\lambda_{2}u_{2}$且</p>
+<script type="math/tex; mode=display">
+\left|\lambda_{2}\right|=\left|\left\langle T_{2}u_{2},u_{2}\right\rangle \right|=\left\langle Tu_{2},u_{2}\right\rangle \le\norm{T}=\left|\lambda_{1}\right|.</script><p>综上, $\left\{ u_{1},u_{2}\right\} $是正交的, 且$Tu_{1}=\lambda_{1}u_{1}$,<br>$Tu_{2}=\lambda_{2}u_{2}$.</p>
+<p>取$H_{3}\coloneqq\left(\mathrm{span}\left\{ u_{1},u_{2}\right\} \right)^{\perp}$为$H_{2}$的闭子空间,<br>是$T$-不变子空间, 让$T_{3}=T\mid_{H_{3}}$, 则$T_{3}$是紧自伴的.</p>
+<p>故存在$\lambda_{3}$, $u_{3}$, s.t. $\left|\lambda_{3}\right|=\norm{T_{3}}$,<br>$\norm{u_{3}}=1$, $T_{3}u_{3}=\lambda_{3}u_{3}$, 且</p>
+<script type="math/tex; mode=display">
+\left|\lambda_{3}\right|=\left|\left\langle T_{3}u_{3},u_{3}\right\rangle \right|=\left|\left\langle T_{2}u_{3},u_{3}\right\rangle \right|\le\norm{T_{2}}=\left|\lambda_{2}\right|.</script><p>如此下去, 有$H_{n}\coloneqq\left(\mathrm{span}\left\{ u_{1},\cdots,u_{n-1}\right\} \right)^{\perp}$,<br>$H_{n}\ne0$, 否则对于任何$x\in H$,</p>
+<script type="math/tex; mode=display">
+x-\sum_{k=1}^{n-1}\left\langle x,u_{k}\right\rangle u_{k}\in H_{n}=\left\{ 0\right\} .</script><p>故</p>
+<script type="math/tex; mode=display">
+Tx=\sum_{k=1}^{n-1}\left\langle x,u_{k}\right\rangle Tu_{k},\qquad\forall x\in H.</script><p>与$T$是无穷秩算子矛盾.</p>
+<p>下面证明$\left|\lambda_{n}\right|\to0$, $n\to\infty$. 否则</p>
+<script type="math/tex; mode=display">
+\inf_{n\in\NN}\left|\lambda_{n}\right|\eqqcolon\epsilon>0,</script><p>则取$n\ne m$时</p>
+<script type="math/tex; mode=display">
+\norm{Tu_{n}-Tu_{m}}^{2}=\norm{\lambda_{n}u_{n}-\lambda_{m}u_{m}}^{2}=\lambda_{n}^{2}+\lambda_{m}^{2}\ge2\epsilon^{2},</script><p>与$T$是紧算子矛盾.</p>
+<p>最后证</p>
+<script type="math/tex; mode=display">
+Tx=\sum_{k=1}^{\infty}\lambda_{k}\left\langle x,u_{k}\right\rangle u_{k},\qquad\forall x\in H.</script><p>即, 对于任意的$x$, $x-\sum_{k=1}^{n-1}\left\langle x,u_{k}\right\rangle u_{k}\in H_{n}$与不等式</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\norm{Tx-\sum_{k=1}^{n-1}\lambda_{k}\left\langle x,u_{k}\right\rangle u_{k}} & =\norm{T\left(x-\sum_{k=1}^{n-1}\left\langle x,u_{k}\right\rangle u_{k}\right)}\\
+ & \le\norm{T_{n}}\cdot\norm{x-\sum_{k=1}^{n-1}\left\langle x,u_{k}\right\rangle u_{k}}\\
+ & \le\left|\lambda_{n}\right|\cdot\norm{x}\to0,\qquad n\to\infty.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>例</strong>: 设$H$是无穷维Hilbert空间, $T=T^{*}\in K(H)$是双射, 则$T$的特征向量形成$H$中的一组基.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>只需证$T$是无穷秩的, 用线性相关性和双射反证, 然后用紧自伴算子的谱定理.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>例</strong>: 设$H$是Hilbert空间, 设$T=T^{*}\in K(H)$有无穷秩, 且是正算子, 即</p>
+<script type="math/tex; mode=display">
+\left\langle Tx,x\right\rangle \ge0,\qquad\forall x\in H.</script><p>证明$T$有平方根, 即算子$\sqrt{T}\in CL(H)$使$\left(\sqrt{T}\right)^{2}=T$.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>用谱定理, $T$的所有特征根$\lambda_{n}\ge0$, 构造算子$S:H\to H$, 满足对于任意的$x\in H$,<br>有</p>
+<script type="math/tex; mode=display">
+Sx\coloneqq\sum_{n=1}^{\infty}\sqrt{\lambda_{n}}\left\langle x,u_{n}\right\rangle u_{n},</script><p>则$S^{2}=T$.</p>
+</div></div></div>]]></content>
+      <categories>
+        <category>math</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>泛函分析</tag>
+        <tag>紧算子</tag>
+        <tag>算子</tag>
+        <tag>谱分解</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解析数论中的结论</title>
+    <url>/2022/04/26/%E8%A7%A3%E6%9E%90%E6%95%B0%E8%AE%BA%E4%B8%AD%E7%9A%84%E7%BB%93%E8%AE%BA/</url>
+    <content><![CDATA[<h1 id="记号与定义"><a href="#记号与定义" class="headerlink" title="记号与定义"></a>记号与定义</h1><div class="note primary no-icon flat"><p><strong>定义</strong>: $p_k$: 通常记为第 $k$ 个素数;<br>$d(n)=\sum_{d\mid n}1$;<br>$\sigma_s(n)=\sum_{d\mid n}d^s$, 从而有 $\sigma_{-s}(n)=\frac{\sigma_s(n)}{n^s}$;<br>$\sigma(n)=\sigma_1(n)=\sum_{d\mid n}d$;<br>$\omega(n)=\sum_{p\mid n}1$;<br>$\varphi(n)$: Euler函数 或 Euler’s totient function;<br>$d_2(n)=d(n)$; $d_k(n)=\sum_{d\mid n}d_{k-1}(d)$, $k\ge 3$;<br>$\pi(x)=\sum_{p\le x}1$;<br>$\theta(x)=\sum_{p\le x}\log p$ 是 Chebyshev 函数;<br>$\mathrm{Li} x=\lim_{\varepsilon\to 0}\left[\int_0^{1-\varepsilon}+\int_{1+\varepsilon}^x\frac{\ud t}{\log t}\right]$ 是对数积分 或 the integral logarithm;<br>$f\ll g$ 或 $g\gg f$ 的意思是 $f=O(g)$;<br>$[x]$: 表示 $x$ 的整数部分, Gauss 函数;</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: 设 $d(n)$ 是整数 $n$ 的因子数. 称 $n$ 是 highly composite, 如果对于任意的 $m&lt;n$, 都有 $d(m)&lt;d(n)$.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: 正整数 $N$ 称为是 superior highly composite numbers, 如果存在 $\varepsilon &gt; 0$ 使得对于所有的 $n$ 有</p>
+<script type="math/tex; mode=display">\frac{d(n)}{n^{\varepsilon}}\le \frac{d(N)}{N^{\varepsilon}}.</script></div>
+<h1 id="结论与命题"><a href="#结论与命题" class="headerlink" title="结论与命题"></a>结论与命题</h1><div class="note primary no-icon flat"><p><strong>定理</strong>: 对于固定的 $\varepsilon&gt;0$, 有</p>
+<script type="math/tex; mode=display">\lim_{n\to\infty}\frac{d(n)}{n^{\varepsilon}}=0.</script></div>
+<div class="note primary no-icon flat"><p><strong>定理</strong>: The maximal order of $\log d(n)$ is $\frac{\log n \log 2}{\log\log n}$, 即</p>
+<script type="math/tex; mode=display">\limsup\frac{(\log d(n))(\log\log n)}{(\log n)(\log 2)}=1.</script></div>
+<div class="note primary no-icon flat"><p><strong>定理</strong>: 对于任意的正整数 $N$, 满足 $\omega(N)=k$, 则有</p>
+<script type="math/tex; mode=display">d(N)\ll\frac{\left(\frac{\theta(p_{k})+\log N}{k}\right)^{k}}{\log p_{1}\log p_{2}\cdots\log p_{k}}.</script></div>
+<div class="note primary no-icon flat"><p><strong>定理</strong>: <script type="math/tex">\pi(x)\log x-\theta(x)=\int_{2}^{x}\frac{\pi(t)}{t}\ud t.</script></p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定理</strong>: 如下定义积性函数 $r(n)$:<br>当 $p\equiv1\pmod4$, $r(p^{k})=d(p^{k})=k+1$;<br>当 $p\equiv3\pmod4$, 当 $k$ 是奇数时, $r(p^{k})=0$; 当 $k$ 是偶数时, $r(p^{k})=1$.<br>当 $p\equiv2$, 则对任意的 $k$, $r(2^{k})=1$.<br>正整数 $n$ 能被表示成两平方数之和的方式共有 $4r(n)$. 并有</p>
+<script type="math/tex; mode=display">\limsup\frac{\log r(n)\log\log n}{\log2\log n}=1.</script></div>
+<blockquote id="fn_Jean-Louis Nicolas">
+<sup>Jean-Louis Nicolas</sup>. <a href="http://math.univ-lyon1.fr/%7Enicolas/hcnrevisited.pdf">On highly composite numbers</a>.<a href="#reffn_Jean-Louis Nicolas" title="Jump back to footnote [Jean-Louis Nicolas] in the text."> &#8617;</a>
+</blockquote>
+]]></content>
+      <categories>
+        <category>math</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>数论</tag>
+        <tag>解析数论</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>线性代数中的定义</title>
     <url>/2022/03/27/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/</url>
     <content><![CDATA[<div class="note default red, red flat"><p>这里放一些定义的收集, 以免以后用的时候有细节上的疏漏. 同时也会放上参考文献</p>
@@ -1413,342 +1747,6 @@ A  A^{\prime}=E,</script><p>即 $A^{\prime}=A^{-1}$, 则称 $A$ 为<strong>正�
       </tags>
   </entry>
   <entry>
-    <title>解析数论中的结论</title>
-    <url>/2022/04/26/%E8%A7%A3%E6%9E%90%E6%95%B0%E8%AE%BA%E4%B8%AD%E7%9A%84%E7%BB%93%E8%AE%BA/</url>
-    <content><![CDATA[<h1 id="记号与定义"><a href="#记号与定义" class="headerlink" title="记号与定义"></a>记号与定义</h1><div class="note primary no-icon flat"><p><strong>定义</strong>: $p_k$: 通常记为第 $k$ 个素数;<br>$d(n)=\sum_{d\mid n}1$;<br>$\sigma_s(n)=\sum_{d\mid n}d^s$, 从而有 $\sigma_{-s}(n)=\frac{\sigma_s(n)}{n^s}$;<br>$\sigma(n)=\sigma_1(n)=\sum_{d\mid n}d$;<br>$\omega(n)=\sum_{p\mid n}1$;<br>$\varphi(n)$: Euler函数 或 Euler’s totient function;<br>$d_2(n)=d(n)$; $d_k(n)=\sum_{d\mid n}d_{k-1}(d)$, $k\ge 3$;<br>$\pi(x)=\sum_{p\le x}1$;<br>$\theta(x)=\sum_{p\le x}\log p$ 是 Chebyshev 函数;<br>$\mathrm{Li} x=\lim_{\varepsilon\to 0}\left[\int_0^{1-\varepsilon}+\int_{1+\varepsilon}^x\frac{\ud t}{\log t}\right]$ 是对数积分 或 the integral logarithm;<br>$f\ll g$ 或 $g\gg f$ 的意思是 $f=O(g)$;<br>$[x]$: 表示 $x$ 的整数部分, Gauss 函数;</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>定义</strong>: 设 $d(n)$ 是整数 $n$ 的因子数. 称 $n$ 是 highly composite, 如果对于任意的 $m&lt;n$, 都有 $d(m)&lt;d(n)$.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>定义</strong>: 正整数 $N$ 称为是 superior highly composite numbers, 如果存在 $\varepsilon &gt; 0$ 使得对于所有的 $n$ 有</p>
-<script type="math/tex; mode=display">\frac{d(n)}{n^{\varepsilon}}\le \frac{d(N)}{N^{\varepsilon}}.</script></div>
-<h1 id="结论与命题"><a href="#结论与命题" class="headerlink" title="结论与命题"></a>结论与命题</h1><div class="note primary no-icon flat"><p><strong>定理</strong>: 对于固定的 $\varepsilon&gt;0$, 有</p>
-<script type="math/tex; mode=display">\lim_{n\to\infty}\frac{d(n)}{n^{\varepsilon}}=0.</script></div>
-<div class="note primary no-icon flat"><p><strong>定理</strong>: The maximal order of $\log d(n)$ is $\frac{\log n \log 2}{\log\log n}$, 即</p>
-<script type="math/tex; mode=display">\limsup\frac{(\log d(n))(\log\log n)}{(\log n)(\log 2)}=1.</script></div>
-<div class="note primary no-icon flat"><p><strong>定理</strong>: 对于任意的正整数 $N$, 满足 $\omega(N)=k$, 则有</p>
-<script type="math/tex; mode=display">d(N)\ll\frac{\left(\frac{\theta(p_{k})+\log N}{k}\right)^{k}}{\log p_{1}\log p_{2}\cdots\log p_{k}}.</script></div>
-<div class="note primary no-icon flat"><p><strong>定理</strong>: <script type="math/tex">\pi(x)\log x-\theta(x)=\int_{2}^{x}\frac{\pi(t)}{t}\ud t.</script></p>
-</div>
-<div class="note primary no-icon flat"><p><strong>定理</strong>: 如下定义积性函数 $r(n)$:<br>当 $p\equiv1\pmod4$, $r(p^{k})=d(p^{k})=k+1$;<br>当 $p\equiv3\pmod4$, 当 $k$ 是奇数时, $r(p^{k})=0$; 当 $k$ 是偶数时, $r(p^{k})=1$.<br>当 $p\equiv2$, 则对任意的 $k$, $r(2^{k})=1$.<br>正整数 $n$ 能被表示成两平方数之和的方式共有 $4r(n)$. 并有</p>
-<script type="math/tex; mode=display">\limsup\frac{\log r(n)\log\log n}{\log2\log n}=1.</script></div>
-<blockquote id="fn_Jean-Louis Nicolas">
-<sup>Jean-Louis Nicolas</sup>. <a href="http://math.univ-lyon1.fr/%7Enicolas/hcnrevisited.pdf">On highly composite numbers</a>.<a href="#reffn_Jean-Louis Nicolas" title="Jump back to footnote [Jean-Louis Nicolas] in the text."> &#8617;</a>
-</blockquote>
-]]></content>
-      <categories>
-        <category>math</category>
-      </categories>
-      <tags>
-        <tag>math</tag>
-        <tag>数论</tag>
-        <tag>解析数论</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>紧算子</title>
-    <url>/2022/05/19/%E7%B4%A7%E7%AE%97%E5%AD%90/</url>
-    <content><![CDATA[<div class="note info flat"><p>紧算子是一种特殊的线性算子.</p>
-</div>
-<blockquote>
-<p>为什么研究紧算子?<br>一个主要原因是, 紧算子可以用有限秩算子(finite rank operator)逼近, 便于对算子方程的解做数值逼近.</p>
-</blockquote>
-<div class="note primary no-icon flat"><p><strong>定理</strong>: 若$H$是无穷维Hilbert空间, 算子$A\in CL(H)$, 且$\norm{A}&lt;1$, 则对于任何$y\in H$,<br>存在唯一的$x\in H$满足</p>
-<script type="math/tex; mode=display">
-(I-A)x=y.</script><p>这个解$x$可以由Neumann级数</p>
-<script type="math/tex; mode=display">
-x=(I-A)^{-1}y=(I+A+A^{2}+\cdots)y</script><p>给出.</p>
-</div>
-<p>上面的解有两种缺点:</p>
-<ol>
-<li><p>计算$A^{n}$是不现实的.</p>
-</li>
-<li><p>级数收敛速度不理想.</p>
-</li>
-</ol>
-<h1 id="紧算子"><a href="#紧算子" class="headerlink" title="紧算子"></a>紧算子</h1><div class="note primary no-icon flat"><p><strong>定义</strong>: (紧算子) 设$X,Y$是赋范空间, 线性变换$T:X\to Y$称为是紧算子, 若对于任何有界序列$(x_{n})_{n\in\NN}\subseteq X$,<br>序列$(Tx_{n})_{n\in\NN}$有收敛子列.</p>
-</div>
-<p>记从$X$到$Y$的所有紧算子形成集合为$K(X,Y)$.</p>
-<div class="note primary no-icon flat"><p><strong>定理</strong>: 设$X,Y$是赋范空间, $T:X\to Y$是线性变换, 则以下命题等价:</p>
-<p>(1). $T$是紧的.</p>
-<p>(2). $\overline{T(B)}$是紧的, 其中$B$是$X$中的单位球, 即</p>
-<script type="math/tex; mode=display">
-B\coloneqq\left\{ x\in X:\norm{x}\le1\right\} .</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>(1)$\Longrightarrow$(2). 也就是证$\overline{T(B)}$中的序列$(z_{n})_{n\in\NN}$有收敛子列.</p>
-<p>(2)$\Longrightarrow$(1). 即证$X$中有界序列$(x_{n})$, 使$(Tx_{n})_{n\in\NN}$有收敛子列.</p>
-</div></div></div>
-<h1 id="紧算子集-K-X-Y"><a href="#紧算子集-K-X-Y" class="headerlink" title="紧算子集$K(X,Y)$"></a>紧算子集$K(X,Y)$</h1><div class="note primary no-icon flat"><p><strong>定理</strong>: $K(X,Y)\subseteq CL(X,Y)$. </p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>紧算子将$X$中的单位球映为$Y$中的紧集, 从而是$Y$中的有界集, 即这紧算子是有界算子, 线性有界算子是连续的.</p>
-</div></div></div>
-<div class="note primary no-icon flat"><p><strong>例</strong>: 不是所有连续线性变换都是紧的.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>设$X$为任一无穷维内积空间, 比如$l^{2}$. 其上的恒等算子$I\in CL(X)$不是紧算子.</p>
-<p>因为$I$映$X$中正交基$(u_{n})_{n\in\NN}$的像没有收敛子列.</p>
-</div></div></div>
-<div class="note primary no-icon flat"><p><strong>定义</strong>: 称算子$T$是有限秩算子(finite rank operator), 如果它的值域$\mathrm{ran}(T)$是有限维向量空间.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>定理</strong>: 设$X$是赋范空间, $Y$是内积空间, 若$T\in CL(X,Y)$使$\mathrm{ran}(T)$是有限维的, 则$T$是紧算子.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>设有界序列$(x_{n})_{n\in\NN}\subseteq X$, $u_{1},\cdots,u_{m}$为$\mathrm{ran}(T)$的正交基.</p>
-<p>则$\left(\left\langle Tx_{n},u_{l}\right\rangle \right)_{n\in\NN}$对于任何$l$有界,<br>类似聚点定理的证明.</p>
-</div></div></div>
-<div class="note primary no-icon flat"><p><strong>例</strong>: $L(\CC^{n},\CC^{m})=CL(\CC^{n},\CC^{m})=K(\CC^{n},\CC^{m})$.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>若$A\in\CC^{n\times m}$, 则$T_{A}:\CC^{n}\to\CC^{m}$, $x\mapsto Ax$满足$T_{A}\in CL(\CC^{n},\CC^{m})$,<br>且因为$\mathrm{ran}T_{A}\subseteq\CC^{m}$, $T_{A}$是有限秩的. 故$T_{A}$是紧算子.</p>
-<p>特别地, 恒等算子$I:\CC^{d}\to\CC^{d}$是紧算子.</p>
-</div></div></div>
-<div class="note primary no-icon flat"><p><strong>定理</strong>: $K(X,Y)$是$CL(X,Y)$的子空间, 其中$X,Y$均为赋范空间.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>(1). $0$是紧算子, 因为对于任何有界序列$(x_{n})\subseteq X$, $(0x_{n})_{n\in\NN}=(0)_{n\in\NN}$是收敛的.</p>
-<p>(2). 若$T,S$均是紧算子, 设$(x_{n})_{n\in\NN}$有界, 则$(Tx_{n})_{n\in\NN}$有子列$(Tx_{n_{k}})_{k\in\NN}$收敛.</p>
-<p>$(Sx_{n_{k}})_{k\in\NN}$有子列$(Sx_{n_{k_{l}}})_{l\in\NN}$收敛.</p>
-<p>故子列$\left((T+S)x_{n_{k_{l}}}\right)_{l\in\NN}$收敛, 即说明$T+S$是紧算子.</p>
-<p>(3). 若$T$是紧算子, $\alpha\in\mathbb{K}$, $(x_{n})_{n\in\NN}\in X$为有界序列,<br>则$(Tx_{n})_{n\in\NN}$有收敛子列$(Tx_{n_{k}})_{k\in\NN}$.</p>
-<p>因此$\left((\alpha T)x_{n_{k}}\right)_{k\in\NN}=\left(\alpha(Tx_{n_{k}})\right)_{k\in\NN}$收敛,<br>故$\alpha T$是紧算子.</p>
-</div></div></div>
-<div class="note primary no-icon flat"><p><strong>定理</strong>: 设$X$是赋范空间, $Y$是Banach空间, $(T_{n})_{n\in\NN}\subseteq K(X,Y)$在赋范空间$CL(X,Y)$中收敛于$T\in CL(X,Y)$.<br>则$T$是紧算子, 即$T\in K(X,Y)$, $K(X,Y)$是$CL(X,Y)$的闭线性子空间.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>(1). 设$\left(x_{n}\right)_{n\in\NN}$是$X$中有界序列, 则由$(T_{n})_{n\in\NN}\subseteq K(X,Y)$,<br>知</p>
-<p>$\left(T_{1}x_{n}\right)_{n\in\NN}$有收敛子列$\left(T_{1}x_{n}^{(1)}\right)_{n\in\NN}$;</p>
-<p>$\left(T_{2}x_{n}^{(1)}\right)_{n\in\NN}$有收敛子列$\left(T_{2}x_{n}^{(2)}\right)_{n\in\NN}$;</p>
-<p>…</p>
-<p>考虑序列$x_{1}$, $x_{2}^{(1)}$, $x_{3}^{(2)}$, $\cdots$, 则</p>
-<script type="math/tex; mode=display">
-\left\{ x_{k+1}^{(k)},x_{k+2}^{(k+1)},x_{k+3}^{(k+2)},\cdots\right\} \text{是序列}\left\{ x_{k+1}^{(k)},x_{k+2}^{(k)},x_{k+3}^{(k)},\cdots\right\} \text{的子列.}</script><p>因$\left(T_{k}x_{n}^{(k)}\right)_{n\in\NN}$收敛, 从而$\left(T_{k}x_{k+n+1}^{(k+n)}\right)_{n\in\NN}$也收敛,<br>即$\left(T_{k}x_{n+1}^{(n)}\right)_{n\in\NN}$收敛.</p>
-<p>(2). 对于任意的$m,n\in\NN$, 有</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-\norm{Tx_{n+1}^{(n)}-Tx_{m+1}^{(m)}} & \le\norm{Tx_{n+1}^{(n)}-T_{k}x_{n+1}^{(n)}}+\norm{T_{k}x_{n+1}^{(n)}-T_{k}x_{m+1}^{(m)}}+\norm{T_{k}x_{m+1}^{(m)}-Tx_{m+1}^{(m)}}\\
- & \le\norm{T-T_{k}}\cdot\norm{x_{n+1}^{(n)}}+\norm{T_{k}x_{n+1}^{(n)}-T_{k}x_{m+1}^{(m)}}+\norm{T_{k}-T}\cdot\norm{x_{m+1}^{(m)}}\\
- & \to0,\qquad m,n\to\infty.
-\end{align*}</script><p>故$\left(Tx_{n+1}^{(n)}\right)_{n\in\NN}$在$Y$中是Cauchy列, 由$Y$是Banach空间,<br>它在$Y$中收敛.</p>
-<p>由$\left(Tx_{n+1}^{(n)}\right)_{n\in\NN}$是$\left(Tx_{n}\right)_{n\in\NN}$的子列,<br>故$T$是紧算子.</p>
-</div></div></div>
-<div class="note primary no-icon flat"><p><strong>定理</strong>: 设$X$是赋范空间, $Y$是Hilbert空间, $\left(T_{n}\right)_{n\in\NN}\subseteq CL(X,Y)$是有限秩算子,<br>且在$CL(X,Y)$中收敛于$T$, 则$T$是紧算子.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>例</strong>: (什么时候$l^{2}$中的对角算子是紧算子)</p>
-<p>设$X,Y=l^{2}$, $\left(\lambda_{n}\right)_{n\in\NN}$在域$\mathbb{K}$中有界,<br>$\Lambda\in CL(l^{2})$定义为</p>
-<script type="math/tex; mode=display">
-\Lambda=\mathrm{diag}(\lambda_{1},\lambda_{2},\lambda_{3},\cdots).</script><p>则$\norm{\Lambda}=\sup_{n\in\NN}\left|\lambda_{n}\right|$, 下面证明$\Lambda$是紧算子当且仅当$\lim_{n\to\infty}\lambda_{n}=0$.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>$\Longleftarrow$: 取$n\in\NN$, 算子$\Lambda_{n}=\mathrm{diag}(\lambda_{1},\cdots,\lambda_{n},0,\cdots)\in CL(l^{2})$,<br>则$\Lambda_{n}$是有限秩算子, $\mathrm{ran}\Lambda_{n}\subseteq\mathrm{span}\left\{ e_{1},\cdots,e_{n}\right\} $.</p>
-<p>从而$\Lambda_{n}$是紧算子, 而</p>
-<script type="math/tex; mode=display">
-\norm{\Lambda-\Lambda_{n}}=\norm{\mathrm{diag}(0,\cdots,0,\lambda_{n+1},\lambda_{n+2},\cdots)}=\sup_{k:k>n}\left|\lambda_{k}\right|\to0,\quad n\to\infty.</script><p>即$\Lambda$是紧算子序列$\left(\Lambda_{n}\right)_{n\in\NN}$的强极限(一致极限, uniform<br>limit), 故$\Lambda$是紧算子.</p>
-<p>$\Longrightarrow$: 反证, 设$\Lambda$是紧算子, 但存在$\epsilon&gt;0$, 使对于任意的$N\in\NN$,<br>存在$n&gt;N$使得$\left|\lambda_{n}\right|\ge\epsilon$.</p>
-<p>取$N=1$, 则存在$n_{1}&gt;1$, 使得$\left|\lambda_{n_{1}}\right|\ge\epsilon$.</p>
-<p>取$N=n_{1}$, 则存在$n_{2}&gt;n_{1}$, 使得$\left|\lambda_{n_{2}}\right|\ge\epsilon$.</p>
-<p>…</p>
-<p>则有$\left(\lambda_{n}\right)_{n\in\NN}$的子列$\left(\lambda_{n_{k}}\right)_{k\in\NN}$,<br>使$\left|\lambda_{n_{k}}\right|\ge\epsilon$, 对于任何$k\in\NN$. 于是$\left(\Lambda e_{n_{k}}\right)_{k\in\NN}=\left(\lambda_{n_{k}}e_{n_{k}}\right)_{k\in\NN}$没有收敛子列.</p>
-<p>与$\Lambda$是紧算子矛盾.</p>
-</div></div></div>
-<div class="note primary no-icon flat"><p><strong>例</strong>: (Hilbert Schmidt算子是紧算子)</p>
-<p>设$H$是Hilbert空间, 有标准正交基$\left\{ u_{1},u_{2},u_{3},\cdots\right\} $. </p>
-<p>设$T\in CL(H)$是Hilbert-Schmidt算子, 即满足$\sum_{n=1}^{\infty}\norm{Tu_{n}}^{2}&lt;+\infty$.</p>
-<p>(1) 若$m\in\NN$, 则定义$T_{m}:H\to H$, $x\mapsto\sum_{n=1}^{m}\left\langle x,u_{n}\right\rangle Tu_{n}$.<br>则$T_{m}\in CL(H)$且满足</p>
-<script type="math/tex; mode=display">
-\norm{(T-T_{m})x}^{2}\le\norm{x}^{2}\sum_{n=m+1}^{\infty}\norm{Tu_{n}}^{2}.</script><p>这是因为$x=\sum_{n}\left\langle x,u_{n}\right\rangle u_{n}$, $Tx=\sum_{n}\left\langle x,u_{n}\right\rangle Tu_{n}$.</p>
-<p>(2) 证明每个Hilbert-Schmidt算子$T$是紧算子.</p>
-<p>Hint: $T$是有限秩算子序列$\left(T_{m}\right)_{m\in\NN}$的强极限.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>例</strong>: 设$H$是Hilbert空间, $x_{0},y_{0}\in H$给定, 定义$x_{0}\otimes y_{0}:H\to H$,<br>$x\mapsto\left\langle x,y_{0}\right\rangle x_{0}$.</p>
-<p>(1) 证明$x_{0}\otimes y_{0}\in CL(H)$, 且$\norm{x_{0}\otimes y_{0}}\le\norm{x_{0}}\cdot\norm{y_{0}}$.</p>
-<p>(2) $x_{0}\otimes y_{0}$是否为紧算子.</p>
-<p>(3) 设$A,B\in CL(H)$, 证明$A(x_{0}\otimes y_{0})B=(Ax_{0})\otimes(B^{*}y_{0})$.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>定义</strong>: (代数中的理想)</p>
-<p>代数$R$中的理想$I$是$R$的一个子集, 且满足:</p>
-<p>(I1). $0\in I$.</p>
-<p>(I2). 若$a,b\in I$, 则$a+b\in I$.</p>
-<p>(I3). 若$a\in I$, $r\in R$, 则$ar\in I$且$ra\in I$.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>定理</strong>: \label{thm:5.5} 设$H$是Hilbert空间, 则</p>
-<p>(1). 若$T\in K(H)$是紧算子, $S\in CL(H)$, 则$TS$是紧算子.</p>
-<p>(2). 若$T\in CL(H)$是紧算子, 则$T^{*}$是紧算子.</p>
-<p>(3). 若$T\in CL(H)$是紧算子, $S\in CL(H)$, 则$ST$是紧算子.</p>
-<p>即$K(H)$是$CL(H)$的闭理想.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>(2). 用(1)知, $TT^{*}$是紧算子, 并注意以下不等式</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-0\le\norm{T^{*}x_{m}-T^{*}x_{n}}^{2} & =\left\langle TT^{*}(x_{m}-x_{n}),(x_{m}-x_{n})\right\rangle \\
- & \le\norm{TT^{*}(x_{m}-x_{n})}\cdot\norm{x_{m}-x_{n}}.
-\end{align*}</script><p>(3). </p>
-<script type="math/tex; mode=display">
-\left.\begin{array}{c}
-T\text{紧}\xrightarrow{(2)}T^{*}\text{紧}\\
-S\in K(H)\longrightarrow S^{*}\in CL(H)
-\end{array}\right\} \xrightarrow{(1)}T^{*}S^{*}\text{紧}\xrightarrow{(2)}(T^{*}S^{*})^{*}=S^{**}T^{**}=ST\text{紧}.</script></div></div></div>
-<div class="note primary no-icon flat"><p><strong>例</strong>: (无穷维Hilbert空间中的紧算子不可逆)</p>
-<p>设$H$是无穷维Hilbert空间, $T\in K(H)$, 若$T\in CL(H)$可逆, 则$T^{-1}\in CL(H)$,<br>由定理\ref{thm:5.5}知</p>
-<script type="math/tex; mode=display">
-I=TT^{-1}\in K(H).</script><p>但$I$在$H$中并不是紧算子, 矛盾.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>例</strong>: 设$T\in CL(H)$, $H$是无穷维Hilbert空间.</p>
-<p>(1). 举例$H$和$T$, 使得$T^{2}$是$H$上的紧算子, 但$T$不是紧算子.</p>
-<p>(2). 证明: 若$T$是自伴的, $T^{2}$是紧算子, 则$T$是紧算子. (Hint: 才用定理\ref{thm:5.5}中(2)的证明.)</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>例</strong>: 设$H$是无穷维Hilbert空间, $S,T\in CL(H)$, 判断以下命题是否正确:</p>
-<p>(1). 若$S,T$均是紧算子, 则$S+T$是紧算子. √</p>
-<p>(2). 若$S+T$紧, 则$S$或$T$紧. ×</p>
-<p>(3). 若$S$或$T$紧, 则$ST$紧. √</p>
-<p>(4). 若$ST$紧, 则$S$紧或$T$紧. ×</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>例</strong>: 设$H$是Hilbert空间, $A\in CL(H)$, 定义$\Lambda\in CL(CL(H))$: $CL(H)\to CL(H)$,<br>$T\mapsto A^{*}T+TA$. 证明$CL(H)$的子空间$K(H)$是$\Lambda$-不变子空间, 即$\Lambda K(H)\subseteq K(H)$.</p>
-<p>Hint: 用定理\ref{thm:5.5}</p>
-</div>
-<h1 id="紧算子的逼近"><a href="#紧算子的逼近" class="headerlink" title="紧算子的逼近"></a>紧算子的逼近</h1><p>考虑方程$(I-K)x=y$, 其中$K$是Hilbert空间$H$上给定的算子, $y\in H$给定, 求$x\in H$的问题.</p>
-<p>用有限秩算子逼近, 设$K_{0}$与$K$接近, $y_{0}$与$y$很接近, 求$x_{0}$的问题$(I-K_{0})x=y_{0}$是容易的.</p>
-<p>下面估计$\norm{x-x_{0}}$的大小.<br><div class="note primary no-icon flat"><p><strong>定理</strong>: 设$H$是Hilbert空间, $K\in CL(H)$使$I-K$在$CL(H)$中可逆, $K_{0}\in CL(H)$满足</p>
-<script type="math/tex; mode=display">
-\epsilon\coloneqq\norm{(K-K_{0})(I-K)^{-1}}.</script><p>则对于任意的$y,y_{0}\in H$, 存在唯一的$x,x_{0}\in H$满足:</p>
-<p>(a). $(I-K)x=y$;</p>
-<p>(b). $(I-K_{0})x_{0}=y_{0}$;</p>
-<p>(c). $\norm{x-x_{0}}\le\frac{\norm{(I-K)^{-1}}}{1-\epsilon}\left(\epsilon\norm{y}+\norm{y-y_{0}}\right)$.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>由$\norm{(K-K_{0})(I-K)^{-1}}&lt;1$, Neumann级数定理给出$I+(K-K_{0})(I-K)^{-1}$可逆,<br>故</p>
-<script type="math/tex; mode=display">
-I-K_{0}=I-K+K-K_{0}=\left(I+(K-K_{0})(I-K)^{-1}\right)(I-K)</script><p>可逆, 从而</p>
-<script type="math/tex; mode=display">
-\norm{(I-K_{0})^{-1}}\le\frac{\norm{(I-K)^{-1}}}{1-\norm{(K-K_{0})(I-K)^{-1}}}=\frac{\norm{(I-K)^{-1}}}{1-\epsilon}.</script><p>由</p>
-<script type="math/tex; mode=display">
-(I-K)^{-1}-(I-K_{0})^{-1}=(I-K_{0})^{-1}(K-K_{0})(I-K)^{-1}</script><p>有</p>
-<script type="math/tex; mode=display">
-\norm{(I-K)^{-1}-(I-K_{0})^{-1}}\le\frac{\norm{(I-K)^{-1}}}{1-\epsilon}\cdot\epsilon,</script><p>故(a), (b)解得$x,x_{0}\in H$存在唯一, 且</p>
-<script type="math/tex; mode=display">
-x-x_{0}=\left((I-K)^{-1}-(I-K_{0})^{-1}\right)y+(I-K_{0})^{-1}(y-y_{0})</script><p>有</p>
-<script type="math/tex; mode=display">
-\norm{x-x_{0}}\le\frac{\epsilon\norm{(I-K)^{-1}}}{1-\epsilon}\cdot\norm{y}+\frac{\norm{(I-K)^{-1}}}{1-\epsilon}\cdot\norm{y-y_{0}}</script><p>即得.</p>
-</div></div></div></p>
-<div class="note primary no-icon flat"><p><strong>定理</strong>: (Galerkin逼近)</p>
-<p>设$H$是Hilbert空间, $K$是$H$上的紧算子, $\left(P_{n}\right)_{n\in\NN}$为有限秩投影算子($P_{n}^{2}=P_{n}=P_{n}^{*}\in CL(H)$),<br>且$P_{n}$强收敛于$I$, 即对于任意的$x\in H$, $\lim_{n\to\infty}P_{n}x=x$,<br>则$P_{n}KP_{n}\to K$ in $CL(H)$.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>以此证明:</p>
-<p>(1). $P_{n}K\to K$ in $CL(H)$, (投影逼近)(projection approximation)</p>
-<p>(2). $KP_{n}\to K$ in $CL(H)$, (sloan approximation)</p>
-<p>(3). $P_{n}KP_{n}\to K$ in $CL(H)$. (Galerkin逼近)</p>
-<p>(1): 注意</p>
-<script type="math/tex; mode=display">
-\norm{P_{n}x}^{2}=\left\langle P_{n}x,P_{n}x\right\rangle \le\norm{P_{n}x}\cdot\norm{x}\Longrightarrow\norm{P_{n}}\le1.</script><p>反证$P_{n}K\not\to K$ in $CL(H)$, 则$\exists\epsilon&gt;0$, s.t. $\forall N\in\NN$,<br>$\exists n&gt;N$, s.t. $\norm{P_{n}K-K}&gt;\epsilon$.</p>
-<p>从而有$\left(x_{n_{k}}\right)_{k\in\NN}$, 使$\norm{x_{n_{k}}}\le1$,<br>$\norm{\left(P_{n_{k}}K-K\right)x_{n_{k}}}&gt;\epsilon$, 由$K$紧, 取$Kx_{n_{k_{l}}}\to y$<br>in $H$. 故</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-\epsilon<\norm{(P_{n_{k}}K-K)x_{n_{k_{l}}}} & =\norm{\left(P_{n_{k_{l}}}-I\right)y+\left(P_{n_{k_{l}}}-I\right)\left(Kx_{n_{k_{l}}}-y\right)}\\
- & \le\norm{\left(P_{n_{k_{l}}}-I\right)y}+\norm{P_{n_{k_{l}}}-I}\cdot\norm{Kx_{n_{k_{l}}}-y}\to0.
-\end{align*}</script><p>矛盾.</p>
-<p>(2): 因$K$是紧算子, 故 $K^{*}$ 紧, 由(1), $P_{n}^{*}K^{*}=P_{n}K^{*}\to K^{*}$<br>in $CL(H)$. 从而</p>
-<script type="math/tex; mode=display">
-\norm{KP_{n}-K}=\norm{\left(KP_{n}-K\right)^{*}}=\norm{P_{n}K^{*}-K^{*}}\to0,\qquad n\to\infty.</script><p>(3):</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-\norm{P_{n}KP_{n}-K} & =\norm{P_{n}(KP_{n}-K)+P_{n}K-K}\\
- & \le\norm{P_{n}}\cdot\norm{KP_{n}-K}+\norm{P_{n}K-K}\to0.
-\end{align*}</script></div></div></div>
-<h1 id="紧算子的谱定理"><a href="#紧算子的谱定理" class="headerlink" title="紧算子的谱定理"></a>紧算子的谱定理</h1><div class="note primary no-icon flat"><p><strong>定理</strong>: (紧自伴算子的谱定理)</p>
-<p>设$H$是Hilbert空间, $T=T^{*}\in K(H)$有有限秩, 则存在正交特征向量$u_{n}$, $n\in\NN$与相应的特征向量$\lambda_{n}$,<br>$n\in\NN$, 使得$\lim_{n\to\infty}\lambda_{n}=0$, 且对于任意的$x\in H$,<br>有</p>
-<script type="math/tex; mode=display">
-Tx=\sum_{n=1}^{\infty}\lambda_{n}\left\langle x,u_{n}\right\rangle u_{n}.</script></div>
-<p>先证几个引理.</p>
-<div class="note primary no-icon flat"><p><strong>引理</strong>: 若$T=T^{*}\in CL(H)$, 则</p>
-<script type="math/tex; mode=display">
-\norm{T}=\sup_{\norm{x}=1}\left|\left\langle Tx,x\right\rangle \right|.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>设$M\coloneqq\sup_{\norm{x}=1}\left|\left\langle Tx,x\right\rangle \right|$,<br>则易证$M\le\norm{T}$. 下证$\norm{T}\le M$.</p>
-<p>注意</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-\left\langle T(x+y),x+y\right\rangle  & =\left\langle Tx,x\right\rangle +2\mathrm{Re}\left\langle Tx,y\right\rangle +\left\langle Ty,y\right\rangle \\
-\left\langle T(x-y),x-y\right\rangle  & =\left\langle Tx,x\right\rangle -2\mathrm{Re}\left\langle Tx,y\right\rangle +\left\langle Ty,y\right\rangle 
-\end{align*}</script><p>故</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-4\mathrm{Re}\left\langle Tx,y\right\rangle  & =\left\langle T(x+y),x+y\right\rangle -\left\langle T(x-y),x-y\right\rangle \\
- & \le M\norm{x+y}^{2}+M\norm{x-y}^{2}\\
- & =2M\left(\norm{x}^{2}+\norm{y}^{2}\right).
-\end{align*}</script><p>取$\theta\in\RR$, 用$\ue^{\ui\theta}y$代替$y$使</p>
-<script type="math/tex; mode=display">
-\mathrm{Re}\left\langle Tx,y\right\rangle =\left\langle Tx,y\right\rangle \le\frac{M}{2}\left(\norm{x}^{2}+\norm{y}^{2}\right).</script><p>当$Tx=0$, 或$x=0$时, $\norm{Tx}\le M\cdot\norm{x}$, 显然成立.</p>
-<p>当$Tx\ne0$, 且$x\ne0$时, 则取$y\coloneqq\frac{\norm{x}}{\norm{Tx}}Tx$,<br>有</p>
-<script type="math/tex; mode=display">
-\norm{Tx}\cdot\norm{x}\le M\cdot\norm{x}^{2}\Longrightarrow\norm{T}\le M.</script><p>特别地, 当$T$是紧算子时, 存在$x\in H$, $\norm{x}=1$使</p>
-<script type="math/tex; mode=display">
-\left|\left\langle Tx,x\right\rangle \right|=\norm{T}=\sup_{\norm{x}=1}\left\langle Tx,x\right\rangle .</script></div></div></div>
-<div class="note primary no-icon flat"><p><strong>引理</strong>: \label{lem:5.2} 若$H$是非平凡Hilbert空间, $T=T^{*}\in K(H)$. 则$\norm{T}$或$-\norm{T}$之一为$T$的特征值.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>不妨设$T\ne0$. 由于$T$是自伴的, 故$\left\langle Tx,x\right\rangle \in\RR$,<br>取$\left(x_{n}\right)_{n\in\NN}$, $\norm{x_{n}}=1$, 不妨证$\left\langle Tx_{n},x_{n}\right\rangle \to\lambda=\norm{T}$,<br>$n\to\infty$. 则</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-0 & \le\norm{Tx_{n}-\lambda x_{n}}^{2}=\norm{Tx_{n}}^{2}-2\lambda\left\langle Tx_{n},x_{n}\right\rangle +\lambda^{2}\\
- & \le\norm{T}-2\lambda\left\langle Tx_{n},x_{n}\right\rangle +\lambda^{2}\to0,\quad n\to\infty.
-\end{align*}</script><p>故$Tx_{n}-\lambda x_{n}\to0$, 由$T$紧, $Tx_{n_{k}}\to y$, 则$x_{n_{k}}\to\frac{y}{\lambda}$,<br>再由$T$连续, </p>
-<script type="math/tex; mode=display">
-y=\lim_{k\to\infty}Tx_{n_{k}}=T\frac{y}{\lambda}=\frac{1}{\lambda}Ty.</script><p>而</p>
-<script type="math/tex; mode=display">
-\norm{y}=\lim_{k\to\infty}\norm{\lambda x_{n_{k}}}=\lambda\ne0.</script></div></div></div>
-<div class="note primary no-icon flat"><p><strong>引理</strong>: 设$H$是Hilbert空间, $T=T^{*}\in CL(H)$, $Y$是$H$中$T$-不变闭子空间, 则</p>
-<p>(1). $Y^{\perp}$也是$T$-不变子空间;</p>
-<p>(2). $T$在Hilbert空间$Y^{\perp}$上的限制$T\mid_{Y^{\perp}}:Y^{\perp}\to Y^{\perp}$也是自伴的;</p>
-<p>(3). 若$T$是紧的, 则$T\mid_{Y^{\perp}}$也紧.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>(1). 对于任意的$z\in Y^{\perp}$, 有$Tz\in Y^{\perp}$.</p>
-<p>(2). $Y^{\perp}$是Hilbert空间中的闭子空间, 也是Hilbert空间.</p>
-<p>(1)推出$Y^{\perp}$是$T$-不变子空间, 所以$T\mid_{Y^{\perp}}$是良定的.</p>
-<p>最后由$T$自伴推出$T\mid_{Y^{\perp}}$自伴.</p>
-<p>(3). 设$\left(z_{n}\right)_{n\in\NN}\subseteq Y^{\perp}$, $\left(z_{n}\right)_{n\in\NN}$有界,<br>$\left(Tz_{n_{k}}\right)\subseteq Y^{\perp}$收敛于$z\in H$.</p>
-<p>由$Y^{\perp}$是$H$的闭子空间, 所以$z\in Y^{\perp}$.</p>
-</div></div></div>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>谱定理的证明</span></div>
-    <div class="hide-content"><p>设$H\coloneqq H$, $T_{1}\coloneqq T$.</p>
-<p>则引理\ref{lem:5.2}推出存在$\lambda_{1}$, $u_{1}$, s.t. $\left|\lambda_{1}\right|=\norm{T_{1}}$,<br>$\norm{u_{1}}=1$, $T_{1}u_{1}=\lambda_{1}u_{1}$.</p>
-<p>取$H_{2}\coloneqq\left(\mathrm{span}\left\{ u_{1}\right\} \right)^{\perp}$为$H_{1}$的闭子空间,<br>是$T$-不变子空间, 让$T_{2}=T\mid_{H_{2}}$, 则$T_{2}$是紧自伴的.</p>
-<p>故存在$\lambda_{2}$, $u_{2}$, s.t. $\left|\lambda_{2}\right|=\norm{T_{2}}$,<br>$\norm{u_{2}}=1$, $T_{2}u_{2}=\lambda_{2}u_{2}$且</p>
-<script type="math/tex; mode=display">
-\left|\lambda_{2}\right|=\left|\left\langle T_{2}u_{2},u_{2}\right\rangle \right|=\left\langle Tu_{2},u_{2}\right\rangle \le\norm{T}=\left|\lambda_{1}\right|.</script><p>综上, $\left\{ u_{1},u_{2}\right\} $是正交的, 且$Tu_{1}=\lambda_{1}u_{1}$,<br>$Tu_{2}=\lambda_{2}u_{2}$.</p>
-<p>取$H_{3}\coloneqq\left(\mathrm{span}\left\{ u_{1},u_{2}\right\} \right)^{\perp}$为$H_{2}$的闭子空间,<br>是$T$-不变子空间, 让$T_{3}=T\mid_{H_{3}}$, 则$T_{3}$是紧自伴的.</p>
-<p>故存在$\lambda_{3}$, $u_{3}$, s.t. $\left|\lambda_{3}\right|=\norm{T_{3}}$,<br>$\norm{u_{3}}=1$, $T_{3}u_{3}=\lambda_{3}u_{3}$, 且</p>
-<script type="math/tex; mode=display">
-\left|\lambda_{3}\right|=\left|\left\langle T_{3}u_{3},u_{3}\right\rangle \right|=\left|\left\langle T_{2}u_{3},u_{3}\right\rangle \right|\le\norm{T_{2}}=\left|\lambda_{2}\right|.</script><p>如此下去, 有$H_{n}\coloneqq\left(\mathrm{span}\left\{ u_{1},\cdots,u_{n-1}\right\} \right)^{\perp}$,<br>$H_{n}\ne0$, 否则对于任何$x\in H$,</p>
-<script type="math/tex; mode=display">
-x-\sum_{k=1}^{n-1}\left\langle x,u_{k}\right\rangle u_{k}\in H_{n}=\left\{ 0\right\} .</script><p>故</p>
-<script type="math/tex; mode=display">
-Tx=\sum_{k=1}^{n-1}\left\langle x,u_{k}\right\rangle Tu_{k},\qquad\forall x\in H.</script><p>与$T$是无穷秩算子矛盾.</p>
-<p>下面证明$\left|\lambda_{n}\right|\to0$, $n\to\infty$. 否则</p>
-<script type="math/tex; mode=display">
-\inf_{n\in\NN}\left|\lambda_{n}\right|\eqqcolon\epsilon>0,</script><p>则取$n\ne m$时</p>
-<script type="math/tex; mode=display">
-\norm{Tu_{n}-Tu_{m}}^{2}=\norm{\lambda_{n}u_{n}-\lambda_{m}u_{m}}^{2}=\lambda_{n}^{2}+\lambda_{m}^{2}\ge2\epsilon^{2},</script><p>与$T$是紧算子矛盾.</p>
-<p>最后证</p>
-<script type="math/tex; mode=display">
-Tx=\sum_{k=1}^{\infty}\lambda_{k}\left\langle x,u_{k}\right\rangle u_{k},\qquad\forall x\in H.</script><p>即, 对于任意的$x$, $x-\sum_{k=1}^{n-1}\left\langle x,u_{k}\right\rangle u_{k}\in H_{n}$与不等式</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-\norm{Tx-\sum_{k=1}^{n-1}\lambda_{k}\left\langle x,u_{k}\right\rangle u_{k}} & =\norm{T\left(x-\sum_{k=1}^{n-1}\left\langle x,u_{k}\right\rangle u_{k}\right)}\\
- & \le\norm{T_{n}}\cdot\norm{x-\sum_{k=1}^{n-1}\left\langle x,u_{k}\right\rangle u_{k}}\\
- & \le\left|\lambda_{n}\right|\cdot\norm{x}\to0,\qquad n\to\infty.
-\end{align*}</script></div></div>
-<div class="note primary no-icon flat"><p><strong>例</strong>: 设$H$是无穷维Hilbert空间, $T=T^{*}\in K(H)$是双射, 则$T$的特征向量形成$H$中的一组基.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>只需证$T$是无穷秩的, 用线性相关性和双射反证, 然后用紧自伴算子的谱定理.</p>
-</div></div></div>
-<div class="note primary no-icon flat"><p><strong>例</strong>: 设$H$是Hilbert空间, 设$T=T^{*}\in K(H)$有无穷秩, 且是正算子, 即</p>
-<script type="math/tex; mode=display">
-\left\langle Tx,x\right\rangle \ge0,\qquad\forall x\in H.</script><p>证明$T$有平方根, 即算子$\sqrt{T}\in CL(H)$使$\left(\sqrt{T}\right)^{2}=T$.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>用谱定理, $T$的所有特征根$\lambda_{n}\ge0$, 构造算子$S:H\to H$, 满足对于任意的$x\in H$,<br>有</p>
-<script type="math/tex; mode=display">
-Sx\coloneqq\sum_{n=1}^{\infty}\sqrt{\lambda_{n}}\left\langle x,u_{n}\right\rangle u_{n},</script><p>则$S^{2}=T$.</p>
-</div></div></div>]]></content>
-      <categories>
-        <category>math</category>
-      </categories>
-      <tags>
-        <tag>泛函分析</tag>
-        <tag>math</tag>
-        <tag>紧算子</tag>
-        <tag>算子</tag>
-        <tag>谱分解</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>记浙江省首届高等数学竞赛非数学类最后一题</title>
     <url>/2022/03/26/%E8%AE%B0%E6%B5%99%E6%B1%9F%E7%9C%81%E9%A6%96%E5%B1%8A%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AB%9E%E8%B5%9B%E9%9D%9E%E6%95%B0%E5%AD%A6%E7%B1%BB%E6%9C%80%E5%90%8E%E4%B8%80%E9%A2%98/</url>
     <content><![CDATA[<p>最近刷题目卡在最后一题了, 题目是这样的:</p>
@@ -1788,8 +1786,8 @@ a_{n}=\begin{cases}
       </categories>
       <tags>
         <tag>微积分</tag>
-        <tag>反例</tag>
         <tag>分析</tag>
+        <tag>反例</tag>
         <tag>每日一题</tag>
         <tag>高等数学</tag>
         <tag>数学分析</tag>

@@ -1,6 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2020年10月13日浏览器tab清理</title>
+    <url>/2021/02/01/2020%E5%B9%B410%E6%9C%8813%E6%97%A5%E6%B5%8F%E8%A7%88%E5%99%A8tab%E6%B8%85%E7%90%86/</url>
+    <content><![CDATA[<h1 id="Tabs"><a href="#Tabs" class="headerlink" title="Tabs"></a>Tabs</h1><ul>
+<li><p>[x] <a href="https://demo.jerryc.me/">Butterfly hexo 模板说明</a> </p>
+</li>
+<li><p>[ ] <a href="https://jstaf.github.io/2018/02/22/flstudio-on-linux.html">installing FL Studio on Linux</a> </p>
+</li>
+<li>[ ] <a href="https://github.com/jerryc127/hexo-theme-butterfly">hexo-theme-butterfly on github</a> </li>
+<li>[ ] <a href="https://www.cnblogs.com/pipci/p/10936665.html">Gnome Shell 扩展</a> </li>
+<li>[ ] <a href="https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet">gnome-shell-system-monitor-applet on git</a> </li>
+<li>[ ] <a href="https://github.com/mlutfy/hidetopbar">hidetopbar on git</a> </li>
+<li>[ ] <a href="https://www.jb51.net/LINUXjishu/43356.html">linux 下 tar.gz, tar, bz2, zip 的解压缩, 压缩命令小结</a> </li>
+<li>[ ] fedora alt tab merge window: 用`alt+`` 解决</li>
+<li>[ ] <a href="https://fedoramagazine.org/alt-tab-gnome-shell-extension/">Alternate Tab GNOME shell extension</a> on fedora magazine</li>
+<li>[ ] <a href="https://github.com/shadowsocks/ChinaDNS">ChinaDNS</a> on github</li>
+<li>[ ] search <code>easyocr</code> on github</li>
+<li>[ ] <a href="http://vim-latex.sourceforge.net/documentation/latex-suite.html#Tex_HotKeyMappings">edit latex in vim</a> </li>
+<li>[ ] <a href="https://devcenter.heroku.com/">Heroku Dev Center</a> </li>
+<li>[ ] <a href="https://github.com/Shirui816/vimrc">vimrc on github</a> </li>
+<li>[ ] <a href="https://mirrors.tuna.tsinghua.edu.cn/lyx/stable/2.3.x/">清华大学开源软件镜像源</a> </li>
+<li>[ ] manjaro 官网</li>
+<li>[ ] lyx 官网</li>
+<li>[ ] <a href="http://cncc.bingj.com/cache.aspx?q=fedora+dnf+repository+快&amp;d=4653399538798209&amp;mkt=zh-CN&amp;setlang=zh-CN&amp;w=gi2RecgdMh9EH0L3qjX60_VIaKe1bZAc">fedora dnf repository 快</a> Talk is cheap, Show me the code</li>
+<li>[ ] <a href="https://www.semanticscholar.org/paper/Generalized-Morrey-spaces-Sawano/218737e7152c5089832d4ff56c5c952be302e195?p2df">Generalized Morrey spaces</a> on semantic scholar</li>
+<li>[ ] <a href="https://file.librehat.com/">shadowsocks</a> </li>
+<li>[ ] <a href="https://copr.fedorainfracloud.org/">fedora copr</a> </li>
+<li>[ ] <a href="https://copr-be.cloud.fedoraproject.org/">copr too</a> </li>
+<li>[ ] <a href="https://blog.csdn.net/yaoyutian/article/details/90741077">Debian cinnamon 搜狗输入法</a> on CSDN</li>
+<li>[ ] hexo 官网</li>
+<li>[ ] <a href="https://fcitx-im.org/wiki/Fcitx/zh-hans">Fcitx 输入法</a> </li>
+<li>[ ] <a href="https://www.npmjs.com/search?q=baidu">npm 库</a> </li>
+<li>[ ] bing 搜索镜像站</li>
+<li>[ ] <a href="https://zhuanlan.zhihu.com/p/113554606">国内开源镜像站总览</a> </li>
+<li>[ ] <a href="https://fcitx-im.org/wiki/Install_and_Configure/zh-hans">fcitx 安装和配置</a> 来自官网的说明</li>
+<li>[ ] <a href="https://mirrors.tuna.tsinghua.edu.cn/">清华大学开源软件镜像站</a> </li>
+<li>[ ] <a href="http://mirrors.ustc.edu.cn/">关于反向代理列表</a> </li>
+<li>[ ] <a href="https://developer.aliyun.com/group/mirror?spm=a2c6h.13651102.0.0.3e221b11Rcfk1J#/?_k=v68hmc">阿里云镜像站</a> </li>
+<li>[ ] <a href="https://mirrors.huaweicloud.com/">华为开源镜像站</a> </li>
+<li>[ ] github 镜像站 bing 搜索</li>
+<li>[ ] <a href="https://developer.aliyun.com/mirror/kubernetes?spm=a2c6h.13651102.0.0.51441b11JA3tn4">阿里云 Kubernetes 镜像</a> </li>
+<li>[ ] <a href="https://www.yyhy.me/202.html">烟雨寒云 blog</a> </li>
+<li>[ ] gitlab </li>
+</ul>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>tmp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Euler求和公式</title>
+    <url>/2022/07/12/Euler%E6%B1%82%E5%92%8C%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<script src="https://api.vvhan.com/api/snow"></script>
+
+<div class="note primary no-icon flat"><p><strong>定理</strong>: Euler求和公式: 设函数$f\in C^1[0,+\infty)$, 则有</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\sum_{k=1}^{n}f(k) & =\int_{0}^{n}f(x)\ud x+\frac{f(n)-f(0)}{2}+\int_{0}^{n}\left\langle x\right\rangle f'(x)\ud x\\
+ & =\int_{1}^{n}f(x)\ud x+\frac{f(n)+f(1)}{2}+\int_{1}^{n}\left\langle x\right\rangle f'(x)\ud x
+\end{align*}</script><p>其中$\left\langle x\right\rangle =\left\{ x\right\} -\frac{1}{2}$.</p>
+</div>
+<hr>
+<p>证明: 使用RS积分, 由于</p>
+<script type="math/tex; mode=display">
+\ud[x]=\sum_{k\in\mathrm{Dom}(x)}\delta(x-k)\ud x,</script><p>所以</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\sum_{k=1}^{n}f(k) & =\int_{0+}^{n+}f(x)\ud[x]\\
+ & =\int_{0}^{n}f(x)\ud x-\int_{0+}^{n+}f(x)\ud\left\{ x\right\} \\
+ & =\int_{0}^{n}f(x)\ud x-\int_{0+}^{n+}f(x)\ud\left(\left\{ x\right\} -\frac{1}{2}\right)\\
+ & =\int_{0}^{n}f(x)\ud x-\left\langle x\right\rangle f(x)\mid_{0+}^{n+}+\int_{0+}^{n+}\left\langle x\right\rangle f'(x)\ud x\\
+ & =\int_{0}^{n}f(x)\ud x+\frac{f(n)-f(0)}{2}+\int_{0}^{n}\left\langle x\right\rangle f'(x)\ud x.
+\end{align*}</script><hr>
+<p>通常的证法: 将区间$[0,n]$划分为长度为$1$的小区间$[k-1,k]$, ($k=1,2,\cdots,n$), 则</p>
+<script type="math/tex; mode=display">
+\int_{k-1}^{k}\left\langle x\right\rangle f'(x)\ud x=\int_{k-1}^{k}\left(x-k+\frac{1}{2}\right)f'(x)\ud x=\frac{f(k)+f(k-1)}{2}-\int_{k-1}^{k}f(x)\ud x.</script><p>做累和, 得到</p>
+<script type="math/tex; mode=display">
+\int_{0}^{n}\left\langle x\right\rangle f'(x)\ud x=\sum_{k=1}^{n}f(k)-\frac{f(n)-f(0)}{2}-\int_{0}^{n}f(x)\ud x.</script><h2 id="公式的应用"><a href="#公式的应用" class="headerlink" title="公式的应用:"></a>公式的应用:</h2><p>Euler-Mascheroni常数与调和级数</p>
+<script type="math/tex; mode=display">
+H_{n}=\sum_{k=1}^{n}\frac{1}{k}=\ln n+\frac{1}{2n}+\gamma+\int_{n}^{\infty}\frac{\left\langle x\right\rangle }{x^{2}}\ud x.</script><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><blockquote id="fn_1">
+<sup>1</sup>. Apostol, Tom M. Introduction to analytic number theory. Springer Science &amp; Business Media, p. 54, sec 3.3, 1998.<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a>
+</blockquote>
+<blockquote id="fn_2">
+<sup>2</sup>. 王竹溪, 郭敦仁. 特殊函数槪論. 科学出版社, p.7, sec 1.3, 1965.<a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#8617;</a>
+</blockquote>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>定理</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>高等数学</tag>
+        <tag>数学分析</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hilbert空间中的定义</title>
     <url>/2021/10/25/Hilbert%E7%A9%BA%E9%97%B4%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/</url>
     <content><![CDATA[<blockquote>
@@ -82,55 +180,172 @@ x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>时, 称$x$关�
       </tags>
   </entry>
   <entry>
-    <title>2020年10月13日浏览器tab清理</title>
-    <url>/2021/02/01/2020%E5%B9%B410%E6%9C%8813%E6%97%A5%E6%B5%8F%E8%A7%88%E5%99%A8tab%E6%B8%85%E7%90%86/</url>
-    <content><![CDATA[<h1 id="Tabs"><a href="#Tabs" class="headerlink" title="Tabs"></a>Tabs</h1><ul>
-<li><p>[x] <a href="https://demo.jerryc.me/">Butterfly hexo 模板说明</a> </p>
-</li>
-<li><p>[ ] <a href="https://jstaf.github.io/2018/02/22/flstudio-on-linux.html">installing FL Studio on Linux</a> </p>
-</li>
-<li>[ ] <a href="https://github.com/jerryc127/hexo-theme-butterfly">hexo-theme-butterfly on github</a> </li>
-<li>[ ] <a href="https://www.cnblogs.com/pipci/p/10936665.html">Gnome Shell 扩展</a> </li>
-<li>[ ] <a href="https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet">gnome-shell-system-monitor-applet on git</a> </li>
-<li>[ ] <a href="https://github.com/mlutfy/hidetopbar">hidetopbar on git</a> </li>
-<li>[ ] <a href="https://www.jb51.net/LINUXjishu/43356.html">linux 下 tar.gz, tar, bz2, zip 的解压缩, 压缩命令小结</a> </li>
-<li>[ ] fedora alt tab merge window: 用`alt+`` 解决</li>
-<li>[ ] <a href="https://fedoramagazine.org/alt-tab-gnome-shell-extension/">Alternate Tab GNOME shell extension</a> on fedora magazine</li>
-<li>[ ] <a href="https://github.com/shadowsocks/ChinaDNS">ChinaDNS</a> on github</li>
-<li>[ ] search <code>easyocr</code> on github</li>
-<li>[ ] <a href="http://vim-latex.sourceforge.net/documentation/latex-suite.html#Tex_HotKeyMappings">edit latex in vim</a> </li>
-<li>[ ] <a href="https://devcenter.heroku.com/">Heroku Dev Center</a> </li>
-<li>[ ] <a href="https://github.com/Shirui816/vimrc">vimrc on github</a> </li>
-<li>[ ] <a href="https://mirrors.tuna.tsinghua.edu.cn/lyx/stable/2.3.x/">清华大学开源软件镜像源</a> </li>
-<li>[ ] manjaro 官网</li>
-<li>[ ] lyx 官网</li>
-<li>[ ] <a href="http://cncc.bingj.com/cache.aspx?q=fedora+dnf+repository+快&amp;d=4653399538798209&amp;mkt=zh-CN&amp;setlang=zh-CN&amp;w=gi2RecgdMh9EH0L3qjX60_VIaKe1bZAc">fedora dnf repository 快</a> Talk is cheap, Show me the code</li>
-<li>[ ] <a href="https://www.semanticscholar.org/paper/Generalized-Morrey-spaces-Sawano/218737e7152c5089832d4ff56c5c952be302e195?p2df">Generalized Morrey spaces</a> on semantic scholar</li>
-<li>[ ] <a href="https://file.librehat.com/">shadowsocks</a> </li>
-<li>[ ] <a href="https://copr.fedorainfracloud.org/">fedora copr</a> </li>
-<li>[ ] <a href="https://copr-be.cloud.fedoraproject.org/">copr too</a> </li>
-<li>[ ] <a href="https://blog.csdn.net/yaoyutian/article/details/90741077">Debian cinnamon 搜狗输入法</a> on CSDN</li>
-<li>[ ] hexo 官网</li>
-<li>[ ] <a href="https://fcitx-im.org/wiki/Fcitx/zh-hans">Fcitx 输入法</a> </li>
-<li>[ ] <a href="https://www.npmjs.com/search?q=baidu">npm 库</a> </li>
-<li>[ ] bing 搜索镜像站</li>
-<li>[ ] <a href="https://zhuanlan.zhihu.com/p/113554606">国内开源镜像站总览</a> </li>
-<li>[ ] <a href="https://fcitx-im.org/wiki/Install_and_Configure/zh-hans">fcitx 安装和配置</a> 来自官网的说明</li>
-<li>[ ] <a href="https://mirrors.tuna.tsinghua.edu.cn/">清华大学开源软件镜像站</a> </li>
-<li>[ ] <a href="http://mirrors.ustc.edu.cn/">关于反向代理列表</a> </li>
-<li>[ ] <a href="https://developer.aliyun.com/group/mirror?spm=a2c6h.13651102.0.0.3e221b11Rcfk1J#/?_k=v68hmc">阿里云镜像站</a> </li>
-<li>[ ] <a href="https://mirrors.huaweicloud.com/">华为开源镜像站</a> </li>
-<li>[ ] github 镜像站 bing 搜索</li>
-<li>[ ] <a href="https://developer.aliyun.com/mirror/kubernetes?spm=a2c6h.13651102.0.0.51441b11JA3tn4">阿里云 Kubernetes 镜像</a> </li>
-<li>[ ] <a href="https://www.yyhy.me/202.html">烟雨寒云 blog</a> </li>
-<li>[ ] gitlab </li>
-</ul>
+    <title>Latex编辑展示页面</title>
+    <url>/2021/02/02/Latex%E7%BC%96%E8%BE%91%E5%B1%95%E7%A4%BA%E9%A1%B5%E9%9D%A2/</url>
+    <content><![CDATA[<h1 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h1><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Latex Code</th>
+<th style="text-align:center">Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+<th>Latex Code</th>
+<th>Math View</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">\alpha</td>
+<td style="text-align:center">$\alpha$</td>
+<td>\theta</td>
+<td>$\theta$</td>
+<td>\omicron</td>
+<td>$\omicron$</td>
+<td>\upsilon</td>
+<td>$\upsilon$</td>
+</tr>
+<tr>
+<td style="text-align:center">\beta</td>
+<td style="text-align:center">$\beta$</td>
+<td>\vartheta</td>
+<td>$\vartheta$</td>
+<td>\pi</td>
+<td>$\pi$</td>
+<td>\phi</td>
+<td>$\phi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\gamma</td>
+<td style="text-align:center">$\gamma$</td>
+<td>\iota</td>
+<td>$\iota$</td>
+<td>\varpi</td>
+<td>$\varpi$</td>
+<td>\varphi</td>
+<td>$\varphi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\delta</td>
+<td style="text-align:center">$\delta$</td>
+<td>\kappa</td>
+<td>$\kappa$</td>
+<td>\rho</td>
+<td>$\rho$</td>
+<td>\chi</td>
+<td>$\chi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varepsilon</td>
+<td style="text-align:center">$\varepsilon$</td>
+<td>\lambda</td>
+<td>$\lambda$</td>
+<td>\varrho</td>
+<td>$\varrho$</td>
+<td>\psi</td>
+<td>$\psi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\epsilon</td>
+<td style="text-align:center">$\epsilon$</td>
+<td>\mu</td>
+<td>$\mu$</td>
+<td>\sigma</td>
+<td>$\sigma$</td>
+<td>\omega</td>
+<td>$\omega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\zeta</td>
+<td style="text-align:center">$\zeta$</td>
+<td>\nu</td>
+<td>$\nu$</td>
+<td>\varsigma</td>
+<td>$\varsigma$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\eta</td>
+<td style="text-align:center">$\eta$</td>
+<td>\xi</td>
+<td>$\xi$</td>
+<td>\tau</td>
+<td>$\tau$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\Gamma</td>
+<td style="text-align:center">$\Gamma$</td>
+<td>\Lambda</td>
+<td>$\Lambda$</td>
+<td>\Sigma</td>
+<td>$\Sigma$</td>
+<td>\Psi</td>
+<td>$\Psi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\Delta</td>
+<td style="text-align:center">$\Delta$</td>
+<td>\Xi</td>
+<td>$\Xi$</td>
+<td>\Upsilon</td>
+<td>$\Upsilon$</td>
+<td>\Omega</td>
+<td>$\Omega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\Theta</td>
+<td style="text-align:center">$\Theta$</td>
+<td>\Pi</td>
+<td>$\Pi$</td>
+<td>\Phi</td>
+<td>$\Phi$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">\varGamma</td>
+<td style="text-align:center">$\varGamma$</td>
+<td>\varLambda</td>
+<td>$\varLambda$</td>
+<td>\varSigma</td>
+<td>$\varSigma$</td>
+<td>\varPsi</td>
+<td>$\varPsi$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varDelta</td>
+<td style="text-align:center">$\varDelta$</td>
+<td>\varXi</td>
+<td>$\varXi$</td>
+<td>\varUpsilon</td>
+<td>$\varUpsilon$</td>
+<td>\varOmega</td>
+<td>$\varOmega$</td>
+</tr>
+<tr>
+<td style="text-align:center">\varTheta</td>
+<td style="text-align:center">$\varTheta$</td>
+<td>\varPi</td>
+<td>$\varPi$</td>
+<td>\varPhi</td>
+<td>$\varPhi$</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
 <script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
       <categories>
-        <category>history</category>
+        <category>latex</category>
       </categories>
       <tags>
-        <tag>tmp</tag>
+        <tag>math</tag>
+        <tag>latex</tag>
       </tags>
   </entry>
   <entry>
@@ -445,172 +660,27 @@ x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>时, 称$x$关�
       </tags>
   </entry>
   <entry>
-    <title>Latex编辑展示页面</title>
-    <url>/2021/02/02/Latex%E7%BC%96%E8%BE%91%E5%B1%95%E7%A4%BA%E9%A1%B5%E9%9D%A2/</url>
-    <content><![CDATA[<h1 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h1><div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Latex Code</th>
-<th style="text-align:center">Math View</th>
-<th>Latex Code</th>
-<th>Math View</th>
-<th>Latex Code</th>
-<th>Math View</th>
-<th>Latex Code</th>
-<th>Math View</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">\alpha</td>
-<td style="text-align:center">$\alpha$</td>
-<td>\theta</td>
-<td>$\theta$</td>
-<td>\omicron</td>
-<td>$\omicron$</td>
-<td>\upsilon</td>
-<td>$\upsilon$</td>
-</tr>
-<tr>
-<td style="text-align:center">\beta</td>
-<td style="text-align:center">$\beta$</td>
-<td>\vartheta</td>
-<td>$\vartheta$</td>
-<td>\pi</td>
-<td>$\pi$</td>
-<td>\phi</td>
-<td>$\phi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\gamma</td>
-<td style="text-align:center">$\gamma$</td>
-<td>\iota</td>
-<td>$\iota$</td>
-<td>\varpi</td>
-<td>$\varpi$</td>
-<td>\varphi</td>
-<td>$\varphi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\delta</td>
-<td style="text-align:center">$\delta$</td>
-<td>\kappa</td>
-<td>$\kappa$</td>
-<td>\rho</td>
-<td>$\rho$</td>
-<td>\chi</td>
-<td>$\chi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\varepsilon</td>
-<td style="text-align:center">$\varepsilon$</td>
-<td>\lambda</td>
-<td>$\lambda$</td>
-<td>\varrho</td>
-<td>$\varrho$</td>
-<td>\psi</td>
-<td>$\psi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\epsilon</td>
-<td style="text-align:center">$\epsilon$</td>
-<td>\mu</td>
-<td>$\mu$</td>
-<td>\sigma</td>
-<td>$\sigma$</td>
-<td>\omega</td>
-<td>$\omega$</td>
-</tr>
-<tr>
-<td style="text-align:center">\zeta</td>
-<td style="text-align:center">$\zeta$</td>
-<td>\nu</td>
-<td>$\nu$</td>
-<td>\varsigma</td>
-<td>$\varsigma$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:center">\eta</td>
-<td style="text-align:center">$\eta$</td>
-<td>\xi</td>
-<td>$\xi$</td>
-<td>\tau</td>
-<td>$\tau$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:center">\Gamma</td>
-<td style="text-align:center">$\Gamma$</td>
-<td>\Lambda</td>
-<td>$\Lambda$</td>
-<td>\Sigma</td>
-<td>$\Sigma$</td>
-<td>\Psi</td>
-<td>$\Psi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\Delta</td>
-<td style="text-align:center">$\Delta$</td>
-<td>\Xi</td>
-<td>$\Xi$</td>
-<td>\Upsilon</td>
-<td>$\Upsilon$</td>
-<td>\Omega</td>
-<td>$\Omega$</td>
-</tr>
-<tr>
-<td style="text-align:center">\Theta</td>
-<td style="text-align:center">$\Theta$</td>
-<td>\Pi</td>
-<td>$\Pi$</td>
-<td>\Phi</td>
-<td>$\Phi$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:center">\varGamma</td>
-<td style="text-align:center">$\varGamma$</td>
-<td>\varLambda</td>
-<td>$\varLambda$</td>
-<td>\varSigma</td>
-<td>$\varSigma$</td>
-<td>\varPsi</td>
-<td>$\varPsi$</td>
-</tr>
-<tr>
-<td style="text-align:center">\varDelta</td>
-<td style="text-align:center">$\varDelta$</td>
-<td>\varXi</td>
-<td>$\varXi$</td>
-<td>\varUpsilon</td>
-<td>$\varUpsilon$</td>
-<td>\varOmega</td>
-<td>$\varOmega$</td>
-</tr>
-<tr>
-<td style="text-align:center">\varTheta</td>
-<td style="text-align:center">$\varTheta$</td>
-<td>\varPi</td>
-<td>$\varPi$</td>
-<td>\varPhi</td>
-<td>$\varPhi$</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</div>
-<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+    <title>Poisson公式</title>
+    <url>/2022/03/08/Poisson%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="Poisson公式"><a href="#Poisson公式" class="headerlink" title="Poisson公式"></a>Poisson公式</h1><div class="note primary no-icon flat"><p>设$f(x)\in C(\RR)$, 其中$D$为单位圆盘, 则</p>
+<script type="math/tex; mode=display">
+\iint_{D}f(ax+by)dxdy=2\int_{-1}^{1}\sqrt{1-\xi^{2}}f(\xi\sqrt{a^{2}+b^{2}})d\xi.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>做变换</p>
+<script type="math/tex; mode=display">
+\begin{cases}
+\xi=\frac{ax+by}{\sqrt{a^{2}+b^{2}}},\\
+\eta=\frac{bx-ay}{\sqrt{a^{2}+b^{2}}}.
+\end{cases}</script><p>则</p>
+<script type="math/tex; mode=display">
+\iint_{D}f(ax+by)dxdy=\iint_{D}f(\xi\sqrt{a^{2}+b^{2}})\ud\xi\ud\eta=2\int_{-1}^{1}\sqrt{1-\xi^{2}}\cdot f(\xi\sqrt{a^{2}+b^{2}})\ud\xi.</script></div></div></div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
       <categories>
-        <category>latex</category>
+        <category>数学</category>
       </categories>
       <tags>
-        <tag>math</tag>
-        <tag>latex</tag>
+        <tag>数学</tag>
+        <tag>微积分</tag>
+        <tag>积分</tag>
+        <tag>重积分</tag>
       </tags>
   </entry>
   <entry>
@@ -756,30 +826,6 @@ p_{n+1}(x):= p'_{n}(x)-2xp_{n}(x)</script><p>成立. 容易证明对于任何$n$
       </tags>
   </entry>
   <entry>
-    <title>Poisson公式</title>
-    <url>/2022/03/08/Poisson%E5%85%AC%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="Poisson公式"><a href="#Poisson公式" class="headerlink" title="Poisson公式"></a>Poisson公式</h1><div class="note primary no-icon flat"><p>设$f(x)\in C(\RR)$, 其中$D$为单位圆盘, 则</p>
-<script type="math/tex; mode=display">
-\iint_{D}f(ax+by)dxdy=2\int_{-1}^{1}\sqrt{1-\xi^{2}}f(\xi\sqrt{a^{2}+b^{2}})d\xi.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>做变换</p>
-<script type="math/tex; mode=display">
-\begin{cases}
-\xi=\frac{ax+by}{\sqrt{a^{2}+b^{2}}},\\
-\eta=\frac{bx-ay}{\sqrt{a^{2}+b^{2}}}.
-\end{cases}</script><p>则</p>
-<script type="math/tex; mode=display">
-\iint_{D}f(ax+by)dxdy=\iint_{D}f(\xi\sqrt{a^{2}+b^{2}})\ud\xi\ud\eta=2\int_{-1}^{1}\sqrt{1-\xi^{2}}\cdot f(\xi\sqrt{a^{2}+b^{2}})\ud\xi.</script></div></div></div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-      <categories>
-        <category>数学</category>
-      </categories>
-      <tags>
-        <tag>数学</tag>
-        <tag>微积分</tag>
-        <tag>积分</tag>
-        <tag>重积分</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Borel集, Suslin集, Polish空间</title>
     <url>/2022/03/07/Suslin%E9%9B%86/</url>
     <content><![CDATA[<h1 id="Borel集"><a href="#Borel集" class="headerlink" title="Borel集"></a>Borel集</h1><p><strong>Borel集</strong>是拓扑空间中的集合, 由开集(闭集)的可数并, 可数交和相对补运算生成. 有些书中定义Borel集由拓扑空间中的紧集来生成, 而不用开集. 这两种定义在一些空间中是等价的, 比如 Hausdorff $\sigma$紧空间, 但在一些病态空间中, 这两种定义会不同.</p>
@@ -822,81 +868,6 @@ F=\cup_{i_{1},i_{2},\cdots,}\cap_{k=1}^{\infty}F_{i_{1},i_{2},\cdots,i_{k}},</sc
         <tag>分析</tag>
         <tag>测度论</tag>
         <tag>拓扑空间</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>多元微积分中的反例</title>
-    <url>/2021/11/28/%E5%A4%9A%E5%85%83%E5%BE%AE%E7%A7%AF%E5%88%86%E4%B8%AD%E7%9A%84%E5%8F%8D%E4%BE%8B/</url>
-    <content><![CDATA[<h2 id="关于每个变量连续的间断函数"><a href="#关于每个变量连续的间断函数" class="headerlink" title="关于每个变量连续的间断函数."></a>关于每个变量连续的间断函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="一个二元函数在原点没有极限-但沿着任一直线逼近原点存在极限"><a href="#一个二元函数在原点没有极限-但沿着任一直线逼近原点存在极限" class="headerlink" title="一个二元函数在原点没有极限, 但沿着任一直线逼近原点存在极限."></a>一个二元函数在原点没有极限, 但沿着任一直线逼近原点存在极限.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}y}{x^{4}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="以下三种极限恰有两个存在且相等的函数"><a href="#以下三种极限恰有两个存在且相等的函数" class="headerlink" title="以下三种极限恰有两个存在且相等的函数"></a>以下三种极限恰有两个存在且相等的函数</h2><p>\[<br>\lim_{(x,y)\to(a,b)}f(x,y)\quad\lim_{x\to a}\lim_{y\to b}f(x,y),\quad\lim_{y\to b}\lim_{x\to a}f(x,y).<br>\]</p>
-<p>(1).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<p>(2).<br>\[<br>f(x,y)=\begin{cases}<br>y+x\sin(1/y), &amp; y\ne0,\\<br>0, &amp; y=0.<br>\end{cases}<br>\]</p>
-<p>(3).<br>\[<br>f(x,y)=\begin{cases}<br>x+y\sin(1/x), &amp; x\ne0,\\<br>0, &amp; x=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="以上三种极限恰有一个存在的函数"><a href="#以上三种极限恰有一个存在的函数" class="headerlink" title="以上三种极限恰有一个存在的函数."></a>以上三种极限恰有一个存在的函数.</h2><p>(1).<br>\[<br>f(x,y)=\begin{cases}<br>x\sin(1/y)+y\sin(1/x), &amp; xy\ne0,\\<br>0, &amp; xy=0.<br>\end{cases}<br>\]</p>
-<p>(2).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}+y\sin(1/x), &amp; x\ne0,\\<br>0, &amp; x=0.<br>\end{cases}<br>\]</p>
-<p>(3).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}+x\sin(1/y), &amp; y\ne0,\\<br>0, &amp; y=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="累次极限交换次序不相等的函数"><a href="#累次极限交换次序不相等的函数" class="headerlink" title="累次极限交换次序不相等的函数."></a>累次极限交换次序不相等的函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}-y^{2}}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<p>$f(x,y)\rightrightarrows g(x)$, $y\to 0$, $f(x,y)\rightrightarrows h(y)$, $x\to0$, 且<br>\[<br>\lim_{x\to0}g(x)=\lim_{y\to0}h(y),<br>\]<br>但<br>\[<br>\lim_{(x,y)\to(0,0)}f(x,y)<br>\]<br>仍不存在的函数.</p>
-<p>\[<br>f(x,y)=\begin{cases}<br>1, &amp; xy\ne0,\\<br>0, &amp; xy=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="可微-但不连续可微的二元函数"><a href="#可微-但不连续可微的二元函数" class="headerlink" title="可微, 但不连续可微的二元函数."></a>可微, 但不连续可微的二元函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>x^{2}\sin(1/x)+y^{2}\sin(1/y), &amp; xy\ne0,\\<br>x^{2}\sin(1/x), &amp; x\ne0,y=0,\\<br>y^{2}\sin(1/y), &amp; x=0,y\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="二阶混合偏导不相等的可微函数"><a href="#二阶混合偏导不相等的可微函数" class="headerlink" title="二阶混合偏导不相等的可微函数."></a>二阶混合偏导不相等的可微函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>xy\frac{x^{2}-y^{2}}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="f-x-y-in-C-1-在区域-R-上-partial-y-f-0-恒成立-但-f-并非与-y-无关"><a href="#f-x-y-in-C-1-在区域-R-上-partial-y-f-0-恒成立-但-f-并非与-y-无关" class="headerlink" title="$f(x,y)\in C^{1}$, 在区域$R$上$\partial_{y}f=0$恒成立, 但$f$并非与$y$无关."></a>$f(x,y)\in C^{1}$, 在区域$R$上$\partial_{y}f=0$恒成立, 但$f$并非与$y$无关.</h2><p>取$L=\RR_{\ge0}\times\left\{ 0\right\} $, $R=\RR\setminus L$, 定义<br>\[<br>f(x,y)=\begin{cases}<br>x^{3}, &amp; x&gt;0\text{ 且 }y&gt;0,\\<br>0, &amp; \text{others}.<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="微分和积分交换次序"><a href="#微分和积分交换次序" class="headerlink" title="微分和积分交换次序:"></a>微分和积分交换次序:</h2><p>存在满足</p>
-<p>\[<br>\frac{\ud}{\ud x}\int_{a}^{b}f(x,y)\ud y\ne\int_{a}^{b}\left[\frac{\partial}{\partial x}f(x,y)\right]\ud y,<br>\]<br>的函数, 尽管每个积分都是常义积分.</p>
-<p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}}{y^{2}}\ue^{-x^{2}/y}, &amp; y&gt;0,\\<br>0, &amp; y=0,<br>\end{cases}<br>\]<br>分$x$是否等于零两种情况.</p>
-<hr>
-<h2 id="交换积分次序不相等的函数-即使每个积分都是常义积分"><a href="#交换积分次序不相等的函数-即使每个积分都是常义积分" class="headerlink" title="交换积分次序不相等的函数, 即使每个积分都是常义积分."></a>交换积分次序不相等的函数, 即使每个积分都是常义积分.</h2><p>在$[0,1]^{2}$中,</p>
-<p>\[<br>f(x,y)=\begin{cases}<br>y^{-2}, &amp; 0&lt;x&lt;y&lt;1,\\<br>-x^{-2}, &amp; 0&lt;y&lt;x&lt;1,\\<br>0, &amp; \text{others.}<br>\end{cases}<br>\]</p>
-<hr>
-<h2 id="二重级数-sum-m-n-a-mn-虽然按行和按列都有收敛性-但求和次序交换并不相等"><a href="#二重级数-sum-m-n-a-mn-虽然按行和按列都有收敛性-但求和次序交换并不相等" class="headerlink" title="二重级数$\sum_{m,n}a_{mn}$, 虽然按行和按列都有收敛性, 但求和次序交换并不相等."></a>二重级数$\sum_{m,n}a_{mn}$, 虽然按行和按列都有收敛性, 但求和次序交换并不相等.</h2><p>如:<br>\[<br>\begin{bmatrix}0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \frac{1}{16} &amp; \frac{1}{32} &amp; \cdots\\<br>-\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \frac{1}{16} &amp; \cdots\\<br>-\frac{1}{4} &amp; -\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \cdots\\<br>-\frac{1}{8} &amp; -\frac{1}{4} &amp; -\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \cdots\\<br>\cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots<br>\end{bmatrix}<br>\]</p>
-<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-      <categories>
-        <category>高等数学</category>
-      </categories>
-      <tags>
-        <tag>微积分</tag>
-        <tag>反例</tag>
-        <tag>多元微积分</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在hexo的自定义配置</title>
-    <url>/2021/02/01/%E5%9C%A8hexo%E7%9A%84mathjax%E4%B8%AD%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AELaTeX%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h1 id="自定义配置mathjax"><a href="#自定义配置mathjax" class="headerlink" title="自定义配置mathjax"></a>自定义配置mathjax</h1><p>首先根据baidu出来的信息, 找到<a href="https://www.jianshu.com/p/7ab21c7f0674">简书</a>上的教程, 然后在参考<a href="http://docs.mathjax.org/en/latest/input/tex/extensions/configmacros.html#tex-configmacros">MathJax官方教程</a>在本地找到文件<code>[blog path]/themes/butterfly/layout/includes/third-party/math/mathjax.pug</code>进行修改, 为了防止链接实效, 将简要步骤叙述如下:</p>
-<h2 id="step-1"><a href="#step-1" class="headerlink" title="step 1"></a>step 1</h2><p>更换Hexo的markdown渲染引擎, <code>hexo-renderer-kramed引擎</code>是在默认的<code>渲染引擎hexo-renderer-marked</code>的基础上修改了一些bug, 两者比较接近, 也比较轻量级.</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-renderer-marked --save</span><br><span class="line">npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure>
-<p>执行上面的命令即可, 先卸载原来的渲染引擎, 再安装新的. 更换引擎后行间公式可以正确渲染了, 但是这样还没有完全解决问题, 行内公式的渲染还是有问题, 因为<code>hexo-renderer-kramed引擎</code>也有语义冲突的问题. 接下来到博客根目录下, 找到<code>node_modules\kramed\lib\rules\inline.js</code>, 把第11行的escape变量的值做相应的修改：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">// escape: /^\\([\\`*&#123;&#125;\[\]()#$+\-.!_&gt;])/,</span><br><span class="line">escape: /^\\([`*\[\]()#$+\-.!_&gt;])/,</span><br></pre></td></tr></table></figure>
-<p>这一步是在原基础上取消了对\,{,}的转义(escape).<br>同时把第20行的<code>em</code>变量也要做相应的修改.</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">// em: /^\b_((?:__|[\s\S])+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br><span class="line">em: /^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br></pre></td></tr></table></figure>
-<p>重新启动hexo(先clean再generate), 问题完美解决. </p>
-<h2 id="step-2"><a href="#step-2" class="headerlink" title="step 2"></a>step 2</h2><p>参考<a href="http://docs.mathjax.org/en/latest/input/tex/extensions/configmacros.html#tex-configmacros">MathJax官方教程</a>, 在本地找到文件<code>[blog path]/themes/butterfly/layout/includes/third-party/math/mathjax.pug</code>进行添加以下行:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">...</span><br><span class="line">window.MathJax = &#123;</span><br><span class="line">	loader: &#123;</span><br><span class="line">		source: &#123; ... &#125;,</span><br><span class="line">		load: [&#x27;[tex]/configmacros&#x27;]</span><br><span class="line">	&#125;,</span><br><span class="line">	tex: &#123;</span><br><span class="line">		packages: &#123;&#x27;[+]&#x27;: [&#x27;configmacros&#x27;]&#125;,</span><br><span class="line">		inlineMath: ...,</span><br><span class="line">		tags: ...,</span><br><span class="line">		macros: &#123;</span><br><span class="line">			RR: &#x27;\\mathbb&#123;R&#125;&#x27;,</span><br><span class="line">			ud: &#x27;\\mathrm&#123;d&#125;&#x27;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-<p>如此便可以在hexo编写数学公式时使用自定义宏<code>\ud</code>和<code>\RR</code>来分别表示正体积分微元符号<code>d</code>和花写实数集<code>R</code>.</p>
-<h1 id="自定义配置搜索"><a href="#自定义配置搜索" class="headerlink" title="自定义配置搜索"></a>自定义配置搜索</h1><p>在blog根目录执行以下代码:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
-<p>在<code>_config.yml</code>文件中新增以下代码段</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure>
-<p>在hexo博客所选择的主题, 比如<code>_config.yml</code>, 中增加以下配置即可</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> Local search</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> Dependencies: https://github.com/flashlab/hexo-generator-search</span></span><br><span class="line">local_search:</span><br><span class="line">  enable: true</span><br><span class="line"><span class="meta">  #</span><span class="bash"> <span class="keyword">if</span> auto, trigger search by changing input</span></span><br><span class="line"><span class="meta">  #</span><span class="bash"> <span class="keyword">if</span> manual, trigger search by pressing enter key or search button</span></span><br><span class="line">  trigger: auto</span><br><span class="line"><span class="meta">  #</span><span class="bash"> show top n results per article, show all results by setting to -1</span></span><br><span class="line">  top_n_per_article: 1</span><br></pre></td></tr></table></figure><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-      <categories>
-        <category>mathjax</category>
-      </categories>
-      <tags>
-        <tag>latex</tag>
-        <tag>hexo</tag>
-        <tag>blog</tag>
-        <tag>mathjax</tag>
-        <tag>search</tag>
       </tags>
   </entry>
   <entry>
@@ -997,6 +968,50 @@ F=\cup_{i_{1},i_{2},\cdots,}\cap_{k=1}^{\infty}F_{i_{1},i_{2},\cdots,i_{k}},</sc
       </tags>
   </entry>
   <entry>
+    <title>多元微积分中的反例</title>
+    <url>/2021/11/28/%E5%A4%9A%E5%85%83%E5%BE%AE%E7%A7%AF%E5%88%86%E4%B8%AD%E7%9A%84%E5%8F%8D%E4%BE%8B/</url>
+    <content><![CDATA[<h2 id="关于每个变量连续的间断函数"><a href="#关于每个变量连续的间断函数" class="headerlink" title="关于每个变量连续的间断函数."></a>关于每个变量连续的间断函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="一个二元函数在原点没有极限-但沿着任一直线逼近原点存在极限"><a href="#一个二元函数在原点没有极限-但沿着任一直线逼近原点存在极限" class="headerlink" title="一个二元函数在原点没有极限, 但沿着任一直线逼近原点存在极限."></a>一个二元函数在原点没有极限, 但沿着任一直线逼近原点存在极限.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}y}{x^{4}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="以下三种极限恰有两个存在且相等的函数"><a href="#以下三种极限恰有两个存在且相等的函数" class="headerlink" title="以下三种极限恰有两个存在且相等的函数"></a>以下三种极限恰有两个存在且相等的函数</h2><p>\[<br>\lim_{(x,y)\to(a,b)}f(x,y)\quad\lim_{x\to a}\lim_{y\to b}f(x,y),\quad\lim_{y\to b}\lim_{x\to a}f(x,y).<br>\]</p>
+<p>(1).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<p>(2).<br>\[<br>f(x,y)=\begin{cases}<br>y+x\sin(1/y), &amp; y\ne0,\\<br>0, &amp; y=0.<br>\end{cases}<br>\]</p>
+<p>(3).<br>\[<br>f(x,y)=\begin{cases}<br>x+y\sin(1/x), &amp; x\ne0,\\<br>0, &amp; x=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="以上三种极限恰有一个存在的函数"><a href="#以上三种极限恰有一个存在的函数" class="headerlink" title="以上三种极限恰有一个存在的函数."></a>以上三种极限恰有一个存在的函数.</h2><p>(1).<br>\[<br>f(x,y)=\begin{cases}<br>x\sin(1/y)+y\sin(1/x), &amp; xy\ne0,\\<br>0, &amp; xy=0.<br>\end{cases}<br>\]</p>
+<p>(2).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}+y\sin(1/x), &amp; x\ne0,\\<br>0, &amp; x=0.<br>\end{cases}<br>\]</p>
+<p>(3).<br>\[<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^{2}+y^{2}}+x\sin(1/y), &amp; y\ne0,\\<br>0, &amp; y=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="累次极限交换次序不相等的函数"><a href="#累次极限交换次序不相等的函数" class="headerlink" title="累次极限交换次序不相等的函数."></a>累次极限交换次序不相等的函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}-y^{2}}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<p>$f(x,y)\rightrightarrows g(x)$, $y\to 0$, $f(x,y)\rightrightarrows h(y)$, $x\to0$, 且<br>\[<br>\lim_{x\to0}g(x)=\lim_{y\to0}h(y),<br>\]<br>但<br>\[<br>\lim_{(x,y)\to(0,0)}f(x,y)<br>\]<br>仍不存在的函数.</p>
+<p>\[<br>f(x,y)=\begin{cases}<br>1, &amp; xy\ne0,\\<br>0, &amp; xy=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="可微-但不连续可微的二元函数"><a href="#可微-但不连续可微的二元函数" class="headerlink" title="可微, 但不连续可微的二元函数."></a>可微, 但不连续可微的二元函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>x^{2}\sin(1/x)+y^{2}\sin(1/y), &amp; xy\ne0,\\<br>x^{2}\sin(1/x), &amp; x\ne0,y=0,\\<br>y^{2}\sin(1/y), &amp; x=0,y\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="二阶混合偏导不相等的可微函数"><a href="#二阶混合偏导不相等的可微函数" class="headerlink" title="二阶混合偏导不相等的可微函数."></a>二阶混合偏导不相等的可微函数.</h2><p>\[<br>f(x,y)=\begin{cases}<br>xy\frac{x^{2}-y^{2}}{x^{2}+y^{2}}, &amp; x^{2}+y^{2}\ne0,\\<br>0, &amp; x=y=0.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="f-x-y-in-C-1-在区域-R-上-partial-y-f-0-恒成立-但-f-并非与-y-无关"><a href="#f-x-y-in-C-1-在区域-R-上-partial-y-f-0-恒成立-但-f-并非与-y-无关" class="headerlink" title="$f(x,y)\in C^{1}$, 在区域$R$上$\partial_{y}f=0$恒成立, 但$f$并非与$y$无关."></a>$f(x,y)\in C^{1}$, 在区域$R$上$\partial_{y}f=0$恒成立, 但$f$并非与$y$无关.</h2><p>取$L=\RR_{\ge0}\times\left\{ 0\right\} $, $R=\RR\setminus L$, 定义<br>\[<br>f(x,y)=\begin{cases}<br>x^{3}, &amp; x&gt;0\text{ 且 }y&gt;0,\\<br>0, &amp; \text{others}.<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="微分和积分交换次序"><a href="#微分和积分交换次序" class="headerlink" title="微分和积分交换次序:"></a>微分和积分交换次序:</h2><p>存在满足</p>
+<p>\[<br>\frac{\ud}{\ud x}\int_{a}^{b}f(x,y)\ud y\ne\int_{a}^{b}\left[\frac{\partial}{\partial x}f(x,y)\right]\ud y,<br>\]<br>的函数, 尽管每个积分都是常义积分.</p>
+<p>\[<br>f(x,y)=\begin{cases}<br>\frac{x^{2}}{y^{2}}\ue^{-x^{2}/y}, &amp; y&gt;0,\\<br>0, &amp; y=0,<br>\end{cases}<br>\]<br>分$x$是否等于零两种情况.</p>
+<hr>
+<h2 id="交换积分次序不相等的函数-即使每个积分都是常义积分"><a href="#交换积分次序不相等的函数-即使每个积分都是常义积分" class="headerlink" title="交换积分次序不相等的函数, 即使每个积分都是常义积分."></a>交换积分次序不相等的函数, 即使每个积分都是常义积分.</h2><p>在$[0,1]^{2}$中,</p>
+<p>\[<br>f(x,y)=\begin{cases}<br>y^{-2}, &amp; 0&lt;x&lt;y&lt;1,\\<br>-x^{-2}, &amp; 0&lt;y&lt;x&lt;1,\\<br>0, &amp; \text{others.}<br>\end{cases}<br>\]</p>
+<hr>
+<h2 id="二重级数-sum-m-n-a-mn-虽然按行和按列都有收敛性-但求和次序交换并不相等"><a href="#二重级数-sum-m-n-a-mn-虽然按行和按列都有收敛性-但求和次序交换并不相等" class="headerlink" title="二重级数$\sum_{m,n}a_{mn}$, 虽然按行和按列都有收敛性, 但求和次序交换并不相等."></a>二重级数$\sum_{m,n}a_{mn}$, 虽然按行和按列都有收敛性, 但求和次序交换并不相等.</h2><p>如:<br>\[<br>\begin{bmatrix}0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \frac{1}{16} &amp; \frac{1}{32} &amp; \cdots\\<br>-\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \frac{1}{16} &amp; \cdots\\<br>-\frac{1}{4} &amp; -\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} &amp; \cdots\\<br>-\frac{1}{8} &amp; -\frac{1}{4} &amp; -\frac{1}{2} &amp; 0 &amp; \frac{1}{2} &amp; \frac{1}{4} &amp; \cdots\\<br>\cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdots<br>\end{bmatrix}<br>\]</p>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>高等数学</category>
+      </categories>
+      <tags>
+        <tag>微积分</tag>
+        <tag>反例</tag>
+        <tag>多元微积分</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>数学专业英语</title>
     <url>/2022/04/25/%E6%95%B0%E5%AD%A6%E4%B8%93%E4%B8%9A%E8%8B%B1%E8%AF%AD/</url>
     <content><![CDATA[<p>critical point: 临界点</p>
@@ -1030,251 +1045,34 @@ F=\cup_{i_{1},i_{2},\cdots,}\cap_{k=1}^{\infty}F_{i_{1},i_{2},\cdots,i_{k}},</sc
       </tags>
   </entry>
   <entry>
-    <title>数学中的各种图形绘制</title>
-    <url>/2022/04/27/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%9B%BE%E5%BD%A2%E7%BB%98%E5%88%B6/</url>
-    <content><![CDATA[<h1 id="笛卡尔叶形线MSE4435438"><a href="#笛卡尔叶形线MSE4435438" class="headerlink" title="笛卡尔叶形线MSE4435438"></a>笛卡尔叶形线<sup><a href="#fn_MSE4435438" id="reffn_MSE4435438">MSE4435438</a></sup></h1><figure class="highlight mathematica"><table><tr><td class="code"><pre><span class="line"><span class="built_in">ContourPlot</span><span class="punctuation">[</span><span class="variable">x</span><span class="operator">^</span><span class="number">3</span> <span class="operator">+</span> <span class="variable">y</span><span class="operator">^</span><span class="number">3</span> <span class="operator">==</span> <span class="number">3</span> <span class="variable">x</span><span class="operator">*</span><span class="variable">y</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">x</span><span class="operator">,</span> <span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">y</span><span class="operator">,</span> <span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span></span><br><span class="line"> <span class="built_in">Frame</span> <span class="operator">-&gt;</span> <span class="built_in">False</span><span class="comment">(*去除边框*)</span><span class="operator">,</span></span><br><span class="line"> <span class="built_in">Axes</span> <span class="operator">-&gt;</span> <span class="built_in">True</span><span class="operator">,</span></span><br><span class="line"> <span class="built_in">Ticks</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">2</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="comment">(*仅添加横坐标的一个刻度*)</span><span class="operator">,</span></span><br><span class="line"> <span class="built_in">ContourStyle</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="built_in">Thickness</span><span class="punctuation">[</span><span class="number">0.007</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Dashed</span><span class="operator">,</span> <span class="built_in">Black</span><span class="punctuation">&#125;</span><span class="comment">(*等高线样式*)</span><span class="operator">,</span></span><br><span class="line"> <span class="built_in">Epilog</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="built_in">Red</span><span class="operator">,</span> <span class="built_in">Line</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="number">1</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">,</span> <span class="operator">-</span><span class="number">3</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="operator">-</span><span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="operator">,</span> <span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="punctuation">&#125;</span><span class="operator">,</span></span><br><span class="line">   <span class="punctuation">&#123;</span><span class="built_in">Thickness</span><span class="punctuation">[</span><span class="number">0.005</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Line</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">2</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="operator">,</span> <span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">1</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">2</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="operator">,</span> <span class="number">0</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="punctuation">&#125;</span><span class="operator">,</span></span><br><span class="line">   <span class="built_in">PointSize</span><span class="punctuation">[</span><span class="built_in">Large</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Point</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="operator">,</span> <span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="operator">,</span></span><br><span class="line">   <span class="built_in">Text</span><span class="punctuation">[</span><span class="string">&quot;(3/2,3/2)&quot;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="operator">,</span> <span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">1.4</span><span class="operator">,</span> <span class="operator">-</span><span class="number">0.5</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="punctuation">&#125;</span><span class="punctuation">]</span></span><br></pre></td></tr></table></figure>
-<p><img src="/2022/04/27/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%9B%BE%E5%BD%A2%E7%BB%98%E5%88%B6/%E6%9C%AA%E5%91%BD%E5%90%8D-1-16510420766021.jpg" alt="未命名-1-16510420766021"></p>
-<figure class="highlight mathematica"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Module</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="variable">pt1</span> <span class="operator">=</span> <span class="punctuation">&#123;</span><span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="operator">,</span> <span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="variable">pt2</span> <span class="operator">=</span> <span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">2</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="operator">,</span> <span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">1</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="variable">pt3</span> <span class="operator">=</span> <span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">2</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="operator">,</span> <span class="number">0</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line"> <span class="built_in">PolarPlot</span><span class="punctuation">[</span></span><br><span class="line">  <span class="number">3</span> <span class="built_in">Sin</span><span class="punctuation">[</span><span class="variable">t</span><span class="punctuation">]</span> <span class="built_in">Cos</span><span class="punctuation">[</span><span class="variable">t</span><span class="punctuation">]</span><span class="operator">/</span><span class="punctuation">(</span><span class="built_in">Sin</span><span class="punctuation">[</span><span class="variable">t</span><span class="punctuation">]</span><span class="operator">^</span><span class="number">3</span> <span class="operator">+</span> <span class="built_in">Cos</span><span class="punctuation">[</span><span class="variable">t</span><span class="punctuation">]</span><span class="operator">^</span><span class="number">3</span><span class="punctuation">)</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">t</span><span class="operator">,</span> <span class="operator">-</span><span class="variable">\[Pi]</span><span class="operator">/</span><span class="number">4</span><span class="operator">,</span> <span class="number">7</span> <span class="variable">\[Pi]</span><span class="operator">/</span><span class="number">4</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">PlotRange</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="number">5</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">PlotStyle</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="built_in">Thickness</span><span class="punctuation">[</span><span class="number">1</span><span class="operator">/</span><span class="number">120</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Black</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="built_in">Axes</span> <span class="operator">-&gt;</span> <span class="built_in">True</span><span class="operator">,</span> <span class="built_in">Ticks</span> <span class="operator">-&gt;</span> <span class="built_in">None</span><span class="operator">,</span></span><br><span class="line">   <span class="built_in">AxesStyle</span> <span class="operator">-&gt;</span> <span class="built_in">Directive</span><span class="punctuation">[</span><span class="built_in">Thickness</span><span class="punctuation">[</span><span class="number">1</span><span class="operator">/</span><span class="number">300</span><span class="punctuation">]</span><span class="punctuation">]</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">Epilog</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="built_in">PointSize</span><span class="punctuation">[</span><span class="number">1</span><span class="operator">/</span><span class="number">50</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Thickness</span><span class="punctuation">[</span><span class="number">1</span><span class="operator">/</span><span class="number">200</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Point</span><span class="punctuation">[</span><span class="variable">pt1</span><span class="punctuation">]</span><span class="operator">,</span> </span><br><span class="line">    <span class="built_in">Line</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="variable">pt2</span><span class="operator">,</span> <span class="variable">pt3</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">pt1</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">1</span><span class="operator">,</span> <span class="operator">-</span><span class="number">1</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">3</span><span class="operator">,</span> <span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">,</span> <span class="operator">-</span><span class="number">3</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">ImageSize</span> <span class="operator">-&gt;</span> <span class="number">512</span><span class="punctuation">]</span><span class="punctuation">]</span></span><br></pre></td></tr></table></figure>
-<p><img src="/2022/04/27/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%9B%BE%E5%BD%A2%E7%BB%98%E5%88%B6/%E6%9C%AA%E5%91%BD%E5%90%8D-1-16510482241122.png" alt="未命名-1"></p>
-<blockquote id="fn_MSE4435438">
-<sup>MSE4435438</sup>. <a href="https://math.stackexchange.com/questions/4435438">https://math.stackexchange.com/questions/4435438</a><a href="#reffn_MSE4435438" title="Jump back to footnote [MSE4435438] in the text."> &#8617;</a>
-</blockquote>
-<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+    <title>在hexo的自定义配置</title>
+    <url>/2021/02/01/%E5%9C%A8hexo%E7%9A%84mathjax%E4%B8%AD%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AELaTeX%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h1 id="自定义配置mathjax"><a href="#自定义配置mathjax" class="headerlink" title="自定义配置mathjax"></a>自定义配置mathjax</h1><p>首先根据baidu出来的信息, 找到<a href="https://www.jianshu.com/p/7ab21c7f0674">简书</a>上的教程, 然后在参考<a href="http://docs.mathjax.org/en/latest/input/tex/extensions/configmacros.html#tex-configmacros">MathJax官方教程</a>在本地找到文件<code>[blog path]/themes/butterfly/layout/includes/third-party/math/mathjax.pug</code>进行修改, 为了防止链接实效, 将简要步骤叙述如下:</p>
+<h2 id="step-1"><a href="#step-1" class="headerlink" title="step 1"></a>step 1</h2><p>更换Hexo的markdown渲染引擎, <code>hexo-renderer-kramed引擎</code>是在默认的<code>渲染引擎hexo-renderer-marked</code>的基础上修改了一些bug, 两者比较接近, 也比较轻量级.</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-renderer-marked --save</span><br><span class="line">npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure>
+<p>执行上面的命令即可, 先卸载原来的渲染引擎, 再安装新的. 更换引擎后行间公式可以正确渲染了, 但是这样还没有完全解决问题, 行内公式的渲染还是有问题, 因为<code>hexo-renderer-kramed引擎</code>也有语义冲突的问题. 接下来到博客根目录下, 找到<code>node_modules\kramed\lib\rules\inline.js</code>, 把第11行的escape变量的值做相应的修改：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">// escape: /^\\([\\`*&#123;&#125;\[\]()#$+\-.!_&gt;])/,</span><br><span class="line">escape: /^\\([`*\[\]()#$+\-.!_&gt;])/,</span><br></pre></td></tr></table></figure>
+<p>这一步是在原基础上取消了对\,{,}的转义(escape).<br>同时把第20行的<code>em</code>变量也要做相应的修改.</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">// em: /^\b_((?:__|[\s\S])+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br><span class="line">em: /^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br></pre></td></tr></table></figure>
+<p>重新启动hexo(先clean再generate), 问题完美解决. </p>
+<h2 id="step-2"><a href="#step-2" class="headerlink" title="step 2"></a>step 2</h2><p>参考<a href="http://docs.mathjax.org/en/latest/input/tex/extensions/configmacros.html#tex-configmacros">MathJax官方教程</a>, 在本地找到文件<code>[blog path]/themes/butterfly/layout/includes/third-party/math/mathjax.pug</code>进行添加以下行:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">...</span><br><span class="line">window.MathJax = &#123;</span><br><span class="line">	loader: &#123;</span><br><span class="line">		source: &#123; ... &#125;,</span><br><span class="line">		load: [&#x27;[tex]/configmacros&#x27;]</span><br><span class="line">	&#125;,</span><br><span class="line">	tex: &#123;</span><br><span class="line">		packages: &#123;&#x27;[+]&#x27;: [&#x27;configmacros&#x27;]&#125;,</span><br><span class="line">		inlineMath: ...,</span><br><span class="line">		tags: ...,</span><br><span class="line">		macros: &#123;</span><br><span class="line">			RR: &#x27;\\mathbb&#123;R&#125;&#x27;,</span><br><span class="line">			ud: &#x27;\\mathrm&#123;d&#125;&#x27;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<p>如此便可以在hexo编写数学公式时使用自定义宏<code>\ud</code>和<code>\RR</code>来分别表示正体积分微元符号<code>d</code>和花写实数集<code>R</code>.</p>
+<h1 id="自定义配置搜索"><a href="#自定义配置搜索" class="headerlink" title="自定义配置搜索"></a>自定义配置搜索</h1><p>在blog根目录执行以下代码:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+<p>在<code>_config.yml</code>文件中新增以下代码段</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure>
+<p>在hexo博客所选择的主题, 比如<code>_config.yml</code>, 中增加以下配置即可</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> Local search</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> Dependencies: https://github.com/flashlab/hexo-generator-search</span></span><br><span class="line">local_search:</span><br><span class="line">  enable: true</span><br><span class="line"><span class="meta">  #</span><span class="bash"> <span class="keyword">if</span> auto, trigger search by changing input</span></span><br><span class="line"><span class="meta">  #</span><span class="bash"> <span class="keyword">if</span> manual, trigger search by pressing enter key or search button</span></span><br><span class="line">  trigger: auto</span><br><span class="line"><span class="meta">  #</span><span class="bash"> show top n results per article, show all results by setting to -1</span></span><br><span class="line">  top_n_per_article: 1</span><br></pre></td></tr></table></figure><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
       <categories>
-        <category>math</category>
+        <category>mathjax</category>
       </categories>
       <tags>
-        <tag>math</tag>
-        <tag>mathematica</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>形如$\lim_{n\rightarrow\infty}\frac{1}{n}\sum_{k=1}^{n}f(k)$的极限的求法</title>
-    <url>/2022/03/07/%E6%9E%81%E9%99%90%E7%9A%84%E6%B1%82%E6%B3%95/</url>
-    <content><![CDATA[<p>对于如下类型的极限计算<br>\[<br>\lim_{n\rightarrow\infty}\frac{1}{n}\sum_{k=1}^{n}f(k)<br>\]<br>可采用的计算方法有: </p>
-<ol>
-<li><p>转化为定积分定义计算; </p>
-</li>
-<li><p>采用Stolz定理, 转化为计算 $\lim_{n\rightarrow\infty}f(n)$. </p>
-</li>
-</ol>
-<p>若$f(k)$能表达成$g\left(\frac{k}{n}\right)$的形式时, 可才用定积分定义计算, 即<br>\[<br>\lim_{n\to\infty}\frac{1}{n}\sum_{k=1}^{n}g\left(\frac{k}{n}\right)=\int_{0}^{1}g(x)dx.<br>\]</p>
-<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-      <categories>
-        <category>高等数学</category>
-      </categories>
-      <tags>
-        <tag>数学</tag>
-        <tag>微积分</tag>
-        <tag>极限</tag>
-        <tag>数列极限</tag>
-        <tag>每日一题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>每日一题</title>
-    <url>/2022/02/26/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/</url>
-    <content><![CDATA[<div class="note info flat"><p>这里收录可以作为每日一题的习题. 因为是要做到每日一题的目标, 所以难度会有提升和提示上表述简略. 我也会根据不同问题进行归类, 同种方法的问题会放在我第一次遇到的问题中, 所以每个方法显示上会是只有一个问题. </p>
-</div>
-<h1 id="数列极限"><a href="#数列极限" class="headerlink" title="数列极限"></a>数列极限</h1><h2 id="可求通项"><a href="#可求通项" class="headerlink" title="可求通项"></a>可求通项</h2><div class="note primary no-icon flat"><p><strong>问题:</strong> 设数列 $\left\{ x_{n}\right\} $ 满足 $x_{0}=a$, $x_{1}=b$, $x_{n+1}=\frac{1}{2}\left(x_{n}+x_{n-1}\right)$, $n\in\NN_{+}$, 证明数列 $\left\{ x_{n}\right\} $ 极限存在并求其极限.</p>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 见<a href="#通项公式法-单调收敛">这里</a>. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong><span id="2022071201"></span> 设$a_{1}&gt;2$, 且当$n\ge1$时, $a_{n+1}=\frac{a_{n}^{2}}{2(a_{n}+1)}$. 问: $\left\{ a_{n}\right\} $收敛吗?</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>不动点法, 解方程</p>
-<script type="math/tex; mode=display">
-x=\frac{x^{2}}{2(x+1)}</script><p>有$x=0$或$x=-2$. 所以</p>
-<script type="math/tex; mode=display">
-a_{n+1}+2=\frac{(a_{n}+2)^{2}}{2(a_{n}+1)},</script><p>相除得到</p>
-<script type="math/tex; mode=display">
-\frac{a_{n+1}+2}{a_{n+1}}=\left(\frac{a_{n}+2}{a_{n}}\right)^{2}=\cdots=\left(\frac{a_{1}+2}{a_{1}}\right)^{2^{n}}\to\infty</script><p>所以$a_{n}\to0$. 收敛.</p>
-</div></div>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示2</span></div>
-    <div class="hide-content"><p>也可以用单调收敛定理, 注意$a_{n}&gt;0$是显然的,</p>
-<script type="math/tex; mode=display">
-a_{n+1}-a_{n}=\frac{-a_{n}^{2}-2a_{n}}{2(a_{n}+1)}<0.</script><p>所以$\left\{ a_{n}\right\} $单调下降有下界.</p>
-</div></div></div></div>
-<h2 id="单调有界"><a href="#单调有界" class="headerlink" title="单调有界"></a>单调有界</h2><div class="note primary no-icon flat"><p><strong>问题:</strong> 设数列 $\left\{ x_{n}\right\} $ 满足 $0&lt;x_{1}&lt;3,x_{n+1}=\sqrt{x_{n}\left(3-x_{n}\right)},n\in \NN_{+}$, 证明数列 $\left\{ x_{n}\right\} $ 极限存在并求其极限值.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>$x_{2}=\sqrt{x_{1}(3-x_{1})}$. </p>
-<script type="math/tex; mode=display">
-\sqrt{x(3-x)}\le\frac{x+3-x}{2}=\frac{3}{2}<3.</script><p>$0 &lt; x_{n}&lt;3$, $\forall n\in \mathbb{N}_{+}$. $x_{2}\le\frac{3}{2}$. $x_{2}\le x_{3}\le\frac{3}{2}$.</p>
-<script type="math/tex; mode=display">
-\sqrt{x(3-x)}\ge x\Longleftrightarrow3x-x^{2}\ge x^{2}\Longleftrightarrow x\le\frac{3}{2},\quad\forall0<x\le\frac{3}{2}.</script><p>所以$x_{n+1}&gt;x_{n}$, $\forall n\ge2$.</p>
-</div></div>
-
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 证明数列 $\sqrt{2},\sqrt{2+\sqrt{2}},\sqrt{2+\sqrt{2+\sqrt{2}}},\cdots$极限存在, 并求其极限值. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 见<a href="#通项公式法-单调收敛">这里</a>的提示2.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 见<a href="#2022071201">这里</a>的提示2.</p>
-</div></div>
-<h2 id="Taylor公式"><a href="#Taylor公式" class="headerlink" title="Taylor公式"></a>Taylor公式</h2><div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $a_{1}&gt;0$, $\left\{ a_{n}\right\} $ 满足 $a_{n+1}=\ln\left(1+a_{n}\right),n\in N_{+}$. </p>
-<p>(1) 证明数列 $\left\{ a_{n}\right\} $ 极限存在, 并求其极限值; </p>
-<p>(2) 计算 </p>
-<script type="math/tex; mode=display">
-\lim_{n\rightarrow\infty}\frac{a_{n}a_{n+1}}{a_{n}-a_{n+1}}.</script><p>(3) 计算</p>
-<script type="math/tex; mode=display">
-\lim_{n\to\infty}na_{n}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>$a_{n}\to0$.</p>
-<script type="math/tex; mode=display">
-a_{n}-\frac{a_{n}^{2}}{2}+\frac{a_{n}^{3}}{3}\ge a_{n+1}\ge a_{n}-\frac{a_{n}^{2}}{2}.</script><script type="math/tex; mode=display">
-\frac{1}{a_{n}}\frac{1}{1-\frac{a_{n}}{2}+\frac{a_{n}^{2}}{3}}\le\frac{1}{a_{n+1}}\le\frac{1}{a_{n}}\frac{2}{2-a_{n}}.</script><script type="math/tex; mode=display">
-\frac{1}{a_{n}}\frac{\frac{a_{n}}{2}-\frac{a_{n}^{2}}{3}}{1-\frac{a_{n}}{2}+\frac{a_{n}^{2}}{3}}=\frac{\frac{1}{2}-\frac{a_{n}}{3}}{1-\frac{a_{n}}{2}+\frac{a_{n}^{2}}{3}}<\frac{1}{a_{n+1}}-\frac{1}{a_{n}}\le\frac{1}{a_{n}}\frac{a_{n}}{2-a_{n}}=\frac{1}{2-a_{n}}</script><script type="math/tex; mode=display">
-\frac{1}{2}\le\lim_{n\to\infty}\frac{1}{a_{n+1}}-\frac{1}{a_{n}}\le\frac{1}{2}.</script><p>第三个极限使用Stolz公式.</p>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> (1) 证明方程 $x^{n}+x^{n-1}+\cdots+x=1$, $(n&gt;1,n\in\ZZ)$ 在区间 $\left(\frac{1}{2},1\right)$ 内有且仅有一个实根; </p>
-<p>(2) 记 (1) 中的实根为 $x_{n}$, 证明数列 $\left\{ x_{n}\right\} $ 极限存在并求其极限.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-2(x_{n}-1)=x_{n}^{n+1}-1.</script><script type="math/tex; mode=display">
-x_{n}=\sqrt[n+1]{1+2(x_{n}-1)}=1+\frac{2(x_{n}-1)}{n+1}+o\left(\frac{1}{n}\right)\to1,\quad n\to\infty.</script></div></div></div></div></div>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> (1) 证明方程 $e^{x}+x^{2n+1}=0$ 在 $(-1,0)$ 有唯一实根 $x_{n}$, 且 $n\in\NN_{+}$; </p>
-<p>(2) 证明数列 $\left\{ x_{n}\right\} $ 极限存在并求其值 $a$; </p>
-<p>(3) 计算 </p>
-<script type="math/tex; mode=display">
-\lim_{n\rightarrow\infty}n\left(x_{n}-a\right)</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>注意$x_n$有界, 所以</p>
-<script type="math/tex; mode=display">
-\ue^{\frac{x_{n}}{2n+1}}=-x_{n}\to1,\quad n\to\infty.</script><script type="math/tex; mode=display">
-1+x_{n}=1-\ue^{\frac{x_{n}}{2n+1}},</script><script type="math/tex; mode=display">
-n(1+x_{n})=n\left(1-\ue^{\frac{x_{n}}{2n+1}}\right)=n\left(1-\left(1+\frac{x_{n}}{2n+1}+o\left(\frac{1}{n}\right)\right)\right)=-\frac{nx_{n}}{2n+1}+o(1)\to-\frac{1}{2}\cdot(-1)=\frac{1}{2},\quad n\to\infty.</script></div></div></div></div>
-<h2 id="Stolz公式"><a href="#Stolz公式" class="headerlink" title="Stolz公式"></a>Stolz公式</h2><div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $a_{1}=1$, $a_{n+1}=a_{n}+\frac{1}{a_{n}}$, ($n \in \mathbb{N}_{+}$), 证明</p>
-<script type="math/tex; mode=display">
-\lim _{n \rightarrow \infty} \frac{a_{n}}{\sqrt{n}}=\sqrt{2}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>用Stolz公式求极限: </p>
-<p>$a_{n}$ 单调上升, 反证法可得$a_{n}$没有有限极限.</p>
-<script type="math/tex; mode=display">
-\lim_{n\to\infty}\frac{a_{n}^{2}}{n}\xlongequal{\text{ Stolz 公式 }}\lim_{n\to\infty}\frac{a_{n+1}^{2}-a_{n}^{2}}{1}=\lim_{n\to\infty}(a_{n+1}+a_{n})\frac{1}{a_{n}}=2+\lim_{n\to\infty}\frac{1}{a_{n}^{2}}=2.</script></div></div>
-
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 定义数列$x_{1}\in(0,1)$且满足</p>
-<script type="math/tex; mode=display">
-x_{n+1}=\frac{1}{n}\sum_{k=1}^{n}\ln(1+x_{k}),</script><p>求极限</p>
-<script type="math/tex; mode=display">
-\lim_{n\to\infty}x_{n}\ln n.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>容易得到简化的递推公式</p>
-<script type="math/tex; mode=display">
-nx_{n+1}-(n-1)x_{n}=\ln(1+x_{n})\le x_{n}</script><p>所以$\left\{ x_{n}\right\} $是单调递减数列, 并容易验证它有下界$0$. 最后由Stolz公式</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-x_{n}\ln n & =\frac{\ln n}{\frac{1}{x_{n}}}\sim\frac{\ln(n+1)-\ln n}{\frac{1}{x_{n+1}}-\frac{1}{x_{n}}}\\
- & \sim\frac{\frac{1}{n}}{\frac{1}{x_{n+1}}-\frac{1}{x_{n}}}=\frac{1}{n}\cdot\frac{1}{\frac{1}{x_{n}+\frac{\ln(1+x_{n})-x_{n}}{n}}-\frac{1}{x_{n}}}\\
- & =\frac{x_{n}\left(x_{n}+\frac{\ln(1+x_{n})-x_{n}}{n}\right)}{\ln(1+x_{n})-x_{n}}\sim\frac{x_{n}\left(x_{n}+o(1)\right)}{\frac{x_{n}^{2}}{2}+o(1)}\to2.
-\end{align*}</script></div></div></div></div>
-<h2 id="压缩映射"><a href="#压缩映射" class="headerlink" title="压缩映射"></a>压缩映射</h2><div class="note primary no-icon flat"><p><strong>问题:</strong><span id="通项公式法-单调收敛"></span> 设数列 $\left\{ x_{n}\right\} $ 满足 $x_{1}=2$, $x_{n+1}=2+\frac{1}{x_{n}}$, $n\in\NN_{+}$, 证明数列 $\left\{ x_{n}\right\} $ 收敛, 并求其极限值.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示1</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-\left|x_{n+1}-x_{n}\right|=\left|\frac{1}{x_{n}}-\frac{1}{x_{n-1}}\right|=\left|\frac{x_{n}-x_{n-1}}{x_{n}x_{n-1}}\right|\le\frac{1}{4}\left|x_{n}-x_{n-1}\right|,</script><p>$x_{n}\to x$, $n\to\infty$. $x=2+\frac{1}{x}$, $x^{2}-2x-1=0$, $x_{1,2}=\frac{2\pm\sqrt{4+4}}{2}=\frac{2\pm2\sqrt{2}}{2}=1\pm\sqrt{2}$, $x=1+\sqrt{2}.$</p>
-</div></div>
-
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示2</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-x_{n+2}-x_{n}=\frac{1}{x_{n+1}}-\frac{1}{x_{n-1}}=-\frac{x_{n+1}-x_{n-1}}{x_{n+1}x_{n-1}}=\frac{x_{n}-x_{n-2}}{x_{n}x_{n-2}x_{n+1}x_{n-1}}.</script><p>$x_{2}=2\frac{1}{2}$, $x_{3}=2+\frac{2}{5}&lt;x_{2}$, 所以$\left\{ x_{2n+1}\right\} $单调上升, $x_{4}=2+\frac{5}{12}&lt;x_{2}$, $\left\{ x_{2n}\right\} $单调下降, 且$x_{2n+1}&lt;x_{2n}$.<br>即</p>
-<script type="math/tex; mode=display">
-x_{1}<\cdots<x_{2n+1}<x_{2n}<\cdots<x_{2}.</script><p>所以$\left\{ x_{2n}\right\} $与$\left\{ x_{2n+1}\right\} $均收敛.</p>
-</div></div>
-
-<div class="hide-toggle" style="border: 1px solid red"><div class="hide-button toggle-title" style="background-color: red;color: white"><i class="fas fa-caret-right fa-fw"></i><span>其实这个数列是可求通项的</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-x_{n+1}-1-\sqrt{2}=1-\sqrt{2}+\frac{1}{x_{n}}=\frac{(1-\sqrt{2})x_{n}+1}{x_{n}}=-\frac{x_{n}-1-\sqrt{2}}{(1+\sqrt{2})x_{n}}.
-\frac{x_{n+1}-1-\sqrt{2}}{x_{n}-1-\sqrt{2}}=-\frac{1}{(1+\sqrt{2})x_{n}},</script><script type="math/tex; mode=display">
-x_{n+1}-1+\sqrt{2}=1+\sqrt{2}+\frac{1}{x_{n}}=-\frac{x_{n}-1+\sqrt{2}}{(\sqrt{2}-1)x_{n}}.</script><script type="math/tex; mode=display">
-\frac{x_{n+1}-1+\sqrt{2}}{x_{n}-1+\sqrt{2}}=-\frac{1}{(\sqrt{2}-1)x_{n}}.</script><script type="math/tex; mode=display">
-\left(\frac{x_{n+1}-1-\sqrt{2}}{x_{n+1}-1+\sqrt{2}}\right)/\left(\frac{x_{n}-1-\sqrt{2}}{x_{n}-1+\sqrt{2}}\right)=\frac{1+\sqrt{2}}{\sqrt{2}-1}.</script></div></div>
-
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 设数列 $\left\{ x_{n}\right\} $ 满足 $x_{n+1}=\cos x_{n}$, $n\in N_{+}$, $x_{1}=\cos x$, 证明该数列极限存在且其极限值为 $\cos x-x=0$ 的根.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-\left|x_{n+1}-x_{n}\right|=\left|\cos x_{n}-\cos x_{n-1}\right|=\left|2\sin\frac{x_{n}+x_{n-1}}{2}\sin\frac{x_{n}-x_{n-1}}{2}\right|<\sin1\left|x_{n}-x_{n-1}\right|,\quad n\ge2.</script><p>聚点定理且根据方程极限点唯一.</p>
-</div></div></div></div>
-<h2 id="积分收敛性"><a href="#积分收敛性" class="headerlink" title="积分收敛性"></a>积分收敛性</h2><div class="note primary no-icon flat"><p><strong>问题:</strong> (1) 证明方程 $\tan x=x$ 在 $\left(n\pi,n\pi+\frac{\pi}{2}\right)$ 内存在实根 $\xi_{n},n\in N_{+}$; </p>
-<p>(2) 计算极限 </p>
-<script type="math/tex; mode=display">
-\lim_{n\rightarrow\infty}\left(\xi_{n+1}-\xi_{n}\right)</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-\xi_{n}=n\pi+\arctan\xi_{n},\quad\xi_{n}\in\left(n\pi,n\pi+\frac{\pi}{2}\right).</script><script type="math/tex; mode=display">
-\left|\xi_{n+1}-\xi_{n}\right|=\left|\pi+\arctan\xi_{n+1}-\arctan\xi_{n}\right|=\pi+O\left(\int_{n\pi}^{n\pi+\frac{3\pi}{2}}\frac{1}{1+x^{2}}\ud x\right)\to\pi,\quad n\to\infty.</script></div></div>
-
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 求极限</p>
-<script type="math/tex; mode=display">
-\lim_{n\to\infty}\int_{0}^{\pi}\frac{\sin x}{1+\cos^{2}nx}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>作变量替换</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-\lim_{n\to\infty}\int_{0}^{\pi}\frac{\sin x}{1+\cos^{2}nx}\ud x & =\lim_{n\to\infty}\int_{0}^{n\pi}\frac{\frac{1}{n}\sin\frac{x}{n}}{1+\cos^{2}x}\ud x\\
- & =\lim_{n\to\infty}\int_{0}^{\pi}\frac{\frac{1}{n}\left(\sin\frac{x}{n}+\sin\frac{x+\pi}{n}+\cdots+\sin\frac{x+(n-1)\pi}{n}\right)}{1+\cos^{2}x}\ud x\\
- & =\int_{0}^{\pi}\frac{\lim_{n\to\infty}\frac{1}{n}\left(\sin\frac{x}{n}+\sin\frac{x+\pi}{n}+\cdots+\sin\frac{x+(n-1)\pi}{n}\right)}{1+\cos^{2}x}\ud x\\
- & =\int_{0}^{\pi}\frac{\frac{1}{\pi}\int_{0}^{\pi}\sin t\ud t}{1+\cos^{2}x}\ud x\\
- & =\sqrt{2}.
-\end{align*}</script></div></div></div></div>
-<h1 id="阶的估计"><a href="#阶的估计" class="headerlink" title="阶的估计"></a>阶的估计</h1><h2 id="离散和的阶"><a href="#离散和的阶" class="headerlink" title="离散和的阶"></a>离散和的阶</h2><div class="note primary no-icon flat"><p><strong>问题:</strong> 证明: </p>
-<script type="math/tex; mode=display">
-\sum_{k=1}^{n}\sin\sqrt{k}=O(\sqrt{n}),\qquad n\to\infty.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>用<a href="/2022/07/12/Euler%E6%B1%82%E5%92%8C%E5%85%AC%E5%BC%8F/" title="Euler求和公式">Euler求和公式</a></p>
-<script type="math/tex; mode=display">
-\begin{align*}
-\sum_{k=1}^{n}\sin\sqrt{k} & =\int_{0}^{n}\sin\sqrt{x}\ud x+\frac{\sin\sqrt{n}}{2}+\int_{0}^{n}\left\langle x\right\rangle \frac{\cos\sqrt{x}}{2\sqrt{x}}\ud x\\
- & =\int_{0}^{\sqrt{n}}2x\sin x\ud x+O(\sqrt{n})\\
- & =-2(x\cos x\mid_{0}^{\sqrt{n}}-\int_{0}^{\sqrt{n}}\cos x\ud x)+O(\sqrt{n})\\
- & =O(\sqrt{n}).
-\end{align*}</script></div></div>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>注意到:</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-\left|\sin\sqrt{k}-\int_{k-1/2}^{k+1/2}\sin\sqrt{t}\ud t\right| & =\left|\int_{k-1/2}^{k+1/2}\sin\sqrt{k}-\sin\sqrt{t}\ud t\right|\\
- & =\left|\int_{k-1/2}^{k+1/2}\frac{\cos\xi(k,t)}{2\sqrt{\xi(k,t)}}\ud t\right|\\
- & =\left|\int_{k-1/2}^{k+1/2}O\left(\frac{1}{\sqrt{k}}\right)\ud t\right|=O\left(\frac{1}{\sqrt{k}}\right),
-\end{align*}</script><p>其中$\xi=\xi(k,t)$是介于$k,t$之间的数.</p>
-</div></div></div>
-<h1 id="微分-积分不等式"><a href="#微分-积分不等式" class="headerlink" title="微分 - 积分不等式"></a>微分 - 积分不等式</h1><h2 id="Taylor公式-1"><a href="#Taylor公式-1" class="headerlink" title="Taylor公式"></a>Taylor公式</h2><div class="note primary no-icon flat"><p><strong>问题:</strong> 设$f\in C^{2}(\RR)$, $f\ge0$, $f’’\le1$. 证明: $(f’)^{2}\le2f$.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>由Taylor公式</p>
-<script type="math/tex; mode=display">
-f(x)=f(a)+\frac{f'(a)}{1!}(x-a)+\frac{f''(\xi)}{2!}(x-a)^{2}\ge0,</script><p>上式对于任意的$h=x-a\in\RR$都成立. 即对于任意的$h\in\RR$, $a\in\RR$有</p>
-<script type="math/tex; mode=display">
-f(a)+f'(a)h+\frac{f''(\xi)}{2!}h^{2}\ge0.</script><p>所以$\Delta=(f’(a))^{2}-2f(a)f’’(\xi)\le0$, 即$(f’(a))^{2}\le2f(a)f’’(\xi)\le2f(a)$. </p>
-</div></div></div>
-<h2 id="积分不等式证微分不等式"><a href="#积分不等式证微分不等式" class="headerlink" title="积分不等式证微分不等式"></a>积分不等式证微分不等式</h2><div class="note primary no-icon flat"><p><strong>问题:</strong> 设$f:\RR^{n}\to\RR$处处可微, 且</p>
-<script type="math/tex; mode=display">
-\norm{\nabla f(x)-\nabla f(y)}\le\norm{x-y},\qquad\forall x,y\in\RR^{n}.</script><p>证明:</p>
-<script type="math/tex; mode=display">
-\left|f(y)-f(x)-\nabla f(x)\cdot(y-x)\right|\le\frac{1}{2}\norm{x-y}^{2},\qquad\forall x,y\in\RR^{n}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>用Newton-Leibniz公式的惯用技巧</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-\left|f(y)-f(x)-\nabla f(x)\cdot(y-x)\right| & =\left|\int_{0}^{1}\frac{\ud}{\ud t}\left(f(x+t(y-x))\right)\ud t-\nabla f(x)\cdot(y-x)\right|\\
- & =\left|\int_{0}^{1}\left(\nabla f(x+t(y-x))-\nabla f(x)\right)\cdot(y-x)\ud t\right|\\
- & \le\int_{0}^{1}t\norm{y-x}^{2}\ud t\\
- & =\frac{1}{2}\norm{y-x}^{2}.
-\end{align*}</script></div></div></div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-      <categories>
-        <category>数学</category>
-      </categories>
-      <tags>
-        <tag>极限</tag>
-        <tag>数列极限</tag>
-        <tag>每日一题</tag>
-        <tag>高等数学</tag>
-        <tag>微分不等式</tag>
-        <tag>积分不等式</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>用重积分求解定积分</title>
-    <url>/2022/03/07/%E7%94%A8%E9%87%8D%E7%A7%AF%E5%88%86%E6%B1%82%E8%A7%A3%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<div class="note primary no-icon flat"><p><strong>问题:</strong> 求</p>
-<script type="math/tex; mode=display">
-I=\int_{0}^{1}\frac{x-1}{\ln x}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><script type="math/tex; mode=display">
-I=\int_{0}^{1}\int_{0}^{1}x^{y}\ud y\ud x=\int_{0}^{1}\int_{0}^{1}x^{y}\ud x\ud y=\int_{0}^{1}\frac{1}{y+1}\ud y=\ln(1+y)\mid_{0}^{1}=\ln2.</script></div></div></div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-      <categories>
-        <category>高等数学</category>
-      </categories>
-      <tags>
-        <tag>重积分</tag>
-        <tag>每日一题</tag>
-        <tag>定积分</tag>
-        <tag>积分求法</tag>
+        <tag>latex</tag>
+        <tag>hexo</tag>
+        <tag>blog</tag>
+        <tag>mathjax</tag>
+        <tag>search</tag>
       </tags>
   </entry>
   <entry>
@@ -1688,6 +1486,48 @@ P(\widehat{\theta}_{1}<\theta<\widehat{\theta}_{2})=1-\alpha,</script><p>则称�
       </tags>
   </entry>
   <entry>
+    <title>数学中的各种图形绘制</title>
+    <url>/2022/04/27/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%9B%BE%E5%BD%A2%E7%BB%98%E5%88%B6/</url>
+    <content><![CDATA[<h1 id="笛卡尔叶形线MSE4435438"><a href="#笛卡尔叶形线MSE4435438" class="headerlink" title="笛卡尔叶形线MSE4435438"></a>笛卡尔叶形线<sup><a href="#fn_MSE4435438" id="reffn_MSE4435438">MSE4435438</a></sup></h1><figure class="highlight mathematica"><table><tr><td class="code"><pre><span class="line"><span class="built_in">ContourPlot</span><span class="punctuation">[</span><span class="variable">x</span><span class="operator">^</span><span class="number">3</span> <span class="operator">+</span> <span class="variable">y</span><span class="operator">^</span><span class="number">3</span> <span class="operator">==</span> <span class="number">3</span> <span class="variable">x</span><span class="operator">*</span><span class="variable">y</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">x</span><span class="operator">,</span> <span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">y</span><span class="operator">,</span> <span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span></span><br><span class="line"> <span class="built_in">Frame</span> <span class="operator">-&gt;</span> <span class="built_in">False</span><span class="comment">(*去除边框*)</span><span class="operator">,</span></span><br><span class="line"> <span class="built_in">Axes</span> <span class="operator">-&gt;</span> <span class="built_in">True</span><span class="operator">,</span></span><br><span class="line"> <span class="built_in">Ticks</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">2</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="comment">(*仅添加横坐标的一个刻度*)</span><span class="operator">,</span></span><br><span class="line"> <span class="built_in">ContourStyle</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="built_in">Thickness</span><span class="punctuation">[</span><span class="number">0.007</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Dashed</span><span class="operator">,</span> <span class="built_in">Black</span><span class="punctuation">&#125;</span><span class="comment">(*等高线样式*)</span><span class="operator">,</span></span><br><span class="line"> <span class="built_in">Epilog</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="built_in">Red</span><span class="operator">,</span> <span class="built_in">Line</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="number">1</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">,</span> <span class="operator">-</span><span class="number">3</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="operator">-</span><span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="operator">,</span> <span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="punctuation">&#125;</span><span class="operator">,</span></span><br><span class="line">   <span class="punctuation">&#123;</span><span class="built_in">Thickness</span><span class="punctuation">[</span><span class="number">0.005</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Line</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">2</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="operator">,</span> <span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">1</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">2</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="operator">,</span> <span class="number">0</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="punctuation">&#125;</span><span class="operator">,</span></span><br><span class="line">   <span class="built_in">PointSize</span><span class="punctuation">[</span><span class="built_in">Large</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Point</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="operator">,</span> <span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="operator">,</span></span><br><span class="line">   <span class="built_in">Text</span><span class="punctuation">[</span><span class="string">&quot;(3/2,3/2)&quot;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="operator">,</span> <span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">1.4</span><span class="operator">,</span> <span class="operator">-</span><span class="number">0.5</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="punctuation">&#125;</span><span class="punctuation">]</span></span><br></pre></td></tr></table></figure>
+<p><img src="/2022/04/27/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%9B%BE%E5%BD%A2%E7%BB%98%E5%88%B6/%E6%9C%AA%E5%91%BD%E5%90%8D-1-16510420766021.jpg" alt="未命名-1-16510420766021"></p>
+<figure class="highlight mathematica"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Module</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="variable">pt1</span> <span class="operator">=</span> <span class="punctuation">&#123;</span><span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="operator">,</span> <span class="number">3</span><span class="operator">/</span><span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="variable">pt2</span> <span class="operator">=</span> <span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">2</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="operator">,</span> <span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">1</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="variable">pt3</span> <span class="operator">=</span> <span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">^</span><span class="punctuation">(</span><span class="number">2</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">)</span><span class="operator">,</span> <span class="number">0</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line"> <span class="built_in">PolarPlot</span><span class="punctuation">[</span></span><br><span class="line">  <span class="number">3</span> <span class="built_in">Sin</span><span class="punctuation">[</span><span class="variable">t</span><span class="punctuation">]</span> <span class="built_in">Cos</span><span class="punctuation">[</span><span class="variable">t</span><span class="punctuation">]</span><span class="operator">/</span><span class="punctuation">(</span><span class="built_in">Sin</span><span class="punctuation">[</span><span class="variable">t</span><span class="punctuation">]</span><span class="operator">^</span><span class="number">3</span> <span class="operator">+</span> <span class="built_in">Cos</span><span class="punctuation">[</span><span class="variable">t</span><span class="punctuation">]</span><span class="operator">^</span><span class="number">3</span><span class="punctuation">)</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">t</span><span class="operator">,</span> <span class="operator">-</span><span class="variable">\[Pi]</span><span class="operator">/</span><span class="number">4</span><span class="operator">,</span> <span class="number">7</span> <span class="variable">\[Pi]</span><span class="operator">/</span><span class="number">4</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">PlotRange</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">2</span><span class="operator">,</span> <span class="number">5</span><span class="operator">/</span><span class="number">3</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">PlotStyle</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="built_in">Thickness</span><span class="punctuation">[</span><span class="number">1</span><span class="operator">/</span><span class="number">120</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Black</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="built_in">Axes</span> <span class="operator">-&gt;</span> <span class="built_in">True</span><span class="operator">,</span> <span class="built_in">Ticks</span> <span class="operator">-&gt;</span> <span class="built_in">None</span><span class="operator">,</span></span><br><span class="line">   <span class="built_in">AxesStyle</span> <span class="operator">-&gt;</span> <span class="built_in">Directive</span><span class="punctuation">[</span><span class="built_in">Thickness</span><span class="punctuation">[</span><span class="number">1</span><span class="operator">/</span><span class="number">300</span><span class="punctuation">]</span><span class="punctuation">]</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">Epilog</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="built_in">PointSize</span><span class="punctuation">[</span><span class="number">1</span><span class="operator">/</span><span class="number">50</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Thickness</span><span class="punctuation">[</span><span class="number">1</span><span class="operator">/</span><span class="number">200</span><span class="punctuation">]</span><span class="operator">,</span> <span class="built_in">Point</span><span class="punctuation">[</span><span class="variable">pt1</span><span class="punctuation">]</span><span class="operator">,</span> </span><br><span class="line">    <span class="built_in">Line</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="variable">pt2</span><span class="operator">,</span> <span class="variable">pt3</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">pt1</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">1</span><span class="operator">,</span> <span class="operator">-</span><span class="number">1</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="operator">-</span><span class="number">3</span><span class="operator">,</span> <span class="number">2</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">,</span> <span class="operator">-</span><span class="number">3</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">ImageSize</span> <span class="operator">-&gt;</span> <span class="number">512</span><span class="punctuation">]</span><span class="punctuation">]</span></span><br></pre></td></tr></table></figure>
+<p><img src="/2022/04/27/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%9B%BE%E5%BD%A2%E7%BB%98%E5%88%B6/%E6%9C%AA%E5%91%BD%E5%90%8D-1-16510482241122.png" alt="未命名-1"></p>
+<blockquote id="fn_MSE4435438">
+<sup>MSE4435438</sup>. <a href="https://math.stackexchange.com/questions/4435438">https://math.stackexchange.com/questions/4435438</a><a href="#reffn_MSE4435438" title="Jump back to footnote [MSE4435438] in the text."> &#8617;</a>
+</blockquote>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>math</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>mathematica</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>形如$\lim_{n\rightarrow\infty}\frac{1}{n}\sum_{k=1}^{n}f(k)$的极限的求法</title>
+    <url>/2022/03/07/%E6%9E%81%E9%99%90%E7%9A%84%E6%B1%82%E6%B3%95/</url>
+    <content><![CDATA[<p>对于如下类型的极限计算<br>\[<br>\lim_{n\rightarrow\infty}\frac{1}{n}\sum_{k=1}^{n}f(k)<br>\]<br>可采用的计算方法有: </p>
+<ol>
+<li><p>转化为定积分定义计算; </p>
+</li>
+<li><p>采用Stolz定理, 转化为计算 $\lim_{n\rightarrow\infty}f(n)$. </p>
+</li>
+</ol>
+<p>若$f(k)$能表达成$g\left(\frac{k}{n}\right)$的形式时, 可才用定积分定义计算, 即<br>\[<br>\lim_{n\to\infty}\frac{1}{n}\sum_{k=1}^{n}g\left(\frac{k}{n}\right)=\int_{0}^{1}g(x)dx.<br>\]</p>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>高等数学</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+        <tag>微积分</tag>
+        <tag>极限</tag>
+        <tag>数列极限</tag>
+        <tag>每日一题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>积分不等式</title>
     <url>/2022/03/07/%E7%A7%AF%E5%88%86%E4%B8%8D%E7%AD%89%E5%BC%8F/</url>
     <content><![CDATA[<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $f(x)$ 在 $[a,b]$ 上具有二阶可导, 且 $f(a)=f(b)=0$, $M=\max_{x\in[a,b]}\left|f^{\prime\prime}(x)\right|$, 证明 </p>
@@ -1811,11 +1651,201 @@ G'(x)=2f(x)-2f(x)f'(x)\ge0.</script></div></div></div>
         <category>高等数学</category>
       </categories>
       <tags>
+        <tag>高等数学</tag>
         <tag>微积分</tag>
         <tag>积分</tag>
         <tag>每日一题</tag>
-        <tag>高等数学</tag>
         <tag>不等式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>每日一题</title>
+    <url>/2022/02/26/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/</url>
+    <content><![CDATA[<script src="https://api.vvhan.com/api/snow"></script>
+
+<div class="note info flat"><p>这里收录可以作为每日一题的习题. 因为是要做到每日一题的目标, 所以难度会有提升和提示上表述简略. 我也会根据不同问题进行归类, 同种方法的问题会放在我第一次遇到的问题中, 所以每个方法显示上会是只有一个问题. </p>
+</div>
+<h1 id="数列极限"><a href="#数列极限" class="headerlink" title="数列极限"></a>数列极限</h1><h2 id="可求通项"><a href="#可求通项" class="headerlink" title="可求通项"></a>可求通项</h2><div class="note primary no-icon flat"><p><strong>问题:</strong> 设数列 $\left\{ x_{n}\right\} $ 满足 $x_{0}=a$, $x_{1}=b$, $x_{n+1}=\frac{1}{2}\left(x_{n}+x_{n-1}\right)$, $n\in\NN_{+}$, 证明数列 $\left\{ x_{n}\right\} $ 极限存在并求其极限.</p>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 见<a href="#通项公式法-单调收敛">这里</a>. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong><span id="2022071201"></span> 设$a_{1}&gt;2$, 且当$n\ge1$时, $a_{n+1}=\frac{a_{n}^{2}}{2(a_{n}+1)}$. 问: $\left\{ a_{n}\right\} $收敛吗?</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>不动点法, 解方程</p>
+<script type="math/tex; mode=display">
+x=\frac{x^{2}}{2(x+1)}</script><p>有$x=0$或$x=-2$. 所以</p>
+<script type="math/tex; mode=display">
+a_{n+1}+2=\frac{(a_{n}+2)^{2}}{2(a_{n}+1)},</script><p>相除得到</p>
+<script type="math/tex; mode=display">
+\frac{a_{n+1}+2}{a_{n+1}}=\left(\frac{a_{n}+2}{a_{n}}\right)^{2}=\cdots=\left(\frac{a_{1}+2}{a_{1}}\right)^{2^{n}}\to\infty</script><p>所以$a_{n}\to0$. 收敛.</p>
+</div></div>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示2</span></div>
+    <div class="hide-content"><p>也可以用单调收敛定理, 注意$a_{n}&gt;0$是显然的,</p>
+<script type="math/tex; mode=display">
+a_{n+1}-a_{n}=\frac{-a_{n}^{2}-2a_{n}}{2(a_{n}+1)}<0.</script><p>所以$\left\{ a_{n}\right\} $单调下降有下界.</p>
+</div></div></div></div>
+<h2 id="单调有界"><a href="#单调有界" class="headerlink" title="单调有界"></a>单调有界</h2><div class="note primary no-icon flat"><p><strong>问题:</strong> 设数列 $\left\{ x_{n}\right\} $ 满足 $0&lt;x_{1}&lt;3,x_{n+1}=\sqrt{x_{n}\left(3-x_{n}\right)},n\in \NN_{+}$, 证明数列 $\left\{ x_{n}\right\} $ 极限存在并求其极限值.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>$x_{2}=\sqrt{x_{1}(3-x_{1})}$. </p>
+<script type="math/tex; mode=display">
+\sqrt{x(3-x)}\le\frac{x+3-x}{2}=\frac{3}{2}<3.</script><p>$0 &lt; x_{n}&lt;3$, $\forall n\in \mathbb{N}_{+}$. $x_{2}\le\frac{3}{2}$. $x_{2}\le x_{3}\le\frac{3}{2}$.</p>
+<script type="math/tex; mode=display">
+\sqrt{x(3-x)}\ge x\Longleftrightarrow3x-x^{2}\ge x^{2}\Longleftrightarrow x\le\frac{3}{2},\quad\forall0<x\le\frac{3}{2}.</script><p>所以$x_{n+1}&gt;x_{n}$, $\forall n\ge2$.</p>
+</div></div>
+
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 证明数列 $\sqrt{2},\sqrt{2+\sqrt{2}},\sqrt{2+\sqrt{2+\sqrt{2}}},\cdots$极限存在, 并求其极限值. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 见<a href="#通项公式法-单调收敛">这里</a>的提示2.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 见<a href="#2022071201">这里</a>的提示2.</p>
+</div></div>
+<h2 id="Taylor公式"><a href="#Taylor公式" class="headerlink" title="Taylor公式"></a>Taylor公式</h2><div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $a_{1}&gt;0$, $\left\{ a_{n}\right\} $ 满足 $a_{n+1}=\ln\left(1+a_{n}\right),n\in N_{+}$. </p>
+<p>(1) 证明数列 $\left\{ a_{n}\right\} $ 极限存在, 并求其极限值; </p>
+<p>(2) 计算 </p>
+<script type="math/tex; mode=display">
+\lim_{n\rightarrow\infty}\frac{a_{n}a_{n+1}}{a_{n}-a_{n+1}}.</script><p>(3) 计算</p>
+<script type="math/tex; mode=display">
+\lim_{n\to\infty}na_{n}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>$a_{n}\to0$.</p>
+<script type="math/tex; mode=display">
+a_{n}-\frac{a_{n}^{2}}{2}+\frac{a_{n}^{3}}{3}\ge a_{n+1}\ge a_{n}-\frac{a_{n}^{2}}{2}.</script><script type="math/tex; mode=display">
+\frac{1}{a_{n}}\frac{1}{1-\frac{a_{n}}{2}+\frac{a_{n}^{2}}{3}}\le\frac{1}{a_{n+1}}\le\frac{1}{a_{n}}\frac{2}{2-a_{n}}.</script><script type="math/tex; mode=display">
+\frac{1}{a_{n}}\frac{\frac{a_{n}}{2}-\frac{a_{n}^{2}}{3}}{1-\frac{a_{n}}{2}+\frac{a_{n}^{2}}{3}}=\frac{\frac{1}{2}-\frac{a_{n}}{3}}{1-\frac{a_{n}}{2}+\frac{a_{n}^{2}}{3}}<\frac{1}{a_{n+1}}-\frac{1}{a_{n}}\le\frac{1}{a_{n}}\frac{a_{n}}{2-a_{n}}=\frac{1}{2-a_{n}}</script><script type="math/tex; mode=display">
+\frac{1}{2}\le\lim_{n\to\infty}\frac{1}{a_{n+1}}-\frac{1}{a_{n}}\le\frac{1}{2}.</script><p>第三个极限使用Stolz公式.</p>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> (1) 证明方程 $x^{n}+x^{n-1}+\cdots+x=1$, $(n&gt;1,n\in\ZZ)$ 在区间 $\left(\frac{1}{2},1\right)$ 内有且仅有一个实根; </p>
+<p>(2) 记 (1) 中的实根为 $x_{n}$, 证明数列 $\left\{ x_{n}\right\} $ 极限存在并求其极限.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+2(x_{n}-1)=x_{n}^{n+1}-1.</script><script type="math/tex; mode=display">
+x_{n}=\sqrt[n+1]{1+2(x_{n}-1)}=1+\frac{2(x_{n}-1)}{n+1}+o\left(\frac{1}{n}\right)\to1,\quad n\to\infty.</script></div></div></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> (1) 证明方程 $e^{x}+x^{2n+1}=0$ 在 $(-1,0)$ 有唯一实根 $x_{n}$, 且 $n\in\NN_{+}$; </p>
+<p>(2) 证明数列 $\left\{ x_{n}\right\} $ 极限存在并求其值 $a$; </p>
+<p>(3) 计算 </p>
+<script type="math/tex; mode=display">
+\lim_{n\rightarrow\infty}n\left(x_{n}-a\right)</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>注意$x_n$有界, 所以</p>
+<script type="math/tex; mode=display">
+\ue^{\frac{x_{n}}{2n+1}}=-x_{n}\to1,\quad n\to\infty.</script><script type="math/tex; mode=display">
+1+x_{n}=1-\ue^{\frac{x_{n}}{2n+1}},</script><script type="math/tex; mode=display">
+n(1+x_{n})=n\left(1-\ue^{\frac{x_{n}}{2n+1}}\right)=n\left(1-\left(1+\frac{x_{n}}{2n+1}+o\left(\frac{1}{n}\right)\right)\right)=-\frac{nx_{n}}{2n+1}+o(1)\to-\frac{1}{2}\cdot(-1)=\frac{1}{2},\quad n\to\infty.</script></div></div></div></div>
+<h2 id="Stolz公式"><a href="#Stolz公式" class="headerlink" title="Stolz公式"></a>Stolz公式</h2><div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $a_{1}=1$, $a_{n+1}=a_{n}+\frac{1}{a_{n}}$, ($n \in \mathbb{N}_{+}$), 证明</p>
+<script type="math/tex; mode=display">
+\lim _{n \rightarrow \infty} \frac{a_{n}}{\sqrt{n}}=\sqrt{2}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>用Stolz公式求极限: </p>
+<p>$a_{n}$ 单调上升, 反证法可得$a_{n}$没有有限极限.</p>
+<script type="math/tex; mode=display">
+\lim_{n\to\infty}\frac{a_{n}^{2}}{n}\xlongequal{\text{ Stolz 公式 }}\lim_{n\to\infty}\frac{a_{n+1}^{2}-a_{n}^{2}}{1}=\lim_{n\to\infty}(a_{n+1}+a_{n})\frac{1}{a_{n}}=2+\lim_{n\to\infty}\frac{1}{a_{n}^{2}}=2.</script></div></div>
+
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 定义数列$x_{1}\in(0,1)$且满足</p>
+<script type="math/tex; mode=display">
+x_{n+1}=\frac{1}{n}\sum_{k=1}^{n}\ln(1+x_{k}),</script><p>求极限</p>
+<script type="math/tex; mode=display">
+\lim_{n\to\infty}x_{n}\ln n.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>容易得到简化的递推公式</p>
+<script type="math/tex; mode=display">
+nx_{n+1}-(n-1)x_{n}=\ln(1+x_{n})\le x_{n}</script><p>所以$\left\{ x_{n}\right\} $是单调递减数列, 并容易验证它有下界$0$. 最后由Stolz公式</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+x_{n}\ln n & =\frac{\ln n}{\frac{1}{x_{n}}}\sim\frac{\ln(n+1)-\ln n}{\frac{1}{x_{n+1}}-\frac{1}{x_{n}}}\\
+ & \sim\frac{\frac{1}{n}}{\frac{1}{x_{n+1}}-\frac{1}{x_{n}}}=\frac{1}{n}\cdot\frac{1}{\frac{1}{x_{n}+\frac{\ln(1+x_{n})-x_{n}}{n}}-\frac{1}{x_{n}}}\\
+ & =\frac{x_{n}\left(x_{n}+\frac{\ln(1+x_{n})-x_{n}}{n}\right)}{\ln(1+x_{n})-x_{n}}\sim\frac{x_{n}\left(x_{n}+o(1)\right)}{\frac{x_{n}^{2}}{2}+o(1)}\to2.
+\end{align*}</script></div></div></div></div>
+<h2 id="压缩映射"><a href="#压缩映射" class="headerlink" title="压缩映射"></a>压缩映射</h2><div class="note primary no-icon flat"><p><strong>问题:</strong><span id="通项公式法-单调收敛"></span> 设数列 $\left\{ x_{n}\right\} $ 满足 $x_{1}=2$, $x_{n+1}=2+\frac{1}{x_{n}}$, $n\in\NN_{+}$, 证明数列 $\left\{ x_{n}\right\} $ 收敛, 并求其极限值.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示1</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\left|x_{n+1}-x_{n}\right|=\left|\frac{1}{x_{n}}-\frac{1}{x_{n-1}}\right|=\left|\frac{x_{n}-x_{n-1}}{x_{n}x_{n-1}}\right|\le\frac{1}{4}\left|x_{n}-x_{n-1}\right|,</script><p>$x_{n}\to x$, $n\to\infty$. $x=2+\frac{1}{x}$, $x^{2}-2x-1=0$, $x_{1,2}=\frac{2\pm\sqrt{4+4}}{2}=\frac{2\pm2\sqrt{2}}{2}=1\pm\sqrt{2}$, $x=1+\sqrt{2}.$</p>
+</div></div>
+
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示2</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+x_{n+2}-x_{n}=\frac{1}{x_{n+1}}-\frac{1}{x_{n-1}}=-\frac{x_{n+1}-x_{n-1}}{x_{n+1}x_{n-1}}=\frac{x_{n}-x_{n-2}}{x_{n}x_{n-2}x_{n+1}x_{n-1}}.</script><p>$x_{2}=2\frac{1}{2}$, $x_{3}=2+\frac{2}{5}&lt;x_{2}$, 所以$\left\{ x_{2n+1}\right\} $单调上升, $x_{4}=2+\frac{5}{12}&lt;x_{2}$, $\left\{ x_{2n}\right\} $单调下降, 且$x_{2n+1}&lt;x_{2n}$.<br>即</p>
+<script type="math/tex; mode=display">
+x_{1}<\cdots<x_{2n+1}<x_{2n}<\cdots<x_{2}.</script><p>所以$\left\{ x_{2n}\right\} $与$\left\{ x_{2n+1}\right\} $均收敛.</p>
+</div></div>
+
+<div class="hide-toggle" style="border: 1px solid red"><div class="hide-button toggle-title" style="background-color: red;color: white"><i class="fas fa-caret-right fa-fw"></i><span>其实这个数列是可求通项的</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+x_{n+1}-1-\sqrt{2}=1-\sqrt{2}+\frac{1}{x_{n}}=\frac{(1-\sqrt{2})x_{n}+1}{x_{n}}=-\frac{x_{n}-1-\sqrt{2}}{(1+\sqrt{2})x_{n}}.
+\frac{x_{n+1}-1-\sqrt{2}}{x_{n}-1-\sqrt{2}}=-\frac{1}{(1+\sqrt{2})x_{n}},</script><script type="math/tex; mode=display">
+x_{n+1}-1+\sqrt{2}=1+\sqrt{2}+\frac{1}{x_{n}}=-\frac{x_{n}-1+\sqrt{2}}{(\sqrt{2}-1)x_{n}}.</script><script type="math/tex; mode=display">
+\frac{x_{n+1}-1+\sqrt{2}}{x_{n}-1+\sqrt{2}}=-\frac{1}{(\sqrt{2}-1)x_{n}}.</script><script type="math/tex; mode=display">
+\left(\frac{x_{n+1}-1-\sqrt{2}}{x_{n+1}-1+\sqrt{2}}\right)/\left(\frac{x_{n}-1-\sqrt{2}}{x_{n}-1+\sqrt{2}}\right)=\frac{1+\sqrt{2}}{\sqrt{2}-1}.</script></div></div>
+
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 设数列 $\left\{ x_{n}\right\} $ 满足 $x_{n+1}=\cos x_{n}$, $n\in N_{+}$, $x_{1}=\cos x$, 证明该数列极限存在且其极限值为 $\cos x-x=0$ 的根.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\left|x_{n+1}-x_{n}\right|=\left|\cos x_{n}-\cos x_{n-1}\right|=\left|2\sin\frac{x_{n}+x_{n-1}}{2}\sin\frac{x_{n}-x_{n-1}}{2}\right|<\sin1\left|x_{n}-x_{n-1}\right|,\quad n\ge2.</script><p>聚点定理且根据方程极限点唯一.</p>
+</div></div></div></div>
+<h2 id="积分收敛性"><a href="#积分收敛性" class="headerlink" title="积分收敛性"></a>积分收敛性</h2><div class="note primary no-icon flat"><p><strong>问题:</strong> (1) 证明方程 $\tan x=x$ 在 $\left(n\pi,n\pi+\frac{\pi}{2}\right)$ 内存在实根 $\xi_{n},n\in N_{+}$; </p>
+<p>(2) 计算极限 </p>
+<script type="math/tex; mode=display">
+\lim_{n\rightarrow\infty}\left(\xi_{n+1}-\xi_{n}\right)</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\xi_{n}=n\pi+\arctan\xi_{n},\quad\xi_{n}\in\left(n\pi,n\pi+\frac{\pi}{2}\right).</script><script type="math/tex; mode=display">
+\left|\xi_{n+1}-\xi_{n}\right|=\left|\pi+\arctan\xi_{n+1}-\arctan\xi_{n}\right|=\pi+O\left(\int_{n\pi}^{n\pi+\frac{3\pi}{2}}\frac{1}{1+x^{2}}\ud x\right)\to\pi,\quad n\to\infty.</script></div></div>
+
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 求极限</p>
+<script type="math/tex; mode=display">
+\lim_{n\to\infty}\int_{0}^{\pi}\frac{\sin x}{1+\cos^{2}nx}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>作变量替换</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\lim_{n\to\infty}\int_{0}^{\pi}\frac{\sin x}{1+\cos^{2}nx}\ud x & =\lim_{n\to\infty}\int_{0}^{n\pi}\frac{\frac{1}{n}\sin\frac{x}{n}}{1+\cos^{2}x}\ud x\\
+ & =\lim_{n\to\infty}\int_{0}^{\pi}\frac{\frac{1}{n}\left(\sin\frac{x}{n}+\sin\frac{x+\pi}{n}+\cdots+\sin\frac{x+(n-1)\pi}{n}\right)}{1+\cos^{2}x}\ud x\\
+ & =\int_{0}^{\pi}\frac{\lim_{n\to\infty}\frac{1}{n}\left(\sin\frac{x}{n}+\sin\frac{x+\pi}{n}+\cdots+\sin\frac{x+(n-1)\pi}{n}\right)}{1+\cos^{2}x}\ud x\\
+ & =\int_{0}^{\pi}\frac{\frac{1}{\pi}\int_{0}^{\pi}\sin t\ud t}{1+\cos^{2}x}\ud x\\
+ & =\sqrt{2}.
+\end{align*}</script></div></div></div></div>
+<h1 id="阶的估计"><a href="#阶的估计" class="headerlink" title="阶的估计"></a>阶的估计</h1><h2 id="离散和的阶"><a href="#离散和的阶" class="headerlink" title="离散和的阶"></a>离散和的阶</h2><div class="note primary no-icon flat"><p><strong>问题:</strong> 证明: </p>
+<script type="math/tex; mode=display">
+\sum_{k=1}^{n}\sin\sqrt{k}=O(\sqrt{n}),\qquad n\to\infty.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>用<a href="/2022/07/12/Euler%E6%B1%82%E5%92%8C%E5%85%AC%E5%BC%8F/" title="Euler求和公式">Euler求和公式</a></p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\sum_{k=1}^{n}\sin\sqrt{k} & =\int_{0}^{n}\sin\sqrt{x}\ud x+\frac{\sin\sqrt{n}}{2}+\int_{0}^{n}\left\langle x\right\rangle \frac{\cos\sqrt{x}}{2\sqrt{x}}\ud x\\
+ & =\int_{0}^{\sqrt{n}}2x\sin x\ud x+O(\sqrt{n})\\
+ & =-2(x\cos x\mid_{0}^{\sqrt{n}}-\int_{0}^{\sqrt{n}}\cos x\ud x)+O(\sqrt{n})\\
+ & =O(\sqrt{n}).
+\end{align*}</script></div></div>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>注意到:</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\left|\sin\sqrt{k}-\int_{k-1/2}^{k+1/2}\sin\sqrt{t}\ud t\right| & =\left|\int_{k-1/2}^{k+1/2}\sin\sqrt{k}-\sin\sqrt{t}\ud t\right|\\
+ & =\left|\int_{k-1/2}^{k+1/2}\frac{\cos\xi(k,t)}{2\sqrt{\xi(k,t)}}\ud t\right|\\
+ & =\left|\int_{k-1/2}^{k+1/2}O\left(\frac{1}{\sqrt{k}}\right)\ud t\right|=O\left(\frac{1}{\sqrt{k}}\right),
+\end{align*}</script><p>其中$\xi=\xi(k,t)$是介于$k,t$之间的数.</p>
+</div></div></div>
+<h1 id="微分-积分不等式"><a href="#微分-积分不等式" class="headerlink" title="微分 - 积分不等式"></a>微分 - 积分不等式</h1><h2 id="Taylor公式-1"><a href="#Taylor公式-1" class="headerlink" title="Taylor公式"></a>Taylor公式</h2><div class="note primary no-icon flat"><p><strong>问题:</strong> 设$f\in C^{2}(\RR)$, $f\ge0$, $f’’\le1$. 证明: $(f’)^{2}\le2f$.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>由Taylor公式</p>
+<script type="math/tex; mode=display">
+f(x)=f(a)+\frac{f'(a)}{1!}(x-a)+\frac{f''(\xi)}{2!}(x-a)^{2}\ge0,</script><p>上式对于任意的$h=x-a\in\RR$都成立. 即对于任意的$h\in\RR$, $a\in\RR$有</p>
+<script type="math/tex; mode=display">
+f(a)+f'(a)h+\frac{f''(\xi)}{2!}h^{2}\ge0.</script><p>所以$\Delta=(f’(a))^{2}-2f(a)f’’(\xi)\le0$, 即$(f’(a))^{2}\le2f(a)f’’(\xi)\le2f(a)$. </p>
+</div></div></div>
+<h2 id="积分不等式证微分不等式"><a href="#积分不等式证微分不等式" class="headerlink" title="积分不等式证微分不等式"></a>积分不等式证微分不等式</h2><div class="note primary no-icon flat"><p><strong>问题:</strong> 设$f:\RR^{n}\to\RR$处处可微, 且</p>
+<script type="math/tex; mode=display">
+\norm{\nabla f(x)-\nabla f(y)}\le\norm{x-y},\qquad\forall x,y\in\RR^{n}.</script><p>证明:</p>
+<script type="math/tex; mode=display">
+\left|f(y)-f(x)-\nabla f(x)\cdot(y-x)\right|\le\frac{1}{2}\norm{x-y}^{2},\qquad\forall x,y\in\RR^{n}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>用Newton-Leibniz公式的惯用技巧</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\left|f(y)-f(x)-\nabla f(x)\cdot(y-x)\right| & =\left|\int_{0}^{1}\frac{\ud}{\ud t}\left(f(x+t(y-x))\right)\ud t-\nabla f(x)\cdot(y-x)\right|\\
+ & =\left|\int_{0}^{1}\left(\nabla f(x+t(y-x))-\nabla f(x)\right)\cdot(y-x)\ud t\right|\\
+ & \le\int_{0}^{1}t\norm{y-x}^{2}\ud t\\
+ & =\frac{1}{2}\norm{y-x}^{2}.
+\end{align*}</script></div></div></div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>高等数学</tag>
+        <tag>极限</tag>
+        <tag>数列极限</tag>
+        <tag>每日一题</tag>
+        <tag>微分不等式</tag>
+        <tag>积分不等式</tag>
       </tags>
   </entry>
   <entry>
@@ -1845,6 +1875,177 @@ G'(x)=2f(x)-2f(x)f'(x)\ge0.</script></div></div></div>
       <tags>
         <tag>hexo</tag>
         <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用重积分求解定积分</title>
+    <url>/2022/03/07/%E7%94%A8%E9%87%8D%E7%A7%AF%E5%88%86%E6%B1%82%E8%A7%A3%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
+    <content><![CDATA[<div class="note primary no-icon flat"><p><strong>问题:</strong> 求</p>
+<script type="math/tex; mode=display">
+I=\int_{0}^{1}\frac{x-1}{\ln x}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+I=\int_{0}^{1}\int_{0}^{1}x^{y}\ud y\ud x=\int_{0}^{1}\int_{0}^{1}x^{y}\ud x\ud y=\int_{0}^{1}\frac{1}{y+1}\ud y=\ln(1+y)\mid_{0}^{1}=\ln2.</script></div></div></div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>高等数学</category>
+      </categories>
+      <tags>
+        <tag>重积分</tag>
+        <tag>每日一题</tag>
+        <tag>定积分</tag>
+        <tag>积分求法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解析数论中的结论</title>
+    <url>/2022/04/26/%E8%A7%A3%E6%9E%90%E6%95%B0%E8%AE%BA%E4%B8%AD%E7%9A%84%E7%BB%93%E8%AE%BA/</url>
+    <content><![CDATA[<h1 id="记号与定义"><a href="#记号与定义" class="headerlink" title="记号与定义"></a>记号与定义</h1><div class="note primary no-icon flat"><p><strong>定义</strong>: $p_k$: 通常记为第 $k$ 个素数;<br>$d(n)=\sum_{d\mid n}1$;<br>$\sigma_s(n)=\sum_{d\mid n}d^s$, 从而有 $\sigma_{-s}(n)=\frac{\sigma_s(n)}{n^s}$;<br>$\sigma(n)=\sigma_1(n)=\sum_{d\mid n}d$;<br>$\omega(n)=\sum_{p\mid n}1$;<br>$\varphi(n)$: Euler函数 或 Euler’s totient function;<br>$d_2(n)=d(n)$; $d_k(n)=\sum_{d\mid n}d_{k-1}(d)$, $k\ge 3$;<br>$\pi(x)=\sum_{p\le x}1$;<br>$\theta(x)=\sum_{p\le x}\log p$ 是 Chebyshev 函数;<br>$\mathrm{Li} x=\lim_{\varepsilon\to 0}\left[\int_0^{1-\varepsilon}+\int_{1+\varepsilon}^x\frac{\ud t}{\log t}\right]$ 是对数积分 或 the integral logarithm;<br>$f\ll g$ 或 $g\gg f$ 的意思是 $f=O(g)$;<br>$[x]$: 表示 $x$ 的整数部分, Gauss 函数;</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: 设 $d(n)$ 是整数 $n$ 的因子数. 称 $n$ 是 highly composite, 如果对于任意的 $m&lt;n$, 都有 $d(m)&lt;d(n)$.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: 正整数 $N$ 称为是 superior highly composite numbers, 如果存在 $\varepsilon &gt; 0$ 使得对于所有的 $n$ 有</p>
+<script type="math/tex; mode=display">\frac{d(n)}{n^{\varepsilon}}\le \frac{d(N)}{N^{\varepsilon}}.</script></div>
+<h1 id="结论与命题"><a href="#结论与命题" class="headerlink" title="结论与命题"></a>结论与命题</h1><div class="note primary no-icon flat"><p><strong>定理</strong>: 对于固定的 $\varepsilon&gt;0$, 有</p>
+<script type="math/tex; mode=display">\lim_{n\to\infty}\frac{d(n)}{n^{\varepsilon}}=0.</script></div>
+<div class="note primary no-icon flat"><p><strong>定理</strong>: The maximal order of $\log d(n)$ is $\frac{\log n \log 2}{\log\log n}$, 即</p>
+<script type="math/tex; mode=display">\limsup\frac{(\log d(n))(\log\log n)}{(\log n)(\log 2)}=1.</script></div>
+<div class="note primary no-icon flat"><p><strong>定理</strong>: 对于任意的正整数 $N$, 满足 $\omega(N)=k$, 则有</p>
+<script type="math/tex; mode=display">d(N)\ll\frac{\left(\frac{\theta(p_{k})+\log N}{k}\right)^{k}}{\log p_{1}\log p_{2}\cdots\log p_{k}}.</script></div>
+<div class="note primary no-icon flat"><p><strong>定理</strong>: <script type="math/tex">\pi(x)\log x-\theta(x)=\int_{2}^{x}\frac{\pi(t)}{t}\ud t.</script></p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定理</strong>: 如下定义积性函数 $r(n)$:<br>当 $p\equiv1\pmod4$, $r(p^{k})=d(p^{k})=k+1$;<br>当 $p\equiv3\pmod4$, 当 $k$ 是奇数时, $r(p^{k})=0$; 当 $k$ 是偶数时, $r(p^{k})=1$.<br>当 $p\equiv2$, 则对任意的 $k$, $r(2^{k})=1$.<br>正整数 $n$ 能被表示成两平方数之和的方式共有 $4r(n)$. 并有</p>
+<script type="math/tex; mode=display">\limsup\frac{\log r(n)\log\log n}{\log2\log n}=1.</script></div>
+<blockquote id="fn_Jean-Louis Nicolas">
+<sup>Jean-Louis Nicolas</sup>. <a href="http://math.univ-lyon1.fr/%7Enicolas/hcnrevisited.pdf">On highly composite numbers</a>.<a href="#reffn_Jean-Louis Nicolas" title="Jump back to footnote [Jean-Louis Nicolas] in the text."> &#8617;</a>
+</blockquote>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>math</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>数论</tag>
+        <tag>解析数论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>线性代数中的定义</title>
+    <url>/2022/03/27/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/</url>
+    <content><![CDATA[<div class="note default red, red flat"><p>这里放一些定义的收集, 以免以后用的时候有细节上的疏漏. 同时也会放上参考文献</p>
+</div>
+<h2 id="欧式空间中的定义"><a href="#欧式空间中的定义" class="headerlink" title="欧式空间中的定义"></a>欧式空间中的定义</h2><div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 设 $V$ 是实数域 $R$ 上的一个线性空间. 如果有一个法则，它对于 $V$ 中任二向量 $\alpha$ 与 $\beta$, 都有唯一确定的实数, 用 $(\alpha, \beta)$ 表示, 与它们对应, 且满足</p>
+<ol>
+<li>$(\alpha, \beta)=(\beta, \alpha)$,</li>
+<li>$(k \alpha, \beta)=k(\alpha, \beta),(k \in R)$,</li>
+<li>$\left(\alpha_{1}+\alpha_{2}, \beta\right)=\left(\alpha_{1}, \beta\right)+\left(\alpha_{2}, \beta\right)$,</li>
+<li>当 $\alpha \neq \theta$ 时, $(\alpha, \alpha)&gt;0$,</li>
+</ol>
+<p>则称在 $V$ 中定义了一个<strong>内积</strong>, 并把 $V$ 叫做一个<strong>欧式空间</strong>. 在欧氏空间中, 常把实数 $(\alpha, \beta)$ 叫做<strong>向量 $\alpha$ 与 $\beta$ 的内积</strong>.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 设 $\alpha, \beta$ 为两个非零向量, 称实数</p>
+<script type="math/tex; mode=display">
+\varphi=\arccos \frac{(\alpha, \beta)}{|\alpha||\beta|}</script><p>为<strong>向量 $\alpha$ 与 $\beta$ 的夹角</strong>, 亦即</p>
+<script type="math/tex; mode=display">
+\cos \varphi=\frac{(\alpha, \beta)}{|\alpha||\beta|}</script></div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 称非负实数 $\sqrt{(\alpha, \alpha)}$ 为向量 $\alpha$ 的<strong>长</strong>或<strong>模</strong>, 并用 $|\alpha|$ 表示, 即</p>
+<script type="math/tex; mode=display">
+|\alpha|=\sqrt{(\alpha, \alpha)} \text {. }</script></div>
+<h2 id="正交基与标准正交基"><a href="#正交基与标准正交基" class="headerlink" title="正交基与标准正交基"></a>正交基与标准正交基</h2><div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 如果欧氏空间中两个向量 $\alpha$ 与 $\beta$ 的内积等于零, 即</p>
+<script type="math/tex; mode=display">
+(\alpha, \beta)=0,</script><p>则称 <strong>$\alpha$ 与 $\beta$ 正交</strong>.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 设 $V$ 是 $n$ 维欧氏空间. 如果 $V$ 的基 $\alpha_{1}, \alpha_{2}, \cdots, \alpha_{n}$ 中每两个向量都正交, 则称此基为<strong>正交基</strong>.</p>
+<p>如果正交基中每个向量的长都是 1, 则称该基为<strong>标准正交基</strong>.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 设 $V$ 和 $V^{\prime}$ 是两个欧氏空间, 如果 $\varphi$ 是线性空间 $V$ 到 $V^{\prime}$ 的一个同构映射,而且对 $V$ 中任意向量 $\alpha, \beta$ 都有</p>
+<script type="math/tex; mode=display">
+(\alpha, \beta)=(\varphi(\alpha), \varphi(\beta)),</script><p>则称 $\varphi$ 是欧氏空间 $V$ 到 $V^{\prime}$ 的一个<strong>同构映射</strong>.<br>如果欧氏空间 $V$ 到 $V^{\prime}$ 存在同构映射,则称欧氏空间 $V$ 与 $V^{\prime}$ <strong>同构</strong>.</p>
+</div>
+<h2 id="子空间与正交"><a href="#子空间与正交" class="headerlink" title="子空间与正交"></a>子空间与正交</h2><div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 设 $W$ 是欧氏空间 $V$ 的一个子空间. 如果 $V$ 中向量 $\alpha$ 与 $W$ 中的每个向量都正交, 则称 <strong>$\alpha$ 与 $W$ 正交</strong>, 记为</p>
+<script type="math/tex; mode=display">
+(\alpha, W)=0 \text { 或 } \alpha \perp W.</script><p>如果子空间 $V_{1}$ 中每个向量与子空间 $V_{2}$ 中每个向量都正交, 则称<strong>子空间 $V_{1}$ 与 $V_{2}$ 正交</strong>, 记为</p>
+<script type="math/tex; mode=display">
+\left(V_{1}, V_{2}\right)=0 \text { 或 } V_{1} \perp V_{2}</script></div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 设 $W$ 和 $W^{\prime}$ 是欧式空间 $V$ (不一定是有限维)的两个子空间. 如果</p>
+<script type="math/tex; mode=display">
+V=W+W^{\prime} \text { 且 } W \perp W^{\prime},</script><p>则称 $W^{\prime}$ 为子空间 $W$ 的<strong>正交补</strong>.</p>
+</div>
+<h2 id="正交变换与正交矩阵"><a href="#正交变换与正交矩阵" class="headerlink" title="正交变换与正交矩阵"></a>正交变换与正交矩阵</h2><div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 设 $T$ 是欧氏空间 $V$ 的一个线性变换, 如果 $T$ 保持 $V$ 中任何向量的长都不变, 亦即对 $V$ 中任意向量 $\alpha$ 都有</p>
+<script type="math/tex; mode=display">
+(T \alpha, T \alpha)=(\alpha, \alpha),</script><p>则称 $T$ 是 $V$ 的一个<strong>正交变换</strong>.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 设 $A$ 是一个实 $n$ 阶方阵. 如果</p>
+<script type="math/tex; mode=display">
+A  A^{\prime}=E,</script><p>即 $A^{\prime}=A^{-1}$, 则称 $A$ 为<strong>正交方阵</strong>.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 设 $T$ 是 $n$ 维欧氏空间 $V$ 的一个正交变换, 且在某标准正交基下的方阵是 $A$. 若 $|A|=1$, 则称为<strong>旋转</strong>或<strong>第一类的</strong>; 若 $|A|=-1$, 则称 $T$ 为<strong>第二类的</strong>.</p>
+</div>
+<h2 id="对称变换与对称矩阵"><a href="#对称变换与对称矩阵" class="headerlink" title="对称变换与对称矩阵"></a>对称变换与对称矩阵</h2><div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 设 $T$ 是欧氏空间 $V$ 的一个线性变换, 如果对 $V$ 中任意向量 $\alpha, \beta$ 都有</p>
+<script type="math/tex; mode=display">
+(T \alpha, \beta)=(\alpha, T \beta),</script><p>则称 $T$ 是 $V$ 的一个<strong>对称变换</strong>.</p>
+</div>
+<p>设 $V$ 是 $n$ 维欧氏空间, $V_{1}, V_{2}$ 是 $V$ 的子空间, 且 $\operatorname{dim} V_{1}&lt;\operatorname{dim} V_{2}$. 证明: $V_{2}$ 中存在一个非零向量, 它与 $V_{1}$ 中任一个向量正交.</p>
+<script type="math/tex; mode=display">\operatorname{det} A \geq \operatorname{det} A^{2} \geq \operatorname{det} A^{3} \geq \operatorname{det} A^{4} \geq \cdots.</script><p>而秩 $\mathrm{A}$ 是有限数, 上面的不等式不可能无限不等下去, 必然存在一个正整数$m$, 使 $\operatorname{det} A^{m}=\operatorname{det} A^{m+1}$.</p>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><blockquote id="fn_1">
+<sup>1</sup>. 高等代数, 杨子胥.<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a>
+</blockquote>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>定义</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+        <tag>线性代数</tag>
+        <tag>高等代数</tag>
+        <tag>定义</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记浙江省首届高等数学竞赛非数学类最后一题</title>
+    <url>/2022/03/26/%E8%AE%B0%E6%B5%99%E6%B1%9F%E7%9C%81%E9%A6%96%E5%B1%8A%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AB%9E%E8%B5%9B%E9%9D%9E%E6%95%B0%E5%AD%A6%E7%B1%BB%E6%9C%80%E5%90%8E%E4%B8%80%E9%A2%98/</url>
+    <content><![CDATA[<p>最近刷题目卡在最后一题了, 题目是这样的:</p>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $\left\{ a_{n}\right\} ,\left\{ b_{n}\right\} $ 为满足 $e^{a_{n+1}}=a_{n}+e^{b_{n}},n\geq1$ 的两个实数列, 已知 $a_{n}&gt;0(n\geq1)$, 且 $\sum_{n=1}^{\infty}a_{n}$ 收敛。证明: $\sum_{n=1}^{\infty}\frac{b_{n}}{a_{n}}$ 也收敛。</p>
+</div>
+<p>从题目中容易解出来</p>
+<script type="math/tex; mode=display">
+b_{n}=\ln\left(\ue^{a_{n+1}}-a_{n}\right),</script><p>所以要证明$\sum_{n=1}^{\infty}\frac{b_{n}}{a_{n}}$的收敛性, 最先想到的是证明级数的各项能被$a_{n}$的某固定常数倍控制, 于是</p>
+<script type="math/tex; mode=display">
+\frac{b_{n}}{a_{n}}=\frac{\ln\left(\ue^{a_{n+1}}-a_{n}\right)}{a_{n}}\le\frac{\ue^{a_{n+1}}-1-a_{n}}{a_{n}}\le\frac{a_{n+1}+o\left(a_{n+1}\right)-a_{n}}{a_{n}}.</script><p>但右边似乎没有办法被很好的控制, 因为我最后构造了一个反例, 反例大概是这样的</p>
+<script type="math/tex; mode=display">
+a_{n}=\begin{cases}
+\frac{1}{n^{2}}, & n\ne m^{2},\\
+\left(1+\frac{1}{m}\right)\frac{1}{n^{2}}, & n=m^{2}+1,
+\end{cases}</script><p>使用$\frac{1}{n^{2}}$是因为众所周知的$\zeta(2)=\frac{\pi^{2}}{6}$, 来确保级数$\sum a_{n}$的收敛性. $1+\frac{1}{m}$项是为了能让项$\frac{a_{n+1}-a_{n}}{a_{n}}$在$n=m^{2}$时得到$\frac{1}{m}$, 这可以取遍调和级数的所有项, 从而使$\frac{a_{n+1}-a_{n}}{a_{n}}$形成的部分和含有发散子列$\frac{1}{m}$. </p>
+<p>这是我怀疑上面的不等式在放大的过程中放的太过了, 所以有必要直接考虑$\frac{b_{n}}{a_{n}}$在$n$很大时的变化趋势, 根据上面的构造, 选取$n=m^{2}$是合适的. 所以可以计算</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\frac{b_{m^{2}}}{a_{m^{2}}} & =m^{4}\ln\left(\ue^{a_{m^{2}+1}}-a_{m^{2}}\right)\\
+ & =m^{4}\ln\left(\ue^{\left(1+\frac{1}{m}\right)\frac{1}{(m^{2}+1)^{2}}}-\frac{1}{m^{4}}\right)\\
+ & \sim m^{4}\left(\ue^{\left(1+\frac{1}{m}\right)\frac{1}{(m^{2}+1)^{2}}}-\frac{1}{m^{4}}-1\right)\\
+ & \sim m^{4}\left(\left(1+\frac{1}{m}\right)\frac{1}{(m^{2}+1)^{2}}-\frac{1}{m^{4}}\right)\sim\frac{1}{m}
+\end{align*}</script><p>这说明上面的不等式并没有放的过大, $\sum\frac{b_{n}}{a_{n}}$有发散的子列$\sum\frac{b_{m^{2}}}{a_{m^{2}}}$. (我在这里并没有验证$b_{n}$的正负, 事实上其后的的一项刚好是$-\frac{1}{m}$, 但这已经给出了一个构造反例的思想. 比如选择$a_{m^{2}+1}=\frac{2}{(m^{2}+1)^{2}}$并结合Cauchy收敛准则.)</p>
+<p>于是上网搜索正确的问题应当是怎么样的. 得到正确的问题表述其实是</p>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $\left\{ a_{n}\right\} ,\left\{ b_{n}\right\} $ 为满足 $e^{a_{n}}=a_{n}+e^{b_{n}},n\geq1$ 的两个实数列, 已知 $a_{n}&gt;0(n\geq1)$, 且 $\sum_{n=1}^{\infty}a_{n}$ 收敛。证明: $\sum_{n=1}^{\infty}\frac{b_{n}}{a_{n}}$ 也收敛。</p>
+</div>
+<p>现在问题就简单了, 直接考虑$\left|a_{n}\right|\ll1$时的情况, 有以下控制</p>
+<script type="math/tex; mode=display">
+\left|\frac{b_{n}}{a_{n}}\right|\le\frac{\ue^{a_{n}}-1-a_{n}}{a_{n}}\le\frac{1+a_{n}+\frac{a_{n}^{2}}{2}+o(a_{n}^{2})-1-a_{n}}{a_{n}}\le a_{n}.</script><p>然后用比较判别法即可.</p>
+<p>比较判别法是判断无穷级数收敛, 条件收敛, 绝对收敛, 区间收敛或发散的方法. 也叫作比较审敛法, 比较审敛原理.</p>
+<div class="note primary no-icon flat"><p><strong>比较判别法</strong>: 设$\sum b_{n}$是收敛的正项无穷级数, 复无穷级数$\sum a_{n}$若满足对于任意的$n$有$\left|a_{n}\right|\le cb_{n}$, 其中$c$是与$n$无关的正常数, 则</p>
+<p>(1) 若$\sum b_{n}$收敛, 则$\sum a_{n}$收敛.</p>
+<p>(2) 若$\sum\left|a_{n}\right|=+\infty$, 则$\sum b_{n}=+\infty$.</p>
+</div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>高等数学</category>
+      </categories>
+      <tags>
+        <tag>高等数学</tag>
+        <tag>数学分析</tag>
+        <tag>微积分</tag>
+        <tag>分析</tag>
+        <tag>反例</tag>
+        <tag>每日一题</tag>
+        <tag>高等数学竞赛</tag>
+        <tag>数项级数</tag>
       </tags>
   </entry>
   <entry>
@@ -2142,208 +2343,11 @@ Sx\coloneqq\sum_{n=1}^{\infty}\sqrt{\lambda_{n}}\left\langle x,u_{n}\right\rangl
         <category>泛函分析</category>
       </categories>
       <tags>
-        <tag>泛函分析</tag>
         <tag>math</tag>
+        <tag>泛函分析</tag>
         <tag>紧算子</tag>
         <tag>算子</tag>
         <tag>谱分解</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>线性代数中的定义</title>
-    <url>/2022/03/27/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/</url>
-    <content><![CDATA[<div class="note default red, red flat"><p>这里放一些定义的收集, 以免以后用的时候有细节上的疏漏. 同时也会放上参考文献</p>
-</div>
-<h2 id="欧式空间中的定义"><a href="#欧式空间中的定义" class="headerlink" title="欧式空间中的定义"></a>欧式空间中的定义</h2><div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 设 $V$ 是实数域 $R$ 上的一个线性空间. 如果有一个法则，它对于 $V$ 中任二向量 $\alpha$ 与 $\beta$, 都有唯一确定的实数, 用 $(\alpha, \beta)$ 表示, 与它们对应, 且满足</p>
-<ol>
-<li>$(\alpha, \beta)=(\beta, \alpha)$,</li>
-<li>$(k \alpha, \beta)=k(\alpha, \beta),(k \in R)$,</li>
-<li>$\left(\alpha_{1}+\alpha_{2}, \beta\right)=\left(\alpha_{1}, \beta\right)+\left(\alpha_{2}, \beta\right)$,</li>
-<li>当 $\alpha \neq \theta$ 时, $(\alpha, \alpha)&gt;0$,</li>
-</ol>
-<p>则称在 $V$ 中定义了一个<strong>内积</strong>, 并把 $V$ 叫做一个<strong>欧式空间</strong>. 在欧氏空间中, 常把实数 $(\alpha, \beta)$ 叫做<strong>向量 $\alpha$ 与 $\beta$ 的内积</strong>.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 设 $\alpha, \beta$ 为两个非零向量, 称实数</p>
-<script type="math/tex; mode=display">
-\varphi=\arccos \frac{(\alpha, \beta)}{|\alpha||\beta|}</script><p>为<strong>向量 $\alpha$ 与 $\beta$ 的夹角</strong>, 亦即</p>
-<script type="math/tex; mode=display">
-\cos \varphi=\frac{(\alpha, \beta)}{|\alpha||\beta|}</script></div>
-<div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 称非负实数 $\sqrt{(\alpha, \alpha)}$ 为向量 $\alpha$ 的<strong>长</strong>或<strong>模</strong>, 并用 $|\alpha|$ 表示, 即</p>
-<script type="math/tex; mode=display">
-|\alpha|=\sqrt{(\alpha, \alpha)} \text {. }</script></div>
-<h2 id="正交基与标准正交基"><a href="#正交基与标准正交基" class="headerlink" title="正交基与标准正交基"></a>正交基与标准正交基</h2><div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 如果欧氏空间中两个向量 $\alpha$ 与 $\beta$ 的内积等于零, 即</p>
-<script type="math/tex; mode=display">
-(\alpha, \beta)=0,</script><p>则称 <strong>$\alpha$ 与 $\beta$ 正交</strong>.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 设 $V$ 是 $n$ 维欧氏空间. 如果 $V$ 的基 $\alpha_{1}, \alpha_{2}, \cdots, \alpha_{n}$ 中每两个向量都正交, 则称此基为<strong>正交基</strong>.</p>
-<p>如果正交基中每个向量的长都是 1, 则称该基为<strong>标准正交基</strong>.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 设 $V$ 和 $V^{\prime}$ 是两个欧氏空间, 如果 $\varphi$ 是线性空间 $V$ 到 $V^{\prime}$ 的一个同构映射,而且对 $V$ 中任意向量 $\alpha, \beta$ 都有</p>
-<script type="math/tex; mode=display">
-(\alpha, \beta)=(\varphi(\alpha), \varphi(\beta)),</script><p>则称 $\varphi$ 是欧氏空间 $V$ 到 $V^{\prime}$ 的一个<strong>同构映射</strong>.<br>如果欧氏空间 $V$ 到 $V^{\prime}$ 存在同构映射,则称欧氏空间 $V$ 与 $V^{\prime}$ <strong>同构</strong>.</p>
-</div>
-<h2 id="子空间与正交"><a href="#子空间与正交" class="headerlink" title="子空间与正交"></a>子空间与正交</h2><div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 设 $W$ 是欧氏空间 $V$ 的一个子空间. 如果 $V$ 中向量 $\alpha$ 与 $W$ 中的每个向量都正交, 则称 <strong>$\alpha$ 与 $W$ 正交</strong>, 记为</p>
-<script type="math/tex; mode=display">
-(\alpha, W)=0 \text { 或 } \alpha \perp W.</script><p>如果子空间 $V_{1}$ 中每个向量与子空间 $V_{2}$ 中每个向量都正交, 则称<strong>子空间 $V_{1}$ 与 $V_{2}$ 正交</strong>, 记为</p>
-<script type="math/tex; mode=display">
-\left(V_{1}, V_{2}\right)=0 \text { 或 } V_{1} \perp V_{2}</script></div>
-<div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 设 $W$ 和 $W^{\prime}$ 是欧式空间 $V$ (不一定是有限维)的两个子空间. 如果</p>
-<script type="math/tex; mode=display">
-V=W+W^{\prime} \text { 且 } W \perp W^{\prime},</script><p>则称 $W^{\prime}$ 为子空间 $W$ 的<strong>正交补</strong>.</p>
-</div>
-<h2 id="正交变换与正交矩阵"><a href="#正交变换与正交矩阵" class="headerlink" title="正交变换与正交矩阵"></a>正交变换与正交矩阵</h2><div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 设 $T$ 是欧氏空间 $V$ 的一个线性变换, 如果 $T$ 保持 $V$ 中任何向量的长都不变, 亦即对 $V$ 中任意向量 $\alpha$ 都有</p>
-<script type="math/tex; mode=display">
-(T \alpha, T \alpha)=(\alpha, \alpha),</script><p>则称 $T$ 是 $V$ 的一个<strong>正交变换</strong>.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 设 $A$ 是一个实 $n$ 阶方阵. 如果</p>
-<script type="math/tex; mode=display">
-A  A^{\prime}=E,</script><p>即 $A^{\prime}=A^{-1}$, 则称 $A$ 为<strong>正交方阵</strong>.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 设 $T$ 是 $n$ 维欧氏空间 $V$ 的一个正交变换, 且在某标准正交基下的方阵是 $A$. 若 $|A|=1$, 则称为<strong>旋转</strong>或<strong>第一类的</strong>; 若 $|A|=-1$, 则称 $T$ 为<strong>第二类的</strong>.</p>
-</div>
-<h2 id="对称变换与对称矩阵"><a href="#对称变换与对称矩阵" class="headerlink" title="对称变换与对称矩阵"></a>对称变换与对称矩阵</h2><div class="note primary no-icon flat"><p><strong>定义</strong>: <sup><a href="#fn_1" id="reffn_1">1</a></sup> 设 $T$ 是欧氏空间 $V$ 的一个线性变换, 如果对 $V$ 中任意向量 $\alpha, \beta$ 都有</p>
-<script type="math/tex; mode=display">
-(T \alpha, \beta)=(\alpha, T \beta),</script><p>则称 $T$ 是 $V$ 的一个<strong>对称变换</strong>.</p>
-</div>
-<p>设 $V$ 是 $n$ 维欧氏空间, $V_{1}, V_{2}$ 是 $V$ 的子空间, 且 $\operatorname{dim} V_{1}&lt;\operatorname{dim} V_{2}$. 证明: $V_{2}$ 中存在一个非零向量, 它与 $V_{1}$ 中任一个向量正交.</p>
-<script type="math/tex; mode=display">\operatorname{det} A \geq \operatorname{det} A^{2} \geq \operatorname{det} A^{3} \geq \operatorname{det} A^{4} \geq \cdots.</script><p>而秩 $\mathrm{A}$ 是有限数, 上面的不等式不可能无限不等下去, 必然存在一个正整数$m$, 使 $\operatorname{det} A^{m}=\operatorname{det} A^{m+1}$.</p>
-<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><blockquote id="fn_1">
-<sup>1</sup>. 高等代数, 杨子胥.<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a>
-</blockquote>
-<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-      <categories>
-        <category>定义</category>
-      </categories>
-      <tags>
-        <tag>数学</tag>
-        <tag>线性代数</tag>
-        <tag>高等代数</tag>
-        <tag>定义</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>解析数论中的结论</title>
-    <url>/2022/04/26/%E8%A7%A3%E6%9E%90%E6%95%B0%E8%AE%BA%E4%B8%AD%E7%9A%84%E7%BB%93%E8%AE%BA/</url>
-    <content><![CDATA[<h1 id="记号与定义"><a href="#记号与定义" class="headerlink" title="记号与定义"></a>记号与定义</h1><div class="note primary no-icon flat"><p><strong>定义</strong>: $p_k$: 通常记为第 $k$ 个素数;<br>$d(n)=\sum_{d\mid n}1$;<br>$\sigma_s(n)=\sum_{d\mid n}d^s$, 从而有 $\sigma_{-s}(n)=\frac{\sigma_s(n)}{n^s}$;<br>$\sigma(n)=\sigma_1(n)=\sum_{d\mid n}d$;<br>$\omega(n)=\sum_{p\mid n}1$;<br>$\varphi(n)$: Euler函数 或 Euler’s totient function;<br>$d_2(n)=d(n)$; $d_k(n)=\sum_{d\mid n}d_{k-1}(d)$, $k\ge 3$;<br>$\pi(x)=\sum_{p\le x}1$;<br>$\theta(x)=\sum_{p\le x}\log p$ 是 Chebyshev 函数;<br>$\mathrm{Li} x=\lim_{\varepsilon\to 0}\left[\int_0^{1-\varepsilon}+\int_{1+\varepsilon}^x\frac{\ud t}{\log t}\right]$ 是对数积分 或 the integral logarithm;<br>$f\ll g$ 或 $g\gg f$ 的意思是 $f=O(g)$;<br>$[x]$: 表示 $x$ 的整数部分, Gauss 函数;</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>定义</strong>: 设 $d(n)$ 是整数 $n$ 的因子数. 称 $n$ 是 highly composite, 如果对于任意的 $m&lt;n$, 都有 $d(m)&lt;d(n)$.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>定义</strong>: 正整数 $N$ 称为是 superior highly composite numbers, 如果存在 $\varepsilon &gt; 0$ 使得对于所有的 $n$ 有</p>
-<script type="math/tex; mode=display">\frac{d(n)}{n^{\varepsilon}}\le \frac{d(N)}{N^{\varepsilon}}.</script></div>
-<h1 id="结论与命题"><a href="#结论与命题" class="headerlink" title="结论与命题"></a>结论与命题</h1><div class="note primary no-icon flat"><p><strong>定理</strong>: 对于固定的 $\varepsilon&gt;0$, 有</p>
-<script type="math/tex; mode=display">\lim_{n\to\infty}\frac{d(n)}{n^{\varepsilon}}=0.</script></div>
-<div class="note primary no-icon flat"><p><strong>定理</strong>: The maximal order of $\log d(n)$ is $\frac{\log n \log 2}{\log\log n}$, 即</p>
-<script type="math/tex; mode=display">\limsup\frac{(\log d(n))(\log\log n)}{(\log n)(\log 2)}=1.</script></div>
-<div class="note primary no-icon flat"><p><strong>定理</strong>: 对于任意的正整数 $N$, 满足 $\omega(N)=k$, 则有</p>
-<script type="math/tex; mode=display">d(N)\ll\frac{\left(\frac{\theta(p_{k})+\log N}{k}\right)^{k}}{\log p_{1}\log p_{2}\cdots\log p_{k}}.</script></div>
-<div class="note primary no-icon flat"><p><strong>定理</strong>: <script type="math/tex">\pi(x)\log x-\theta(x)=\int_{2}^{x}\frac{\pi(t)}{t}\ud t.</script></p>
-</div>
-<div class="note primary no-icon flat"><p><strong>定理</strong>: 如下定义积性函数 $r(n)$:<br>当 $p\equiv1\pmod4$, $r(p^{k})=d(p^{k})=k+1$;<br>当 $p\equiv3\pmod4$, 当 $k$ 是奇数时, $r(p^{k})=0$; 当 $k$ 是偶数时, $r(p^{k})=1$.<br>当 $p\equiv2$, 则对任意的 $k$, $r(2^{k})=1$.<br>正整数 $n$ 能被表示成两平方数之和的方式共有 $4r(n)$. 并有</p>
-<script type="math/tex; mode=display">\limsup\frac{\log r(n)\log\log n}{\log2\log n}=1.</script></div>
-<blockquote id="fn_Jean-Louis Nicolas">
-<sup>Jean-Louis Nicolas</sup>. <a href="http://math.univ-lyon1.fr/%7Enicolas/hcnrevisited.pdf">On highly composite numbers</a>.<a href="#reffn_Jean-Louis Nicolas" title="Jump back to footnote [Jean-Louis Nicolas] in the text."> &#8617;</a>
-</blockquote>
-<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-      <categories>
-        <category>math</category>
-      </categories>
-      <tags>
-        <tag>math</tag>
-        <tag>数论</tag>
-        <tag>解析数论</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记浙江省首届高等数学竞赛非数学类最后一题</title>
-    <url>/2022/03/26/%E8%AE%B0%E6%B5%99%E6%B1%9F%E7%9C%81%E9%A6%96%E5%B1%8A%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AB%9E%E8%B5%9B%E9%9D%9E%E6%95%B0%E5%AD%A6%E7%B1%BB%E6%9C%80%E5%90%8E%E4%B8%80%E9%A2%98/</url>
-    <content><![CDATA[<p>最近刷题目卡在最后一题了, 题目是这样的:</p>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $\left\{ a_{n}\right\} ,\left\{ b_{n}\right\} $ 为满足 $e^{a_{n+1}}=a_{n}+e^{b_{n}},n\geq1$ 的两个实数列, 已知 $a_{n}&gt;0(n\geq1)$, 且 $\sum_{n=1}^{\infty}a_{n}$ 收敛。证明: $\sum_{n=1}^{\infty}\frac{b_{n}}{a_{n}}$ 也收敛。</p>
-</div>
-<p>从题目中容易解出来</p>
-<script type="math/tex; mode=display">
-b_{n}=\ln\left(\ue^{a_{n+1}}-a_{n}\right),</script><p>所以要证明$\sum_{n=1}^{\infty}\frac{b_{n}}{a_{n}}$的收敛性, 最先想到的是证明级数的各项能被$a_{n}$的某固定常数倍控制, 于是</p>
-<script type="math/tex; mode=display">
-\frac{b_{n}}{a_{n}}=\frac{\ln\left(\ue^{a_{n+1}}-a_{n}\right)}{a_{n}}\le\frac{\ue^{a_{n+1}}-1-a_{n}}{a_{n}}\le\frac{a_{n+1}+o\left(a_{n+1}\right)-a_{n}}{a_{n}}.</script><p>但右边似乎没有办法被很好的控制, 因为我最后构造了一个反例, 反例大概是这样的</p>
-<script type="math/tex; mode=display">
-a_{n}=\begin{cases}
-\frac{1}{n^{2}}, & n\ne m^{2},\\
-\left(1+\frac{1}{m}\right)\frac{1}{n^{2}}, & n=m^{2}+1,
-\end{cases}</script><p>使用$\frac{1}{n^{2}}$是因为众所周知的$\zeta(2)=\frac{\pi^{2}}{6}$, 来确保级数$\sum a_{n}$的收敛性. $1+\frac{1}{m}$项是为了能让项$\frac{a_{n+1}-a_{n}}{a_{n}}$在$n=m^{2}$时得到$\frac{1}{m}$, 这可以取遍调和级数的所有项, 从而使$\frac{a_{n+1}-a_{n}}{a_{n}}$形成的部分和含有发散子列$\frac{1}{m}$. </p>
-<p>这是我怀疑上面的不等式在放大的过程中放的太过了, 所以有必要直接考虑$\frac{b_{n}}{a_{n}}$在$n$很大时的变化趋势, 根据上面的构造, 选取$n=m^{2}$是合适的. 所以可以计算</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-\frac{b_{m^{2}}}{a_{m^{2}}} & =m^{4}\ln\left(\ue^{a_{m^{2}+1}}-a_{m^{2}}\right)\\
- & =m^{4}\ln\left(\ue^{\left(1+\frac{1}{m}\right)\frac{1}{(m^{2}+1)^{2}}}-\frac{1}{m^{4}}\right)\\
- & \sim m^{4}\left(\ue^{\left(1+\frac{1}{m}\right)\frac{1}{(m^{2}+1)^{2}}}-\frac{1}{m^{4}}-1\right)\\
- & \sim m^{4}\left(\left(1+\frac{1}{m}\right)\frac{1}{(m^{2}+1)^{2}}-\frac{1}{m^{4}}\right)\sim\frac{1}{m}
-\end{align*}</script><p>这说明上面的不等式并没有放的过大, $\sum\frac{b_{n}}{a_{n}}$有发散的子列$\sum\frac{b_{m^{2}}}{a_{m^{2}}}$. (我在这里并没有验证$b_{n}$的正负, 事实上其后的的一项刚好是$-\frac{1}{m}$, 但这已经给出了一个构造反例的思想. 比如选择$a_{m^{2}+1}=\frac{2}{(m^{2}+1)^{2}}$并结合Cauchy收敛准则.)</p>
-<p>于是上网搜索正确的问题应当是怎么样的. 得到正确的问题表述其实是</p>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $\left\{ a_{n}\right\} ,\left\{ b_{n}\right\} $ 为满足 $e^{a_{n}}=a_{n}+e^{b_{n}},n\geq1$ 的两个实数列, 已知 $a_{n}&gt;0(n\geq1)$, 且 $\sum_{n=1}^{\infty}a_{n}$ 收敛。证明: $\sum_{n=1}^{\infty}\frac{b_{n}}{a_{n}}$ 也收敛。</p>
-</div>
-<p>现在问题就简单了, 直接考虑$\left|a_{n}\right|\ll1$时的情况, 有以下控制</p>
-<script type="math/tex; mode=display">
-\left|\frac{b_{n}}{a_{n}}\right|\le\frac{\ue^{a_{n}}-1-a_{n}}{a_{n}}\le\frac{1+a_{n}+\frac{a_{n}^{2}}{2}+o(a_{n}^{2})-1-a_{n}}{a_{n}}\le a_{n}.</script><p>然后用比较判别法即可.</p>
-<p>比较判别法是判断无穷级数收敛, 条件收敛, 绝对收敛, 区间收敛或发散的方法. 也叫作比较审敛法, 比较审敛原理.</p>
-<div class="note primary no-icon flat"><p><strong>比较判别法</strong>: 设$\sum b_{n}$是收敛的正项无穷级数, 复无穷级数$\sum a_{n}$若满足对于任意的$n$有$\left|a_{n}\right|\le cb_{n}$, 其中$c$是与$n$无关的正常数, 则</p>
-<p>(1) 若$\sum b_{n}$收敛, 则$\sum a_{n}$收敛.</p>
-<p>(2) 若$\sum\left|a_{n}\right|=+\infty$, 则$\sum b_{n}=+\infty$.</p>
-</div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-      <categories>
-        <category>高等数学</category>
-      </categories>
-      <tags>
-        <tag>微积分</tag>
-        <tag>分析</tag>
-        <tag>反例</tag>
-        <tag>每日一题</tag>
-        <tag>高等数学</tag>
-        <tag>数学分析</tag>
-        <tag>高等数学竞赛</tag>
-        <tag>数项级数</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Euler求和公式</title>
-    <url>/2022/07/12/Euler%E6%B1%82%E5%92%8C%E5%85%AC%E5%BC%8F/</url>
-    <content><![CDATA[<div class="note primary no-icon flat"><p><strong>定理</strong>: Euler求和公式: 设函数$f\in C^1[0,+\infty)$, 则有</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-\sum_{k=1}^{n}f(k) & =\int_{0}^{n}f(x)\ud x+\frac{f(n)-f(0)}{2}+\int_{0}^{n}\left\langle x\right\rangle f'(x)\ud x\\
- & =\int_{1}^{n}f(x)\ud x+\frac{f(n)+f(1)}{2}+\int_{1}^{n}\left\langle x\right\rangle f'(x)\ud x
-\end{align*}</script><p>其中$\left\langle x\right\rangle =\left\{ x\right\} -\frac{1}{2}$.</p>
-</div>
-<hr>
-<p>证明: 使用RS积分, 由于</p>
-<script type="math/tex; mode=display">
-\ud[x]=\sum_{k\in\mathrm{Dom}(x)}\delta(x-k)\ud x,</script><p>所以</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-\sum_{k=1}^{n}f(k) & =\int_{0+}^{n+}f(x)\ud[x]\\
- & =\int_{0}^{n}f(x)\ud x-\int_{0+}^{n+}f(x)\ud\left\{ x\right\} \\
- & =\int_{0}^{n}f(x)\ud x-\int_{0+}^{n+}f(x)\ud\left(\left\{ x\right\} -\frac{1}{2}\right)\\
- & =\int_{0}^{n}f(x)\ud x-\left\langle x\right\rangle f(x)\mid_{0+}^{n+}+\int_{0+}^{n+}\left\langle x\right\rangle f'(x)\ud x\\
- & =\int_{0}^{n}f(x)\ud x+\frac{f(n)-f(0)}{2}+\int_{0}^{n}\left\langle x\right\rangle f'(x)\ud x.
-\end{align*}</script><hr>
-<p>通常的证法: 将区间$[0,n]$划分为长度为$1$的小区间$[k-1,k]$, ($k=1,2,\cdots,n$), 则</p>
-<script type="math/tex; mode=display">
-\int_{k-1}^{k}\left\langle x\right\rangle f'(x)\ud x=\int_{k-1}^{k}\left(x-k+\frac{1}{2}\right)f'(x)\ud x=\frac{f(k)+f(k-1)}{2}-\int_{k-1}^{k}f(x)\ud x.</script><p>做累和, 得到</p>
-<script type="math/tex; mode=display">
-\int_{0}^{n}\left\langle x\right\rangle f'(x)\ud x=\sum_{k=1}^{n}f(k)-\frac{f(n)-f(0)}{2}-\int_{0}^{n}f(x)\ud x.</script><h2 id="公式的应用"><a href="#公式的应用" class="headerlink" title="公式的应用:"></a>公式的应用:</h2><p>Euler-Mascheroni常数与调和级数</p>
-<script type="math/tex; mode=display">
-H_{n}=\sum_{k=1}^{n}\frac{1}{k}=\ln n+\frac{1}{2n}+\gamma+\int_{n}^{\infty}\frac{\left\langle x\right\rangle }{x^{2}}\ud x.</script><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><blockquote id="fn_1">
-<sup>1</sup>. Apostol, Tom M. Introduction to analytic number theory. Springer Science &amp; Business Media, p. 54, sec 3.3, 1998.<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a>
-</blockquote>
-<blockquote id="fn_2">
-<sup>2</sup>. 王竹溪, 郭敦仁. 特殊函数槪論. 科学出版社, p.7, sec 1.3, 1965.<a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#8617;</a>
-</blockquote>
-<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-      <categories>
-        <category>定理</category>
-      </categories>
-      <tags>
-        <tag>math</tag>
-        <tag>高等数学</tag>
-        <tag>数学分析</tag>
       </tags>
   </entry>
 </search>

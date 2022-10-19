@@ -1,0 +1,717 @@
+<!DOCTYPE html><html class="hide-aside" lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>概率论中的定义 | Larry_Eppes's Trivia Collection Site</title><meta name="keywords" content="math,概率论"><meta name="author" content="Larry Eppes"><meta name="copyright" content="Larry Eppes"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="事件与概率定义: 在一定条件下, 必然发生或者必然不发生, 这种现象称为确定性现象. 必然会发生的现象称为必然现象. 必然不会发生的现象, 称为不可能现象. 在一定条件下, 并不总出现相同的结果, 但在大量重复试验中, 结果具有统计性规律的现象, 称为随机现象. 确定性现象的特征: 条件完全决定结果.随机现象的特征: 条件不能完全决定结果.  定义: 对随机现象的观测或实验称为试验. 有以下特点:">
+<meta property="og:type" content="article">
+<meta property="og:title" content="概率论中的定义">
+<meta property="og:url" content="http://larryeppes.github.io/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/index.html">
+<meta property="og:site_name" content="Larry_Eppes&#39;s Trivia Collection Site">
+<meta property="og:description" content="事件与概率定义: 在一定条件下, 必然发生或者必然不发生, 这种现象称为确定性现象. 必然会发生的现象称为必然现象. 必然不会发生的现象, 称为不可能现象. 在一定条件下, 并不总出现相同的结果, 但在大量重复试验中, 结果具有统计性规律的现象, 称为随机现象. 确定性现象的特征: 条件完全决定结果.随机现象的特征: 条件不能完全决定结果.  定义: 对随机现象的观测或实验称为试验. 有以下特点:">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://larryeppes.github.io/img/0072Vf1pgy1foxlny0lgrj31kw0w0e2v.jpg">
+<meta property="article:published_time" content="2022-06-13T07:01:27.000Z">
+<meta property="article:modified_time" content="2022-07-12T05:30:27.020Z">
+<meta property="article:author" content="Larry Eppes">
+<meta property="article:tag" content="math">
+<meta property="article:tag" content="概率论">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://larryeppes.github.io/img/0072Vf1pgy1foxlny0lgrj31kw0w0e2v.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://larryeppes.github.io/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: true,
+    post: true
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'mediumZoom',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"bottom-left"},
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-07-12 13:30:27'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    })(window)</script><meta name="generator" content="Hexo 5.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="/img/head.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">30</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">54</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">14</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> Math</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6"><i class="fa-fw fas fa-link"></i><span> 高等数学</span></a></li><li><a class="site-page" href="/categories/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90"><i class="fa-fw fas fa-link"></i><span> 数学分析</span></a></li><li><a class="site-page" href="/categories/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0"><i class="fa-fw fas fa-link"></i><span> 高等代数</span></a></li><li><a class="site-page" href="/categories/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0"><i class="fa-fw fas fa-link"></i><span> 抽象代数</span></a></li><li><a class="site-page" href="/categories/%E7%82%B9%E9%9B%86%E6%8B%93%E6%89%91"><i class="fa-fw fas fa-link"></i><span> 点集拓扑</span></a></li><li><a class="site-page" href="/categories/%E6%B3%9B%E5%87%BD%E5%88%86%E6%9E%90"><i class="fa-fw fas fa-link"></i><span> 泛函分析</span></a></li><li><a class="site-page" href="/categories/%E5%AE%9E%E5%8F%98%E5%87%BD%E6%95%B0"><i class="fa-fw fas fa-link"></i><span> 实变函数</span></a></li><li><a class="site-page" href="/categories/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0"><i class="fa-fw fas fa-link"></i><span> 复变函数</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/categories/%E5%AE%9A%E4%B9%89"><i class="fa-fw fa fa-book"></i><span> Defs</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E5%AE%9A%E7%90%86"><i class="fa-fw fa fa-arrow-circle-up"></i><span> Thms</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/shuoshuo/"><i class="fa-fw fa fa-commenting"></i><span> 说说</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/0072Vf1pgy1foxlny0lgrj31kw0w0e2v.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Larry_Eppes's Trivia Collection Site</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> Math</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6"><i class="fa-fw fas fa-link"></i><span> 高等数学</span></a></li><li><a class="site-page" href="/categories/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90"><i class="fa-fw fas fa-link"></i><span> 数学分析</span></a></li><li><a class="site-page" href="/categories/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0"><i class="fa-fw fas fa-link"></i><span> 高等代数</span></a></li><li><a class="site-page" href="/categories/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0"><i class="fa-fw fas fa-link"></i><span> 抽象代数</span></a></li><li><a class="site-page" href="/categories/%E7%82%B9%E9%9B%86%E6%8B%93%E6%89%91"><i class="fa-fw fas fa-link"></i><span> 点集拓扑</span></a></li><li><a class="site-page" href="/categories/%E6%B3%9B%E5%87%BD%E5%88%86%E6%9E%90"><i class="fa-fw fas fa-link"></i><span> 泛函分析</span></a></li><li><a class="site-page" href="/categories/%E5%AE%9E%E5%8F%98%E5%87%BD%E6%95%B0"><i class="fa-fw fas fa-link"></i><span> 实变函数</span></a></li><li><a class="site-page" href="/categories/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0"><i class="fa-fw fas fa-link"></i><span> 复变函数</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/categories/%E5%AE%9A%E4%B9%89"><i class="fa-fw fa fa-book"></i><span> Defs</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E5%AE%9A%E7%90%86"><i class="fa-fw fa fa-arrow-circle-up"></i><span> Thms</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/shuoshuo/"><i class="fa-fw fa fa-commenting"></i><span> 说说</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">概率论中的定义</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-06-13T07:01:27.000Z" title="发表于 2022-06-13 15:01:27">2022-06-13</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-12T05:30:27.020Z" title="更新于 2022-07-12 13:30:27">2022-07-12</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%AE%9A%E4%B9%89/">定义</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.1k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>7分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="事件与概率"><a href="#事件与概率" class="headerlink" title="事件与概率"></a>事件与概率</h1><div class="note primary no-icon flat"><p><strong>定义</strong>: 在一定条件下, 必然发生或者必然不发生, 这种现象称为<strong>确定性现象</strong>. 必然会发生的现象称为<strong>必然现象</strong>. 必然不会发生的现象, 称为<strong>不可能现象</strong>.</p>
+<p>在一定条件下, 并不总出现相同的结果, 但在大量重复试验中, 结果具有统计性规律的现象, 称为<strong>随机现象</strong>.</p>
+<p>确定性现象的特征: 条件完全决定结果.<br>随机现象的特征: 条件不能完全决定结果.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: 对随机现象的观测或实验称为<strong>试验</strong>. 有以下特点:</p>
+<ul>
+<li>试验可以在相同条件下重复进行;</li>
+<li>试验的所有可能结果是事前已知且结果不止一种;</li>
+<li>在每次试验中, 结果是事先无法确定的.</li>
+</ul>
+<p>把有这三个特点的试验称为<strong>随机试验</strong>, 简称<strong>试验</strong>. 通常用字母$E$表示.<br>随机试验$E$的每一个可能的结果称为$E$的一个<strong>样本点</strong>, 一般用$\omega$表示.<br>$E$的所有样本点所组成的集合称为$E$的<strong>样本空间</strong>, 记为$\Omega$.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: 随机现象的结果称为<strong>随机事件</strong>, 简称<strong>事件</strong>.<br>关于事件, 要注意以下几点</p>
+<ul>
+<li>任一事件是相应样本空间的一个子集;</li>
+<li>事件发生当且仅当它所包含的某一样本点发生;</li>
+<li>事件可以用集合表示, 也可以用文字语言表示, 甚至还可以用随机变量表示.</li>
+</ul>
+<p>两个特殊的事件:</p>
+<ul>
+<li>样本空间$\Omega$的最大子集, 称为<strong>必然事件</strong>.</li>
+<li>样本空间$\Omega$的最小子集$\emptyset$, 称为不可能事件.</li>
+</ul>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: 事件间的关系:</p>
+<ul>
+<li>包含: 事件$A$发生必然导致事件$B$发生, 则称事件$B$包含事件$A$, 记为$A\subset B$.</li>
+<li>相等: 若事件$A$与事件$B$中任一事件发生必然导致另一事件发生, 则称事件$A$与事件$B$相等, 记为$A=B$.</li>
+<li>互不相容: 若事件$A$与事件$B$不能同时发生, 则称事件$A$与事件$B$是互不相容的(互斥的).</li>
+</ul>
+<p>事件间的运算</p>
+<ul>
+<li>并: 有限并, 可列并</li>
+<li>交: 有限交, 可列交</li>
+<li>差: “事件$A$发生而事件$B$不发生”, 称为事件$A$与事件$B$的差, 记为$A-B$. <ul>
+<li>必然事件$\Omega$对任一事件$A$的差$\Omega-A$称为事件$A$的<strong>对立事件</strong>, 记为$\overline{A}$.</li>
+</ul>
+</li>
+</ul>
+<p>事件的运算性质</p>
+<ul>
+<li>交换律: $A\cup B=B\cup A$, $AB=BA$;</li>
+<li>结合律: $(A\cup B)\cup C=A\cup(B\cup C)$, $(AB)C=A(BC)$;</li>
+<li>分配率: $(A\cup B)\cap C=AC\cup BC$, $(A\cap B)\cup C=(A\cup C)\cap(B\cup C)$;</li>
+<li>对偶律: $\overline{A\cup B}=\overline{A}\cap\overline{B}$, $\overline{A\cap B}=\overline{A}\cup\overline{B}$;</li>
+<li>$A-B=A-AB=A\overline{B}$.</li>
+</ul>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: 在相同条件下, 进行$n$次试验, 在这$n$次试验中, 事件$A$发生的次数$m$称为事件$A$发生的<strong>频数</strong>, $\frac{m}{n}$称为事件$A$发生的<strong>频率</strong>, 记为$f_n(A)$. 当$n$相当大, 频率会接近一个常数, 把这个现象称为<strong>频率的稳定性</strong>. 通常, 当试验次数$n$逐渐增大时, 事件$A$出现的频率$f_n(A)$会接近一个常数, 把这个常数作为度量事件$A$发生可能性的大小, 并称为事件$A$的<strong>概率</strong>, 记为$P(A)$. </p>
+<p>常取试验次数很大时事件的频率为概率的估计值, 称此概率为<strong>统计概率</strong>. 这种确定概率的方法称为<strong>频率方法</strong>.</p>
+<p>概率的性质:</p>
+<ul>
+<li>$0\le P(A)\le1$;</li>
+<li>$P(\Omega)=1$, $P(\emptyset)=0$;</li>
+<li>若$A_1,A_2,\cdots,A_k$是两两互不相容的事件, 则<script type="math/tex">P(A_1\cup A_2\cup \cdots\cup A_k)=P(A_1)+P(A_2)+\cdots+P(A_k).</script></li>
+<li>由以上性质, 可以推出下列性质:<ul>
+<li>$P(A)+P(\overline{A})=1$;</li>
+<li>若$A\subset B$, 则$P(B-A)=P(B)-P(A)$;</li>
+<li>对于任意的事件$A$与$B$, 有$P(B-A)=P(B)=P(AB)$;</li>
+<li>对于任意的事件$A$与$B$, 有$P(A\cup B)=P(A)+P(B)-P(AB)$. 称为<strong>加法公式</strong>.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: 若一个随机试验有以下特点:</p>
+<ul>
+<li>试验的样本空间$\Omega$包含有限个样本点;</li>
+<li>试验中每个样本点发生的可能性是均等的.<br>则称此试验为<strong>古典概型试验</strong>.</li>
+</ul>
+<p>在古典概型试验中, 若样本空间$\Omega$中样本点的个数为$n$, 事件$A$包含的样本点的个数为$k$, 则事件$A$的概率为$P(A)=\frac{k}{n}$.</p>
+<p><strong>二项分布</strong>(有放回抽样): 把$N$件产品编号, 其中有$n$件次品, 有放回地任取$m$次, 其中恰有$k$ ($k\le n$)件次品的概率为</p>
+<script type="math/tex; mode=display">P=\binom{m}{k}\left(\frac{n}{N}\right)^k\left(\frac{N-n}{N}\right)^{m-k},</script><p>符合这样的概率分布称为二项分布.</p>
+<p><strong>超几何分布</strong>(不放回抽样): 从$N$件产品中抽取$m$件产品, 总共有$n$件次品, 抽出恰好$k$件次品的概率为</p>
+<script type="math/tex; mode=display">P=\frac{\binom{n}{k}\binom{N-n}{m-k}}{\binom{N}{m}}.</script><p>这个概率称为超几何分布.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: 设一试验中事件 $A$ 发生的概率为 $P(A)$, 若又获得一些新的有关信息, 且可综合为事件 $B$, 这时在事件 $B$ 发生的条件下, 事件 $A$ 再发生的概率将会有所变化, 这种在新的条件下的概率称为<strong>条件概率</strong>, 记为 $P(A \mid B)$, 而 $P(A)$ 称为<strong>无条件概率</strong>. </p>
+<p>设事件 $A, B$ 是样本空间 $\Omega$ 中的两个事件, 且 $P(B)&gt;0$, 在事件 $B$ 发生的条件下, 事件 $A$ 发生的条件概率 $P(A \mid B)$ 定义为 $\frac{P(A B)}{P(B)}$, 即</p>
+<script type="math/tex; mode=display">
+P(A \mid B)=\frac{P(A B)}{P(B)},</script><p>其中 $P(A \mid B)$ 也称为给定事件 $B$ 下, 事件 $A$ 的<strong>条件概率</strong>.</p>
+<p>条件概率的性质:</p>
+<ul>
+<li>$P(A \mid B) \ge 0$;</li>
+<li>$P(\Omega \mid B)=1$, $P(\emptyset \mid B)=0$;</li>
+<li>若事件 $A_{1}, A_{2}, \cdots, A_{n}, \cdots$ 是两两互不相容的事件, 且 $P(B)&gt;0$, 则<script type="math/tex; mode=display">
+P\left(\bigcup_{n=1}^{\infty} A_{n} \mid B\right)=\sum_{n=1}^{\infty} P(A_{n} \mid B);</script></li>
+<li>$P(A \mid B)+P(\overline{A} \mid B)=1$</li>
+</ul>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: 对任意两个事件 $A$ 与 $B$, 若</p>
+<script type="math/tex; mode=display">
+P(A B)=P(A) P(B),</script><p>则称事件 $A$ 与 $B$ <strong>相互独立</strong>, 或简称<strong>独立</strong>, 否则称事件 $A$ 与 $B$ <strong>不独立</strong>或<strong>相关</strong>.</p>
+<p>设有 $n$ 个事件 $A_{1}, A_{2}, \cdots, A_{n}$, 若对于任意的整数 $k$ ($1 \le k \le n$) 和任意的 $k$ 个整数 $i_{1}, i_{2}, \cdots, i_{k}$ ($1 \le i_{1}&lt;i_{2}&lt;\cdots&lt;i_{k} \le n$), 有</p>
+<script type="math/tex; mode=display">
+P(A_{i_{1}} A_{i_{2}} \cdots A_{i_{k}})=P(A_{i_{1}}) P(A_{i_{2}}) \cdots P(A_{i_{k}}),</script><p>则称 $A_{1}, A_{2}, \cdots, A_{n}$ <strong>相互独立</strong>, 简称 $A_{1}, A_{2}, \cdots, A_{n}$ <strong>独立</strong>.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: 若试验满足下列条件:<br>(1) 每次试验只有两种可能结果 $A, \overline{A}$;<br>(2) $A$ 在每次的试验中出现的概率 $p$ 保持不变;<br>(3) 各次试验是相互独立的;<br>(4) 共进行 $n$ 次试验,<br>则称这种试验为 <strong>$n$ 重伯努利试验</strong>. </p>
+</div>
+<h1 id="随机变量及其分布"><a href="#随机变量及其分布" class="headerlink" title="随机变量及其分布"></a>随机变量及其分布</h1><div class="note primary no-icon flat"><p><strong>定义</strong>: 定义在样本空间 $\Omega$ 上, 取值于实数域 $\RR$, 若对于样本空间的任意一个样本点 $\omega$, 都有唯一的实数 $X(\omega)$ 与之对应, 则称 $X(\omega)$ 为<strong>随机变量</strong>, 常用大写字母 $X, Y, Z$ 等表示. 用小写字母表示随机变量的取值.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: 如果随机变量 $X(\omega)$ 所有可能取值是有限个或可列多个, 则称 $X(\omega)$ 为<strong>离散型随机变量</strong>.</p>
+<p>设 $X$ 是离散型随机变量, 它的所有可能取值是 $x_{1}, x_{2}, \cdots$. 假如 $X$ 取 $x_{i}$ 的概率为 $P(X=x_{i})=p_{i}$, $i=1,2, \cdots$, 且满足<br>(1) $p_{i} \ge 0$, $i=1,2, \cdots$;<br>(2) $\sum_{i=1}^{\infty} p_{i}=1$,<br>则称 $\{p_{i}\}$ 为随机变量 $X$ 的<strong>分布列</strong>(<strong>概率分布</strong>), 也可以表示为</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">$X$</th>
+<th style="text-align:center">$x_{1}$</th>
+<th style="text-align:center">$x_{2}$</th>
+<th style="text-align:center">$\cdots$</th>
+<th style="text-align:center">$x_{n}$</th>
+<th style="text-align:center">$\cdots$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$P$</td>
+<td style="text-align:center">$p_{1}$</td>
+<td style="text-align:center">$p_{2}$</td>
+<td style="text-align:center">$\cdots$</td>
+<td style="text-align:center">$p_{n}$</td>
+<td style="text-align:center">$\cdots$</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2 id="几种常见的离散型随机变量的概率分布"><a href="#几种常见的离散型随机变量的概率分布" class="headerlink" title="几种常见的离散型随机变量的概率分布"></a>几种常见的离散型随机变量的概率分布</h2><div class="note primary no-icon flat"><p><strong>定义</strong>: <strong>0-1 分布</strong> (<strong>两点分布</strong>)<br>设随机变量 $X$ 只可能取 0 和 1 两个值, 且取各值的概率是</p>
+<script type="math/tex; mode=display">
+P(X=k)=p^{k}(1-p)^{1-k}, \quad k=0,1\ (0<p<1),</script><p>则称 $X$ 服从<strong>两点分布</strong>, 记为 $X \sim B(1, p)$, 也可以写成</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">$X$</th>
+<th style="text-align:center">$0$</th>
+<th style="text-align:center">$1$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$P$</td>
+<td style="text-align:center">$1-p$</td>
+<td style="text-align:center">$p$</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>二项分布</strong><br>设随机变量 $X$ 的所有可能取值为 $0,1, \cdots, n$, 且取各值的概率为 $P(X=k)=C_{n}^{k} p^{k}(1-p)^{n-k}$, $k=0,1, \cdots, n$ ($0&lt;p&lt;1$),<br>则称 $X$ 服从参数为 $n, p$ 的<strong>二项分布</strong>, 记为 $X \sim B(n, p)$.<br>特别地, 当 $n=1$ 时, 二项分布 $X \sim B(1, p)$, 即为 $0-1$ 分布.</p>
+<p><strong>泊松分布</strong><br>设随机变量 $X$ 所有可能取值为 $0,1,2, \cdots$, 且它取各值的概率为</p>
+<script type="math/tex; mode=display">
+P(X=k)=\frac{\lambda^{k} \mathrm{e}^{-\lambda}}{k !},\quad k=0,1,2, \cdots(\lambda>0\text {为常数}),</script><p>则称 $X$ 服从参数为 $\lambda$ 的<strong>泊松分布</strong>, 记为 $X \sim P(\lambda)$.</p>
+</div>
+<h2 id="随机变量的分布函数"><a href="#随机变量的分布函数" class="headerlink" title="随机变量的分布函数"></a>随机变量的分布函数</h2><div class="note primary no-icon flat"><p><strong>定义</strong>: 设 $X$ 是一个随机变量, 对任意实数 $x$, 函数</p>
+<script type="math/tex; mode=display">
+F(x)=P(X \le x) \quad(-\infty<x<+\infty)</script><p>称为 $X$ 的<strong>分布函数</strong>.</p>
+<p>已知 $\{p_{k}\}$ 是离散型随机变量 $X$ 的分布列, 则可以求出随机变量 $X$ 的分布函数, 以及随机变量在某区间的概率:<br>(1) 随机变量 $X$ 的分布函数:</p>
+<script type="math/tex; mode=display">
+F(x)=P(X \le x)=\sum_{x_{k} \le x} P(X=x_{k})=\sum_{x_{k} \le x} p_{k} \quad(x \in \mathbf{R});</script><p>(2) 随机事件 $\{a&lt;X \le b\}$ 的概率:</p>
+<script type="math/tex; mode=display">
+P(a<X \le b)=\sum_{a<x_{k} \le b} P(X=x_{k})=\sum_{a<x_{k} \le b} p_{k}.</script></div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: 设 $X$ 是随机变量, $f(x)$ 是定义在整个实数轴上的一个函数, 且满足下列条件:<br>(1) $f(x) \ge 0$;<br>(2) $\int_{-\infty}^{+\infty} f(x) \mathrm{d} x=1$;<br>(3) $P(a \le X \le b)=\int_{a}^{b} f(x) \mathrm{d} x$,<br>则称 $X$ 是<strong>连续型随机变暈</strong>, $f(x)$ 称为 $X$ 的<strong>概率分布</strong>(<strong>概率密度函数</strong>或<strong>密度函数</strong>).</p>
+</div>
+<div class="note warning flat"><p>(i) 上述定义中的前两个条件是判定一个函数是否为连续型随机变量的概率密度函数的充要条件.<br>(ii) $X$ 落入区间 $[a, b]$ 内的概率为密度函数在该区间的积分.<br>(iii) 连续型随机变量 $X$ 仅取一点的概率均为零, 即</p>
+<script type="math/tex; mode=display">
+P(X=c)=0 \text {. }</script><p>在概率论中, 概率为零的事件称为<strong>零概率事件</strong>, 它与不可能事件 $\varnothing$ 是有差别的, 同样, 概率为 1 的事件与必然事件也是有差别的.<br>(iv) 连续型随机变量 $X$ 取值落在区间的概率与区间的开闭无关.<br>(v) 密度函数 $f(x)$ 在某点处的数值并不能反映随机变量在该值处的概率, 但能反映随机变量在该值附近处的概率的大小(严格来说这一小句是需要条件的, 比如要求$f(x)$在这一点附近连续), 这里如果把概率理解为质量, 则 $f(x)$ 相当于密度.<br>(vi) $F(x)=P(X \le x)=P(-\infty&lt;X \le x)=\int_{-\infty}^{x} f(x) \mathrm{d} x$, 若 $f(x)$ 是可积函数, 则分布函数 $F(x)$ 一定是连续函数; 若 $f(x)$ 在 $x$ 处连续, 则 $F(x)$ 在 $x$ 处可导且 $F^{\prime}(x)=f(x)$.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: 均匀分布<br>若连续型随机变量 $X$ 的概率密度函数为</p>
+<script type="math/tex; mode=display">
+f(x)= \begin{cases}\frac{1}{b-a}, & a \leqslant x \leqslant b, \\ 0, & \text {其他, }\end{cases}</script><p>则称 $X$ 在区间 $[a, b]$ 上服从<strong>均匀分布</strong>, 记为 $X \sim U[a, b]$. 其相应的分布函数为</p>
+<script type="math/tex; mode=display">
+F(x)= \begin{cases}0, & x<a, \\ \frac{x-a}{b-a}, & a \leqslant x<b, \\ 1, & x \geqslant b .\end{cases}</script><p>指数分布<br>若连续型随机变量 $X$ 的概率密度函数为</p>
+<script type="math/tex; mode=display">
+f(x)= \begin{cases}\lambda \mathrm{e}^{-\lambda x}, & x>0, \\ 0, & x \leqslant 0,\end{cases}</script><p>其中 $\lambda&gt;0$ 为常数, 则称 $X$ 服从参数为 $\lambda$ 的<strong>指数分布</strong>, 记为 $X \sim E(\lambda)$. 其相应的分布函数为</p>
+<script type="math/tex; mode=display">
+F(x)= \begin{cases}1-\mathrm{e}^{-\lambda x}, & x>0, \\ 0, & x \leqslant 0\end{cases}</script><p>正态分布<br>若连续型随机变量 $X$ 的概率密度函数为</p>
+<script type="math/tex; mode=display">
+f(x)=\frac{1}{\sqrt{2 \pi} \sigma} \mathrm{e}^{-\frac{(x-\mu)^{2}}{2 \sigma^{2}}}, \quad-\infty<x<+\infty,</script><p>其中 $\mu, \sigma$ ($\sigma&gt;0$) 为常数, 则称 $X$ 服从参数为 $\mu, \sigma$ 的<strong>正态分布</strong>或<strong>高斯分布</strong>, 记为 $X \sim N(\mu, \sigma^{2})$.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: 设有函数 $Y=g(X)$, 其定义域为随机变量 $X$ 的一切可能取值构成的集合. 如果对于 $X$ 的每一个可能取值 $x$, 另一个随机变量 $Y$ 相应的取值为 $y=g(x)$, 则称 $Y$ 为<strong>随机变量 $X$ 的函数</strong>, 记为 $Y=g(X)$.</p>
+<p>若 $X$ 是离散型随机变量, 则 $Y=g(X)$ 也是一个离散型随机变量, $g(X)$ 的分布可由 $X$ 的分布直接求出. 设 $X$ 的概率分布为</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">$X$</th>
+<th style="text-align:center">$x_1$</th>
+<th style="text-align:center">$x_2$</th>
+<th style="text-align:center">$\cdots$</th>
+<th style="text-align:center">$x_n$</th>
+<th style="text-align:center">$\cdots$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$P(X=x_i)$</td>
+<td style="text-align:center">$p_1$</td>
+<td style="text-align:center">$p_2$</td>
+<td style="text-align:center">$\cdots$</td>
+<td style="text-align:center">$p_n$</td>
+<td style="text-align:center">$\cdots$</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>则 $Y=g(X)$ 的概率分布为</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">$Y$</th>
+<th style="text-align:center">$g(x_1)$</th>
+<th style="text-align:center">$g(x_2)$</th>
+<th style="text-align:center">$\cdots$</th>
+<th style="text-align:center">$g(x_n)$</th>
+<th style="text-align:center">$\cdots$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$P(Y=y_i)$</td>
+<td style="text-align:center">$p_1$</td>
+<td style="text-align:center">$p_2$</td>
+<td style="text-align:center">$\cdots$</td>
+<td style="text-align:center">$p_n$</td>
+<td style="text-align:center">$\cdots$</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>若 $g(x_{i})$ 的值中有相等的, 那么就把那些相等的值分别合并, 并根据概率加法公式将相应的概率相加, 便得到 $Y$ 的分布.</p>
+</div>
+<h2 id="多维随机变量及其分布"><a href="#多维随机变量及其分布" class="headerlink" title="多维随机变量及其分布"></a>多维随机变量及其分布</h2><div class="note primary no-icon flat"><p><strong>定义</strong>: 多维随机变量<br>设随机变量 $X_{1}(\omega), X_{2}(\omega), \cdots, X_{n}(\omega)$ 定义在同一样本空间 $\Omega$ 上. 若对于样本空间的任一个样本点 $\omega$, 都有确定的 $n$ 个实数与之对应, 则称 $\boldsymbol{X}(\omega)=(X_{1}(\omega), X_{2}(\omega), \cdots, X_{n}(\omega))$ 为 <strong> $n$ 维随机变量 </strong>.</p>
+<p>二维离散型随机变量<br>假如随机变量 $(X, Y)$ 的每个分量都是一维离散型随机变量, 则称 $(X, Y)$ 为二维离散型随机变量. 若设 $\{x_{n}\}$ 与 $\{y_{n}\}$ 分别为 $X$ 与 $Y$ 的全部可能取值, 则概率</p>
+<script type="math/tex; mode=display">
+P(X=x_{i}, Y=y_{j})=p_{i j}, \quad i=1,2, \cdots, j=i=1,2, \cdots</script><p>全体称为 $(X, Y)$ 的<strong>联合概率分布</strong>.</p>
+<p>多维随机变量的联合分布<br>设 $\boldsymbol{X}=(X_{1}, X_{2}, \cdots, X_{n})$ 是 $n$ 维随机变量. 对任意 $n$ 个实数 $x_{1}, x_{2}, \cdots, x_{n}$ 所组成的 $n$ 个事件 “$X_{1} \leqslant x_{1}$”, “$X_{2} \leqslant x_{2}$”, $\cdots$, “$X_{n} \leqslant x_{n}$” 同时发生的概率</p>
+<script type="math/tex; mode=display">
+F(x_{1}, x_{2}, \cdots, x_{n})=P(X_{1} \leqslant x_{1}, X_{2} \leqslant x_{2}, \cdots, X_{n} \leqslant x_{n})</script><p>称为 $n$ 维随机变量 $\boldsymbol{X}$ 的<strong>联合分布函数</strong>.</p>
+<p>二维连续型随机变量<br>设二维随机变量 $(X, Y)$ 的联合分布函数为 $F(x, y)$. 假如各分量 $X$ 和 $Y$ 都是一维连续型随机变量, 并对于任意实数 $x$ 与 $y$, 若存在一个二元非负函数 $f(x, y)$, 使</p>
+<script type="math/tex; mode=display">
+F(x, y)=\int_{-\infty}^{x} \int_{-\infty}^{y} f(x, y) \mathrm{d} x \mathrm{d} y,</script><p>则称 $(X, Y)$ 为<strong>二维连续型随机变量</strong>, $f(x, y)$ 称为 $(X, Y)$ 的<strong>联合概率密度函数</strong>.<br>$(X, Y)$ 的两个<strong>边际分布函数</strong>分别为</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+F_{X}(x)&=F(x,+\infty)=\int_{-\infty}^{x}\left(\int_{-\infty}^{+\infty} f(x, y) \mathrm{d} y\right) \mathrm{d} x, \\
+F_{Y}(y)&=F(+\infty, y)=\int_{-\infty}^{y}\left(\int_{-\infty}^{+\infty} f(x, y) \mathrm{d} x\right) \mathrm{d} y;
+\end{aligned}</script><p>$(X, Y)$ 关于 $X$ 和 $Y$ 的<strong>边际密度函数</strong>分别为</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+f_{X}(x)&=F_{X}^{\prime}(x)=\int_{-\infty}^{+\infty} f(x, y) \mathrm{d} y, \\
+f_{Y}(y)&=F_{Y}^{\prime}(y)=\int_{-\infty}^{+\infty} f(x, y) \mathrm{d} x.
+\end{aligned}</script><p>随机变量间的独立性<br>设 $(X_{1}, X_{2}, \cdots, X_{n})$ 是 $n$ 维随机变量. 若对任意 $n$ 个实数 $x_{1}$, $x_{2}, \cdots, x_{n}$ 所组成的 $n$ 个事件 “$X_{1} \leqslant x_{1}$”, “$X_{2} \leqslant x_{2}$”, $\cdots$, “$X_{n} \leqslant x_{n}$” 相互独立, 即有</p>
+<script type="math/tex; mode=display">
+P(X_{1} \leqslant x_{1}, X_{2} \leqslant x_{2}, \cdots, X_{n} \leqslant x_{n})=P(X_{1} \leqslant x_{1}) P(X_{2} \leqslant x_{2}) \cdots P(X_{n} \leqslant x_{n})</script><p>或</p>
+<script type="math/tex; mode=display">
+F(x_{1}, x_{2}, \cdots, x_{n})=F_{X_{1}}(x_{1}) F_{X_{2}}(x_{2}) \cdots F_{X_{n}}(x_{n}),</script><p>则称 $n$ 个随机变量 $X_{1}, X_{2}, \cdots, X_{n}$ <strong>相互独立</strong>, 否则称 $X_{1}, X_{2}, \cdots, X_{n}$ <strong>不相互独立</strong>.</p>
+</div>
+<h1 id="随机变量的数字特征"><a href="#随机变量的数字特征" class="headerlink" title="随机变量的数字特征"></a>随机变量的数字特征</h1><div class="note primary no-icon flat"><p><strong>定义</strong>: 离散型随机变量的数学期望<br>设离散型随机变量 $X$ 的分布列为 $P(X=x_{i})=p_{i}$, $i=1,2, \cdots$.<br>若级数 $\sum_{i=1}^{\infty} x_{i} p_{i}$ 绝对收敛, 即 $\sum_{i=1}^{\infty}|x_{i}| p_{i}&lt;+\infty$, 则称随机变量 $X$ 的数学期望存在且该级数之和为 $X$ 的<strong>数学期望</strong>, 或简称为<strong>期望</strong>, 记为 $E(X)$, 即</p>
+<script type="math/tex; mode=display">
+E(X)=\sum_{i=1}^{\infty} x_{i} p_{i}</script><p>若级数 $\sum_{i=1}^{\infty} x_{i} p_{i}$ 不绝对收敛, 则该随机变量 $X$ 的数学期望不存在.</p>
+<p>连续型随机变量的数学期望<br>设连续型随机变量 $X$ 的密度函数为 $f(x)$. 若积分 $\int_{-\infty}^{+\infty} x f(x) \mathrm{d} x$ 绝对收㪉, 即 $\int_{-\infty}^{+\infty}|x| f(x) \mathrm{d} x&lt;\infty$, 则称 $\int_{-\infty}^{+\infty} x f(x) \mathrm{d} x$ 的值为随机变量 $X$ 的<strong>数学期望</strong>, 记为 $E(X)$, 即</p>
+<script type="math/tex; mode=display">
+E(X)=\int_{-\infty}^{+\infty} x f(x) \mathrm{d} x</script><p><div class="note warning flat"><p>随机变量的数学期望可能不存在. 比如Cauchy分布, $f(x)=\frac1{\pi}\cdot\frac1{1+x^2}$.</p>
+</div></p>
+<p></p><p>数学期望的性质</p><p></p>
+<p><ol></ol></p>
+<p><li>常数$C$的数学期望等于$C$, 即$E(C)=C$;</li></p>
+<p><li>常数 $C$ 可以移到数学期望运算符号外面来, 即 $E(C X)=C E(X)$; </li></p>
+<p><li>随机变量和的期望等于期望的和，即 $E(X+Y)=E(X)+E(Y)$; </li></p>
+<p><li>期望具有线性性质, 即<script type="math/tex; mode=display">
+E\left(\sum_{i=1}^{n} a_{i} X_{i}\right)=\sum_{i=1}^{n} a_{i} E(X_{i}).</script></li></p>
+</div>
+
+
+<h2 id="方差与标准差"><a href="#方差与标准差" class="headerlink" title="方差与标准差"></a>方差与标准差</h2><div class="note primary no-icon flat"><p><strong>定义</strong>: 设 $X$ 是随机变量. 若 $E(X-E(X))^{2}$ 存在, 则称 $E(X-E(X))^{2}$ 为 $X$ 的<strong>方差</strong>, 记为 $D(X)$ 或 $\mathrm{Var}(X)$, 即</p>
+<script type="math/tex; mode=display">
+D(X)=E(X-E(X))^{2}.</script><p>而$\sqrt{D(X)}$称为$X$的标准差或均方差, 记为$\sigma(X)$.</p>
+<p>方差的性质:</p>
+<ol>
+<li>常数 $C$ 的方差等于零, 即 $D(C)=0$;</li>
+<li>常数 $C$ 可以平方后移到方差运算符号外面来, 即<script type="math/tex; mode=display">
+D(C X)=C^{2} D(X) \text {; }</script></li>
+<li>对任意常数 $C$ 和随机变量 $X$, 有 $D(X+C)=D(X)$;</li>
+<li>对任意的常数 $a, b$ 和随机变量 $X$, 有 $D(a X+b)=a^{2} D(X)$;</li>
+<li><strong>相互独立的</strong>随机变量和或差的方差等于方差的和, 即<script type="math/tex; mode=display">
+D(X \pm Y)=D(X)+D(Y) .</script></li>
+</ol>
+</div>
+<h1 id="数理统计的基本概念"><a href="#数理统计的基本概念" class="headerlink" title="数理统计的基本概念"></a>数理统计的基本概念</h1><div class="note primary no-icon flat"><p><strong>定义</strong>: 一个数理统计问题中总有它明确的研究对象, 我们将研究对象的全体称为<strong>总体</strong> (<strong>母体</strong>), 而把组成总体的每个成员称为<strong>个体</strong>.</p>
+<p>总体中所包含个体的数目称为<strong>总体容量</strong>. 按照总体容量是有限还是无限将总体分为有限总体或无限总体.</p>
+<p>总体是一个具有特定分布的随机变量, 研究总体的分布及其数字特征, 常用的有两种方法:</p>
+<ol>
+<li>普查: 对总体中的每个个体进行检查或观察.</li>
+<li>抽样: 从总体中抽取部分个体进行检查或观察, 然后根据抽样观察所得到的数据对总体进行推断.</li>
+</ol>
+<p>从总体$X$中抽出的部分个体组成的集合称为<strong>样本</strong>, 组成样本的个体称为<strong>样品</strong>, 一个样本中所含样品的个数称为<strong>样本容量</strong>. 样本的观察值简称<strong>样本值</strong>.</p>
+<p>抽样时应避免人为干扰, 在统计学中, 最常用的一种抽样方法是”简单随机抽样”, 它对抽样有如下两点要求:<br>(1) <strong>代表性</strong>: 总体的每一个体有同等机会被选入样本;<br>(2) <strong>独立性</strong>: 样品 $X_{1}, X_{2}, \cdots, X_{n}$ 是相互独立的随机变量.<br>这样得到的样本称为<strong>独立同分布的样本</strong>, 又称为<strong>简单随机样本</strong>.</p>
+</div>
+<h2 id="统计量与抽样分布"><a href="#统计量与抽样分布" class="headerlink" title="统计量与抽样分布"></a>统计量与抽样分布</h2><div class="note primary no-icon flat"><p><strong>定义</strong>: 设 $(X_{1}, X_{2}, \cdots, X_{n})$ 是来自总体 $X$ 的一个样本, $g(X_{1}, X_{2}, \cdots, X_{n})$ 是样本函数, 且 $g$ 中不含有任何末知参数, 则称 $g(X_{1}, X_{2}, \cdots, X_{n})$ 是一个<strong>统计量</strong>. </p>
+<p><div class="note info flat"><p>由于样本是随机变量, 而统计量是样本的函数, 故统计量是随机变量的函数, 也就是说统计量$g(X_1,X_2,\cdots,X_n)$也是随机变量, 将统计量的分布称为<strong>抽样分布</strong>. 统计量中可以含有参数, 但不能含有未知参数.</p>
+</div></p>
+<p></p><p>设 $(X_{1}, X_{2}, \cdots, X_{n})$ 是来自总体 $X$ 的一个样本, $(x_{1}, x_{2}, \cdots, x_{n})$ 是该样本的观察值, 定义以下统计量:</p><p></p>
+<p></p><p><strong>样本平均值(均值)</strong> $\overline{X}=\frac{1}{n} \sum_{i=1}^{n} X_{i}$;<br><strong>样本方差</strong> $S^{2}=\frac{1}{n-1} \sum_{i=1}^{n}(X_{i}-\overline{X})^{2}=\frac{1}{n-1}\left(\sum_{i=1}^{n} X_{i}^{2}-n \overline{X}^{2}\right)$;<br><strong>样本标准差</strong></p><p></p>
+<p><script type="math/tex; mode=display">
+S=\sqrt{S^{2}}=\sqrt{\frac{1}{n-1} \sum_{i=1}^{n}(X_{i}-\overline{X})^{2}}=\sqrt{\frac{1}{n-1}\left(\sum_{i=1}^{n} X_{i}^{2}-n \overline{X}^{2}\right)}</script></p><p><strong>样本 $k$ 阶 (原点) 矩</strong> $A_{k}=\frac{1}{n} \sum_{i=1}^{n} X_{i}^{k}$, ($k=1,2, \cdots$);<br><strong>样本 $k$ 阶中心矩</strong> $B_{k}=\frac{1}{n} \sum_{i=1}^{n}(X_{i}-\overline{X})^{k}$, ($k=1,2, \cdots$).<br>它们的观察值分别为</p><p></p>
+<p><script type="math/tex; mode=display">
+\begin{aligned}
+\overline{x} &=\frac{1}{n} \sum_{i=1}^{n} x_{i}; \\
+s^{2} &=\frac{1}{n-1} \sum_{i=1}^{n}(x_{i}-\overline{x})^{2}=\frac{1}{n-1}\left(\sum_{i=1}^{n} x_{i}^{2}-n \overline{x}^{2}\right); \\
+s &=\sqrt{\frac{1}{n-1} \sum_{i=1}^{n}(x_{i}-\overline{x})^{2}}; \\
+a_{k} &=\frac{1}{n} \sum_{i=1}^{n}{x_{i}}^{k}, \quad(k=1,2, \cdots); \\
+b_{k} &=\frac{1}{n} \sum_{i=1}^{n}(x_{i}-\overline{x})^{k}, \quad(k=1,2, \cdots).
+\end{aligned}</script></p><p>这些观察值分别称为<strong>样本均值</strong>, <strong>样本方差</strong>, <strong>样本标准差</strong>, <strong>样本$k$阶(原点)矩</strong>, <strong>样本$k$阶中心距</strong>. 以上这些统计量统称为<strong>样本矩</strong>.</p><p></p>
+<p></p><p>设总体 $X$ 的分布函数为 $F(x)$, 类似定义总体的 $k$ 阶(原点) 矩, $k$ 阶中心矩 (假设其存在) 如下:</p><p></p>
+<p><script type="math/tex; mode=display">
+\mu_{k}=E(X^{k}), \quad v_{k}=E\left((X-E(X))^{k}\right).</script></p><p>将其统称为<strong>总体矩</strong>.<br></p>
+</div><p></p>
+<h2 id="三大抽样分布"><a href="#三大抽样分布" class="headerlink" title="三大抽样分布"></a>三大抽样分布</h2><div class="note primary no-icon flat"><p><strong>定义</strong>: $\chi^{2}$ 分布<br>设 $(X_{1}, X_{2}, \cdots, X_{n})$ 是来自总体 $X \sim N(0,1)$ 的一个样本, 则称统计量</p>
+<script type="math/tex; mode=display">
+\chi^{2}=X_{1}^{2}+X_{2}^{2}+\cdots+X_{n}^{2}</script><p>服从自由度为 $n$ 的 $\chi^{2}$ 分布, 记为 $\chi^{2} \sim \chi^{2}(n)$. 这里自由度 $n$ 指的是独立随机变量的个数.</p>
+<p>$\chi^{2}(n)$ 分布的概率密度函数为</p>
+<script type="math/tex; mode=display">
+f(x)= \begin{cases}
+\frac{1}{2^{n/2} \Gamma(\frac{n}{2})} x^{\frac{n}{2}-1} \mathrm{e}^{-\frac{x}{2}}, & x>0, \\ 
+0, & x \leqslant 0,
+\end{cases}</script><p>其中 $\Gamma(s)$ 是 $\Gamma$ 函数, 定义 $\Gamma(s)=\int_{0}^{+\infty} x^{s-1} \mathrm{e}^{-x} \mathrm{d} x$.</p>
+<figure class="highlight mathematica"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Plot</span><span class="punctuation">[</span><span class="built_in">Table</span><span class="punctuation">[</span></span><br><span class="line">   <span class="built_in">PDF</span><span class="punctuation">[</span><span class="built_in">ChiSquareDistribution</span><span class="punctuation">[</span><span class="variable">\[Nu]</span><span class="punctuation">]</span><span class="operator">,</span> <span class="variable">x</span><span class="punctuation">]</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">\[Nu]</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">1</span><span class="operator">,</span> <span class="number">4</span><span class="operator">,</span> <span class="number">10</span><span class="operator">,</span> <span class="number">20</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">]</span> <span class="operator">//</span> </span><br><span class="line">  <span class="built_in">Evaluate</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">x</span><span class="operator">,</span> <span class="number">0</span><span class="operator">,</span> <span class="number">30</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="built_in">Filling</span> <span class="operator">-&gt;</span> <span class="built_in">Axis</span><span class="operator">,</span> <span class="built_in">PlotRange</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="number">0</span><span class="operator">,</span> <span class="number">0.3</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line"> <span class="built_in">PlotLabels</span> <span class="operator">-&gt;</span> <span class="built_in">Placed</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="string">&quot;n=1&quot;</span><span class="operator">,</span> <span class="string">&quot;n=4&quot;</span><span class="operator">,</span> <span class="string">&quot;n=10&quot;</span><span class="operator">,</span> <span class="string">&quot;n=20&quot;</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="built_in">Above</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="punctuation">]</span></span><br></pre></td></tr></table></figure>
+<p><img src="/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/ChiSquareDistribution.png" alt="卡方分布"></p>
+<p>若随机变量 $\chi^{2} \sim \chi^{2}(n)$, 对于给定的正数 $\alpha$ ($0&lt;\alpha&lt;1$), 称满足条件</p>
+<script type="math/tex; mode=display">
+P\left(\chi^{2} \geqslant \chi_{\alpha}^{2}(n)\right) =\int_{\chi_{a}^{2}(n)}^{+\infty} f(x) \mathrm{d} x =\alpha</script><p>的点 $\chi_{\alpha}^{2}(n)$ 为 $\chi^{2}(n)$ 分布的上 $\alpha$ 分位点. </p>
+<figure class="highlight mathematica"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Show</span><span class="punctuation">[</span><span class="built_in">Plot</span><span class="punctuation">[</span><span class="built_in">PDF</span><span class="punctuation">[</span><span class="built_in">ChiSquareDistribution</span><span class="punctuation">[</span><span class="number">10</span><span class="punctuation">]</span><span class="operator">,</span> <span class="variable">x</span><span class="punctuation">]</span> <span class="operator">//</span> <span class="built_in">Evaluate</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">x</span><span class="operator">,</span> <span class="number">0</span><span class="operator">,</span> <span class="number">30</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">PlotRange</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="number">0</span><span class="operator">,</span> <span class="number">0.15</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="operator">,</span> </span><br><span class="line"> <span class="built_in">Plot</span><span class="punctuation">[</span><span class="built_in">PDF</span><span class="punctuation">[</span><span class="built_in">ChiSquareDistribution</span><span class="punctuation">[</span><span class="number">10</span><span class="punctuation">]</span><span class="operator">,</span> <span class="variable">x</span><span class="punctuation">]</span> <span class="operator">//</span> <span class="built_in">Evaluate</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">x</span><span class="operator">,</span> <span class="number">15</span><span class="operator">,</span> <span class="number">30</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">Filling</span> <span class="operator">-&gt;</span> <span class="built_in">Axis</span><span class="operator">,</span> <span class="built_in">PlotRange</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="number">0</span><span class="operator">,</span> <span class="number">0.15</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">PlotLabels</span> <span class="operator">-&gt;</span> <span class="built_in">Placed</span><span class="punctuation">[</span><span class="string">&quot;\[Alpha]&quot;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="built_in">Right</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">13</span><span class="operator">,</span> <span class="number">0</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="punctuation">]</span><span class="operator">,</span> </span><br><span class="line"> <span class="built_in">Ticks</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="number">15</span><span class="operator">,</span> </span><br><span class="line">     <span class="string">&quot;\!\(\*SuperscriptBox[SubscriptBox[\(\[Chi]\), \(\[Alpha]\)], \</span></span><br><span class="line"><span class="string">\(2\)]\)(n)&quot;</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="built_in">None</span><span class="punctuation">&#125;</span><span class="punctuation">]</span></span><br></pre></td></tr></table></figure>
+<p><img src="/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/卡方分布分位点.png" alt="卡方分布分位点"></p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: $t$ 分布<br>设 $X \sim N(0,1)$, $Y \sim \chi^{2}(n)$, 且 $X$ 与 $Y$ 相互独立, 则称随机变量</p>
+<script type="math/tex; mode=display">
+T=\frac{X}{\sqrt{Y / n}}</script><p>服从自由度为 $n$ 的 $t$ 分布, 记为 $T \sim t(n)$.<br>$t$ 分布又称为学生氏 (student) 分布, $t$ 分布的概率密度函数为</p>
+<script type="math/tex; mode=display">
+f(t)=\frac{\Gamma(\frac{n+1}{2})}{\sqrt{n \pi} \Gamma(\frac{n}{2})}\left(1+\frac{t^{2}}{n}\right)^{-\frac{n+1}{2}}, \quad-\infty<t<+\infty.</script><figure class="highlight mathematica"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Plot</span><span class="punctuation">[</span><span class="built_in">Table</span><span class="punctuation">[</span></span><br><span class="line">   <span class="built_in">PDF</span><span class="punctuation">[</span><span class="built_in">StudentTDistribution</span><span class="punctuation">[</span><span class="variable">\[Nu]</span><span class="punctuation">]</span><span class="operator">,</span> <span class="variable">x</span><span class="punctuation">]</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">\[Nu]</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">1</span><span class="operator">,</span> <span class="number">2</span><span class="operator">,</span> <span class="number">5</span><span class="operator">,</span> <span class="number">100</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">]</span> <span class="operator">//</span> </span><br><span class="line">  <span class="built_in">Evaluate</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">x</span><span class="operator">,</span> <span class="operator">-</span><span class="number">5</span><span class="operator">,</span> <span class="number">5</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="built_in">Filling</span> <span class="operator">-&gt;</span> <span class="built_in">Axis</span><span class="operator">,</span> </span><br><span class="line"> <span class="built_in">PlotLabels</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="string">&quot;n=1&quot;</span><span class="operator">,</span> <span class="string">&quot;n=2&quot;</span><span class="operator">,</span> <span class="string">&quot;n=5&quot;</span><span class="operator">,</span> <span class="string">&quot;n=+\[Infinity]&quot;</span><span class="punctuation">&#125;</span><span class="punctuation">]</span></span><br></pre></td></tr></table></figure>
+<p><img src="/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/StudentT分布.png" alt="T分布"></p>
+<p>若随机变量 $T \sim t(n)$, 对于给定的正数 $\alpha$ ($0&lt;\alpha&lt;1$), 称满足条件</p>
+<script type="math/tex; mode=display">
+P(T \geqslant t_{\alpha}(n))=\int_{t_{\alpha}(n)}^{+\infty} f(t) \mathrm{d} t=\alpha</script><p>的点$t_{\alpha}(n)$为$t$分布的上$\alpha$分位点.</p>
+<figure class="highlight mathematica"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Show</span><span class="punctuation">[</span><span class="built_in">Plot</span><span class="punctuation">[</span><span class="built_in">PDF</span><span class="punctuation">[</span><span class="built_in">StudentTDistribution</span><span class="punctuation">[</span><span class="number">2</span><span class="punctuation">]</span><span class="operator">,</span> <span class="variable">x</span><span class="punctuation">]</span> <span class="operator">//</span> <span class="built_in">Evaluate</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">x</span><span class="operator">,</span> <span class="operator">-</span><span class="number">5</span><span class="operator">,</span> <span class="number">5</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">PlotRange</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="number">0</span><span class="operator">,</span> <span class="number">0.4</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="operator">,</span> </span><br><span class="line"> <span class="built_in">Plot</span><span class="punctuation">[</span><span class="built_in">PDF</span><span class="punctuation">[</span><span class="built_in">StudentTDistribution</span><span class="punctuation">[</span><span class="number">2</span><span class="punctuation">]</span><span class="operator">,</span> <span class="variable">x</span><span class="punctuation">]</span> <span class="operator">//</span> <span class="built_in">Evaluate</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">x</span><span class="operator">,</span> <span class="number">2</span><span class="operator">,</span> <span class="number">5</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">Filling</span> <span class="operator">-&gt;</span> <span class="built_in">Axis</span><span class="operator">,</span> <span class="built_in">PlotRange</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="number">0</span><span class="operator">,</span> <span class="number">0.4</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">PlotLabels</span> <span class="operator">-&gt;</span> <span class="built_in">Placed</span><span class="punctuation">[</span><span class="string">&quot;\[Alpha]&quot;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="built_in">Right</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">8</span><span class="operator">,</span> <span class="number">0</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="punctuation">]</span><span class="operator">,</span> </span><br><span class="line"> <span class="built_in">Ticks</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="number">2</span><span class="operator">,</span> <span class="string">&quot;\!\(\*SubscriptBox[\(t\), \(\[Alpha]\)]\)(n)&quot;</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">   <span class="built_in">None</span><span class="punctuation">&#125;</span><span class="punctuation">]</span></span><br></pre></td></tr></table></figure>
+<p><img src="/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/T分布分位点.png" alt="T分布分位点"></p>
+</div>
+<div class="note primary no-icon flat"><p><strong>定义</strong>: $F$ 分布<br>设 $X \sim \chi^{2}(n_{1})$, $Y \sim \chi^{2}(n_{2})$, 且 $X$ 与 $Y$ 相互独立, 则称随机变量</p>
+<script type="math/tex; mode=display">
+F=\frac{X / n_{1}}{Y / n_{2}}</script><p>服从<strong>第一自由度为 $n_{1}$, 第二自由度为 $n_{2}$ 的 $F$ 分布</strong>, 记为 $F \sim F(n_{1}, n_{2})$.<br>$F$ 分布的概率密度函数为</p>
+<script type="math/tex; mode=display">
+f(x)=\begin{cases}
+\frac{\Gamma(\frac{n_{1}+n_{2}}{2})}{\Gamma(\frac{n_{1}}{2})\Gamma(\frac{n_{2}}{2})(1+\frac{n_{1}}{n_{2}}x)^{\frac{n_{1}+n_{2}}{2}}}(\frac{n_{1}}{n_{2}})^{\frac{n_{1}}{2}}x^{\frac{n_{1}}{2}-1}, & x>0,\\
+0, & x\le0.
+\end{cases}</script><figure class="highlight mathematica"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Plot</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="built_in">PDF</span><span class="punctuation">[</span><span class="built_in">FRatioDistribution</span><span class="punctuation">[</span><span class="number">10</span><span class="operator">,</span> <span class="number">40</span><span class="punctuation">]</span><span class="operator">,</span> <span class="variable">x</span><span class="punctuation">]</span><span class="operator">,</span> </span><br><span class="line">   <span class="built_in">PDF</span><span class="punctuation">[</span><span class="built_in">FRatioDistribution</span><span class="punctuation">[</span><span class="number">11</span><span class="operator">,</span> <span class="number">3</span><span class="punctuation">]</span><span class="operator">,</span> <span class="variable">x</span><span class="punctuation">]</span><span class="punctuation">&#125;</span> <span class="operator">//</span> <span class="built_in">Evaluate</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">x</span><span class="operator">,</span> <span class="number">0</span><span class="operator">,</span> <span class="number">4</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line"> <span class="built_in">Filling</span> <span class="operator">-&gt;</span> <span class="built_in">Axis</span><span class="operator">,</span> </span><br><span class="line"> <span class="built_in">PlotLabels</span> <span class="operator">-&gt;</span> </span><br><span class="line">  <span class="built_in">Placed</span><span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="string">&quot;(\!\(\*SubscriptBox[\(n\), \(1\)]\),\!\(\*SubscriptBox[\(n\</span></span><br><span class="line"><span class="string">\), \(2\)]\))=(10,40)&quot;</span><span class="operator">,</span> </span><br><span class="line">    <span class="string">&quot;(\!\(\*SubscriptBox[\(n\), \(1\)]\),\!\(\*SubscriptBox[\(n\), \</span></span><br><span class="line"><span class="string">\(2\)]\))=(11,3)&quot;</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="built_in">Above</span><span class="operator">,</span> <span class="built_in">Right</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="punctuation">]</span></span><br></pre></td></tr></table></figure>
+<p><img src="/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/F分布.png" alt="F分布"></p>
+<p>若随机变量 $F \sim F(n_{1}, n_{2})$, 对于给定的正数 $\alpha$ ($0&lt;\alpha&lt;1$), 称满足条件</p>
+<script type="math/tex; mode=display">
+P(F \geqslant F_{\alpha}(n_{1}, n_{2}))=\int_{F_{a}(n_{1}, n_{2})}^{+\infty} f(t) \mathrm{d} t=\alpha</script><p>的点 $F_{\alpha}(n_{1}, n_{2})$ 为 <strong>$F(n_{1}, n_{2})$ 分布的上 $\alpha$ 分位点</strong>. </p>
+<figure class="highlight mathematica"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Show</span><span class="punctuation">[</span><span class="built_in">Plot</span><span class="punctuation">[</span><span class="built_in">PDF</span><span class="punctuation">[</span><span class="built_in">FRatioDistribution</span><span class="punctuation">[</span><span class="number">10</span><span class="operator">,</span> <span class="number">40</span><span class="punctuation">]</span><span class="operator">,</span> <span class="variable">x</span><span class="punctuation">]</span> <span class="operator">//</span> <span class="built_in">Evaluate</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">x</span><span class="operator">,</span> <span class="number">0</span><span class="operator">,</span> <span class="number">4</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">PlotRange</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="number">0</span><span class="operator">,</span> <span class="number">0.9</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="operator">,</span> </span><br><span class="line"> <span class="built_in">Plot</span><span class="punctuation">[</span><span class="built_in">PDF</span><span class="punctuation">[</span><span class="built_in">FRatioDistribution</span><span class="punctuation">[</span><span class="number">10</span><span class="operator">,</span> <span class="number">40</span><span class="punctuation">]</span><span class="operator">,</span> <span class="variable">x</span><span class="punctuation">]</span> <span class="operator">//</span> <span class="built_in">Evaluate</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="variable">x</span><span class="operator">,</span> <span class="number">1.5</span><span class="operator">,</span> <span class="number">4</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">Filling</span> <span class="operator">-&gt;</span> <span class="built_in">Axis</span><span class="operator">,</span> <span class="built_in">PlotRange</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="number">0</span><span class="operator">,</span> <span class="number">0.4</span><span class="punctuation">&#125;</span><span class="operator">,</span> </span><br><span class="line">  <span class="built_in">PlotLabels</span> <span class="operator">-&gt;</span> <span class="built_in">Placed</span><span class="punctuation">[</span><span class="string">&quot;\[Alpha]&quot;</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="built_in">Right</span><span class="operator">,</span> <span class="punctuation">&#123;</span><span class="number">17</span><span class="operator">,</span> <span class="operator">-</span><span class="number">2</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">]</span><span class="punctuation">]</span><span class="operator">,</span> </span><br><span class="line"> <span class="built_in">Ticks</span> <span class="operator">-&gt;</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="punctuation">&#123;</span><span class="number">1.5</span><span class="operator">,</span> </span><br><span class="line">     <span class="string">&quot;\!\(\*SubscriptBox[\(F\), \</span></span><br><span class="line"><span class="string">\(\[Alpha]\)]\)(\!\(\*SubscriptBox[\(n\), \</span></span><br><span class="line"><span class="string">\(1\)]\),\!\(\*SubscriptBox[\(n\), \(2\)]\))&quot;</span><span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="operator">,</span> <span class="built_in">None</span><span class="punctuation">&#125;</span><span class="punctuation">]</span></span><br></pre></td></tr></table></figure>
+<p><img src="/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/F分布分位点.png" alt="F分布分位点"></p>
+</div>
+<h1 id="参数估计"><a href="#参数估计" class="headerlink" title="参数估计"></a>参数估计</h1><h2 id="参数的点估计"><a href="#参数的点估计" class="headerlink" title="参数的点估计"></a>参数的点估计</h2><div class="note primary no-icon flat"><p><strong>定义</strong>: 设总体 $X$ 的分布函数已知, 但其中有一个或多个未知参数 $\theta$, 借助于总体 $X$ 的一组样本 $X_{1}, X_{2}, \cdots, X_{n}$, 构造一个适当的统计量 $\widehat{\theta}(X_{1}, X_{2}, \cdots, X_{n})$ 来估计总体未知参数的问题称为<strong>点估计问题</strong>. $\widehat{\theta}(X_{1}, X_{2}, \cdots, X_{n})$ 称为<strong>未知参数 $\theta$ 的估计量</strong>, 用它的观察值 $\widehat{\theta}(x_{1}, x_{2}, \cdots, x_{n})$ 作为未知参数 $\theta$ 的估计值. 估计量和估计值统称为<strong>估计</strong>, 并简记为 $\widehat{\theta}$. 但必须注意, 对于样本的不同观察值, 估计值是不同的.</p>
+</div>
+<h3 id="矩估计法"><a href="#矩估计法" class="headerlink" title="矩估计法"></a>矩估计法</h3><div class="note primary no-icon flat"><p><strong>定义</strong>: 矩估计法是基于一种简单的”替换”思想建立起来的估计方法, 因为样本矩依概率收敛于相应的总体距, 样本矩的连续函数依概率收敛于相应的总体距的连续函数. </p>
+<p>基本思想是用样本矩估计相应的总体距, 用样本矩的连续函数估计相应的总体距的连续函数, 从而得出参数估计, 这种方法称为<strong>矩估计法</strong>.</p>
+<p>若总体 $X$ 的分布 $F(X, \theta)$ 已知, 但分布函数中有 $k$ 个未知参数 $\theta_{1}, \theta_{2}, \cdots, \theta_{k}$, 设总体 $X$ 的前 $k$ 阶矩存在, 则矩估计法的具体步骤如下:<br>(1) 求出 $\mu_{l}=E(X^{l})=\mu(\theta_{1}, \theta_{2}, \cdots, \theta_{k})$, $l=1,2, \cdots, k$.<br>(2) 令 $\mu_{l}=A_{l}$, $A_{l}=\frac{1}{n} \sum_{i=1}^{n} X_{i}^{l}$, $l=1,2, \cdots, k$, 这是一个包含 $k$ 个未知数 $\theta_{1}, \theta_{2}, \cdots, \theta_{k}$ 的 $k$ 个方程组成的方程组.<br>(3) 解出其中的 $\theta_{1}, \theta_{2}, \cdots, \theta_{k}$, 用 $\widehat{\theta}_{1}, \widehat{\theta}_{2}, \cdots, \widehat{\theta}_{k}$ 表示.<br>(4) 用方程组的 $\widehat{\theta}_{1}, \widehat{\theta}_{2}, \cdots, \widehat{\theta}_{k}$ 分别作为 $\theta_{1}, \theta_{2}, \cdots, \theta_{k}$ 的估计量, 这个估计量称为<strong>矩估计量</strong>.</p>
+</div>
+<h3 id="极大似然估计"><a href="#极大似然估计" class="headerlink" title="极大似然估计"></a>极大似然估计</h3><div class="note primary no-icon flat"><p><strong>定义</strong>: 当总体分布类型已知时, 矩估计法未能充分利用总体分布提供的信息, 这时常考虑用极大似然估计, 极大似然估计常用 MLE 缩写, 它是利用总体的<strong>分布密度</strong>或者<strong>概率分布</strong>的表达式及其样本所提供的信息求未知参数的估计量. </p>
+<p><strong>若总体 $X$ 为离散型</strong>, 其概率分布为</p>
+<script type="math/tex; mode=display">
+P(X=x)=p(x; \theta),</script><p>其中 $\theta$ 为未知参数, 从总体中抽取样本容量为 $n$ 的样本 $(X_{1}, X_{2}, \cdots, X_{n})$ 的一组观察值为 $(x_{1}, x_{2}, \cdots, x_{n})$, 则 $(X_{1}, X_{2}, \cdots, X_{n})$ 的联合分布律为</p>
+<script type="math/tex; mode=display">
+\prod_{i=1}^{n} p(x_{i}; \theta).</script><p>易知样本 $X_{1}, X_{2}, \cdots, X_{n}$ 取到观察值 $x_{1}, x_{2}, \cdots, x_{n}$ 的概率为 $\prod_{i=1}^{n} p(x_{i}; \theta)$, 定义似然函数为</p>
+<script type="math/tex; mode=display">
+L(\theta)=L(x_{1}, x_{2}, \cdots, x_{n}; \theta)=\prod_{i=1}^{n} p(x_{i}; \theta),</script><p>这是一组观察值为 $(x_{1}, x_{2}, \cdots, x_{n})$ 的概率. 现在就是寻找这样的一组观察值 $(x_{1}, x_{2}, \cdots, x_{n})$ 的函数 $\widehat{\theta}=\widehat{\theta}(x_{1}, x_{2}, \cdots, x_{n})$, 使似然函数</p>
+<script type="math/tex; mode=display">
+L(\widehat{\theta})=\max L(\theta),</script><p>则 $\widehat{\theta}(x_{1}, x_{2}, \cdots, x_{n})$ 称为<strong>参数 $\theta$ 的极大似然估计值</strong>, 其相应的统计量 $\widehat{\theta}(X_{1}, X_{2}, \cdots, X_{n})$ 称为 <strong>$\theta$ 的极大似然估计量</strong>.</p>
+<p><strong>若总体 $X$ 为连续型</strong>, 其概率密度函数为 $f(x; \theta)$, 其中 $\theta$ 为未知参数, 同样定义似然函数为</p>
+<script type="math/tex; mode=display">
+L(\theta)=L(x_{1}, x_{2}, \cdots, x_{n}; \theta)=\prod_{i=1}^{n} f(x_{i}; \theta).</script><p>若 $\widehat{\theta}(X_{1}, X_{2}, \cdots, X_{n})$ 使得</p>
+<script type="math/tex; mode=display">
+L(x_{1}, x_{2}, \cdots, x_{n}; \widehat{\theta})=\max L(x_{1}, x_{2}, \cdots, x_{n}; \theta),</script><p>则 $\widehat{\theta}(x_{1}, x_{2}, \cdots, x_{n})$ 称为<strong>参数 $\theta$ 的极大似然估计值</strong>, 其相应的统计量 $\widehat{\theta}(X_{1}, X_{2}, \cdots, X_{n})$ 称为 <strong>$\theta$ 的极大似然估计量</strong>.</p>
+</div>
+<h3 id="对点估计量的评价"><a href="#对点估计量的评价" class="headerlink" title="对点估计量的评价"></a>对点估计量的评价</h3><div class="note primary no-icon flat"><p><strong>定义</strong>: 衡量点估计量好坏的标准: 无偏性, 有效性, 一致性.</p>
+<p>设 $\widehat{\theta}=\widehat{\theta}(X_{1}, X_{2}, \cdots, X_{n})$ 是未知参数 $\theta$ 的点估计量, 若</p>
+<script type="math/tex; mode=display">
+E(\widehat{\theta})=\theta,</script><p>则称 $\widehat{\theta}$ 是 $\theta$ 的<strong>无偏估计</strong>, 否则称为<strong>有偏估计</strong>.</p>
+<p>设 $\widehat{\theta}_{1}=\widehat{\theta}_{1}(X_{1}, X_{2}, \cdots, X_{n})$, $\widehat{\theta}_{2}=\widehat{\theta}_{2}(X_{1}, X_{2}, \cdots, X_{n})$ 是未知参数 $\theta$ 的无偏估计量. 若 $D(\widehat{\theta}_{1}) \leqslant D(\widehat{\theta}_{2})$, 则称 $\widehat{\theta}_{1}$ 比 $\widehat{\theta}_{2}$ <strong>有效</strong>.</p>
+<p>设对每个自然数 $n$, $\widehat{\theta}_{n}=\widehat{\theta}_{n}(X_{1}, X_{2}, \cdots, X_{n})$ 都是未知参数 $\theta$ 的估计量. 如果对任意的 $\varepsilon&gt;0$, 都有</p>
+<script type="math/tex; mode=display">
+\lim _{n arrow \infty} P(|\widehat{\theta}_{n}-\theta| \geqslant \varepsilon)=0,</script><p>则称 $\widehat{\theta}_{n}$ 是 $\theta$ 的<strong>相合估计量</strong>(<strong>一致估计量</strong>).</p>
+</div>
+<h2 id="参数的区间估计"><a href="#参数的区间估计" class="headerlink" title="参数的区间估计"></a>参数的区间估计</h2><h3 id="置信区间的概念"><a href="#置信区间的概念" class="headerlink" title="置信区间的概念"></a>置信区间的概念</h3><div class="note primary no-icon flat"><p><strong>定义</strong>: 设 $X_{1}, X_{2}, \cdots, X_{n}$ 是来自总体 $X \sim F(X; \theta)$ 的一个样本, $\theta$ 为未知参数. 若对给定的 $\alpha$($0&lt;\alpha&lt;1$)， 存在两个统计量 $\widehat{\theta}_{1}=\widehat{\theta}_{1}(X_{1}, X_{2}, \cdots, X_{n})$ 与 $\widehat{\theta}_{2}=\widehat{\theta}_{2}(X_{1}, X_{2}, \cdots, X_{n})$, 对所有 $\theta$ 的可能取值均有</p>
+<script type="math/tex; mode=display">
+P(\widehat{\theta}_{1}<\theta<\widehat{\theta}_{2})=1-\alpha,</script><p>则称随机区间 $(\widehat{\theta}_{1}, \widehat{\theta}_{2})$ 为参数 $\theta$ 的<strong>置信度为 $1-\alpha$ 的置信区间</strong>, $\widehat{\theta}_{1}$ 与 $\widehat{\theta}_{2}$ 分别称为 $1-\alpha$ 的<strong>置信下限</strong>与<strong>置信上限</strong>, 置信度 $1-\alpha$ 也称为<strong>置信水平</strong>.</p>
+<p>参数 $\theta$ 是一个常数, 没有随机性, 区间 $(\widehat{\theta}_{1}, \widehat{\theta}_{2})$ 是随机的. </p>
+<p>置信水平 $1-\alpha$ 的含义是: 随机区间 $(\widehat{\theta}_{1}, \widehat{\theta}_{2})$ 以 $1-\alpha$ 的概率包含着参数 $\theta$ 的真实值, 而不能说参数 $\theta$ 以 $1-\alpha$ 的概率落人随机区间 $(\widehat{\theta}_{1}, \widehat{\theta}_{2})$. </p>
+</div>
+<div class="note info flat"><p>参考资料: 马丽杰, 明杰秀, 线性代数与概率统计.</p>
+</div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css"></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Larry Eppes</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://larryeppes.github.io/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/">http://larryeppes.github.io/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://larryeppes.github.io" target="_blank">Larry_Eppes's Trivia Collection Site</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/math/">math</a><a class="post-meta__tags" href="/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/">概率论</a></div><div class="post_share"><div class="social-share" data-image="/img/0072Vf1pgy1foxlny0lgrj31kw0w0e2v.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/Euler%E6%B1%82%E5%92%8C%E5%85%AC%E5%BC%8F/"><img class="prev-cover" src="/img/a15b4afegy1fmvj4b6vq1j21hc0u0amg.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Euler求和公式</div></div></a></div><div class="next-post pull-right"><a href="/%E7%B4%A7%E7%AE%97%E5%AD%90/"><img class="next-cover" src="/img/0072Vf1pgy1foxkft70qtj31hc0u0tqy.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">紧算子</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相关推荐</span></div><div class="relatedPosts-list"><div><a href="/Euler求和公式/" title="Euler求和公式"><img class="cover" src="/img/a15b4afegy1fmvj4b6vq1j21hc0u0amg.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-12</div><div class="title">Euler求和公式</div></div></a></div><div><a href="/Latex编辑展示页面/" title="Latex编辑展示页面"><img class="cover" src="/img/0072Vf1pgy1foxkcymwgnj31kw0w0qsx.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-02-02</div><div class="title">Latex编辑展示页面</div></div></a></div><div><a href="/MSE问题集/" title="MSE问题集"><img class="cover" src="/img/0072Vf1pgy1foxkfzphb2j31hc0u0gvv.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-04-26</div><div class="title">MSE问题集</div></div></a></div><div><a href="/一题多解/" title="一题多解"><img class="cover" src="/img/a15b4afely1fnt99tpvpwj21hc0u0e84.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-14</div><div class="title">一题多解</div></div></a></div><div><a href="/勘误列表/" title="勘误列表"><img class="cover" src="/img/005FzdTdgy1geetguxsutj31hc0u0hdt.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-13</div><div class="title">勘误列表</div></div></a></div><div><a href="/学习型问题/" title="学习型问题"><img class="cover" src="/img/f43a10a769e2322aba0e4b14e545c4b8.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-09-14</div><div class="title">学习型问题</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div id="comment-switch"><span class="first-comment">Valine</span><span class="switch-btn"></span><span class="second-comment">Gitalk</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div><div><div id="gitalk-container"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="/img/head.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Larry Eppes</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">30</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">54</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">14</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/larryeppes"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8B%E4%BB%B6%E4%B8%8E%E6%A6%82%E7%8E%87"><span class="toc-number">1.</span> <span class="toc-text">事件与概率</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83"><span class="toc-number">2.</span> <span class="toc-text">随机变量及其分布</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%87%A0%E7%A7%8D%E5%B8%B8%E8%A7%81%E7%9A%84%E7%A6%BB%E6%95%A3%E5%9E%8B%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E7%9A%84%E6%A6%82%E7%8E%87%E5%88%86%E5%B8%83"><span class="toc-number">2.1.</span> <span class="toc-text">几种常见的离散型随机变量的概率分布</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E7%9A%84%E5%88%86%E5%B8%83%E5%87%BD%E6%95%B0"><span class="toc-number">2.2.</span> <span class="toc-text">随机变量的分布函数</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%9A%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83"><span class="toc-number">2.3.</span> <span class="toc-text">多维随机变量及其分布</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E7%9A%84%E6%95%B0%E5%AD%97%E7%89%B9%E5%BE%81"><span class="toc-number">3.</span> <span class="toc-text">随机变量的数字特征</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%B9%E5%B7%AE%E4%B8%8E%E6%A0%87%E5%87%86%E5%B7%AE"><span class="toc-number">3.1.</span> <span class="toc-text">方差与标准差</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-number">4.</span> <span class="toc-text">数理统计的基本概念</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%9F%E8%AE%A1%E9%87%8F%E4%B8%8E%E6%8A%BD%E6%A0%B7%E5%88%86%E5%B8%83"><span class="toc-number">4.1.</span> <span class="toc-text">统计量与抽样分布</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E5%A4%A7%E6%8A%BD%E6%A0%B7%E5%88%86%E5%B8%83"><span class="toc-number">4.2.</span> <span class="toc-text">三大抽样分布</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8F%82%E6%95%B0%E4%BC%B0%E8%AE%A1"><span class="toc-number">5.</span> <span class="toc-text">参数估计</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%82%E6%95%B0%E7%9A%84%E7%82%B9%E4%BC%B0%E8%AE%A1"><span class="toc-number">5.1.</span> <span class="toc-text">参数的点估计</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9F%A9%E4%BC%B0%E8%AE%A1%E6%B3%95"><span class="toc-number">5.1.1.</span> <span class="toc-text">矩估计法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9E%81%E5%A4%A7%E4%BC%BC%E7%84%B6%E4%BC%B0%E8%AE%A1"><span class="toc-number">5.1.2.</span> <span class="toc-text">极大似然估计</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%B9%E7%82%B9%E4%BC%B0%E8%AE%A1%E9%87%8F%E7%9A%84%E8%AF%84%E4%BB%B7"><span class="toc-number">5.1.3.</span> <span class="toc-text">对点估计量的评价</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%82%E6%95%B0%E7%9A%84%E5%8C%BA%E9%97%B4%E4%BC%B0%E8%AE%A1"><span class="toc-number">5.2.</span> <span class="toc-text">参数的区间估计</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BD%AE%E4%BF%A1%E5%8C%BA%E9%97%B4%E7%9A%84%E6%A6%82%E5%BF%B5"><span class="toc-number">5.2.1.</span> <span class="toc-text">置信区间的概念</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/" title="每日一题"><img src="/img/0072Vf1pgy1fodqnrlkfxj31110q77sr.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="每日一题"/></a><div class="content"><a class="title" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/" title="每日一题">每日一题</a><time datetime="2022-10-19T03:00:53.614Z" title="更新于 2022-10-19 11:00:53">2022-10-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E5%9C%A8hexo%E7%9A%84mathjax%E4%B8%AD%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AELaTeX%E5%91%BD%E4%BB%A4/" title="在hexo的自定义配置"><img src="/img/a15b4afegy1fmvjlvdc24j21hc0u0ngw.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="在hexo的自定义配置"/></a><div class="content"><a class="title" href="/%E5%9C%A8hexo%E7%9A%84mathjax%E4%B8%AD%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AELaTeX%E5%91%BD%E4%BB%A4/" title="在hexo的自定义配置">在hexo的自定义配置</a><time datetime="2022-10-16T14:05:57.641Z" title="更新于 2022-10-16 22:05:57">2022-10-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/" title="计算机工具使用经验总结"><img src="/img/0072Vf1pgy1fodqn00gq2j315o0tg7wh.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="计算机工具使用经验总结"/></a><div class="content"><a class="title" href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/" title="计算机工具使用经验总结">计算机工具使用经验总结</a><time datetime="2022-10-12T11:54:08.296Z" title="更新于 2022-10-12 19:54:08">2022-10-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E7%AC%AC%E4%B8%80%E4%B8%AAhexo%E6%97%A5%E5%BF%97/" title="第一个hexo日志"><img src="/img/0072Vf1pgy1foxkieg2ntj31kw0w07su.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="第一个hexo日志"/></a><div class="content"><a class="title" href="/%E7%AC%AC%E4%B8%80%E4%B8%AAhexo%E6%97%A5%E5%BF%97/" title="第一个hexo日志">第一个hexo日志</a><time datetime="2022-10-11T13:29:56.469Z" title="更新于 2022-10-11 21:29:56">2022-10-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E5%AD%A6%E4%B9%A0%E5%9E%8B%E9%97%AE%E9%A2%98/" title="学习型问题"><img src="/img/f43a10a769e2322aba0e4b14e545c4b8.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="学习型问题"/></a><div class="content"><a class="title" href="/%E5%AD%A6%E4%B9%A0%E5%9E%8B%E9%97%AE%E9%A2%98/" title="学习型问题">学习型问题</a><time datetime="2022-09-27T10:00:10.152Z" title="更新于 2022-09-27 18:00:10">2022-09-27</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2021 - 2022 By Larry Eppes</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (true){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    loader: {
+      source: {
+        '[tex]/amsCd': '[tex]/amscd'
+      },
+      load: ['[tex]/configmacros', '[tex]/autoload', '[tex]/mathtools', '[tex]/ams']
+    },
+    tex: {
+      packages: {'[+]': ['configmacros', 'autoload', 'mathtools', 'ams']},
+      inlineMath: [ ['$','$'], ["\\(","\\)"]],
+      displayMath: [             // start/end delimiter pairs for display math
+        ['$$', '$$'],
+        ['\\[', '\\]']
+      ],
+      tags: 'ams',
+      macros: {
+        RR: '\\mathbb{R}',
+        QQ: '\\mathbb{Q}',
+        ZZ: '\\mathbb{Z}',
+        CC: '\\mathbb{C}',
+        NN: '\\mathbb{N}',
+        pNN: '\\mathbb{N}_+',
+        ud: '\\mathrm{d}',
+        ue: '\\mathrm{e}',
+        ui: '\\mathrm{i}',
+        norm: ["\\left\\| #1 \\right\\|", 1],
+        abs: ["\\left| #1 \\right|", 1]
+      }
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, ''],
+        addClass: [200,() => {
+          document.querySelectorAll('mjx-container:not([display=\'true\']').forEach( node => {
+            const target = node.parentNode
+            if (!target.classList.contains('has-jax')) {
+              target.classList.add('mathjax-overflow')
+            }
+          })
+        }, '', false]
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typeset()
+}</script><script>function loadValine () {
+  function initValine () {
+    let initData = {
+      el: '#vcomment',
+      master:'aa515fb49018426b37353dba8ee9295f',
+      appId: 'tGC6nSdJ5VjiCKhKDPcXKqm6-MdYXbMMI',
+      appKey: '32oq82lFTL3t75HT8Vkby2BU',
+      placeholder: 'Please leave your footprints',
+      avatar: 'monsterid',
+      meta: 'nick,mail'.split(','),
+      pageSize: '10',
+      lang: 'zh-CN',
+      recordIP: false,
+      serverURLs: 'https://tgc6nsdj.api.lncldglobal.com',
+      emojiCDN: '',
+      emojiMaps: "",
+      enableQQ: false,
+      path: window.location.pathname,
+    }
+
+    if (true) { 
+      initData.requiredFields= ('nick'.split(','))
+    }
+    
+    if (false) {
+      const otherData = false
+      initData = Object.assign(initData, otherData)
+    }
+    
+    const valine = new Valine(initData)
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !true) {
+  if (true) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script><script>function addGitalkSource () {
+  const ele = document.createElement('link')
+  ele.rel = 'stylesheet'
+  ele.href= 'https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css'
+  document.getElementsByTagName('head')[0].appendChild(ele)
+}
+
+function loadGitalk () {
+  function initGitalk () {
+    var gitalk = new Gitalk({
+      clientID: '4e8dae54dd4b05b79f59',
+      clientSecret: 'a6c663b870303c2139e313b609d5025a8139f1bc',
+      repo: 'larryeppes.github.io',
+      owner: 'larryeppes',
+      admin: ['larryeppes'],
+      id: '69abaf0e54173b6d8bfe180b126fa764',
+      language: 'zh-CN',
+      perPage: 10,
+      distractionFreeMode: false,
+      pagerDirection: 'last',
+      createIssueManually: false,
+      updateCountCallback: commentCount
+    })
+    gitalk.render('gitalk-container')
+  }
+
+  if (typeof Gitalk === 'function') initGitalk()
+  else {
+    addGitalkSource()
+    getScript('https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js').then(initGitalk)
+  }
+}
+
+function commentCount(n){
+  let isCommentCount = document.querySelector('#post-meta .gitalk-comment-count')
+  if (isCommentCount) {
+    isCommentCount.innerHTML= n
+  }
+}
+
+if ('Valine' === 'Gitalk' || !true) {
+  if (true) btf.loadComment(document.getElementById('gitalk-container'), loadGitalk)
+  else loadGitalk()
+} else {
+  function loadOtherComment () {
+    loadGitalk()
+  }
+}</script></div><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

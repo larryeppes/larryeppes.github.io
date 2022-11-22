@@ -147,7 +147,7 @@ x=\sum_{\lambda\in\Lambda}(x,e_{\lambda})e_{\lambda}</script><p>时, 称$x$关�
     state BBlock {
 		direction LR
         Mermaid: >mermaid
-		MermaidDesc: mermaid 图
+		MermaidDesc: mermaid图
 		Bubble: >bubble
 		BubbleDesc: 用来显示鼠标悬停信息
 
@@ -2464,10 +2464,10 @@ G'(x)=2f(x)-2f(x)f'(x)\ge0.</script></div></div></div>
 </div>
 <h2 id="直积"><a href="#直积" class="headerlink" title="直积"></a>直积</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: If $R_1, \ldots, R_n$ are rings, the direct product of the $R_i$ is defined as the ring of $n$ tuples $\left(a_1, \ldots, a_n\right)$, $a_i \in R_i$, with componentwise addition and multiplication, that is, with</p>
 <script type="math/tex; mode=display">
-\begin{align}
+\begin{align*}
 \left(a_1, \ldots, a_n\right)+\left(b_1, \ldots, b_n\right)&=\left(a_1+b_1, \ldots, a_n+b_n\right) \\
 \left(a_1, \ldots, a_n\right)\left(b_1, \ldots, b_n\right)&=\left(a_1 b_1, \ldots, a_n b_n\right).
-\end{align}</script></div>
+\end{align*}</script></div>
 <h2 id="极大理想"><a href="#极大理想" class="headerlink" title="极大理想"></a>极大理想</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: A <strong>maximal ideal</strong> in the ring $R$ is a proper ideal that is not contained in any strictly larger proper ideal.</p>
 </div>
 <h2 id="单位-不可约元-素元"><a href="#单位-不可约元-素元" class="headerlink" title="单位, 不可约元, 素元"></a>单位, 不可约元, 素元</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: A <strong>unit</strong> in a ring $R$ is an element with a multiplicative inverse. The elements $a$ and $b$ are <strong>associates</strong> if $a=u b$ for some unit $u$.</p>
@@ -2505,10 +2505,10 @@ G'(x)=2f(x)-2f(x)f'(x)\ge0.</script></div></div></div>
 </div>
 <h2 id="多项式环2"><a href="#多项式环2" class="headerlink" title="多项式环2"></a>多项式环<sup><a href="#fn_2" id="reffn_2">2</a></sup></h2><div class="note primary no-icon modern"><p><strong>定义</strong>: In this section, all rings are assumed commutative. To see a good reason for this restriction, consider the <strong>evaluation map</strong> (also called the <strong>substitution map</strong>) $E_x$, where $x$ is a fixed element of the ring $R$. This map assigns to the polynomial $a_0+a_1 X+\ldots+a_n X_n$ in $R[X]$ the value $a_0+a_1 x+\ldots+a_n x^n$ in $R$. It is tempting to say that “obviously”, $E_x$ is a ring homomorphism, but we must be careful. For example,</p>
 <script type="math/tex; mode=display">
-\begin{align}
+\begin{align*}
 E_x[(a+b X)(c+d X)] & =E_x\left(a c+(a d+b c) X+b d X^2\right)=a c+(a d+b c) x+ b d x^2, \\
 E_x(a+b X) E_x(c+d X) & =(a+b x)(c+d x)=a c+a d x+b x c+b x d x,
-\end{align}</script><p>and these need not be equal if $R$ is not commutative.</p>
+\end{align*}</script><p>and these need not be equal if $R$ is not commutative.</p>
 <p>The <strong>degree</strong>, abbreviated deg, of a polynomial $a_0+a_1 X+\ldots+a_n X^n$ (with leading coefficient $a_n \neq 0$) is $n$; it is convenient to define the degree of the zero polynomial as $-\infty$. </p>
 </div>
 <h2 id="Primary-Decomposition"><a href="#Primary-Decomposition" class="headerlink" title="Primary Decomposition"></a>Primary Decomposition</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: In a commutative ring $R$, the <strong>radical</strong> $\mathrm{Rad}\mathfrak{a}$ of an ideal $\mathfrak{a}$ is the intersection of all prime ideals of $R$ that contain $\mathfrak{a}$. If $\mathfrak{a}=R$, then no prime ideal of $R$ contains $\mathfrak{a}$ and we let the empty intersection $\mathrm{Rad}\mathfrak{a}$ be $R$ itself. In general, $\mathrm{Rad}\mathfrak{a}$ is sometimes denoted by $\sqrt{\mathfrak{a}}$.</p>

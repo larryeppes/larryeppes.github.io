@@ -53,7 +53,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2022-11-22 10:59:42'
+  postUpdate: '2022-11-22 21:51:47'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -135,6 +135,11 @@
           document.documentElement.classList.remove('hide-aside')
         }
       }
+    
+    const fontSizeVal = saveToLocal.get('global-font-size')
+    if (fontSizeVal !== undefined) {
+      document.documentElement.style.setProperty('--global-font-size', fontSizeVal + 'px')
+    }
     })(window)</script><meta name="generator" content="Hexo 5.3.0"></head><body><div id="error-wrap"><div class="error-content"><div class="error-img" style="background-image: url('https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png')"></div><div class="error-info"><h1 class="error_title">404</h1><div class="error_subtitle">Page Not Found</div><a class="button--animated" href="/"><i class="fas fa-rocket"></i>回到主页</a></div></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script>function panguFn () {
   if (typeof pangu === 'object') pangu.autoSpacingPage()
   else {

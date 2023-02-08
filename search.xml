@@ -697,7 +697,12 @@ e^{i\pi }+1=0\tag{1}\label{eq}</script><p>这里我们引用$\eqref{eq}$。</p>
 <h3 id="config-site-pug"><a href="#config-site-pug" class="headerlink" title="config_site.pug"></a>config_site.pug</h3><p>配置网站全局变量<code>GLOBAL_CONFIG_SITE</code>的数据, 内容有<code>代码折叠</code>属性, 是否显示<code>文章目录</code>等.</p>
 <h3 id="config-pug"><a href="#config-pug" class="headerlink" title="config.pug"></a>config.pug</h3><p>配置 <code>algolia</code> 快速搜索, 本地搜索, 简繁体互换, 版权说明, 主题日夜间切换相关, 文章是否过时设置, 代码高亮, 全局变量 <code>GLOBAL_CONFIG</code> 等.</p>
 <h3 id="google-adsense-pug"><a href="#google-adsense-pug" class="headerlink" title="google_adsense.pug"></a>google_adsense.pug</h3><p>配置 <code>google adsense</code> 广告.</p>
-<h3 id="noscript-pug"><a href="#noscript-pug" class="headerlink" title="noscript.pug"></a>noscript.pug</h3><p>一些 <code>css</code> 配置.</p>
+<h3 id="site-verification-pug"><a href="#site-verification-pug" class="headerlink" title="site_verification.pug"></a>site_verification.pug</h3><p>如果在搜索引擎中搜索不到自己的 blog 页面, 可以在这里添加到搜索引擎中, 比如百度的站点管理地址在<a href="https://ziyuan.baidu.com/site/">这里</a>, bing 和 google 的地址均可在 <code>_config.yml</code> 文件的相应位置找到站点添加地址. </p>
+<h2 id="layout-includes-header"><a href="#layout-includes-header" class="headerlink" title="layout/includes/header"></a>layout/includes/header</h2><h3 id="index-pug"><a href="#index-pug" class="headerlink" title="index.pug"></a>index.pug</h3><p>配置在不同页面顶部信息的展示方式.</p>
+<h3 id="menu-item-pug"><a href="#menu-item-pug" class="headerlink" title="menu_item.pug"></a>menu_item.pug</h3><p>顶部菜单信息的展示配置.</p>
+<h3 id="nav-pug"><a href="#nav-pug" class="headerlink" title="nav.pug"></a>nav.pug</h3><p>导航栏标题与搜索配置.</p>
+<h3 id="post-info-pug"><a href="#post-info-pug" class="headerlink" title="post-info.pug"></a>post-info.pug</h3><p>博文元数据信息, 如: 是否可以在浏览器编辑文章, 发表日期, 更新日期, 文章类别, 字数统计, 访问量等.</p>
+<h3 id="social-pug"><a href="#social-pug" class="headerlink" title="social.pug"></a>social.pug</h3><p>联系信息展示.</p>
 <h1 id="tabs-测试区"><a href="#tabs-测试区" class="headerlink" title="tabs 测试区"></a>tabs 测试区</h1><div class="tabs" id="test1"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test1-1">test1 1</button></li><li class="tab"><button type="button" data-href="#test1-2">test1 2</button></li><li class="tab"><button type="button" data-href="#test1-3">test1 3</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test1-1"><p><strong>This is Tab 1.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-3"><p><strong>This is Tab 3.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
 <div class="note primary no-icon flat"><p><strong>问题:</strong> blablabla…</p>
 <div class="tabs" id="test2"><ul class="nav-tabs"><li class="tab"><button type="button" data-href="#test2-1">test2 1</button></li><li class="tab"><button type="button" data-href="#test2-2">test2 2</button></li><li class="tab active"><button type="button" data-href="#test2-3">test2 3</button></li></ul><div class="tab-contents"><div class="tab-item-content" id="test2-1"><p><strong>This is Tab 1.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test2-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content active" id="test2-3"><p><strong>This is Tab 3.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
@@ -1550,37 +1555,6 @@ f(x)=a_{i},\qquad0\le\frac{i}{42}\le x\le\frac{i+1}{42}\le1.</script><figure cla
         <tag>math</tag>
         <tag>数学</tag>
         <tag>定理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>导数极限定理</title>
-    <url>/%E5%AF%BC%E6%95%B0%E6%9E%81%E9%99%90%E5%AE%9A%E7%90%86/</url>
-    <content><![CDATA[<h1 id="导数极限定理"><a href="#导数极限定理" class="headerlink" title="导数极限定理"></a>导数极限定理</h1><div class="note info flat"><p>导数极限定理和Darboux介值定理之间还是有区别的, 如果承认下面的定理中函数$f(x)$在$x=x_0$处的可导性, 用Darboux介值定理很容证明极限式子</p>
-<script type="math/tex; mode=display">
-f'(x_{0})=\lim_{x\to x_{0}}f'(x).</script><p>但如果不提$f(x)$在$x=x_0$处的可导性, 则只能从拉格朗日中值定理来证明.</p>
-</div>
-<pre class="mermaid">graph TD;
-  A[拉格朗日中值定理]-->B[导数极限定理];
-  D[达布介值定理]-->B;</pre>
-<div class="note primary no-icon flat"><p><strong>定理</strong>: 设函数$f$在点$x_{0}$的某领域$U(x_{0})$内连续, 在$U^{\circ}(x_{0})$内可导, 且极限$\lim_{x\to x_{0}}f’(x)$存在,<br>则$f$在点$x_{0}$可导, 且</p>
-<script type="math/tex; mode=display">
-f'(x_{0})=\lim_{x\to x_{0}}f'(x).</script><div class="note primary no-icon modern"><p><strong>证明</strong>: </p>
-<p>分别按左右导数给出证明.</p>
-<p>(1) 任取$x\in U_{+}^{\circ}(x_{0})$, $f(x)$在$[x_{0},x]$上满足拉格朗日定理的条件, 则存在$\xi\in(x_{0},x)$, 使得</p>
-<script type="math/tex; mode=display">
-\frac{f(x)-f(x_{0})}{x-x_{0}}=f'(\xi).</script><p>由于$x_{0}&lt;\xi&lt;x$, 所以当$x\to x_{0}^{+}$时, 有$\xi\to x_{0}^{+}$, 对上式两边取极限, 便得</p>
-<script type="math/tex; mode=display">
-\lim_{x\to x_{0}^{+}}\frac{f(x)-f(x_{0})}{x-x_{0}}=\lim_{x\to x_{0}^{+}}f'(\xi)=f'(x_{0}+0).</script><p>(2) 同理可得</p>
-<script type="math/tex; mode=display">
-f'_{-}(x_{0})=f'(x_{0}-0).</script><p>因为$\lim_{x\to x_{0}}f’(x)=k$存在, 所以$f’(x_{0}+0)=f’(x_{0}-0)=k$, 从而$f’_{+}(x_{0})=f’_{-}(x_{0})=k$, 即$f’(x_{0})=k$.</p>
-</div></div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-      <categories>
-        <category>定理</category>
-      </categories>
-      <tags>
-        <tag>math</tag>
-        <tag>高等数学</tag>
-        <tag>数学分析</tag>
       </tags>
   </entry>
   <entry>
@@ -5101,6 +5075,37 @@ x, & x\in\QQ,\\
       <tags>
         <tag>微积分</tag>
         <tag>反例</tag>
+        <tag>数学分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>导数极限定理</title>
+    <url>/%E5%AE%9A%E7%90%86/%E5%AF%BC%E6%95%B0%E6%9E%81%E9%99%90%E5%AE%9A%E7%90%86/</url>
+    <content><![CDATA[<h1 id="导数极限定理"><a href="#导数极限定理" class="headerlink" title="导数极限定理"></a>导数极限定理</h1><div class="note info flat"><p>导数极限定理和Darboux介值定理之间还是有区别的, 如果承认下面的定理中函数$f(x)$在$x=x_0$处的可导性, 用Darboux介值定理很容证明极限式子</p>
+<script type="math/tex; mode=display">
+f'(x_{0})=\lim_{x\to x_{0}}f'(x).</script><p>但如果不提$f(x)$在$x=x_0$处的可导性, 则只能从拉格朗日中值定理来证明.</p>
+</div>
+<pre class="mermaid">graph TD;
+  A[拉格朗日中值定理]-->B[导数极限定理];
+  D[达布介值定理]-->B;</pre>
+<div class="note primary no-icon flat"><p><strong>定理</strong>: 设函数$f$在点$x_{0}$的某领域$U(x_{0})$内连续, 在$U^{\circ}(x_{0})$内可导, 且极限$\lim_{x\to x_{0}}f’(x)$存在,<br>则$f$在点$x_{0}$可导, 且</p>
+<script type="math/tex; mode=display">
+f'(x_{0})=\lim_{x\to x_{0}}f'(x).</script><div class="note primary no-icon modern"><p><strong>证明</strong>: </p>
+<p>分别按左右导数给出证明.</p>
+<p>(1) 任取$x\in U_{+}^{\circ}(x_{0})$, $f(x)$在$[x_{0},x]$上满足拉格朗日定理的条件, 则存在$\xi\in(x_{0},x)$, 使得</p>
+<script type="math/tex; mode=display">
+\frac{f(x)-f(x_{0})}{x-x_{0}}=f'(\xi).</script><p>由于$x_{0}&lt;\xi&lt;x$, 所以当$x\to x_{0}^{+}$时, 有$\xi\to x_{0}^{+}$, 对上式两边取极限, 便得</p>
+<script type="math/tex; mode=display">
+\lim_{x\to x_{0}^{+}}\frac{f(x)-f(x_{0})}{x-x_{0}}=\lim_{x\to x_{0}^{+}}f'(\xi)=f'(x_{0}+0).</script><p>(2) 同理可得</p>
+<script type="math/tex; mode=display">
+f'_{-}(x_{0})=f'(x_{0}-0).</script><p>因为$\lim_{x\to x_{0}}f’(x)=k$存在, 所以$f’(x_{0}+0)=f’(x_{0}-0)=k$, 从而$f’_{+}(x_{0})=f’_{-}(x_{0})=k$, 即$f’(x_{0})=k$.</p>
+</div></div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>定理</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>高等数学</tag>
         <tag>数学分析</tag>
       </tags>
   </entry>

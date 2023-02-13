@@ -3707,8 +3707,644 @@ Sx\coloneqq\sum_{n=1}^{\infty}\sqrt{\lambda_{n}}\left\langle x,u_{n}\right\rangl
       </tags>
   </entry>
   <entry>
-    <title>考研数学分析问题合集</title>
-    <url>/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E9%97%AE%E9%A2%98%E5%90%88%E9%9B%86/</url>
+    <title>自然数集与整数集之间的双射</title>
+    <url>/%E8%87%AA%E7%84%B6%E6%95%B0%E9%9B%86%E4%B8%8E%E6%95%B4%E6%95%B0%E9%9B%86%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8F%8C%E5%B0%84/</url>
+    <content><![CDATA[<div class="note primary no-icon flat"><p><strong>问题:</strong> 设$\frac{m}{n}\in\QQ^{+}$, 其中$\mathrm{gcd}(m,n)=1$, 设$q_{1},q_{2},\cdots,q_{s}$是$n$的素因子. 则</p>
+<script type="math/tex; mode=display">
+f\left(\frac{m}{n}\right)=\frac{m^{2}n^{2}}{q_{1}q_{2}\cdots q_{s}}</script><p>是$\QQ^{+}\to\NN$的双射.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>由于$\mathrm{gcd}(m,n)=1$, 所以$m,n$没有公共素因子, 设$m=p_{1}^{\alpha_{1}}\cdots p_{r}^{\alpha_{r}}$, $\alpha_{i}&gt;0$; $n=q_{1}^{\beta_{1}}\cdots q_{s}^{\beta_{s}}$, $\beta_{i}&gt;0$.<br>则</p>
+<script type="math/tex; mode=display">
+\frac{m^{2}n^{2}}{q_{1}\cdots q_{s}}=p_{1}^{2\alpha_{1}}\cdots p_{r}^{2\alpha_{r}}q_{1}^{2\beta_{1}-1}\cdots q_{s}^{2\beta_{s}-1}\in\NN.</script><p>而对于任意的自然数$N$, 由算术基本定理, 可以表示素数幂的乘积, 将$N$中素因子出现偶数次的开方, 得到$m$, 将$N$中素因子出现奇数次的每个加一再开方得到$n$. 由算术基本定理分解的唯一性, 知道这样得到的$m,n$也是唯一的. 而不同的自然数$N$, 按照上面操作得到的$m,n$也是不同的, 所以对于任意的$N$, 其在$f$下的原像$\frac{m}{n}$是唯一的. 由此$f$是$\QQ^{+}\to\NN$的双射.</p>
+</div></div></div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>定理</category>
+      </categories>
+      <tags>
+        <tag>实变函数</tag>
+        <tag>初等数论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>证明根号2是无理数</title>
+    <url>/%E8%AF%81%E6%98%8E%E6%A0%B9%E5%8F%B72%E6%98%AF%E6%97%A0%E7%90%86%E6%95%B0/</url>
+    <content><![CDATA[<h1 id="反证法-整数的性质"><a href="#反证法-整数的性质" class="headerlink" title="反证法+整数的性质"></a>反证法+整数的性质</h1><div class="note primary no-icon modern"><p><strong>定理</strong>: 若$a$和$b$为正整数, 则$a^{1/b}$要么是无理数, 要么是整数.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>若$a^{1/b}=x/y$, 其中$y\not\mid x$, 则$a=\left(a^{1/b}\right)^{b}=x^{b}/y^{b}$不是整数, (因为$y^{b}\not\mid x^{b}$), 这与$a$是整数矛盾.</p>
+</div></div></div>
+<h1 id="反证法-唯一因子分解"><a href="#反证法-唯一因子分解" class="headerlink" title="反证法+唯一因子分解"></a>反证法+唯一因子分解</h1><p>假设$\sqrt{2}$可以写成不可约分数$\frac{p}{q}$, 其中$p,q$都是正整数. 则$2q^{2}=p^{2}$. 由于$p^{2}$和$q^{2}$的因子$2$都是偶数个, 所以$2q^{2}$有奇数个因子$2$, 由于唯一因子分解的唯一性, $p^{2}$只有偶数个因子$2$, 它不可能等于$p^{2}$.</p>
+<h1 id="反证法-余数"><a href="#反证法-余数" class="headerlink" title="反证法+余数"></a>反证法+余数</h1><p>如果$\sqrt{2}$是有理数, 则有分数表示$a/b$, 取$b$是$\sqrt{2}$的分数表示中分母最小的. 则</p>
+<script type="math/tex; mode=display">
+a^{2}=2b^{2}.</script><p>考虑$a^{2}$的末位数字, 它只可能是$0,1,4,5,6,9$中的一个. 而$2b^{2}$的末位数字只有$0,2,8$三种情况. 如果$a^{2}$与$2b^{2}$相等, 则它们有相同的末位数, 这个末位数只能是$0$. 所以$a$的末位数字只能是$0$, 而$b$的末位数字只能是$0$或$5$, 无论哪种情况, $a$和$b$都能被$5$整除, 从而$\frac{a/5}{b/5}$也是$\sqrt{2}$的分数表示. 因为$b/5&lt;b$, 这与$b$是$\sqrt{2}$的分数表示中分母最小的选择矛盾.</p>
+<blockquote>
+<p>这种方法在证明$2^{1/3}$的无理性时变得简洁. </p>
+<p>设$2^{1/3}$是既约分数$a/b$, 则$2a^{3}=b^{3}$, 考虑模7同余, 由于整数的立方模7同余的结果只有$0,1$或$6$, 因此$a,b$模7必然均为$0$, 这与$a/b$是既约分数矛盾. </p>
+</blockquote>
+<h1 id="反证法-Bezout公式"><a href="#反证法-Bezout公式" class="headerlink" title="反证法+Bezout公式"></a>反证法+Bezout公式</h1><p>$\sqrt{2}$是无理数的证明是下面定理的推论.</p>
+<div class="note primary no-icon modern"><p><strong>定理</strong>: 对于$n\in\NN$. 如果$r=\sqrt{n}$是有理数, 则$r$是整数.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>设$r=a/b$为有理数, 其中$\mathrm{gcd}(a,b)=1$, 则有Bezout公式, 存在整数$c,d\in\ZZ$, 使得</p>
+<script type="math/tex; mode=display">
+ad-bc=1.</script><p>因此, </p>
+<script type="math/tex; mode=display">
+0=(a-br)(c+dr)=ac-bdn+r.</script><p>所以$r$是整数.</p>
+</div></div></div>
+<p>这一证法可以推广到三次根的有理判别法, 如下</p>
+<div class="note primary no-icon modern"><p><strong>定理</strong>: 若$r^{3}=m\in\ZZ$, 如果$r\in\QQ$, 则$r\in\ZZ$.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>设$r=a/b\in\QQ$, $\mathrm{gcd}(a,b)=1$, 则由Bezout公式, 存在$c,d\in\ZZ$, 使得$ad-bc=1$. 从而</p>
+<script type="math/tex; mode=display">
+0=\left(a-br\right)\left(dr^{2}+cr\right)=1\cdot r^{2}+acr-bdm,</script><p>所以对于$r$的多项式方程, 这里从原来的$r^{3}-m=0$的次数$3$降到了上式中$1\cdot r^{2}+acr-bdm=0$的次数$2$, 按照下面的推广, 这个指数可以继续递降下去直到$r\in\ZZ$. </p>
+</div></div></div>
+<div class="note primary no-icon modern"><p><strong>定理</strong>: 若$r=a/b\in\QQ$是$\ZZ[x]$中的首一多项式的根, $a/b$为既约分数, 则$r\in\ZZ$.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>设这个首一多项式的次数大于$1$, 并设</p>
+<script type="math/tex; mode=display">
+r^{n+1}=er^{n}+f(r),\quad\mathrm{deg}f<n,\quad e\in\ZZ,\ f(x)\in\ZZ[x].</script><p>于是同前面使用Bezout公式时一样,</p>
+<script type="math/tex; mode=display">
+0=\left(a-br\right)\left(dr^{n}+cr^{n-1}\right)=\left(ad-bc\right)r^{n}+acr^{n-1}-deb\ r^{n}-bd\ f(r).</script><p>化简并注意到$br^{n}=ar^{n-1}$, 有</p>
+<script type="math/tex; mode=display">
+1\cdot r^{n}+\left(ac-dea\right)r^{n-1}-bd\ f(r)=0,</script><p>$r$所满足的方程从原来的指数$n+1$降为了指数为$n$的首一多项式, 如此继续下去, 指数$n$必然在有限步后降为$n=0$, 从而$r=e\in\ZZ$.</p>
+</div></div></div>
+<h1 id="反证法-Bezout公式-2"><a href="#反证法-Bezout公式-2" class="headerlink" title="反证法+Bezout公式 - 2"></a>反证法+Bezout公式 - 2</h1><div class="note primary no-icon modern"><p><strong>定理</strong>: 若$p,q,n$为正整数, 且$\mathrm{gcd}(p,q)=1$, 且$p^{2}=nq^{2}$, 则$q=1$, 从而$n=p^{2}$.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>由于$\mathrm{gcd}(p,q)=1$, 所以存在整数$s,t$, 使得$ps+qt=1$. 两边同时取立方, 得到</p>
+<script type="math/tex; mode=display">
+p^{2}(ps+3qt)s^{2}+q^{2}(3ps+qt)t^{2}=1.</script><p>又由$p^{2}=nq^{2}$, 所以</p>
+<script type="math/tex; mode=display">
+nq^{2}(ps+3qt)s^{2}+q^{2}(3ps+qt)t^{2}=1,</script><p>因此$q\mid1$.</p>
+</div></div></div>
+<h1 id="连分数法"><a href="#连分数法" class="headerlink" title="连分数法"></a>连分数法</h1><p>设$v=1+\sqrt{2}$, 则有</p>
+<script type="math/tex; mode=display">
+v^{2}-2v-1=0.</script><p>容易验证$v=2+\frac{1}{v}$. 所以如果不断的将右边分母中的$v$替换成$2+\frac{1}{v}$, 就有以下连分式</p>
+<script type="math/tex; mode=display">
+1+\sqrt{2}=2+\frac{1}{2+\frac{1}{2+\cdots}}.</script><p>因为任何无穷连分数都是无理数, 所以$1+\sqrt{2}$是无理数.</p>
+<h1 id="无穷递降原理-自然数的良序性"><a href="#无穷递降原理-自然数的良序性" class="headerlink" title="无穷递降原理(自然数的良序性)"></a>无穷递降原理(自然数的良序性)</h1><p>这个证明和连分数构造类似, 可以用来避免使用连分数的知识.</p>
+<div class="note primary no-icon modern"><p><strong>定理</strong>: 对于自然数$n$, 如果$r=\sqrt{n}$是有理数, 则它是整数.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>设$r=\frac{A}{B}$, $B$是$r$的有理表示中分母最小的正整数.</p>
+<p>由于$\sqrt{n}=\frac{n}{\sqrt{n}}$, 将$\sqrt{n}=r=\frac{A}{B}$代入, 得到</p>
+<script type="math/tex; mode=display">
+\frac{A}{B}=\frac{nB}{A}.</script><p>对上式左右两边取小数部分, 得到形如</p>
+<script type="math/tex; mode=display">
+\frac{b}{B}=\frac{a}{A},\qquad0\le b<B</script><p>的等式. </p>
+<p>如果$b\ne0$, 所以$\frac{A}{B}=\frac{a}{b}$, 此式两边都可以看成$r$的有理数表示, 而$b&lt;B$.<br>这与$B$的最小性矛盾.</p>
+<p>所以只能有$b=0$, 这也就意味着$\frac{A}{B}$的小数部分$\frac{b}{B}$为$0$, 即$\frac{A}{B}$是整数.</p>
+</div></div></div>
+<p>wiki百科有一个按照分母的无穷递降法.</p>
+<div class="note primary no-icon modern"><p><strong>定理</strong>: 如果$\sqrt{k}$不是整数, 则它是无理数.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>证明. 用反证法, 对于$k&gt;0$, 假设$\sqrt{k}$不是整数, 则有有理表示$\frac{a}{b}$, 其中$a,b$都是自然数, 设$q$是不超过$\sqrt{k}$的最大整数. 则</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\sqrt{k} & =\frac{a}{b}=\frac{a\left(\sqrt{k}-q\right)}{b\left(\sqrt{k}-q\right)}\\
+ & =\frac{a\sqrt{k}-aq}{b\sqrt{k}-bq}\\
+ & =\frac{\left(b\sqrt{k}\right)\sqrt{k}-aq}{b\left(\frac{a}{b}\right)-bq}\\
+ & =\frac{bk-aq}{a-bq}=\frac{a'}{b'}.
+\end{align*}</script><p>其中, 在分子分母同时乘以的$\left(\sqrt{k}-q\right)$是一个介于$0$和$1$之间的有理数. 而上面的$a’,b’$分别小于$a,b$, 且它们的比值都是$\sqrt{k}$. 由于自然数的良序性, 从$a,b$之比递减到$a’,b’$之比可以继续进行下去, 而这种无穷递降是不可能的. 所以$\sqrt{k}$不能是自然数之比.</p>
+</div></div></div>
+<blockquote>
+<p>如果考虑的是$2$的立方根的无理性证明, 按照Fermat的无穷递降原理则会有一种调皮的证法:</p>
+<p>假设$2^{1/3}=\frac{n}{m}$, 则$2m^{3}=n^{3}$, 也即</p>
+<script type="math/tex; mode=display">m^{3}+m^{3}=n^{3}.</script><p>由Fermat大定理在指数为$3$时不存在正整数解, 所以$2^{1/3}$是无理数.</p>
+</blockquote>
+<h1 id="有理根判别法"><a href="#有理根判别法" class="headerlink" title="有理根判别法"></a>有理根判别法</h1><p>考虑多项式方程$x^{2}-2=0$, 有根$\pm\sqrt{2}$. 如果方程有有理解$\frac{a}{b}$, 则$a\mid2$且$b\mid1$, 所以$\frac{a}{b}\in\left\{ \pm1,\pm2\right\} $. 然而, 直接验证知$\pm1,\pm2$都不是方程$x^{2}-2=0$的根, 所以方程没有有理根, 从而$\sqrt{2}$是无理数.</p>
+<h1 id="反证法-自然数的良序性"><a href="#反证法-自然数的良序性" class="headerlink" title="反证法+自然数的良序性"></a>反证法+自然数的良序性</h1><p>设$\sqrt{2}$是有理数, 可以表示成$\sqrt{2}=a/b$的形式, 其中$a,b$都是正整数, 考虑集合</p>
+<script type="math/tex; mode=display">
+S=\left\{ k\sqrt{2}\mid k,k\sqrt{2}\in\mathbb{Z}\right\} .</script><p>首先$S$不空, 因为$a=b\sqrt{2}\in\mathbb{Z}$, 而$b\in\mathbb{Z}$, 所以$b\sqrt{2}\in S$. 由于$S$是自然数的子集, 由良序性, $S$中存在最小元$s=t\sqrt{2}$.</p>
+<p>注意, 这时$s\sqrt{2}-s=(s-t)\sqrt{2}=s(\sqrt{2}-1)&lt;s$. 而且不等式左边, $s-t$和$(s-t)\sqrt{2}$都是整数. 所以$s(\sqrt{2}-1)=(s-t)\sqrt{2}\in S$, 这与$s$是$S$中的最小元矛盾.</p>
+<div class="note primary no-icon modern"><blockquote>
+<p>另有一个由 Theodor Estermann 的证明 $\sqrt{2}$ 的无理性发展出来的推广命题, 它是由 Harley Flanders 给出的证明$\sqrt{m}$ 的无理性的命题, 如下</p>
+</blockquote>
+<p><strong>定理</strong>: 假设$m$ 不是完全平方数, 则$\sqrt{m}$是无理数.</p>
+<div class="note primary no-icon flat"><p>设$n$ 是满足$n&lt;\sqrt{m}&lt;n+1$的整数, 则$\alpha=\sqrt{m}-n$是无理数. 用反证法, 则由$0&lt;\alpha&lt;1$, 有有理表示$\alpha=p/q$, 其中$0&lt;p&lt;q$. 假设$q$是$\alpha$的有理表示中分母最小的, 则</p>
+<script type="math/tex; mode=display">
+\frac{q}{p}=\frac1{\sqrt{m}-n}=\frac{\sqrt{m}+n}{m-n^2}=\frac{\alpha+2n}{m-n^2}.</script><p>由此解得</p>
+<script type="math/tex; mode=display">
+\alpha=\frac{(m-n^2)q}{p}-2n=\frac{(m-n^2)q-2np}{p}=\frac{r}{p}.</script><p>因此$\alpha$有另一个分母更小的分数表示, 导出矛盾.</p>
+</div></div>
+<div class="note primary no-icon modern"><p><strong>定理</strong>: 对于自然数$a$和$t$, $a^{1/t}$要么是无理数, 要么是整数.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>假设$a^{1/t}$不是整数, 设它是有理数. 则$a^{1/t}$的所有整数幂都是有理数. 考虑有理数序列$a^{i/t}$, $i=1,\cdots,t-1$, 并将其分母的最小公倍数记为$m$, 则$m$是使$ma^{i/t}$, ($i=1,\cdots,t-1$), 均为整数的最小正整数. </p>
+<p>因为$a^{1/t}$不是整数, 所以存在整数$b$使得$b&lt;a^{1/t}&lt;b+1$. 因此$0&lt;a^{1/t}-b&lt;1$, 且$0&lt;m\left(a^{1/t}-b\right)&lt;m$. 记$k=m\left(a^{1/t}-b\right)$, 则$k\in\ZZ$. </p>
+<p>对于任意的$i=1,\cdots,t-1$, $ka^{i/t}=ma^{(i+1)/t}-bma^{i/t}$. 当$i\le t-2$时, $ka^{i/t}\in\ZZ$; 当$i=t-1$时, 由于$a$是自然数, 所以$ka^{i/t}$仍旧均为整数. 然而$0&lt;k&lt;m$, 也使得$ka^{i/t}\in\ZZ$, $i=1,\cdots,t-1$, 这与$m$的最小性矛盾.</p>
+</div></div></div>
+<h1 id="反证法-主理想"><a href="#反证法-主理想" class="headerlink" title="反证法+主理想"></a>反证法+主理想</h1><div class="note primary no-icon modern"><p><strong>定理</strong>: 设$n\in\NN$. 如果$r=\sqrt{n}$是有理数, 则$r$是整数.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>考虑$r$的所有可能的分母$d$所构成的集合$D$, 也即, </p>
+<script type="math/tex; mode=display">
+D=\left\{ d\in\ZZ:dr\in\ZZ\right\} .</script><p>注意到$D$在减法运算下封闭: </p>
+<script type="math/tex; mode=display">
+d,e\in D\Longrightarrow dr,er\in\ZZ\Longrightarrow(d-e)r=dr-er\in\ZZ.</script><p>进而当$d\in D$时, 由于$r^{2}=n\in\ZZ$, 有 $(dr)r=dn\in\ZZ$, 所以$dr\in D$. 根据以下引理, 当$d$为$D$中最小的正自然数时, 有$d\mid dr$, 也即$r=(dr)/d\in\ZZ$.</p>
+</div></div></div>
+<div class="note primary no-icon modern"><p><strong>引理</strong>: 假设$D\subseteq\ZZ$在减法运算下封闭, 且$D$中有非零元. 则$D$中存在最小正元素能够整除$D$中的任何元素.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><ol>
+<li>先证明有非零元的集合$D$中有正整数.</li>
+</ol>
+<p>设$d\ne0$, $d\in D$, 则有$d-d=0\in D$, 从而$0-d=-d\in D$, 所以$D$中至少存在一个正整数, 要么是$d$, 要么是$-d$. </p>
+<ol>
+<li>证明引理的结论. </li>
+</ol>
+<p>用反证法, 设$d$为$D$中最小正整数. 由于$d\mid n\Longleftrightarrow d\mid-n$. 由自然数的良序性, 假设 $c\in D$ 为满足 $d\not\mid c$ 的最小正整数. 由此 $c-d&gt;0$ 且有 $d\not\mid c-d\in D$, 是不能被$d$整除的小于$c$的正整数, 与$c$的选取矛盾. 所以$d$能整除$D$中的任何元素.</p>
+</div></div></div>
+<h1 id="反证法-构造"><a href="#反证法-构造" class="headerlink" title="反证法+构造"></a>反证法+构造</h1><p>设$\sqrt{2}$是有理数, 容易知道它在1和2之间取值. 取最小的自然数$q$使得$p=q\sqrt{2}$是整数. 则$q&lt;p=q\sqrt{2}&lt;2q$. 于是直接计算</p>
+<script type="math/tex; mode=display">
+\left(\frac{2q-p}{p-q}\right)^{2}=\frac{4q^{2}-4pq+p^{2}}{p^{2}-2pq+q^{2}}=\frac{6q^{2}-4pq}{3q^{2}-2pq}=2.</script><p>而由$q&lt;p&lt;2q$知, $0&lt;p-q&lt;q$. 上式说明$2q-p=(p-q)\sqrt{2}$是整数, 这与$q$的选取矛盾.</p>
+<p>注: 这里提一下上面的分式是如何想到的, 主要是用到合分比公式(初中):</p>
+<script type="math/tex; mode=display">
+\frac{a}{b}=\frac{c}{d}\Longrightarrow\frac{a}{b}=\frac{a\pm c}{b\pm d}=\frac{c}{d},\qquad b\pm d\ne0.</script><p>然后注意到</p>
+<script type="math/tex; mode=display">
+\sqrt{2}=\frac{p}{q}=\frac{2q}{p}=\frac{2}{\sqrt{2}}\Longrightarrow\frac{p}{q}=\frac{2q-p}{p-q}=\sqrt{2}.</script><h1 id="反证法-Newton迭代法-Pell方程"><a href="#反证法-Newton迭代法-Pell方程" class="headerlink" title="反证法+Newton迭代法+Pell方程"></a>反证法+Newton迭代法+Pell方程</h1><p>考虑函数$f(x)=x^{2}-2$的Newton方法, 得到递推公式</p>
+<script type="math/tex; mode=display">
+x_{n+1}=\frac{x_{n}}{2}+\frac{1}{x_{n}},\qquad x_{0}=\frac{3}{2}.</script><p>记$x_{n}=\frac{p_{n}}{q_{n}}$, 带入上式有</p>
+<script type="math/tex; mode=display">
+p_{n+1}=p_{n}^{2}+2q_{n}^{2},\quad q_{n+1}=2p_{n}q_{n}.</script><p>利用归纳法证明$\left(p_{n},q_{n}\right)$是Pell方程$x^{2}-2y^{2}=1$的整数解. 其实只需要验证下面两个式子:</p>
+<script type="math/tex; mode=display">
+p_{n+1}^{2}-2q_{n+1}^{2}=\left(p_{n}^{2}-2q_{n}^{2}\right)^{2},\quad p_{0}^{2}-2q_{0}^{2}=1.</script><p>由此可得不等式$\frac{2}{x_{n}}&lt;\sqrt{2}&lt;x_{n}$. </p>
+<p>设$\sqrt{2}=\frac{s}{t}$为有理数. 则有不等式估计</p>
+<script type="math/tex; mode=display">
+\left|\frac{p_{n}}{q_{n}}-\frac{s}{t}\right|=\left|x_{n}-\sqrt{2}\right|<\left|x_{n}-\frac{2}{x_{n}}\right|=\frac{1}{p_{n}q_{n}}.</script><p>因此$\left|tp_{n}-sq_{n}\right|&lt;\frac{t}{p_{n}}$. 由于$p_{n}$的递推公式知, $p_{n}\to\infty$, $n\to\infty$. 所以当$n$充分大时, $\left|tp_{n}-sq_{n}\right|&lt;1$. 所以只能有$tp_{n}-sq_{n}=0$, 并有$x_{n}=\sqrt{2}$. 矛盾.</p>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>数学</tag>
+        <tag>一题多解</tag>
+        <tag>algebra</tag>
+        <tag>abstract algebra</tag>
+        <tag>高等代数</tag>
+        <tag>多项式</tag>
+        <tag>抽象代数</tag>
+        <tag>数论</tag>
+        <tag>初等数论</tag>
+        <tag>无理数</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记浙江省首届高等数学竞赛非数学类最后一题</title>
+    <url>/%E8%AE%B0%E6%B5%99%E6%B1%9F%E7%9C%81%E9%A6%96%E5%B1%8A%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AB%9E%E8%B5%9B%E9%9D%9E%E6%95%B0%E5%AD%A6%E7%B1%BB%E6%9C%80%E5%90%8E%E4%B8%80%E9%A2%98/</url>
+    <content><![CDATA[<p>最近刷题目卡在最后一题了, 题目是这样的:</p>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $\left\{ a_{n}\right\} ,\left\{ b_{n}\right\} $ 为满足 $e^{a_{n+1}}=a_{n}+e^{b_{n}},n\geq1$ 的两个实数列, 已知 $a_{n}&gt;0(n\geq1)$, 且 $\sum_{n=1}^{\infty}a_{n}$ 收敛。证明: $\sum_{n=1}^{\infty}\frac{b_{n}}{a_{n}}$ 也收敛。</p>
+</div>
+<p>从题目中容易解出来</p>
+<script type="math/tex; mode=display">
+b_{n}=\ln\left(\ue^{a_{n+1}}-a_{n}\right),</script><p>所以要证明$\sum_{n=1}^{\infty}\frac{b_{n}}{a_{n}}$的收敛性, 最先想到的是证明级数的各项能被$a_{n}$的某固定常数倍控制, 于是</p>
+<script type="math/tex; mode=display">
+\frac{b_{n}}{a_{n}}=\frac{\ln\left(\ue^{a_{n+1}}-a_{n}\right)}{a_{n}}\le\frac{\ue^{a_{n+1}}-1-a_{n}}{a_{n}}\le\frac{a_{n+1}+o\left(a_{n+1}\right)-a_{n}}{a_{n}}.</script><p>但右边似乎没有办法被很好的控制, 因为我最后构造了一个反例, 反例大概是这样的</p>
+<script type="math/tex; mode=display">
+a_{n}=\begin{cases}
+\frac{1}{n^{2}}, & n\ne m^{2},\\
+\left(1+\frac{1}{m}\right)\frac{1}{n^{2}}, & n=m^{2}+1,
+\end{cases}</script><p>使用$\frac{1}{n^{2}}$是因为众所周知的$\zeta(2)=\frac{\pi^{2}}{6}$, 来确保级数$\sum a_{n}$的收敛性. $1+\frac{1}{m}$项是为了能让项$\frac{a_{n+1}-a_{n}}{a_{n}}$在$n=m^{2}$时得到$\frac{1}{m}$, 这可以取遍调和级数的所有项, 从而使$\frac{a_{n+1}-a_{n}}{a_{n}}$形成的部分和含有发散子列$\frac{1}{m}$. </p>
+<p>这是我怀疑上面的不等式在放大的过程中放的太过了, 所以有必要直接考虑$\frac{b_{n}}{a_{n}}$在$n$很大时的变化趋势, 根据上面的构造, 选取$n=m^{2}$是合适的. 所以可以计算</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\frac{b_{m^{2}}}{a_{m^{2}}} & =m^{4}\ln\left(\ue^{a_{m^{2}+1}}-a_{m^{2}}\right)\\
+ & =m^{4}\ln\left(\ue^{\left(1+\frac{1}{m}\right)\frac{1}{(m^{2}+1)^{2}}}-\frac{1}{m^{4}}\right)\\
+ & \sim m^{4}\left(\ue^{\left(1+\frac{1}{m}\right)\frac{1}{(m^{2}+1)^{2}}}-\frac{1}{m^{4}}-1\right)\\
+ & \sim m^{4}\left(\left(1+\frac{1}{m}\right)\frac{1}{(m^{2}+1)^{2}}-\frac{1}{m^{4}}\right)\sim\frac{1}{m}
+\end{align*}</script><p>这说明上面的不等式并没有放的过大, $\sum\frac{b_{n}}{a_{n}}$有发散的子列$\sum\frac{b_{m^{2}}}{a_{m^{2}}}$. (我在这里并没有验证$b_{n}$的正负, 事实上其后的的一项刚好是$-\frac{1}{m}$, 但这已经给出了一个构造反例的思想. 比如选择$a_{m^{2}+1}=\frac{2}{(m^{2}+1)^{2}}$并结合Cauchy收敛准则.)</p>
+<p>于是上网搜索正确的问题应当是怎么样的. 得到正确的问题表述其实是</p>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $\left\{ a_{n}\right\} ,\left\{ b_{n}\right\} $ 为满足 $e^{a_{n}}=a_{n}+e^{b_{n}},n\geq1$ 的两个实数列, 已知 $a_{n}&gt;0(n\geq1)$, 且 $\sum_{n=1}^{\infty}a_{n}$ 收敛。证明: $\sum_{n=1}^{\infty}\frac{b_{n}}{a_{n}}$ 也收敛。</p>
+</div>
+<p>现在问题就简单了, 直接考虑$\left|a_{n}\right|\ll1$时的情况, 有以下控制</p>
+<script type="math/tex; mode=display">
+\left|\frac{b_{n}}{a_{n}}\right|\le\frac{\ue^{a_{n}}-1-a_{n}}{a_{n}}\le\frac{1+a_{n}+\frac{a_{n}^{2}}{2}+o(a_{n}^{2})-1-a_{n}}{a_{n}}\le a_{n}.</script><p>然后用比较判别法即可.</p>
+<p>比较判别法是判断无穷级数收敛, 条件收敛, 绝对收敛, 区间收敛或发散的方法. 也叫作比较审敛法, 比较审敛原理.</p>
+<div class="note primary no-icon flat"><p><strong>比较判别法</strong>: 设$\sum b_{n}$是收敛的正项无穷级数, 复无穷级数$\sum a_{n}$若满足对于任意的$n$有$\left|a_{n}\right|\le cb_{n}$, 其中$c$是与$n$无关的正常数, 则</p>
+<p>(1) 若$\sum b_{n}$收敛, 则$\sum a_{n}$收敛.</p>
+<p>(2) 若$\sum\left|a_{n}\right|=+\infty$, 则$\sum b_{n}=+\infty$.</p>
+</div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>高等数学</category>
+      </categories>
+      <tags>
+        <tag>微积分</tag>
+        <tag>分析</tag>
+        <tag>反例</tag>
+        <tag>每日一题</tag>
+        <tag>高等数学</tag>
+        <tag>数学分析</tag>
+        <tag>高等数学竞赛</tag>
+        <tag>数项级数</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算机工具使用经验总结</title>
+    <url>/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<h1 id="git"><a href="#git" class="headerlink" title="git"></a>git</h1><p>git status显示中文为Unicode编码, 但git bash环境中文显示正常的解决方案如下.<br><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> git status</span></span><br><span class="line">On branch basictopo</span><br><span class="line">Untracked files:</span><br><span class="line">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</span><br><span class="line">        &quot;todo/[\345\260\244\346\211\277\344\270\232]\345\237\272\347\241\200\346\213\223\346\211\221\345\255\246\350\256\262\344\271\211_LT(2).pdf&quot;</span><br><span class="line"><span class="meta">#</span><span class="bash"> 配置git的全局环境</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git config --global core.quotepath <span class="literal">false</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git status</span></span><br><span class="line">On branch basictopo</span><br><span class="line">Untracked files:</span><br><span class="line">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</span><br><span class="line">        todo/[尤承业]基础拓扑学讲义_LT(2).pdf</span><br></pre></td></tr></table></figure></p>
+<h1 id="latex"><a href="#latex" class="headerlink" title="latex"></a>latex</h1><p>在 <code>texstudio</code> 中使用一些自定义主题或包的时候, 一般自定义的内容复杂起来就会有比较多的 <code>.sty</code> 文件和源文件在一个目录中. 为了能在 <code>texstudio</code> 中创建模板, 在没有这些 <code>.sty</code> 文件的时候是不需要做任何额外的操作的. 但是一旦依赖有其他自定义的 <code>.sty</code> 文件, 虽然创建模板的时候不会出问题, 但是当使用这个新创建的模板时, 由于新建的文档目录中找不到 <code>.sty</code> 文件而报错. 当然可以通过把所需的所有 <code>.sty</code> 都拷贝到新建文档目录中来解决问题, 但这就丧失了从模板创建新文档的便捷. 所以找来了以下的解决方案.</p>
+<p>首先打开系统终端 <code>powershell</code>, 输入</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> kpsewhich -var-value=TEXMFHOME</span></span><br><span class="line">C:/Users/math/texmf</span><br></pre></td></tr></table></figure>
+<p>它会返回一个 <code>latex</code> 编译器查找 <code>.sty</code> 文件的一个默认家目录, 如果系统没有这个目录则创建它. 然后在创建模板时, 把需要的 <code>.sty</code> 文件全部拷贝到这个目录中, 以后再从这个模板创建的文件就不用再去找相应的 <code>.sty</code> 文件了, 如果你的模板特别多, 你可以为每个模板再创建一个目录放在上面的家目录中, 把所依赖的文件放入子目录中. 并把它上传到自己的 <code>git</code> 仓库作为备份.</p>
+<h1 id="powershell"><a href="#powershell" class="headerlink" title="powershell"></a>powershell</h1><h2 id="查询系统连接过的wifi的密码"><a href="#查询系统连接过的wifi的密码" class="headerlink" title="查询系统连接过的wifi的密码"></a>查询系统连接过的wifi的密码</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 列出电脑所有连接过的WIFI名称</span></span><br><span class="line">netsh wlan show profiles</span><br><span class="line"><span class="meta">#</span><span class="bash"> 查看指定WIFI名称的密码, 密码字段为<span class="string">&#x27;关键内容&#x27;</span></span></span><br><span class="line">netsh wlan show profiles WIFI名称 key=clear</span><br></pre></td></tr></table></figure><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>computer</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+        <tag>linux</tag>
+        <tag>git bash</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>连续函数概念中的反例</title>
+    <url>/%E8%BF%9E%E7%BB%AD%E5%87%BD%E6%95%B0%E6%A6%82%E5%BF%B5%E4%B8%AD%E7%9A%84%E5%8F%8D%E4%BE%8B/</url>
+    <content><![CDATA[<h2 id="仅在一点连续的函数"><a href="#仅在一点连续的函数" class="headerlink" title="仅在一点连续的函数"></a>仅在一点连续的函数</h2><div class="note primary no-icon flat"><p><strong>仅在一点连续的函数:</strong> 设函数$f:\RR\to\RR$定义为</p>
+<script type="math/tex; mode=display">
+f(x)=\begin{cases}
+x, & x\in\QQ,\\
+-x, & x\notin\QQ,
+\end{cases}</script><p>则$f$在$x=0$处连续, 在$x\in\RR\setminus\left\{ 0\right\} $处不连续.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>证明</span></div>
+    <div class="hide-content"><p>证明: 使用如下关于连续函数的刻画: $f$在点$a\in\RR$处连续, 当且仅当, 对于任意满足$\lim_{k\to\infty}x_{k}=a$的实数列$\left(x_{k}\right)\subseteq\RR$,<br>总有</p>
+<script type="math/tex; mode=display">
+\lim_{k\to\infty}f(x_{k})=f(a).</script><p>$f$在$x=0$处连续: 若$x_{k}$收敛于$0$, 则</p>
+<script type="math/tex; mode=display">
+\lim_{k\to\infty}\left|f(x_{k})\right|=\lim_{k\to\infty}\left|f(x_{k})\right|=\lim_{k\to\infty}\left|x_{k}\right|=0.</script><p>假设$a\ne0$. 则存在无理数$x_{1},x_{2},\cdots$收敛于$a$. 比如这样的序列$\left(x_{n}\right)_{n}$可以按如下方式构造:</p>
+<ol>
+<li><p>当$a\notin\QQ$时, 取$x_{k}=a+1/k$.</p>
+</li>
+<li><p>当$a\in\QQ$时, 取$x_{k}=a+\sqrt{2}/k$.</p>
+</li>
+</ol>
+<p>对于这样的序列$\left(x_{n}\right)$, 我们有</p>
+<script type="math/tex; mode=display">
+\lim_{k\to\infty}f(x_{k})=-\lim_{k\to\infty}x_{k}=-a.</script><p>另一方面, 可以构造有理数$y_{1},y_{2},\cdots$收敛于$a$. 因为当$a\notin\QQ$时, 用$\QQ$在$\RR$中的稠密性;<br>当$a\in\QQ$时, 取$y_{k}=x_{k}+1/k$. 这时有</p>
+<script type="math/tex; mode=display">
+\lim_{k\to\infty}f(y_{k})=\lim_{k\to\infty}y_{k}=a.</script><p>由于$a\ne0$时, $a\ne-a$. 所以$f$在$a$处不连续.</p>
+</div></div></div>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>数学分析</category>
+      </categories>
+      <tags>
+        <tag>微积分</tag>
+        <tag>反例</tag>
+        <tag>数学分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>导数极限定理</title>
+    <url>/%E5%AE%9A%E7%90%86/%E5%AF%BC%E6%95%B0%E6%9E%81%E9%99%90%E5%AE%9A%E7%90%86/</url>
+    <content><![CDATA[<h1 id="导数极限定理"><a href="#导数极限定理" class="headerlink" title="导数极限定理"></a>导数极限定理</h1><div class="note info flat"><p>导数极限定理和Darboux介值定理之间还是有区别的, 如果承认下面的定理中函数$f(x)$在$x=x_0$处的可导性, 用Darboux介值定理很容证明极限式子</p>
+<script type="math/tex; mode=display">
+f'(x_{0})=\lim_{x\to x_{0}}f'(x).</script><p>但如果不提$f(x)$在$x=x_0$处的可导性, 则只能从拉格朗日中值定理来证明.</p>
+</div>
+<pre class="mermaid">graph TD;
+  A[拉格朗日中值定理]-->B[导数极限定理];
+  D[达布介值定理]-->B;</pre>
+<div class="note primary no-icon flat"><p><strong>定理</strong>: 设函数$f$在点$x_{0}$的某领域$U(x_{0})$内连续, 在$U^{\circ}(x_{0})$内可导, 且极限$\lim_{x\to x_{0}}f’(x)$存在,<br>则$f$在点$x_{0}$可导, 且</p>
+<script type="math/tex; mode=display">
+f'(x_{0})=\lim_{x\to x_{0}}f'(x).</script><div class="note primary no-icon modern"><p><strong>证明</strong>: </p>
+<p>分别按左右导数给出证明.</p>
+<p>(1) 任取$x\in U_{+}^{\circ}(x_{0})$, $f(x)$在$[x_{0},x]$上满足拉格朗日定理的条件, 则存在$\xi\in(x_{0},x)$, 使得</p>
+<script type="math/tex; mode=display">
+\frac{f(x)-f(x_{0})}{x-x_{0}}=f'(\xi).</script><p>由于$x_{0}&lt;\xi&lt;x$, 所以当$x\to x_{0}^{+}$时, 有$\xi\to x_{0}^{+}$, 对上式两边取极限, 便得</p>
+<script type="math/tex; mode=display">
+\lim_{x\to x_{0}^{+}}\frac{f(x)-f(x_{0})}{x-x_{0}}=\lim_{x\to x_{0}^{+}}f'(\xi)=f'(x_{0}+0).</script><p>(2) 同理可得</p>
+<script type="math/tex; mode=display">
+f'_{-}(x_{0})=f'(x_{0}-0).</script><p>因为$\lim_{x\to x_{0}}f’(x)=k$存在, 所以$f’(x_{0}+0)=f’(x_{0}-0)=k$, 从而$f’_{+}(x_{0})=f’_{-}(x_{0})=k$, 即$f’(x_{0})=k$.</p>
+</div></div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>定理</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>高等数学</tag>
+        <tag>数学分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Euler求和公式</title>
+    <url>/%E5%AE%9A%E7%90%86/Euler%E6%B1%82%E5%92%8C%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<script src="https://api.vvhan.com/api/snow"></script>
+
+<div class="note primary no-icon flat"><p><strong>定理</strong>: Euler求和公式: 设函数$f\in C^1[0,+\infty)$, 则有</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\sum_{k=1}^{n}f(k) & =\int_{0}^{n}f(x)\ud x+\frac{f(n)-f(0)}{2}+\int_{0}^{n}\left\langle x\right\rangle f'(x)\ud x\\
+ & =\int_{1}^{n}f(x)\ud x+\frac{f(n)+f(1)}{2}+\int_{1}^{n}\left\langle x\right\rangle f'(x)\ud x
+\end{align*}</script><p>其中$\left\langle x\right\rangle =\left\{ x\right\} -\frac{1}{2}$.</p>
+</div>
+<hr>
+<p>证明: 使用RS积分, 由于</p>
+<script type="math/tex; mode=display">
+\ud[x]=\sum_{k\in\mathrm{Dom}(x)}\delta(x-k)\ud x,</script><p>所以</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\sum_{k=1}^{n}f(k) & =\int_{0+}^{n+}f(x)\ud[x]\\
+ & =\int_{0}^{n}f(x)\ud x-\int_{0+}^{n+}f(x)\ud\left\{ x\right\} \\
+ & =\int_{0}^{n}f(x)\ud x-\int_{0+}^{n+}f(x)\ud\left(\left\{ x\right\} -\frac{1}{2}\right)\\
+ & =\int_{0}^{n}f(x)\ud x-\left\langle x\right\rangle f(x)\mid_{0+}^{n+}+\int_{0+}^{n+}\left\langle x\right\rangle f'(x)\ud x\\
+ & =\int_{0}^{n}f(x)\ud x+\frac{f(n)-f(0)}{2}+\int_{0}^{n}\left\langle x\right\rangle f'(x)\ud x.
+\end{align*}</script><hr>
+<p>通常的证法: 将区间$[0,n]$划分为长度为$1$的小区间$[k-1,k]$, ($k=1,2,\cdots,n$), 则</p>
+<script type="math/tex; mode=display">
+\int_{k-1}^{k}\left\langle x\right\rangle f'(x)\ud x=\int_{k-1}^{k}\left(x-k+\frac{1}{2}\right)f'(x)\ud x=\frac{f(k)+f(k-1)}{2}-\int_{k-1}^{k}f(x)\ud x.</script><p>做累和, 得到</p>
+<script type="math/tex; mode=display">
+\int_{0}^{n}\left\langle x\right\rangle f'(x)\ud x=\sum_{k=1}^{n}f(k)-\frac{f(n)-f(0)}{2}-\int_{0}^{n}f(x)\ud x.</script><h2 id="公式的应用"><a href="#公式的应用" class="headerlink" title="公式的应用:"></a>公式的应用:</h2><p>Euler-Mascheroni常数与调和级数</p>
+<script type="math/tex; mode=display">
+H_{n}=\sum_{k=1}^{n}\frac{1}{k}=\ln n+\frac{1}{2n}+\gamma+\int_{n}^{\infty}\frac{\left\langle x\right\rangle }{x^{2}}\ud x.</script><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><blockquote id="fn_1">
+<sup>1</sup>. Apostol, Tom M. Introduction to analytic number theory. Springer Science &amp; Business Media, p. 54, sec 3.3, 1998.<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a>
+</blockquote>
+<blockquote id="fn_2">
+<sup>2</sup>. 王竹溪, 郭敦仁. 特殊函数槪論. 科学出版社, p.7, sec 1.3, 1965.<a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#8617;</a>
+</blockquote>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>定理</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>高等数学</tag>
+        <tag>数学分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>南京大学考研数学分析问题合集</title>
+    <url>/%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E9%97%AE%E9%A2%98%E5%90%88%E9%9B%86/</url>
+    <content><![CDATA[<h1 id="南京大学"><a href="#南京大学" class="headerlink" title="南京大学"></a>南京大学</h1><h2 id="2023-年"><a href="#2023-年" class="headerlink" title="2023 年"></a>2023 年</h2><div class="note primary no-icon flat"><p><strong>1. </strong> (10 分) 求极限</p>
+<script type="math/tex; mode=display">
+\lim_{n \rightarrow \infty}\left(\frac{5^{\frac{1}{n}}}{n+1}+\frac{5^{\frac{2}{n}}}{n+\frac{1}{2}}+\cdots+\frac{5^{\frac{n}{n}}}{n+\frac{1}{n}}\right).</script></div>
+<div class="note primary no-icon flat"><p><strong>2. </strong> (20 分) (1). (10 分) 设 $C$ 为三维空间中环绕 $z$ 轴一周的光滑简单闭曲线 (与 $z$ 轴无交点), 其定向与 $z$ 轴成右手系, 记</p>
+<script type="math/tex; mode=display">
+(P, Q, R)=\left(\frac{-y}{x^2+y^2}, \frac{x}{x^2+y^2}, 0\right),</script><p>求 $\int_C P \ud x+Q \ud y+R \ud z$.<br>(2). (10 分) 设 $S$ 为三维空间中半径为 $R$ 的球面, $\mathbb{R}^3 \backslash\{0\}$ 中光滑向量场</p>
+<script type="math/tex; mode=display">
+\vec{F}(x, y, z)=f(\|\vec{r}\|) \vec{r},</script><p>其中 $\vec{r}=(x, y, z)$, $f$ 只依赖于 $|\vec{r}|$, $\vec{n}$ 为 $S$ 上单位外法向量. 若 $\int_S \vec{F} \cdot \vec{n} \ud \sigma$ 不依赖于 $R$, 求证: 存在常数 $C$ 使得</p>
+<script type="math/tex; mode=display">
+f(\|\vec{r}\|)=C\|\vec{r}\|^{-3}.</script></div>
+<div class="note primary no-icon flat"><p><strong>3. </strong> (15 分) 求 $y=x^2$ 到 $x-y=2$ 距离的最小值.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>4. </strong> (15 分) 设 $B_1$ 为单位圆, $a, b \in \mathbb{R}$ 且 $a^2+b^2&gt;1$. 求证:</p>
+<script type="math/tex; mode=display">
+f(a, b)=\iint_{B_1} \ln \left[\left(x_1-a\right)^2+\left(x_2-b\right)^2\right] \mathrm{d} x_1 \ud x_2,</script><p>只依赖于 $\sqrt{a^2+b^2}$, 并求其值.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>5. </strong> (15 分) $f(x)$ 在 $(-1,1)$ 上 $2 k+2$ 阶连续可微, $k \in \mathbb{N}$ 满足</p>
+<script type="math/tex; mode=display">
+f^{(i)}(0)=0,0 \leq i \leq 2 k \text { 且 } f^{(2 k+1)}(0) \neq 0.</script><p>求证: $f(x)$ 在 $x=0$ 附近可逆.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>6. </strong> (15 分) $f(x)$ 在 $[0,1]$ 上二阶可导,</p>
+<script type="math/tex; mode=display">
+f(0)=f(1)=0, \min _{x \in[0,1]} f(x)=-1.</script><p>求证: 存在 $\xi \in(0,1)$, 使得 $f^{\prime \prime}(\xi) \geq 8$.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>7. </strong> (15 分) 幂级数 $\sum_{n=1}^{\infty} c_n x^n$ 的收敛半径为 $+\infty$ , 其和函数 $f(x)$ 是周期为 $2 \pi$ 的奇函数, $f(x)$ 的傅里叶级数为 $\sum_{n=1}^{\infty} b_n \sin n x$. 求证:<br>(1). (5 分) $c_{2 k}=0, \forall k \in \mathbb{N}$.<br>(2). (10 分) $\forall k \in \mathbb{N}, \sum_{n=1}^{\infty} n^k\left|b_n\right|$ 收敛, 并求 $\sum_{n=1}^{\infty} n^{2 k-1} b_n$. (用幂级数系数表示)</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>8. </strong> (10 分) 比较 $\int_0^\pi \mathrm{e}^{\cos ^2 x} \ud x$ 与 $\frac{3}{2} \pi$ 的大小.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>9. </strong> (20 分) 幂级数 $f(x)=\sum_{n=1}^{\infty} a_n x^n$ 在 $[0,1]$ 上收敛, $a_1 \neq 0$. 若 $f(x)$ 满足 $0 \leq f(x) \leq x, x \in[0,1]$, 且 $f(x) - x$ 不恒等于零.<br>(1). (5 分) 求证: $ 0 &lt; a_1 \leq 1$;<br>(2). (10 分) 设 $0 &lt; x_0 &lt; 1$, $x_n = f\left(x_{n-1}\right)$, $n \geq 1$. 求证: $\exists \delta &gt; 0$, 当 $x_0 &lt; \delta$ 时, $\lim _{n \rightarrow \infty} x_n = 0$;<br>(3). (5 分) 设 $a_2 \neq 0$, 令 $x_n$ 如上且 $x_0 &lt; \delta$. 求证: $\sum_{n=1}^{\infty} x_n$ 收敛当且仅当 $a_1 &lt; 1$.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>10. </strong> (15 分) 末知.</p>
+</div>
+<h2 id="2014-年"><a href="#2014-年" class="headerlink" title="2014 年"></a>2014 年</h2><div class="note primary no-icon flat"><p><strong>1. (20) </strong> 计算极限和积分<br>(1)</p>
+<script type="math/tex; mode=display">
+\lim_{n\to\infty}\left(n\sin\frac{1}{n}\right)^{n^{2}}.</script><p>(2)</p>
+<script type="math/tex; mode=display">
+\int_{0}^{\pi}\frac{\ud x}{2+\cos x}.</script></div>
+<div class="note primary no-icon flat"><p><strong>2. (20) </strong> 设$f(x)$为偶函数, 在$[0,\pi]$中$f(x)=x(\pi-x)$. 计算$f(x)$的Fourier展开式, 并用它求级数$\sum_{n=1}^{+\infty}\frac{1}{n^{2}}$之和.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>3. (20) </strong> 计算积分$\int_{\Omega}(x^{2}+2y^{2})\ud x\ud y\ud z$, 其中$\Omega=\left\{ \left(x,y,z\right)\in\RR^{3}:x^{2}+2y^{2}+3z^{2}\le1\right\} $.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>4. (15) </strong> 设方程$\sin x-x\cos x=0$在$(0,+\infty)$中的第$n$个解为$x_{n}$. 证明:</p>
+<script type="math/tex; mode=display">
+n\pi+\frac{\pi}{2}-\frac{1}{n\pi}<x_{n}<n\pi+\frac{\pi}{2}.</script></div>
+<div class="note primary no-icon flat"><p><strong>5. (15) </strong> 设$f:\RR\to\RR$为可导函数, 且$f(f(x))\equiv f(x)$. 证明: 要么$f$为常值函数, 要么$f(x)\equiv x$.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>6. (20) </strong> 设$f(x,y)$为$[0,1]\times[0,1]$中定义的二元函数. 如果对每一个固定的$x\in[0,1]$, $f(x,y)$关于$y$在$[0,1]$中Riemann可积, 且</p>
+<script type="math/tex; mode=display">
+\left|f(x_{1},y)-f(x_{2},y)\right|\le\left|x_{1}-x_{2}\right|,\quad\forall x_{1},x_{2},y\in[0,1].</script><p>证明$f(x,y)$为二元Riemann可积函数.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>7. (20) </strong> 证明方程$x^{2}-xy+z\sin y+\ue^{z}=0$在$(1,2,0)$附近决定了隐函数$z=z(x,y)$. 并计算$\frac{\partial z}{\partial x}(1,2)$, $\frac{\partial z}{\partial y}(1,2)$, $\frac{\partial^{2}z}{\partial x^{2}}(1,2)$, $\frac{\partial^{2}z}{\partial x\partial y}(1,2)$, $\frac{\partial^{2}z}{\partial y^{2}}(1,2)$.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>8. (20) </strong> 设$f(x)$在$[1,+\infty)$中单调递减趋于$0$. 且当$s&gt;1$时, 广义积分$\int_{1}^{+\infty}\left[f(x)\right]^{s}\ud x$均收敛, 证明:<br>(1) 极限</p>
+<script type="math/tex; mode=display">
+\lim_{n\to\infty}\left\{ \sum_{k=1}^{n}f(k)-\int_{1}^{n}f(x)\ud x\right\}</script><p>存在且有限.<br>(2) 极限</p>
+<script type="math/tex; mode=display">
+\lim_{s\to1+}\left\{ \sum_{k=1}^{\infty}\left[f(k)\right]^{s}-\int_{1}^{\infty}\left[f(x)\right]^{s}\ud x\right\}</script><p>存在且有限.</p>
+</div>
+<h2 id="2012-年"><a href="#2012-年" class="headerlink" title="2012 年"></a>2012 年</h2><div class="note primary no-icon flat"><p><strong>1. </strong> (10 分) 设 $x_{n}=\left(1+\frac{1}{2}\right)\left(1+\frac{1}{4}\right)\cdots\left(1+\frac{1}{\frac{1}{2^{n}}}\right)$, 证明: 数列 $\left\{ x_{n}\right\} $ 收敛.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>2. </strong> (15 分) 设 $\lim_{x\rightarrow a}f(x)=A$ 及 $\lim_{x\rightarrow A}g(x)=B$, 由此是否可推出 $\lim_{x\rightarrow a}g(f(x))=B$? 若答案为 “是”, 请给出证明; 若答案为 “否”, 请给出反例.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>3. </strong> (15 分) 设 $F(y)=\int_{0}^{1}\ln\sqrt{x^{2}+y^{2}}\ud x$, 判断 $F(y)$ 在 $y=0$ 是否可导.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>4. </strong> (15 分) 求由曲面 $x^{2}+\frac{y^{2}}{4}+\frac{z}{3}=1$, $x^{\frac{3}{3}}+\left(\frac{y}{2}\right)^{\frac{2}{3}}=1$, $z=0$ 所围立体体积.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>5. </strong> (15 分) 计算</p>
+<script type="math/tex; mode=display">
+\oint_{c}(y-z)\ud x+(z-x)\ud y+(x-y)\ud z,</script><p>式中$c$为椭圆$x^{2}+y^{2}=1$, $x+\frac{z}{2}=1$, 若从$OX$轴正向看去, 此椭圆是依逆时针方向进行的.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>6. </strong> (20 分) 若 $f(x)$ 在 $(0,+\infty)$ 内是二阶可导的, 且 $f^{\prime}(1)=f^{\prime}(2)=0$, 证明: 存在 $c\in(1,2)$, 使得 $\left|f’’(c)\right|\ge4|f(2)-f(1)|$.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>7. </strong> (20 分) 设 $f(x)$ 在 $(0,1]$ 内单调下降, 且 $\lim_{x\rightarrow0^{+}}f(x)=+\infty$, 若 $\int_{0}^{1}f(x)\ud x$ 存在, 证明:</p>
+<script type="math/tex; mode=display">
+\lim_{n\rightarrow\infty}\frac{1}{n}\sum_{k=1}^{n}f\left(\frac{k}{n}\right)=\int_{0}^{1}f(x)\mathrm{d}x.</script></div>
+<div class="note primary no-icon flat"><p><strong>8. </strong> (20 分) 判断数项级数$\sum_{n=1}^{\infty}\frac{\left(-1\right)^{\left[\sqrt{n}\right]}}{n}$的敛散性, 这里$\left[\cdot\right]$表示$\cdot$的整数部分.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>9. </strong> (20 分) 求级数 $\sum_{n=1}^{\infty}\frac{(-1)^{n+1}}{n^{2}}$ 的和.</p>
+</div>
+<h2 id="2011-年"><a href="#2011-年" class="headerlink" title="2011 年"></a>2011 年</h2><div class="note primary no-icon flat"><p><strong>1. (10 分)</strong> 设 $f(x)$ 定义在实数轴上, 且对于任意 $x,y\in\mathbb{R}$, 有 </p>
+<script type="math/tex; mode=display">
+|f(x)-f(y)|\le |x-y|^{2},</script><p>证明: $f(x)$ 是常值函数. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>2. (10 分)</strong> 设幂级数$\sum_{n=0}^{\infty}a_{n}x^{n}$的收敛半径为$1$, 问级数$\sum_{n=0}^{\infty}a_{n}$是否收敛. 请说明理由.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>3. (20 分)</strong> 设 $f(x)$ 是 $[1,+\infty)$ 上单调递减的非负函数, 令</p>
+<script type="math/tex; mode=display">
+a_{n}=\sum_{k=1}^{n}f(k)-\int_{1}^{n}f(x)\mathrm{d}x,</script><p>其中 $n$ 是正整数, 证明: 数列 $\left\{ a_{n}\right\} $ 收敛. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>4. (20 分)</strong> 设二元函数 $f(x,y),g(x,y)$ 定义在紧集 $\mathbb{K}$ 上且有连续的一阶偏导数, 对 $\forall(x,y)\in\mathbb{K}$, 有 $f_{x}^{\prime}g_{y}^{\prime}-f_{y}^{\prime}g_{x}^{\prime}\neq0$, 证明: 在 $\mathbb{K}$ 内同时满足 $f(x,y)=0$ 和 $g(x,y)=0$ 的点至多只有有限个. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>5. (15 分)</strong> 方程 $z^{2}x-z^{3}y+y-1=0$ 在点 $(1,2,1)$ 附近确定了函数 $z=z(x,y)$, 求 $\left.\frac{\partial^{2}z}{\partial x^{2}}\right|_{(1,2)}$. </p>
+<p>方程$z^{2}y-xz^{3}-1=0$在$(1,2,1)$附近决定了隐函数$z=z(x,y)$, 求$\frac{\partial^{2}z}{\partial x^{2}}(1,2)$的值.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>6. (20 分)</strong> 讨论广义积分 $\iint_{D}\frac{\ud x\ud y}{|x|^{p}+|y|^{q}}$ 的敛散性, 其中 $D=\{(x,y):|x|+|y\mid\geqslant1\}$. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>7. (20 分)</strong> 设$f(x)$在$[0,\pi]$上二阶连续可微, 且$f(\pi)=2$, 满足</p>
+<script type="math/tex; mode=display">
+\int_{0}^{\pi}\left(f(x)+f''(x)\right)\sin x\ud x=5.</script><p>求$f(0)$.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>8. (15 分)</strong> 设级数 $\sum_{n=1}^{\infty}\left(a_{n}-a_{n-1}\right)$ 绝对收敛, 级数 $\sum_{n=1}^{\infty}b_{n}$ 收敛, 证明: 级数 $\sum_{n=1}^{\infty}a_{n}b_{n}$ 收敛. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>9. (20 分)</strong> 设$\sum$是由$F(x,y,z)=0$确定的光滑简单闭曲面, $F(x,y,z)$二阶连续可微, 且$\nabla F(x,y,z)\ne0$, 这里$\nabla F$是$F$的梯度. 如果$\Omega=\left\{ (x,y,z):F(x,y,z)&lt;0\right\} $为曲面$\sum$所围成的区域, 计算三重积分</p>
+<script type="math/tex; mode=display">
+\iiint_{\Omega}\udiv\left(\frac{\nabla F}{\norm{\nabla F}}\right)\ud x\ud y\ud z,</script><p>这里$\udiv\left(\cdot\right)$是向量场的散度.</p>
+</div>
+<h2 id="2010-年"><a href="#2010-年" class="headerlink" title="2010 年"></a>2010 年</h2><div class="note primary no-icon flat"><p><strong>一. </strong> 设 $a_{1}=1$, $a_{n+1}=\sqrt{1+a_{n}}$, 说明 $a_{n}$ 的收敛性并求极限. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>二. </strong> 确定 $a,b$ 的值 </p>
+<script type="math/tex; mode=display">
+\left(1+\frac{1}{n}\right)^{n}=\ue+\frac{a}{n}+\frac{b}{n^{2}}+O\left(\frac{1}{n^{3}}\right),\quad(n\rightarrow\infty).</script></div>
+<div class="note primary no-icon flat"><p><strong>三. </strong> 计算积分 </p>
+<script type="math/tex; mode=display">
+\int_{0}^{\frac{\pi}{2}}\frac{x^{2}}{\sin^{2}x}\ud x.</script></div>
+<div class="note primary no-icon flat"><p><strong>四. </strong> 计算 </p>
+<script type="math/tex; mode=display">
+\iint_{\Sigma}\frac{z}{r^{3}}\ud x\ud y+\frac{x}{r^{3}}\ud y\ud z+\frac{y}{r^{3}}\ud z\ud x,</script><p>其中 $\sum:\{(x,y,z):|x|+|y|+|z|\leq1\}$, $r=\sqrt{x^{2}+y^{2}+z^{2}}$, 方向向外. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>五. </strong> 设正项级数 $\sum_{x=1}^{\infty}a_{n}$ 收敛, 证明: 级数 $\sum_{n=1}^{\infty}\sqrt[n]{a_{n}a_{n+1}\cdots a_{2n-1}}$ 收敛.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>六. </strong> 设 $f(x)$ 在 $[a,b]$ 上连续, 且在 0 处可微, 证明: </p>
+<script type="math/tex; mode=display">
+\lim_{n\rightarrow\infty}\int_{0}^{\frac{\pi}{2}}f(x)\left[\frac{1}{2}+\cos x+\cos2x+\cdots+\cos nx\right]dx=\frac{\pi}{2}f(0).</script></div>
+<div class="note primary no-icon flat"><p><strong>七. </strong> 映射 $f:\RR^{n}\rightarrow \RR$ 二阶连续可微, 且 $\mathrm{Hesse}(f)\geq I_{n}$, $I_{n}$ 为 $n$ 阶单位方阵, 证明: $\nabla f:\RR^{n}\rightarrow \RR^{n}$ 可逆且逆映射光滑, 其中 $\nabla f=\left(\frac{\partial f}{\partial x_{1}},\frac{\partial f}{\partial x_{2}},\cdots,\frac{\partial f}{\partial x_{n}}\right)$ 为 $f$ 的梯度. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>八. </strong> 函数 $f(x)$ 在 $[a,b]$ 上连续, 在一个可数集之外可导且导数非负, 证明: $f(a)\leq f(b)$.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>九. </strong> $f(x)$ 在 $[a,b]$ 上二阶可导, $f(a)=f(b)=0$, 证明: 存在 $\xi\in(a,b)$ 使得 $\int_{a}^{b}f(x)dx=\frac{f^{\prime\prime}(\xi)}{12}(a-b)^{3}$.</p>
+</div>
+<h2 id="2009-年"><a href="#2009-年" class="headerlink" title="2009 年"></a>2009 年</h2><div class="note primary no-icon flat"><p><strong>一. (10 分) </strong> 能否将 $(0,1)$ 之间的有理数按照从小到大的顺序排成一列? 请说明你的理由. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>二. (10 分) </strong> 如果级数 $\sum_{n=1}^{\infty}a_{n}$ 收敛, 则级数 $\sum_{n=1}^{\infty}a_{n}^{2}$ 是否也收敛? 请说明你的理由.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>三. (20 分, 每题 10 分) </strong> 计算下列极限:<br>(1) 设 $a&gt;0$, $b&gt;0$. 求极限 $\lim_{n\rightarrow+\infty}\sqrt[n]{a^{n}+b^{n}}$.<br>(2) 求极限 $\lim_{x\rightarrow0}\left(\frac{1}{x^{2}}-\frac{1}{x\sin x}\right)$. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>四. (20 分) </strong> 设 $f(x)$ 为 $[0,1]$ 上的可微函数. 问: $f^{\prime}(x)$ 是否在 $[0,1]$ 上有界? 若答案为 “是”, 请给出证明; 若答案为“否”, 请给出反例. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>五. (20 分) </strong> 设 $f:\mathbb{R}\rightarrow\mathbb{R}$ 是连续函数. 如果 $f$ 有一个惟一的极值点, 证明这个极值点一定是最值点(最小值或最大值).</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>六. (15 分) </strong> 设函数, $f(x)$ 在 $[0,1]$ 区间二阶连续可微, 且 $f(0)=0$, $f(1)=1$, $f^{\prime\prime}(x)&lt;0$, $\forall x\in[0,1]$. 证明 $f(x)\geq x$, $\forall x\in[0,1]$.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>七. (20 分) </strong> 设 $f(x,y)$ 是 $z_{0}=\left(x_{0},y_{0}\right)\in\mathbb{R}^{2}$ 附近的 $C^{2}$ 函数, 请计算下面的极限 </p>
+<script type="math/tex; mode=display">
+\lim_{h\rightarrow0}h^{-2}\left[\frac{1}{\pi h^{2}}\int_{B\left(z_{0},h\right)}f(x,y)\ud x\ud y-f\left(x_{0},y_{0}\right)\right],</script><p>其中 $B\left(z_{0},h\right)$ 是平面上以 $z_{0}$ 为中心, $h$ 为半径的圆盘.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>八. (15 分) </strong> 计算积分 $\iint_{\Sigma}z\ud x\ud y+x\ud y\ud z+y\ud z\ud x$, 其中 $\Sigma$ 为八分之一球面 </p>
+<script type="math/tex; mode=display">
+\Sigma=\left\{ (x,y,z)\in\mathbb{R}^{3}\mid x\geq0,y\geq0,z\geq0,x^{2}+y^{2}+z^{2}=R^{2}\right\} ,</script><p>方向朝外. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>九. (20 分) </strong> 设 $f(x)$ 是 $[-\pi,\pi]$ 上的有界变差函数, 证明其 Fourier 系数 $a_{n},b_{n}$ 满足条件 </p>
+<script type="math/tex; mode=display">
+a_{n}=O(n),\quad b_{n}=O(n).</script></div>
+<h2 id="2008-年"><a href="#2008-年" class="headerlink" title="2008 年"></a>2008 年</h2><div class="note primary no-icon flat"><p><strong>一. (10分) </strong> 设 $f(x)$ 为 $\mathbb{R}^{1}$ 上的周期函数, 且 $\lim_{x\rightarrow+\infty}f(x)=0$. 证明 $f$ 恒为 0. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>二. (10分) </strong> 设定义在 $\mathbb{R}^{2}$ 上的二元函数 $f(x,y)$ 关于 $x,y$ 的偏导数均恒为零, 证明 $f$ 为常值函数. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>三. (10分) </strong> 设 $f_{n}(x)$ ($n\geq1$) 为 $\mathbb{R}^{1}$ 上的一致连续函数, 且 $\lim_{n\rightarrow\infty}f_{n}(x)=f(x)$, $\forall x\in\mathbb{R}^{1}$. 问: $f(x)$ 是否为连续函数? 若答案为 “是”, 请给出证明; 若答案为 “否”, 请给出反例. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>四. (15分) </strong> 是否存在$[0,1]$区间上的数列$\left\{ x_{n}\right\} _{n\ge1}$, 使得该数列的极限点 (即聚点) 集为$[0,1]$? 把极限点集换成$(0,1)$, 结论如何? 请证明你的所有结论.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>五. (10分) </strong> 设 $f(x)$ 为 $[0,+\infty)$ 上的非负连续函数, 且 $\int_{0}^{+\infty}f(x)dx&lt;\infty$. 问: $f(x)$ 是否在 $[0,+\infty)$ 上有界? 若答案为 “是”, 请给出证明; 若答案为 “否”, 请给出反例. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>六. (10分) </strong> 计算由函数 $f_{1}(x)=\frac{1}{2}x^{2}$ 和 $f_{2}(x)=-x^{2}+1$ 的图像在平面 $\mathbb{R}^{2}$ 上所围成区域的面积.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>七. (10分) </strong> 计算积分 </p>
+<script type="math/tex; mode=display">
+\iint_{\mathbb{R}^{2}}\ue^{-\left(2x^{2}+2xy+y^{2}\right)}\ud x\ud y.</script></div>
+<div class="note primary no-icon flat"><p><strong>八. (15分) </strong> 计算积分 $\iiint_{\Omega}xyz\ud x\ud y\ud z$, 其中 $\Omega$ 为如下区域:</p>
+<script type="math/tex; mode=display">
+\Omega=\left\{ (x,y,z)\in\mathbb{R}^{3}\mid x\geq0,y\geq0,z\geq0,x+y+z\leq a\right\} ,</script><p>$a$ 为正常数.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>九. (10分) </strong> 设 $a_{n}&gt;0$, ($n\geq1$), $S_{n}=\sum_{k=1}^{n}a_{k}$. 证明级数 $\sum_{n=1}^{\infty}\frac{a_{n}}{S_{n}^{2}}$ 是收敛的. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>十. (15分) </strong> 方程 $x^{2}+2y^{2}+3z^{3}+2xy-z=7$ 在 $(1,-2,1)$ 附近决定了隐函数 $z=z(x,y)$. 求 $\frac{\partial^{2}z}{\partial x\partial y}(1,-2)$ 的值. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>十一. (15分) </strong> 求函数 $f(x,y,z)=x^{3}+y^{3}+z^{3}$ 在约束条件 </p>
+<script type="math/tex; mode=display">
+x+y+z=2,x^{2}+y^{2}+z^{2}=12</script><p>下的极值, 并判断极值的类型. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>十二. (10分) </strong> 设 $f\in C^{1}[0,1]$, 且 $f(0)=f(1)=0$, 证明 </p>
+<script type="math/tex; mode=display">
+\int_{0}^{1}[f(x)]^{2}\ud x\leq\frac{1}{4}\cdot\int_{0}^{1}\left[f^{\prime}(x)\right]^{2}\ud x.</script></div>
+<div class="note primary no-icon flat"><p><strong>十三. (10分) </strong> 设 $f(x)$ 为 $[0,\pi]$ 上的连续函数, 且对任意正整数 $n\geq1$, 均有 </p>
+<script type="math/tex; mode=display">
+\int_{0}^{\pi}f(x)\cos nx\ud x=0.</script><p>证明 $f$ 为常值函数.</p>
+</div>
+<h2 id="2007-年"><a href="#2007-年" class="headerlink" title="2007 年"></a>2007 年</h2><div class="note primary no-icon flat"><p><strong>一. (30分) </strong> 举例</p>
+<ol>
+<li>举一个极限点在$[0,1]$区间上稠密的数列.</li>
+<li>举一个有振动间断点的函数.</li>
+<li>举一个连续但不是一致连续的函数.</li>
+<li>举一个可逆的可微函数, 其逆函数不可微.</li>
+<li>举一个非零的可微函数, 它在某一点的任意阶导数均为零.</li>
+<li>举一个Riemann不可积的函数.</li>
+<li>举一个非负函数$f(x)$, 它在$[0,+\infty)$上积分收敛, 但极限$\lim_{x\to+\infty}f(x)$不存在.</li>
+<li>举一个在$[0,1]\times[0,1]$上定义的二元函数$f(x,y)$, 它分别对于变量$x,y$连续, 但不是连续的二元函数.</li>
+<li>举一个偏导数存在, 但不可微的二元函数.</li>
+<li>举一个收敛但不绝对收敛的数项级数.</li>
+</ol>
+</div>
+<div class="note primary no-icon flat"><p><strong>二. (10分) </strong> 假设一元函数$\varphi(x)$一阶连续可导. 令$f(x)=x^{2}\cdot\varphi(x)$, 计算$f’’(x)$. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>三. (10分) </strong> 研究一元函数 $y=\sin\left(x^{3}\right)$ 的极值点, 零点, 并画出草图. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>四. (10分) </strong> 计算积分 $\int_{0}^{\frac{\pi}{2}}(\cos x+\cos2x+\cdots+\cos20x)\cdot\sin(10x)\ud x$. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>五. (10分) </strong> 计算积分 $\iint_{S}\frac{ds}{(1+x+y)^{2}}$, 其中 $S$ 为四面体 $x+y+z\leq1$.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>六. (10分) </strong> 计算二重积分 $\iint_{D}|x-y|\ud x\ud y$, 其中 $D$ 为圆域 $x^{2}+y^{2}\leq a^{2}$. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>七. (10分) </strong> 设函数 $f(x)$ 在 $[0,1]$ 区间二阶连续可微, 且 $f(0)=0$, $f(1)=1$, $f^{\prime\prime}(x)&lt;0$, $\forall x\in[0,1]$. 证明 $f(x)\geq x$, $\forall x\in[0,1]$.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>八. (10分) </strong> 设 $a_{n+1}&gt;a_{n}&gt;0$, $n=1,2,\cdots$. 证明: 级数 $\sum_{n=1}^{\infty}\left(\frac{a_{n-1}}{a_{n}}-1\right)$ 收敛的充分必要条件是级数 $\sum_{n=1}^{\infty}\left(1-\frac{a_{n}}{a_{n-1}}\right)$ 收敛. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>九. (15分) </strong> 设 $f_{n}(x)$ 是 $[0,1]$ 上的非负连续函数.对 $\forall\varepsilon&gt;0$, 级数 $\sum_{n=1}^{\infty}f_{n}(x)$ 在 $[0,\varepsilon]$ 上一致收敛到 $f(x)$. 若 $\lim_{x\rightarrow1^{-}}f(x)=a$ 有限. 证明:<br>(1) $\sum_{n=1}^{\infty}f_{n}(1)$ 收敛, 且 $\sum_{n=1}^{\infty}f_{n}(1)=a$;<br>(2) 若令 $\overline{f}(x)=\begin{cases}<br>f(x), &amp; x\in[0,1),\\<br>a, &amp; x=1,<br>\end{cases}$, 则 $\sum_{n=1}^{\infty}f_{n}(x)$ 在 $[0,1]$ 上一致收敛到 $\overline{f}(x)$. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>十. (10分) </strong> 设 $f:\RR^{2}\rightarrow\RR$ 为二元连续函数. 证明存在两个不同的点 $p,q$ 使得 $f(p)=f(q)$. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>十一. (15分) </strong> (1) 设 $f(t)$ 连续, 试证明 </p>
+<script type="math/tex; mode=display">
+\iiint_{x^{2}+y^{2}+z^{2}\leq1}f(ax+by+cz)\ud x\ud y\ud z=\pi\int_{-1}^{1}(1-u)f(ku)\ud u,</script><p>其中 $k=\sqrt{a^{2}+b^{2}+c^{2}}&gt;0$.<br>(2) 利用 (1) 或直接计算积分 $\iint_{S}\left(\frac{1}{2}x^{2}+xy+xz\right)\ud y\ud z$, 其中 $S$ 是球面 $(x-\alpha)^{2}+(y-\beta)^{2}+(z-\gamma)^{2}=R^{2}$, 且积分是沿球面外侧而取的.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>十二. (10分) </strong> 设 $f:\RR^{n}\rightarrow\RR^{n}$ 为 $C^{1}$ 的向量值函数, 且满足条件</p>
+<script type="math/tex; mode=display">
+\|f(x)-f(y)\|\geq\|x-y\|,\quad\forall x,y\in\RR^{n},</script><p>这里 $\norm{\cdot}$ 是 $\RR^{n}$ 上的标准范数. 证明 $f$ 可逆, 且其逆映射也是 $C^{1}$ 的.</p>
+</div>
+<h2 id="2006-年"><a href="#2006-年" class="headerlink" title="2006 年"></a>2006 年</h2><div class="note primary no-icon flat"><p><strong>一. (每小题 8 分) </strong> 计算下列各题:</p>
+<ol>
+<li><p>求</p>
+<script type="math/tex; mode=display">
+\lim_{n\to\infty}\left(\frac{1}{\sqrt{n^{2}+1}}+\frac{1}{\sqrt{n^{2}+2^{2}}}+\cdots+\frac{1}{\sqrt{n^{2}+n^{2}}}\right);</script></li>
+<li><p>求</p>
+<script type="math/tex; mode=display">
+\lim_{x\to0+}\frac{x^{\sin x}-1}{x^{x}-1};</script></li>
+<li><p>设$0&lt;\alpha&lt;1$, 求</p>
+<script type="math/tex; mode=display">
+\lim_{x\to0,y\to0}\left(x^{\alpha}+y^{\alpha}\right)\ln\left(x^{2}+y^{2}\right);</script></li>
+<li><p>设$f(x)\in C(-\infty,+\infty)$, 且$\lim_{x\to2}\frac{f(x)}{x-2}=2$, 求$f’(2)$;</p>
+</li>
+<li><p>设$f(x)\in C[0,+\infty)$, $b&gt;a&gt;0$, 求$\lim_{x\to0+}\int_{ax}^{bx}\frac{f(t)}{t}\ud t$.</p>
+</li>
+</ol>
+</div>
+<div class="note primary no-icon flat"><p><strong>二. (10分) </strong> 设$f(x)$在$\RR$上二次可导, $\lim_{x\to0}\frac{f(x)}{x}=1$, 且$f’’(x)&gt;0$, 试证明, $f(x)\ge x$, $\forall x\in\RR$.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>三. (15分) </strong> 设$f(x)=x\ln x+a$, $a$为实参数, 试讨论方程$f(x)=0$在$(0,+\infty)$内有几个实根, 并指出实根的范围.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>四. (15分) </strong> 设$x_{1}=\frac{1}{2}$, $x_{n+1}=\frac{1}{1+x_{n}}$, $n=1,2,3,\cdots$, 试证明级数$\sum_{n=1}^{\infty}\left(x_{n+1}-x_{n}\right)$绝对收敛, 并求级数$\sum_{n=1}^{\infty}\left(x_{n+1}-x_{n}\right)$之和.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>五. (10分) </strong> 设$S$为椭球面$\frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}+\frac{z^{2}}{c^{2}}=1$的上半部, $\left(\lambda,\mu,\nu\right)$为$S$的外法向的方向余弦, 计算曲面积分</p>
+<script type="math/tex; mode=display">
+I=\iint_{S}\left(\lambda\frac{x^{2}}{a^{2}}+\mu\frac{y^{2}}{b^{2}}+\nu\frac{z^{2}}{c^{2}}\right)\ud S.</script></div>
+<div class="note primary no-icon flat"><p><strong>六. (15分) </strong> 试求函数级数$\sum_{n=1}^{\infty}\frac{x}{x^{2}+n^{2}}$和$\sum_{n=1}^{\infty}\frac{n(-1)^{n}}{x^{2}+n^{2}}$收敛域 (绝对收敛或条件收敛), 并讨论它们在收敛域内的一致收敛性.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>七. (15分) </strong> 设$f(x)$, $g(x)$在$[a,b]$上二阶可导, $f(a)=f(b)=g(a)=g(b)=0$, 且$x\in(a,b)$时, $g’’(x)\ne0$, 试证明:</p>
+<ol>
+<li>$\forall x\in(a,b)$, $g(x)\ne0$;</li>
+<li>存在$\xi\in(a,b)$, 使$f(\xi)g’’(\xi)-g(\xi)f’’(\xi)=0$.</li>
+</ol>
+</div>
+<div class="note primary no-icon flat"><p><strong>八. (15分) </strong> 设$f(x)\in C[0,+\infty)$, $\int_{0}^{+\infty}\varphi(x)\ud x$绝对收敛, 试证明:</p>
+<script type="math/tex; mode=display">
+\lim_{n\to\infty}\int_{0}^{n}f\left(\frac{x}{n^{1+\alpha}}\right)\varphi(x)\ud x=f(0)\int_{0}^{+\infty}\varphi(x)\ud x,</script><p>其中$\alpha&gt;0$.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>九. (15分) </strong> 设$f(x)\in C[a,b]$, 在$(a,b)$内二次可导, $f(a)=f(b)$, 且存在一点$c\in(a,b)$, 使$f(c)&gt;f(a)$, 试证明存在两点$\xi_{1},\xi_{2}\in(a,b)$, 使$f’’(\xi_{1})&lt;0$, $f’’(\xi_{2})&lt;0$.</p>
+</div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>数学分析</tag>
+        <tag>考研</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>北京大学考研数学分析问题合集</title>
+    <url>/%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E9%97%AE%E9%A2%98%E5%90%88%E9%9B%86/</url>
     <content><![CDATA[<div class="note info flat"><p>随缘更新解答, 长期更新的博文.</p>
 </div>
 <h1 id="北京大学"><a href="#北京大学" class="headerlink" title="北京大学"></a>北京大学</h1><h2 id="2021-年"><a href="#2021-年" class="headerlink" title="2021 年"></a>2021 年</h2><div class="note info flat"><p>哦, 北京大学从2021年之后不再招研究生了. 好耶(x)</p>
@@ -4663,252 +5299,50 @@ f'_{x}(0,0)=0=f'_{y}(0,0),</script>则$f(x,y)$?</li>
 \int_{(0,a)\times\left\{ 0\right\} }\left(\ue^{x}\sin y-y^{2}\right)\ud x+\ue^{x}\cos y\ud y=0,</script><p>所以</p>
 <script type="math/tex; mode=display">
 \int_{\Delta}\left(\ue^{x}\sin y-y^{2}\right)\ud x+\ue^{x}\cos y\ud y=\frac{a^{3}}{6}.</script></div></div></div>
-<h1 id="南京大学"><a href="#南京大学" class="headerlink" title="南京大学"></a>南京大学</h1><h2 id="2023-年"><a href="#2023-年" class="headerlink" title="2023 年"></a>2023 年</h2><div class="note primary no-icon flat"><p><strong>1. </strong> (10 分) 求极限</p>
-<script type="math/tex; mode=display">
-\lim_{n \rightarrow \infty}\left(\frac{5^{\frac{1}{n}}}{n+1}+\frac{5^{\frac{2}{n}}}{n+\frac{1}{2}}+\cdots+\frac{5^{\frac{n}{n}}}{n+\frac{1}{n}}\right).</script></div>
-<div class="note primary no-icon flat"><p><strong>2. </strong> (20 分) (1). (10 分) 设 $C$ 为三维空间中环绕 $z$ 轴一周的光滑简单闭曲线 (与 $z$ 轴无交点), 其定向与 $z$ 轴成右手系, 记</p>
-<script type="math/tex; mode=display">
-(P, Q, R)=\left(\frac{-y}{x^2+y^2}, \frac{x}{x^2+y^2}, 0\right),</script><p>求 $\int_C P \ud x+Q \ud y+R \ud z$.<br>(2). (10 分) 设 $S$ 为三维空间中半径为 $R$ 的球面, $\mathbb{R}^3 \backslash\{0\}$ 中光滑向量场</p>
-<script type="math/tex; mode=display">
-\vec{F}(x, y, z)=f(\|\vec{r}\|) \vec{r},</script><p>其中 $\vec{r}=(x, y, z)$, $f$ 只依赖于 $|\vec{r}|$, $\vec{n}$ 为 $S$ 上单位外法向量. 若 $\int_S \vec{F} \cdot \vec{n} \ud \sigma$ 不依赖于 $R$, 求证: 存在常数 $C$ 使得</p>
-<script type="math/tex; mode=display">
-f(\|\vec{r}\|)=C\|\vec{r}\|^{-3}.</script></div>
-<div class="note primary no-icon flat"><p><strong>3. </strong> (15 分) 求 $y=x^2$ 到 $x-y=2$ 距离的最小值.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>4. </strong> (15 分) 设 $B_1$ 为单位圆, $a, b \in \mathbb{R}$ 且 $a^2+b^2&gt;1$. 求证:</p>
-<script type="math/tex; mode=display">
-f(a, b)=\iint_{B_1} \ln \left[\left(x_1-a\right)^2+\left(x_2-b\right)^2\right] \mathrm{d} x_1 \ud x_2,</script><p>只依赖于 $\sqrt{a^2+b^2}$, 并求其值.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>5. </strong> (15 分) $f(x)$ 在 $(-1,1)$ 上 $2 k+2$ 阶连续可微, $k \in \mathbb{N}$ 满足</p>
-<script type="math/tex; mode=display">
-f^{(i)}(0)=0,0 \leq i \leq 2 k \text { 且 } f^{(2 k+1)}(0) \neq 0.</script><p>求证: $f(x)$ 在 $x=0$ 附近可逆.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>6. </strong> (15 分) $f(x)$ 在 $[0,1]$ 上二阶可导,</p>
-<script type="math/tex; mode=display">
-f(0)=f(1)=0, \min _{x \in[0,1]} f(x)=-1.</script><p>求证: 存在 $\xi \in(0,1)$, 使得 $f^{\prime \prime}(\xi) \geq 8$.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>7. </strong> (15 分) 幂级数 $\sum_{n=1}^{\infty} c_n x^n$ 的收敛半径为 $+\infty$ , 其和函数 $f(x)$ 是周期为 $2 \pi$ 的奇函数, $f(x)$ 的傅里叶级数为 $\sum_{n=1}^{\infty} b_n \sin n x$. 求证:<br>(1). (5 分) $c_{2 k}=0, \forall k \in \mathbb{N}$.<br>(2). (10 分) $\forall k \in \mathbb{N}, \sum_{n=1}^{\infty} n^k\left|b_n\right|$ 收敛, 并求 $\sum_{n=1}^{\infty} n^{2 k-1} b_n$. (用幂级数系数表示)</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>8. </strong> (10 分) 比较 $\int_0^\pi \mathrm{e}^{\cos ^2 x} \ud x$ 与 $\frac{3}{2} \pi$ 的大小.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>9. </strong> (20 分) 幂级数 $f(x)=\sum_{n=1}^{\infty} a_n x^n$ 在 $[0,1]$ 上收敛, $a_1 \neq 0$. 若 $f(x)$ 满足 $0 \leq f(x) \leq x, x \in[0,1]$, 且 $f(x) - x$ 不恒等于零.<br>(1). (5 分) 求证: $ 0 &lt; a_1 \leq 1$;<br>(2). (10 分) 设 $0 &lt; x_0 &lt; 1$, $x_n = f\left(x_{n-1}\right)$, $n \geq 1$. 求证: $\exists \delta &gt; 0$, 当 $x_0 &lt; \delta$ 时, $\lim _{n \rightarrow \infty} x_n = 0$;<br>(3). (5 分) 设 $a_2 \neq 0$, 令 $x_n$ 如上且 $x_0 &lt; \delta$. 求证: $\sum_{n=1}^{\infty} x_n$ 收敛当且仅当 $a_1 &lt; 1$.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>10. </strong> (15 分) 末知.</p>
-</div>
-<h2 id="2014-年"><a href="#2014-年" class="headerlink" title="2014 年"></a>2014 年</h2><div class="note primary no-icon flat"><p><strong>1. (20) </strong> 计算极限和积分<br>(1)</p>
-<script type="math/tex; mode=display">
-\lim_{n\to\infty}\left(n\sin\frac{1}{n}\right)^{n^{2}}.</script><p>(2)</p>
-<script type="math/tex; mode=display">
-\int_{0}^{\pi}\frac{\ud x}{2+\cos x}.</script></div>
-<div class="note primary no-icon flat"><p><strong>2. (20) </strong> 设$f(x)$为偶函数, 在$[0,\pi]$中$f(x)=x(\pi-x)$. 计算$f(x)$的Fourier展开式, 并用它求级数$\sum_{n=1}^{+\infty}\frac{1}{n^{2}}$之和.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>3. (20) </strong> 计算积分$\int_{\Omega}(x^{2}+2y^{2})\ud x\ud y\ud z$, 其中$\Omega=\left\{ \left(x,y,z\right)\in\RR^{3}:x^{2}+2y^{2}+3z^{2}\le1\right\} $.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>4. (15) </strong> 设方程$\sin x-x\cos x=0$在$(0,+\infty)$中的第$n$个解为$x_{n}$. 证明:</p>
-<script type="math/tex; mode=display">
-n\pi+\frac{\pi}{2}-\frac{1}{n\pi}<x_{n}<n\pi+\frac{\pi}{2}.</script></div>
-<div class="note primary no-icon flat"><p><strong>5. (15) </strong> 设$f:\RR\to\RR$为可导函数, 且$f(f(x))\equiv f(x)$. 证明: 要么$f$为常值函数, 要么$f(x)\equiv x$.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>6. (20) </strong> 设$f(x,y)$为$[0,1]\times[0,1]$中定义的二元函数. 如果对每一个固定的$x\in[0,1]$, $f(x,y)$关于$y$在$[0,1]$中Riemann可积, 且</p>
-<script type="math/tex; mode=display">
-\left|f(x_{1},y)-f(x_{2},y)\right|\le\left|x_{1}-x_{2}\right|,\quad\forall x_{1},x_{2},y\in[0,1].</script><p>证明$f(x,y)$为二元Riemann可积函数.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>7. (20) </strong> 证明方程$x^{2}-xy+z\sin y+\ue^{z}=0$在$(1,2,0)$附近决定了隐函数$z=z(x,y)$. 并计算$\frac{\partial z}{\partial x}(1,2)$, $\frac{\partial z}{\partial y}(1,2)$, $\frac{\partial^{2}z}{\partial x^{2}}(1,2)$, $\frac{\partial^{2}z}{\partial x\partial y}(1,2)$, $\frac{\partial^{2}z}{\partial y^{2}}(1,2)$.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>8. (20) </strong> 设$f(x)$在$[1,+\infty)$中单调递减趋于$0$. 且当$s&gt;1$时, 广义积分$\int_{1}^{+\infty}\left[f(x)\right]^{s}\ud x$均收敛, 证明:<br>(1) 极限</p>
-<script type="math/tex; mode=display">
-\lim_{n\to\infty}\left\{ \sum_{k=1}^{n}f(k)-\int_{1}^{n}f(x)\ud x\right\}</script><p>存在且有限.<br>(2) 极限</p>
-<script type="math/tex; mode=display">
-\lim_{s\to1+}\left\{ \sum_{k=1}^{\infty}\left[f(k)\right]^{s}-\int_{1}^{\infty}\left[f(x)\right]^{s}\ud x\right\}</script><p>存在且有限.</p>
-</div>
-<h2 id="2011-年-1"><a href="#2011-年-1" class="headerlink" title="2011 年"></a>2011 年</h2><div class="note primary no-icon flat"><p><strong>1. (10 分)</strong> 设 $f(x)$ 定义在实数轴上, 且对于任意 $x,y\in\mathbb{R}$, 有 </p>
-<script type="math/tex; mode=display">
-|f(x)-f(y)|\le |x-y|^{2},</script><p>证明: $f(x)$ 是常值函数. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>2. (10 分)</strong> 设幂级数$\sum_{n=0}^{\infty}a_{n}x^{n}$的收敛半径为$1$, 问级数$\sum_{n=0}^{\infty}a_{n}$是否收敛. 请说明理由.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>3. (20 分)</strong> 设 $f(x)$ 是 $[1,+\infty)$ 上单调递减的非负函数, 令</p>
-<script type="math/tex; mode=display">
-a_{n}=\sum_{k=1}^{n}f(k)-\int_{1}^{n}f(x)\mathrm{d}x,</script><p>其中 $n$ 是正整数, 证明: 数列 $\left\{ a_{n}\right\} $ 收敛. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>4. (20 分)</strong> 设二元函数 $f(x,y),g(x,y)$ 定义在紧集 $\mathbb{K}$ 上且有连续的一阶偏导数, 对 $\forall(x,y)\in\mathbb{K}$, 有 $f_{x}^{\prime}g_{y}^{\prime}-f_{y}^{\prime}g_{x}^{\prime}\neq0$, 证明: 在 $\mathbb{K}$ 内同时满足 $f(x,y)=0$ 和 $g(x,y)=0$ 的点至多只有有限个. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>5. (15 分)</strong> 方程 $z^{2}x-z^{3}y+y-1=0$ 在点 $(1,2,1)$ 附近确定了函数 $z=z(x,y)$, 求 $\left.\frac{\partial^{2}z}{\partial x^{2}}\right|_{(1,2)}$. </p>
-<p>方程$z^{2}y-xz^{3}-1=0$在$(1,2,1)$附近决定了隐函数$z=z(x,y)$, 求$\frac{\partial^{2}z}{\partial x^{2}}(1,2)$的值.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>6. (20 分)</strong> 讨论广义积分 $\iint_{D}\frac{\ud x\ud y}{|x|^{p}+|y|^{q}}$ 的敛散性, 其中 $D=\{(x,y):|x|+|y\mid\geqslant1\}$. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>7. (20 分)</strong> 设$f(x)$在$[0,\pi]$上二阶连续可微, 且$f(\pi)=2$, 满足</p>
-<script type="math/tex; mode=display">
-\int_{0}^{\pi}\left(f(x)+f''(x)\right)\sin x\ud x=5.</script><p>求$f(0)$.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>8. (15 分)</strong> 设级数 $\sum_{n=1}^{\infty}\left(a_{n}-a_{n-1}\right)$ 绝对收敛, 级数 $\sum_{n=1}^{\infty}b_{n}$ 收敛, 证明: 级数 $\sum_{n=1}^{\infty}a_{n}b_{n}$ 收敛. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>9. (20 分)</strong> 设$\sum$是由$F(x,y,z)=0$确定的光滑简单闭曲面, $F(x,y,z)$二阶连续可微, 且$\nabla F(x,y,z)\ne0$, 这里$\nabla F$是$F$的梯度. 如果$\Omega=\left\{ (x,y,z):F(x,y,z)&lt;0\right\} $为曲面$\sum$所围成的区域, 计算三重积分</p>
-<script type="math/tex; mode=display">
-\iiint_{\Omega}\udiv\left(\frac{\nabla F}{\norm{\nabla F}}\right)\ud x\ud y\ud z,</script><p>这里$\udiv\left(\cdot\right)$是向量场的散度.</p>
-</div>
-<h2 id="2010-年-1"><a href="#2010-年-1" class="headerlink" title="2010 年"></a>2010 年</h2><div class="note primary no-icon flat"><p><strong>一. </strong> 设 $a_{1}=1$, $a_{n+1}=\sqrt{1+a_{n}}$, 说明 $a_{n}$ 的收敛性并求极限. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>二. </strong> 确定 $a,b$ 的值 </p>
-<script type="math/tex; mode=display">
-\left(1+\frac{1}{n}\right)^{n}=\ue+\frac{a}{n}+\frac{b}{n^{2}}+O\left(\frac{1}{n^{3}}\right),\quad(n\rightarrow\infty).</script></div>
-<div class="note primary no-icon flat"><p><strong>三. </strong> 计算积分 </p>
-<script type="math/tex; mode=display">
-\int_{0}^{\frac{\pi}{2}}\frac{x^{2}}{\sin^{2}x}\ud x.</script></div>
-<div class="note primary no-icon flat"><p><strong>四. </strong> 计算 </p>
-<script type="math/tex; mode=display">
-\iint_{\Sigma}\frac{z}{r^{3}}\ud x\ud y+\frac{x}{r^{3}}\ud y\ud z+\frac{y}{r^{3}}\ud z\ud x,</script><p>其中 $\sum:\{(x,y,z):|x|+|y|+|z|\leq1\}$, $r=\sqrt{x^{2}+y^{2}+z^{2}}$, 方向向外. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>五. </strong> 设正项级数 $\sum_{x=1}^{\infty}a_{n}$ 收敛, 证明: 级数 $\sum_{n=1}^{\infty}\sqrt[n]{a_{n}a_{n+1}\cdots a_{2n-1}}$ 收敛.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>六. </strong> 设 $f(x)$ 在 $[a,b]$ 上连续, 且在 0 处可微, 证明: </p>
-<script type="math/tex; mode=display">
-\lim_{n\rightarrow\infty}\int_{0}^{\frac{\pi}{2}}f(x)\left[\frac{1}{2}+\cos x+\cos2x+\cdots+\cos nx\right]dx=\frac{\pi}{2}f(0).</script></div>
-<div class="note primary no-icon flat"><p><strong>七. </strong> 映射 $f:\RR^{n}\rightarrow \RR$ 二阶连续可微, 且 $\mathrm{Hesse}(f)\geq I_{n}$, $I_{n}$ 为 $n$ 阶单位方阵, 证明: $\nabla f:\RR^{n}\rightarrow \RR^{n}$ 可逆且逆映射光滑, 其中 $\nabla f=\left(\frac{\partial f}{\partial x_{1}},\frac{\partial f}{\partial x_{2}},\cdots,\frac{\partial f}{\partial x_{n}}\right)$ 为 $f$ 的梯度. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>八. </strong> 函数 $f(x)$ 在 $[a,b]$ 上连续, 在一个可数集之外可导且导数非负, 证明: $f(a)\leq f(b)$.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>九. </strong> $f(x)$ 在 $[a,b]$ 上二阶可导, $f(a)=f(b)=0$, 证明: 存在 $\xi\in(a,b)$ 使得 $\int_{a}^{b}f(x)dx=\frac{f^{\prime\prime}(\xi)}{12}(a-b)^{3}$.</p>
-</div>
-<h2 id="2009-年-1"><a href="#2009-年-1" class="headerlink" title="2009 年"></a>2009 年</h2><div class="note primary no-icon flat"><p><strong>一. (10 分) </strong> 能否将 $(0,1)$ 之间的有理数按照从小到大的顺序排成一列? 请说明你的理由. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>二. (10 分) </strong> 如果级数 $\sum_{n=1}^{\infty}a_{n}$ 收敛, 则级数 $\sum_{n=1}^{\infty}a_{n}^{2}$ 是否也收敛? 请说明你的理由.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>三. (20 分, 每题 10 分) </strong> 计算下列极限:<br>(1) 设 $a&gt;0$, $b&gt;0$. 求极限 $\lim_{n\rightarrow+\infty}\sqrt[n]{a^{n}+b^{n}}$.<br>(2) 求极限 $\lim_{x\rightarrow0}\left(\frac{1}{x^{2}}-\frac{1}{x\sin x}\right)$. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>四. (20 分) </strong> 设 $f(x)$ 为 $[0,1]$ 上的可微函数. 问: $f^{\prime}(x)$ 是否在 $[0,1]$ 上有界? 若答案为 “是”, 请给出证明; 若答案为“否”, 请给出反例. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>五. (20 分) </strong> 设 $f:\mathbb{R}\rightarrow\mathbb{R}$ 是连续函数. 如果 $f$ 有一个惟一的极值点, 证明这个极值点一定是最值点(最小值或最大值).</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>六. (15 分) </strong> 设函数, $f(x)$ 在 $[0,1]$ 区间二阶连续可微, 且 $f(0)=0$, $f(1)=1$, $f^{\prime\prime}(x)&lt;0$, $\forall x\in[0,1]$. 证明 $f(x)\geq x$, $\forall x\in[0,1]$.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>七. (20 分) </strong> 设 $f(x,y)$ 是 $z_{0}=\left(x_{0},y_{0}\right)\in\mathbb{R}^{2}$ 附近的 $C^{2}$ 函数, 请计算下面的极限 </p>
-<script type="math/tex; mode=display">
-\lim_{h\rightarrow0}h^{-2}\left[\frac{1}{\pi h^{2}}\int_{B\left(z_{0},h\right)}f(x,y)\ud x\ud y-f\left(x_{0},y_{0}\right)\right],</script><p>其中 $B\left(z_{0},h\right)$ 是平面上以 $z_{0}$ 为中心, $h$ 为半径的圆盘.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>八. (15 分) </strong> 计算积分 $\iint_{\Sigma}z\ud x\ud y+x\ud y\ud z+y\ud z\ud x$, 其中 $\Sigma$ 为八分之一球面 </p>
-<script type="math/tex; mode=display">
-\Sigma=\left\{ (x,y,z)\in\mathbb{R}^{3}\mid x\geq0,y\geq0,z\geq0,x^{2}+y^{2}+z^{2}=R^{2}\right\} ,</script><p>方向朝外. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>九. (20 分) </strong> 设 $f(x)$ 是 $[-\pi,\pi]$ 上的有界变差函数, 证明其 Fourier 系数 $a_{n},b_{n}$ 满足条件 </p>
-<script type="math/tex; mode=display">
-a_{n}=O(n),\quad b_{n}=O(n).</script></div>
-<h2 id="2008-年-1"><a href="#2008-年-1" class="headerlink" title="2008 年"></a>2008 年</h2><div class="note primary no-icon flat"><p><strong>一. (10分) </strong> 设 $f(x)$ 为 $\mathbb{R}^{1}$ 上的周期函数, 且 $\lim_{x\rightarrow+\infty}f(x)=0$. 证明 $f$ 恒为 0. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>二. (10分) </strong> 设定义在 $\mathbb{R}^{2}$ 上的二元函数 $f(x,y)$ 关于 $x,y$ 的偏导数均恒为零, 证明 $f$ 为常值函数. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>三. (10分) </strong> 设 $f_{n}(x)$ ($n\geq1$) 为 $\mathbb{R}^{1}$ 上的一致连续函数, 且 $\lim_{n\rightarrow\infty}f_{n}(x)=f(x)$, $\forall x\in\mathbb{R}^{1}$. 问: $f(x)$ 是否为连续函数? 若答案为 “是”, 请给出证明; 若答案为 “否”, 请给出反例. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>四. (15分) </strong> 是否存在$[0,1]$区间上的数列$\left\{ x_{n}\right\} _{n\ge1}$, 使得该数列的极限点 (即聚点) 集为$[0,1]$? 把极限点集换成$(0,1)$, 结论如何? 请证明你的所有结论.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>五. (10分) </strong> 设 $f(x)$ 为 $[0,+\infty)$ 上的非负连续函数, 且 $\int_{0}^{+\infty}f(x)dx&lt;\infty$. 问: $f(x)$ 是否在 $[0,+\infty)$ 上有界? 若答案为 “是”, 请给出证明; 若答案为 “否”, 请给出反例. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>六. (10分) </strong> 计算由函数 $f_{1}(x)=\frac{1}{2}x^{2}$ 和 $f_{2}(x)=-x^{2}+1$ 的图像在平面 $\mathbb{R}^{2}$ 上所围成区域的面积.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>七. (10分) </strong> 计算积分 </p>
-<script type="math/tex; mode=display">
-\iint_{\mathbb{R}^{2}}\ue^{-\left(2x^{2}+2xy+y^{2}\right)}\ud x\ud y.</script></div>
-<div class="note primary no-icon flat"><p><strong>八. (15分) </strong> 计算积分 $\iiint_{\Omega}xyz\ud x\ud y\ud z$, 其中 $\Omega$ 为如下区域:</p>
-<script type="math/tex; mode=display">
-\Omega=\left\{ (x,y,z)\in\mathbb{R}^{3}\mid x\geq0,y\geq0,z\geq0,x+y+z\leq a\right\} ,</script><p>$a$ 为正常数.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>九. (10分) </strong> 设 $a_{n}&gt;0$, ($n\geq1$), $S_{n}=\sum_{k=1}^{n}a_{k}$. 证明级数 $\sum_{n=1}^{\infty}\frac{a_{n}}{S_{n}^{2}}$ 是收敛的. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>十. (15分) </strong> 方程 $x^{2}+2y^{2}+3z^{3}+2xy-z=7$ 在 $(1,-2,1)$ 附近决定了隐函数 $z=z(x,y)$. 求 $\frac{\partial^{2}z}{\partial x\partial y}(1,-2)$ 的值. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>十一. (15分) </strong> 求函数 $f(x,y,z)=x^{3}+y^{3}+z^{3}$ 在约束条件 </p>
-<script type="math/tex; mode=display">
-x+y+z=2,x^{2}+y^{2}+z^{2}=12</script><p>下的极值, 并判断极值的类型. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>十二. (10分) </strong> 设 $f\in C^{1}[0,1]$, 且 $f(0)=f(1)=0$, 证明 </p>
-<script type="math/tex; mode=display">
-\int_{0}^{1}[f(x)]^{2}\ud x\leq\frac{1}{4}\cdot\int_{0}^{1}\left[f^{\prime}(x)\right]^{2}\ud x.</script></div>
-<div class="note primary no-icon flat"><p><strong>十三. (10分) </strong> 设 $f(x)$ 为 $[0,\pi]$ 上的连续函数, 且对任意正整数 $n\geq1$, 均有 </p>
-<script type="math/tex; mode=display">
-\int_{0}^{\pi}f(x)\cos nx\ud x=0.</script><p>证明 $f$ 为常值函数.</p>
-</div>
-<h2 id="2007-年-1"><a href="#2007-年-1" class="headerlink" title="2007 年"></a>2007 年</h2><div class="note primary no-icon flat"><p><strong>一. (30分) </strong> 举例</p>
-<ol>
-<li>举一个极限点在$[0,1]$区间上稠密的数列.</li>
-<li>举一个有振动间断点的函数.</li>
-<li>举一个连续但不是一致连续的函数.</li>
-<li>举一个可逆的可微函数, 其逆函数不可微.</li>
-<li>举一个非零的可微函数, 它在某一点的任意阶导数均为零.</li>
-<li>举一个Riemann不可积的函数.</li>
-<li>举一个非负函数$f(x)$, 它在$[0,+\infty)$上积分收敛, 但极限$\lim_{x\to+\infty}f(x)$不存在.</li>
-<li>举一个在$[0,1]\times[0,1]$上定义的二元函数$f(x,y)$, 它分别对于变量$x,y$连续, 但不是连续的二元函数.</li>
-<li>举一个偏导数存在, 但不可微的二元函数.</li>
-<li>举一个收敛但不绝对收敛的数项级数.</li>
-</ol>
-</div>
-<div class="note primary no-icon flat"><p><strong>二. (10分) </strong> 假设一元函数$\varphi(x)$一阶连续可导. 令$f(x)=x^{2}\cdot\varphi(x)$, 计算$f’’(x)$. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>三. (10分) </strong> 研究一元函数 $y=\sin\left(x^{3}\right)$ 的极值点, 零点, 并画出草图. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>四. (10分) </strong> 计算积分 $\int_{0}^{\frac{\pi}{2}}(\cos x+\cos2x+\cdots+\cos20x)\cdot\sin(10x)\ud x$. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>五. (10分) </strong> 计算积分 $\iint_{S}\frac{ds}{(1+x+y)^{2}}$, 其中 $S$ 为四面体 $x+y+z\leq1$.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>六. (10分) </strong> 计算二重积分 $\iint_{D}|x-y|\ud x\ud y$, 其中 $D$ 为圆域 $x^{2}+y^{2}\leq a^{2}$. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>七. (10分) </strong> 设函数 $f(x)$ 在 $[0,1]$ 区间二阶连续可微, 且 $f(0)=0$, $f(1)=1$, $f^{\prime\prime}(x)&lt;0$, $\forall x\in[0,1]$. 证明 $f(x)\geq x$, $\forall x\in[0,1]$.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>八. (10分) </strong> 设 $a_{n+1}&gt;a_{n}&gt;0$, $n=1,2,\cdots$. 证明: 级数 $\sum_{n=1}^{\infty}\left(\frac{a_{n-1}}{a_{n}}-1\right)$ 收敛的充分必要条件是级数 $\sum_{n=1}^{\infty}\left(1-\frac{a_{n}}{a_{n-1}}\right)$ 收敛. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>九. (15分) </strong> 设 $f_{n}(x)$ 是 $[0,1]$ 上的非负连续函数.对 $\forall\varepsilon&gt;0$, 级数 $\sum_{n=1}^{\infty}f_{n}(x)$ 在 $[0,\varepsilon]$ 上一致收敛到 $f(x)$. 若 $\lim_{x\rightarrow1^{-}}f(x)=a$ 有限. 证明:<br>(1) $\sum_{n=1}^{\infty}f_{n}(1)$ 收敛, 且 $\sum_{n=1}^{\infty}f_{n}(1)=a$;<br>(2) 若令 $\overline{f}(x)=\begin{cases}<br>f(x), &amp; x\in[0,1),\\<br>a, &amp; x=1,<br>\end{cases}$, 则 $\sum_{n=1}^{\infty}f_{n}(x)$ 在 $[0,1]$ 上一致收敛到 $\overline{f}(x)$. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>十. (10分) </strong> 设 $f:\RR^{2}\rightarrow\RR$ 为二元连续函数. 证明存在两个不同的点 $p,q$ 使得 $f(p)=f(q)$. </p>
-</div>
-<div class="note primary no-icon flat"><p><strong>十一. (15分) </strong> (1) 设 $f(t)$ 连续, 试证明 </p>
-<script type="math/tex; mode=display">
-\iiint_{x^{2}+y^{2}+z^{2}\leq1}f(ax+by+cz)\ud x\ud y\ud z=\pi\int_{-1}^{1}(1-u)f(ku)\ud u,</script><p>其中 $k=\sqrt{a^{2}+b^{2}+c^{2}}&gt;0$.<br>(2) 利用 (1) 或直接计算积分 $\iint_{S}\left(\frac{1}{2}x^{2}+xy+xz\right)\ud y\ud z$, 其中 $S$ 是球面 $(x-\alpha)^{2}+(y-\beta)^{2}+(z-\gamma)^{2}=R^{2}$, 且积分是沿球面外侧而取的.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>十二. (10分) </strong> 设 $f:\RR^{n}\rightarrow\RR^{n}$ 为 $C^{1}$ 的向量值函数, 且满足条件</p>
-<script type="math/tex; mode=display">
-\|f(x)-f(y)\|\geq\|x-y\|,\quad\forall x,y\in\RR^{n},</script><p>这里 $\norm{\cdot}$ 是 $\RR^{n}$ 上的标准范数. 证明 $f$ 可逆, 且其逆映射也是 $C^{1}$ 的.</p>
-</div>
-<h2 id="2006-年-2"><a href="#2006-年-2" class="headerlink" title="2006 年"></a>2006 年</h2><div class="note primary no-icon flat"><p><strong>一. (每小题 8 分) </strong> 计算下列各题:</p>
-<ol>
-<li><p>求</p>
-<script type="math/tex; mode=display">
-\lim_{n\to\infty}\left(\frac{1}{\sqrt{n^{2}+1}}+\frac{1}{\sqrt{n^{2}+2^{2}}}+\cdots+\frac{1}{\sqrt{n^{2}+n^{2}}}\right);</script></li>
-<li><p>求</p>
-<script type="math/tex; mode=display">
-\lim_{x\to0+}\frac{x^{\sin x}-1}{x^{x}-1};</script></li>
-<li><p>设$0&lt;\alpha&lt;1$, 求</p>
-<script type="math/tex; mode=display">
-\lim_{x\to0,y\to0}\left(x^{\alpha}+y^{\alpha}\right)\ln\left(x^{2}+y^{2}\right);</script></li>
-<li><p>设$f(x)\in C(-\infty,+\infty)$, 且$\lim_{x\to2}\frac{f(x)}{x-2}=2$, 求$f’(2)$;</p>
-</li>
-<li><p>设$f(x)\in C[0,+\infty)$, $b&gt;a&gt;0$, 求$\lim_{x\to0+}\int_{ax}^{bx}\frac{f(t)}{t}\ud t$.</p>
-</li>
-</ol>
-</div>
-<div class="note primary no-icon flat"><p><strong>二. (10分) </strong> 设$f(x)$在$\RR$上二次可导, $\lim_{x\to0}\frac{f(x)}{x}=1$, 且$f’’(x)&gt;0$, 试证明, $f(x)\ge x$, $\forall x\in\RR$.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>三. (15分) </strong> 设$f(x)=x\ln x+a$, $a$为实参数, 试讨论方程$f(x)=0$在$(0,+\infty)$内有几个实根, 并指出实根的范围.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>四. (15分) </strong> 设$x_{1}=\frac{1}{2}$, $x_{n+1}=\frac{1}{1+x_{n}}$, $n=1,2,3,\cdots$, 试证明级数$\sum_{n=1}^{\infty}\left(x_{n+1}-x_{n}\right)$绝对收敛, 并求级数$\sum_{n=1}^{\infty}\left(x_{n+1}-x_{n}\right)$之和.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>五. (10分) </strong> 设$S$为椭球面$\frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}+\frac{z^{2}}{c^{2}}=1$的上半部, $\left(\lambda,\mu,\nu\right)$为$S$的外法向的方向余弦, 计算曲面积分</p>
-<script type="math/tex; mode=display">
-I=\iint_{S}\left(\lambda\frac{x^{2}}{a^{2}}+\mu\frac{y^{2}}{b^{2}}+\nu\frac{z^{2}}{c^{2}}\right)\ud S.</script></div>
-<div class="note primary no-icon flat"><p><strong>六. (15分) </strong> 试求函数级数$\sum_{n=1}^{\infty}\frac{x}{x^{2}+n^{2}}$和$\sum_{n=1}^{\infty}\frac{n(-1)^{n}}{x^{2}+n^{2}}$收敛域 (绝对收敛或条件收敛), 并讨论它们在收敛域内的一致收敛性.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>七. (15分) </strong> 设$f(x)$, $g(x)$在$[a,b]$上二阶可导, $f(a)=f(b)=g(a)=g(b)=0$, 且$x\in(a,b)$时, $g’’(x)\ne0$, 试证明:</p>
-<ol>
-<li>$\forall x\in(a,b)$, $g(x)\ne0$;</li>
-<li>存在$\xi\in(a,b)$, 使$f(\xi)g’’(\xi)-g(\xi)f’’(\xi)=0$.</li>
-</ol>
-</div>
-<div class="note primary no-icon flat"><p><strong>八. (15分) </strong> 设$f(x)\in C[0,+\infty)$, $\int_{0}^{+\infty}\varphi(x)\ud x$绝对收敛, 试证明:</p>
-<script type="math/tex; mode=display">
-\lim_{n\to\infty}\int_{0}^{n}f\left(\frac{x}{n^{1+\alpha}}\right)\varphi(x)\ud x=f(0)\int_{0}^{+\infty}\varphi(x)\ud x,</script><p>其中$\alpha&gt;0$.</p>
-</div>
-<div class="note primary no-icon flat"><p><strong>九. (15分) </strong> 设$f(x)\in C[a,b]$, 在$(a,b)$内二次可导, $f(a)=f(b)$, 且存在一点$c\in(a,b)$, 使$f(c)&gt;f(a)$, 试证明存在两点$\xi_{1},\xi_{2}\in(a,b)$, 使$f’’(\xi_{1})&lt;0$, $f’’(\xi_{2})&lt;0$.</p>
-</div>
-<h1 id="南开大学"><a href="#南开大学" class="headerlink" title="南开大学"></a>南开大学</h1><h2 id="2012-年"><a href="#2012-年" class="headerlink" title="2012 年"></a>2012 年</h2><div class="note primary no-icon flat"><p><strong>1. (15分) </strong> 求极限 $\lim_{x\rightarrow\infty}x^{m}\int_{0}^{\frac{1}{x}}\sin t^{2}\mathrm{\ud}t$, 其中 $m$ 为任意整数.</p>
+<h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><blockquote id="fn_1">
+<sup>1</sup>. <a href="https://mp.weixin.qq.com/s?__biz=MzI2OTE2NzczNQ==&amp;mid=2650060164&amp;idx=1&amp;sn=6819374267096850656515ce07008f73&amp;chksm=f2e4689cc593e18adda4c16b9a9fc5a47528939eecd758ffa123a8f750126288f02759b084e7&amp;scene=27">https://mp.weixin.qq.com/s?__biz=MzI2OTE2NzczNQ==&amp;mid=2650060164&amp;idx=1&amp;sn=6819374267096850656515ce07008f73&amp;chksm=f2e4689cc593e18adda4c16b9a9fc5a47528939eecd758ffa123a8f750126288f02759b084e7&amp;scene=27</a><a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a>
+</blockquote>
+<blockquote id="fn_2">
+<sup>2</sup>. <a href="https://zhuanlan.zhihu.com/p/458340430">https://zhuanlan.zhihu.com/p/458340430</a><a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#8617;</a>
+</blockquote>
+<blockquote id="fn_3">
+<sup>3</sup>. <a href="https://baijiahao.baidu.com/s?id=1633482652167791589&amp;wfr=spider&amp;for=pc">https://baijiahao.baidu.com/s?id=1633482652167791589&amp;wfr=spider&amp;for=pc</a><a href="#reffn_3" title="Jump back to footnote [3] in the text."> &#8617;</a>
+</blockquote>
+<blockquote id="fn_4">
+<sup>4</sup>. <a href="https://wenku.baidu.com/view/dc2a31e0777f5acfa1c7aa00b52acfc789eb9fba.html?_wkts_=1675994770732&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62013%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98">https://wenku.baidu.com/view/dc2a31e0777f5acfa1c7aa00b52acfc789eb9fba.html?_wkts_=1675994770732&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62013%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98</a><a href="#reffn_4" title="Jump back to footnote [4] in the text."> &#8617;</a>
+</blockquote>
+<blockquote id="fn_5">
+<sup>5</sup>. <a href="https://wenku.baidu.com/view/769564e226d3240c844769eae009581b6ad9bd39.html?_wkts_=1675995958566&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62014%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98">https://wenku.baidu.com/view/769564e226d3240c844769eae009581b6ad9bd39.html?_wkts_=1675995958566&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62014%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98</a><a href="#reffn_5" title="Jump back to footnote [5] in the text."> &#8617;</a>
+</blockquote>
+<blockquote id="fn_6">
+<sup>6</sup>. <a href="https://max.book118.com/html/2019/0505/7013145035002024.shtm">https://max.book118.com/html/2019/0505/7013145035002024.shtm</a><a href="#reffn_6" title="Jump back to footnote [6] in the text."> &#8617;</a>
+</blockquote>
+<blockquote id="fn_7">
+<sup>7</sup>. <a href="https://wenku.baidu.com/view/53ada08a2379168884868762caaedd3382c4b559.html?_wkts_=1676013101055&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62016%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98">https://wenku.baidu.com/view/53ada08a2379168884868762caaedd3382c4b559.html?_wkts_=1676013101055&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62016%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98</a><a href="#reffn_7" title="Jump back to footnote [7] in the text."> &#8617;</a>
+</blockquote>
+<blockquote id="fn_8">
+<sup>8</sup>. <a href="https://wenku.baidu.com/view/2168c70ed0f34693daef5ef7ba0d4a7303766c7b.html?_wkts_=1676013636456&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62017%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98">https://wenku.baidu.com/view/2168c70ed0f34693daef5ef7ba0d4a7303766c7b.html?_wkts_=1676013636456&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62017%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98</a><a href="#reffn_8" title="Jump back to footnote [8] in the text."> &#8617;</a>
+</blockquote>
+<blockquote id="fn_9">
+<sup>9</sup>. <a href="https://wenku.baidu.com/view/39f2e5bf54270722192e453610661ed9ac5155ce.html?_wkts_=1676014659277&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62018%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98">https://wenku.baidu.com/view/39f2e5bf54270722192e453610661ed9ac5155ce.html?_wkts_=1676014659277&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62018%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98</a><a href="#reffn_9" title="Jump back to footnote [9] in the text."> &#8617;</a>
+</blockquote>
+<blockquote id="fn_10">
+<sup>10</sup>. <a href="https://wenku.baidu.com/view/ec952237b4360b4c2e3f5727a5e9856a561226d8.html?_wkts_=1676015610459&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62019%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98">https://wenku.baidu.com/view/ec952237b4360b4c2e3f5727a5e9856a561226d8.html?_wkts_=1676015610459&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62019%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98</a><a href="#reffn_10" title="Jump back to footnote [10] in the text."> &#8617;</a>
+</blockquote>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>数学分析</tag>
+        <tag>考研</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>南开大学考研数学分析问题合集</title>
+    <url>/%E5%8D%97%E5%BC%80%E5%A4%A7%E5%AD%A6%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E9%97%AE%E9%A2%98%E5%90%88%E9%9B%86/</url>
+    <content><![CDATA[<h1 id="南开大学"><a href="#南开大学" class="headerlink" title="南开大学"></a>南开大学</h1><h2 id="2012-年"><a href="#2012-年" class="headerlink" title="2012 年"></a>2012 年</h2><div class="note primary no-icon flat"><p><strong>1. (15分) </strong> 求极限 $\lim_{x\rightarrow\infty}x^{m}\int_{0}^{\frac{1}{x}}\sin t^{2}\mathrm{\ud}t$, 其中 $m$ 为任意整数.</p>
 <div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
     <div class="hide-content"><script type="math/tex; mode=display">
 \begin{aligned}
@@ -4924,7 +5358,7 @@ I=\iint_{S}\left(\lambda\frac{x^{2}}{a^{2}}+\mu\frac{y^{2}}{b^{2}}+\nu\frac{z^{2
 </div></div></div>
 <div class="note primary no-icon flat"><p><strong>3. (20分) </strong> 计算积分 $\iint_{S}x^{2}\ud y\ud z+z\ud x\ud y$, 其中 $S$ 为球面 $x^{2}+y^{2}+(z-a)^{2}=a^{2}$ 中满足 $x^{2}+y^{2}\le ay$ 与 $z\le a$ 那部分的下侧.</p>
 <div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p><img src="/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E9%97%AE%E9%A2%98%E5%90%88%E9%9B%86/Snipaste_2023-01-25_22-09-11.png" alt="图"><br>记 $D: \{(x,y,z): z=a\}$, 取上侧, 利用 Gauss 公式,</p>
+    <div class="hide-content"><p><img src="/%E5%8D%97%E5%BC%80%E5%A4%A7%E5%AD%A6%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E9%97%AE%E9%A2%98%E5%90%88%E9%9B%86/Snipaste_2023-01-25_22-09-11.png" alt="图"><br>记 $D: \{(x,y,z): z=a\}$, 取上侧, 利用 Gauss 公式,</p>
 <script type="math/tex; mode=display">
 \begin{aligned}
 I & =\iint_S x^2 \ud y \ud z+z \ud x \ud y \\
@@ -5002,38 +5436,7 @@ f^{\prime}(x)=\int_{0}^{x}f^{\prime\prime}(t)dt+f^{\prime}(0)=\frac{1}{1-x}-1-2\
 <script type="math/tex; mode=display">
 \liminf_{x\to0}\frac{f(x)}{x}=\limsup_{x\to0}\frac{f(x)}{x}=0,</script><p>故: </p>
 <script type="math/tex; mode=display">
-\lim_{x\rightarrow0}\frac{f(x)}{x}=0.</script></div></div></div>
-<h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><blockquote id="fn_1">
-<sup>1</sup>. <a href="https://mp.weixin.qq.com/s?__biz=MzI2OTE2NzczNQ==&amp;mid=2650060164&amp;idx=1&amp;sn=6819374267096850656515ce07008f73&amp;chksm=f2e4689cc593e18adda4c16b9a9fc5a47528939eecd758ffa123a8f750126288f02759b084e7&amp;scene=27">https://mp.weixin.qq.com/s?__biz=MzI2OTE2NzczNQ==&amp;mid=2650060164&amp;idx=1&amp;sn=6819374267096850656515ce07008f73&amp;chksm=f2e4689cc593e18adda4c16b9a9fc5a47528939eecd758ffa123a8f750126288f02759b084e7&amp;scene=27</a><a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a>
-</blockquote>
-<blockquote id="fn_2">
-<sup>2</sup>. <a href="https://zhuanlan.zhihu.com/p/458340430">https://zhuanlan.zhihu.com/p/458340430</a><a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#8617;</a>
-</blockquote>
-<blockquote id="fn_3">
-<sup>3</sup>. <a href="https://baijiahao.baidu.com/s?id=1633482652167791589&amp;wfr=spider&amp;for=pc">https://baijiahao.baidu.com/s?id=1633482652167791589&amp;wfr=spider&amp;for=pc</a><a href="#reffn_3" title="Jump back to footnote [3] in the text."> &#8617;</a>
-</blockquote>
-<blockquote id="fn_4">
-<sup>4</sup>. <a href="https://wenku.baidu.com/view/dc2a31e0777f5acfa1c7aa00b52acfc789eb9fba.html?_wkts_=1675994770732&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62013%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98">https://wenku.baidu.com/view/dc2a31e0777f5acfa1c7aa00b52acfc789eb9fba.html?_wkts_=1675994770732&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62013%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98</a><a href="#reffn_4" title="Jump back to footnote [4] in the text."> &#8617;</a>
-</blockquote>
-<blockquote id="fn_5">
-<sup>5</sup>. <a href="https://wenku.baidu.com/view/769564e226d3240c844769eae009581b6ad9bd39.html?_wkts_=1675995958566&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62014%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98">https://wenku.baidu.com/view/769564e226d3240c844769eae009581b6ad9bd39.html?_wkts_=1675995958566&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62014%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98</a><a href="#reffn_5" title="Jump back to footnote [5] in the text."> &#8617;</a>
-</blockquote>
-<blockquote id="fn_6">
-<sup>6</sup>. <a href="https://max.book118.com/html/2019/0505/7013145035002024.shtm">https://max.book118.com/html/2019/0505/7013145035002024.shtm</a><a href="#reffn_6" title="Jump back to footnote [6] in the text."> &#8617;</a>
-</blockquote>
-<blockquote id="fn_7">
-<sup>7</sup>. <a href="https://wenku.baidu.com/view/53ada08a2379168884868762caaedd3382c4b559.html?_wkts_=1676013101055&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62016%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98">https://wenku.baidu.com/view/53ada08a2379168884868762caaedd3382c4b559.html?_wkts_=1676013101055&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62016%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98</a><a href="#reffn_7" title="Jump back to footnote [7] in the text."> &#8617;</a>
-</blockquote>
-<blockquote id="fn_8">
-<sup>8</sup>. <a href="https://wenku.baidu.com/view/2168c70ed0f34693daef5ef7ba0d4a7303766c7b.html?_wkts_=1676013636456&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62017%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98">https://wenku.baidu.com/view/2168c70ed0f34693daef5ef7ba0d4a7303766c7b.html?_wkts_=1676013636456&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62017%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98</a><a href="#reffn_8" title="Jump back to footnote [8] in the text."> &#8617;</a>
-</blockquote>
-<blockquote id="fn_9">
-<sup>9</sup>. <a href="https://wenku.baidu.com/view/39f2e5bf54270722192e453610661ed9ac5155ce.html?_wkts_=1676014659277&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62018%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98">https://wenku.baidu.com/view/39f2e5bf54270722192e453610661ed9ac5155ce.html?_wkts_=1676014659277&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62018%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98</a><a href="#reffn_9" title="Jump back to footnote [9] in the text."> &#8617;</a>
-</blockquote>
-<blockquote id="fn_10">
-<sup>10</sup>. <a href="https://wenku.baidu.com/view/ec952237b4360b4c2e3f5727a5e9856a561226d8.html?_wkts_=1676015610459&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62019%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98">https://wenku.baidu.com/view/ec952237b4360b4c2e3f5727a5e9856a561226d8.html?_wkts_=1676015610459&amp;bdQuery=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A62019%E5%B9%B4%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E8%AF%95%E9%A2%98</a><a href="#reffn_10" title="Jump back to footnote [10] in the text."> &#8617;</a>
-</blockquote>
-<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+\lim_{x\rightarrow0}\frac{f(x)}{x}=0.</script></div></div></div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
       <categories>
         <category>考研</category>
       </categories>
@@ -5041,364 +5444,6 @@ f^{\prime}(x)=\int_{0}^{x}f^{\prime\prime}(t)dt+f^{\prime}(0)=\frac{1}{1-x}-1-2\
         <tag>math</tag>
         <tag>数学分析</tag>
         <tag>考研</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>自然数集与整数集之间的双射</title>
-    <url>/%E8%87%AA%E7%84%B6%E6%95%B0%E9%9B%86%E4%B8%8E%E6%95%B4%E6%95%B0%E9%9B%86%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8F%8C%E5%B0%84/</url>
-    <content><![CDATA[<div class="note primary no-icon flat"><p><strong>问题:</strong> 设$\frac{m}{n}\in\QQ^{+}$, 其中$\mathrm{gcd}(m,n)=1$, 设$q_{1},q_{2},\cdots,q_{s}$是$n$的素因子. 则</p>
-<script type="math/tex; mode=display">
-f\left(\frac{m}{n}\right)=\frac{m^{2}n^{2}}{q_{1}q_{2}\cdots q_{s}}</script><p>是$\QQ^{+}\to\NN$的双射.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>由于$\mathrm{gcd}(m,n)=1$, 所以$m,n$没有公共素因子, 设$m=p_{1}^{\alpha_{1}}\cdots p_{r}^{\alpha_{r}}$, $\alpha_{i}&gt;0$; $n=q_{1}^{\beta_{1}}\cdots q_{s}^{\beta_{s}}$, $\beta_{i}&gt;0$.<br>则</p>
-<script type="math/tex; mode=display">
-\frac{m^{2}n^{2}}{q_{1}\cdots q_{s}}=p_{1}^{2\alpha_{1}}\cdots p_{r}^{2\alpha_{r}}q_{1}^{2\beta_{1}-1}\cdots q_{s}^{2\beta_{s}-1}\in\NN.</script><p>而对于任意的自然数$N$, 由算术基本定理, 可以表示素数幂的乘积, 将$N$中素因子出现偶数次的开方, 得到$m$, 将$N$中素因子出现奇数次的每个加一再开方得到$n$. 由算术基本定理分解的唯一性, 知道这样得到的$m,n$也是唯一的. 而不同的自然数$N$, 按照上面操作得到的$m,n$也是不同的, 所以对于任意的$N$, 其在$f$下的原像$\frac{m}{n}$是唯一的. 由此$f$是$\QQ^{+}\to\NN$的双射.</p>
-</div></div></div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-      <categories>
-        <category>定理</category>
-      </categories>
-      <tags>
-        <tag>实变函数</tag>
-        <tag>初等数论</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>证明根号2是无理数</title>
-    <url>/%E8%AF%81%E6%98%8E%E6%A0%B9%E5%8F%B72%E6%98%AF%E6%97%A0%E7%90%86%E6%95%B0/</url>
-    <content><![CDATA[<h1 id="反证法-整数的性质"><a href="#反证法-整数的性质" class="headerlink" title="反证法+整数的性质"></a>反证法+整数的性质</h1><div class="note primary no-icon modern"><p><strong>定理</strong>: 若$a$和$b$为正整数, 则$a^{1/b}$要么是无理数, 要么是整数.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>若$a^{1/b}=x/y$, 其中$y\not\mid x$, 则$a=\left(a^{1/b}\right)^{b}=x^{b}/y^{b}$不是整数, (因为$y^{b}\not\mid x^{b}$), 这与$a$是整数矛盾.</p>
-</div></div></div>
-<h1 id="反证法-唯一因子分解"><a href="#反证法-唯一因子分解" class="headerlink" title="反证法+唯一因子分解"></a>反证法+唯一因子分解</h1><p>假设$\sqrt{2}$可以写成不可约分数$\frac{p}{q}$, 其中$p,q$都是正整数. 则$2q^{2}=p^{2}$. 由于$p^{2}$和$q^{2}$的因子$2$都是偶数个, 所以$2q^{2}$有奇数个因子$2$, 由于唯一因子分解的唯一性, $p^{2}$只有偶数个因子$2$, 它不可能等于$p^{2}$.</p>
-<h1 id="反证法-余数"><a href="#反证法-余数" class="headerlink" title="反证法+余数"></a>反证法+余数</h1><p>如果$\sqrt{2}$是有理数, 则有分数表示$a/b$, 取$b$是$\sqrt{2}$的分数表示中分母最小的. 则</p>
-<script type="math/tex; mode=display">
-a^{2}=2b^{2}.</script><p>考虑$a^{2}$的末位数字, 它只可能是$0,1,4,5,6,9$中的一个. 而$2b^{2}$的末位数字只有$0,2,8$三种情况. 如果$a^{2}$与$2b^{2}$相等, 则它们有相同的末位数, 这个末位数只能是$0$. 所以$a$的末位数字只能是$0$, 而$b$的末位数字只能是$0$或$5$, 无论哪种情况, $a$和$b$都能被$5$整除, 从而$\frac{a/5}{b/5}$也是$\sqrt{2}$的分数表示. 因为$b/5&lt;b$, 这与$b$是$\sqrt{2}$的分数表示中分母最小的选择矛盾.</p>
-<blockquote>
-<p>这种方法在证明$2^{1/3}$的无理性时变得简洁. </p>
-<p>设$2^{1/3}$是既约分数$a/b$, 则$2a^{3}=b^{3}$, 考虑模7同余, 由于整数的立方模7同余的结果只有$0,1$或$6$, 因此$a,b$模7必然均为$0$, 这与$a/b$是既约分数矛盾. </p>
-</blockquote>
-<h1 id="反证法-Bezout公式"><a href="#反证法-Bezout公式" class="headerlink" title="反证法+Bezout公式"></a>反证法+Bezout公式</h1><p>$\sqrt{2}$是无理数的证明是下面定理的推论.</p>
-<div class="note primary no-icon modern"><p><strong>定理</strong>: 对于$n\in\NN$. 如果$r=\sqrt{n}$是有理数, 则$r$是整数.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>设$r=a/b$为有理数, 其中$\mathrm{gcd}(a,b)=1$, 则有Bezout公式, 存在整数$c,d\in\ZZ$, 使得</p>
-<script type="math/tex; mode=display">
-ad-bc=1.</script><p>因此, </p>
-<script type="math/tex; mode=display">
-0=(a-br)(c+dr)=ac-bdn+r.</script><p>所以$r$是整数.</p>
-</div></div></div>
-<p>这一证法可以推广到三次根的有理判别法, 如下</p>
-<div class="note primary no-icon modern"><p><strong>定理</strong>: 若$r^{3}=m\in\ZZ$, 如果$r\in\QQ$, 则$r\in\ZZ$.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>设$r=a/b\in\QQ$, $\mathrm{gcd}(a,b)=1$, 则由Bezout公式, 存在$c,d\in\ZZ$, 使得$ad-bc=1$. 从而</p>
-<script type="math/tex; mode=display">
-0=\left(a-br\right)\left(dr^{2}+cr\right)=1\cdot r^{2}+acr-bdm,</script><p>所以对于$r$的多项式方程, 这里从原来的$r^{3}-m=0$的次数$3$降到了上式中$1\cdot r^{2}+acr-bdm=0$的次数$2$, 按照下面的推广, 这个指数可以继续递降下去直到$r\in\ZZ$. </p>
-</div></div></div>
-<div class="note primary no-icon modern"><p><strong>定理</strong>: 若$r=a/b\in\QQ$是$\ZZ[x]$中的首一多项式的根, $a/b$为既约分数, 则$r\in\ZZ$.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>设这个首一多项式的次数大于$1$, 并设</p>
-<script type="math/tex; mode=display">
-r^{n+1}=er^{n}+f(r),\quad\mathrm{deg}f<n,\quad e\in\ZZ,\ f(x)\in\ZZ[x].</script><p>于是同前面使用Bezout公式时一样,</p>
-<script type="math/tex; mode=display">
-0=\left(a-br\right)\left(dr^{n}+cr^{n-1}\right)=\left(ad-bc\right)r^{n}+acr^{n-1}-deb\ r^{n}-bd\ f(r).</script><p>化简并注意到$br^{n}=ar^{n-1}$, 有</p>
-<script type="math/tex; mode=display">
-1\cdot r^{n}+\left(ac-dea\right)r^{n-1}-bd\ f(r)=0,</script><p>$r$所满足的方程从原来的指数$n+1$降为了指数为$n$的首一多项式, 如此继续下去, 指数$n$必然在有限步后降为$n=0$, 从而$r=e\in\ZZ$.</p>
-</div></div></div>
-<h1 id="反证法-Bezout公式-2"><a href="#反证法-Bezout公式-2" class="headerlink" title="反证法+Bezout公式 - 2"></a>反证法+Bezout公式 - 2</h1><div class="note primary no-icon modern"><p><strong>定理</strong>: 若$p,q,n$为正整数, 且$\mathrm{gcd}(p,q)=1$, 且$p^{2}=nq^{2}$, 则$q=1$, 从而$n=p^{2}$.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>由于$\mathrm{gcd}(p,q)=1$, 所以存在整数$s,t$, 使得$ps+qt=1$. 两边同时取立方, 得到</p>
-<script type="math/tex; mode=display">
-p^{2}(ps+3qt)s^{2}+q^{2}(3ps+qt)t^{2}=1.</script><p>又由$p^{2}=nq^{2}$, 所以</p>
-<script type="math/tex; mode=display">
-nq^{2}(ps+3qt)s^{2}+q^{2}(3ps+qt)t^{2}=1,</script><p>因此$q\mid1$.</p>
-</div></div></div>
-<h1 id="连分数法"><a href="#连分数法" class="headerlink" title="连分数法"></a>连分数法</h1><p>设$v=1+\sqrt{2}$, 则有</p>
-<script type="math/tex; mode=display">
-v^{2}-2v-1=0.</script><p>容易验证$v=2+\frac{1}{v}$. 所以如果不断的将右边分母中的$v$替换成$2+\frac{1}{v}$, 就有以下连分式</p>
-<script type="math/tex; mode=display">
-1+\sqrt{2}=2+\frac{1}{2+\frac{1}{2+\cdots}}.</script><p>因为任何无穷连分数都是无理数, 所以$1+\sqrt{2}$是无理数.</p>
-<h1 id="无穷递降原理-自然数的良序性"><a href="#无穷递降原理-自然数的良序性" class="headerlink" title="无穷递降原理(自然数的良序性)"></a>无穷递降原理(自然数的良序性)</h1><p>这个证明和连分数构造类似, 可以用来避免使用连分数的知识.</p>
-<div class="note primary no-icon modern"><p><strong>定理</strong>: 对于自然数$n$, 如果$r=\sqrt{n}$是有理数, 则它是整数.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>设$r=\frac{A}{B}$, $B$是$r$的有理表示中分母最小的正整数.</p>
-<p>由于$\sqrt{n}=\frac{n}{\sqrt{n}}$, 将$\sqrt{n}=r=\frac{A}{B}$代入, 得到</p>
-<script type="math/tex; mode=display">
-\frac{A}{B}=\frac{nB}{A}.</script><p>对上式左右两边取小数部分, 得到形如</p>
-<script type="math/tex; mode=display">
-\frac{b}{B}=\frac{a}{A},\qquad0\le b<B</script><p>的等式. </p>
-<p>如果$b\ne0$, 所以$\frac{A}{B}=\frac{a}{b}$, 此式两边都可以看成$r$的有理数表示, 而$b&lt;B$.<br>这与$B$的最小性矛盾.</p>
-<p>所以只能有$b=0$, 这也就意味着$\frac{A}{B}$的小数部分$\frac{b}{B}$为$0$, 即$\frac{A}{B}$是整数.</p>
-</div></div></div>
-<p>wiki百科有一个按照分母的无穷递降法.</p>
-<div class="note primary no-icon modern"><p><strong>定理</strong>: 如果$\sqrt{k}$不是整数, 则它是无理数.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>证明. 用反证法, 对于$k&gt;0$, 假设$\sqrt{k}$不是整数, 则有有理表示$\frac{a}{b}$, 其中$a,b$都是自然数, 设$q$是不超过$\sqrt{k}$的最大整数. 则</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-\sqrt{k} & =\frac{a}{b}=\frac{a\left(\sqrt{k}-q\right)}{b\left(\sqrt{k}-q\right)}\\
- & =\frac{a\sqrt{k}-aq}{b\sqrt{k}-bq}\\
- & =\frac{\left(b\sqrt{k}\right)\sqrt{k}-aq}{b\left(\frac{a}{b}\right)-bq}\\
- & =\frac{bk-aq}{a-bq}=\frac{a'}{b'}.
-\end{align*}</script><p>其中, 在分子分母同时乘以的$\left(\sqrt{k}-q\right)$是一个介于$0$和$1$之间的有理数. 而上面的$a’,b’$分别小于$a,b$, 且它们的比值都是$\sqrt{k}$. 由于自然数的良序性, 从$a,b$之比递减到$a’,b’$之比可以继续进行下去, 而这种无穷递降是不可能的. 所以$\sqrt{k}$不能是自然数之比.</p>
-</div></div></div>
-<blockquote>
-<p>如果考虑的是$2$的立方根的无理性证明, 按照Fermat的无穷递降原理则会有一种调皮的证法:</p>
-<p>假设$2^{1/3}=\frac{n}{m}$, 则$2m^{3}=n^{3}$, 也即</p>
-<script type="math/tex; mode=display">m^{3}+m^{3}=n^{3}.</script><p>由Fermat大定理在指数为$3$时不存在正整数解, 所以$2^{1/3}$是无理数.</p>
-</blockquote>
-<h1 id="有理根判别法"><a href="#有理根判别法" class="headerlink" title="有理根判别法"></a>有理根判别法</h1><p>考虑多项式方程$x^{2}-2=0$, 有根$\pm\sqrt{2}$. 如果方程有有理解$\frac{a}{b}$, 则$a\mid2$且$b\mid1$, 所以$\frac{a}{b}\in\left\{ \pm1,\pm2\right\} $. 然而, 直接验证知$\pm1,\pm2$都不是方程$x^{2}-2=0$的根, 所以方程没有有理根, 从而$\sqrt{2}$是无理数.</p>
-<h1 id="反证法-自然数的良序性"><a href="#反证法-自然数的良序性" class="headerlink" title="反证法+自然数的良序性"></a>反证法+自然数的良序性</h1><p>设$\sqrt{2}$是有理数, 可以表示成$\sqrt{2}=a/b$的形式, 其中$a,b$都是正整数, 考虑集合</p>
-<script type="math/tex; mode=display">
-S=\left\{ k\sqrt{2}\mid k,k\sqrt{2}\in\mathbb{Z}\right\} .</script><p>首先$S$不空, 因为$a=b\sqrt{2}\in\mathbb{Z}$, 而$b\in\mathbb{Z}$, 所以$b\sqrt{2}\in S$. 由于$S$是自然数的子集, 由良序性, $S$中存在最小元$s=t\sqrt{2}$.</p>
-<p>注意, 这时$s\sqrt{2}-s=(s-t)\sqrt{2}=s(\sqrt{2}-1)&lt;s$. 而且不等式左边, $s-t$和$(s-t)\sqrt{2}$都是整数. 所以$s(\sqrt{2}-1)=(s-t)\sqrt{2}\in S$, 这与$s$是$S$中的最小元矛盾.</p>
-<div class="note primary no-icon modern"><blockquote>
-<p>另有一个由 Theodor Estermann 的证明 $\sqrt{2}$ 的无理性发展出来的推广命题, 它是由 Harley Flanders 给出的证明$\sqrt{m}$ 的无理性的命题, 如下</p>
-</blockquote>
-<p><strong>定理</strong>: 假设$m$ 不是完全平方数, 则$\sqrt{m}$是无理数.</p>
-<div class="note primary no-icon flat"><p>设$n$ 是满足$n&lt;\sqrt{m}&lt;n+1$的整数, 则$\alpha=\sqrt{m}-n$是无理数. 用反证法, 则由$0&lt;\alpha&lt;1$, 有有理表示$\alpha=p/q$, 其中$0&lt;p&lt;q$. 假设$q$是$\alpha$的有理表示中分母最小的, 则</p>
-<script type="math/tex; mode=display">
-\frac{q}{p}=\frac1{\sqrt{m}-n}=\frac{\sqrt{m}+n}{m-n^2}=\frac{\alpha+2n}{m-n^2}.</script><p>由此解得</p>
-<script type="math/tex; mode=display">
-\alpha=\frac{(m-n^2)q}{p}-2n=\frac{(m-n^2)q-2np}{p}=\frac{r}{p}.</script><p>因此$\alpha$有另一个分母更小的分数表示, 导出矛盾.</p>
-</div></div>
-<div class="note primary no-icon modern"><p><strong>定理</strong>: 对于自然数$a$和$t$, $a^{1/t}$要么是无理数, 要么是整数.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>假设$a^{1/t}$不是整数, 设它是有理数. 则$a^{1/t}$的所有整数幂都是有理数. 考虑有理数序列$a^{i/t}$, $i=1,\cdots,t-1$, 并将其分母的最小公倍数记为$m$, 则$m$是使$ma^{i/t}$, ($i=1,\cdots,t-1$), 均为整数的最小正整数. </p>
-<p>因为$a^{1/t}$不是整数, 所以存在整数$b$使得$b&lt;a^{1/t}&lt;b+1$. 因此$0&lt;a^{1/t}-b&lt;1$, 且$0&lt;m\left(a^{1/t}-b\right)&lt;m$. 记$k=m\left(a^{1/t}-b\right)$, 则$k\in\ZZ$. </p>
-<p>对于任意的$i=1,\cdots,t-1$, $ka^{i/t}=ma^{(i+1)/t}-bma^{i/t}$. 当$i\le t-2$时, $ka^{i/t}\in\ZZ$; 当$i=t-1$时, 由于$a$是自然数, 所以$ka^{i/t}$仍旧均为整数. 然而$0&lt;k&lt;m$, 也使得$ka^{i/t}\in\ZZ$, $i=1,\cdots,t-1$, 这与$m$的最小性矛盾.</p>
-</div></div></div>
-<h1 id="反证法-主理想"><a href="#反证法-主理想" class="headerlink" title="反证法+主理想"></a>反证法+主理想</h1><div class="note primary no-icon modern"><p><strong>定理</strong>: 设$n\in\NN$. 如果$r=\sqrt{n}$是有理数, 则$r$是整数.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><p>考虑$r$的所有可能的分母$d$所构成的集合$D$, 也即, </p>
-<script type="math/tex; mode=display">
-D=\left\{ d\in\ZZ:dr\in\ZZ\right\} .</script><p>注意到$D$在减法运算下封闭: </p>
-<script type="math/tex; mode=display">
-d,e\in D\Longrightarrow dr,er\in\ZZ\Longrightarrow(d-e)r=dr-er\in\ZZ.</script><p>进而当$d\in D$时, 由于$r^{2}=n\in\ZZ$, 有 $(dr)r=dn\in\ZZ$, 所以$dr\in D$. 根据以下引理, 当$d$为$D$中最小的正自然数时, 有$d\mid dr$, 也即$r=(dr)/d\in\ZZ$.</p>
-</div></div></div>
-<div class="note primary no-icon modern"><p><strong>引理</strong>: 假设$D\subseteq\ZZ$在减法运算下封闭, 且$D$中有非零元. 则$D$中存在最小正元素能够整除$D$中的任何元素.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
-    <div class="hide-content"><ol>
-<li>先证明有非零元的集合$D$中有正整数.</li>
-</ol>
-<p>设$d\ne0$, $d\in D$, 则有$d-d=0\in D$, 从而$0-d=-d\in D$, 所以$D$中至少存在一个正整数, 要么是$d$, 要么是$-d$. </p>
-<ol>
-<li>证明引理的结论. </li>
-</ol>
-<p>用反证法, 设$d$为$D$中最小正整数. 由于$d\mid n\Longleftrightarrow d\mid-n$. 由自然数的良序性, 假设 $c\in D$ 为满足 $d\not\mid c$ 的最小正整数. 由此 $c-d&gt;0$ 且有 $d\not\mid c-d\in D$, 是不能被$d$整除的小于$c$的正整数, 与$c$的选取矛盾. 所以$d$能整除$D$中的任何元素.</p>
-</div></div></div>
-<h1 id="反证法-构造"><a href="#反证法-构造" class="headerlink" title="反证法+构造"></a>反证法+构造</h1><p>设$\sqrt{2}$是有理数, 容易知道它在1和2之间取值. 取最小的自然数$q$使得$p=q\sqrt{2}$是整数. 则$q&lt;p=q\sqrt{2}&lt;2q$. 于是直接计算</p>
-<script type="math/tex; mode=display">
-\left(\frac{2q-p}{p-q}\right)^{2}=\frac{4q^{2}-4pq+p^{2}}{p^{2}-2pq+q^{2}}=\frac{6q^{2}-4pq}{3q^{2}-2pq}=2.</script><p>而由$q&lt;p&lt;2q$知, $0&lt;p-q&lt;q$. 上式说明$2q-p=(p-q)\sqrt{2}$是整数, 这与$q$的选取矛盾.</p>
-<p>注: 这里提一下上面的分式是如何想到的, 主要是用到合分比公式(初中):</p>
-<script type="math/tex; mode=display">
-\frac{a}{b}=\frac{c}{d}\Longrightarrow\frac{a}{b}=\frac{a\pm c}{b\pm d}=\frac{c}{d},\qquad b\pm d\ne0.</script><p>然后注意到</p>
-<script type="math/tex; mode=display">
-\sqrt{2}=\frac{p}{q}=\frac{2q}{p}=\frac{2}{\sqrt{2}}\Longrightarrow\frac{p}{q}=\frac{2q-p}{p-q}=\sqrt{2}.</script><h1 id="反证法-Newton迭代法-Pell方程"><a href="#反证法-Newton迭代法-Pell方程" class="headerlink" title="反证法+Newton迭代法+Pell方程"></a>反证法+Newton迭代法+Pell方程</h1><p>考虑函数$f(x)=x^{2}-2$的Newton方法, 得到递推公式</p>
-<script type="math/tex; mode=display">
-x_{n+1}=\frac{x_{n}}{2}+\frac{1}{x_{n}},\qquad x_{0}=\frac{3}{2}.</script><p>记$x_{n}=\frac{p_{n}}{q_{n}}$, 带入上式有</p>
-<script type="math/tex; mode=display">
-p_{n+1}=p_{n}^{2}+2q_{n}^{2},\quad q_{n+1}=2p_{n}q_{n}.</script><p>利用归纳法证明$\left(p_{n},q_{n}\right)$是Pell方程$x^{2}-2y^{2}=1$的整数解. 其实只需要验证下面两个式子:</p>
-<script type="math/tex; mode=display">
-p_{n+1}^{2}-2q_{n+1}^{2}=\left(p_{n}^{2}-2q_{n}^{2}\right)^{2},\quad p_{0}^{2}-2q_{0}^{2}=1.</script><p>由此可得不等式$\frac{2}{x_{n}}&lt;\sqrt{2}&lt;x_{n}$. </p>
-<p>设$\sqrt{2}=\frac{s}{t}$为有理数. 则有不等式估计</p>
-<script type="math/tex; mode=display">
-\left|\frac{p_{n}}{q_{n}}-\frac{s}{t}\right|=\left|x_{n}-\sqrt{2}\right|<\left|x_{n}-\frac{2}{x_{n}}\right|=\frac{1}{p_{n}q_{n}}.</script><p>因此$\left|tp_{n}-sq_{n}\right|&lt;\frac{t}{p_{n}}$. 由于$p_{n}$的递推公式知, $p_{n}\to\infty$, $n\to\infty$. 所以当$n$充分大时, $\left|tp_{n}-sq_{n}\right|&lt;1$. 所以只能有$tp_{n}-sq_{n}=0$, 并有$x_{n}=\sqrt{2}$. 矛盾.</p>
-<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-      <categories>
-        <category>数学</category>
-      </categories>
-      <tags>
-        <tag>math</tag>
-        <tag>数学</tag>
-        <tag>一题多解</tag>
-        <tag>algebra</tag>
-        <tag>abstract algebra</tag>
-        <tag>高等代数</tag>
-        <tag>多项式</tag>
-        <tag>抽象代数</tag>
-        <tag>数论</tag>
-        <tag>初等数论</tag>
-        <tag>无理数</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记浙江省首届高等数学竞赛非数学类最后一题</title>
-    <url>/%E8%AE%B0%E6%B5%99%E6%B1%9F%E7%9C%81%E9%A6%96%E5%B1%8A%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AB%9E%E8%B5%9B%E9%9D%9E%E6%95%B0%E5%AD%A6%E7%B1%BB%E6%9C%80%E5%90%8E%E4%B8%80%E9%A2%98/</url>
-    <content><![CDATA[<p>最近刷题目卡在最后一题了, 题目是这样的:</p>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $\left\{ a_{n}\right\} ,\left\{ b_{n}\right\} $ 为满足 $e^{a_{n+1}}=a_{n}+e^{b_{n}},n\geq1$ 的两个实数列, 已知 $a_{n}&gt;0(n\geq1)$, 且 $\sum_{n=1}^{\infty}a_{n}$ 收敛。证明: $\sum_{n=1}^{\infty}\frac{b_{n}}{a_{n}}$ 也收敛。</p>
-</div>
-<p>从题目中容易解出来</p>
-<script type="math/tex; mode=display">
-b_{n}=\ln\left(\ue^{a_{n+1}}-a_{n}\right),</script><p>所以要证明$\sum_{n=1}^{\infty}\frac{b_{n}}{a_{n}}$的收敛性, 最先想到的是证明级数的各项能被$a_{n}$的某固定常数倍控制, 于是</p>
-<script type="math/tex; mode=display">
-\frac{b_{n}}{a_{n}}=\frac{\ln\left(\ue^{a_{n+1}}-a_{n}\right)}{a_{n}}\le\frac{\ue^{a_{n+1}}-1-a_{n}}{a_{n}}\le\frac{a_{n+1}+o\left(a_{n+1}\right)-a_{n}}{a_{n}}.</script><p>但右边似乎没有办法被很好的控制, 因为我最后构造了一个反例, 反例大概是这样的</p>
-<script type="math/tex; mode=display">
-a_{n}=\begin{cases}
-\frac{1}{n^{2}}, & n\ne m^{2},\\
-\left(1+\frac{1}{m}\right)\frac{1}{n^{2}}, & n=m^{2}+1,
-\end{cases}</script><p>使用$\frac{1}{n^{2}}$是因为众所周知的$\zeta(2)=\frac{\pi^{2}}{6}$, 来确保级数$\sum a_{n}$的收敛性. $1+\frac{1}{m}$项是为了能让项$\frac{a_{n+1}-a_{n}}{a_{n}}$在$n=m^{2}$时得到$\frac{1}{m}$, 这可以取遍调和级数的所有项, 从而使$\frac{a_{n+1}-a_{n}}{a_{n}}$形成的部分和含有发散子列$\frac{1}{m}$. </p>
-<p>这是我怀疑上面的不等式在放大的过程中放的太过了, 所以有必要直接考虑$\frac{b_{n}}{a_{n}}$在$n$很大时的变化趋势, 根据上面的构造, 选取$n=m^{2}$是合适的. 所以可以计算</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-\frac{b_{m^{2}}}{a_{m^{2}}} & =m^{4}\ln\left(\ue^{a_{m^{2}+1}}-a_{m^{2}}\right)\\
- & =m^{4}\ln\left(\ue^{\left(1+\frac{1}{m}\right)\frac{1}{(m^{2}+1)^{2}}}-\frac{1}{m^{4}}\right)\\
- & \sim m^{4}\left(\ue^{\left(1+\frac{1}{m}\right)\frac{1}{(m^{2}+1)^{2}}}-\frac{1}{m^{4}}-1\right)\\
- & \sim m^{4}\left(\left(1+\frac{1}{m}\right)\frac{1}{(m^{2}+1)^{2}}-\frac{1}{m^{4}}\right)\sim\frac{1}{m}
-\end{align*}</script><p>这说明上面的不等式并没有放的过大, $\sum\frac{b_{n}}{a_{n}}$有发散的子列$\sum\frac{b_{m^{2}}}{a_{m^{2}}}$. (我在这里并没有验证$b_{n}$的正负, 事实上其后的的一项刚好是$-\frac{1}{m}$, 但这已经给出了一个构造反例的思想. 比如选择$a_{m^{2}+1}=\frac{2}{(m^{2}+1)^{2}}$并结合Cauchy收敛准则.)</p>
-<p>于是上网搜索正确的问题应当是怎么样的. 得到正确的问题表述其实是</p>
-<div class="note primary no-icon flat"><p><strong>问题:</strong> 设 $\left\{ a_{n}\right\} ,\left\{ b_{n}\right\} $ 为满足 $e^{a_{n}}=a_{n}+e^{b_{n}},n\geq1$ 的两个实数列, 已知 $a_{n}&gt;0(n\geq1)$, 且 $\sum_{n=1}^{\infty}a_{n}$ 收敛。证明: $\sum_{n=1}^{\infty}\frac{b_{n}}{a_{n}}$ 也收敛。</p>
-</div>
-<p>现在问题就简单了, 直接考虑$\left|a_{n}\right|\ll1$时的情况, 有以下控制</p>
-<script type="math/tex; mode=display">
-\left|\frac{b_{n}}{a_{n}}\right|\le\frac{\ue^{a_{n}}-1-a_{n}}{a_{n}}\le\frac{1+a_{n}+\frac{a_{n}^{2}}{2}+o(a_{n}^{2})-1-a_{n}}{a_{n}}\le a_{n}.</script><p>然后用比较判别法即可.</p>
-<p>比较判别法是判断无穷级数收敛, 条件收敛, 绝对收敛, 区间收敛或发散的方法. 也叫作比较审敛法, 比较审敛原理.</p>
-<div class="note primary no-icon flat"><p><strong>比较判别法</strong>: 设$\sum b_{n}$是收敛的正项无穷级数, 复无穷级数$\sum a_{n}$若满足对于任意的$n$有$\left|a_{n}\right|\le cb_{n}$, 其中$c$是与$n$无关的正常数, 则</p>
-<p>(1) 若$\sum b_{n}$收敛, 则$\sum a_{n}$收敛.</p>
-<p>(2) 若$\sum\left|a_{n}\right|=+\infty$, 则$\sum b_{n}=+\infty$.</p>
-</div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-      <categories>
-        <category>高等数学</category>
-      </categories>
-      <tags>
-        <tag>微积分</tag>
-        <tag>分析</tag>
-        <tag>反例</tag>
-        <tag>每日一题</tag>
-        <tag>高等数学</tag>
-        <tag>数学分析</tag>
-        <tag>高等数学竞赛</tag>
-        <tag>数项级数</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>计算机工具使用经验总结</title>
-    <url>/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/</url>
-    <content><![CDATA[<h1 id="git"><a href="#git" class="headerlink" title="git"></a>git</h1><p>git status显示中文为Unicode编码, 但git bash环境中文显示正常的解决方案如下.<br><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> git status</span></span><br><span class="line">On branch basictopo</span><br><span class="line">Untracked files:</span><br><span class="line">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</span><br><span class="line">        &quot;todo/[\345\260\244\346\211\277\344\270\232]\345\237\272\347\241\200\346\213\223\346\211\221\345\255\246\350\256\262\344\271\211_LT(2).pdf&quot;</span><br><span class="line"><span class="meta">#</span><span class="bash"> 配置git的全局环境</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git config --global core.quotepath <span class="literal">false</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git status</span></span><br><span class="line">On branch basictopo</span><br><span class="line">Untracked files:</span><br><span class="line">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</span><br><span class="line">        todo/[尤承业]基础拓扑学讲义_LT(2).pdf</span><br></pre></td></tr></table></figure></p>
-<h1 id="latex"><a href="#latex" class="headerlink" title="latex"></a>latex</h1><p>在 <code>texstudio</code> 中使用一些自定义主题或包的时候, 一般自定义的内容复杂起来就会有比较多的 <code>.sty</code> 文件和源文件在一个目录中. 为了能在 <code>texstudio</code> 中创建模板, 在没有这些 <code>.sty</code> 文件的时候是不需要做任何额外的操作的. 但是一旦依赖有其他自定义的 <code>.sty</code> 文件, 虽然创建模板的时候不会出问题, 但是当使用这个新创建的模板时, 由于新建的文档目录中找不到 <code>.sty</code> 文件而报错. 当然可以通过把所需的所有 <code>.sty</code> 都拷贝到新建文档目录中来解决问题, 但这就丧失了从模板创建新文档的便捷. 所以找来了以下的解决方案.</p>
-<p>首先打开系统终端 <code>powershell</code>, 输入</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> kpsewhich -var-value=TEXMFHOME</span></span><br><span class="line">C:/Users/math/texmf</span><br></pre></td></tr></table></figure>
-<p>它会返回一个 <code>latex</code> 编译器查找 <code>.sty</code> 文件的一个默认家目录, 如果系统没有这个目录则创建它. 然后在创建模板时, 把需要的 <code>.sty</code> 文件全部拷贝到这个目录中, 以后再从这个模板创建的文件就不用再去找相应的 <code>.sty</code> 文件了, 如果你的模板特别多, 你可以为每个模板再创建一个目录放在上面的家目录中, 把所依赖的文件放入子目录中. 并把它上传到自己的 <code>git</code> 仓库作为备份.</p>
-<h1 id="powershell"><a href="#powershell" class="headerlink" title="powershell"></a>powershell</h1><h2 id="查询系统连接过的wifi的密码"><a href="#查询系统连接过的wifi的密码" class="headerlink" title="查询系统连接过的wifi的密码"></a>查询系统连接过的wifi的密码</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 列出电脑所有连接过的WIFI名称</span></span><br><span class="line">netsh wlan show profiles</span><br><span class="line"><span class="meta">#</span><span class="bash"> 查看指定WIFI名称的密码, 密码字段为<span class="string">&#x27;关键内容&#x27;</span></span></span><br><span class="line">netsh wlan show profiles WIFI名称 key=clear</span><br></pre></td></tr></table></figure><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-      <categories>
-        <category>computer</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-        <tag>linux</tag>
-        <tag>git bash</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>连续函数概念中的反例</title>
-    <url>/%E8%BF%9E%E7%BB%AD%E5%87%BD%E6%95%B0%E6%A6%82%E5%BF%B5%E4%B8%AD%E7%9A%84%E5%8F%8D%E4%BE%8B/</url>
-    <content><![CDATA[<h2 id="仅在一点连续的函数"><a href="#仅在一点连续的函数" class="headerlink" title="仅在一点连续的函数"></a>仅在一点连续的函数</h2><div class="note primary no-icon flat"><p><strong>仅在一点连续的函数:</strong> 设函数$f:\RR\to\RR$定义为</p>
-<script type="math/tex; mode=display">
-f(x)=\begin{cases}
-x, & x\in\QQ,\\
--x, & x\notin\QQ,
-\end{cases}</script><p>则$f$在$x=0$处连续, 在$x\in\RR\setminus\left\{ 0\right\} $处不连续.</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>证明</span></div>
-    <div class="hide-content"><p>证明: 使用如下关于连续函数的刻画: $f$在点$a\in\RR$处连续, 当且仅当, 对于任意满足$\lim_{k\to\infty}x_{k}=a$的实数列$\left(x_{k}\right)\subseteq\RR$,<br>总有</p>
-<script type="math/tex; mode=display">
-\lim_{k\to\infty}f(x_{k})=f(a).</script><p>$f$在$x=0$处连续: 若$x_{k}$收敛于$0$, 则</p>
-<script type="math/tex; mode=display">
-\lim_{k\to\infty}\left|f(x_{k})\right|=\lim_{k\to\infty}\left|f(x_{k})\right|=\lim_{k\to\infty}\left|x_{k}\right|=0.</script><p>假设$a\ne0$. 则存在无理数$x_{1},x_{2},\cdots$收敛于$a$. 比如这样的序列$\left(x_{n}\right)_{n}$可以按如下方式构造:</p>
-<ol>
-<li><p>当$a\notin\QQ$时, 取$x_{k}=a+1/k$.</p>
-</li>
-<li><p>当$a\in\QQ$时, 取$x_{k}=a+\sqrt{2}/k$.</p>
-</li>
-</ol>
-<p>对于这样的序列$\left(x_{n}\right)$, 我们有</p>
-<script type="math/tex; mode=display">
-\lim_{k\to\infty}f(x_{k})=-\lim_{k\to\infty}x_{k}=-a.</script><p>另一方面, 可以构造有理数$y_{1},y_{2},\cdots$收敛于$a$. 因为当$a\notin\QQ$时, 用$\QQ$在$\RR$中的稠密性;<br>当$a\in\QQ$时, 取$y_{k}=x_{k}+1/k$. 这时有</p>
-<script type="math/tex; mode=display">
-\lim_{k\to\infty}f(y_{k})=\lim_{k\to\infty}y_{k}=a.</script><p>由于$a\ne0$时, $a\ne-a$. 所以$f$在$a$处不连续.</p>
-</div></div></div>
-<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-      <categories>
-        <category>数学分析</category>
-      </categories>
-      <tags>
-        <tag>微积分</tag>
-        <tag>反例</tag>
-        <tag>数学分析</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>导数极限定理</title>
-    <url>/%E5%AE%9A%E7%90%86/%E5%AF%BC%E6%95%B0%E6%9E%81%E9%99%90%E5%AE%9A%E7%90%86/</url>
-    <content><![CDATA[<h1 id="导数极限定理"><a href="#导数极限定理" class="headerlink" title="导数极限定理"></a>导数极限定理</h1><div class="note info flat"><p>导数极限定理和Darboux介值定理之间还是有区别的, 如果承认下面的定理中函数$f(x)$在$x=x_0$处的可导性, 用Darboux介值定理很容证明极限式子</p>
-<script type="math/tex; mode=display">
-f'(x_{0})=\lim_{x\to x_{0}}f'(x).</script><p>但如果不提$f(x)$在$x=x_0$处的可导性, 则只能从拉格朗日中值定理来证明.</p>
-</div>
-<pre class="mermaid">graph TD;
-  A[拉格朗日中值定理]-->B[导数极限定理];
-  D[达布介值定理]-->B;</pre>
-<div class="note primary no-icon flat"><p><strong>定理</strong>: 设函数$f$在点$x_{0}$的某领域$U(x_{0})$内连续, 在$U^{\circ}(x_{0})$内可导, 且极限$\lim_{x\to x_{0}}f’(x)$存在,<br>则$f$在点$x_{0}$可导, 且</p>
-<script type="math/tex; mode=display">
-f'(x_{0})=\lim_{x\to x_{0}}f'(x).</script><div class="note primary no-icon modern"><p><strong>证明</strong>: </p>
-<p>分别按左右导数给出证明.</p>
-<p>(1) 任取$x\in U_{+}^{\circ}(x_{0})$, $f(x)$在$[x_{0},x]$上满足拉格朗日定理的条件, 则存在$\xi\in(x_{0},x)$, 使得</p>
-<script type="math/tex; mode=display">
-\frac{f(x)-f(x_{0})}{x-x_{0}}=f'(\xi).</script><p>由于$x_{0}&lt;\xi&lt;x$, 所以当$x\to x_{0}^{+}$时, 有$\xi\to x_{0}^{+}$, 对上式两边取极限, 便得</p>
-<script type="math/tex; mode=display">
-\lim_{x\to x_{0}^{+}}\frac{f(x)-f(x_{0})}{x-x_{0}}=\lim_{x\to x_{0}^{+}}f'(\xi)=f'(x_{0}+0).</script><p>(2) 同理可得</p>
-<script type="math/tex; mode=display">
-f'_{-}(x_{0})=f'(x_{0}-0).</script><p>因为$\lim_{x\to x_{0}}f’(x)=k$存在, 所以$f’(x_{0}+0)=f’(x_{0}-0)=k$, 从而$f’_{+}(x_{0})=f’_{-}(x_{0})=k$, 即$f’(x_{0})=k$.</p>
-</div></div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-      <categories>
-        <category>定理</category>
-      </categories>
-      <tags>
-        <tag>math</tag>
-        <tag>高等数学</tag>
-        <tag>数学分析</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Euler求和公式</title>
-    <url>/%E5%AE%9A%E7%90%86/Euler%E6%B1%82%E5%92%8C%E5%85%AC%E5%BC%8F/</url>
-    <content><![CDATA[<script src="https://api.vvhan.com/api/snow"></script>
-
-<div class="note primary no-icon flat"><p><strong>定理</strong>: Euler求和公式: 设函数$f\in C^1[0,+\infty)$, 则有</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-\sum_{k=1}^{n}f(k) & =\int_{0}^{n}f(x)\ud x+\frac{f(n)-f(0)}{2}+\int_{0}^{n}\left\langle x\right\rangle f'(x)\ud x\\
- & =\int_{1}^{n}f(x)\ud x+\frac{f(n)+f(1)}{2}+\int_{1}^{n}\left\langle x\right\rangle f'(x)\ud x
-\end{align*}</script><p>其中$\left\langle x\right\rangle =\left\{ x\right\} -\frac{1}{2}$.</p>
-</div>
-<hr>
-<p>证明: 使用RS积分, 由于</p>
-<script type="math/tex; mode=display">
-\ud[x]=\sum_{k\in\mathrm{Dom}(x)}\delta(x-k)\ud x,</script><p>所以</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-\sum_{k=1}^{n}f(k) & =\int_{0+}^{n+}f(x)\ud[x]\\
- & =\int_{0}^{n}f(x)\ud x-\int_{0+}^{n+}f(x)\ud\left\{ x\right\} \\
- & =\int_{0}^{n}f(x)\ud x-\int_{0+}^{n+}f(x)\ud\left(\left\{ x\right\} -\frac{1}{2}\right)\\
- & =\int_{0}^{n}f(x)\ud x-\left\langle x\right\rangle f(x)\mid_{0+}^{n+}+\int_{0+}^{n+}\left\langle x\right\rangle f'(x)\ud x\\
- & =\int_{0}^{n}f(x)\ud x+\frac{f(n)-f(0)}{2}+\int_{0}^{n}\left\langle x\right\rangle f'(x)\ud x.
-\end{align*}</script><hr>
-<p>通常的证法: 将区间$[0,n]$划分为长度为$1$的小区间$[k-1,k]$, ($k=1,2,\cdots,n$), 则</p>
-<script type="math/tex; mode=display">
-\int_{k-1}^{k}\left\langle x\right\rangle f'(x)\ud x=\int_{k-1}^{k}\left(x-k+\frac{1}{2}\right)f'(x)\ud x=\frac{f(k)+f(k-1)}{2}-\int_{k-1}^{k}f(x)\ud x.</script><p>做累和, 得到</p>
-<script type="math/tex; mode=display">
-\int_{0}^{n}\left\langle x\right\rangle f'(x)\ud x=\sum_{k=1}^{n}f(k)-\frac{f(n)-f(0)}{2}-\int_{0}^{n}f(x)\ud x.</script><h2 id="公式的应用"><a href="#公式的应用" class="headerlink" title="公式的应用:"></a>公式的应用:</h2><p>Euler-Mascheroni常数与调和级数</p>
-<script type="math/tex; mode=display">
-H_{n}=\sum_{k=1}^{n}\frac{1}{k}=\ln n+\frac{1}{2n}+\gamma+\int_{n}^{\infty}\frac{\left\langle x\right\rangle }{x^{2}}\ud x.</script><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><blockquote id="fn_1">
-<sup>1</sup>. Apostol, Tom M. Introduction to analytic number theory. Springer Science &amp; Business Media, p. 54, sec 3.3, 1998.<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a>
-</blockquote>
-<blockquote id="fn_2">
-<sup>2</sup>. 王竹溪, 郭敦仁. 特殊函数槪論. 科学出版社, p.7, sec 1.3, 1965.<a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#8617;</a>
-</blockquote>
-<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-      <categories>
-        <category>定理</category>
-      </categories>
-      <tags>
-        <tag>math</tag>
-        <tag>高等数学</tag>
-        <tag>数学分析</tag>
       </tags>
   </entry>
 </search>

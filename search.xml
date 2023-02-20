@@ -5598,7 +5598,10 @@ f^{\prime}(x)=\int_{0}^{x}f^{\prime\prime}(t)dt+f^{\prime}(0)=\frac{1}{1-x}-1-2\
 <h1 id="金融"><a href="#金融" class="headerlink" title="金融"></a>金融</h1><ul>
 <li><a href="https://github.com/btcpayserver/btcpayserver">btcpayserver/btcpayserver</a>: BTCPay Server is a free, open-source &amp; self-hosted bitcoin payment gateway that allows self-sovereign individuals and businesses to accept bitcoin payments online or in person without any fees.</li>
 </ul>
-<h1 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h1><h2 id="chatGPT"><a href="#chatGPT" class="headerlink" title="chatGPT"></a>chatGPT</h2><ul>
+<h1 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h1><ul>
+<li><a href="https://github.com/d2l-ai/d2l-zh">d2l-ai/d2l-zh</a>: 动手学深度学习, 对应独立<a href="https://zh.d2l.ai/">站点</a>.</li>
+</ul>
+<h2 id="chatGPT"><a href="#chatGPT" class="headerlink" title="chatGPT"></a>chatGPT</h2><ul>
 <li><a href="https://github.com/TheR1D/shell_gpt">TheR1D/shell_gpt</a>: 在终端使用的 chatGPT 工具.</li>
 </ul>
 <h2 id="绘画"><a href="#绘画" class="headerlink" title="绘画"></a>绘画</h2><ul>
@@ -5611,6 +5614,44 @@ f^{\prime}(x)=\int_{0}^{x}f^{\prime\prime}(t)dt+f^{\prime}(0)=\frac{1}{1-x}-1-2\
       </categories>
       <tags>
         <tag>github</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>南京师范大学考研数学分析问题合集</title>
+    <url>/%E5%8D%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E9%97%AE%E9%A2%98%E5%90%88%E9%9B%86/</url>
+    <content><![CDATA[<h2 id="2022-年-22"><a href="#2022-年-22" class="headerlink" title="2022 年 22"></a>2022 年 <sup><a href="#fn_22" id="reffn_22">22</a></sup></h2><div class="note primary no-icon flat"><p><strong>1. </strong> 计算<br>(1). $\lim_{n\to\infty}\left(1+\frac{1}{2}+\cdots+\frac{1}{n}\right)^{1/n}$.<br>(2). $\lim_{x\to\infty}\left(\cos\frac{1}{x}\right)^{x^{2}}$.<br>(3). $\int\frac{x\ue^{x}}{(1+x)^{2}}\ud x$.<br>(4). 设$f(x)$可微, $y=f(\ln x)\ue^{f(x)}$, 求$\ud y$.<br>(5). 设$f(x)\in C(\RR)$, 令$F(t)=\int_{1}^{t}\ud y\int_{y}^{t}f(x)\ud x$, 求$F’(t)$.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>2. </strong> 设$f(x)\in C(a,b)$, 证明$f(x)$在$(a,b)$上一致连续的充要条件是$\lim_{x\to a+}f(x)$与$\lim_{x\to b-}f(x)$均存在.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>3. </strong> 讨论无穷积分$\int_{3}^{+\infty}\frac{1}{x\ln^{p}x\ln^{q}(\ln x)}\ud x$, ($p,q&gt;0$), 的敛散性.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>4. </strong> 设$x_{1}=\sqrt{2}$, $x_{n+1}=\frac{1}{2+x_{n}}$, ($n=1,2,3,\cdots$), 证明: 数列$\left\{ x_{n}\right\} $收敛, 并求极限$\lim_{n\to\infty}x_{n}$.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>5. </strong> 设$f(x)$在$[a,b]$上二阶可导, 对于任意的$x\in[a,b]$, $f(x)f’’(x)\ge0$, 并且$f(x)$在$[a,b]$的任意子区间上不恒为$0$. 证明: 在$[a,b]$上$f(x)$至多有一个零点.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>6. </strong> 证明: 若$\left\{ f_{n}(x)\right\} $在区间$I$上一致收敛于$f(x)$, 并且对于任意的$n\in\NN$, $f_{n}(x)$在$I$上有界, 则$\left\{ f_{n}(x)\right\} $在$I$上一致有界.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>7. </strong> 设$u(x,y)$在$\RR^{2}$上具有二阶连续偏导数. 证明: $u(x,y)$为调和函数, 即$\frac{\partial^{2}u}{\partial x^{2}}+\frac{\partial^{2}u}{\partial y^{2}}=0$的充要条件是对于$\RR^{2}$中的任意光滑封闭曲线$C$, 成立$\int_{C}\frac{\partial u}{\partial{\bf n}}\ud s=0$, 其中$\frac{\partial u}{\partial{\bf n}}$为$u(x,y)$沿$C$的外法线方向的方向导数.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>8. </strong> 设$f(x,y)$是$[a,b]\times[c,+\infty)$上的非负连续函数, $I(x)=\int_{c}^{+\infty}f(x,y)\ud y$在$[a,b]$上连续. 证明: $I(x)$在$[a,b]$上一致收敛.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>9. </strong> 已知球体$x^{2}+y^{2}+z^{2}\le2az$, 其上任意一点处的密度等于该点到原点距离的平方, 求该球体的质量和质心坐标.</p>
+</div>
+<div class="note primary no-icon flat"><p><strong>10. </strong> 已知正项级数$\sum_{n=1}^{\infty}x_{n}$发散, 讨论级数</p>
+<script type="math/tex; mode=display">
+\sum_{n=1}^{\infty}\frac{x_{n}}{1+x_{n}},\ \sum_{n=1}^{\infty}\frac{x_{n}}{1+nx_{n}},\ \sum_{n=1}^{\infty}\frac{x_{n}}{1+n^{2}x_{n}}</script><p>的敛散性并给出理由.</p>
+</div>
+<h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><blockquote id="fn_22">
+<sup>22</sup>. <a href="https://mp.weixin.qq.com/s?__biz=MzI2OTE2NzczNQ==&amp;mid=2650057329&amp;idx=1&amp;sn=5e7f9c51778e2be65c877d052025fbd6&amp;chksm=f2e47769c593fe7f7c070111907d380230adcc6e462c89dded9ad3e99d5612b324cdd43a7df6&amp;scene=27">https://mp.weixin.qq.com/s?__biz=MzI2OTE2NzczNQ==&amp;mid=2650057329&amp;idx=1&amp;sn=5e7f9c51778e2be65c877d052025fbd6&amp;chksm=f2e47769c593fe7f7c070111907d380230adcc6e462c89dded9ad3e99d5612b324cdd43a7df6&amp;scene=27</a><a href="#reffn_22" title="Jump back to footnote [22] in the text."> &#8617;</a>
+</blockquote>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>数学分析</tag>
+        <tag>考研</tag>
       </tags>
   </entry>
 </search>

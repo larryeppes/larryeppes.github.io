@@ -1462,20 +1462,7 @@ F=\cup_{i_{1},i_{2},\cdots,}\cap_{k=1}^{\infty}F_{i_{1},i_{2},\cdots,i_{k}},</sc
   <entry>
     <title>mathematica内置函数概览</title>
     <url>/mathematica%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%E6%A6%82%E8%A7%88/</url>
-    <content><![CDATA[<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@9.3.0/dist/mermaid.esm.min.mjs';
-  import mindmap from 'https://cdn.jsdelivr.net/npm/@mermaid-js/mermaid-mindmap@9.3.0/dist/mermaid-mindmap.esm.min.mjs';
-  await mermaid.registerExternalDiagrams([mindmap]);
-</script>
-
-<pre class="mermaid">mindmap
-  root((root))
-    A
-      A-A
-    B
-      B-B
-    C
-      C-C</pre>
+    <content><![CDATA[<h1 id="MMA-内置的函数帮助文档"><a href="#MMA-内置的函数帮助文档" class="headerlink" title="MMA 内置的函数帮助文档"></a>MMA 内置的函数帮助文档</h1><p>MMA 安装好后自带的说明文档在 <code>path/to/mma/version/Documentation/ChineseSimplified</code> 中, <code>Packages</code> 是内置的包文件夹, 在 MMA 中按 <code>F1</code> 快捷键出现的帮助文档大多来自 <code>System</code> 文件夹中. <code>System</code> 文件夹中有样本数据, 样本笔记页面, 用户指南, 一些专题问题的处理方法笔记, 参考页面和教程笔记页.</p>
 <script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
       <categories>
         <category>mathematica</category>

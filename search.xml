@@ -1499,11 +1499,29 @@ F=\cup_{i_{1},i_{2},\cdots,}\cap_{k=1}^{\infty}F_{i_{1},i_{2},\cdots,i_{k}},</sc
 <p><img src="/mathematica%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%E6%A6%82%E8%A7%88/paclets.png" alt="Paclets*"></p>
 <p>函数 <code>PacletFind</code> 用来查找小的数据包, 用来确认准备安装的包是否存在, 内置有帮助文档. 函数 <code>PacletInstall</code> 用来安装数据包, <code>PacletUninstall</code> 卸载数据包. 安装程序包也可用使用 <code>.paclet</code> 扩展名的文件来安装, 比如 <code>BoolEval</code> 程序包可以通过 <code>PacletInstall[&quot;/path/to/BoolEval.paclet&quot;]</code> 来安装. 数据包一般安装在目录 <code>$UserBasePacletsDirectory</code> 中, 在 Windows 下位于<code>C:\Users\math\AppData\Roaming\Mathematica\Paclets\Repository</code>.</p>
 <h2 id="其它资源"><a href="#其它资源" class="headerlink" title="其它资源"></a>其它资源</h2><p>一个不低于 10.0 的 Paclet 包托管服务器: <a href="https://paclets.github.io/PacletServer/">PacletServer</a>.</p>
+<h1 id="MMA-的清理资源3"><a href="#MMA-的清理资源3" class="headerlink" title="MMA 的清理资源3"></a>MMA 的清理资源<sup><a href="#fn_3" id="reffn_3">3</a></sup></h1><p>当 MMA 打开并运行一段时间后, 经常在后台闲置不用, 如果此时想要打开大的项目运行, 但又不想重启 MMA, 又想把之前的历史计算内存清理干净的几种办法.</p>
+<ol>
+<li>直接菜单中依次点击: <code>计算(V)-&gt;退出内核-&gt;Local</code>.</li>
+<li>在运行新项目之前执行函数 <code>Quit[]</code>, 可以选择性的关闭不再使用的历史 nb 文件.</li>
+<li><code>Clear[a]</code> 和 <code>Remove[a]</code> 清理变量名为 a 的数据, <code>Clear[&quot;Global\`*&quot;]</code> 清理上下文为 Global` 的所有变量.</li>
+</ol>
+<p>有时候我会自己实践一些占用计算资源比较大的项目, 也经常用 <code>Clear[]</code> 函数和 <code>ClearAll[]</code> 函数清理变量和函数的定义. 但是当变量比较多时, 逐个清理有点太麻烦了, MMA 有一个方便的清理方式如下, 只需加载笔记本的最前面即可. 它会释放内存并清理 In 和 Out 中的数据并将其编号初始化为 0, 在下次计算时 从 In[1] 和 Out[1] 开始编号.</p>
+<figure class="highlight mathematica"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Needs</span><span class="punctuation">[</span><span class="string">&quot;Utilities`CleanSlate`&quot;</span><span class="punctuation">]</span></span><br><span class="line"></span><br><span class="line"><span class="variable">CleanSlate</span><span class="punctuation">[</span><span class="punctuation">]</span></span><br></pre></td></tr></table></figure>
+<div class="note warning flat"><p>一般, MMA 中定义的变量存放在一个上下文名为 Global` 的前缀中, 可以通过 <code>?Global`*</code> 来查看所有已经定义过的变量和函数名. 上面的 CleanSlate[] 函数可以指明要清理的 Contexts, 但是当笔记本的上下文设置成 <strong>只限于当前笔记本</strong> 时, CleanSlate[] 并不能清理笔记本中定义的变量所存储的数据.</p>
+</div>
+<div class="note warning flat"><p>使用 CleanSlate[] 可能还存在其它问题, 如果在 1.nb 中定义了变量 a, 但是没有清理. 然后新建 2.nb 文件可以执行 CleanSlate[] 清理变量 a 存储的数据. 但是如果在新建 2.nb 时先执行了 <code>Needs[&quot;Utilities`CleanSlate`&quot;]</code>, 再次执行 CleanSlate[] 函数则不能清理变量 a 存储的数据. </p>
+</div>
 <h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><blockquote id="fn_1">
 <sup>1</sup>. MMA 自定义包, <a href="http://packagedata.net/">http://packagedata.net/</a>.<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a>
 </blockquote>
 <blockquote id="fn_2">
 <sup>2</sup>. <a href="https://paclets.github.io/PacletServer/">https://paclets.github.io/PacletServer/</a><a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#8617;</a>
+</blockquote>
+<blockquote id="fn_3">
+<sup>3</sup>. wolfram-mathematica - 通过不使用评估菜单的命令退出mathematica中的内核, <a href="https://www.coder.work/article/6902732">https://www.coder.work/article/6902732</a><a href="#reffn_3" title="Jump back to footnote [3] in the text."> &#8617;</a>
+</blockquote>
+<blockquote id="fn_4">
+<sup>4</sup>. Quit Kernel in mathematica by a command not using Evaluation menu, <a href="https://stackoverflow.com/questions/6152023/quit-kernel-in-mathematica-by-a-command-not-using-evaluation-menu">https://stackoverflow.com/questions/6152023/quit-kernel-in-mathematica-by-a-command-not-using-evaluation-menu</a><a href="#reffn_4" title="Jump back to footnote [4] in the text."> &#8617;</a>
 </blockquote>
 <script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
       <categories>

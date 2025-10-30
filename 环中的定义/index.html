@@ -1,0 +1,575 @@
+<!DOCTYPE html><html class="hide-aside" lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="Access-Control-Allow-Origin" content="*"><meta name="viewport" content="width=device-width,initial-scale=1"><title>环中的定义 | Larry_Eppes's Trivia Collection Site</title><meta name="keywords" content="math,抽象代数,环,交换环"><meta name="author" content="Larry Eppes"><meta name="copyright" content="Larry Eppes"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="环2环定义: A ring $R$ is an abelian group with a multiplication operation $(a, b) \rightarrow a b$ that is associative and satisfies the distributive laws: $a(b+c)&#x3D;a b+a c$ and $(a+b) c&#x3D;a b+a c$ for all $">
+<meta property="og:type" content="article">
+<meta property="og:title" content="环中的定义">
+<meta property="og:url" content="https://larryeppes.site/%E7%8E%AF%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/index.html">
+<meta property="og:site_name" content="Larry_Eppes&#39;s Trivia Collection Site">
+<meta property="og:description" content="环2环定义: A ring $R$ is an abelian group with a multiplication operation $(a, b) \rightarrow a b$ that is associative and satisfies the distributive laws: $a(b+c)&#x3D;a b+a c$ and $(a+b) c&#x3D;a b+a c$ for all $">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://larryeppes.site/img/a15b4afegy1fmvjekvk6yj21hc0u0h7x.jpg">
+<meta property="article:published_time" content="2022-11-20T12:54:41.000Z">
+<meta property="article:modified_time" content="2022-11-25T10:20:28.713Z">
+<meta property="article:author" content="Larry Eppes">
+<meta property="article:tag" content="math">
+<meta property="article:tag" content="抽象代数">
+<meta property="article:tag" content="环">
+<meta property="article:tag" content="交换环">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://larryeppes.site/img/a15b4afegy1fmvjekvk6yj21hc0u0h7x.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://larryeppes.site/%E7%8E%AF%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="baidu-site-verification" content="codeva-QF67PrzONS"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-9013320849898771',
+  enable_page_level_ads: 'true'
+});</script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?84e40f8920188037174fb8bffa84a266";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-1JJJG9G67C"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-1JJJG9G67C');
+</script><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: true,
+    post: true
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'mediumZoom',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"bottom-left"},
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-11-25 18:20:28'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const fontSizeVal = saveToLocal.get('global-font-size')
+    if (fontSizeVal !== undefined) {
+      document.documentElement.style.setProperty('--global-font-size', fontSizeVal + 'px')
+    }
+    })(window)</script><meta name="generator" content="Hexo 5.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="/img/head.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">52</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">78</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">19</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa-solid fa-house-chimney"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> Math</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6"><i class="fa-fw fa-solid fa-book-quran"></i><span> 高等数学</span></a></li><li><a class="site-page" href="/categories/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90"><i class="fa-fw fa-solid fa-book-skull"></i><span> 数学分析</span></a></li><li><a class="site-page" href="/categories/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0"><i class="fa-fw fa-solid fa-book-journal-whills"></i><span> 抽象代数</span></a></li><li><a class="site-page" href="/categories/%E6%B3%9B%E5%87%BD%E5%88%86%E6%9E%90"><i class="fa-fw fa-solid fa-book-skull"></i><span> 泛函分析</span></a></li><li><a class="site-page" href="/categories/%E5%AE%9E%E5%8F%98%E5%87%BD%E6%95%B0"><i class="fa-fw fa-solid fa-book-tanakh"></i><span> 实变函数</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/categories/%E5%AE%9A%E4%B9%89"><i class="fa-fw fa-regular fa-star"></i><span> Defs</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E5%AE%9A%E7%90%86"><i class="fa-fw fa-solid fa-star"></i><span> Thms</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa-solid fa-box-open"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa-solid fa-comment-dots"></i><span> 说说</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/shuoshuo/"><i class="fa-fw fa-solid fa-comment-dots"></i><span> 说说</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa-solid fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa-solid fa-folder-tree"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa-solid fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa-solid fa-user-large"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/a15b4afegy1fmvjekvk6yj21hc0u0h7x.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Larry_Eppes's Trivia Collection Site</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fa-solid fa-magnifying-glass fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa-solid fa-house-chimney"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> Math</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6"><i class="fa-fw fa-solid fa-book-quran"></i><span> 高等数学</span></a></li><li><a class="site-page" href="/categories/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90"><i class="fa-fw fa-solid fa-book-skull"></i><span> 数学分析</span></a></li><li><a class="site-page" href="/categories/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0"><i class="fa-fw fa-solid fa-book-journal-whills"></i><span> 抽象代数</span></a></li><li><a class="site-page" href="/categories/%E6%B3%9B%E5%87%BD%E5%88%86%E6%9E%90"><i class="fa-fw fa-solid fa-book-skull"></i><span> 泛函分析</span></a></li><li><a class="site-page" href="/categories/%E5%AE%9E%E5%8F%98%E5%87%BD%E6%95%B0"><i class="fa-fw fa-solid fa-book-tanakh"></i><span> 实变函数</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/categories/%E5%AE%9A%E4%B9%89"><i class="fa-fw fa-regular fa-star"></i><span> Defs</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E5%AE%9A%E7%90%86"><i class="fa-fw fa-solid fa-star"></i><span> Thms</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa-solid fa-box-open"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa-solid fa-comment-dots"></i><span> 说说</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/shuoshuo/"><i class="fa-fw fa-solid fa-comment-dots"></i><span> 说说</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa-solid fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa-solid fa-folder-tree"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa-solid fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa-solid fa-user-large"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">环中的定义</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-11-20T12:54:41.000Z" title="发表于 2022-11-20 20:54:41">2022-11-20</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-11-25T10:20:28.713Z" title="更新于 2022-11-25 18:20:28">2022-11-25</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%AE%9A%E4%B9%89/">定义</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">4.1k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>23分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/%E7%8E%AF%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/#post-comment" itemprop="discussionUrl"><span class="valine-comment-count" data-xid="/%E7%8E%AF%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/" itemprop="commentCount"></span></a></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="环2"><a href="#环2" class="headerlink" title="环2"></a>环<sup><a href="#fn_2" id="reffn_2">2</a></sup></h1><h2 id="环"><a href="#环" class="headerlink" title="环"></a>环</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: A <strong>ring</strong> $R$ is an abelian group with a multiplication operation $(a, b) \rightarrow a b$ that is associative and satisfies the distributive laws: $a(b+c)=a b+a c$ and $(a+b) c=a b+a c$ for all $a, b, c \in R$. </p>
+<p>We will always assume that $R$ has at least two elements, including a multiplicative identity $1_R$ satisfying $a 1_R=1_R a=a$ for all $a$ in $R$. The multiplicative identity is often written simply as $1$, and the additive identity as $0$. </p>
+</div>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: If $a$ and $b$ are nonzero but $ab=0$, we say that $a$ and $b$ are <strong>zero divisors</strong>; </p>
+<p>if $a\in R$ and for some $b\in R$ we have $ab=ba=1$, we say that $a$ is a <strong>unit</strong> or that $a$ is <strong>invertible</strong>.</p>
+</div>
+<h2 id="交换环-整环-除环-域-特征"><a href="#交换环-整环-除环-域-特征" class="headerlink" title="交换环, 整环, 除环, 域, 特征"></a>交换环, 整环, 除环, 域, 特征</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: Note that $a b$ need not equal $b a$; if this holds for all $a, b \in R$, we say that $R$ is a <strong>commutative ring</strong>.</p>
+<p>An <strong>integral domain</strong> is a commutative ring with no zero divisors.</p>
+<p>A <strong>division ring</strong> or <strong>skew field</strong> is a ring in which every nonzero element $a$ has a multiplicative inverse $a^{-1}$, (i.e., $a a^{-1}=a^{-1} a=1$). Thus the nonzero elements form a group under multiplication.</p>
+<p>A <strong>field</strong> is a commutative division ring. </p>
+<p>The <strong>characteristic</strong> of a ring $R$ (written $\mathrm{Char}R$) is the smallest positive integer such that $n 1=0$, where $n 1$ is an abbreviation for $1+1+\ldots 1$ ($n$ times). If $n 1$ is never 0, we say that $R$ has characteristic 0. </p>
+<p>A <strong>subring</strong> of a ring $R$ is a subset $S$ of $R$ that forms a ring under the operations of addition and multiplication defined on $R$. Subring of a ring $R$ are subsets of $R$ that inherit a ring structure from $R$.</p>
+</div>
+<h3 id="子环1"><a href="#子环1" class="headerlink" title="子环1"></a>子环<sup><a href="#fn_1" id="reffn_1">1</a></sup></h3><div class="note primary no-icon modern"><p><strong>定义</strong>: A <strong>subring</strong> of a ring $R$ [with identity] is a subset $S$ of $R$ such that $S$ is a subgroup of $(R,+)$, is closed under multiplication $(x, y \in S$ implies $x y \in S)$, and ==contains the identity element==.</p>
+</div>
+<h2 id="同态"><a href="#同态" class="headerlink" title="同态"></a>同态</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: If $f: R \rightarrow S$, where $R$ and $S$ are rings, we say that $f$ is a <strong>ring homomorphism</strong> if $f(a+b)$ $=f(a)+f(b)$ and $f(a b)=f(a) f(b)$ for all $a, b \in R$, and $f\left(1_R\right)=1_S$.</p>
+</div>
+<h2 id="理想"><a href="#理想" class="headerlink" title="理想"></a>理想</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: Let $I$ be a subset of the ring $R$, and consider the following three properties:</p>
+<ol>
+<li>$I$ is an additive subgroup of $R$.</li>
+<li>If $a \in I$ and $r \in R$ then $r a \in I$; in other words, $r I \subseteq I$ for every $r \in R$.</li>
+<li>If $a \in I$ and $r \in R$ then $a r \in I$; in other words, $I r \subseteq I$ for every $r \in R$.</li>
+</ol>
+<p>If (1) and (2) hold, $I$ is said to be a <strong>left ideal</strong> of $R$. </p>
+<p>If (1) and (3) hold, $I$ is said to be a <strong>right ideal</strong> of $R$. </p>
+<p>If all three properties are satisfied, $I$ is said to be an <strong>ideal</strong> (or <strong>two-sided ideal</strong>) of $R$, a <strong>proper ideal</strong> if $I=R$, a <strong>nontrivial ideal</strong> if $I$ is neither $R$ nor $\{0\}$.</p>
+<p>If $f: R \rightarrow S$ is a ring homomorphism, its <strong>kernel</strong> is</p>
+<script type="math/tex; mode=display">
+\operatorname{ker} f=\{r \in R: f(r)=0\}</script><p>$f$ is <strong>injective</strong> if and only if $\operatorname{ker} f=\{0\}$.</p>
+</div>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: Let $I$ be a proper ideal of the ring $R$. Since $I$ is a subgroup of the additive group of $R$, we can form the <strong>quotient group</strong> $R / I$, consisting of <strong>cosets</strong> $r+I$, $r \in R$. We define multiplication of cosets in the natural way:</p>
+<script type="math/tex; mode=display">
+(r+I)(s+I)=r s+I.</script><p>The cosets of $I$ form a ring, called the <strong>quotient ring</strong> of $R$ by $I$.</p>
+<p>The identity element of the quotient ring is $1_R+I$, and the zero elemtent is $0_R+I$.</p>
+</div>
+<div class="note primary no-icon modern"><p><strong>定义</strong>:<br>If $X$ is a non empty subset of the ring $R$, then $(X)$ will denote <strong> the ideal generated by $X$ </strong>, that is, the smallest ideal of $R$ that contains $X$. Explicitly, </p>
+<script type="math/tex; mode=display">
+\langle X\rangle=R X R= \text{ the collection of all finite sums of the form } \sum_i r_i x_i s_i.</script><p>with $r_i, s_i \in R$ and $x_i \in X$. </p>
+<p>If $R$ is commutative, then $r x s=r s x$, and we may as well drop the $s$. In other words: In a commutative ring, </p>
+<script type="math/tex; mode=display">
+\langle X\rangle=R X= \text{ all finite sums } \sum_i r_i x_i, r i \in R, x_i \in X.</script><p>An ideal generated by a single element $a$ is called a <strong>principal ideal</strong> and is denoted by $\langle a\rangle$ or $(a)$.</p>
+</div>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: In an arbitrary ring, we will sometimes need to consider the sum of two ideals $I$ and $J$, defined as $\{x+y: x \in I, y \in J\}$. It follows from the distributive laws that $I+J$ is also an ideal. Similarly, the sum of two left [resp. right] ideals is a left [resp. right] ideal.</p>
+</div>
+<h2 id="同余-互素-最大公因子-最小公倍数"><a href="#同余-互素-最大公因子-最小公倍数" class="headerlink" title="同余, 互素, 最大公因子, 最小公倍数"></a>同余, 互素, 最大公因子, 最小公倍数</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: If $a$ and $b$ are integers that are congruent modulo $n$, then $a-b$ is a multiple of $n$. Thus $a-b$ belongs to the ideal $I_n$ consisting of all multiples of $n$ in the ring $\mathbb{Z}$ of integers. Thus we may say that $a$ is congruent to $b$ modulo $I_n$. In general, if $a, b \in R$ and $I$ is an ideal of $R$, we say that $a \equiv b \bmod I$ if $a-b \in I$.</p>
+<p>The integers $a$ and $b$ are <strong>relatively prime</strong> if and only if the integer $1$ can be expressed as a linear combination of $a$ and $b$. Equivalently, the sum of the ideals $I_a$ and $I_b$ is the entire ring $\mathbb{Z}$. In general, we say that the ideals $I$ and $J$ in the ring $R$ are <strong>relatively prime</strong> if $I+J=R$.</p>
+</div>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: Let $A$ be a nonempty subset of $R$, with $0 \notin A$. The element $d$ is a <strong>greatest common divisor</strong> (gcd) of $A$ if $d$ divides each $a$ in $A$, and whenever $e$ divides each $a$ in $A$, we have $e \mid d$.</p>
+<p>The elements of $A$ are said to be <strong>relatively prime</strong> (or the set $A$ is said to be relatively prime) if $1$ is a greatest common divisor of $A$.</p>
+<p>The nonzero element $m$ is a <strong>least common multiple</strong> ( $\mathrm{lcm})$ of $A$ if each $a$ in $A$ divides $m$, and whenever $a \mid e$ for each $a$ in $A$, we have $m \mid e$.</p>
+</div>
+<h2 id="直积"><a href="#直积" class="headerlink" title="直积"></a>直积</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: If $R_1, \ldots, R_n$ are rings, the direct product of the $R_i$ is defined as the ring of $n$ tuples $\left(a_1, \ldots, a_n\right)$, $a_i \in R_i$, with componentwise addition and multiplication, that is, with</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\left(a_1, \ldots, a_n\right)+\left(b_1, \ldots, b_n\right)&=\left(a_1+b_1, \ldots, a_n+b_n\right) \\
+\left(a_1, \ldots, a_n\right)\left(b_1, \ldots, b_n\right)&=\left(a_1 b_1, \ldots, a_n b_n\right).
+\end{align*}</script></div>
+<h2 id="极大理想"><a href="#极大理想" class="headerlink" title="极大理想"></a>极大理想</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: A <strong>maximal ideal</strong> in the ring $R$ is a proper ideal that is not contained in any strictly larger proper ideal.</p>
+</div>
+<h2 id="单位-不可约元-素元"><a href="#单位-不可约元-素元" class="headerlink" title="单位, 不可约元, 素元"></a>单位, 不可约元, 素元</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: A <strong>unit</strong> in a ring $R$ is an element with a multiplicative inverse. The elements $a$ and $b$ are <strong>associates</strong> if $a=u b$ for some unit $u$.</p>
+<p>Let $a$ be a nonzero nonunit; $a$ is said to be <strong>irreducible</strong> if it cannot be represented as a product of nonunits. In other words, if $a=b c$, then either $b$ or $c$ must be a unit.</p>
+<p>Again let $a$ be a nonzero nonunit; $a$ is said to be <strong>prime</strong> if whenever $a$ divides a product of terms, it must divide one of the factors. In other words, if $a$ divides $b c$, then $a$ divides $b$ or $a$ divides $c$ ($a$ divides $b$ means that $b=a r$ for some $r \in R$).</p>
+</div>
+<h2 id="唯一因子分解整环"><a href="#唯一因子分解整环" class="headerlink" title="唯一因子分解整环"></a>唯一因子分解整环</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: A <strong>unique factorization domain</strong> (UFD) is an integral domain $R$ satisfying the following properties:</p>
+<p>(UF1): Every nonzero element $a$ in $R$ can be expressed as $a=u p_1 \ldots p_n$, where $u$ is a unit and the $p_i$ are irreducible.</p>
+<p>(UF2): If $a$ has another factorization, say $a=v q_1 \ldots q_m$, where $v$ is a unit and the $q_i$ are irreducible, then $n=m$ and, after reordering if necessary, $p_i$ and $q_i$ are associates for each $i$.</p>
+</div>
+<h2 id="主理想整环-欧式整环"><a href="#主理想整环-欧式整环" class="headerlink" title="主理想整环, 欧式整环"></a>主理想整环, 欧式整环</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: A <strong>principal ideal domain</strong> (PID) is an integral domain in which every ideal is principal, that is, generated by a single element.</p>
+<p>Let $R$ be an integral domain. $R$ is said to be a <strong>Euclidean domain</strong> (ED) if there is a function $\Psi$ from $R \setminus\{0\}$ to the nonnegative integers satisfying the following property:</p>
+<blockquote>
+<p>If $a$ and $b$ are elements of $R$, with $b \neq 0$, then $a$ can be expressed as $b q+r$ for some $q, r \in R$, where either $r=0$ or $\Psi(r)&lt;\Psi(b)$.</p>
+</blockquote>
+<p>We can replace “$r=0$ or $\Psi(r)&lt;\Psi(b)$” by simply “$\Psi(r)&lt;\Psi(b)$” if we define $\Psi(0)$ to be $-\infty$.</p>
+<p>In any Euclidean domain, we may use the Euclidean algorithm to find the greatest common divisor of two elements.<br>A Euclidean domain is automatically a principal ideal domain, as we now prove.</p>
+</div>
+<h2 id="multiplicative-set"><a href="#multiplicative-set" class="headerlink" title="multiplicative set"></a>multiplicative set</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: Let $S$ be a subset of the ring $R$; we say that $S$ is <strong>multiplicative</strong> if </p>
+<p>(a) $0 \notin S$,<br>(b) $1 \in S$, and<br>(c) whenever $a$ and $b$ belong to $S$, we have $a b \in S$. </p>
+<p>We can merge (b) and (c) by stating that $S$ is closed under multiplication, if we regard $1$ as the empty product. </p>
+<p>If $S$ is a multiplicative subset of the commutative ring $R$, we define the following equivalence relation on $R \times S$:</p>
+<blockquote>
+<p>$(a, b) \sim(c, d)$ if and only if for some $s \in S$ we have $s(a d-b c)=0$.</p>
+</blockquote>
+<p>If $a \in R$ and $b \in S$, we define the fraction $\frac{a}{b}$ to be the equivalence class of the pair $(a, b)$. The set of all equivalence classes is denoted by $S^{-1} R$, and in view of what we are about to prove, is called the <strong>ring of fractions</strong> of $R$ by $S$. The term <strong>localization</strong> of $R$ by $S$ is also used.</p>
+</div>
+<h2 id="不可约多项式"><a href="#不可约多项式" class="headerlink" title="不可约多项式"></a>不可约多项式</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: If $R$ is an integral domain, we will refer to an irreducible element of $R[X]$ as an <strong>irreducible polynomial</strong>. Nowin $F[X]$, where $F$ is a field, the units are simply the nonzero elements of $F$. Thus in this case, an irreducible element is a polynomial of degree at least 1 that cannot be factored into two polynomials of lower degree. </p>
+<p>A polynomial that is not irreducible is said to be <strong>reducible</strong> or <strong>factorable</strong>. </p>
+</div>
+<h1 id="交换环1"><a href="#交换环1" class="headerlink" title="交换环1"></a>交换环<sup><a href="#fn_1" id="reffn_1">1</a></sup></h1><h2 id="素理想2"><a href="#素理想2" class="headerlink" title="素理想2"></a>素理想<sup><a href="#fn_2" id="reffn_2">2</a></sup></h2><div class="note primary no-icon modern"><p><strong>定义</strong>: A <strong>prime ideal</strong> in a commutative ring $R$ is a proper ideal $P$ such that for any two elements </p>
+<blockquote>
+<p>$a, b$ in $R$, $a b \in P$ implies that $a \in P$ or $b \in P$.</p>
+</blockquote>
+</div>
+<h2 id="多项式环2"><a href="#多项式环2" class="headerlink" title="多项式环2"></a>多项式环<sup><a href="#fn_2" id="reffn_2">2</a></sup></h2><div class="note primary no-icon modern"><p><strong>定义</strong>: In this section, all rings are assumed commutative. To see a good reason for this restriction, consider the <strong>evaluation map</strong> (also called the <strong>substitution map</strong>) $E_x$, where $x$ is a fixed element of the ring $R$. This map assigns to the polynomial $a_0+a_1 X+\ldots+a_n X_n$ in $R[X]$ the value $a_0+a_1 x+\ldots+a_n x^n$ in $R$. It is tempting to say that “obviously”, $E_x$ is a ring homomorphism, but we must be careful. For example,</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+E_x[(a+b X)(c+d X)] & =E_x\left(a c+(a d+b c) X+b d X^2\right)=a c+(a d+b c) x+ b d x^2, \\
+E_x(a+b X) E_x(c+d X) & =(a+b x)(c+d x)=a c+a d x+b x c+b x d x,
+\end{align*}</script><p>and these need not be equal if $R$ is not commutative.</p>
+<p>The <strong>degree</strong>, abbreviated deg, of a polynomial $a_0+a_1 X+\ldots+a_n X^n$ (with leading coefficient $a_n \neq 0$) is $n$; it is convenient to define the degree of the zero polynomial as $-\infty$. </p>
+</div>
+<h2 id="Primary-Decomposition"><a href="#Primary-Decomposition" class="headerlink" title="Primary Decomposition"></a>Primary Decomposition</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: In a commutative ring $R$, the <strong>radical</strong> $\mathrm{Rad}\mathfrak{a}$ of an ideal $\mathfrak{a}$ is the intersection of all prime ideals of $R$ that contain $\mathfrak{a}$. If $\mathfrak{a}=R$, then no prime ideal of $R$ contains $\mathfrak{a}$ and we let the empty intersection $\mathrm{Rad}\mathfrak{a}$ be $R$ itself. In general, $\mathrm{Rad}\mathfrak{a}$ is sometimes denoted by $\sqrt{\mathfrak{a}}$.</p>
+</div>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: An ideal $\mathfrak{a}$ of a commutative ring $R$ is <strong>semiprime</strong> when it is an intersection of prime ideals.</p>
+</div>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: An ideal $\mathfrak{q}$ of a commutative ring $R$ is <strong>primary</strong> when $\mathfrak{q}\neq R$ and, for all $x,y\in R$, $xy\in\mathfrak{q}$ implies $x\in\mathfrak{q}$ or $y^{n}\in\mathfrak{q}$ for some $n&gt;0$. An ideal $\mathfrak{q}$ of $R$ is <strong>$\mathfrak{p}$-primary</strong> when $\mathfrak{q}$ is primary and $\mathrm{Rad}\mathfrak{q}=\mathfrak{p}$.</p>
+</div>
+<h2 id="Ring-Extensions"><a href="#Ring-Extensions" class="headerlink" title="Ring Extensions"></a>Ring Extensions</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: A <strong>ring extension</strong> of a commutative ring $R$ is a commutative ring $E$ of which $R$ is a subring.</p>
+</div>
+<blockquote>
+<p>交换环 $R$ 的<span class="bubble-content">环扩张</span><span class="bubble-notation"><span class="bubble-item" style="background-color:#aa44ee;">ring extension</span></span> $E$ 是一个交换环, 且使 $R$ 是它的子环.</p>
+</blockquote>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: A ring extension $E$ of $R$ is <strong>finitely generated</strong> over $R$ when $E=$ $R\left[\alpha_{1},\ldots,\alpha_{n}\right]$ for some $n\geqq0$ and $\alpha_{1},\ldots,\alpha_{n}\in E$.</p>
+</div>
+<blockquote>
+<p>设 $E$ 为 $R$ 上的环扩张, 如果对于某个 $n\ge 0$, 和 $\alpha_1,\cdots,\alpha_n\in E$ 有 $E=R[\alpha_1,\cdots,\alpha_n]$, 则称 $E$ 为由 $R$ 有限生成的.</p>
+</blockquote>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: Let $R$ be a ring. An <strong>$R$-module</strong> is an abelian group $M$ together with an action $(r,x)\longmapsto rx$ of $R$ on $M$ such that $r(x+y)=rx+ry$, $(r+s)x=rx+sx$, $r(sx)=(rs)x$, and $1x=x$, for all $r,s\in R$ and $x,y\in M$. A <strong>submodule</strong> of an $R$-module $M$ is an additive subgroup $N$ of $M$ such that $x\in N$ implies $rx\in N$ for every $r\in R$.</p>
+</div>
+<blockquote>
+<p>设 $R$ 是一个环, $M$ 是一个 Abel 群, 若 $R$ 在 $M$ 上的作用 $R\times M\to M$, $(r,x)\longmapsto rx$ 满足, 对于任意的 $r,s\in R$ 和 $x,y\in M$, 有 $r(x+y)=rx+ry$, $(r+s)x=rx+sx$, $r(sx)=(rs)x$, 和 $1x=x$, 称 $M$ 为 $R$-模.</p>
+<p>$R$-模 $M$ 的子模是 $M$ 的加法子群 $N$, $N$ 满足对于任意的 $r\in R$, $x\in N$, 有 $rx\in N$.</p>
+</blockquote>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: Let $M$ be an R-module. The submodule of $M$ <strong>generated</strong> by a subset $X$ of $M$ is the set of all linear combinations of elements of $X$ with coefficients in $R$. A submodule of $M$ is <strong>finitely generated</strong> when it is generated (as a submodule) by a finite subset of $M$.</p>
+</div>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: An element $\alpha$ of a ring extension $E$ of $R$ is <strong>integral</strong> over $R$ when it satisfies one of the following equivalent conditions:</p>
+<p>(1) $f(\alpha)=0$ for some monic polynomial $f\in R[X]$; </p>
+<p>(2) $R[\alpha]$ is a finitely generated submodule of $E$; </p>
+<p>(3) $\alpha$ belongs to a subring of $E$ that is a finitely generated $R$-module.</p>
+</div>
+<h2 id="Integral-Extensions"><a href="#Integral-Extensions" class="headerlink" title="Integral Extensions"></a>Integral Extensions</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: A ring extension $R\subseteq E$ is <strong>integral</strong>, and $E$ is <strong>integral over</strong> $R$, when every element of $E$ is <strong>integral over</strong> $R$. </p>
+</div>
+<blockquote>
+<p>如果 $E$ 中的每个元素在 $R$ 上是整的, 则称环扩张 $R\subseteq E$ 是整的, 且 $E$ 在 $R$ 上是整的, </p>
+</blockquote>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: In a ring extension $E$ of $R$, an ideal $\mathfrak{A}$ of $E$ <strong>lies over</strong> an ideal $\mathfrak{a}$ of $R$ when $\mathfrak{A}\cap R=\mathfrak{a}$.</p>
+</div>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: The integral closure of a ring $R$ in a ring extension $E$ of $R$ is the subring $\overline{R}$ of $E$ of all elements of $E$ that are integral over $R$. The elements of $\overline{R}\subseteq E$ are the algebraic integers of $E$ (over $R$ ).</p>
+</div>
+<blockquote>
+<p>环 $R$ 在环扩张 $E$ 中的<span class="bubble-content">整闭包</span><span class="bubble-notation"><span class="bubble-item" style="background-color:#aa44ee;">代数闭包的推广</span></span>是 $E$ 中的子环 $\overline{R}$, 由 $E$ 中所有在 $R$ 上整的元素组成的集合. 即 $\overline{R}\subseteq E$ 中的元素是 $E$ 上 ($R$ 上) 的全体代数整数.</p>
+</blockquote>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: A domain $R$ is integrally closed when its integral closure in its quotient field $Q(R)$ is $R$ itself (when no $\alpha\in Q(R)\backslash R$ is integral over $R$ ).</p>
+</div>
+<blockquote>
+<p>设 $S$ 是环 $R$ 的扩张, 若 $R$ 的整闭包就是 $R$ 本身, 即 $\overline{R}=R$, 则称 $R$ 在 $S$ 上<span class="bubble-content">整闭</span><span class="bubble-notation"><span class="bubble-item" style="background-color:#aa44ee;">integrally closed</span></span>.</p>
+</blockquote>
+<h2 id="Localization"><a href="#Localization" class="headerlink" title="Localization"></a>Localization</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: A multiplicative subset of a commutative ring $R$ is a subset $S$ of $R$ that contains the identity element of $R$ and is closed under multiplication. A multiplicative subset $S$ is proper when $0\notin S$.</p>
+</div>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: If $S$ is a proper multiplicative subset of a commutative ring $R$, then $S^{-1}R$ is the ring of fractions of $R$ with denominators in $S$.</p>
+</div>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: Let $S$ be a proper multiplicative subset of $R$. The contraction of an ideal $\mathfrak{A}$ of $S^{-1} R$ is $\mathfrak{A}^C=\{a \in R \mid a / 1 \in \mathfrak{A}\}$. The expansion of an ideal $\mathfrak{a}$ of $R$ is $\mathfrak{a}^E=\left\{a / s \in S^{-1} R \mid a \in \mathfrak{a}, s \in S\right\}$.</p>
+</div>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: The localization of a commutative ring $R$ at a prime ideal $\mathfrak{p}$ is the ring of fractions $R_{\mathfrak{p}}=(R \backslash \mathfrak{p})^{-1} R$.</p>
+</div>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: A commutative ring is local when it has only one maximal ideal.</p>
+</div>
+<blockquote>
+<p><strong>局部环</strong> $R$ (或$(R,\mathfrak{m})$) 是只有一个极大理想 $\mathfrak{m}$ 的(含幺)交换环. 域 $R/\mathfrak{m}$ 称为 $R$ 的<strong>剩余域</strong>.<br>若 $R$ 中仅有有限个极大理想, 则称为<strong>半局部环</strong>.<br>一个局部环 $(R,\mathfrak{m})$ 上带有一个自然的 <strong>$\mathfrak{m}$-进拓扑</strong>, 使得 $R$ 称为<strong>拓扑环</strong>; 拓扑中的开集由 $\{\mathfrak{m}^i:i\ge0\}$ 生成. 当 $R$ 为诺特环时, 可证明 $R$ 是 Hausdorff 空间, 且所有理想都是闭理想.<br>设 $(R,\mathfrak{m}), (S,\mathfrak{n})$ 为局部环, 环同态 $\phi:R\to S$ 称为是<strong>局部同态</strong>, 当且仅当 $\mathfrak{m}=\phi^{-1}(\mathfrak{n})$.</p>
+</blockquote>
+<h2 id="Dedekind-Domains"><a href="#Dedekind-Domains" class="headerlink" title="Dedekind Domains"></a>Dedekind Domains</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: A fractional ideal of a domain $R$ is a subset of its quotient field $Q$ of the form $\mathfrak{a} / c=\{a / c \in Q \mid a \in \mathfrak{a}\}$, where $\mathfrak{a}$ is an ideal of $R$ and $c \in R$, $c \neq 0$.</p>
+</div>
+<blockquote>
+<p><span class="bubble-content">分式理想</span><span class="bubble-notation"><span class="bubble-item" style="background-color:#aa44ee;">分式理想是比理想更广的一种理想. 它由整环上的分式域或商域构成.</span></span>是整环 $R$ 的分式域 $Q$ 的子集, 是形如 $\mathfrak{a} / c=\{a / c \in Q \mid a \in \mathfrak{a}\}$ 的集合, 其中 $\mathfrak{a}$ 是 $R$ 的理想, $c \in R$, $c \neq 0$.</p>
+</blockquote>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: A fractional ideal $\mathfrak{A}$ of $R$ is invertible when $\mathfrak{A} \mathfrak{B}=R$ for some fractional ideal $\mathfrak{B}$ of $R$.</p>
+</div>
+<blockquote>
+<p>在整环 $R$ 中的分式理想 $\mathfrak{A}$, 若存在某个分式理想 $\mathfrak{B}$, 使得 $\mathfrak{A} \mathfrak{B}=R$, 则称 $\mathfrak{A}$ 是可逆的.</p>
+</blockquote>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: <strong>Dedekind domains</strong> are defined by the following equivalent conditions. </p>
+<ol>
+<li>every nonzero ideal of $R$ is invertible (as a fractional ideal);</li>
+<li>every nonzero fractional ideal of $R$ is invertible;</li>
+<li>every nonzero ideal of $R$ is a product of prime ideals of $R$;</li>
+<li>every nonzero ideal of $R$ can be written uniquely as a product of positive powers of distinct prime ideals of $R$.</li>
+</ol>
+</div>
+<blockquote>
+<p><span class="bubble-content">Dedekind 整环</span><span class="bubble-notation"><span class="bubble-item" style="background-color:#aa44ee;"> Dedekind整环是一维诺特整闭环</span></span>是满足以下四个等价条件之一的整环:</p>
+<ol>
+<li>$R$ 的任何非零理想是可逆的;</li>
+<li>$R$ 的任何非零分式理想是可逆的;</li>
+<li>$R$ 的任何非零理想是 $R$ 中素理想的乘积;</li>
+<li>$R$ 的任何非零理想可以唯一的表示为 $R$ 中不同素理想的整数幂之积.</li>
+</ol>
+<hr>
+<p>整环 $R$ 中的 Dedekind 整环是满足以下三个条件的整环:</p>
+<ol>
+<li>Noetherian,</li>
+<li>整闭,</li>
+<li>所有非零素理想是极大理想.</li>
+</ol>
+</blockquote>
+<h2 id="Krull-Dimension"><a href="#Krull-Dimension" class="headerlink" title="Krull Dimension"></a>Krull Dimension</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: In a commutative ring $R$, the height $\mathrm{hgt} \mathfrak{p}$ of a prime ideal $\mathfrak{p}$ is the least upper bound of the lengths of strictly descending sequences $\mathfrak{p}=\mathfrak{p}_0 \supsetneqq$ $\mathfrak{p}_1 \supsetneqq \cdots \supsetneqq \mathfrak{p}_m$ of prime ideals of $R$.</p>
+</div>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: The spectrum of a commutative ring is the set of its prime ideals, partially ordered by inclusion. The Krull dimension or dimension $\mathrm{dim} R$ of $R$ is the least upper bound of the heights of the prime ideals of $R$.</p>
+</div>
+<h2 id="Algebraic-Sets"><a href="#Algebraic-Sets" class="headerlink" title="Algebraic Sets"></a>Algebraic Sets</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: Let $K$ be a field and let $\overline{K}$ be its algebraic closure. The zero set of a set $S \subseteq K\left[X_1, \ldots, X_n\right]$ of polynomials is</p>
+<script type="math/tex; mode=display">
+Z(S)=\left\{x=\left(x_1, \ldots, x_n\right) \in \overline{K}^n \mid f(x)=0 \text { for all } f \in S\right\} .</script><p>An algebraic set in $\overline{K}^n$ with coefficients in $K$ is the zero set of a set of polynomials $S \subseteq K\left[X_1, \ldots, X_n\right]$.</p>
+</div>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: An algebraic set $A \subseteq \overline{K}^n$ is irreducible, or is an algebraic variety, when $A \neq \varnothing$ and $A$ is the zero set of a prime ideal.</p>
+</div>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: The dimension $\mathrm{dim} A$ of an algebraic variety $A \subseteq \overline{K}^n$ is the length of the longest strictly decreasing sequence $A=A_0 \supsetneqq A_1 \supsetneqq \cdots \supsetneqq A_r$ of nonempty algebraic varieties contained in A; equivalently, $n-\mathrm{hgt} \mathfrak{I}(A)$.</p>
+</div>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: The Zariski topology on an algebraic set $A \subseteq \overline{K}^n$ is the topology whose closed sets are the algebraic sets $B \subseteq A$.</p>
+</div>
+<h2 id="Regular-Mappings"><a href="#Regular-Mappings" class="headerlink" title="Regular Mappings"></a>Regular Mappings</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: Let $A \subseteq \overline{K}^n$ be an algebraic set. A polynomial function of $A$ is a mapping of $A$ into $\overline{K}$ that is induced by a polynomial $f \in K\left[X_1, \ldots, X_n\right]$. The coordinate ring of $A$ is the ring $C(A)$ of all such mappings.</p>
+</div>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: Let $K$ be a field and let $A \subseteq \overline{K}^m, B \subseteq \overline{K}^n$ be algebraic varieties. A mapping $F=\left(f_1, \ldots, f_n\right): A \longrightarrow B \subseteq \overline{K}^n$ is regular when its components $f_1, \ldots, f_n: A \longrightarrow \overline{K}$ are polynomial functions.</p>
+</div>
+<div class="note primary no-icon modern"><p><strong>定义</strong>: Two algebraic varieties $A$ and $B$ are isomorphic when there exist mutually inverse regular bijections $A \longrightarrow B$ and $B \longrightarrow A$.</p>
+</div>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><blockquote id="fn_1">
+<sup>1</sup>. GTM242. Abstract Algebra, P. A. Grillet.<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a>
+</blockquote>
+<blockquote id="fn_2">
+<sup>2</sup>. Abstract Algebra, Prabhat Choudharty.<a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#8617;</a>
+</blockquote>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css"></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Larry Eppes</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://larryeppes.site/%E7%8E%AF%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/">https://larryeppes.site/%E7%8E%AF%E4%B8%AD%E7%9A%84%E5%AE%9A%E4%B9%89/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://larryeppes.site" target="_blank">Larry_Eppes's Trivia Collection Site</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/math/">math</a><a class="post-meta__tags" href="/tags/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0/">抽象代数</a><a class="post-meta__tags" href="/tags/%E7%8E%AF/">环</a><a class="post-meta__tags" href="/tags/%E4%BA%A4%E6%8D%A2%E7%8E%AF/">交换环</a></div><div class="post_share"><div class="social-share" data-image="/img/a15b4afegy1fmvjekvk6yj21hc0u0h7x.jpg" data-sites="wechat,weibo,qq,qzone"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/%E5%AE%9A%E7%90%86%E7%9A%84%E5%90%84%E7%A7%8D%E5%90%8D%E5%AD%97/"><img class="prev-cover" src="/img/2de8e90476400a10d395d368ea001710.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">定理的各种名字</div></div></a></div><div class="next-post pull-right"><a href="/%E8%87%AA%E7%84%B6%E6%95%B0%E9%9B%86%E4%B8%8E%E6%95%B4%E6%95%B0%E9%9B%86%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8F%8C%E5%B0%84/"><img class="next-cover" src="/img/0072Vf1pgy1foxlnu5w7cj31kw0w0hcd.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">自然数集与整数集之间的双射</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相关推荐</span></div><div class="relatedPosts-list"><div><a href="/证明根号2是无理数/" title="证明根号2是无理数"><img class="cover" src="/img/0072Vf1pgy1foxk3shjrpj31hc0u0k3d.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-11-26</div><div class="title">证明根号2是无理数</div></div></a></div><div><a href="/EulerProject刷题记录 - Mathematica/" title="EulerProject刷题记录 - Mathematica"><img class="cover" src="/img/0072Vf1pgy1fodqnrlkfxj31110q77sr.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-11-26</div><div class="title">EulerProject刷题记录 - Mathematica</div></div></a></div><div><a href="/Latex编辑展示页面/" title="Latex编辑展示页面"><img class="cover" src="/img/0072Vf1pgy1foxkcymwgnj31kw0w0qsx.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-02-02</div><div class="title">Latex编辑展示页面</div></div></a></div><div><a href="/MSE问题集/" title="MSE问题集"><img class="cover" src="/img/0072Vf1pgy1foxkfzphb2j31hc0u0gvv.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-04-26</div><div class="title">MSE问题集</div></div></a></div><div><a href="/mathematica内置函数概览/" title="mathematica内置函数概览"><img class="cover" src="/img/a15b4afely1fnt9nsbnknj21hc0u0k6b.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-03-06</div><div class="title">mathematica内置函数概览</div></div></a></div><div><a href="/一题多解/" title="一题多解"><img class="cover" src="/img/a15b4afely1fnt99tpvpwj21hc0u0e84.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-14</div><div class="title">一题多解</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div id="comment-switch"><span class="first-comment">Valine</span><span class="switch-btn"></span><span class="second-comment">Gitalk</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div><div><div id="gitalk-container"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="/img/head.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Larry Eppes</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">52</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">78</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">19</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/larryeppes"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/larryeppes" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="/img/wechat.png" target="_blank" title="微信"><i class="fab fa-weixin"></i></a><a class="social-icon" href="https://space.bilibili.com/343918736" target="_blank" title="BiliBili"><i class="fa fa-television"></i></a><a class="social-icon" href="mailto:larryleifeng@163.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">这是 Larry Eppes 的 blog, 仅做一些日常记录.</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%8E%AF2"><span class="toc-number">1.</span> <span class="toc-text">环2</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%8E%AF"><span class="toc-number">1.1.</span> <span class="toc-text">环</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%A4%E6%8D%A2%E7%8E%AF-%E6%95%B4%E7%8E%AF-%E9%99%A4%E7%8E%AF-%E5%9F%9F-%E7%89%B9%E5%BE%81"><span class="toc-number">1.2.</span> <span class="toc-text">交换环, 整环, 除环, 域, 特征</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%90%E7%8E%AF1"><span class="toc-number">1.2.1.</span> <span class="toc-text">子环1</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8C%E6%80%81"><span class="toc-number">1.3.</span> <span class="toc-text">同态</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%90%86%E6%83%B3"><span class="toc-number">1.4.</span> <span class="toc-text">理想</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8C%E4%BD%99-%E4%BA%92%E7%B4%A0-%E6%9C%80%E5%A4%A7%E5%85%AC%E5%9B%A0%E5%AD%90-%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0"><span class="toc-number">1.5.</span> <span class="toc-text">同余, 互素, 最大公因子, 最小公倍数</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%B4%E7%A7%AF"><span class="toc-number">1.6.</span> <span class="toc-text">直积</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9E%81%E5%A4%A7%E7%90%86%E6%83%B3"><span class="toc-number">1.7.</span> <span class="toc-text">极大理想</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%95%E4%BD%8D-%E4%B8%8D%E5%8F%AF%E7%BA%A6%E5%85%83-%E7%B4%A0%E5%85%83"><span class="toc-number">1.8.</span> <span class="toc-text">单位, 不可约元, 素元</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%94%AF%E4%B8%80%E5%9B%A0%E5%AD%90%E5%88%86%E8%A7%A3%E6%95%B4%E7%8E%AF"><span class="toc-number">1.9.</span> <span class="toc-text">唯一因子分解整环</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%BB%E7%90%86%E6%83%B3%E6%95%B4%E7%8E%AF-%E6%AC%A7%E5%BC%8F%E6%95%B4%E7%8E%AF"><span class="toc-number">1.10.</span> <span class="toc-text">主理想整环, 欧式整环</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#multiplicative-set"><span class="toc-number">1.11.</span> <span class="toc-text">multiplicative set</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8D%E5%8F%AF%E7%BA%A6%E5%A4%9A%E9%A1%B9%E5%BC%8F"><span class="toc-number">1.12.</span> <span class="toc-text">不可约多项式</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%A4%E6%8D%A2%E7%8E%AF1"><span class="toc-number">2.</span> <span class="toc-text">交换环1</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%B4%A0%E7%90%86%E6%83%B32"><span class="toc-number">2.1.</span> <span class="toc-text">素理想2</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%9A%E9%A1%B9%E5%BC%8F%E7%8E%AF2"><span class="toc-number">2.2.</span> <span class="toc-text">多项式环2</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Primary-Decomposition"><span class="toc-number">2.3.</span> <span class="toc-text">Primary Decomposition</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Ring-Extensions"><span class="toc-number">2.4.</span> <span class="toc-text">Ring Extensions</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Integral-Extensions"><span class="toc-number">2.5.</span> <span class="toc-text">Integral Extensions</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Localization"><span class="toc-number">2.6.</span> <span class="toc-text">Localization</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Dedekind-Domains"><span class="toc-number">2.7.</span> <span class="toc-text">Dedekind Domains</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Krull-Dimension"><span class="toc-number">2.8.</span> <span class="toc-text">Krull Dimension</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Algebraic-Sets"><span class="toc-number">2.9.</span> <span class="toc-text">Algebraic Sets</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Regular-Mappings"><span class="toc-number">2.10.</span> <span class="toc-text">Regular Mappings</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#References"><span class="toc-number">2.11.</span> <span class="toc-text">References</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/%E5%88%9D%E7%AD%89%E5%87%BD%E6%95%B0/" title="初等函数"><img src="/img/d3648db7aac4a79355e64d66b4f45ccb.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="初等函数"/></a><div class="content"><a class="title" href="/%E5%88%9D%E7%AD%89%E5%87%BD%E6%95%B0/" title="初等函数">初等函数</a><time datetime="2025-10-30T11:05:27.091Z" title="更新于 2025-10-30 19:05:27">2025-10-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E5%85%B3%E4%BA%8E%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" title="关于高等数学"><img src="/img/45b30b18dc1d0de91fca56b03959380c.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="关于高等数学"/></a><div class="content"><a class="title" href="/%E5%85%B3%E4%BA%8E%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" title="关于高等数学">关于高等数学</a><time datetime="2025-10-30T10:40:15.391Z" title="更新于 2025-10-30 18:40:15">2025-10-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/VSCode%E5%BF%AB%E6%8D%B7%E8%BE%93%E5%85%A5%E9%85%8D%E7%BD%AE/" title="VSCode 快捷输入配置"><img src="/img/0bdfda67aa7b702aec88c35bb5a4d8eb.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="VSCode 快捷输入配置"/></a><div class="content"><a class="title" href="/VSCode%E5%BF%AB%E6%8D%B7%E8%BE%93%E5%85%A5%E9%85%8D%E7%BD%AE/" title="VSCode 快捷输入配置">VSCode 快捷输入配置</a><time datetime="2025-10-30T10:23:14.757Z" title="更新于 2025-10-30 18:23:14">2025-10-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/mathematica%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%E6%A6%82%E8%A7%88/" title="mathematica内置函数概览"><img src="/img/a15b4afely1fnt9nsbnknj21hc0u0k6b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="mathematica内置函数概览"/></a><div class="content"><a class="title" href="/mathematica%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%E6%A6%82%E8%A7%88/" title="mathematica内置函数概览">mathematica内置函数概览</a><time datetime="2024-11-08T05:36:28.552Z" title="更新于 2024-11-08 13:36:28">2024-11-08</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E5%B8%B8%E7%94%A8%E6%81%92%E7%AD%89%E5%BC%8F/" title="常用恒等式"><img src="/img/3f1ffa0a359d5afec8b4055d297a513d.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="常用恒等式"/></a><div class="content"><a class="title" href="/%E5%B8%B8%E7%94%A8%E6%81%92%E7%AD%89%E5%BC%8F/" title="常用恒等式">常用恒等式</a><time datetime="2024-11-08T04:08:32.407Z" title="更新于 2024-11-08 12:08:32">2024-11-08</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2021 - 2025 By Larry Eppes</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font-plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font-minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (true){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    loader: {
+      source: {
+        '[tex]/amsCd': '[tex]/amscd'
+      },
+      load: ['input/tex-base', 'output/svg', 'ui/menu', '[tex]/configmacros', '[tex]/autoload', '[tex]/mathtools', '[tex]/ams', '[tex]/require']
+    },
+    tex: {
+      packages: {'[+]': ['configmacros', 'autoload', 'mathtools', 'ams']},
+      inlineMath: [ ['$','$'], ["\\(","\\)"]],
+      displayMath: [             // start/end delimiter pairs for display math
+        ['$$', '$$'],
+        ['\\[', '\\]']
+      ],
+      tags: 'ams',
+      macros: {
+        RR: '\\mathbb{R}',
+        QQ: '\\mathbb{Q}',
+        ZZ: '\\mathbb{Z}',
+        CC: '\\mathbb{C}',
+        NN: '\\mathbb{N}',
+        pNN: '\\mathbb{N}_+',
+        ud: '\\mathrm{d}',
+        ue: '\\mathrm{e}',
+        ui: '\\mathrm{i}',
+        udiv: '\\mathrm{div}',
+        wc: '\\rightharpoonup',
+        oint: '\u222e',
+        oiint: '\u222f',
+        oiiint: '\u2230',
+        norm: ["\\left\\| #1 \\right\\|", 1],
+        abs: ["\\left| #1 \\right|", 1]
+      }
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, ''],
+        addClass: [200,() => {
+          document.querySelectorAll('mjx-container:not([display=\'true\']').forEach( node => {
+            const target = node.parentNode
+            if (!target.classList.contains('has-jax')) {
+              target.classList.add('mathjax-overflow')
+            }
+          })
+        }, '', false]
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typeset()
+}</script><script>if (document.getElementsByClassName('mermaid').length) {
+  if (window.mermaidJsLoad) mermaid.init()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(() => {
+      window.mermaidJsLoad = true
+      mermaid.initialize({
+        theme: 'forest',
+      })
+      false && mermaid.init()
+    })
+  }
+}</script><script>function loadValine () {
+  function initValine () {
+    let initData = {
+      el: '#vcomment',
+      master:'aa515fb49018426b37353dba8ee9295f',
+      appId: 'tGC6nSdJ5VjiCKhKDPcXKqm6-MdYXbMMI',
+      appKey: '32oq82lFTL3t75HT8Vkby2BU',
+      placeholder: 'Please leave your footprints',
+      avatar: 'mp',
+      meta: 'nick,mail'.split(','),
+      pageSize: '10',
+      lang: 'zh-CN',
+      recordIP: true,
+      serverURLs: 'https://tgc6nsdj.api.lncldglobal.com',
+      emojiCDN: '',
+      emojiMaps: "",
+      enableQQ: true,
+      path: window.location.pathname,
+    }
+
+    if (true) { 
+      initData.requiredFields= ('nick,mail'.split(','))
+    }
+    
+    if (false) {
+      const otherData = false
+      initData = Object.assign(initData, otherData)
+    }
+    
+    const valine = new Valine(initData)
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script><script>function addGitalkSource () {
+  const ele = document.createElement('link')
+  ele.rel = 'stylesheet'
+  ele.href= 'https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css'
+  document.getElementsByTagName('head')[0].appendChild(ele)
+}
+
+function loadGitalk () {
+  function initGitalk () {
+    var gitalk = new Gitalk({
+      clientID: '4e8dae54dd4b05b79f59',
+      clientSecret: 'a6c663b870303c2139e313b609d5025a8139f1bc',
+      repo: 'larryeppes.github.io',
+      owner: 'larryeppes',
+      admin: ['larryeppes'],
+      id: '771523eb564ac06678fd8e151c208e0f',
+      language: 'zh-CN',
+      perPage: 10,
+      distractionFreeMode: false,
+      pagerDirection: 'last',
+      createIssueManually: false,
+      updateCountCallback: commentCount
+    })
+    gitalk.render('gitalk-container')
+  }
+
+  if (typeof Gitalk === 'function') initGitalk()
+  else {
+    addGitalkSource()
+    getScript('https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js').then(initGitalk)
+  }
+}
+
+function commentCount(n){
+  let isCommentCount = document.querySelector('#post-meta .gitalk-comment-count')
+  if (isCommentCount) {
+    isCommentCount.innerHTML= n
+  }
+}
+
+if ('Valine' === 'Gitalk' || !false) {
+  if (false) btf.loadComment(document.getElementById('gitalk-container'), loadGitalk)
+  else loadGitalk()
+} else {
+  function loadOtherComment () {
+    loadGitalk()
+  }
+}</script></div><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

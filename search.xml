@@ -5961,7 +5961,12 @@ f'_{-}(x_{0})=f'(x_{0}-0).</script><p>因为$\lim_{x\to x_{0}}f’(x)=k$存在, 
     <title>关于高等数学</title>
     <url>/%E5%85%B3%E4%BA%8E%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/</url>
     <content><![CDATA[<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a><strong>目录</strong></h1><ul>
-<li><a href="/%E5%88%9D%E7%AD%89%E5%87%BD%E6%95%B0/" title="初等函数">初等函数</a>
+<li><a href="/%E5%88%9D%E7%AD%89%E5%87%BD%E6%95%B0/" title="初等函数">初等函数</a></li>
+<li><a href="/%E6%95%B0%E5%88%97%E7%9A%84%E6%9E%81%E9%99%90/" title="数列的极限">数列的极限</a></li>
+<li><a href="/%E5%87%BD%E6%95%B0%E7%9A%84%E6%9E%81%E9%99%90/" title="函数的极限">函数的极限</a></li>
+<li><a href="/%E6%97%A0%E7%A9%B7%E5%B0%8F%E4%B8%8E%E6%97%A0%E7%A9%B7%E5%A4%A7/" title="无穷小与无穷大">无穷小与无穷大</a></li>
+<li><a href="/%E6%9E%81%E9%99%90%E7%9A%84%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97%E6%B3%95%E5%88%99/" title="极限的四则运算法则">极限的四则运算法则</a></li>
+<li><a href="/%E6%9E%81%E9%99%90%E5%AD%98%E5%9C%A8%E5%87%86%E5%88%99%E4%B8%8E%E4%B8%A4%E4%B8%AA%E9%87%8D%E8%A6%81%E6%9E%81%E9%99%90/" title="极限存在准则与两个重要极限">极限存在准则与两个重要极限</a>
 </li>
 </ul>
 <h1 id="📌-课外参考资料推荐"><a href="#📌-课外参考资料推荐" class="headerlink" title="📌 课外参考资料推荐"></a>📌 <strong>课外参考资料推荐</strong></h1><ul>
@@ -6279,6 +6284,928 @@ f'_{-}(x_{0})=f'(x_{0}-0).</script><p>因为$\lim_{x\to x_{0}}f’(x)=k$存在, 
 <li>图像总在 $x$ 轴上方，且通过点 $(0, 1)$</li>
 </ul>
 </li>
+</ul>
+<p><strong>基本形式</strong></p>
+<ul>
+<li>$y = a^x$（$a &gt; 0, a \neq 1$）</li>
+<li>特殊形式：$y = \left( \frac{1}{a} \right)^x$</li>
+<li>常用指数函数：$y = e^x$，其中 $e \approx 2.7182818\cdots$</li>
+</ul>
+<p><strong>性质</strong></p>
+<ul>
+<li>$a^{x_1 + x_2} = a^{x_1} \cdot a^{x_2}$</li>
+<li>$a^{x_1 - x_2} = \dfrac{a^{x_1}}{a^{x_2}}$</li>
+<li>$a^{x_1 x_2} = (a^{x_1})^{x_2}$</li>
+<li>$a^{-x} = \dfrac{1}{a^x}$</li>
+<li>$a^{x+c} = a^c \cdot a^x$</li>
+</ul>
+<p><strong>基本特征</strong></p>
+<ul>
+<li>自变量增加固定量 $c$ 时，函数值乘以固定数 $b = a^c$</li>
+</ul>
+<p><strong>4. 对数函数</strong></p>
+<p><strong>定义</strong></p>
+<ul>
+<li>指数函数的反函数：$y = \log_a x$（$a &gt; 0, a \neq 1$）</li>
+<li>定义域：$(0, +\infty)$</li>
+<li>图像位于 $y$ 轴右侧，过点 $(1, 0)$，与 $y = a^x$ 关于 $y = x$ 对称</li>
+</ul>
+<p><strong>性质</strong></p>
+<ul>
+<li>$a^{\log_a x} = x$</li>
+<li>$\log_a a^x = x$</li>
+<li>$\log_a (x_1 x_2) = \log_a x_1 + \log_a x_2$</li>
+<li>$\log_a \dfrac{x_1}{x_2} = \log_a x_1 - \log_a x_2$</li>
+<li>$\log_a x^m = m \log_a |x|$</li>
+<li>换底公式：$\log_b x = \dfrac{\log_a x}{\log_a b}$</li>
+</ul>
+<p><strong>自然对数</strong></p>
+<ul>
+<li>$y = \ln x$（即以 $e$ 为底的对数函数）</li>
+</ul>
+<p><strong>5. 三角函数</strong></p>
+<p><strong>基本函数</strong></p>
+<ul>
+<li>正弦函数 $\sin x$</li>
+<li>余弦函数 $\cos x$</li>
+<li>正切函数 $\tan x$</li>
+<li>余切函数 $\cot x$</li>
+<li>正割函数 $\sec x$</li>
+<li>余割函数 $\csc x$</li>
+</ul>
+<p><strong>周期性</strong></p>
+<ul>
+<li>$\sin x$、$\cos x$ 的周期为 $2\pi$</li>
+</ul>
+<p><strong>奇偶性</strong></p>
+<ul>
+<li>奇函数：$\sin x$</li>
+<li>偶函数：$\cos x$</li>
+</ul>
+<p><strong>主要性质</strong></p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>公式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>平方关系</td>
+<td>$\sin^2 x + \cos^2 x = 1$，$1 + \tan^2 x = \sec^2 x$</td>
+</tr>
+<tr>
+<td>两角和差</td>
+<td>$\sin(x \pm y) = \sin x \cos y \pm \cos x \sin y$<br>$\cos(x \pm y) = \cos x \cos y \mp \sin x \sin y$<br>$\tan(x \pm y) = \dfrac{\tan x \pm \tan y}{1 \mp \tan x \tan y}$</td>
+</tr>
+<tr>
+<td>二倍角</td>
+<td>$\sin 2x = 2 \sin x \cos x$<br>$\cos 2x = \cos^2 x - \sin^2 x$<br>$\tan 2x = \dfrac{2 \tan x}{1 - \tan^2 x}$</td>
+</tr>
+<tr>
+<td>积化和差</td>
+<td>$\sin x \cos y = \frac{1}{2} [\sin(x+y) + \sin(x-y)]$<br>$\cos x \sin y = \frac{1}{2} [\sin(x+y) - \sin(x-y)]$<br>$\cos x \cos y = \frac{1}{2} [\cos(x+y) + \cos(x-y)]$<br>$\sin x \sin y = -\frac{1}{2} [\cos(x+y) - \cos(x-y)]$</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>正弦函数 $y = \sin x$</strong></p>
+<ul>
+<li><strong>图像特征</strong>：波浪形曲线，在 $[-2\pi, 2\pi]$ 区间内展示出完整的周期性。</li>
+<li><strong>周期</strong>：$2\pi$</li>
+<li><strong>值域</strong>：$[-1, 1]$</li>
+</ul>
+<p><strong>余弦函数 $y = \cos x$</strong></p>
+<ul>
+<li><strong>图像特征</strong>：与正弦函数相似，但相位向左平移 $\frac{\pi}{2}$。</li>
+<li><strong>周期</strong>：$2\pi$</li>
+<li><strong>值域</strong>：$[-1, 1]$</li>
+</ul>
+<p><strong>正切函数 $y = \tan x$</strong></p>
+<ul>
+<li><strong>定义域</strong>：$\{x \mid x \in \mathbb{R}, x \neq (2n+1)\frac{\pi}{2}, n \in \mathbb{Z}\}$</li>
+<li><strong>周期</strong>：$\pi$</li>
+<li><strong>图像特征</strong>：在每个周期内从 $-\infty$ 增至 $+\infty$，有垂直渐近线。</li>
+</ul>
+<p><strong>余切函数 $y = \cot x$</strong></p>
+<ul>
+<li><strong>定义域</strong>：$\{x \mid x \in \mathbb{R}, x \neq n\pi, n \in \mathbb{Z}\}$</li>
+<li><strong>周期</strong>：$\pi$</li>
+<li><strong>图像特征</strong>：与正切函数相似，但相位相差 $\frac{\pi}{2}$。</li>
+</ul>
+<p><strong>正割函数 $y = \sec x$</strong></p>
+<ul>
+<li><strong>定义</strong>：$\sec x = \frac{1}{\cos x}$</li>
+<li><strong>周期</strong>：$2\pi$</li>
+</ul>
+<p><strong>余割函数 $y = \csc x$</strong></p>
+<ul>
+<li><strong>定义</strong>：$\csc x = \frac{1}{\sin x}$</li>
+<li><strong>周期</strong>：$2\pi$</li>
+</ul>
+<p><strong>6. 反三角函数</strong></p>
+<p>反三角函数是三角函数的反函数，限制在单调区间内定义：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>表示</th>
+<th>定义域</th>
+<th>值域（主值分支）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>反正弦</td>
+<td>$y = \arcsin x$</td>
+<td>$[-1, 1]$</td>
+<td>$\left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]$</td>
+</tr>
+<tr>
+<td>反余弦</td>
+<td>$y = \arccos x$</td>
+<td>$[-1, 1]$</td>
+<td>$[0, \pi]$</td>
+</tr>
+<tr>
+<td>反正切</td>
+<td>$y = \arctan x$</td>
+<td>$(-\infty, +\infty)$</td>
+<td>$\left( -\frac{\pi}{2}, \frac{\pi}{2} \right)$</td>
+</tr>
+<tr>
+<td>反余切</td>
+<td>$y = \operatorname{arccot} x$</td>
+<td>$(-\infty, +\infty)$</td>
+<td>$(0, \pi)$</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id="六、初等函数的定义"><a href="#六、初等函数的定义" class="headerlink" title="六、初等函数的定义"></a><strong>六、初等函数的定义</strong></h3><ul>
+<li><p><strong>初等函数</strong>：由以下五类<strong>基本初等函数</strong>：</p>
+<ul>
+<li>幂函数</li>
+<li>指数函数</li>
+<li>对数函数</li>
+<li>三角函数</li>
+<li>反三角函数<br>以及<strong>常数</strong>，经过有限次的<strong>四则运算</strong>和<strong>函数复合</strong>步骤构成的函数。</li>
+</ul>
+</li>
+<li><p><strong>特点</strong>：初等函数必定能用一个解析式表示。</p>
+</li>
+</ul>
+<div class="note primary no-icon modern"><p><strong>作为初等函数的例子</strong>: </p>
+<script type="math/tex; mode=display">y = \ln \arctan \sqrt{1 + x^2}</script><script type="math/tex; mode=display">y = \sin^2 x</script><script type="math/tex; mode=display">y = \frac{1}{2} \ln \frac{1 + x}{1 - x}</script></div>
+<h4 id="初等函数与非初等函数"><a href="#初等函数与非初等函数" class="headerlink" title="初等函数与非初等函数"></a>初等函数与非初等函数</h4><ul>
+<li><strong>初等函数</strong>：由基本初等函数经过有限次四则运算和复合步骤构成的函数。</li>
+<li><strong>非初等函数</strong>：如分段函数、表格表示的函数等，不属于初等函数。</li>
+</ul>
+<h4 id="例子："><a href="#例子：" class="headerlink" title="例子："></a>例子：</h4><ul>
+<li>$y = |x|$ 是非初等函数（分段函数）。</li>
+<li>$y = \sqrt{x^2}$ 是初等函数。</li>
+<li>$y = x^x = e^{x \ln x}$ 是初等函数（通过指数与对数复合）。</li>
+<li>$y = (\sin x)^{\cos x} = e^{\cos x \ln \sin x}$ 是初等函数。</li>
+</ul>
+<hr>
+<h4 id="2-双曲函数及其性质"><a href="#2-双曲函数及其性质" class="headerlink" title="2. 双曲函数及其性质"></a>2. 双曲函数及其性质</h4><h4 id="定义："><a href="#定义：" class="headerlink" title="定义："></a>定义：</h4><ul>
+<li>双曲正弦：$\sinh \, x = \frac{e^x - e^{-x}}{2}$</li>
+<li>双曲余弦：$\cosh \, x = \frac{e^x + e^{-x}}{2}$</li>
+<li>双曲正切：$\tanh \, x = \frac{\sinh \, x}{\cosh \, x} = \frac{e^x - e^{-x}}{e^x + e^{-x}}$</li>
+</ul>
+<h4 id="定义域："><a href="#定义域：" class="headerlink" title="定义域："></a>定义域：</h4><ul>
+<li>均为 $(-\infty, +\infty)$，除 $\tanh x$ 的分母不为零。</li>
+</ul>
+<h4 id="图像特征："><a href="#图像特征：" class="headerlink" title="图像特征："></a>图像特征：</h4><ul>
+<li>$y = \cosh \, x$ 为偶函数，开口向上；</li>
+<li>$y = \sinh \, x$ 为奇函数，通过原点；</li>
+<li>两者渐近于 $\frac{1}{2}e^x$ 和 $\frac{1}{2}e^{-x}$。</li>
+</ul>
+<hr>
+<h4 id="双曲函数的恒等式"><a href="#双曲函数的恒等式" class="headerlink" title="双曲函数的恒等式"></a>双曲函数的恒等式</h4><ul>
+<li>$\sinh(x \pm y) = \sinh \, x \, \cosh \, y \pm \cosh \, x \, \sinh \, y$</li>
+<li>$\cosh(x \pm y) = \cosh \, x \, \cosh \, y \pm \sinh \, x \, \sinh \, y$</li>
+<li>$\cosh^2 x - \sinh^2 x = 1$</li>
+<li>$\sinh \, 2x = 2 \, \sinh \, x \, \cosh \, x$</li>
+<li>$\cosh \, 2x = \cosh^2 x + \sinh^2 x$</li>
+</ul>
+<hr>
+<h4 id="反双曲函数"><a href="#反双曲函数" class="headerlink" title="反双曲函数"></a>反双曲函数</h4><ul>
+<li>反双曲正弦：$\arcsinh \, x = \ln(x + \sqrt{x^2 + 1}), \quad x \in (-\infty, +\infty)$</li>
+<li>反双曲余弦：$\arccosh \, x = \ln(x + \sqrt{x^2 - 1}), \quad x \in [1, +\infty)$</li>
+<li>反双曲正切：$\arctanh \, x = \frac{1}{2} \ln \frac{1 + x}{1 - x}, \quad x \in (-1, 1)$</li>
+</ul>
+<hr>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>高等数学</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>函数的极限</title>
+    <url>/%E5%87%BD%E6%95%B0%E7%9A%84%E6%9E%81%E9%99%90/</url>
+    <content><![CDATA[<h1 id="函数的极限"><a href="#函数的极限" class="headerlink" title="函数的极限"></a>函数的极限</h1><h2 id="一、-x-to-infty-时函数的极限"><a href="#一、-x-to-infty-时函数的极限" class="headerlink" title="一、$x \to \infty$ 时函数的极限"></a>一、$x \to \infty$ 时函数的极限</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: 设函数 $f(x)$ 在 $|x|$ 大于某正数时有定义。若对任意 $\varepsilon &gt; 0$，存在 $X &gt; 0$，使得当 $|x| &gt; X$ 时，有：</p>
+<script type="math/tex; mode=display">
+|f(x) - A| < \varepsilon</script><p>则称常数 $A$ 是 $f(x)$ 当 $x \to \infty$ 时的极限，记作：</p>
+<script type="math/tex; mode=display">
+\lim_{x \to \infty} f(x) = A \quad \text{或} \quad f(x) \to A \ (x \to \infty)</script></div>
+<hr>
+<h3 id="几何解释"><a href="#几何解释" class="headerlink" title="几何解释"></a>几何解释</h3><ul>
+<li>当 $x &lt; -X$ 或 $x &gt; X$ 时，函数图像位于水平带形区域 $A - \varepsilon &lt; y &lt; A + \varepsilon$ 内。</li>
+<li>直线 $y = A$ 称为曲线 $y = f(x)$ 的 <strong>水平渐近线</strong>。</li>
+</ul>
+<h3 id="充要条件"><a href="#充要条件" class="headerlink" title="充要条件"></a>充要条件</h3><ul>
+<li><p><strong>定义</strong>：$\lim_{x \to \infty} f(x) = A$ 指：<br>\[<br>\forall \varepsilon &gt; 0,\ \exists X &gt; 0,\ \text{当 } |x| &gt; X \text{ 时},\ |f(x) - A| &lt; \varepsilon<br>\]</p>
+</li>
+<li><p><strong>充要条件</strong>：<br>\[<br>\lim_{x \to \infty} f(x) = A \ \iff\ \lim_{x \to +\infty} f(x) = A \ \text{且} \ \lim_{x \to -\infty} f(x) = A<br>\]</p>
+</li>
+</ul>
+<hr>
+<h3 id="例题与反例"><a href="#例题与反例" class="headerlink" title="例题与反例"></a>例题与反例</h3><h4 id="例：-f-x-arctan-x"><a href="#例：-f-x-arctan-x" class="headerlink" title="例：$f(x) = \arctan x$"></a>例：$f(x) = \arctan x$</h4><ul>
+<li>$\lim_{x \to +\infty} \arctan x = \frac{\pi}{2}$</li>
+<li>$\lim_{x \to -\infty} \arctan x = -\frac{\pi}{2}$</li>
+<li>左右极限不相等 ⇒ $\lim_{x \to \infty} \arctan x$ <strong>不存在</strong></li>
+</ul>
+<hr>
+<h4 id="例：用定义证明-lim-x-to-infty-frac-1-x-0"><a href="#例：用定义证明-lim-x-to-infty-frac-1-x-0" class="headerlink" title="例：用定义证明 $\lim_{x \to \infty} \frac{1}{x} = 0$"></a>例：用定义证明 $\lim_{x \to \infty} \frac{1}{x} = 0$</h4><p><strong>证</strong>：<br>\[<br>\left| \frac{1}{x} - 0 \right| = \frac{1}{|x|}<br>\]<br>对 $\forall \varepsilon &gt; 0$，取 $X = \frac{1}{\varepsilon}$，当 $|x| &gt; X$ 时：<br>\[<br>\left| \frac{1}{x} \right| &lt; \varepsilon<br>\]<br>故极限为 0，且 $y = 0$ 是水平渐近线。</p>
+<hr>
+<h3 id="单侧极限（-x-to-infty-与-x-to-infty-）"><a href="#单侧极限（-x-to-infty-与-x-to-infty-）" class="headerlink" title="单侧极限（$x \to +\infty$ 与 $x \to -\infty$）"></a>单侧极限（$x \to +\infty$ 与 $x \to -\infty$）</h3><ul>
+<li><p>$\lim_{x \to +\infty} f(x) = A$：<br>$\forall \varepsilon &gt; 0,\ \exists X &gt; 0,\ \text{当 } x &gt; X \Rightarrow |f(x) - A| &lt; \varepsilon$</p>
+</li>
+<li><p>$\lim_{x \to -\infty} f(x) = A$：<br>$\forall \varepsilon &gt; 0,\ \exists X &gt; 0,\ \text{当 } x &lt; -X \Rightarrow |f(x) - A| &lt; \varepsilon$</p>
+</li>
+</ul>
+<hr>
+<h3 id="水平渐近线举例"><a href="#水平渐近线举例" class="headerlink" title="水平渐近线举例"></a>水平渐近线举例</h3><ul>
+<li>$f(x) = \frac{1}{\sqrt{x}}$，$g(x) = \frac{1}{\sqrt{1-x}}$ → 渐近线 $y = 0$</li>
+<li>$f(x) = 1 - 2^{-x}$，$g(x) = 1 + 2^{x}$ → 渐近线 $y = 1$</li>
+</ul>
+<hr>
+<h2 id="二、-x-to-x-0-时函数的极限"><a href="#二、-x-to-x-0-时函数的极限" class="headerlink" title="二、$x \to x_0$ 时函数的极限"></a>二、$x \to x_0$ 时函数的极限</h2><h3 id="直观描述与实质"><a href="#直观描述与实质" class="headerlink" title="直观描述与实质"></a>直观描述与实质</h3><ul>
+<li>$x$ 以任意方式趋近 $x_0$，$f(x)$ 与 $A$ 无限接近</li>
+<li>实质：<br>\[<br>|x - x_0| \text{ 任意小 } \Rightarrow |f(x) - A| \text{ 任意小}<br>\]</li>
+</ul>
+<hr>
+<div class="note primary no-icon modern"><p><strong>定义（$\varepsilon$-$\delta$ 语言）</strong>: 设 $f(x)$ 在 $x_0$ 的某去心邻域有定义，若  </p>
+<script type="math/tex; mode=display">
+\forall \varepsilon > 0,\ \exists \delta > 0,\ \text{当 } 0 < |x - x_0| < \delta \Rightarrow |f(x) - A| < \varepsilon</script><p>则称  </p>
+<script type="math/tex; mode=display">
+\lim_{x \to x_0} f(x) = A</script></div>
+<hr>
+<h3 id="几何解释-1"><a href="#几何解释-1" class="headerlink" title="几何解释"></a>几何解释</h3><ul>
+<li>对任意 $\varepsilon &gt; 0$，存在一个以 $x_0$ 为中心、$\delta$ 为半径的去心邻域，使得函数值落在区间 $(A - \varepsilon, A + \varepsilon)$ 内。</li>
+<li><strong>推论</strong>：若极限存在，则函数在 $x_0$ 的某去心邻域内有界（局部有界性）。</li>
+</ul>
+<hr>
+<h3 id="基本极限证明举例"><a href="#基本极限证明举例" class="headerlink" title="基本极限证明举例"></a>基本极限证明举例</h3><h4 id="例：证明-lim-x-to-x-0-C-C"><a href="#例：证明-lim-x-to-x-0-C-C" class="headerlink" title="例：证明 $\lim_{x \to x_0} C = C$"></a>例：证明 $\lim_{x \to x_0} C = C$</h4><p><strong>证</strong>：<br>\[<br>|C - C| = 0 &lt; \varepsilon \quad \forall \varepsilon &gt; 0<br>\]<br>对任意 $\delta &gt; 0$ 都成立，故极限为 $C$。</p>
+<hr>
+<h4 id="例：证明-lim-x-to-x-0-x-x-0"><a href="#例：证明-lim-x-to-x-0-x-x-0" class="headerlink" title="例：证明 $\lim_{x \to x_0} x = x_0$"></a>例：证明 $\lim_{x \to x_0} x = x_0$</h4><p><strong>证</strong>：<br>\[<br>|x - x_0| &lt; \varepsilon \quad \text{取 } \delta = \varepsilon<br>\]<br>当 $0 &lt; |x - x_0| &lt; \delta$ 时，有 $|x - x_0| &lt; \varepsilon$，故极限为 $x_0$。</p>
+<hr>
+<h4 id="例：证明-lim-x-to-x-0-sqrt-x-sqrt-x-0-（-x-0-gt-0-）"><a href="#例：证明-lim-x-to-x-0-sqrt-x-sqrt-x-0-（-x-0-gt-0-）" class="headerlink" title="例：证明 $\lim_{x \to x_0} \sqrt{x} = \sqrt{x_0}$（$x_0 &gt; 0$）"></a>例：证明 $\lim_{x \to x_0} \sqrt{x} = \sqrt{x_0}$（$x_0 &gt; 0$）</h4><p><strong>证</strong>：<br>\[<br>|\sqrt{x} - \sqrt{x_0}| = \frac{|x - x_0|}{\sqrt{x} + \sqrt{x_0}} \leq \frac{|x - x_0|}{\sqrt{x_0}}<br>\]<br>取 $\delta = \min\{x_0, \sqrt{x_0} \cdot \varepsilon\}$，则当 $0 &lt; |x - x_0| &lt; \delta$ 时：<br>\[<br>|\sqrt{x} - \sqrt{x_0}| \leq \frac{|x - x_0|}{\sqrt{x_0}} &lt; \varepsilon<br>\]</p>
+<hr>
+<h4 id="例：证明-lim-x-to-x-0-sin-x-sin-x-0"><a href="#例：证明-lim-x-to-x-0-sin-x-sin-x-0" class="headerlink" title="例：证明 $\lim_{x \to x_0} \sin x = \sin x_0$"></a>例：证明 $\lim_{x \to x_0} \sin x = \sin x_0$</h4><p><strong>证</strong>：<br>\[<br>|\sin x - \sin x_0| = 2\left|\cos\frac{x + x_0}{2}\sin\frac{x - x_0}{2}\right| \leq 2\left|\sin\frac{x - x_0}{2}\right| \leq |x - x_0|<br>\]<br>取 $\delta = \varepsilon$，则当 $0 &lt; |x - x_0| &lt; \delta$ 时：<br>\[<br>|\sin x - \sin x_0| \leq |x - x_0| &lt; \varepsilon<br>\]<br>同理可证 $\lim_{x \to x_0} \cos x = \cos x_0$</p>
+<hr>
+<h4 id="例：证明-lim-x-to-2-x-2-4"><a href="#例：证明-lim-x-to-2-x-2-4" class="headerlink" title="例：证明 $\lim_{x \to 2} x^2 = 4$"></a>例：证明 $\lim_{x \to 2} x^2 = 4$</h4><p><strong>证</strong>：<br>设 $|x - 2| &lt; 1 \Rightarrow 1 &lt; x &lt; 3 \Rightarrow |x + 2| &lt; 5$<br>\[<br>|x^2 - 4| = |x - 2||x + 2| &lt; 5|x - 2|<br>\]<br>取 $\delta = \min\left\{1, \frac{\varepsilon}{5}\right\}$，则当 $0 &lt; |x - 2| &lt; \delta$ 时：<br>\[<br>|x^2 - 4| &lt; 5 \cdot \frac{\varepsilon}{5} = \varepsilon<br>\]</p>
+<hr>
+<h3 id="2-左、右极限与极限存在的充要条件"><a href="#2-左、右极限与极限存在的充要条件" class="headerlink" title="2. 左、右极限与极限存在的充要条件"></a>2. 左、右极限与极限存在的充要条件</h3><ul>
+<li><strong>左极限</strong>：$\lim_{x \to x_0^-} f(x)$</li>
+<li><strong>右极限</strong>：$\lim_{x \to x_0^+} f(x)$</li>
+</ul>
+<p><strong>极限存在的充要条件</strong>：<br>\[<br>\lim_{x \to x_0} f(x) = A \ \iff\ \lim_{x \to x_0^-} f(x) = A \ \text{且} \ \lim_{x \to x_0^+} f(x) = A<br>\]</p>
+<hr>
+<h4 id="例：判断-f-x-frac-x-x-在-x-to-0-时极限是否存在"><a href="#例：判断-f-x-frac-x-x-在-x-to-0-时极限是否存在" class="headerlink" title="例：判断 $f(x) = \frac{|x|}{x}$ 在 $x \to 0$ 时极限是否存在"></a>例：判断 $f(x) = \frac{|x|}{x}$ 在 $x \to 0$ 时极限是否存在</h4><p><strong>解</strong>：</p>
+<ul>
+<li>左极限：$\lim_{x \to 0^-} \frac{-x}{x} = -1$</li>
+<li>右极限：$\lim_{x \to 0^+} \frac{x}{x} = 1$</li>
+</ul>
+<blockquote>
+<p>左右极限不相等 ⇒ <strong>极限不存在</strong></p>
+</blockquote>
+<hr>
+<h2 id="三、函数极限的性质"><a href="#三、函数极限的性质" class="headerlink" title="三、函数极限的性质"></a>三、函数极限的性质</h2><div class="note primary no-icon modern"><p><strong>定理 1: 唯一性</strong>: 若 $\lim_{x \to x_0} f(x)$ 存在，则极限值是唯一的。</p>
+</div>
+<hr>
+<div class="note primary no-icon modern"><p><strong>定理 2: 局部有界性</strong>: 若 $\lim_{x \to x_0} f(x) = A$，则存在常数 $M &gt; 0$ 和 $\delta &gt; 0$，使得当 $0 &lt; |x - x_0| &lt; \delta$ 时：</p>
+<script type="math/tex; mode=display">
+|f(x)| \leq M</script></div>
+<hr>
+<div class="note primary no-icon modern"><p><strong>定理 3: 保号性</strong>: 若 $\lim_{x \to x_0} f(x) = A$，且：</p>
+<ul>
+<li>若 $A &gt; 0$，则存在 $\delta &gt; 0$，使得当 $0 &lt; |x - x_0| &lt; \delta$ 时，$f(x) &gt; 0$</li>
+<li>若 $A &lt; 0$，则存在 $\delta &gt; 0$，使得当 $0 &lt; |x - x_0| &lt; \delta$ 时，$f(x) &lt; 0$</li>
+</ul>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>（以 $A &gt; 0$ 为例）：<br>取 $\varepsilon = \frac{A}{2}$，则存在 $\delta &gt; 0$，使得当 $0 &lt; |x - x_0| &lt; \delta$ 时：</p>
+<script type="math/tex; mode=display">
+|f(x) - A| < \frac{A}{2} \Rightarrow f(x) > A - \frac{A}{2} = \frac{A}{2} > 0</script></div></div></div>
+<hr>
+<div class="note primary no-icon modern"><p><strong>推论<span id="func-lbdd"></span>：函数值的下界估计</strong>: 若 $\lim_{x \to x_0} f(x) = A \neq 0$，则存在 $\delta &gt; 0$，使得当 $x \in U(x_0, \delta)$ 时：</p>
+<script type="math/tex; mode=display">
+|f(x)| > \frac{|A|}{2}</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><ul>
+<li>若 $A &gt; 0$，取 $\varepsilon = \frac{A}{2}$，则 $f(x) &gt; \frac{A}{2}$</li>
+<li>若 $A &lt; 0$，取 $\varepsilon = \frac{|A|}{2}$，则 $f(x) &lt; -\frac{|A|}{2}$</li>
+</ul>
+</div></div></div>
+<h3 id="极限值的局部控制性质"><a href="#极限值的局部控制性质" class="headerlink" title="极限值的局部控制性质"></a>极限值的局部控制性质</h3><p><strong>问题</strong>：若 $\lim_{x \to x_0} f(x) = A \neq 0$，对任意整数 $k &gt; 2$，是否存在 $\delta &gt; 0$，使得当 $0 &lt; |x - x_0| &lt; \delta$ 时，有 $|f(x)| &gt; \frac{|A|}{k}$？</p>
+<p><strong>答</strong>：存在。<br><strong>证明思路</strong>：</p>
+<ul>
+<li>根据 <a href="#func-lbdd">推论</a> 有: 若 $\lim_{x \to x_0} f(x) = A \neq 0$，则存在 $\delta &gt; 0$，使得当 $x \in U(x_0, \delta)$ 时：<script type="math/tex; mode=display">
+|f(x)| > \frac{|A|}{2}</script></li>
+<li>由于 $k&gt;2$, 所以<script type="math/tex; mode=display">
+|f(x)| > \frac{|A|}{2} > \frac{|A|}{k}.</script></li>
+</ul>
+<hr>
+<div class="note primary no-icon modern"><p><strong>推论：极限的保序性</strong>: 若在 $x_0$ 的某去心邻域内 $f(x) \geq 0$，且 $\lim_{x \to x_0} f(x) = A$，则 $A \geq 0$。</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p><strong>证明</strong>（反证法）：</p>
+<ul>
+<li>假设 $A &lt; 0$，由保号性定理，存在邻域内 $f(x) &lt; 0$，与已知矛盾。</li>
+<li>故 $A \geq 0$。</li>
+</ul>
+<div class="note info flat"><p><strong>注意</strong>：若 $f(x) &gt; 0$，不能推出 $A &gt; 0$。  </p>
+<div class="hide-toggle" style="border: 1px solid  请看下面的反例"><div class="hide-button toggle-title" style="background-color:  请看下面的反例;color: purple"><i class="fas fa-caret-right fa-fw"></i><span>如果不清楚为什么</span></div>
+    <div class="hide-content"><p>$f(x) = x^2 &gt; 0$（$x \neq 0$），但 $\lim_{x \to 0} x^2 = 0$。</p>
+</div></div></div></div></div></div>
+<hr>
+<div class="note primary no-icon modern"><p><strong>定理：函数极限与数列极限的关系</strong>: 若 $\lim_{x \to x_0} f(x) = A$，且 $\{x_n\}$ 是定义域内任一收敛于 $x_0$ 的数列（$x_n \ne x_0$），则：</p>
+<script type="math/tex; mode=display">
+\lim_{n \to \infty} f(x_n) = A</script></div>
+<hr>
+<h4 id="例：证明-lim-x-to-0-sin-frac-1-x-不存在"><a href="#例：证明-lim-x-to-0-sin-frac-1-x-不存在" class="headerlink" title="例：证明 $\lim_{x \to 0} \sin \frac{1}{x}$ 不存在"></a>例：证明 $\lim_{x \to 0} \sin \frac{1}{x}$ 不存在</h4><p><strong>证</strong>：</p>
+<ul>
+<li>取 $x_n = \frac{1}{2n\pi + \frac{\pi}{2}} \to 0$，则 $\sin \frac{1}{x_n} = \sin(2n\pi + \frac{\pi}{2}) = 1$</li>
+<li>取 $y_n = \frac{1}{2n\pi - \frac{\pi}{2}} \to 0$，则 $\sin \frac{1}{y_n} = \sin(2n\pi - \frac{\pi}{2}) = -1$</li>
+<li>两数列函数极限不同 ⇒ 原极限不存在</li>
+</ul>
+<hr>
+<h2 id="小结：函数极限的核心内容"><a href="#小结：函数极限的核心内容" class="headerlink" title="小结：函数极限的核心内容"></a>小结：函数极限的核心内容</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>性质</th>
+<th>描述</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>唯一性</td>
+<td>极限值唯一</td>
+<td>若极限存在，则只有一个极限</td>
+</tr>
+<tr>
+<td>局部有界性</td>
+<td>极限存在 ⇒ 局部有界</td>
+<td>在去心邻域内有界</td>
+</tr>
+<tr>
+<td>保号性</td>
+<td>极限正/负 ⇒ 函数局部正/负</td>
+<td>可用于判断函数符号</td>
+</tr>
+<tr>
+<td>左右极限</td>
+<td>极限存在 ⇔ 左右极限存在且相等</td>
+<td>判断极限是否存在的有效方法</td>
+</tr>
+</tbody>
+</table>
+</div>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>高等数学</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数列的极限</title>
+    <url>/%E6%95%B0%E5%88%97%E7%9A%84%E6%9E%81%E9%99%90/</url>
+    <content><![CDATA[<h2 id="第2节-数列的极限"><a href="#第2节-数列的极限" class="headerlink" title="第2节 数列的极限"></a>第2节 数列的极限</h2><h3 id="一、数列极限的引入"><a href="#一、数列极限的引入" class="headerlink" title="一、数列极限的引入"></a>一、数列极限的引入</h3><ul>
+<li>极限概念源于求解实际问题的精确解，如计算由 $y = x^2$、$y = 0$、$x = 1$ 围成的曲边三角形面积 $A$。</li>
+<li>使用“台阶形”逼近法，将区间 $[0,1]$ 分为 $n$ 等份，构造面积 $A_n$：</li>
+</ul>
+<p>\[<br>A_n = \frac{1}{n^3} \left[1^2 + 2^2 + \cdots + (n-1)^2\right] = \frac{1}{6n^3} \cdot n(n-1)(2n-1)<br>\]</p>
+<p>化简得：</p>
+<p>\[<br>A_n = \frac{1}{3} - \left( \frac{1}{2n} - \frac{1}{6n^2} \right)<br>\]</p>
+<ul>
+<li>当 $n \to \infty$，$A_n \to A = \frac{1}{3}$，体现了极限思想。</li>
+</ul>
+<hr>
+<h3 id="二、数列与整标函数"><a href="#二、数列与整标函数" class="headerlink" title="二、数列与整标函数"></a>二、数列与整标函数</h3><h4 id="定义："><a href="#定义：" class="headerlink" title="定义："></a>定义：</h4><ul>
+<li>数列是一列按顺序排列的实数：$x_1, x_2, \dots, x_n, \dots$，记为 $\{x_n\}$。</li>
+<li>第 $n$ 项 $x_n$ 称为通项。</li>
+</ul>
+<h4 id="例子："><a href="#例子：" class="headerlink" title="例子："></a>例子：</h4><ol>
+<li>$A_2, A_3, \dots, A_n, \dots$</li>
+<li>$1, \frac{1}{2}, \frac{1}{3}, \dots, \frac{1}{n}, \dots$</li>
+<li>$2, 4, 8, \dots, 2^n, \dots$</li>
+<li>$\frac{1}{2}, \frac{1}{4}, \frac{1}{8}, \dots, \frac{1}{2^n}, \dots$</li>
+<li>$1, -1, 1, \dots, (-1)^{n+1}, \dots$</li>
+<li>$2, \frac{1}{2}, \frac{4}{3}, \dots, \frac{n + (-1)^{n-1}}{n}, \dots$</li>
+</ol>
+<h4 id="几何意义："><a href="#几何意义：" class="headerlink" title="几何意义："></a>几何意义：</h4><ul>
+<li>数列 $\{x_n\}$ 表示数轴上的一列点。</li>
+<li>从函数角度看，数列是<strong>整标函数</strong>：$x_n = f(n), \quad n \in \mathbb{N}^*$</li>
+</ul>
+<hr>
+<h3 id="三、极限思想的核心"><a href="#三、极限思想的核心" class="headerlink" title="三、极限思想的核心"></a>三、极限思想的核心</h3><ul>
+<li>利用规则图形（如台阶形）的极限来逼近不规则图形（如曲边三角形）的面积。</li>
+<li>体现了“极限方法”在解决实际问题中的基本思想。</li>
+</ul>
+<hr>
+<div class="note primary no-icon modern"><p><strong>数列极限的定义（$\varepsilon–N$ 定义）</strong>: 设有数列 $\{x_n\}$，若对于 <strong>任意给定的正数</strong> $\varepsilon &gt; 0$，<strong>总存在正整数</strong> $N$，使得当 $n &gt; N$ 时，不等式  </p>
+<script type="math/tex; mode=display">
+|x_n - a| < \varepsilon</script><p>恒成立，则称常数 $a$ 是数列 $\{x_n\}$ 的 <strong>极限</strong>，或称数列 <strong>收敛于 $a$</strong>，记为：</p>
+<script type="math/tex; mode=display">
+\lim_{n \to \infty} x_n = a \quad \text{或} \quad x_n \to a \ (n \to \infty)</script><p>若数列没有极限，则称它是 <strong>发散的</strong>。</p>
+</div>
+<hr>
+<h4 id="用定义证明极限的例子"><a href="#用定义证明极限的例子" class="headerlink" title="用定义证明极限的例子"></a>用定义证明极限的例子</h4><p><strong>例 1.2.1</strong>  证明：$\lim_{n \to \infty} \left[ 1 + \frac{(-1)^{n-1}}{n} \right] = 1$</p>
+<p><strong>证</strong>：<br>\[<br>|x_n - 1| = \left| \frac{(-1)^{n-1}}{n} \right| = \frac{1}{n}<br>\]<br>要使 $\frac{1}{n} &lt; \varepsilon$，只需 $n &gt; \frac{1}{\varepsilon}$。<br>取 $N = \left\lfloor \frac{1}{\varepsilon} \right\rfloor$，则当 $n &gt; N$ 时，有 $|x_n - 1| &lt; \varepsilon$，故极限为 1。</p>
+<hr>
+<p><strong>例 1.2.2</strong> 证明：$\lim_{n \to \infty} \frac{1}{2^n} = 0$</p>
+<p><strong>证</strong>：<br>\[<br>\left| \frac{1}{2^n} - 0 \right| = \frac{1}{2^n}<br>\]<br>要使 $\frac{1}{2^n} &lt; \varepsilon$，只需 $n &gt; \log_2 \frac{1}{\varepsilon}$。<br>取 $N = \left\lfloor \log_2 \frac{1}{\varepsilon} \right\rfloor$，则当 $n &gt; N$ 时，有 $\left| \frac{1}{2^n} \right| &lt; \varepsilon$，故极限为 0。</p>
+<hr>
+<p><strong>例 1.2.3</strong> 证明：$\lim_{n \to \infty} \frac{3n-1}{2n-1} = \frac{3}{2}$</p>
+<p><strong>证</strong>：<br>\[<br>\left| \frac{3n-1}{2n-1} - \frac{3}{2} \right| = \frac{1}{4n - 2} &lt; \frac{1}{n}<br>\]<br>要使 $\frac{1}{n} &lt; \varepsilon$，只需 $n &gt; \frac{1}{\varepsilon}$。<br>取 $N = \left\lfloor \frac{1}{\varepsilon} \right\rfloor$，则当 $n &gt; N$ 时，有 $\left| x_n - \frac{3}{2} \right| &lt; \varepsilon$，故极限为 $\frac{3}{2}$。</p>
+<hr>
+<h3 id="四、数列极限的性质"><a href="#四、数列极限的性质" class="headerlink" title="四、数列极限的性质"></a>四、数列极限的性质</h3><h4 id="1-唯一性"><a href="#1-唯一性" class="headerlink" title="1. 唯一性"></a>1. 唯一性</h4><div class="note primary no-icon modern"><p><strong>定理 1</strong>: 任何收敛数列 $\{x_n\}$ 的极限都是唯一的。</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>用反证法证明</span></div>
+    <div class="hide-content"><p>假设 $\{x_n\}$ 收敛于两个不同的极限 $a$ 和 $b$（设 $a &lt; b$），取 $\varepsilon = \frac{b - a}{2}$，则存在 $N_1, N_2$ 使得：</p>
+<ul>
+<li>当 $n &gt; N_1$ 时，$x_n &lt; \frac{a + b}{2}$</li>
+<li>当 $n &gt; N_2$ 时，$x_n &gt; \frac{a + b}{2}$</li>
+</ul>
+<p>取 $N = \max\{N_1, N_2\}$，则当 $n &gt; N$ 时，$x_n$ 同时满足上述两个矛盾的不等式，故假设不成立，极限唯一。</p>
+</div></div></div>
+<hr>
+<h4 id="2-有界性"><a href="#2-有界性" class="headerlink" title="2. 有界性"></a>2. 有界性</h4><div class="note primary no-icon modern"><p><strong>定理 2</strong><span id="thm-2"></span>: 如果数列 $\{x_n\}$ 收敛，则 $\{x_n\}$ 一定有界。</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>证明</span></div>
+    <div class="hide-content"><p>设 $\lim_{n \to \infty} x_n = a$，取 $\varepsilon = 1$，则存在 $N$，当 $n &gt; N$ 时：<br>\[<br>|x_n - a| &lt; 1 \Rightarrow |x_n| &lt; 1 + |a|<br>\]<br>取：<br>\[<br>M = \max\{|x_1|, |x_2|, \dots, |x_N|, 1 + |a|\}<br>\]<br>则对所有 $n$，有 $|x_n| \leq M$，即 $\{x_n\}$ 有界。</p>
+</div></div></div>
+<hr>
+<h4 id="3-有界性与收敛性的关系"><a href="#3-有界性与收敛性的关系" class="headerlink" title="3. 有界性与收敛性的关系"></a>3. 有界性与收敛性的关系</h4><ul>
+<li><strong>收敛 ⇒ 有界</strong>（<a href="#thm-2">定理 2</a>）</li>
+<li><strong>有界 ⇏ 收敛</strong>（反例：$x_n = (-1)^{n+1}$）</li>
+<li><strong>无界 ⇒ 发散</strong></li>
+<li><strong>发散 ⇏ 无界</strong>（反例：$(-1)^{n+1}$ 有界但发散）</li>
+</ul>
+<hr>
+<h4 id="4-例题：证明发散性"><a href="#4-例题：证明发散性" class="headerlink" title="4. 例题：证明发散性"></a>4. 例题：证明发散性</h4><p><strong>例 1.2.4</strong>：证明 $x_n = (-1)^{n+1}$ 发散</p>
+<p><strong>证</strong>（反证法）：<br>假设收敛于 $a$，取 $\varepsilon = \frac{1}{2}$，则存在 $N$，当 $n &gt; N$ 时：</p>
+<ul>
+<li>若 $n = 2k$，则 $x_n = -1$，有 $| -1 - a | &lt; \frac{1}{2}$</li>
+<li>若 $n = 2k+1$，则 $x_n = 1$，有 $|1 - a| &lt; \frac{1}{2}$</li>
+</ul>
+<p>于是：<br>\[<br>2 = |(1 - a) + (1 + a)| \leq |1 - a| + |1 + a| &lt; 1<br>\]<br>矛盾，故发散。</p>
+<hr>
+<h4 id="5-思考与解惑"><a href="#5-思考与解惑" class="headerlink" title="5. 思考与解惑"></a>5. 思考与解惑</h4><p>下列说法错误的是：</p>
+<ul>
+<li>(A) 数列有界是数列收敛的必要条件 ✅  </li>
+<li>(B) 有界数列不一定收敛 ✅  </li>
+<li>(C) 无界数列一定发散 ✅  </li>
+<li>(D) 发散数列一定无界 ❌（反例：$(-1)^{n+1}$）</li>
+</ul>
+<p><strong>正确答案：D</strong></p>
+<hr>
+<h3 id="五、子列（子数列）"><a href="#五、子列（子数列）" class="headerlink" title="五、子列（子数列）"></a>五、子列（子数列）</h3><h4 id="（1）定义"><a href="#（1）定义" class="headerlink" title="（1）定义"></a>（1）定义</h4><p>在数列 $\{x_n\}$ 中，任意取出无穷多项，并保持这些项在原数列中的先后次序，得到的新数列称为 <strong>子列</strong>，记为 $\{x_{n_k}\}$，其中：</p>
+<ul>
+<li>$x_{n_k}$ 是子列的第 $k$ 项；</li>
+<li>$n_k$ 是该项在原数列中的下标，且满足 $n_k \geq k$。</li>
+</ul>
+<hr>
+<div class="note primary no-icon modern"><p><strong>定理 3 (子列的收敛性)</strong>: 若数列 $\{x_n\}$ 收敛于 $a$，则它的 <strong>任意子列</strong> $\{x_{n_k}\}$ 也收敛于 $a$。</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>证明思路</span></div>
+    <div class="hide-content"><ul>
+<li>由 $\lim_{n \to \infty} x_n = a$，对任意 $\varepsilon &gt; 0$，存在 $N$，当 $n &gt; N$ 时，$|x_n - a| &lt; \varepsilon$。</li>
+<li>对于子列 $\{x_{n_k}\}$，取 $K = N$，则当 $k &gt; K$ 时，有 $n_k \geq k &gt; N$，故 $|x_{n_k} - a| &lt; \varepsilon$。</li>
+</ul>
+</div></div></div>
+<hr>
+<h4 id="（3）推论：判断发散的方法"><a href="#（3）推论：判断发散的方法" class="headerlink" title="（3）推论：判断发散的方法"></a>（3）推论：判断发散的方法</h4><p>若一个数列存在 <strong>两个子列收敛于不同的极限</strong>，则该数列 <strong>发散</strong>。</p>
+<p><strong>例子</strong>：</p>
+<ul>
+<li>$x_n = (-1)^{n+1}$，其奇子列 $x_{2k-1} \to 1$，偶子列 $x_{2k} \to -1$，故原数列发散。</li>
+</ul>
+<hr>
+<h4 id="（4）奇子列与偶子列的关系"><a href="#（4）奇子列与偶子列的关系" class="headerlink" title="（4）奇子列与偶子列的关系"></a>（4）奇子列与偶子列的关系</h4><ul>
+<li>若数列 $\{x_n\}$ 收敛于 $a$，则其奇子列 $\{x_{2k-1}\}$ 和偶子列 $\{x_{2k}\}$ 都收敛于 $a$。</li>
+<li><strong>反之</strong>，若奇子列和偶子列都收敛于 <strong>同一个极限 $a$</strong>，则原数列也收敛于 $a$。</li>
+</ul>
+<hr>
+<h3 id="思考与解惑（选择题回顾）"><a href="#思考与解惑（选择题回顾）" class="headerlink" title="思考与解惑（选择题回顾）"></a>思考与解惑（选择题回顾）</h3><p>下列说法错误的是：</p>
+<ul>
+<li>(A) 数列有界是数列收敛的必要条件 ✅  </li>
+<li>(B) 有界数列不一定收敛 ✅  </li>
+<li>(C) 无界数列一定发散 ✅  </li>
+<li>(D) 发散数列一定无界 ❌  </li>
+</ul>
+<p><strong>反例</strong>：$x_n = (-1)^n$ 有界但发散。</p>
+<hr>
+<h3 id="备用题（极限存在性与求解）"><a href="#备用题（极限存在性与求解）" class="headerlink" title="备用题（极限存在性与求解）"></a>备用题（极限存在性与求解）</h3><h4 id="题-1：递推数列极限"><a href="#题-1：递推数列极限" class="headerlink" title="题 1：递推数列极限"></a>题 1：递推数列极限</h4><p>设 $x_{n+1} = \frac{1}{2}(x_n + \frac{a}{x_n})$，$x_1 &gt; 0$，$a &gt; 0$，求 $\lim_{n \to \infty} x_n$。</p>
+<p><strong>解</strong>：</p>
+<ol>
+<li>由均值不等式得 $x_{n+1} \geq \sqrt{a}$，故有下界。</li>
+<li>又 $\frac{x_{n+1}}{x_n} = \frac{1}{2}(1 + \frac{a}{x_n^2}) \leq 1$，故数列单调递减。</li>
+<li>由单调有界准则，极限存在，设 $\lim x_n = A$。</li>
+<li>代入递推式：$A = \frac{1}{2}(A + \frac{a}{A}) \Rightarrow A^2 = a \Rightarrow A = \sqrt{a}$（取正）。</li>
+</ol>
+<hr>
+<h4 id="题-2：极限存在性证明"><a href="#题-2：极限存在性证明" class="headerlink" title="题 2：极限存在性证明"></a>题 2：极限存在性证明</h4><p>设 $a_i \geq 0$，证明：<br>\[<br>X_n = \sum_{k=1}^n \frac{a_k}{(1+a_1)\cdots(1+a_k)}<br>\]<br>的极限存在。</p>
+<p><strong>证</strong>：</p>
+<ul>
+<li>$X_n$ 单调递增；</li>
+<li>通过变形：<br>\[<br>X_n = 1 - \frac{1}{(1+a_1)\cdots(1+a_n)} &lt; 1<br>\]</li>
+<li>故 $\{X_n\}$ 单调有上界，极限存在。</li>
+</ul>
+<hr>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>高等数学</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>无穷小与无穷大</title>
+    <url>/%E6%97%A0%E7%A9%B7%E5%B0%8F%E4%B8%8E%E6%97%A0%E7%A9%B7%E5%A4%A7/</url>
+    <content><![CDATA[<h1 id="无穷小与无穷大"><a href="#无穷小与无穷大" class="headerlink" title="无穷小与无穷大"></a>无穷小与无穷大</h1><h2 id="一、无穷小的定义"><a href="#一、无穷小的定义" class="headerlink" title="一、无穷小的定义"></a>一、无穷小的定义</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: 若 $\lim\limits_{x \to x_0} f(x) = 0$（或 $\lim\limits_{x \to \infty} f(x) = 0$），则称 $f(x)$ 为当 $x \to x_0$（或 $x \to \infty$）时的 <strong>无穷小</strong>。</p>
+</div>
+<p><strong>例子</strong>：</p>
+<ul>
+<li>$\lim_{x \to 0} \sin x = 0$ ⇒ $\sin x$ 是 $x \to 0$ 时的无穷小</li>
+<li>$\lim_{x \to \infty} \frac{1}{x} = 0$ ⇒ $\frac{1}{x}$ 是 $x \to \infty$ 时的无穷小</li>
+</ul>
+<hr>
+<h3 id="注意："><a href="#注意：" class="headerlink" title="注意："></a>注意：</h3><ol>
+<li>无穷小是相对于自变量变化过程而言的。</li>
+<li><strong>除 0 以外，任何常数都不是无穷小</strong>。<ul>
+<li>因为 $\lim_{x \to x_0} C = C \ne 0$（除非 $C = 0$）</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="无穷小与函数极限的关系"><a href="#无穷小与函数极限的关系" class="headerlink" title="无穷小与函数极限的关系"></a>无穷小与函数极限的关系</h3><div class="note primary no-icon modern"><p><strong>定理</strong>: </p>
+<script type="math/tex; mode=display">\lim_{x \to x_0} f(x) = A \ \iff\ f(x) = A + \alpha(x)，\quad \lim_{x \to x_0} \alpha(x) = 0</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><ul>
+<li>设 $\alpha(x) = f(x) - A$，则 $\lim_{x \to x_0} \alpha(x) = 0$</li>
+<li>反之，若 $f(x) = A + \alpha(x)$，且 $\alpha(x) \to 0$，则 $f(x) \to A$</li>
+</ul>
+</div></div></div>
+<hr>
+<h3 id="无穷小的运算法则"><a href="#无穷小的运算法则" class="headerlink" title="无穷小的运算法则"></a>无穷小的运算法则</h3><div class="note primary no-icon modern"><p><strong>定理</strong>: 有限个无穷小的和是无穷小.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><ul>
+<li>证明思路：对每个无穷小控制其绝对值小于 $\frac{\varepsilon}{n}$，取最小 $\delta$，利用三角不等式。</li>
+</ul>
+</div></div>
+
+<div class="note danger flat"><p><strong>注意</strong>：无限个无穷小的和不一定是无穷小。</p>
+<ul>
+<li>例如：<br>\[<br>\lim_{n \to \infty} n \left( \frac{1}{n^2 + \pi} + \frac{1}{n^2 + 2\pi} + \cdots + \frac{1}{n^2 + n\pi} \right) = 1<br>\]</li>
+</ul>
+</div></div>
+<div class="note primary no-icon modern"><p><strong>定理</strong>: 有界函数与无穷小的乘积是无穷小.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>利用有界性 $|u(x)| \leq M$ 和无穷小定义，控制乘积小于 $\varepsilon$。</p>
+</div></div></div>
+<div class="note primary no-icon modern"><p><strong>推论</strong>: </p>
+<ul>
+<li>常数与无穷小的乘积是无穷小。</li>
+<li>有限个无穷小的乘积是无穷小。</li>
+</ul>
+</div>
+<hr>
+<h2 id="二、无穷大的定义"><a href="#二、无穷大的定义" class="headerlink" title="二、无穷大的定义"></a>二、无穷大的定义</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: 若对任意 $M &gt; 0$，存在 $\delta &gt; 0$（或 $X &gt; 0$），使得当 $0 &lt; |x - x_0| &lt; \delta$（或 $|x| &gt; X$）时，恒有：</p>
+<script type="math/tex; mode=display">
+|f(x)| > M</script><p>则称 $f(x)$ 当 $x \to x_0$（或 $x \to \infty$）时为 <strong>无穷大</strong>，记作：</p>
+<script type="math/tex; mode=display">
+\lim_{x \to x_0} f(x) = \infty</script></div>
+<hr>
+<h3 id="正无穷大与负无穷大："><a href="#正无穷大与负无穷大：" class="headerlink" title="正无穷大与负无穷大："></a>正无穷大与负无穷大：</h3><ul>
+<li>若 $f(x) &gt; M$，记为 $\lim f(x) = +\infty$</li>
+<li>若 $f(x) &lt; -M$，记为 $\lim f(x) = -\infty$</li>
+</ul>
+<hr>
+<h3 id="无穷大的运算定理"><a href="#无穷大的运算定理" class="headerlink" title="无穷大的运算定理"></a>无穷大的运算定理</h3><p>在自变量的同一变化过程中，关于无穷大有以下运算定理：</p>
+<ol>
+<li><strong>两个无穷大的积仍为无穷大</strong>。</li>
+<li><strong>无穷大与有界函数的和、差仍为无穷大</strong>。</li>
+<li><strong>无穷大与极限不为零的有界函数的积仍为无穷大</strong>。</li>
+</ol>
+<blockquote>
+<p>✅ <strong>说明</strong>：这些定理补充了前一节中“无穷小运算定理”的对应内容，但需注意：</p>
+<ul>
+<li>无穷大之间<strong>相加、减</strong>不一定仍是无穷大（可能相消）。</li>
+<li>无穷大与<strong>趋于零的函数</strong>的乘积不一定无穷大（可能为无穷小、有界或振荡）。</li>
+<li><strong>无穷大</strong>是一个<strong>变量（函数）</strong>，不是具体的数。无论绝对值多大的常数都不是无穷大。</li>
+<li>若函数在某过程中发散于无穷大，则它在该过程中<strong>无界</strong>。<ul>
+<li><strong>反之不成立</strong>：无界函数不一定是无穷大。</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h3 id="例子说明"><a href="#例子说明" class="headerlink" title="例子说明"></a>例子说明</h3><ul>
+<li>函数 $f(x) = \frac{1}{x} \sin \frac{1}{x}$ 在 $x \to 0$ 时无界，但不是无穷大，因为它在某些点取零。</li>
+</ul>
+<h3 id="无穷大的判定与铅垂渐近线"><a href="#无穷大的判定与铅垂渐近线" class="headerlink" title="无穷大的判定与铅垂渐近线"></a>无穷大的判定与铅垂渐近线</h3><ul>
+<li>例：证明 $\lim_{x \to 1} \frac{1}{x-1} = \infty$<ul>
+<li>使用 $\varepsilon-\delta$ 方法，取 $\delta = \frac{1}{M}$，满足定义。</li>
+</ul>
+</li>
+<li>若 $\lim_{x \to x_0} f(x) = \infty$，则直线 $x = x_0$ 是函数图像的<strong>铅垂渐近线</strong>。</li>
+</ul>
+<hr>
+<h2 id="三、无穷大与无穷小的关系"><a href="#三、无穷大与无穷小的关系" class="headerlink" title="三、无穷大与无穷小的关系"></a>三、无穷大与无穷小的关系</h2><div class="note primary no-icon modern"><p><strong>定理</strong>: 在自变量的同一变化过程中：</p>
+<ol>
+<li>若 $f(x)$ 是无穷大，则 $\frac{1}{f(x)}$ 是无穷小。</li>
+<li>若 $f(x)$ 是无穷小且 $f(x) \neq 0$，则 $\frac{1}{f(x)}$ 是无穷大。</li>
+</ol>
+</div>
+<ul>
+<li>该定理将无穷大的问题转化为无穷小问题，简化讨论。</li>
+</ul>
+<hr>
+<h2 id="可能存在的错误或需澄清之处："><a href="#可能存在的错误或需澄清之处：" class="headerlink" title="可能存在的错误或需澄清之处："></a>可能存在的错误或需澄清之处：</h2><ol>
+<li><strong>无穷大的定义</strong>：课件中强调“无穷大是变量”，这一点正确，但应补充说明：无穷大是<strong>极限过程</strong>中的概念，不是函数值。</li>
+<li><strong>无界与无穷大的区别</strong>：例子 $f(x) = \frac{1}{x} \sin \frac{1}{x}$ 很好地说明了无界不一定无穷大，但应强调“无穷大要求函数值的绝对值<strong>始终</strong>大于任意大数”，而无界只要求存在某些点函数值很大。</li>
+<li>关于无穷大，有没有相应的运算定理？  <ul>
+<li>实际上，无穷大<strong>没有</strong>像无穷小那样统一的运算法则。例如：<ul>
+<li>无穷大 + 无穷大 不一定是无穷大（可能相消）；</li>
+<li>无穷大 × 有界函数 不一定无穷大；</li>
+<li>无穷大 × 无穷大 是无穷大（正负号需考虑）。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>高等数学</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>极限存在准则与两个重要极限</title>
+    <url>/%E6%9E%81%E9%99%90%E5%AD%98%E5%9C%A8%E5%87%86%E5%88%99%E4%B8%8E%E4%B8%A4%E4%B8%AA%E9%87%8D%E8%A6%81%E6%9E%81%E9%99%90/</url>
+    <content><![CDATA[<h2 id="极限存在准则"><a href="#极限存在准则" class="headerlink" title="极限存在准则"></a>极限存在准则</h2><h3 id="准则1（夹逼定理）"><a href="#准则1（夹逼定理）" class="headerlink" title="准则1（夹逼定理）"></a>准则1（夹逼定理）</h3><div class="note primary no-icon modern"><p><strong>数列形式</strong>: 如果数列 $\{x_n\}, \{y_n\}, \{z_n\}$ 满足：</p>
+<ol>
+<li>$y_n \leq x_n \leq z_n \quad (n = 1, 2, 3, \ldots)$</li>
+<li>$\lim\limits_{n \to \infty} y_n = \lim\limits_{n \to \infty} z_n = a$</li>
+</ol>
+<p>则 $\{x_n\}$ 的极限存在，且 $\lim\limits_{n \to \infty} x_n = a$</p>
+</div>
+<div class="note primary no-icon modern"><p><strong>函数形式（准则I’）</strong>: 如果函数 $f(x), g(x), h(x)$ 满足：</p>
+<ol>
+<li>在 $x_0$ 的某去心邻域内（或 $|x| &gt; X$），有 $g(x) \leq f(x) \leq h(x)$</li>
+<li>$\lim g(x) = \lim h(x) = A$</li>
+</ol>
+<p>则 $\lim f(x) = A$</p>
+</div>
+<blockquote>
+<p>✅ <strong>注意</strong>：函数形式的夹逼定理中的极限过程有如下两种常见形式：</p>
+<ul>
+<li>当 $x \to x_0$ 时：$\lim_{x \to x_0} g(x) = \lim_{x \to x_0} h(x) = A$</li>
+<li>当 $x \to \infty$ 时：$\lim_{x \to \infty} g(x) = \lim_{x \to \infty} h(x) = A$</li>
+</ul>
+</blockquote>
+<h3 id="准则II（单调有界准则）"><a href="#准则II（单调有界准则）" class="headerlink" title="准则II（单调有界准则）"></a>准则II（单调有界准则）</h3><p><strong>单调有界数列必有极限</strong>：</p>
+<ul>
+<li>单调增加且有上界的数列必有极限.</li>
+<li>单调减少且有下界的数列必有极限.</li>
+</ul>
+<hr>
+<h2 id="应用实例"><a href="#应用实例" class="headerlink" title="应用实例"></a>应用实例</h2><div class="note primary no-icon flat"><p><strong>问题(夹逼定理的应用):</strong> 求 $\lim\limits_{n \to \infty} n \left( \frac{1}{n^2 + \pi} + \frac{1}{n^2 + 2\pi} + \cdots + \frac{1}{n^2 + n\pi} \right)$.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>解</span></div>
+    <div class="hide-content"><ul>
+<li>建立不等式：$\frac{n^2}{n^2 + n\pi} &lt; x_n &lt; \frac{n^2}{n^2 + \pi}$</li>
+<li>两边极限：$\lim_{n \to \infty} \frac{n^2}{n^2 + n\pi} = 1$，$\lim_{n \to \infty} \frac{n^2}{n^2 + \pi} = 1$</li>
+<li>由夹逼定理：$\lim_{n \to \infty} x_n = 1$</li>
+</ul>
+</div></div></div>
+<hr>
+<div class="note primary no-icon flat"><p><strong>问题(单调有界准则的应用):</strong> 设 $x_1 = \sqrt{2}, x_n = \sqrt{2 + x_{n-1}}$，证明极限存在并求值.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><ol>
+<li><strong>单调性</strong>：用数学归纳法证明 $x_{n+1} &gt; x_n$（单调增加）</li>
+<li><strong>有界性</strong>：用数学归纳法证明 $x_n &lt; 2$（有上界）</li>
+<li><strong>求极限</strong>：设 $\lim_{n \to \infty} x_n = a$，由递推关系：<br>\[<br>a = \sqrt{2 + a} \Rightarrow a^2 = 2 + a \Rightarrow a^2 - a - 2 = 0<br>\]<br>解得 $a = 2$ 或 $a = -1$（舍去负值），故 $\lim_{n \to \infty} x_n = 2$</li>
+</ol>
+<div class="note danger flat"><p><strong>重要提醒</strong>：课件第8页强调”对等式两边取极限，必须是在极限存在的情况下才可使用”，这是关键前提条件。</p>
+</div></div></div></div>
+<hr>
+<h2 id="重要极限的证明"><a href="#重要极限的证明" class="headerlink" title="重要极限的证明"></a>重要极限的证明</h2><h3 id="重要极限：-lim-limits-n-to-infty-left-1-frac-1-n-right-n-的存在性证明"><a href="#重要极限：-lim-limits-n-to-infty-left-1-frac-1-n-right-n-的存在性证明" class="headerlink" title="重要极限：$\lim\limits_{n \to \infty} \left(1 + \frac{1}{n}\right)^n$ 的存在性证明."></a>重要极限：$\lim\limits_{n \to \infty} \left(1 + \frac{1}{n}\right)^n$ 的存在性证明.</h3><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><ol>
+<li><p><strong>展开表达式</strong>：<br>\[<br>x_n = \left(1 + \frac{1}{n}\right)^n = 1 + 1 + \frac{1}{2!}\left(1 - \frac{1}{n}\right) + \frac{1}{3!}\left(1 - \frac{1}{n}\right)\left(1 - \frac{2}{n}\right) + \cdots<br>\]</p>
+</li>
+<li><p><strong>比较 $x_n$ 与 $x_{n+1}$</strong>：</p>
+<ul>
+<li>$x_{n+1}$ 的展开式中每一项都不小于 $x_n$ 的对应项</li>
+<li>$x_{n+1}$ 比 $x_n$ 多一项正数项</li>
+</ul>
+</li>
+<li><p><strong>结论</strong>：$\{x_n\}$ 单调增加</p>
+</li>
+</ol>
+</div></div>
+<hr>
+<p><strong>结论</strong>：数列单调增加且有上界，极限存在，记为 $e$</p>
+<blockquote>
+<p>✅ <strong>数值</strong>：$e \approx 2.71828$<br>✅ <strong>等价形式</strong>：$\lim_{x \to 0} (1 + x)^{1/x} = e$</p>
+</blockquote>
+<hr>
+<h4 id="重要极限：-lim-x-to-infty-left-1-frac-1-x-right-x-e"><a href="#重要极限：-lim-x-to-infty-left-1-frac-1-x-right-x-e" class="headerlink" title="重要极限：$\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x = e$"></a>重要极限：$\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x = e$</h4><p><strong>证明思路</strong>：</p>
+<ol>
+<li><p><strong>$x \to +\infty$</strong>：</p>
+<ul>
+<li>设 $n \leq x &lt; n+1$，建立不等式：<br>\[<br>\left(1 + \frac{1}{n+1}\right)^n &lt; \left(1 + \frac{1}{x}\right)^x &lt; \left(1 + \frac{1}{n}\right)^{n+1}<br>\]</li>
+<li>两边极限均为 $e$，由夹逼定理得证</li>
+</ul>
+</li>
+<li><p><strong>$x \to -\infty$</strong>：</p>
+<ul>
+<li>令 $x = -(t+1)$，转化为正无穷情形</li>
+<li>最终得：$\lim_{x \to -\infty} \left(1 + \frac{1}{x}\right)^x = e$</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="重要极限：-lim-x-to-0-frac-sin-x-x-1"><a href="#重要极限：-lim-x-to-0-frac-sin-x-x-1" class="headerlink" title="重要极限：$\lim_{x \to 0} \frac{\sin x}{x} = 1$"></a>重要极限：$\lim_{x \to 0} \frac{\sin x}{x} = 1$</h3><p><strong>几何证明</strong>：</p>
+<ul>
+<li>在单位圆中，比较三角形与扇形面积：<br>\[<br>\frac{1}{2}\sin x &lt; \frac{1}{2}x &lt; \frac{1}{2}\tan x<br>\]</li>
+<li>整理得：$\sin x &lt; x &lt; \tan x$</li>
+<li>进一步：$\cos x &lt; \frac{\sin x}{x} &lt; 1$</li>
+<li>由夹逼定理：$\lim\limits_{x \to 0} \frac{\sin x}{x} = 1$</li>
+</ul>
+<hr>
+<h2 id="三、重要极限的应用例题"><a href="#三、重要极限的应用例题" class="headerlink" title="三、重要极限的应用例题"></a>三、重要极限的应用例题</h2><h3 id="例：-lim-limits-x-to-0-frac-tan-x-x"><a href="#例：-lim-limits-x-to-0-frac-tan-x-x" class="headerlink" title="例：$\lim\limits_{x \to 0} \frac{\tan x}{x}$"></a>例：$\lim\limits_{x \to 0} \frac{\tan x}{x}$</h3><p>\[<br>\lim_{x \to 0} \frac{\tan x}{x} = \lim_{x \to 0} \left(\frac{\sin x}{x} \cdot \frac{1}{\cos x}\right) = 1 \times 1 = 1<br>\]</p>
+<h3 id="例：-lim-limits-x-to-0-frac-x-sin-x-x-sin-x"><a href="#例：-lim-limits-x-to-0-frac-x-sin-x-x-sin-x" class="headerlink" title="例：$\lim\limits_{x \to 0} \frac{x - \sin x}{x + \sin x}$"></a>例：$\lim\limits_{x \to 0} \frac{x - \sin x}{x + \sin x}$</h3><ul>
+<li>分子分母同除以 $x$：<br>\[<br>\lim_{x \to 0} \frac{1 - \frac{\sin x}{x}}{1 + \frac{\sin x}{x}} = \frac{1 - 1}{1 + 1} = 0<br>\]</li>
+</ul>
+<h3 id="例：-lim-limits-x-to-0-frac-1-cos-x-x-2"><a href="#例：-lim-limits-x-to-0-frac-1-cos-x-x-2" class="headerlink" title="例：$\lim\limits_{x \to 0} \frac{1 - \cos x}{x^2}$"></a>例：$\lim\limits_{x \to 0} \frac{1 - \cos x}{x^2}$</h3><ul>
+<li>利用倍角公式：$1 - \cos x = 2\sin^2\frac{x}{2}$</li>
+<li>\[<br>\lim_{x \to 0} \frac{2\sin^2\frac{x}{2}}{x^2} = \frac{1}{2} \lim_{x \to 0} \left(\frac{\sin\frac{x}{2}}{\frac{x}{2}}\right)^2 = \frac{1}{2}<br>\]</li>
+</ul>
+<h3 id="例：-lim-limits-x-to-infty-left-1-frac-1-x-right-x"><a href="#例：-lim-limits-x-to-infty-left-1-frac-1-x-right-x" class="headerlink" title="例：$\lim\limits_{x \to \infty} \left(1 + \frac{1}{x}\right)^{-x}$"></a>例：$\lim\limits_{x \to \infty} \left(1 + \frac{1}{x}\right)^{-x}$</h3><p>\[<br>\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^{-x} = \left[\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x\right]^{-1} = e^{-1}<br>\]</p>
+<h3 id="例：-lim-limits-x-to-infty-left-1-frac-2-x-right-4x"><a href="#例：-lim-limits-x-to-infty-left-1-frac-2-x-right-4x" class="headerlink" title="例：$\lim\limits_{x \to \infty} \left(1 - \frac{2}{x}\right)^{4x}$"></a>例：$\lim\limits_{x \to \infty} \left(1 - \frac{2}{x}\right)^{4x}$</h3><ul>
+<li>令 $t = -\frac{2}{x}$，则：<script type="math/tex; mode=display">
+   \left(1 - \frac{2}{x}\right)^{4x} = \left(1 + t\right)^{4 \cdot (-2/t)} = (1 + t)^{-8/t}</script><script type="math/tex; mode=display">
+\lim_{x \to \infty} \left(1 - \frac{2}{x}\right)^{4x} = \lim_{t \to 0} (1 + t)^{-8/t} = e^{-8}</script></li>
+</ul>
+<hr>
+<h3 id="✅-补充说明："><a href="#✅-补充说明：" class="headerlink" title="✅ 补充说明："></a>✅ 补充说明：</h3><p><strong>重要极限的变体</strong>：</p>
+<ul>
+<li>$\lim\limits_{x \to 0} (1 + x)^{1/x} = e$</li>
+<li>$\lim\limits_{x \to 0} \frac{\ln(1 + x)}{x} = 1$</li>
+<li>$\lim\limits_{x \to 0} \frac{e^x - 1}{x} = 1$</li>
+</ul>
+<hr>
+<h2 id="总结与重要说明"><a href="#总结与重要说明" class="headerlink" title="总结与重要说明"></a>总结与重要说明</h2><h3 id="夹逼定理的应用要点："><a href="#夹逼定理的应用要点：" class="headerlink" title="夹逼定理的应用要点："></a>夹逼定理的应用要点：</h3><ul>
+<li>需要构造合适的上下界函数</li>
+<li>上下界函数的极限必须相同</li>
+<li>适用于求复杂表达式的极限</li>
+</ul>
+<h3 id="单调有界准则的应用要点："><a href="#单调有界准则的应用要点：" class="headerlink" title="单调有界准则的应用要点："></a>单调有界准则的应用要点：</h3><ul>
+<li>先证明单调性（数学归纳法）</li>
+<li>再证明有界性（数学归纳法）</li>
+<li>最后通过递推关系求极限值</li>
+</ul>
+<h3 id="重要极限："><a href="#重要极限：" class="headerlink" title="重要极限："></a>重要极限：</h3><ul>
+<li>$\lim\limits_{n \to \infty} \left(1 + \frac{1}{n}\right)^n = e$</li>
+<li>$\lim\limits_{x \to 0} \frac{\sin x}{x} = 1$.</li>
+</ul>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>高等数学</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>极限的四则运算法则</title>
+    <url>/%E6%9E%81%E9%99%90%E7%9A%84%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97%E6%B3%95%E5%88%99/</url>
+    <content><![CDATA[<h2 id="极限的四则运算法则"><a href="#极限的四则运算法则" class="headerlink" title="极限的四则运算法则"></a>极限的四则运算法则</h2><div class="note primary no-icon modern"><p><strong>定理(极限四则运算)</strong>: 在自变量的同一变化过程中，设 $\lim f(x) = A$，$\lim g(x) = B$，则：<br><strong>(1) 和差的极限</strong>：</p>
+<script type="math/tex; mode=display">
+\lim [f(x) \pm g(x)] = A \pm B</script><p><strong>(2) 乘积的极限</strong>：</p>
+<script type="math/tex; mode=display">
+\lim [f(x) \cdot g(x)] = A \cdot B</script><p><strong>(3) 商的极限</strong>（当 $B \ne 0$）：</p>
+<script type="math/tex; mode=display">
+\lim \frac{f(x)}{g(x)} = \frac{A}{B}</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>将 $f(x), g(x)$ 表示为极限值加无穷小，利用无穷小的和仍是无穷小。</p>
+</div></div>
+
+<div class="note info flat"><ul>
+<li><strong>可推广到有限个函数相乘</strong>。</li>
+<li>$\lim [C \cdot f(x)] = C \cdot A$</li>
+<li>$\lim [f(x)]^n = A^n$</li>
+</ul>
+</div></div>
+<hr>
+<h2 id="典型例题与应用技巧"><a href="#典型例题与应用技巧" class="headerlink" title="典型例题与应用技巧"></a>典型例题与应用技巧</h2><h3 id="例：多项式极限"><a href="#例：多项式极限" class="headerlink" title="例：多项式极限"></a>例：多项式极限</h3><p>\[<br>\lim_{x \to x_0} P_n(x) = P_n(x_0)<br>\]</p>
+<ul>
+<li>直接代入即可，由极限的加法和乘法法则保证。</li>
+</ul>
+<h3 id="例：“0-0”型未定式"><a href="#例：“0-0”型未定式" class="headerlink" title="例：“0/0”型未定式"></a>例：<strong>“0/0”型未定式</strong></h3><ul>
+<li>当分子、分母极限均为零时，<strong>先因式分解，约去公因子</strong>，再求极限。</li>
+<li>例如：<br>\[<br>\lim_{x \to -2} \frac{x^2 - 4}{x + 2} = \lim_{x \to -2} (x - 2) = -4<br>\]</li>
+</ul>
+<h3 id="例：分母为零而分子不为零"><a href="#例：分母为零而分子不为零" class="headerlink" title="例：分母为零而分子不为零"></a>例：<strong>分母为零而分子不为零</strong></h3><ul>
+<li>若 $\lim g(x) = 0$，$\lim f(x) \ne 0$，则：<br>\[<br>\lim \frac{f(x)}{g(x)} = \infty<br>\]<ul>
+<li>此处仍然要求 $\lim f(x)$ 存在, 否则会有反例, 如: $g(x)=x$, 有 $\lim\limits_{x\to0} g(x)=0$, $f(x)=\sin\frac1x$, 但 $\lim\limits_{x\to 0} f(x)$ 不存在,<br><script type="math/tex">\lim\limits_{x\to0} \frac{f(x)}{g(x)}=\lim\limits_{x\to0}\frac{\sin\frac1x}{x}</script> 不存在.</li>
+</ul>
+</li>
+<li>使用<strong>无穷小与无穷大的关系</strong>：$\frac{1}{\text{无穷小}} = \text{无穷大}$。</li>
+</ul>
+<h3 id="例：“∞-∞”型未定式（多项式分式）"><a href="#例：“∞-∞”型未定式（多项式分式）" class="headerlink" title="例：“∞/∞”型未定式（多项式分式）"></a>例：<strong>“∞/∞”型未定式</strong>（多项式分式）</h3><ul>
+<li>分子分母同除以最高次幂 $x^n$，再求极限。</li>
+<li>例如：<script type="math/tex; mode=display">
+\lim_{x \to \infty} \frac{6x^4 - 7x^3 + 2}{2x^4 + 6x^2 - 1}
+ = \lim_{x\to\infty}\frac{6-\frac7x+\frac{2}{x^4}}{2+\frac6{x^2}-\frac1{x^4}}
+ = \frac{6}{2} = 3</script></li>
+</ul>
+<hr>
+<h3 id="例：有理函数在无穷远处的极限（分子次数-lt-分母次数）"><a href="#例：有理函数在无穷远处的极限（分子次数-lt-分母次数）" class="headerlink" title="例：有理函数在无穷远处的极限（分子次数 &lt; 分母次数）"></a>例：有理函数在无穷远处的极限（分子次数 &lt; 分母次数）</h3><p>\[<br>\lim_{x \to \infty} \frac{2x^2 - 3x - 2}{x^3 + 5x^2 - 2} = 0<br>\]</p>
+<ul>
+<li><strong>方法</strong>：分子分母同除以最高次幂 $x^3$</li>
+<li><strong>结论</strong>：当分子次数 &lt; 分母次数时，极限为 0</li>
+</ul>
+<hr>
+<h2 id="总结与修正说明"><a href="#总结与修正说明" class="headerlink" title="总结与修正说明"></a>总结与修正说明</h2><h3 id="✅-正确理解与适用范围："><a href="#✅-正确理解与适用范围：" class="headerlink" title="✅ 正确理解与适用范围："></a>✅ 正确理解与适用范围：</h3><ul>
+<li>极限四则运算法则<strong>前提是每个函数的极限存在</strong>（商的情形还要求分母极限不为零）。</li>
+</ul>
+<h3 id="❗-常见误区与修正："><a href="#❗-常见误区与修正：" class="headerlink" title="❗ 常见误区与修正："></a>❗ 常见误区与修正：</h3><ol>
+<li><strong>“0/0”型</strong>不能直接用法则，需约去 “零因子” 化简；</li>
+<li><strong>“∞/∞”型</strong>需通过分子分母同除最高次项处理；</li>
+<li><strong>无穷大运算</strong>不能随意推广到加减法（如“无穷大 - 无穷大”是不定型）；</li>
+</ol>
+<h2 id="极限四则运算法则的进一步应用"><a href="#极限四则运算法则的进一步应用" class="headerlink" title="极限四则运算法则的进一步应用"></a>极限四则运算法则的进一步应用</h2><h3 id="例：无穷大减无穷大型（根式差）"><a href="#例：无穷大减无穷大型（根式差）" class="headerlink" title="例：无穷大减无穷大型（根式差）"></a>例：无穷大减无穷大型（根式差）</h3><p>\[<br>\lim_{x \to +\infty} (\sqrt{x+2} - \sqrt{x}) = 0<br>\]</p>
+<ul>
+<li><strong>方法</strong>：分子有理化</li>
+<li><strong>技巧</strong>：$\sqrt{a} - \sqrt{b} = \frac{a-b}{\sqrt{a} + \sqrt{b}}$</li>
+</ul>
+<h3 id="例：有界函数与无穷小的乘积"><a href="#例：有界函数与无穷小的乘积" class="headerlink" title="例：有界函数与无穷小的乘积"></a>例：有界函数与无穷小的乘积</h3><p>\[<br>\lim_{x \to \infty} \frac{\sin x}{x} = 0<br>\]</p>
+<ul>
+<li><strong>依据</strong>：$|\sin x| \leq 1$（有界），$\lim\limits_{x \to \infty} \frac{1}{x} = 0$（无穷小）</li>
+<li><strong>几何意义</strong>：$y = 0$ 是水平渐近线</li>
+</ul>
+<hr>
+<h2 id="常见错误辨析与修正"><a href="#常见错误辨析与修正" class="headerlink" title="常见错误辨析与修正"></a>常见错误辨析与修正</h2><h3 id="错误-1-：无限项和的极限"><a href="#错误-1-：无限项和的极限" class="headerlink" title="错误 (1)：无限项和的极限"></a>错误 (1)：无限项和的极限</h3><ul>
+<li><strong>错误做法</strong>：逐项取极限相加</li>
+<li><strong>错误原因</strong>：极限四则运算法则只适用于<strong>有限项</strong></li>
+<li><strong>正确解法</strong>：先合并为有限形式：<br>\[<br>\lim_{n \to \infty} \frac{1+2+\cdots+(n-1)}{n^2} = \lim_{n \to \infty} \frac{n(n-1)}{2n^2} = \frac{1}{2}<br>\]</li>
+</ul>
+<h3 id="错误-2-：”∞-∞”-型未定式"><a href="#错误-2-：”∞-∞”-型未定式" class="headerlink" title="错误 (2)：”∞ - ∞” 型未定式"></a>错误 (2)：”∞ - ∞” 型未定式</h3><ul>
+<li><strong>错误做法</strong>：直接认为 ∞ - ∞ = 0</li>
+<li><strong>错误原因</strong>：两个无穷大的差是不定型，不能直接运算</li>
+<li><strong>正确解法</strong>：通分后化简：<br>\[<br>\lim_{x \to 1} \left( \frac{1}{x-1} - \frac{1}{\sqrt{x}-1} \right) = \lim_{x \to 1} \frac{1 - (\sqrt{x}+1)}{x-1}=\lim_{x \to 1} \frac{- \sqrt{x}}{x-1}=\infty.<br>\]</li>
+</ul>
+<h3 id="错误-3-：对不存在的极限使用乘积法则"><a href="#错误-3-：对不存在的极限使用乘积法则" class="headerlink" title="错误 (3)：对不存在的极限使用乘积法则"></a>错误 (3)：对不存在的极限使用乘积法则</h3><ul>
+<li><script type="math/tex; mode=display">\lim\limits_{x\to\infty}\frac{\arctan x}{x}=\frac{\lim\limits_{x\to\infty}\arctan x}{\lim\limits_{x\to\infty} x}=0.</script></li>
+<li><strong>错误原因</strong>：$\lim_{x \to \infty} \arctan x$ 不存在（振荡于 $-\pi/2$ 和 $\pi/2$ 之间）</li>
+<li><strong>正确解法</strong>：利用有界性：$|\arctan x| &lt; \pi/2$，乘以无穷小 $1/x\to 0$.</li>
+</ul>
+<hr>
+<h2 id="复合函数极限法则"><a href="#复合函数极限法则" class="headerlink" title="复合函数极限法则"></a>复合函数极限法则</h2><div class="note primary no-icon modern"><p><strong>定理(复合函数极限)</strong>: 设 $y = f[\varphi(x)]$，若：</p>
+<ol>
+<li>$\lim\limits_{x \to x_0} \varphi(x) = u_0$</li>
+<li>$\lim\limits_{u \to u_0} f(u) = A$</li>
+<li>存在 $\delta_0 &gt; 0$，当 $0 &lt; |x - x_0| &lt; \delta_0$ 时，$\varphi(x) \neq u_0$</li>
+</ol>
+<p>则：<br>\[<br>\lim_{x \to x_0} f[\varphi(x)] = A<br>\]</p>
+</div>
+<hr>
+<h3 id="例：复合函数极限计算"><a href="#例：复合函数极限计算" class="headerlink" title="例：复合函数极限计算"></a>例：复合函数极限计算</h3><p>\[<br>\lim_{x \to 3} \sqrt{\frac{x-3}{x^2-9}} = \sqrt{\frac{1}{6}} = \frac{\sqrt{6}}{6}<br>\]</p>
+<ul>
+<li><strong>步骤</strong>：<ol>
+<li>先求内层极限：$\lim_{x \to 3} \frac{x-3}{x^2-9} = \frac{1}{6}$</li>
+<li>再求外层极限：$\lim_{u \to 1/6} \sqrt{u} = \sqrt{1/6}$</li>
+</ol>
+</li>
+</ul>
+<hr>
+<h2 id="重要说明与修正总结"><a href="#重要说明与修正总结" class="headerlink" title="重要说明与修正总结"></a>重要说明与修正总结</h2><h3 id="✅-正确理解与适用范围：-1"><a href="#✅-正确理解与适用范围：-1" class="headerlink" title="✅ 正确理解与适用范围："></a>✅ 正确理解与适用范围：</h3><ul>
+<li>极限四则运算法则<strong>仅适用于有限项</strong>，无限项求和需先化为有限形式</li>
+<li>“∞ - ∞”, “0 × ∞”, “∞/∞” 等都是<strong>未定式</strong>，不能直接运算</li>
+<li>复合函数极限需要满足<strong>内层函数在去心邻域内不取极限值</strong>的条件</li>
 </ul>
 <script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
       <categories>

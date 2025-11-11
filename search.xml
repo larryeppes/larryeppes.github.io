@@ -6942,10 +6942,9 @@ f'_{-}(x_{0})=f'(x_{0}-0).</script><p>因为$\lim_{x\to x_{0}}f’(x)=k$存在, 
 </ul>
 <hr>
 <h2 id="可能存在的错误或需澄清之处："><a href="#可能存在的错误或需澄清之处：" class="headerlink" title="可能存在的错误或需澄清之处："></a>可能存在的错误或需澄清之处：</h2><ol>
-<li><strong>无穷大的定义</strong>：课件中强调“无穷大是变量”，这一点正确，但应补充说明：无穷大是<strong>极限过程</strong>中的概念，不是函数值。</li>
 <li><strong>无界与无穷大的区别</strong>：例子 $f(x) = \frac{1}{x} \sin \frac{1}{x}$ 很好地说明了无界不一定无穷大，但应强调“无穷大要求函数值的绝对值<strong>始终</strong>大于任意大数”，而无界只要求存在某些点函数值很大。</li>
 <li>关于无穷大，有没有相应的运算定理？  <ul>
-<li>实际上，无穷大<strong>没有</strong>像无穷小那样统一的运算法则。例如：<ul>
+<li>无穷大<strong>没有</strong>像无穷小那样统一的运算法则。例如：<ul>
 <li>无穷大 + 无穷大 不一定是无穷大（可能相消）；</li>
 <li>无穷大 × 有界函数 不一定无穷大；</li>
 <li>无穷大 × 无穷大 是无穷大（正负号需考虑）。</li>
@@ -7297,11 +7296,11 @@ f'_{-}(x_{0})=f'(x_{0}-0).</script><p>因为$\lim_{x\to x_{0}}f’(x)=k$存在, 
 </ul>
 <script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
       <categories>
-        <category>latex</category>
+        <category>高等数学</category>
       </categories>
       <tags>
-        <tag>latex</tag>
         <tag>math</tag>
+        <tag>高等数学</tag>
       </tags>
   </entry>
 </search>

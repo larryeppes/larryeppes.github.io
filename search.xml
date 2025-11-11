@@ -5966,7 +5966,8 @@ f'_{-}(x_{0})=f'(x_{0}-0).</script><p>因为$\lim_{x\to x_{0}}f’(x)=k$存在, 
 <li><a href="/%E5%87%BD%E6%95%B0%E7%9A%84%E6%9E%81%E9%99%90/" title="函数的极限">函数的极限</a></li>
 <li><a href="/%E6%97%A0%E7%A9%B7%E5%B0%8F%E4%B8%8E%E6%97%A0%E7%A9%B7%E5%A4%A7/" title="无穷小与无穷大">无穷小与无穷大</a></li>
 <li><a href="/%E6%9E%81%E9%99%90%E7%9A%84%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97%E6%B3%95%E5%88%99/" title="极限的四则运算法则">极限的四则运算法则</a></li>
-<li><a href="/%E6%9E%81%E9%99%90%E5%AD%98%E5%9C%A8%E5%87%86%E5%88%99%E4%B8%8E%E4%B8%A4%E4%B8%AA%E9%87%8D%E8%A6%81%E6%9E%81%E9%99%90/" title="极限存在准则与两个重要极限">极限存在准则与两个重要极限</a>
+<li><a href="/%E6%9E%81%E9%99%90%E5%AD%98%E5%9C%A8%E5%87%86%E5%88%99%E4%B8%8E%E4%B8%A4%E4%B8%AA%E9%87%8D%E8%A6%81%E6%9E%81%E9%99%90/" title="极限存在准则与两个重要极限">极限存在准则与两个重要极限</a></li>
+<li><a href="/%E6%97%A0%E7%A9%B7%E5%B0%8F%E7%9A%84%E6%AF%94%E8%BE%83/" title="无穷小的比较">无穷小的比较</a>
 </li>
 </ul>
 <h1 id="📌-课外参考资料推荐"><a href="#📌-课外参考资料推荐" class="headerlink" title="📌 课外参考资料推荐"></a>📌 <strong>课外参考资料推荐</strong></h1><ul>
@@ -6992,7 +6993,7 @@ f'_{-}(x_{0})=f'(x_{0}-0).</script><p>因为$\lim_{x\to x_{0}}f’(x)=k$存在, 
 <li>单调减少且有下界的数列必有极限.</li>
 </ul>
 <hr>
-<h2 id="应用实例"><a href="#应用实例" class="headerlink" title="应用实例"></a>应用实例</h2><div class="note primary no-icon flat"><p><strong>问题(夹逼定理的应用):</strong> 求 $\lim\limits_{n \to \infty} n \left( \frac{1}{n^2 + \pi} + \frac{1}{n^2 + 2\pi} + \cdots + \frac{1}{n^2 + n\pi} \right)$.</p>
+<h3 id="应用实例"><a href="#应用实例" class="headerlink" title="应用实例"></a>应用实例</h3><div class="note primary no-icon flat"><p><strong>问题(夹逼定理的应用):</strong> 求 $\lim\limits_{n \to \infty} n \left( \frac{1}{n^2 + \pi} + \frac{1}{n^2 + 2\pi} + \cdots + \frac{1}{n^2 + n\pi} \right)$.</p>
 <div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>解</span></div>
     <div class="hide-content"><ul>
 <li>建立不等式：$\frac{n^2}{n^2 + n\pi} &lt; x_n &lt; \frac{n^2}{n^2 + \pi}$</li>
@@ -7008,10 +7009,10 @@ f'_{-}(x_{0})=f'(x_{0}-0).</script><p>因为$\lim_{x\to x_{0}}f’(x)=k$存在, 
 <li><strong>有界性</strong>：用数学归纳法证明 $x_n &lt; 2$（有上界）</li>
 <li><strong>求极限</strong>：设 $\lim_{n \to \infty} x_n = a$，由递推关系：<br>\[<br>a = \sqrt{2 + a} \Rightarrow a^2 = 2 + a \Rightarrow a^2 - a - 2 = 0<br>\]<br>解得 $a = 2$ 或 $a = -1$（舍去负值），故 $\lim_{n \to \infty} x_n = 2$</li>
 </ol>
-<div class="note danger flat"><p><strong>重要提醒</strong>：课件第8页强调”对等式两边取极限，必须是在极限存在的情况下才可使用”，这是关键前提条件。</p>
+<div class="note danger flat"><p><strong>重要提醒</strong>：对等式两边取极限，必须是在极限存在的情况下才可使用。</p>
 </div></div></div></div>
 <hr>
-<h2 id="重要极限的证明"><a href="#重要极限的证明" class="headerlink" title="重要极限的证明"></a>重要极限的证明</h2><h3 id="重要极限：-lim-limits-n-to-infty-left-1-frac-1-n-right-n-的存在性证明"><a href="#重要极限：-lim-limits-n-to-infty-left-1-frac-1-n-right-n-的存在性证明" class="headerlink" title="重要极限：$\lim\limits_{n \to \infty} \left(1 + \frac{1}{n}\right)^n$ 的存在性证明."></a>重要极限：$\lim\limits_{n \to \infty} \left(1 + \frac{1}{n}\right)^n$ 的存在性证明.</h3><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+<h2 id="两个重要极限及其证明"><a href="#两个重要极限及其证明" class="headerlink" title="两个重要极限及其证明"></a>两个重要极限及其证明</h2><h3 id="重要极限：-lim-limits-n-to-infty-left-1-frac-1-n-right-n-的存在性证明"><a href="#重要极限：-lim-limits-n-to-infty-left-1-frac-1-n-right-n-的存在性证明" class="headerlink" title="重要极限：$\lim\limits_{n \to \infty} \left(1 + \frac{1}{n}\right)^n$ 的存在性证明."></a>重要极限：$\lim\limits_{n \to \infty} \left(1 + \frac{1}{n}\right)^n$ 的存在性证明.</h3><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
     <div class="hide-content"><ol>
 <li><p><strong>展开表达式</strong>：<br>\[<br>x_n = \left(1 + \frac{1}{n}\right)^n = 1 + 1 + \frac{1}{2!}\left(1 - \frac{1}{n}\right) + \frac{1}{3!}\left(1 - \frac{1}{n}\right)\left(1 - \frac{2}{n}\right) + \cdots<br>\]</p>
 </li>
@@ -7021,17 +7022,15 @@ f'_{-}(x_{0})=f'(x_{0}-0).</script><p>因为$\lim_{x\to x_{0}}f’(x)=k$存在, 
 <li>$x_{n+1}$ 比 $x_n$ 多一项正数项</li>
 </ul>
 </li>
-<li><p><strong>结论</strong>：$\{x_n\}$ 单调增加</p>
+<li><p><strong>结论</strong>：数列$\{x_n\}$单调增加且有上界，极限存在，记为 $e$.</p>
 </li>
 </ol>
-</div></div>
-<hr>
-<p><strong>结论</strong>：数列单调增加且有上界，极限存在，记为 $e$</p>
 <blockquote>
 <p>✅ <strong>数值</strong>：$e \approx 2.71828$<br>✅ <strong>等价形式</strong>：$\lim_{x \to 0} (1 + x)^{1/x} = e$</p>
 </blockquote>
+</div></div>
 <hr>
-<h4 id="重要极限：-lim-x-to-infty-left-1-frac-1-x-right-x-e"><a href="#重要极限：-lim-x-to-infty-left-1-frac-1-x-right-x-e" class="headerlink" title="重要极限：$\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x = e$"></a>重要极限：$\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x = e$</h4><p><strong>证明思路</strong>：</p>
+<h4 id="函数版本：-lim-x-to-infty-left-1-frac-1-x-right-x-e"><a href="#函数版本：-lim-x-to-infty-left-1-frac-1-x-right-x-e" class="headerlink" title="函数版本：$\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x = e$"></a>函数版本：$\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x = e$</h4><p><strong>证明思路</strong>：</p>
 <ol>
 <li><p><strong>$x \to +\infty$</strong>：</p>
 <ul>
@@ -7055,19 +7054,63 @@ f'_{-}(x_{0})=f'(x_{0}-0).</script><p>因为$\lim_{x\to x_{0}}f’(x)=k$存在, 
 <li>由夹逼定理：$\lim\limits_{x \to 0} \frac{\sin x}{x} = 1$</li>
 </ul>
 <hr>
-<h2 id="三、重要极限的应用例题"><a href="#三、重要极限的应用例题" class="headerlink" title="三、重要极限的应用例题"></a>三、重要极限的应用例题</h2><h3 id="例：-lim-limits-x-to-0-frac-tan-x-x"><a href="#例：-lim-limits-x-to-0-frac-tan-x-x" class="headerlink" title="例：$\lim\limits_{x \to 0} \frac{\tan x}{x}$"></a>例：$\lim\limits_{x \to 0} \frac{\tan x}{x}$</h3><p>\[<br>\lim_{x \to 0} \frac{\tan x}{x} = \lim_{x \to 0} \left(\frac{\sin x}{x} \cdot \frac{1}{\cos x}\right) = 1 \times 1 = 1<br>\]</p>
-<h3 id="例：-lim-limits-x-to-0-frac-x-sin-x-x-sin-x"><a href="#例：-lim-limits-x-to-0-frac-x-sin-x-x-sin-x" class="headerlink" title="例：$\lim\limits_{x \to 0} \frac{x - \sin x}{x + \sin x}$"></a>例：$\lim\limits_{x \to 0} \frac{x - \sin x}{x + \sin x}$</h3><ul>
-<li>分子分母同除以 $x$：<br>\[<br>\lim_{x \to 0} \frac{1 - \frac{\sin x}{x}}{1 + \frac{\sin x}{x}} = \frac{1 - 1}{1 + 1} = 0<br>\]</li>
-</ul>
-<h3 id="例：-lim-limits-x-to-0-frac-1-cos-x-x-2"><a href="#例：-lim-limits-x-to-0-frac-1-cos-x-x-2" class="headerlink" title="例：$\lim\limits_{x \to 0} \frac{1 - \cos x}{x^2}$"></a>例：$\lim\limits_{x \to 0} \frac{1 - \cos x}{x^2}$</h3><ul>
+<h2 id="重要极限的应用例题"><a href="#重要极限的应用例题" class="headerlink" title="重要极限的应用例题"></a>重要极限的应用例题</h2><div class="note primary no-icon flat"><p><strong>例:</strong> $\lim\limits_{x \to 0} \frac{\tan x}{x}$</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>\[<br>\lim_{x \to 0} \frac{\tan x}{x} = \lim_{x \to 0} \left(\frac{\sin x}{x} \cdot \frac{1}{\cos x}\right) = 1 \times 1 = 1<br>\]</p>
+</div></div></div>
+<hr>
+<div class="note primary no-icon flat"><p><strong>例:</strong> $\lim\limits_{x \to 0} \frac{x - \sin x}{x + \sin x}$</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>分子分母同除以 $x$：</p>
+<script type="math/tex; mode=display">
+\lim_{x \to 0} \frac{1 - \frac{\sin x}{x}}{1 + \frac{\sin x}{x}} = \frac{1 - 1}{1 + 1} = 0</script></div></div></div>
+<hr>
+<div class="note primary no-icon flat"><p><strong>例:</strong> $\lim\limits_{x \to 0} \frac{1 - \cos x}{x^2}$</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><ul>
 <li>利用倍角公式：$1 - \cos x = 2\sin^2\frac{x}{2}$</li>
 <li>\[<br>\lim_{x \to 0} \frac{2\sin^2\frac{x}{2}}{x^2} = \frac{1}{2} \lim_{x \to 0} \left(\frac{\sin\frac{x}{2}}{\frac{x}{2}}\right)^2 = \frac{1}{2}<br>\]</li>
 </ul>
-<h3 id="例：-lim-limits-x-to-infty-left-1-frac-1-x-right-x"><a href="#例：-lim-limits-x-to-infty-left-1-frac-1-x-right-x" class="headerlink" title="例：$\lim\limits_{x \to \infty} \left(1 + \frac{1}{x}\right)^{-x}$"></a>例：$\lim\limits_{x \to \infty} \left(1 + \frac{1}{x}\right)^{-x}$</h3><p>\[<br>\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^{-x} = \left[\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x\right]^{-1} = e^{-1}<br>\]</p>
-<h3 id="例：-lim-limits-x-to-infty-left-1-frac-2-x-right-4x"><a href="#例：-lim-limits-x-to-infty-left-1-frac-2-x-right-4x" class="headerlink" title="例：$\lim\limits_{x \to \infty} \left(1 - \frac{2}{x}\right)^{4x}$"></a>例：$\lim\limits_{x \to \infty} \left(1 - \frac{2}{x}\right)^{4x}$</h3><ul>
+</div></div></div>
+<hr>
+<div class="note primary no-icon flat"><p><strong>例:</strong> $\lim\limits_{x \to \infty} \left(1 + \frac{1}{x}\right)^{-x}$</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>\[<br>\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^{-x} = \left[\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x\right]^{-1} = e^{-1}<br>\]</p>
+</div></div></div>
+<hr>
+<div class="note primary no-icon flat"><p><strong>例:</strong> $\lim\limits_{x \to \infty} \left(1 - \frac{2}{x}\right)^{4x}$.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><ul>
 <li>令 $t = -\frac{2}{x}$，则：<script type="math/tex; mode=display">
    \left(1 - \frac{2}{x}\right)^{4x} = \left(1 + t\right)^{4 \cdot (-2/t)} = (1 + t)^{-8/t}</script><script type="math/tex; mode=display">
 \lim_{x \to \infty} \left(1 - \frac{2}{x}\right)^{4x} = \lim_{t \to 0} (1 + t)^{-8/t} = e^{-8}</script></li>
+</ul>
+</div></div></div>
+<hr>
+<div class="note primary no-icon flat"><p><strong>例:</strong> $\lim\limits_{x \to \infty} \left( \frac{x-5}{x+3} \right)^x$.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><ol>
+<li><p>变形为：<br>\[<br>\left( \frac{1-\frac{5}{x}}{1+\frac{3}{x}} \right)^x = \frac{(1-\frac{5}{x})^x}{(1+\frac{3}{x})^x}<br>\]</p>
+</li>
+<li><p>分别求极限：<br>\[<br>\lim_{x \to \infty} \left(1-\frac{5}{x}\right)^x = e^{-5}, \quad \lim_{x \to \infty} \left(1+\frac{3}{x}\right)^x = e^{3}<br>\]</p>
+</li>
+<li><p>最终结果：<br>\[<br>\frac{e^{-5}}{e^{3}} = e^{-8}<br>\]</p>
+</li>
+</ol>
+</div></div></div>
+<hr>
+<div class="note primary no-icon flat"><p><strong>连续复利问题:</strong> 本金1000元，年利率8%，连续复利计息，求5年末本利和.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><ul>
+<li>每年结算 $n$ 次：$A_n = 1000\left(1+\frac{0.08}{n}\right)^{nx}$</li>
+<li>连续复利（$n \to \infty$）：<br>\[<br>A = \lim_{n \to \infty} A_n = 1000 \cdot e^{0.08x}<br>\]</li>
+<li>5年末本利和：<br>\[<br>A = 1000e^{0.08 \times 5} = 1000e^{0.4} \approx 1492 \text{元}<br>\]</li>
+</ul>
+</div></div></div>
+<hr>
+<h3 id="连续复利的意义"><a href="#连续复利的意义" class="headerlink" title="连续复利的意义"></a>连续复利的意义</h3><ul>
+<li><strong>连续复利公式</strong>：$A = P \cdot e^{rt}$</li>
+<li>在金融、生物增长等领域有广泛应用</li>
 </ul>
 <hr>
 <h3 id="✅-补充说明："><a href="#✅-补充说明：" class="headerlink" title="✅ 补充说明："></a>✅ 补充说明：</h3><p><strong>重要极限的变体</strong>：</p>
@@ -7214,6 +7257,51 @@ f'_{-}(x_{0})=f'(x_{0}-0).</script><p>因为$\lim_{x\to x_{0}}f’(x)=k$存在, 
       <tags>
         <tag>math</tag>
         <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>无穷小的比较</title>
+    <url>/%E6%97%A0%E7%A9%B7%E5%B0%8F%E7%9A%84%E6%AF%94%E8%BE%83/</url>
+    <content><![CDATA[<h2 id="无穷小的比较"><a href="#无穷小的比较" class="headerlink" title="无穷小的比较"></a>无穷小的比较</h2><div class="note primary no-icon modern"><p><strong>定义</strong>: 设 $\alpha(x), \beta(x)$ 为无穷小.</p>
+<ol>
+<li><strong>高阶无穷小</strong>：$\lim \frac{\beta}{\alpha} = 0$，记作 $\beta = o(\alpha)$</li>
+<li><strong>低阶无穷小</strong>：$\lim \frac{\beta}{\alpha} = \infty$</li>
+<li><strong>同阶无穷小</strong>：$\lim \frac{\beta}{\alpha} = C \neq 0$</li>
+<li><strong>$k$阶无穷小</strong>：$\lim \frac{\beta}{\alpha^k} = C \neq 0$</li>
+<li><strong>等价无穷小</strong>：$\lim \frac{\beta}{\alpha} = 1$，记作 $\alpha \sim \beta$</li>
+</ol>
+</div>
+<hr>
+<h3 id="等价无穷小的性质"><a href="#等价无穷小的性质" class="headerlink" title="等价无穷小的性质"></a>等价无穷小的性质</h3><ol>
+<li><strong>反身性</strong>：$\alpha \sim \alpha$</li>
+<li><strong>对称性</strong>：若 $\alpha \sim \beta$，则 $\beta \sim \alpha$</li>
+<li><strong>传递性</strong>：若 $\alpha \sim \beta$，$\beta \sim \gamma$，则 $\alpha \sim \gamma$</li>
+</ol>
+<hr>
+<h2 id="无穷小比较的例题分析"><a href="#无穷小比较的例题分析" class="headerlink" title="无穷小比较的例题分析"></a>无穷小比较的例题分析</h2><div class="note primary no-icon flat"><p><strong>例:</strong> 当 $x \to 0$ 时比较无穷小</p>
+<p><strong>(1) $\sin 5x$ 和 $3x$</strong><br>\[<br>\lim_{x \to 0} \frac{\sin 5x}{3x} = \frac{5}{3} \neq 0<br>\]<br>⇒ <strong>同阶无穷小</strong></p>
+<p><strong>(2) $1 - \cos x$ 和 $x$</strong><br>\[<br>\lim_{x \to 0} \frac{1 - \cos x}{x} = 0<br>\]<br>⇒ $1 - \cos x$ 是比 $x$ <strong>高阶</strong>的无穷小</p>
+<p><strong>(3) $1 - \cos x$ 和 $\frac{1}{2}x^2$</strong><br>\[<br>\lim_{x \to 0} \frac{1 - \cos x}{\frac{1}{2}x^2} = 1<br>\]<br>⇒ <strong>等价无穷小</strong>：$1 - \cos x \sim \frac{1}{2}x^2$</p>
+<p><strong>(4) $\sin x$ 和 $\tan x$</strong><br>\[<br>\lim_{x \to 0} \frac{\tan x}{\sin x} = \lim_{x \to 0} \frac{1}{\cos x} = 1<br>\]<br>⇒ <strong>等价无穷小</strong>：$\sin x \sim \tan x$（当 $x \to 0$）</p>
+<p><strong>(5) $\sqrt{1 + x} - 1$ 和 $\frac{x}{2}$</strong><br>利用有理化可得：<br>\[<br>\lim_{x \to 0} \frac{\sqrt{1 + x} - 1}{\frac{x}{2}} = 1<br>\]<br>⇒ <strong>等价无穷小</strong>：$\sqrt{1 + x} - 1 \sim \frac{x}{2}$</p>
+</div>
+<h3 id="无穷小比较的应用价值"><a href="#无穷小比较的应用价值" class="headerlink" title="无穷小比较的应用价值"></a>无穷小比较的应用价值</h3><ul>
+<li>为后续学习<strong>泰勒展开</strong>和<strong>极限计算</strong>奠定基础</li>
+<li>等价无穷小替换是求极限的重要方法</li>
+</ul>
+<h3 id="常见等价无穷小（-x-to-0-时）"><a href="#常见等价无穷小（-x-to-0-时）" class="headerlink" title="常见等价无穷小（$x \to 0$时）"></a>常见等价无穷小（$x \to 0$时）</h3><ul>
+<li>$\sin x \sim x$，$\tan x \sim x$</li>
+<li>$1 - \cos x \sim \frac{1}{2}x^2$</li>
+<li>$\ln(1 + x) \sim x$，$e^x - 1 \sim x$</li>
+<li>$\sqrt{1 + x} - 1 \sim \frac{x}{2}$</li>
+</ul>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>latex</category>
+      </categories>
+      <tags>
+        <tag>latex</tag>
+        <tag>math</tag>
       </tags>
   </entry>
 </search>

@@ -6012,6 +6012,12 @@ f'_{-}(x_{0})=f'(x_{0}-0).</script><p>因为$\lim_{x\to x_{0}}f’(x)=k$存在, 
 <li><a href="/%E5%87%BD%E6%95%B0%E7%9A%84%E8%BF%9E%E7%BB%AD%E6%80%A7/" title="函数的连续性">函数的连续性</a>
 </li>
 </ul>
+<h1 id="宗旨"><a href="#宗旨" class="headerlink" title="宗旨"></a><strong>宗旨</strong></h1><ul>
+<li>被认为是“难或枯燥”的数学运算，其实只要方法得当，普通人（即“傻瓜”）也能学会。</li>
+<li>讽刺许多教科书作者（“聪明的傻瓜”）喜欢把简单的东西讲得复杂，以炫耀自己的聪明才智。</li>
+<li>很多学生被微积分吓退，其实只是因为不理解符号的含义。</li>
+<li>微积分本质上是一种操作说明，而不是神秘咒语。</li>
+</ul>
 <h1 id="📌-课外参考资料推荐"><a href="#📌-课外参考资料推荐" class="headerlink" title="📌 课外参考资料推荐"></a>📌 <strong>课外参考资料推荐</strong></h1><ul>
 <li>《普林斯顿微积分读本》</li>
 <li>《吉米多维奇数学分析习题集》</li>
@@ -6020,10 +6026,37 @@ f'_{-}(x_{0})=f'(x_{0}-0).</script><p>因为$\lim_{x\to x_{0}}f’(x)=k$存在, 
 <li>《微积分和数学分析引论》（柯朗）</li>
 </ul>
 <hr>
-<h1 id="💡-学习建议（来自文档）"><a href="#💡-学习建议（来自文档）" class="headerlink" title="💡 学习建议（来自文档）"></a>💡 <strong>学习建议（来自文档）</strong></h1><ul>
-<li>自学时先通读教材，再做习题；</li>
-<li>多本书对比学习；</li>
-<li>刷题时限时完成，对卡壳处做标记复习。</li>
+<h1 id="💡-学习建议"><a href="#💡-学习建议" class="headerlink" title="💡 学习建议"></a>💡 <strong>学习建议</strong></h1><p>微分是研究<strong>变化</strong>与<strong>变化率</strong>的数学分支。它通过分析变量之间的依赖关系，用 ( dx ) 和 ( dy ) 这类“微小变化”来描述一个量如何影响另一个量，从而为理解运动、增长、优化等问题提供工具。</p>
+<h2 id="两个核心符号的解释"><a href="#两个核心符号的解释" class="headerlink" title="两个核心符号的解释"></a><strong>两个核心符号的解释</strong></h2><h3 id="符号-d：表示“一小部分”"><a href="#符号-d：表示“一小部分”" class="headerlink" title="符号 d：表示“一小部分”"></a><strong>符号 <code>d</code>：表示“一小部分”</strong></h3><ul>
+<li><code>dx</code> 就是 <code>x</code> 的一小部分，<code>du</code> 就是 <code>u</code> 的一小部分。</li>
+<li>这些“小块”可以想象成<strong>无限小</strong>的量。</li>
+</ul>
+<h3 id="符号-∫：表示“求和”"><a href="#符号-∫：表示“求和”" class="headerlink" title="符号 ∫：表示“求和”"></a><strong>符号 <code>∫</code>：表示“求和”</strong></h3><ul>
+<li><code>∫</code> 是一个拉长的字母 <strong>S</strong>（代表 <strong>Sum</strong>，即“求和”）。</li>
+<li><code>∫ dx</code> 表示“把所有 <code>dx</code>（x 的小块）加起来”，也就是得到 <strong>x 的整体</strong>。</li>
+<li>类比举例：1 小时可以看作 3600 秒（每一秒是一个 <code>dt</code>），把它们全部加起来（<code>∫ dt</code>）就是 1 小时。</li>
+</ul>
+<hr>
+<h2 id="直观理解“积分”"><a href="#直观理解“积分”" class="headerlink" title="直观理解“积分”"></a><strong>直观理解“积分”</strong></h2><ul>
+<li>积分（integral）的字面意思就是“整体”。</li>
+<li>看到 <code>∫</code> 时，就表示要进行“求和”操作：把后面符号所代表的所有“小块”累加起来。</li>
+</ul>
+<hr>
+<h2 id="不同阶数的“微小量”及其可忽略性"><a href="#不同阶数的“微小量”及其可忽略性" class="headerlink" title="不同阶数的“微小量”及其可忽略性"></a><strong>不同阶数的“微小量”及其可忽略性</strong></h2><ul>
+<li>微小量的相对性：<ul>
+<li>如1分钟相对于一周是很小的，但1秒相对于1分钟又是更小的。</li>
+</ul>
+</li>
+<li>微小量的“阶数”：<ul>
+<li>一阶微小量：比如 $dx$（$x$ 的一小部分）。</li>
+<li>二阶微小量：比如 $dx^2$（$x$ 的一小部分的一小部分），是更高级别的“小”。</li>
+</ul>
+</li>
+<li>何时可忽略：<ul>
+<li>在计算中，高阶微小量（如二阶及以上）通常可以忽略不计，前提是基础微小量本身足够小。 </li>
+<li>但如果微小量被一个很大的因子相乘（如 $x\cdot dx$，其中 $x$ 很大），它仍可能变得不可忽略。</li>
+</ul>
+</li>
 </ul>
 <script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
       <categories>
@@ -6857,24 +6890,33 @@ f'_{-}(x_{0})=f'(x_{0}-0).</script><p>因为$\lim_{x\to x_{0}}f’(x)=k$存在, 
 </ul>
 <p><strong>反例</strong>：$x_n = (-1)^n$ 有界但发散。</p>
 <hr>
-<h3 id="备用题（极限存在性与求解）"><a href="#备用题（极限存在性与求解）" class="headerlink" title="备用题（极限存在性与求解）"></a>备用题（极限存在性与求解）</h3><h4 id="题-1：递推数列极限"><a href="#题-1：递推数列极限" class="headerlink" title="题 1：递推数列极限"></a>题 1：递推数列极限</h4><p>设 $x_{n+1} = \frac{1}{2}(x_n + \frac{a}{x_n})$，$x_1 &gt; 0$，$a &gt; 0$，求 $\lim_{n \to \infty} x_n$。</p>
-<p><strong>解</strong>：</p>
+<h3 id="备用题（极限存在性与求解）"><a href="#备用题（极限存在性与求解）" class="headerlink" title="备用题（极限存在性与求解）"></a>备用题（极限存在性与求解）</h3><div class="note primary no-icon modern"><p><strong>例 (递推数列极限)</strong>: 设 $x_{n+1} = \frac{1}{2}(x_n + \frac{a}{x_n})$，$x_1 &gt; 0$，$a &gt; 0$，求 $\lim_{n \to \infty} x_n$。</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p><strong>解</strong>：</p>
 <ol>
 <li>由均值不等式得 $x_{n+1} \geq \sqrt{a}$，故有下界。</li>
 <li>又 $\frac{x_{n+1}}{x_n} = \frac{1}{2}(1 + \frac{a}{x_n^2}) \leq 1$，故数列单调递减。</li>
 <li>由单调有界准则，极限存在，设 $\lim x_n = A$。</li>
 <li>代入递推式：$A = \frac{1}{2}(A + \frac{a}{A}) \Rightarrow A^2 = a \Rightarrow A = \sqrt{a}$（取正）。</li>
 </ol>
+</div></div></div>
 <hr>
-<h4 id="题-2：极限存在性证明"><a href="#题-2：极限存在性证明" class="headerlink" title="题 2：极限存在性证明"></a>题 2：极限存在性证明</h4><p>设 $a_i \geq 0$，证明：<br>\[<br>X_n = \sum_{k=1}^n \frac{a_k}{(1+a_1)\cdots(1+a_k)}<br>\]<br>的极限存在。</p>
-<p><strong>证</strong>：</p>
+<div class="note primary no-icon modern"><p><strong>例 (极限存在性证明)</strong>: 设 $a_i \geq 0$，证明：</p>
+<script type="math/tex; mode=display">
+X_n = \sum_{k=1}^n \frac{a_k}{(1+a_1)\cdots(1+a_k)}</script><p>的极限存在。</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p><strong>证</strong>：</p>
 <ul>
 <li>$X_n$ 单调递增；</li>
 <li>通过变形：<br>\[<br>X_n = 1 - \frac{1}{(1+a_1)\cdots(1+a_n)} &lt; 1<br>\]</li>
 <li>故 $\{X_n\}$ 单调有上界，极限存在。</li>
 </ul>
+</div></div></div>
 <hr>
-<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+<div class="note primary no-icon flat"><p><strong>问题 (József Wildt International Mathematical Competition (2019)):</strong> Pell 数 $P_{n}$ 满足 $P_{0}=0$, $P_{1}=1$, 且</p>
+<script type="math/tex; mode=display">
+P_{n}=2P_{n-1}+P_{n-2},\qquad n\ge2.</script><p>求证:<br>(1). $P_{n}P_{n+2}+\left(-1\right)^{n}=P_{n+1}^{2}$;<br>(2). $\arctan\frac{1}{P_{2n}}-\arctan\frac{1}{P_{2n+2}}=\arctan\frac{2}{P_{2n+1}}$;<br>(3). $\sum\limits_{n=1}^{\infty}\left(\arctan\frac{1}{P_{2n}}+\arctan\frac{1}{P_{2n+2}}\right)\arctan\frac{2}{P_{2n+1}}=\arctan^{2}\frac{1}{2}$.</p>
+</div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
       <categories>
         <category>高等数学</category>
       </categories>
@@ -7519,6 +7561,58 @@ A = 1000e^{0.08 \times 5} = 1000e^{0.4} \approx 1492 \text{元}</script></li>
       </categories>
       <tags>
         <tag>math</tag>
+        <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>József Wildt International Mathematical Competition</title>
+    <url>/Competition/</url>
+    <content><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>József Wildt International Mathematical Competition（约瑟夫·维尔德国际数学竞赛）是一个面向高中生的国际数学竞赛，以纪念匈牙利数学家约瑟夫·维尔德（József Wildt）。它通常在罗马尼亚特尔古穆列什举办，旨在鼓励学生对数学的兴趣并挑战他们的解决问题的能力。</p>
+<h1 id="各届问题及其解答"><a href="#各届问题及其解答" class="headerlink" title="各届问题及其解答"></a>各届问题及其解答</h1><h2 id="2019-年"><a href="#2019-年" class="headerlink" title="2019 年"></a>2019 年</h2><div class="note primary no-icon flat"><p><strong>W1.</strong> The Pell numbers $P_n$ satisfy $P_0=0$, $P_1=1$, and $P_n=2P_{n-1}+P_{n-2}$ for $n\ge2$. Find</p>
+<script type="math/tex; mode=display">\sum_{n=1}^{\infty}\left(\arctan\frac1{P_{2n}}+\arctan\frac1{P_{2n+2}}\right)\arctan\frac2{P_{2n+1}}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>依次证明:<br>(1). $P_{n}P_{n+2}+\left(-1\right)^{n}=P_{n+1}^{2}$;<br>(2). $\arctan\frac{1}{P_{2n}}-\arctan\frac{1}{P_{2n+2}}=\arctan\frac{2}{P_{2n+1}}$;<br>(3). $\sum\limits_{n=1}^{\infty}\left(\arctan\frac{1}{P_{2n}}+\arctan\frac{1}{P_{2n+2}}\right)\arctan\frac{2}{P_{2n+1}}=\arctan^{2}\frac{1}{2}$.</p>
+</div></div> </div>
+<div class="note primary no-icon flat"><p><strong>W2.</strong> If $0&lt;a\le c\le b$ then:</p>
+<script type="math/tex; mode=display">
+\frac{\left(b^{30}-a^{30}\right)\left(b^{30}-c^{30}\right)}{36b^{10}}\le\frac{\left(b^{25}-a^{25}\right)\left(b^{25}-c^{25}\right)}{25}\le\frac{\left(b^{30}-a^{30}\right)\left(b^{30}-c^{30}\right)}{36\left(ac\right)^{5}}</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>考虑</p>
+<script type="math/tex; mode=display">
+\int_{a}^{b}\int_{c}^{b}t^{24}s^{24}\,ds\,dt\le\frac{1}{(ac)^{5}}\int_{a}^{b}\int_{c}^{b}t^{29}s^{29}\,ds\,dt</script><p>和</p>
+<script type="math/tex; mode=display">
+\frac{1}{b^{10}}\int_{a}^{b}\int_{c}^{b}t^{29}s^{29}\,ds\,dt\le\int_{a}^{b}\int_{c}^{b}t^{24}s^{24}\,ds\,dt.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>W3.</strong> Compute</p>
+<script type="math/tex; mode=display">
+\int_{-\frac{\pi}{4}}^{\frac{\pi}{4}}\frac{\cos x+1-x^{2}}{\left(1+x\sin x\right)\sqrt{1-x^{2}}}dx.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\begin{align*}
+\int_{-\frac{\pi}{4}}^{\frac{\pi}{4}}\frac{\cos x+1-x^{2}}{\left(1+x\sin x\right)\sqrt{1-x^{2}}}dx & =2\int_{0}^{\frac{\pi}{4}}\frac{\cos x+1-x^{2}}{\left(1+x\sin x\right)\sqrt{1-x^{2}}}dx\\
+ & =\left.-4\arctan\left(\frac{\cos\left(\frac{\arcsin x-x}{2}\right)}{\sin\left(\frac{\arcsin x+x}{2}\right)}\right)\right|_{0}^{\frac{\pi}{4}}\\
+ & =2\pi-4\arctan\left(\frac{\cos\left(\frac{\pi-4\arcsin\frac{\pi}{4}}{8}\right)}{\sin\left(\frac{\pi+4\arcsin\frac{\pi}{4}}{8}\right)}\right)
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>W4.</strong> If $x,y,z,t&gt;1$ then:</p>
+<script type="math/tex; mode=display">
+\left(\log_{zxt}x\right)^{2}+\left(\log_{xyt}y\right)^{2}+\left(\log_{xyz}z\right)^{2}+\left(\log_{yzt}t\right)^{2}>\frac{1}{4}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\begin{align*}
+\sum_{cyc}\left(\frac{a}{a+c+d}\right)^{2} & >\frac{1}{4}\\
+\sum_{cyc}1\sum_{cyc}\left(\frac{a}{a+c+d}\right)^{2} & \ge\left(\sum_{cyc}\frac{a}{a+c+d}\right)^{2}>\left(\sum_{cyc}\frac{a}{a+b+c+d}\right)^{2}=1.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>W5.</strong> Let $n\ge 1$. Find a set of distincts real numbers $(x_j)_{1\le j\le n}$ such that for any bijections $f:\{1,2,\cdots, n\}^2\to\{1,2,\cdots,n\}^2$ the matrix $\left(x_{f(i,j)}\right)_{1\le i,j\le n}$ is invertible. </p>
+</div>
+<div class="note primary no-icon flat"><p><strong>W6.</strong> Compute<br>\[\int_{\frac{\pi}{6}}^{\frac{\pi}{4}}\frac{(1+\ln x)\cos x+x\sin x\ln x}{\cos^{2}x+x^{2}\ln^{2}x}\ud x\]</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">\begin{align*}
+\int_{\frac{\pi}{6}}^{\frac{\pi}{4}}\frac{(1+\ln x)\cos x+x\sin x\ln x}{\cos^{2}x+x^{2}\ln^{2}x}dx & =\int_{\frac{\pi}{6}}^{\frac{\pi}{4}}\frac{(x\ln x)^{\prime}\cos x+\sin x\cdot x\ln x}{\cos^{2}x+x^{2}\ln^{2}x}dx\\
+ & =\int_{\frac{\pi}{6}}^{\frac{\pi}{4}}\frac{1}{1+\left(\frac{x\ln x}{\cos x}\right)^{2}}d\left(\frac{x\ln x}{\cos x}\right)\\
+ & =\arctan\left(\frac{x\ln x}{\cos x}\right)|_{\pi/6}^{\pi/4}\\
+ & =\arctan\left(\frac{\sqrt{2}\pi\ln\frac{\pi}{4}}{4}\right)-\arctan\left(\frac{\sqrt{3}\pi\ln\frac{\pi}{6}}{9}\right)
+\end{align*}</script></div></div> </div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>高等数学</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>数学分析</tag>
         <tag>高等数学</tag>
       </tags>
   </entry>

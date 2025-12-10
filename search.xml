@@ -7599,14 +7599,52 @@ A = 1000e^{0.08 \times 5} = 1000e^{0.4} \approx 1492 \text{元}</script></li>
 \end{align*}</script></div></div></div>
 <div class="note primary no-icon flat"><p><strong>W5.</strong> Let $n\ge 1$. Find a set of distincts real numbers $(x_j)_{1\le j\le n}$ such that for any bijections $f:\{1,2,\cdots, n\}^2\to\{1,2,\cdots,n\}^2$ the matrix $\left(x_{f(i,j)}\right)_{1\le i,j\le n}$ is invertible. </p>
 </div>
-<div class="note primary no-icon flat"><p><strong>W6.</strong> Compute<br>\[\int_{\frac{\pi}{6}}^{\frac{\pi}{4}}\frac{(1+\ln x)\cos x+x\sin x\ln x}{\cos^{2}x+x^{2}\ln^{2}x}\ud x\]</p>
-<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+<div class="note primary no-icon flat"><p><strong>W6.</strong> Compute</p>
+<script type="math/tex; mode=display">\int_{\frac{\pi}{6}}^{\frac{\pi}{4}}\frac{(1+\ln x)\cos x+x\sin x\ln x}{\cos^{2}x+x^{2}\ln^{2}x}\ud x</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
     <div class="hide-content"><script type="math/tex; mode=display">\begin{align*}
 \int_{\frac{\pi}{6}}^{\frac{\pi}{4}}\frac{(1+\ln x)\cos x+x\sin x\ln x}{\cos^{2}x+x^{2}\ln^{2}x}dx & =\int_{\frac{\pi}{6}}^{\frac{\pi}{4}}\frac{(x\ln x)^{\prime}\cos x+\sin x\cdot x\ln x}{\cos^{2}x+x^{2}\ln^{2}x}dx\\
  & =\int_{\frac{\pi}{6}}^{\frac{\pi}{4}}\frac{1}{1+\left(\frac{x\ln x}{\cos x}\right)^{2}}d\left(\frac{x\ln x}{\cos x}\right)\\
  & =\arctan\left(\frac{x\ln x}{\cos x}\right)|_{\pi/6}^{\pi/4}\\
  & =\arctan\left(\frac{\sqrt{2}\pi\ln\frac{\pi}{4}}{4}\right)-\arctan\left(\frac{\sqrt{3}\pi\ln\frac{\pi}{6}}{9}\right)
-\end{align*}</script></div></div> </div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+\end{align*}</script></div></div> </div>
+<div class="note primary no-icon flat"><p><strong>W7.</strong> If</p>
+<script type="math/tex; mode=display">
+\Omega_n=\sum_{k=1}^n\left(\int_{-\frac{1}{k}}^{\frac{1}{k}}\left(2 x^{10}+3 x^8+1\right) \cdot \cos ^{-1}(k x) d x\right)</script><p>then find:</p>
+<script type="math/tex; mode=display">
+\Omega=\lim _{n \rightarrow \infty}\left(\Omega_n-\pi \cdot H_n\right)</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>分部积分得到:</p>
+<script type="math/tex; mode=display">
+\int_{-\frac{1}{k}}^{\frac{1}{k}}x^{2n}\arccos\left(kx\right)\ud x=\frac{\pi}{(2n+1)k^{2n+1}},</script><p>代入, </p>
+<script type="math/tex; mode=display">
+\Omega_{n}=\sum_{k=1}^{n}\left(\int_{-\frac{1}{k}}^{\frac{1}{k}}\left(2x^{10}+3x^{8}+1\right)\cdot\arccos(kx)dx\right)=\sum_{k=1}^{n}\left(\frac{2\pi}{11k^{11}}+\frac{\pi}{3k^{9}}+\frac{\pi}{k}\right),</script><p>所以</p>
+<script type="math/tex; mode=display">
+\Omega=\frac{2\pi}{11}\zeta(11)+\frac{\pi}{3}\zeta(9).</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>W8.</strong> Let $(a_n)_{n \geq 1}$ be a positive real sequence given by $a_n=\sum_{k=1}^n \frac{1}{k}$. Compute</p>
+<script type="math/tex; mode=display">
+\lim _{n \to \infty} e^{-2 a_n} \sum_{k=1}^n\left[(\sqrt[2 k]{k!}+\sqrt[2(k+1)]{(k+1)!})^2\right]</script><p>where we denote by $[x]$ the integer part of $x$.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>由 Stirling 公式, </p>
+<script type="math/tex; mode=display">
+n!=\sqrt{2\pi n}\left(\frac{n}{\ue}\right)^{n}\ue^{O\left(\frac{1}{n}\right)},</script><p>所以</p>
+<script type="math/tex; mode=display">
+\sqrt[n]{n!}=\frac{n}{\ue}\cdot\ue^{\frac{\ln\left(2\pi n\right)}{2n}+O\left(\frac{1}{n^{2}}\right)}=\frac{n}{\ue}\left(1+\frac{\ln\left(2\pi n\right)}{2n}+o\left(\frac{1}{n}\right)\right),</script><p>又由于不等式</p>
+<script type="math/tex; mode=display">
+\sqrt[k]{k!}<\sqrt[k+1]{(k+1)!}\Longrightarrow\sqrt[2k]{k!}<\sqrt[2(k+1)]{(k+1)!},</script><p>所以有自然的不等式</p>
+<script type="math/tex; mode=display">
+4\sqrt[k]{k!}<\left[\left(\sqrt[2k]{k!}+\sqrt[2(k+1)]{(k+1)!}\right)^{2}\right]<4\sqrt[k+1]{(k+1)!}.</script><p>所以所求极限化为</p>
+<script type="math/tex; mode=display">
+\lim_{n\to\infty}4\ue^{-2H_{n}}\sum_{k=1}^{n}\sqrt[k]{k!}<\lim_{n\to\infty}\ue^{-2H_{n}}\sum_{k=1}^{n}\left[\left(\sqrt[2k]{k!}+\sqrt[2(k+1)]{(k+1)!}\right)^{2}\right]<\lim_{n\to\infty}4\ue^{-2H_{n}}\sum_{k=1}^{n}\sqrt[k+1]{(k+1)!}.</script><p>由于 $\ue^{-2H_{n}}=\ue^{-2(H_{n}-\ln n)-2\ln n}\to\ue^{-2\gamma}\cdot n^{-2}$,<br>所以</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\lim_{n\to\infty}4\ue^{-2H_{n}}\sum_{k=1}^{n}\sqrt[k]{k!} & =\lim_{n\to\infty}\frac{4}{\ue^{2\gamma}}\cdot\frac{1}{n}\sum_{k=1}^{n}\frac{\sqrt[k]{k!}}{n}\\
+ & =\lim_{n\to\infty}\frac{4}{\ue^{2\gamma}}\cdot\frac{1}{n}\sum_{k=1}^{n}\frac{\frac{k}{\ue}\left(1+\frac{\ln\left(2\pi k\right)}{2k}+o\left(\frac{1}{k}\right)\right)}{n}\\
+ & =\frac{4}{\ue^{2\gamma}}\cdot\int_{0}^{1}\frac{x}{\ue}\ud x+\lim_{n\to\infty}\frac{4}{\ue^{2\gamma}}\cdot\frac{1}{n}\sum_{k=1}^{n}\left(\frac{\ln\left(2\pi k\right)}{2kn}+o\left(\frac{1}{kn}\right)\right)\\
+ & =\frac{2}{\ue^{2\gamma+1}}.
+\end{align*}</script><p>同理可证: </p>
+<script type="math/tex; mode=display">
+\lim_{n\to\infty}4\ue^{-2H_{n}}\sum_{k=1}^{n}\sqrt[k+1]{(k+1)!}=\frac{2}{\ue^{2\gamma+1}}.</script><p>所以</p>
+<script type="math/tex; mode=display">
+\lim_{n\to\infty}\ue^{-2H_{n}}\sum_{k=1}^{n}\left[\left(\sqrt[2k]{k!}+\sqrt[2(k+1)]{(k+1)!}\right)^{2}\right]=\frac{2}{\ue^{2\gamma+1}}.</script></div></div></div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
       <categories>
         <category>高等数学</category>
       </categories>

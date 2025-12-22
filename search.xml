@@ -6031,7 +6031,8 @@ f'_{-}(x_{0})=f'(x_{0}-0).</script><p>因为$\lim_{x\to x_{0}}f’(x)=k$存在, 
 <li><code>dx</code> 就是 <code>x</code> 的一小部分，<code>du</code> 就是 <code>u</code> 的一小部分。</li>
 <li>这些“小块”可以想象成<strong>无限小</strong>的量。</li>
 </ul>
-<h3 id="符号-∫：表示“求和”"><a href="#符号-∫：表示“求和”" class="headerlink" title="符号 ∫：表示“求和”"></a><strong>符号 <code>∫</code>：表示“求和”</strong></h3><ul>
+<h3 id="符号-∫"><a href="#符号-∫" class="headerlink" title="**符号 ∫"></a>**符号 <code>∫</code></h3><p>：表示“求和”**</p>
+<ul>
 <li><code>∫</code> 是一个拉长的字母 <strong>S</strong>（代表 <strong>Sum</strong>，即“求和”）。</li>
 <li><code>∫ dx</code> 表示“把所有 <code>dx</code>（x 的小块）加起来”，也就是得到 <strong>x 的整体</strong>。</li>
 <li>类比举例：1 小时可以看作 3600 秒（每一秒是一个 <code>dt</code>），把它们全部加起来（<code>∫ dt</code>）就是 1 小时。</li>
@@ -7629,7 +7630,7 @@ n!=\sqrt{2\pi n}\left(\frac{n}{\ue}\right)^{n}\ue^{O\left(\frac{1}{n}\right)},</
 <script type="math/tex; mode=display">
 \sqrt[n]{n!}=\frac{n}{\ue}\cdot\ue^{\frac{\ln\left(2\pi n\right)}{2n}+O\left(\frac{1}{n^{2}}\right)}=\frac{n}{\ue}\left(1+\frac{\ln\left(2\pi n\right)}{2n}+o\left(\frac{1}{n}\right)\right),</script><p>又由于不等式</p>
 <script type="math/tex; mode=display">
-\sqrt[k]{k!}<\sqrt[k+1]{(k+1)!}\Longrightarrow\sqrt[2k]{k!}<\sqrt[2(k+1)]{(k+1)!},</script><p>所以有自然的不等式</p>
+\sqrt[k]{k!}<\sqrt[k+1]{(k+1)!}\Longrightarrow\sqrt[2k]{k!}<\sqrt[2(k+1)]{(k+1)!},</script><p>所以有自然的不等式 (下界有稍微的不严谨, 不过影响不大, 这里忽略)</p>
 <script type="math/tex; mode=display">
 4\sqrt[k]{k!}<\left[\left(\sqrt[2k]{k!}+\sqrt[2(k+1)]{(k+1)!}\right)^{2}\right]<4\sqrt[k+1]{(k+1)!}.</script><p>所以所求极限化为</p>
 <script type="math/tex; mode=display">
@@ -7644,7 +7645,122 @@ n!=\sqrt{2\pi n}\left(\frac{n}{\ue}\right)^{n}\ue^{O\left(\frac{1}{n}\right)},</
 <script type="math/tex; mode=display">
 \lim_{n\to\infty}4\ue^{-2H_{n}}\sum_{k=1}^{n}\sqrt[k+1]{(k+1)!}=\frac{2}{\ue^{2\gamma+1}}.</script><p>所以</p>
 <script type="math/tex; mode=display">
-\lim_{n\to\infty}\ue^{-2H_{n}}\sum_{k=1}^{n}\left[\left(\sqrt[2k]{k!}+\sqrt[2(k+1)]{(k+1)!}\right)^{2}\right]=\frac{2}{\ue^{2\gamma+1}}.</script></div></div></div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+\lim_{n\to\infty}\ue^{-2H_{n}}\sum_{k=1}^{n}\left[\left(\sqrt[2k]{k!}+\sqrt[2(k+1)]{(k+1)!}\right)^{2}\right]=\frac{2}{\ue^{2\gamma+1}}.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>W9.</strong> Let $\alpha&gt;0$ be a real number. Compute the limit of the sequence $\left\{x_n\right\}_{n \geq 1}$ defined by</p>
+<script type="math/tex; mode=display">
+x_n=\left\{\begin{array}{ll}
+\sum_{k=1}^n \sinh \left(\frac{k}{n^2}\right), & n>\frac{1}{\alpha} ; \\
+0, & n \leq \frac{1}{\alpha}
+\end{array} .\right.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>用 Taylor 展开 $\sinh x=x+\frac{x^{3}}{6}+o\left(u^{3}\right)$, 结果为 $1/2$.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>W10.</strong> If $\mathrm{si}(x)=-\int_x^{\infty}\left(\frac{\sin t}{t}\right) \ud t$, $x&gt;0$, then:</p>
+<script type="math/tex; mode=display">
+\int_{\ue}^{\ue^{2}}\frac{\mathrm{si}(\ue^{4}x)-\mathrm{si}(\ue^{3}x)}{x}\ud x=\int_{\ue^{3}}^{\ue^{4}}\frac{\mathrm{si}(\ue^{2}x)-\mathrm{si}(\ue x)}{x}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>这本质上是一道交换积分次序问题, 注意到</p>
+<script type="math/tex; mode=display">
+\mathrm{si}(x)=-\frac{\pi}{2}+\int_{0}^{x}\frac{\sin t}{t}\ud t,</script><p>所以等式的左边为</p>
+<script type="math/tex; mode=display">\begin{align*}
+\int_{\ue}^{\ue^{2}}\frac{\mathrm{si}(\ue^{4}x)-\mathrm{si}(\ue^{3}x)}{x}\ud x & =\int_{\ue}^{\ue^{2}}\int_{\ue^{3}x}^{\ue^{4}x}\frac{\sin t}{tx}\ud t\ud x\\
+ & =\int_{\ue^{4}}^{\ue^{6}}\left(\int_{\ue}^{t/\ue^{3}}\frac{\sin t}{tx}\ud x+\int_{t/\ue^{4}}^{\ue^{2}}\frac{\sin t}{tx}\ud x\right)\ud t\\
+ & =\int_{\ue^{4}}^{\ue^{6}}\frac{2\sin t}{t}\ud t;
+\end{align*}</script><p>同理, 等式的右边为</p>
+<script type="math/tex; mode=display">\begin{align*}
+\int_{\ue^{3}}^{\ue^{4}}\frac{\mathrm{si}(\ue^{2}x)-\mathrm{si}(\ue x)}{x}\ud x & =\int_{\ue^{3}}^{\ue^{4}}\int_{\ue x}^{\ue^{2}x}\frac{\sin t}{tx}\ud t\ud x\\
+ & =\int_{\ue^{4}}^{\ue^{6}}\left(\int_{\ue^{3}}^{t/\ue}\frac{\sin t}{tx}\ud x+\int_{t/\ue^{2}}^{\ue^{4}}\frac{\sin t}{tx}\ud x\right)\ud t\\
+ & =\int_{\ue^{4}}^{\ue^{6}}\frac{2\sin t}{t}\ud t.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>W11.</strong> Let $\left(s_n\right)_{n \geq 1}$ be a sequence given by $s_n=-2 \sqrt{n}+\sum_{k=1}^n \frac{1}{\sqrt{k}}$ with $\lim\limits_{n \to \infty} s_n=s=$ Ioachimescu constant and $\left(a_n\right)_{n \geq 1}$, $\left(b_n\right)_{n \geq 1}$ be a positive real sequences such that</p>
+<script type="math/tex; mode=display">
+\lim_{n \to \infty} \frac{a_{n+1}}{n a_n}=a \in R_{+}^*, \quad\lim_{n \to \infty} \frac{b_{n+1}}{b_n \sqrt{n}}=b \in R_{+}^*</script><p>Compute</p>
+<script type="math/tex; mode=display">
+\lim_{n \to \infty}\left(1+e^{s_n}-e^{s_{n+1}}\right)^{\sqrt[n]{a_n b_n}}</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>由 </p>
+<script type="math/tex; mode=display">
+\lim_{n\to\infty}\frac{a_{n}}{na_{n-1}}=a,\quad\lim_{n\to\infty}\frac{b_{n}}{b_{n-1}\sqrt{n}}=b,</script><p>所以有</p>
+<script type="math/tex; mode=display">
+\lim_{n\to\infty}\frac{a_{n}b_{n}}{a_{n-1}b_{n-1}\cdot n^{3/2}}=ab,</script><p>取对数, 做 Cesaro 平均的极限有</p>
+<script type="math/tex; mode=display">
+\lim_{n\to\infty}\left(\frac{\ln(a_{n}b_{n})-\frac{3}{2}\ln(n!)}{n}\right)=\ln(ab),</script><p>所以</p>
+<script type="math/tex; mode=display">
+\ln\sqrt[n]{a_{n}b_{n}}=\frac{3}{2}\ln\left(\frac{n}{\ue}\right)+\ln(ab)+o(1)\Longrightarrow\sqrt[n]{a_{n}b_{n}}\sim\left(\frac{n}{\ue}\right)^{3/2}ab.</script><p>由于 $\lim s_{n}=s$ 存在, 所以 $\lim\left(\ue^{s_{n}}-\ue^{s_{n+1}}\right)=0$, 有等价无穷小代换 $\ln\left(1+\ue^{s_{n}}-\ue^{s_{n+1}}\right)\sim\ue^{s_{n}}\left(1-\ue^{s_{n+1}-s_{n}}\right)$, 对后一项做幂级数展开可得:</p>
+<script type="math/tex; mode=display">
+1-\ue^{s_{n+1}-s_{n}}=1-\ue^{-\frac{2}{\sqrt{n+1}+\sqrt{n}}+\frac{1}{\sqrt{n+1}}}=1-\ue^{-\frac{1}{4n\sqrt{n}}+o\left(\frac{1}{n\sqrt{n}}\right)}=\frac{1}{4n\sqrt{n}}+o\left(\frac{1}{n\sqrt{n}}\right).</script><p>因 $\ue^{s_{n}}\to\ue^{s}$, 所以原极限等于</p>
+<script type="math/tex; mode=display">
+\lim_{n\to\infty}\ue^{\ln\left(1+\ue^{s_{n}}-\ue^{s_{n+1}}\right)\cdot\sqrt[n]{a_{n}b_{n}}}=\lim_{n\to\infty}\ue^{\ue^{s}\left(\frac{1}{4n\sqrt{n}}+o\left(\frac{1}{n\sqrt{n}}\right)\right)\cdot ab\left(\frac{n}{\ue}\right)^{3/2}}=\ue^{\frac{ab\ue^{s-3/2}}{4}}.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>W12.</strong> If $0&lt;a&lt;b$ then:</p>
+<script type="math/tex; mode=display">
+\frac{\int_a^{\frac{a+b}{2}}\left(\tan ^{-1} t\right) d t}{\int_a^b\left(\tan ^{-1} t\right) d t}<\frac{1}{2}</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>根据定积分的几何意义, 比较两个曲边梯形的面积.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>W13.</strong> Let $a, b$ and $c$ be complex numbers such that $abc=1$. Find the value of the cubic root of</p>
+<script type="math/tex; mode=display">
+\begin{vmatrix}
+b+n^3 c & n(c-b) & n^2(b-c) \\
+n^2(c-a) & c+n^3 a & n(a-c) \\
+n(b-a) & n^2(a-b) & a+n^3 b
+\end{vmatrix}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>结果为 $(n+1)(n^2-n+1)$.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>W14.</strong> If $a, b, c&gt;0$, $a b+b c+c a=3$ then:</p>
+<script type="math/tex; mode=display">
+4\left(\tan ^{-1} 2\right)\left(\tan ^{-1}(\sqrt[3]{a b c})\right) \leq \pi \tan ^{-1}(1+\sqrt[3]{a b c}).</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>先证明: $1\ge abc\eqqcolon x$, 再用一阶导数与 $\left(1+x^{2}\right)\arctan x$ 的单调性, 证明函数 $\frac{\arctan(1+x)}{\arctan x}$ 单调递减.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>W15.</strong> It is possible to partition the set $\{100,101, \cdots, 1000\}$ into two subsets so that for any two distinct elements $x$ and $y$ belonging to the same subset $\sqrt[3]{x+y}$ is irrational?</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>这是一道线性代数问题. 考虑集合中任意两数和为立方数的所有可能结果为 $216, 343, 512, 729, 1000, 1331$, 现在需要划分两个集合, 使得同一集合中的任两个数之和不能是立方数. 此问题可以转化为和为立方数的两个整数应位于不同的集合, 求出这两个和为立方数的所有可能整数, 比如 $801+530=1331=11^3$, 所以 $801$ 与 $530$ 不在同一个集合内. </p>
+<p>要确定集合划分为两个子集的方式是否存在, 这等价于验证是否有三个数 $x,y,z\in\{100,101, \cdots, 1000\}$, 使得它们任何两个数之和同时为立方数. 因为如果 $x,y,z$ 中的任何两个数之和为立方数, 则它们两两不能在一个集合内. </p>
+<p>求解方程 $x+y=729$, $y+z=1000$, $z+x=1331$, 得到 $x=530$, $y=199$, $z=801$, 这三个数两两不能同时位于一个集合内, 因此集合的二划分不存在.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>W16.</strong> If $f:[a, b] \to (0, \infty)$. $0&lt;a \le b$. $f$ derivable, $f’$ continuous, then:</p>
+<script type="math/tex; mode=display">
+\int_a^b \frac{f^{\prime}(x) \sqrt{f(x)}}{f^3(x)+1} d x \leq \tan ^{-1}\left(\frac{f(b)-f(a)}{1+f(a) f(b)}\right).</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>用凑微分法以及三角恒等式, 不等式等价于</p>
+<script type="math/tex; mode=display">
+\frac{2}{3}\left(\arctan\sqrt{f^{3}(b)}-\arctan\sqrt{f^{3}(a)}\right)\le\arctan f(b)-\arctan f(a),</script><p>然后用 Cauchy 中值定理证明</p>
+<script type="math/tex; mode=display">
+\frac{\arctan\sqrt{f^{3}(b)}-\arctan\sqrt{f^{3}(a)}}{\arctan f(b)-\arctan f(a)}\le\frac{3}{2}.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>W17.</strong> Let $f_n=\left(1+\frac{1}{n}\right)^n\left((2 n-1)!!F_n\right)^{1 / n}$. Find $\lim\limits_{n \to \infty}\left(f_{n+1}-f_n\right)$, where $F_n$ denotes the $n$th Fibonacci number (given by $F_0=0$, $F_1=1$, and by $F_{n+1}=F_n+F_{n-1}$ for all $n \ge 1$).</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>用幂级数展开, 给出每一个因子的较为精确的估计: </p>
+<script type="math/tex; mode=display">
+\left(1+\frac{1}{n}\right)^{n}=\ue^{n\ln\left(1+\frac{1}{n}\right)}=\ue\left(1-\frac{1}{2n}+O\left(\frac{1}{n^{2}}\right)\right),</script><p>和</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\left((2n-1)!!F_{n}\right)^{1/n} & =\ue^{\frac{1}{n}\left(\ln(2n-1)!!+\ln F_{n}\right)}\\
+ & =\ue^{\ln(2\phi n)-1+\frac{\ln(2/5)}{2n}+O\left(\frac{1}{n^{2}}\right)}\\
+ & =\frac{2\phi n}{\ue}+\frac{\phi}{\ue}\ln\frac{2}{5}+O\left(\frac{1}{n}\right)
+\end{align*}</script><p>所以 </p>
+<script type="math/tex; mode=display">
+\begin{align*}
+f_{n} & =\ue\left(1-\frac{1}{2n}+O\left(\frac{1}{n^{2}}\right)\right)\cdot\left(\frac{2\phi n}{\ue}+\frac{\phi}{\ue}\ln\frac{2}{5}+O\left(\frac{1}{n}\right)\right)\\
+ & =2\phi n+\phi\ln\frac{2}{5}-\phi+O\left(\frac{1}{n}\right),
+\end{align*}</script><p>代入原极限, 便可得</p>
+<script type="math/tex; mode=display">
+\lim_{n\to\infty}\left(f_{n+1}-f_{n}\right)=\lim_{n\to\infty}\left(2\phi+O\left(\frac{1}{n}\right)\right)=2\phi=1+\sqrt{5}.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>W18.</strong> Let $\left\{c_k\right\}_{k \ge 1}$ be a sequence with $0 \le c_k \le 1$, $c_1 \ne 0$, $\alpha&gt;1$. Let $C_n=c_1+\cdots+c_n$. Prove</p>
+<script type="math/tex; mode=display">
+\lim_{n \to \infty} \frac{C_1^\alpha+\cdots+C_n^\alpha}{\left(C_1+\cdots+C_n\right)^\alpha}=0.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>当 $\left\{ C_{n}\right\} $ 收敛于某个常数 $C$, 使用常见的不等式 $\left(x^{\alpha}+y^{\alpha}\right)^{1/\alpha}&lt;x+y$, $x^{\alpha}+y^{\alpha}&lt;\left(x+y\right)^{\alpha}$.</p>
+<p>取 $\epsilon=\frac{C}{2}$, $\exists N$, s.t. $\forall n&gt;N$, $\left|C_{n}-C\right|&lt;\epsilon$,<br>也即 $\frac{3C}{2}&gt;C_{n}&gt;\frac{C}{2}$. 再用夹逼原理:</p>
+<script type="math/tex; mode=display">
+0<\frac{C_{1}^{\alpha}+\cdots+C_{N}^{\alpha}+\cdots+C_{n}^{\alpha}}{\left(C_{1}+\cdots+C_{N}+\cdots+C_{n}\right)^{\alpha}}<\frac{C(N)+(n-N)\left(\frac{3C}{2}\right)^{\alpha}}{\left(C(N)+(n-N)\frac{C}{2}\right)^{\alpha}}<\frac{C(N)+nC}{C(N)+n^{\alpha}C}\to0.</script><p>若 $\left\{ C_{n}\right\} $ 发散于无穷大, 用 Stolz 公式</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\lim_{n\to\infty}\frac{\left(C_{1}^{\alpha}+\cdots+C_{n}^{\alpha}\right)^{1/\alpha}}{C_{1}+\cdots+C_{n}} & =\lim_{n\to\infty}\frac{\left(1+\frac{C_{n}^{\alpha}}{C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}}\right)^{1/\alpha}-1}{C_{n}}\left(C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}\right)^{1/\alpha}\\
+ & =\lim_{n\to\infty}\left[\left(1+\frac{C_{n}^{\alpha}}{C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}}\right)^{1/\alpha}-1\right]\left(\frac{C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}}{C_{n}^{\alpha}}\right)^{1/\alpha}
+\end{align*}.</script><p>由于</p>
+<script type="math/tex; mode=display">
+\lim_{n\to\infty}\left(\frac{C_{n}^{\alpha}}{C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}}\right)=\lim_{n\to\infty}\frac{C_{n+1}^{\alpha}-C_{n}^{\alpha}}{C_{n}^{\alpha}}=\lim_{n\to\infty}\left(1+\frac{c_{n+1}}{C_{n}}\right)^{\alpha}-1=0,</script><p>所以</p>
+<script type="math/tex; mode=display">
+\left(1+\frac{C_{n}^{\alpha}}{C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}}\right)^{1/\alpha}-1\sim\frac{C_{n}^{\alpha}}{\alpha\left(C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}\right)}.</script><p>原极限化为</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\lim_{n\to\infty}\frac{\left(C_{1}^{\alpha}+\cdots+C_{n}^{\alpha}\right)^{1/\alpha}}{C_{1}+\cdots+C_{n}} & =\lim_{n\to\infty}\left[\left(1+\frac{C_{n}^{\alpha}}{C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}}\right)^{1/\alpha}-1\right]\left(\frac{C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}}{C_{n}^{\alpha}}\right)^{1/\alpha}\\
+ & =\lim_{n\to\infty}\left[\frac{C_{n}^{\alpha}}{\alpha\left(C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}\right)}\right]\left(\frac{C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}}{C_{n}^{\alpha}}\right)^{1/\alpha}\\
+ & =\lim_{n\to\infty}\left[\frac{C_{n}^{\alpha}}{\alpha\left(C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}\right)}\right]^{1-\frac{1}{\alpha}}=\left(\frac{0}{\alpha}\right)^{1-\frac{1}{\alpha}}=0.
+\end{align*}</script></div></div></div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
       <categories>
         <category>高等数学</category>
       </categories>

@@ -7743,14 +7743,14 @@ f_{n} & =\ue\left(1-\frac{1}{2n}+O\left(\frac{1}{n^{2}}\right)\right)\cdot\left(
 <script type="math/tex; mode=display">
 \lim_{n \to \infty} \frac{C_1^\alpha+\cdots+C_n^\alpha}{\left(C_1+\cdots+C_n\right)^\alpha}=0.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
     <div class="hide-content"><p>当 $\left\{ C_{n}\right\} $ 收敛于某个常数 $C$, 使用常见的不等式 $\left(x^{\alpha}+y^{\alpha}\right)^{1/\alpha}&lt;x+y$, $x^{\alpha}+y^{\alpha}&lt;\left(x+y\right)^{\alpha}$.</p>
-<p>取 $\epsilon=\frac{C}{2}$, $\exists N$, s.t. $\forall n&gt;N$, $\left|C_{n}-C\right|&lt;\epsilon$,<br>也即 $\frac{3C}{2}&gt;C_{n}&gt;\frac{C}{2}$. 再用夹逼原理:</p>
+<p>取 $\epsilon=\frac{C}{2}$, $\exists N$, s.t. $\forall n&gt;N$, $\left|C_{n}-C\right|&lt;\epsilon$, 也即 $\frac{3C}{2}&gt;C_{n}&gt;\frac{C}{2}$. 再用夹逼原理:</p>
 <script type="math/tex; mode=display">
 0<\frac{C_{1}^{\alpha}+\cdots+C_{N}^{\alpha}+\cdots+C_{n}^{\alpha}}{\left(C_{1}+\cdots+C_{N}+\cdots+C_{n}\right)^{\alpha}}<\frac{C(N)+(n-N)\left(\frac{3C}{2}\right)^{\alpha}}{\left(C(N)+(n-N)\frac{C}{2}\right)^{\alpha}}<\frac{C(N)+nC}{C(N)+n^{\alpha}C}\to0.</script><p>若 $\left\{ C_{n}\right\} $ 发散于无穷大, 用 Stolz 公式</p>
 <script type="math/tex; mode=display">
 \begin{align*}
 \lim_{n\to\infty}\frac{\left(C_{1}^{\alpha}+\cdots+C_{n}^{\alpha}\right)^{1/\alpha}}{C_{1}+\cdots+C_{n}} & =\lim_{n\to\infty}\frac{\left(1+\frac{C_{n}^{\alpha}}{C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}}\right)^{1/\alpha}-1}{C_{n}}\left(C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}\right)^{1/\alpha}\\
  & =\lim_{n\to\infty}\left[\left(1+\frac{C_{n}^{\alpha}}{C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}}\right)^{1/\alpha}-1\right]\left(\frac{C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}}{C_{n}^{\alpha}}\right)^{1/\alpha}
-\end{align*}.</script><p>由于</p>
+\end{align*}.</script><p>再用一次 Stolz 公式, 得到:</p>
 <script type="math/tex; mode=display">
 \lim_{n\to\infty}\left(\frac{C_{n}^{\alpha}}{C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}}\right)=\lim_{n\to\infty}\frac{C_{n+1}^{\alpha}-C_{n}^{\alpha}}{C_{n}^{\alpha}}=\lim_{n\to\infty}\left(1+\frac{c_{n+1}}{C_{n}}\right)^{\alpha}-1=0,</script><p>所以</p>
 <script type="math/tex; mode=display">
@@ -7760,7 +7760,51 @@ f_{n} & =\ue\left(1-\frac{1}{2n}+O\left(\frac{1}{n^{2}}\right)\right)\cdot\left(
 \lim_{n\to\infty}\frac{\left(C_{1}^{\alpha}+\cdots+C_{n}^{\alpha}\right)^{1/\alpha}}{C_{1}+\cdots+C_{n}} & =\lim_{n\to\infty}\left[\left(1+\frac{C_{n}^{\alpha}}{C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}}\right)^{1/\alpha}-1\right]\left(\frac{C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}}{C_{n}^{\alpha}}\right)^{1/\alpha}\\
  & =\lim_{n\to\infty}\left[\frac{C_{n}^{\alpha}}{\alpha\left(C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}\right)}\right]\left(\frac{C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}}{C_{n}^{\alpha}}\right)^{1/\alpha}\\
  & =\lim_{n\to\infty}\left[\frac{C_{n}^{\alpha}}{\alpha\left(C_{1}^{\alpha}+\cdots+C_{n-1}^{\alpha}\right)}\right]^{1-\frac{1}{\alpha}}=\left(\frac{0}{\alpha}\right)^{1-\frac{1}{\alpha}}=0.
-\end{align*}</script></div></div></div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>W19.</strong> Let $\left\{F_n\right\}_{n \in \mathbb{Z}}$ and $\left\{L_n\right\}_{n \in \mathbb{Z}}$ denote the Fibonacci and Lucas numbers, respectively, given by</p>
+<script type="math/tex; mode=display">
+F_{n+1}=F_n+F_{n-1} \text { and } L_{n+1}=L_n+L_{n-1} \text { for all } n \ge 1,</script><p>with $F_0=0$, $F_1=1$, $L_0=2$, and $L_1=1$. Prove that for integers $n \ge 1$ and $j \ge 0$</p>
+<p>(i) $\sum\limits_{k=1}^n F_{k \pm j} L_{k \mp j}=F_{2 n+1}-1+\left\{\begin{array}{ll}0, &amp; \text { if } n \text { is even } \\ (-1)^{ \pm j} F_{ \pm 2 j}, &amp; \text { if } n \text { is odd }\end{array}\right.$.</p>
+<p>(ii) $\sum\limits_{k=1}^n F_{k+j} F_{k-j} L_{k+j} L_{k-j}=\frac{F_{4 n+2}-1-n L_{4 j}}{5}$.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>设特征方程 $x^{2}=x+1$ 的两个解分别为 $x_{1},x_{2}$, 满足韦达定理: $x_{1}+x_{2}=1$, $x_{1}x_{2}=-1$. 则有常数 $f_{1},f_{2},l_{1},l_{2}$ 使得$F_{n}=f_{1}x_{1}^{n}+f_{2}x_{2}^{n}$, $L_{n}=l_{1}x_{1}^{n}+l_{2}x_{2}^{n}$, $f_{1}+f_{2}=0$, $l_{1}+l_{2}=2$. 并且容易解得 $l_{1}=l_{2}=1$. 所以</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\sum_{k=1}^{n}F_{k\pm j}L_{k\mp j} & =\sum_{k=1}^{n}\left(f_{1}x_{1}^{k\pm j}+f_{2}x_{2}^{k\pm j}\right)\left(x_{1}^{k\mp j}+x_{2}^{k\mp j}\right)\\
+ & =\sum_{k=1}^{n}\left(f_{1}x_{1}^{2k}+(-1)^{k\pm j}f_{1}x_{1}^{\pm2j}+(-1)^{k\pm j}f_{2}x_{2}^{\pm2j}+f_{2}x_{2}^{2k}\right)\\
+ & =-f_{1}x_{1}\left(1-x_{1}^{2n}\right)-f_{2}x_{2}\left(1-x_{2}^{2n}\right)+(-1)^{\pm j}\left(f_{1}x_{1}^{\pm2j}+f_{2}x_{2}^{\pm2j}\right)\sum_{k=1}^{n}(-1)^{k}\\
+ & =-f_{1}x_{1}-f_{2}x_{2}+f_{1}x_{1}^{2n+1}+f_{2}x_{2}^{2n+1}+(-1)^{j}F_{\pm2j}\sum_{k=1}^{n}\left(-1\right)^{k}\\
+ & =F_{2n+1}-F_{1}+(-1)^{j}F_{\pm2j}\sum_{k=1}^{n}\left(-1\right)^{k}.
+\end{align*}</script><p>类似地, 有</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\sum\limits_{k=1}^{n}F_{k+j}F_{k-j}L_{k+j}L_{k-j} & =\sum\limits_{k=1}^{n}\left(f_{1}x_{1}^{k+j}+f_{2}x_{2}^{k+j}\right)\left(f_{1}x_{1}^{k-j}+f_{2}x_{2}^{k-j}\right)\left(x_{1}^{k+j}+x_{2}^{k+j}\right)\left(x_{1}^{k-j}+x_{2}^{k-j}\right)\\
+ & =\sum\limits_{k=1}^{n}\left(f_{1}x_{1}^{2k}+f_{2}x_{2}^{2k}+f_{1}x_{1}^{k+j}x_{2}^{k-j}+f_{2}x_{2}^{k+j}x_{1}^{k-j}\right)\left(f_{1}x_{1}^{2k}+f_{2}x_{2}^{2k}+f_{1}x_{1}^{k-j}x_{2}^{k+j}+f_{2}x_{2}^{k-j}x_{1}^{k+j}\right)\\
+ & =\sum\limits_{k=1}^{n}\left(f_{1}x_{1}^{2k}+f_{2}x_{2}^{2k}+(-1)^{k-j}f_{1}x_{1}^{2j}+(-1)^{k-j}f_{2}x_{2}^{2j}\right)\left(f_{1}x_{1}^{2k}+f_{2}x_{2}^{2k}-(-1)^{k+j}f_{1}x_{1}^{2j}-(-1)^{k+j}f_{2}x_{2}^{2j}\right)\\
+ & =\sum\limits_{k=1}^{n}\left(\left(f_{1}x_{1}^{2k}+f_{2}x_{2}^{2k}\right)^{2}-\left((-1)^{k-j}f_{1}x_{1}^{2j}+(-1)^{k-j}f_{2}x_{2}^{2j}\right)^{2}\right)\\
+ & =\sum\limits_{k=1}^{n}\left(f_{1}^{2}x_{1}^{4k}+f_{2}^{2}x_{2}^{4k}+2f_{1}f_{2}-\left(f_{1}^{2}x_{1}^{4j}+f_{2}^{2}x_{2}^{4j}+2f_{1}f_{2}\right)\right)\\
+ & =\frac{f_{1}^{2}x_{1}^{4}(1-x_{1}^{4n})}{1-x_{1}^{4}}+\frac{f_{2}^{2}x_{2}^{4}(1-x_{2}^{4n})}{1-x_{2}^{4}}-n\left(f_{1}^{2}x_{1}^{4j}+f_{2}^{2}x_{2}^{4j}\right),
+\end{align*}</script><p>然后用一点计算上的技巧计算 $\frac{f_{1}x_{1}^{2}}{1-x_{1}^{4}}=\frac{f_{2}x_{2}^{2}}{1-x_{2}^{4}}=-\frac{1}{5}$, $\frac{f_{1}^{2}x_{1}^{4}}{1-x_{1}^{4}}+\frac{f_{2}^{2}x_{2}^{4}}{1-x_{2}^{4}}=-\frac{1}{5}$, $f_{1}^{2}=f_{2}^{2}=\frac{1}{5}$, 其中 $f_{1}=-f_{2}=\frac{x_{1}}{x_{1}+2}$.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>W20.</strong> i). Let $G$ be a $(4,4)$ unoriented graph, $2$-regulate, containing a cycle with the length $3$. Find the characteristic polynomial $P_G(\lambda)$, its spectrum $\mathrm{Spec}(G)$ and draw the graph $G$.</p>
+<p>ii). Let $G^{\prime}$ be another $2$-regulate graph, having its characteristic polynomial $P_{G^{\prime}}(\lambda)=\lambda^4-4 \lambda^2+\alpha$, $\alpha \in R$. Find the spectrum $\mathrm{Spec}\left(G^{\prime}\right)$ and draw the graph $G^{\prime}$.</p>
+<p>iii). Are the graphs $G$ and $G^{\prime}$ cospectral or isomorphic?</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>$G$ 是一个有 4 个顶点 4 条边的无向图, 是 2 正则图 (即每个顶点的度均为 2), 图中有一个长度为 3 的圈. 则 G 的邻接矩阵为 </p>
+<script type="math/tex; mode=display">
+\mathrm{Adj}_G=\begin{pmatrix}
+  0 & 1 & 1 & 0\\
+  1 & 0 & 1 & 0\\
+  1 & 1 & 0 & 0\\
+  0 & 0 & 0 & 1
+\end{pmatrix}</script><p>特征多项式为 $P_G(\lambda)=\lambda^4-\lambda^3-3\lambda^2+\lambda+2$, 谱为 $\mathrm{Spec}(G)=\{1,2,-1,-1\}$.</p>
+<p>对于 2 正则图 $G^{\prime}$, 其顶点的度数均为 2, 且为特征多项式的一个特征值, 所以 $P_{G^{\prime}}(2)=0$, 解得 $\alpha=0$. 对于顶点数为 4 的 2 正则图, 除了自环 $C_1$ 和三个顶点的圈 $C_3$ 构成的 $C_1\cup C_3$ 外, 只有顶点数为 4 的圈 $C_4$, 而只有 $C_4$ 的特征多项式为 $\lambda^4-4\lambda^2$.</p>
+<p>同构的图有相同特征多项式.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>W21.</strong> Let $f$ be a continuously differentiable function on $[0,1]$ and $m \in \mathbb{N}$. Let $A=f(1)$ and let $B=\int_0^1 x^{-\frac{1}{m}} f(x) \ud x$. Calculate</p>
+<script type="math/tex; mode=display">
+\lim_{n \to \infty} n\left(\int_0^1 f(x) \ud x-\sum_{k=1}^n\left(\frac{k^m}{n^m}-\frac{(k-1)^m}{n^m}\right) f\left(\frac{(k-1)^m}{n^m}\right)\right)</script><p>in terms of $A$ and $B$.</p>
+</div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
       <categories>
         <category>高等数学</category>
       </categories>
@@ -7768,6 +7812,91 @@ f_{n} & =\ue\left(1-\frac{1}{2n}+O\left(\frac{1}{n^{2}}\right)\right)\cdot\left(
         <tag>math</tag>
         <tag>数学分析</tag>
         <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>麻省理工积分大赛</title>
+    <url>/%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E7%A7%AF%E5%88%86%E5%A4%A7%E8%B5%9B/</url>
+    <content><![CDATA[<h1 id="2026-年麻省理工积分决赛"><a href="#2026-年麻省理工积分决赛" class="headerlink" title="2026 年麻省理工积分决赛"></a>2026 年麻省理工积分决赛</h1><div class="note primary no-icon flat"><p><strong>问题 1:</strong> </p>
+<script type="math/tex; mode=display">
+\lim_{n\to \infty}\int_0^1\left(\sum_{k=1}^{n}\frac1{nx^2+kx+n}\right)\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>用定积分的定义, </p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\lim_{n\to\infty}\int_{0}^{1}\left(\sum_{k=1}^{n}\frac{1}{nx^{2}+kx+n}\right)\ud x & =\int_{0}^{1}\lim_{n\to\infty}\frac{1}{n}\left(\sum_{k=1}^{n}\frac{1}{x^{2}+\frac{k}{n}x+1}\right)\ud x\\
+ & =\int_{0}^{1}\int_{0}^{1}\frac{1}{x^{2}+xy+1}\ud y\ud x\\
+ & =\int_{0}^{1}\frac{1}{x}\ln\left(\frac{x^{2}+x+1}{x^{2}+1}\right)\ud x\\
+ & =\int_{0}^{1}\frac{\ln\left(x^{2}+x+1\right)}{x}\ud x-\int_{0}^{1}\frac{\ln\left(x^{2}+1\right)}{x}\ud x.
+\end{align*}</script><p>令 </p>
+<script type="math/tex; mode=display">
+J(a)=\int_{0}^{1}\frac{\ln\left(x^{2}+ax+1\right)}{x}\ud x\Longrightarrow J'(a)=\int_{0}^{1}\frac{1}{x^{2}+ax+1}\ud x=\frac{2}{\sqrt{4-a^{2}}}\arctan\frac{\sqrt{4-a^{2}}}{2+a}.</script><p>所以原式等于求</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+J(1)-J(0) & =\int_{0}^{1}J'(a)\ud a=\int_{0}^{1}\frac{2}{\sqrt{4-a^{2}}}\arctan\frac{\sqrt{4-a^{2}}}{2+a}\ud a\\
+ & \xlongequal{a=2\cos\theta}\int_{\pi/3}^{\pi/2}\theta\ud\theta=\frac{5\pi^{2}}{72}.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 2:</strong> 求解</p>
+<script type="math/tex; mode=display">
+\int\frac{\ud x}{(x-1)\sqrt[4]{x^3+x}}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>注意到</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\int\frac{\ud x}{(x-1)\sqrt[4]{x^{3}+x}} & =8^{1/4}\int\frac{\ud x}{(x-1)\sqrt[4]{\left(x+1\right)^{4}-\left(x-1\right)^{4}}}\\
+ & =8^{1/4}\int\frac{\ud x}{\left(x-1\right)^{2}\sqrt[4]{\left(\frac{x+1}{x-1}\right)^{4}-1}}\\
+ & \xlongequal{y=\frac{x+1}{x-1}}-2^{-1/4}\int\frac{\ud y}{\sqrt[4]{y^{4}-1}}\\
+ & \xlongequal{z=\frac{\sqrt[4]{y^{4}-1}}{y}}2^{-1/4}\int\frac{z^{2}}{z^{4}-1}\ud z\\
+ & =\frac{1}{4\sqrt[4]{2}}\left[\ln\left|\frac{x+1-\sqrt[4]{8x^{3}+8x}}{x+1+\sqrt[4]{8x^{3}+8x}}\right|+2\arctan\left(\frac{\sqrt[4]{8x^{3}+8x}}{x+1}\right)\right]+C.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 3:</strong> 求</p>
+<script type="math/tex; mode=display">
+\lim_{n\to\infty}\int_{0}^{2026}\underbrace{\log_{\sqrt{2}}\left(x+\log_{\sqrt{2}}\left(x+\cdots+\log_{\sqrt{2}}\left(x+2026\right)\cdots\right)\right)}_{n\text{个}\log}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>记被积函数为 $f_{n}$, 则有递推关系 $f_{n+1}(x)=\log_{\sqrt{2}}\left(x+f_{n}(x)\right)$.<br>可以证明, 对于任意固定的 $x\in\left[0,2026\right]$, $f_{n}(x)$ 关于 $n$ 单调有界, 所以有极限函数 $f(x)$, 且满足 $2^{f/2}=x+f$. 积分的极限化为</p>
+<script type="math/tex; mode=display">
+\lim_{n\to\infty}\int_{0}^{2026}f\ud x=\lim_{n\to\infty}\int_{0}^{2026}f\ud\left(2^{f/2}-f\right)=\lim_{n\to\infty}\int_{4}^{22}\left(2^{f/2}f\cdot\frac{\ln2}{2}-f\right)\ud f=44806-\frac{4088}{\ln2}.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 4:</strong> 求 </p>
+<script type="math/tex; mode=display">
+\int_{0}^{1/4}\left(\left\lfloor \sqrt[4]{\frac{1}{x}-4}\right\rfloor ^{2}+\left\lfloor \sqrt[4]{\frac{1}{x}-4}\right\rfloor \right)\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>变量替换, </p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\int_{0}^{1/4}\left(\left\lfloor \sqrt[4]{\frac{1}{x}-4}\right\rfloor ^{2}+\left\lfloor \sqrt[4]{\frac{1}{x}-4}\right\rfloor \right)\ud x & \xlongequal{y=\sqrt[4]{\frac{1}{x}-4}}\int_{0}^{\infty}\frac{\lfloor t\rfloor^{2}+\lfloor t\rfloor}{(t^{4}+2)^{2}}\ud t\\
+ & =\sum_{k=1}^{\infty}k(k+1)\left(\frac{1}{k^{4}+4}-\frac{1}{(k+1)^{4}+4}\right)\\
+ & =\frac{1}{4}\sum_{k=1}^{\infty}\left(-\frac{k}{k^{2}+1}+\frac{k+1}{(k-1)^{2}+1}-\frac{k+1}{(k+1)^{2}+1}+\frac{k}{(k+2)^{2}+1}\right)\\
+ & =\frac{3}{4}.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 5:</strong> 求</p>
+<script type="math/tex; mode=display">
+\int_{-\infty}^{\infty}\left(\left(\frac{1}{x-2}+\frac{3}{x-4}+\frac{5}{x-6}\right)^{-2}+1\right)^{-1}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>经计算</p>
+<script type="math/tex; mode=display">
+u(x)\coloneqq\left(\frac{1}{x-2}+\frac{3}{x-4}+\frac{5}{x-6}\right)^{-1}=\frac{x}{9}-\frac{44}{81}-\frac{8(19x-64)}{81\left(9x^{2}-64x+100\right)},</script><p>所以被积函数为</p>
+<script type="math/tex; mode=display">
+\left(u^{2}(x)+1\right)^{-1}=\frac{1}{1+\left(\frac{x}{9}-\frac{44}{81}-\cdots\right)^{2}}.</script><p>应用 Glasser 主定理, </p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\int_{-\infty}^{\infty}\left(\left(\frac{1}{x-2}+\frac{3}{x-4}+\frac{5}{x-6}\right)^{-2}+1\right)^{-1}\ud x & =9\int_{-\infty}^{\infty}\left(u^{2}(x)+1\right)^{-1}\ud\left(\frac{x}{9}\right).\\
+ & =\int_{-\infty}^{\infty}\frac{1}{1+u^{2}}\ud u\\
+ & =9\pi.
+\end{align*}</script></div></div></div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>高等数学</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+        <tag>微积分</tag>
+        <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>回答结果展示测试页面</title>
+    <url>/%E5%9B%9E%E7%AD%94%E7%BB%93%E6%9E%9C%E5%B1%95%E7%A4%BA%E6%B5%8B%E8%AF%95%E9%A1%B5%E9%9D%A2/</url>
+    <content><![CDATA[<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      <categories>
+        <category>latex</category>
+      </categories>
+      <tags>
+        <tag>latex</tag>
+        <tag>math</tag>
       </tags>
   </entry>
 </search>

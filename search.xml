@@ -7817,7 +7817,360 @@ F_{n+1}=F_n+F_{n-1} \text { and } L_{n+1}=L_n+L_{n-1} \text { for all } n \ge 1,
   <entry>
     <title>麻省理工积分大赛</title>
     <url>/%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E7%A7%AF%E5%88%86%E5%A4%A7%E8%B5%9B/</url>
-    <content><![CDATA[<h1 id="2026-年麻省理工积分决赛"><a href="#2026-年麻省理工积分决赛" class="headerlink" title="2026 年麻省理工积分决赛"></a>2026 年麻省理工积分决赛</h1><div class="note primary no-icon flat"><p><strong>问题 1:</strong> </p>
+    <content><![CDATA[<h1 id="2026-年麻省理工积分初赛"><a href="#2026-年麻省理工积分初赛" class="headerlink" title="2026 年麻省理工积分初赛"></a>2026 年麻省理工积分初赛</h1><div class="note primary no-icon flat"><p><strong>问题 1:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{-\pi}^{\pi}\sin^{2025}x\cos^{2026}x\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>被积函数是奇函数, 答案是 $0$.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 2:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int\ue^{2026\ue^{x}+x}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\begin{align*}
+\int\ue^{2026\ue^{x}+x}\ud x & =\int\ue^{2026\ue^{x}}\ue^{x}\ud x\\
+ & =\int\ue^{2026\ue^{x}}\ud\ue^{x}\\
+ & =\frac{\ue^{2026\ue^{x}}}{2026}+C.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 3:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{0}^{2026}\left\{ \frac{\lfloor x\rfloor}{3}\right\} \ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\begin{align*}
+\int_{0}^{2026}\left\{ \frac{\lfloor x\rfloor}{3}\right\} \ud x & =\sum_{k=1}^{2025}\int_{k}^{k+1}\left\{ \frac{k}{3}\right\} \ud x\\
+ & =\sum_{k=1}^{2025}\left\{ \frac{k}{3}\right\} =675.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 4:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{-1}^{1}\underbrace{\left|x+\left|x+\cdots+\left|x+\left|x\right|\right|\right|\right|}_{2026\ \text{个}x}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\text{原式}=\int_{0}^{1}2026x\ud x=1013.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 5:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int\frac{\ud x}{\sqrt{x+1}-\sqrt{x-1}}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\int\frac{\ud x}{\sqrt{x+1}-\sqrt{x-1}}=\frac{1}{3}\left(\left(x+1\right)^{3/2}+\left(x-1\right)^{3/2}\right)+C.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 6:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int\sqrt{1+\cosh x}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\int\sqrt{1+\cosh x}\ud x=\int\sqrt{2\cosh^{2}\frac{x}{2}}\ud x=2\sqrt{2}\sinh\frac{x}{2}+C.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 7:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int\frac{2^{\log(x)}}{x^{2}}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\int\frac{2^{\log(x)}}{x^{2}}\ud x=\int\frac{x^{\ln2}}{x^{2}}\ud x=\frac{x^{\ln2-1}}{\ln2-1}+C.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 8:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{0}^{1/2}\left(\sum_{n=2}^{\infty}x^{n}\right)\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\int_{0}^{1/2}\left(\sum_{n=2}^{\infty}x^{n}\right)\ud x=\int_{0}^{1/2}\left(\frac{1}{1-x}-1-x\right)\ud x=\ln2-\frac{5}{8}.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 9:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int x^{2}\sin x\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\int x^{2}\sin x\ud x=-x^{2}\cos x+2x\sin x+2\cos x+C.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 10:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int\frac{\left(x-1\right)^{2}}{2\ue^{x}+x^{2}+1}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\int\frac{\left(x-1\right)^{2}}{2\ue^{x}+x^{2}+1}\ud x=\int\frac{\ue^{-x}\left(x-1\right)^{2}}{2+\ue^{-x}\left(x^{2}+1\right)}\ud x=-\int\frac{\ud\left(2+\ue^{-x}\left(x^{2}+1\right)\right)}{2+\ue^{-x}\left(x^{2}+1\right)}=-\ln\left(2+\ue^{-x}\left(x^{2}+1\right)\right)+C.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 11:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{-1}^{1}\max\left(0,\sqrt{1-x^{2}}-\frac{1}{2}\right)\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>$\frac{\pi}{3}-\frac{\sqrt{3}}{4}$.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 12:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{0}^{1}\sqrt{x^{2}+x+\sqrt{x^{2}+x+\sqrt{\cdots}}}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>根据单调收敛定理, 记被积函数为 $y$, 则满足 $y=\sqrt{x^{2}+x+y}$, 解得 $y=x+1$. 原积分结果为 $\frac{3}{2}$.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 13:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int\left(\cos^{5}x-10\cos^{3}x\sin^{2}x+5\cos x\sin^{4}x\right)\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>注意到</p>
+<script type="math/tex; mode=display">
+\frac{\left(\cos x+\ui\sin x\right)^{5}+\left(\cos x-\ui\sin x\right)^{5}}{2}=\cos^{5}x-10\cos^{3}x\sin^{2}x+5\cos x\sin^{4}x.</script><p>所以</p>
+<script type="math/tex; mode=display">
+\text{原式}=\int\frac{\ue^{5\ui x}+\ue^{-5\ui x}}{2}\ud x=\int\cos(5x)\ud x=\frac{\sin(5x)}{5}+C.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 14:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int\arctan\sqrt{x}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\int\arctan\sqrt{x}\ud x\xlongequal{t=\sqrt{x}}2\int t\arctan t\ud t=(x+1)\arctan\sqrt{x}-\sqrt{x}+C.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 15:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{0}^{1000}\left(\left\lfloor \left\lceil x\right\rceil \right\rfloor +\left\lceil \left\lfloor x\right\rfloor \right\rceil +\left\lfloor \left\{ x\right\} \right\rfloor +\left\lceil \left\{ x\right\} \right\rceil +\left\{ \left\lceil x\right\rceil \right\} \right)\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\text{原式}=\sum_{k=1}^{1000}\int_{k-1}^{k}\left(k+(k-1)+0+1+0\right)\ud x=1001000.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 16:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int\sqrt{\frac{\cos x\cot x\csc x}{\sin x\tan x\sec x}}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">\int\sqrt{\frac{\cos x\cot x\csc x}{\sin x\tan x\sec x}}\ud x=\int\cot^{2}x\ud x=-x-\cot x+C.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 17:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{-\infty}^{\infty}\frac{\ue^{-x^{2}}}{1+\ue^{2x}}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\int_{-\infty}^{\infty}\frac{\ue^{-x^{2}}}{1+\ue^{2x}}\ud x\xlongequal{x\to-x}\frac{1}{2}\left(\int_{-\infty}^{\infty}\frac{\ue^{-x^{2}}}{1+\ue^{2x}}\ud x+\int_{-\infty}^{\infty}\frac{\ue^{-x^{2}}}{1+\ue^{-2x}}\ud x\right)=\int_{0}^{\infty}\ue^{-x^{2}}\ud x=\frac{\sqrt{\pi}}{2}.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 18:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int\left(\frac{\sin^{2}x}{x^{2}}-\frac{\sin(2x)}{x}\right)\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\begin{align*}
+\int\left(\frac{\sin^{2}x}{x^{2}}-\frac{\sin(2x)}{x}\right)\ud x & =\int\frac{\sin^{2}x}{x^{2}}\ud x-\int\frac{\ud\sin^{2}x}{x}\\
+ & =\int\frac{\sin^{2}x}{x^{2}}\ud x-\frac{\sin^{2}x}{x}-\int\frac{\sin^{2}x}{x^{2}}\ud x\\
+ & =-\frac{\sin^{2}x}{x}+C.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 19:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int\frac{\ln\left(\ln x\right)\ln\left(\ln\left(\ln x\right)\right)}{x\ln x}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\begin{align*}
+\int\left(\frac{\sin^{2}x}{x^{2}}-\frac{\sin(2x)}{x}\right)\ud x & =\int\frac{\sin^{2}x}{x^{2}}\ud x-\int\frac{\ud\sin^{2}x}{x}\\
+ & =\int\frac{\sin^{2}x}{x^{2}}\ud x-\frac{\sin^{2}x}{x}-\int\frac{\sin^{2}x}{x^{2}}\ud x\\
+ & =-\frac{\sin^{2}x}{x}+C.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 20:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int\frac{\ln\left(\ln x\right)\ln\left(\ln\left(\ln x\right)\right)}{x\ln x}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\begin{align*}
+\int\frac{\ln\left(\ln x\right)\ln\left(\ln\left(\ln x\right)\right)}{x\ln x}\ud x & =\int\frac{\ln\left(\ln x\right)\ln\left(\ln\left(\ln x\right)\right)}{\ln x}\ud\ln x\\
+ & =\int\ln\left(\ln x\right)\ln\left(\ln\left(\ln x\right)\right)\ud\ln\left(\ln x\right)\\
+ & \xlongequal{t=\ln\left(\ln x\right)}\int t\ln t\ud t\\
+ & =\frac{\left(\ln\left(\ln x\right)\right)^{2}\left(2\ln\left(\ln\left(\ln x\right)\right)-1\right)}{4}+C.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 21:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{0}^{\pi/2}\cos^{2}\left(\frac{\pi}{2}\cos^{2}\left(\frac{\pi}{2}\cos^{2}(x)\right)\right)\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\begin{align*}
+\int_{0}^{\pi/2}\cos^{2}\left(\frac{\pi}{2}\cos^{2}\left(\frac{\pi}{2}\cos^{2}(x)\right)\right)\ud x & \xlongequal{x\to\frac{\pi}{2}-x}\int_{0}^{\pi/2}\sin^{2}\left(\frac{\pi}{2}\cos^{2}\left(\frac{\pi}{2}\cos^{2}x\right)\right)\ud x\\
+ & =\frac{1}{2}\int_{0}^{\pi/2}\ud x=\frac{\pi}{4}.
+\end{align*}</script></div></div></div>
+<h1 id="2026-年麻省理工积分常规赛"><a href="#2026-年麻省理工积分常规赛" class="headerlink" title="2026 年麻省理工积分常规赛"></a>2026 年麻省理工积分常规赛</h1><div class="note primary no-icon flat"><p><strong>问题 1:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{0}^{2026}\left(\sum_{k=0}^{\infty}\frac{x^{2026k+2025}}{k!}\right)\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\int_{0}^{2026}\left(\sum_{k=0}^{\infty}\frac{x^{2026k+2025}}{k!}\right)\ud x=\int_{0}^{2026}x^{2025}\ue^{x^{2026}}\ud x=\frac{\ue^{2026^{2026}}-1}{2026}.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 2:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{0}^{\ln34}\left(2+\frac{1}{2\ue^{x}-1}+\frac{1}{3\ue^{x}-1}\right)\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\begin{align*}
+\int_{0}^{\ln34}\left(2+\frac{1}{2\ue^{x}-1}+\frac{1}{3\ue^{x}-1}\right)\ud x & =\int_{0}^{\ln34}\left(\frac{2\ue^{x}}{2\ue^{x}-1}+\frac{3\ue^{x}}{3\ue^{x}-1}\right)\ud x\\
+ & =\left[\ln\left|2\ue^{x}-1\right|+\ln\left|3\ue^{x}-1\right|\right]_{0}^{\ln34}=\ln\frac{6767}{2}.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 3:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{0}^{1/2}\left(\cos(\pi x)-\pi\left(\frac{1}{4}-x^{2}\right)\left(\frac{5}{4}-x^{2}\right)\right)\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>$\frac{1}{\pi}-\frac{\pi}{10}$.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 4:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{\int_{\int_{\int_{0}^{1}x\ud x}^{1}x\ud x}^{1}x\ud x}^{\int_{0}^{\int_{0}^{\int_{0}^{1}x\ud x}x\ud x}x\ud x}x\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\int_{\int_{\int_{\int_{0}^{1}x\ud x}^{1}x\ud x}^{1}x\ud x}^{\int_{0}^{\int_{0}^{\int_{0}^{1}x\ud x}x\ud x}x\ud x}x\ud x=\int_{\int_{\int_{1/2}^{1}x\ud x}^{1}x\ud x}^{\int_{0}^{\int_{0}^{1/2}x\ud x}x\ud x}x\ud x=\int_{\int_{3/8}^{1}x\ud x}^{\int_{0}^{1/8}x\ud x}x\ud x=\int_{\frac{55}{128}}^{\frac{1}{128}}x\ud x=-\frac{189}{2048}.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 5:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int\frac{4x^{2}-1}{x^{2}(x^{2}-1)}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>$-\frac{1}{x}+\frac{3}{2}\ln\left(\frac{x-1}{x+1}\right)+C$.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 6:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int\frac{\ud x}{27x-x^{-1/3}}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\int\frac{\ud x}{27x-x^{-1/3}}=\int\frac{x^{1/3}\ud x}{27x^{4/3}-1}=\frac{1}{36}\int\frac{\ud27x^{4/3}-1}{27x^{4/3}-1}=\frac{1}{36}\ln\left(27x^{4/3}-1\right)+C.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 7:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int\frac{2\sqrt{x}+1}{\sqrt{x^{2}+x\sqrt{x}}}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\int\frac{2\sqrt{x}+1}{\sqrt{x^{2}+x\sqrt{x}}}\ud x\xlongequal{t=\sqrt{x}}2\int\frac{2t+1}{\sqrt{t^{2}+t}}\ud t=4\sqrt{x+\sqrt{x}}+C.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 8:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int\frac{\ue^{x}}{\ue^{2x}-\ue^{-2x}}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\int\frac{\ue^{x}}{\ue^{2x}-\ue^{-2x}}\ud x\xlongequal{t=\ue^{x}}\int\frac{\ud t}{t^{2}-t^{-2}}=\frac{1}{2}\left(\arctan\ue^{x}-\mathrm{arctanh}\ue^{x}\right)+C.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 9:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{0}^{\pi}\frac{\left|\sin x+\sin2x+\sin3x+\sin4x\right|}{\sin x+\sin2x+\sin3x+\sin4x}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\begin{align*}
+\int_{0}^{\pi}\frac{\left|\sin x+\sin2x+\sin3x+\sin4x\right|}{\sin x+\sin2x+\sin3x+\sin4x}\ud x & =\int_{0}^{\pi}\mathrm{sgn}\left(\sin x+\sin2x+\sin3x+\sin4x\right)\ud x\\
+ & =\int_{0}^{\pi}\mathrm{sgn}\left(\sin\frac{5x}{2}\cos x\cos\frac{x}{2}\right)\ud x\\
+ & =\left(\int_{0}^{2\pi/5}-\int_{2\pi/5}^{\pi/2}+\int_{\pi/2}^{4\pi/5}-\int_{4\pi/5}^{\pi}\right)\ud x=\frac{2\pi}{5}.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 10:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{0}^{1}\frac{1-x}{\sqrt{\ue^{2x}-x^{2}}}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\begin{align*}
+\int_{0}^{1}\frac{1-x}{\sqrt{\ue^{2x}-x^{2}}}\ud x & =\int_{0}^{1}\frac{\ue^{-x}\left(1-x\right)}{\sqrt{1-(x\ue^{-x})^{2}}}\ud x\\
+ & =\int_{0}^{1}\frac{\ud\left(x\ue^{-x}\right)}{\sqrt{1-(x\ue^{-x})^{2}}}=\arcsin(x\ue^{-x})|_{0}^{1}=\arcsin\frac{1}{\ue}.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 11:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{0}^{2026}\left\{ x+\frac{1}{2}\left\lfloor \frac{x}{2}\right\rfloor +\frac{1}{3}\left\lfloor \frac{x}{3}\right\rfloor +\cdots\right\} \ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>设 $f(x)=x+\frac{1}{2}\left\lfloor \frac{x}{2}\right\rfloor +\frac{1}{3}\left\lfloor \frac{x}{3}\right\rfloor +\cdots$, 设 $n\in\NN$, 则对于任意的 $x\in[n,n+1)$, 有 $\left\lfloor \frac{x}{k}\right\rfloor =\left\lfloor \frac{n}{k}\right\rfloor $. 所以, 在区间 $[n,n+1)$ 上, $f(x)=x+C_{n}$, 有</p>
+<script type="math/tex; mode=display">
+\text{原积分}=\sum_{n=0}^{2025}\int_{n}^{n+1}\left\{ x+C_{n}\right\} \ud x=\sum_{n=0}^{2025}\frac{1}{2}=1013.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 12:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{1/2}^{2}\frac{x^{8}}{x^{8}-x^{6}+x^{4}-x^{2}+1}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\begin{align*}
+\int_{1/2}^{2}\frac{x^{8}}{x^{8}-x^{6}+x^{4}-x^{2}+1}\ud x & =\int_{1/2}^{2}\frac{x^{8}(x^{2}+1)}{(x^{10}+1)}\ud x\\
+ & \xlongequal{t=x^{-1}}\int_{1/2}^{2}\frac{1+t^{-2}}{1+t^{10}}\ud t\\
+ & =\frac{1}{2}\int_{1/2}^{2}\frac{1+t^{-2}}{1+t^{10}}\left(1+t^{10}\right)\ud t\\
+ & =\frac{3}{2}.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 13:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int\left(\mathrm{arcsinh} x\right)^{2}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\begin{align*}
+\int\left(\mathrm{arcsinh} x\right)^{2}\ud x & =x\left(\mathrm{arcsinh} x\right)^{2}-2\int\frac{x\mathrm{arcsinh} x}{\sqrt{1+x^{2}}}\ud x\\
+ & =x\mathrm{arcsinh}^{2}x-2\sqrt{1+x^{2}}\mathrm{arcsinh} x+2\int1\ud x\\
+ & =x\mathrm{arcsinh}^{2}x-2\sqrt{1+x^{2}}\mathrm{arcsinh} x+2x+C.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 14:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int\cos^{2}(2026x)\cos(1013x)\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>$\frac{\sin(1013x)}{2026}+\frac{\sin(3039x)}{12156}+\frac{\sin(5065x)}{20260}$.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 15:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int\ue^{x}\arcsin\left(\tanh x\right)\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\begin{align*}
+\int\ue^{x}\arcsin\left(\tanh x\right)\ud x & \xlongequal{t=\ue^{x}}\int\arcsin\frac{t^{2}-1}{t^{2}+1}\ud t\\
+ & =t\arcsin\frac{t^{2}-1}{t^{2}+1}-\int\frac{2t}{t^{2}+1}\ud t\\
+ & =\ue^{x}\arcsin\left(\tanh x\right)-\ln(\ue^{2x}+1)+C.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 16:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int\frac{x\left(\left(1-x^{2}\right)\cos x+2x\sin x\right)}{\left(1+x^{2}\right)^{2}}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>用凑微分和分部积分</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\text{原积分} & =\frac{1}{2}\int\frac{\left(\left(1-x^{2}\right)\cos x+2x\sin x\right)}{\left(1+x^{2}\right)^{2}}\ud(1+x^{2})\\
+ & =-\frac{1}{2}\int\left(\left(1-x^{2}\right)\cos x+2x\sin x\right)\ud(1+x^{2})^{-1}\\
+ & =-\frac{1}{2}\left(\frac{\left(1-x^{2}\right)\cos x+2x\sin x}{1+x^{2}}-\int\sin x\ud x\right)\\
+ & =-\frac{x\sin x+\cos x}{1+x^{2}}+C.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 17:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{0}^{1}\sin\left(\left(x-1\right)\left(5x-1\right)\right)\sin\left(x\left(3x-2\right)\right)\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>用积化和差公式</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\text{原积分} & =\frac{1}{2}\int_{0}^{1}\cos\left(2(x-1)^{2}-1\right)\ud x-\frac{1}{2}\int_{0}^{1}\cos\left(2(2x-1)^{2}-1\right)\ud x\\
+ & =\frac{1}{2}\int_{0}^{1}\cos\left(2x^{2}-1\right)\ud x-\frac{1}{4}\int_{-1}^{1}\cos\left(2x^{2}-1\right)\ud x\\
+ & =0.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 18:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{1/4}^{\sqrt{2}}\frac{\ud x}{x\left(x^{x^{x^{\cdots}}}\ln x-1\right)}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>迭指数在区间 $[\ue^{-\ue},\ue^{1/\ue}]$ 上收敛<sup><a href="#fn_1" id="reffn_1">1</a></sup>, 设收敛极限为 $y$, 则有 $y=x^{y}$, 于是有 $y’=\frac{y^{2}}{x\left(1-y\ln x\right)}$,</p>
+<script type="math/tex; mode=display">
+\int_{1/4}^{\sqrt{2}}\frac{\ud x}{x(y\ln x-1)}=-\int_{1/4}^{\sqrt{2}}\frac{y'(x)\ud x}{y^{2}(x)}=-\int_{1/2}^{2}\frac{\ud y}{y^{2}}=-\frac{3}{2}.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 19:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{0}^{1}\frac{1+\left((2026+2x-x^{2})^{2}-2\right)\left(2026+4x-4x^{2}\right)^{2}}{\left(2025+2x-x^{2}\right)\left(2027+2x-x^{2}\right)\left(2025+4x-4x^{2}\right)\left(2027+4x-4x^{2}\right)}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>记 $A=(2025+2x-x^{2})(2027+2x-x^{2})$, $B=(2025+4x-4x^{2})(2027+4x-4x^{2})$, 于是原积分等于</p>
+<script type="math/tex; mode=display">
+\int_{0}^{1}\left(\frac{1+(A-1)(B+1)}{AB}\right)\ud x=\int_{0}^{1}\left(1+\frac{1}{A}-\frac{1}{B}\right)\ud x.</script><p>再记 $f(x)=\frac{1}{\left(2026-t^{2}\right)\left(2028-t^{2}\right)}$, 则有 $\frac{1}{A}=f(1-x)$, $\frac{1}{B}=f(2x-1)$. 由于 $f$ 是偶函数, 所以</p>
+<script type="math/tex; mode=display">
+\int_{0}^{1}f(2x-1)\ud x=\frac{1}{2}\int_{-1}^{1}f(x)\ud x=\int_{0}^{1}f(x)\ud x=\int_{0}^{1}f(1-x)\ud x.</script><p>因此上述积分结果为 $1$.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题 20:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{1/2}^{1}4^{x-1}\left(1+4^{4^{x-1}-1}\left(1+4^{4^{4^{x-1}-1}-1}\left(1+\cdots\right)\right)\right)\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>积分重现法</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\text{原积分}=I & \xlongequal{t=4^{x-1}}\int_{1/2}^{1}t\left(1+4^{t-1}\left(1+4^{4^{t}-1}\left(1+\cdots\right)\right)\right)\frac{\ud t}{\ln4\cdot t}\\
+ & =\frac{1}{\ln4}\int_{1/2}^{1}1+4^{t-1}\left(1+4^{4^{t}-1}\left(1+\cdots\right)\right)\ud t\\
+ & =\frac{1}{\ln4}\left(\frac{1}{2}+I\right),
+\end{align*}</script><p>解得 $I=\frac{1}{2\left(\ln4-1\right)}$.</p>
+</div></div></div>
+<h1 id="2026-年麻省理工积分四分之一决赛"><a href="#2026-年麻省理工积分四分之一决赛" class="headerlink" title="2026 年麻省理工积分四分之一决赛"></a>2026 年麻省理工积分四分之一决赛</h1><div class="note primary no-icon flat"><p><strong>问题:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int\frac{\sin x+\cos x}{\sqrt{25\sin^{2}x+16\cos^{2}x}}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\begin{align*}
+\int\frac{\sin x+\cos x}{\sqrt{25\sin^{2}x+16\cos^{2}x}}\ud x & =\int\frac{\sin x}{\sqrt{25-9\cos^{2}x}}\ud x+\int\frac{\cos x}{\sqrt{16+9\sin^{2}x}}\ud x\\
+ & =-\frac{1}{3}\arcsin\left(\frac{3}{5}\cos x\right)+\frac{1}{3}\mathrm{arcsinh}\left(\frac{3}{4}\sin x\right)+C.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{0}^{\infty}\frac{x^{3}}{\ue^{x}+1}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\begin{align*}
+\int_{0}^{\infty}\frac{x^{3}}{\ue^{x}+1}\ud x & =\int_{0}^{\infty}x^{3}\sum_{n=0}^{\infty}\left(-1\right)^{n}\ue^{-(n+1)x}\ud x\\
+ & =\sum_{n=0}^{\infty}(-1)^{n}\int_{0}^{\infty}x^{3}\ue^{-(n+1)x}\ud x\\
+ & =\sum_{n=0}^{\infty}(-1)^{n}\frac{6}{(n+1)^{4}}\\
+ & =\frac{21}{4}\zeta(4)=\frac{7\pi^{4}}{120}.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{0}^{1}\frac{1-x^{5/2}}{1-x}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\begin{align*}
+\int_{0}^{1}\frac{1-x^{5/2}}{1-x}\ud x & \xlongequal{t=\sqrt{x}}2\int_{0}^{1}t\cdot\frac{1-t^{5}}{1-t^{2}}\ud t\\
+ & =2\int_{0}^{1}t\cdot\frac{1+t+t^{2}+t^{3}+t^{4}}{1+t}\ud t\\
+ & =2\int_{0}^{1}t\cdot\left(t^{3}+t+\frac{1}{1+t}\right)\ud t\\
+ & =\frac{46}{15}-2\ln2.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{0}^{\infty}\frac{\ud x}{1+x^{6}}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>一般地, </p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\int_{0}^{\infty}\frac{x^{p-1}}{1+x^{q}}\ud x & \xlongequal{t=x^{q}}\frac{1}{q}\int_{0}^{\infty}\frac{t^{p/q-1}}{1+t}\ud t\\
+ & =\frac{1}{q}B\left(\frac{p}{q},1-\frac{p}{q}\right)\\
+ & =\frac{\pi}{q\sin\frac{p\pi}{q}}.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{0}^{1/2}\frac{\ln(1-x)}{x}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\begin{align*}
+A=\int_{0}^{1/2}\frac{\ln(1-x)}{x}\ud x & =\int_{\frac{1}{2}}^{1}\frac{\ln t}{1-t}\ud t\\
+ & =\int_{0}^{1/2}\ln(1-x)\ud\ln x=\ln^{2}2+\int_{0}^{1/2}\frac{\ln x}{1-x}\ud x\\
+ & =\ln^{2}2+\int_{0}^{1}\frac{\ln x}{1-x}\ud x-\int_{1/2}^{1}\frac{\ln t}{1-t}\ud t\\
+ & =\ln^{2}2+\int_{0}^{1}\frac{\ln(1-x)}{x}\ud x-A,
+\end{align*}</script><p>所以</p>
+<script type="math/tex; mode=display">
+A=\frac{1}{2}\left(\ln^{2}2+\int_{0}^{1}\frac{\ln(1-x)}{x}\ud x\right)=\frac{1}{2}\left(\ln^{2}2-\frac{\pi^{2}}{6}\right).</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int\frac{\sqrt{x}}{1+x^{2}}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><script type="math/tex; mode=display">
+\begin{align*}
+\int\frac{\sqrt{x}}{1+x^{2}}\ud x & \xlongequal{u=\sqrt{x}}2\int\frac{u^{2}}{1+u^{4}}\ud u=\int\frac{\left(u^{2}+1\right)+\left(u^{2}-1\right)}{u^{4}+1}\ud u\\
+ & =\int\frac{1+u^{-2}}{u^{2}+u^{-2}}\ud u+\int\frac{1-u^{-2}}{u^{2}+u^{-2}}\ud u=\int\frac{\ud(u-u^{-1})}{(u-u^{-1})^{2}+2}+\int\frac{\ud(u+u^{-1})}{(u+u^{-1})^{2}-2}\\
+ & =\frac{1}{\sqrt{2}}\arctan\left(\frac{u-u^{-1}}{\sqrt{2}}\right)+\frac{1}{2\sqrt{2}}\ln\left|\frac{u+u^{-1}-\sqrt{2}}{u+u^{-1}+\sqrt{2}}\right|+C\\
+ & =\frac{1}{\sqrt{2}}\arctan\left(\frac{x-1}{\sqrt{2x}}\right)+\frac{1}{2\sqrt{2}}\ln\left|\frac{x+1-\sqrt{2x}}{x+1+\sqrt{2x}}\right|+C.
+\end{align*}</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>问题:</strong> 求积分</p>
+<script type="math/tex; mode=display">
+\int_{1}^{\infty}\frac{\left(-1\right)^{\left\lfloor x\right\rfloor +\left\lfloor \frac{x}{2}\right\rfloor +\left\lfloor \frac{x}{3}\right\rfloor +\cdots}}{x^{2}}\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>设 $[x]=n$, 则有</p>
+<script type="math/tex; mode=display">
+\left\lfloor x\right\rfloor +\left\lfloor \frac{x}{2}\right\rfloor +\left\lfloor \frac{x}{3}\right\rfloor +\cdots=[n]+\left[\frac{n}{2}\right]+\left[\frac{n}{3}\right]+\cdots=\sum_{k=1}^{n}\left[\frac{n}{k}\right]=\sum_{m=1}^{n}d(m),</script><p>其中 $d(m)$ 表示 $m$ 的因子个数. 上式最后一步可以解释为</p>
+<script type="math/tex; mode=display">
+I=\left\{ \left(k,i\right):k=1,2,\cdots n,\ i\le\frac{n}{k}\right\} =\left\{ \left(k,i\right):ki\le n\right\} =\left\{ \left(k,i\right):m=ki,\ m\le n\right\} ,</script><p>因此</p>
+<script type="math/tex; mode=display">
+\sum_{k=1}^{n}\left[\frac{n}{k}\right]=\sum_{k=1}^{n}\sum_{i:\ ik\le n}1=\sum_{(k,i)\in I}1=\sum_{m=1}^{n}\sum_{(k,i):\ ki=m}1=\sum_{m=1}^{n}d(m).</script><p>由于当 $n$ 为平方数时, $d(n)$ 才为偶数, 其他情况均为奇数, 因此被积函数中 $(-1)$ 的指数只在 $x$ 是平方数时改变一次符号.</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\text{原积分} & =\int_{1}^{\infty}\frac{(-1)^{\sum_{m=1}^{n}d(m)}}{x^{2}}\ud x\\
+ & =\sum_{n=1}^{\infty}\int_{n}^{n+1}\frac{(-1)^{\sum_{m=1}^{n}d(m)}}{x^{2}}\ud x\\
+ & =\sum_{n=1}^{\infty}\left(-1\right)^{\sum_{m=1}^{n}d(m)}\frac{1}{n(n+1)}\\
+ & =-1+2\left(\frac{1}{2^{2}}-\frac{1}{3^{2}}+\frac{1}{4^{2}}-\cdots\right)=1-\frac{\pi^{2}}{6}.
+\end{align*}</script></div></div></div>
+<h1 id="2026-年麻省理工积分决赛"><a href="#2026-年麻省理工积分决赛" class="headerlink" title="2026 年麻省理工积分决赛"></a>2026 年麻省理工积分决赛</h1><div class="note primary no-icon flat"><p><strong>问题 1:</strong> </p>
 <script type="math/tex; mode=display">
 \lim_{n\to \infty}\int_0^1\left(\sum_{k=1}^{n}\frac1{nx^2+kx+n}\right)\ud x.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
     <div class="hide-content"><p>用定积分的定义, </p>
@@ -7877,7 +8230,11 @@ u(x)\coloneqq\left(\frac{1}{x-2}+\frac{3}{x-4}+\frac{5}{x-6}\right)^{-1}=\frac{x
 \int_{-\infty}^{\infty}\left(\left(\frac{1}{x-2}+\frac{3}{x-4}+\frac{5}{x-6}\right)^{-2}+1\right)^{-1}\ud x & =9\int_{-\infty}^{\infty}\left(u^{2}(x)+1\right)^{-1}\ud\left(\frac{x}{9}\right).\\
  & =\int_{-\infty}^{\infty}\frac{1}{1+u^{2}}\ud u\\
  & =9\pi.
-\end{align*}</script></div></div></div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+\end{align*}</script></div></div></div>
+<h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><blockquote id="fn_1">
+<sup>1</sup>. Anderson, Joel. “Iterated exponentials.” The American Mathematical Monthly 111.8 (2004): 668-679.<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a>
+</blockquote>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
       <categories>
         <category>高等数学</category>
       </categories>

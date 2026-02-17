@@ -7804,7 +7804,81 @@ F_{n+1}=F_n+F_{n-1} \text { and } L_{n+1}=L_n+L_{n-1} \text { for all } n \ge 1,
 <div class="note primary no-icon flat"><p><strong>W21.</strong> Let $f$ be a continuously differentiable function on $[0,1]$ and $m \in \mathbb{N}$. Let $A=f(1)$ and let $B=\int_0^1 x^{-\frac{1}{m}} f(x) \ud x$. Calculate</p>
 <script type="math/tex; mode=display">
 \lim_{n \to \infty} n\left(\int_0^1 f(x) \ud x-\sum_{k=1}^n\left(\frac{k^m}{n^m}-\frac{(k-1)^m}{n^m}\right) f\left(\frac{(k-1)^m}{n^m}\right)\right)</script><p>in terms of $A$ and $B$.</p>
-</div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>设 $x_{k}=\frac{k^{m}}{n^{m}}$, $x_{k-1}=\frac{(k-1)^{m}}{n^{m}}$, 则</p>
+<script type="math/tex; mode=display">
+\sum_{k=1}^{n}\left(\frac{k^{m}}{n^{m}}-\frac{(k-1)^{m}}{n^{m}}\right)f\left(\frac{(k-1)^{m}}{n^{m}}\right)=\sum_{k=1}^{n}\Delta x_{k}f(x_{k-1}).</script><p>所以</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\int_{0}^{1}f(x)\ud x-\sum_{k=1}^{n}\left(\frac{k^{m}}{n^{m}}-\frac{(k-1)^{m}}{n^{m}}\right)f\left(\frac{(k-1)^{m}}{n^{m}}\right) & =\sum_{k=1}^{n}\int_{x_{k-1}}^{x_{k}}(f(x)-f(x_{k-1}))\ud x\\
+ & =\sum_{k=1}^{n}\left(\int_{x_{k-1}}^{x_{k}}f'(x_{k-1})(x-x_{k-1})+o(1)(x-x_{k-1})\ud x\right)\\
+ & =\sum_{k=1}^{n}\left(f'(x_{k-1})\cdot\frac{\Delta x_{k}^{2}}{2}+o(1)\frac{\Delta x_{k}^{2}}{2}\right),
+\end{align*}</script><p>这里的无穷小量在 $n\to\infty$ 时一致收敛于零. 所以所求极限为</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+L=\lim_{n\to\infty}n\left(\cdots\right) & =\lim_{n\to\infty}\frac{1}{2}\sum_{k=1}^{n}\left(f'(x_{k-1})n\cdot\Delta x_{k}^{2}+o(1)n\cdot\Delta x_{k}^{2}\right)\\
+ & =\lim_{n\to\infty}\frac{1}{2}\sum_{k=1}^{n}\left(f'(x_{k-1})+o(1)\right)n\cdot\frac{m^{2}\xi_{k}^{2m-2}}{n^{2}}\\
+ & =\lim_{n\to\infty}\frac{m^{2}}{2n}\sum_{k=1}^{n}\left(f'(\xi_{k}^{m})+o(1)\right)\xi_{k}^{2m-2}\\
+ & =\frac{m^{2}}{2}\int_{0}^{1}x^{2m-2}f'(x^{m})\ud x\\
+ & =\frac{m^{2}}{2}\int_{0}^{1}\frac{t^{1-1/m}}{m}f'(t)\ud t\\
+ & =\frac{m}{2}A-\frac{m-1}{2}B,
+\end{align*}</script><p>其中 $\xi_{k}\in\left(\frac{k-1}{n},\frac{k}{n}\right)$.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>W22.:</strong> Let $A$ and $B$ the series:</p>
+<script type="math/tex; mode=display">
+A=\sum_{n>0} \frac{C_{2 n}^1}{C_{2 n}^0+C_{2 n}^1+\ldots+C_{2 n}^{2 n}}, \quad B=\sum_{n>0} \frac{\Gamma\left(n+\frac{1}{2}\right)}{\Gamma\left(n+\frac{5}{2}\right)}.</script><p>Study if $\frac{A}{B}$ is irrational number.</p>
+<div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>$A=\frac89$, $B=\frac23$.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>W23.</strong> If $b, c$ are the legs, and $a$ is the hypotenuse of a right triangle, prove that</p>
+<script type="math/tex; mode=display">
+(a+b+c)\left(\frac{1}{a}+\frac{1}{b}+\frac{1}{c}\right) \geq 5+3 \sqrt{2}</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>用三角函数 $b=a\sin\alpha$, $c=a\cos\alpha$, 然后令 $t=\sin\alpha+\cos\alpha\in(1,\sqrt{2}]$, 有 $\sin\alpha\cos\alpha=\frac{t^2-1}{2}$.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>W24.</strong> If $a, b, c&gt;0$, prove that</p>
+<script type="math/tex; mode=display">
+\frac{a}{b+c}+\frac{b}{c+a}+\frac{c}{a+b} \geq \frac{a+b}{a+b+2 c}+\frac{b+c}{b+c+2 a}+\frac{c+a}{c+a+2 b}</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>不等式等价于</p>
+<script type="math/tex; mode=display">
+\sum_{cyc}\left(1+\frac{a}{b+c}\right)\ge\sum_{cyc}\left(1+\frac{a+b}{a+b+2c}\right)\Longleftrightarrow\sum_{cyc}\frac{1}{b+c}\ge\sum_{cyc}\frac{2}{a+b+2c}.</script><p>这可以由 $\frac{1}{a}+\frac{1}{b}\ge\frac{2}{a+b}$ 证明.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>W25.</strong> Let $x_i, y_i, z_i, \omega_i \in \RR^{+}, i=1,2 \cdots n$, such that</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+& \sum_{i=1}^n x_i=n x, \sum_{i=1}^n y_i=n y, \sum_{i=1}^n \omega_i=n \omega \\
+& \Gamma\left(z_i\right) \geqslant \Gamma\left(\omega_i\right), \sum_{i=1}^n \Gamma\left(z_i\right)=n \Gamma^*(z)
+\end{aligned}</script><p>Then</p>
+<script type="math/tex; mode=display">
+\sum_{i=1}^n \frac{\left(\Gamma\left(x_i\right)+\Gamma\left(y_i\right)\right)^2}{\Gamma\left(z_i\right)-\Gamma\left(\omega_i\right)} \geqslant n \frac{(\Gamma(x)+\Gamma(y))^2}{\Gamma^*(z)-\Gamma(\omega)} .</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>用 Titu 引理, (Cauchy-Schwarz 不等式的特殊情况), 即 $\forall a_{i},b_{i}&gt;0$, 恒有</p>
+<script type="math/tex; mode=display">
+\sum_{i}\frac{a_{i}^{2}}{b_{i}}\ge\frac{\left(\sum_{i}a_{i}\right)^{2}}{\sum_{i}b_{i}}.</script><p>由于 $\Gamma$ 函数是下凸的, 由 Jensen 不等式, 有 $\frac{\sum\Gamma(x_{i})}{n}\ge\Gamma\left(\frac{\sum x_{i}}{n}\right)=\Gamma(x)$. 结合 Titu 引理, 有</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\sum_{i}\frac{\left(\Gamma(x_{i})+\Gamma(y_{i})\right)^{2}}{\Gamma(z_{i})-\Gamma(w_{i})} & \ge\frac{\left(\sum_{i}(\Gamma(x_{i})+\Gamma(y_{i}))\right)^{2}}{\sum_{i}(\Gamma(z_{i})-\Gamma(w_{i}))}\\
+ & \ge\frac{\left(n(\Gamma(x)+\Gamma(y)\right)^{2}}{n(\Gamma^{*}(z)-\Gamma(w))},
+\end{align*}</script><p>化简即得.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>W26.</strong> Let $n \in \NN$, $n \geq 2$, $a_1, a_2, \cdots, a_n \in \RR$ and $a_n=\max \left\{sa_1, a_2, \cdots, a_n\right\}$<br>a). If $t_k$, $t_k^{\prime} \in \RR$, $k \in\{1,2, \cdots, n\}$, $t_k \le t_k^{\prime}$, for any $k \in\{1,2, \cdots, n-1\}$ and</p>
+<script type="math/tex; mode=display">
+\sum_{k=1}^n t_k=\sum_{k=1}^n t_k^{\prime},</script><p>prove that</p>
+<script type="math/tex; mode=display">
+\sum_{k=1}^n t_k a_k \geq \sum_{k=1}^n t_k^{\prime} a_k.</script><p>b). If $b_k, c_k \in \RR_{+}^*, k \in\{1,2, \cdots, n\}, b_k \leq c_k$ for any $k \in\{1,2, \cdots, n-1\}$ and</p>
+<script type="math/tex; mode=display">
+b_1 \cdot b_2 \cdot \cdots \cdot b_n=c_1 \cdot c_2 \cdot \cdots \cdot c_n,</script><p>prove that</p>
+<script type="math/tex; mode=display">
+\prod_{k=1}^n b_k^{a_k} \geq \prod_{k=1}^n c_k^{a_k}.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>不等式等价于</p>
+<script type="math/tex; mode=display">
+\sum_{k=1}^{n-1}\left(t_{k}'-t_{k}\right)\left(a_{n}-a_{k}\right)\ge0.</script></div></div></div>
+<div class="note primary no-icon flat"><p><strong>W27.</strong> Find all continuous functions $f: \RR \rightarrow \RR$ such that</p>
+<script type="math/tex; mode=display">
+f(-x)+\int_0^x t f(x-t) \ud t=x, \quad \forall x \in \RR.</script><div class="hide-toggle" style="border: 1px solid purple"><div class="hide-button toggle-title" style="background-color: purple;color: white"><i class="fas fa-caret-right fa-fw"></i><span>提示</span></div>
+    <div class="hide-content"><p>$f(x)=-\sinh x$.</p>
+</div></div></div>
+<div class="note primary no-icon flat"><p><strong>W28.</strong> In a room, we have 2019 aligned switches, connected to 2019 light bulbs, all initially switched on. Then, 2019 people enter the room one by one, performing the operation: The first, uses all the switches; the second, every second switch; the third, every third switch, and so on. How many lightbulbs remain switched on, after all the people entered?</p>
+</div>
+<h1 id="End"><a href="#End" class="headerlink" title="End"></a>End</h1><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
       <categories>
         <category>高等数学</category>
       </categories>
@@ -8242,18 +8316,6 @@ u(x)\coloneqq\left(\frac{1}{x-2}+\frac{3}{x-4}+\frac{5}{x-6}\right)^{-1}=\frac{x
         <tag>math</tag>
         <tag>微积分</tag>
         <tag>高等数学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>回答结果展示测试页面</title>
-    <url>/%E5%9B%9E%E7%AD%94%E7%BB%93%E6%9E%9C%E5%B1%95%E7%A4%BA%E6%B5%8B%E8%AF%95%E9%A1%B5%E9%9D%A2/</url>
-    <content><![CDATA[<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-      <categories>
-        <category>latex</category>
-      </categories>
-      <tags>
-        <tag>latex</tag>
-        <tag>math</tag>
       </tags>
   </entry>
 </search>
